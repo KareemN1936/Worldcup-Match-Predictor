@@ -1,0 +1,19 @@
+Best Model Test Evaluation
+
+Best model: xgboost
+Accuracy: 0.6014
+Log loss: 0.8721
+
+Confusion matrix rows=true, columns=predicted, order=[Team A loss, Draw, Team A win]:
+[[1304, 0, 859], [544, 0, 1155], [396, 1, 3155]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+ Team A loss       0.58      0.60      0.59      2163
+        Draw       0.00      0.00      0.00      1699
+  Team A win       0.61      0.89      0.72      3552
+
+    accuracy                           0.60      7414
+   macro avg       0.40      0.50      0.44      7414
+weighted avg       0.46      0.60      0.52      7414

@@ -1,0 +1,168 @@
+{
+  "best_model": "xgboost",
+  "best_model_path": "models\\best_model.pkl",
+  "selection_metric": "validation_log_loss",
+  "features": [
+    "elo_diff",
+    "points_last_5_diff",
+    "points_last_10_diff",
+    "goal_difference_last_5_diff",
+    "goals_for_last_5_diff",
+    "goals_against_last_5_diff",
+    "neutral",
+    "match_importance"
+  ],
+  "target": "0 = Team A loss, 1 = Draw, 2 = Team A win",
+  "split": {
+    "type": "time_based",
+    "train_rows": 34597,
+    "validation_rows": 7414,
+    "test_rows": 7414,
+    "train_date_range": [
+      "1872-11-30",
+      "2011-03-24"
+    ],
+    "validation_date_range": [
+      "2011-03-25",
+      "2018-10-16"
+    ],
+    "test_date_range": [
+      "2018-10-16",
+      "2026-06-16"
+    ]
+  },
+  "models": {
+    "logistic_regression": {
+      "validation": {
+        "accuracy": 0.5736444564337739,
+        "log_loss": 0.912146755312487,
+        "confusion_matrix": [
+          [
+            1155,
+            0,
+            963
+          ],
+          [
+            519,
+            0,
+            1214
+          ],
+          [
+            465,
+            0,
+            3098
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.6006204478014567,
+        "log_loss": 0.874025342192194,
+        "confusion_matrix": [
+          [
+            1279,
+            0,
+            884
+          ],
+          [
+            519,
+            0,
+            1180
+          ],
+          [
+            378,
+            0,
+            3174
+          ]
+        ]
+      }
+    },
+    "random_forest": {
+      "validation": {
+        "accuracy": 0.5708119773401672,
+        "log_loss": 0.921933644940331,
+        "confusion_matrix": [
+          [
+            1165,
+            52,
+            901
+          ],
+          [
+            543,
+            45,
+            1145
+          ],
+          [
+            478,
+            63,
+            3022
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.5960345292689506,
+        "log_loss": 0.8884123669578873,
+        "confusion_matrix": [
+          [
+            1273,
+            43,
+            847
+          ],
+          [
+            530,
+            36,
+            1133
+          ],
+          [
+            402,
+            40,
+            3110
+          ]
+        ]
+      }
+    },
+    "xgboost": {
+      "validation": {
+        "accuracy": 0.5745886161316428,
+        "log_loss": 0.9093102216720581,
+        "confusion_matrix": [
+          [
+            1175,
+            1,
+            942
+          ],
+          [
+            543,
+            0,
+            1190
+          ],
+          [
+            477,
+            1,
+            3085
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.6014297275424871,
+        "log_loss": 0.8720924258232117,
+        "confusion_matrix": [
+          [
+            1304,
+            0,
+            859
+          ],
+          [
+            544,
+            0,
+            1155
+          ],
+          [
+            396,
+            1,
+            3155
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+.env
+__pycache__/
+*.pkl
+data/raw/raw_api_json/

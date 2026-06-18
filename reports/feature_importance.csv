@@ -1,0 +1,9 @@
+feature,importance
+elo_diff,0.5105701
+neutral,0.12428672
+goal_difference_last_5_diff,0.093685076
+points_last_10_diff,0.08634408
+goals_against_last_5_diff,0.06923245
+match_importance,0.066733375
+points_last_5_diff,0.025062747
+goals_for_last_5_diff,0.024085494
