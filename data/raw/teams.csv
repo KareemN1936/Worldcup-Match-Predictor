@@ -1,1 +1,49 @@
-team,confederation
+team_id,team_name,country,fifa_code,api_provider
+758,Uruguay,Uruguay,URU,football-data.org
+759,Germany,Germany,GER,football-data.org
+760,Spain,Spain,ESP,football-data.org
+761,Paraguay,Paraguay,PAR,football-data.org
+762,Argentina,Argentina,ARG,football-data.org
+763,Ghana,Ghana,GHA,football-data.org
+764,Brazil,Brazil,BRA,football-data.org
+765,Portugal,Portugal,POR,football-data.org
+766,Japan,Japan,JPN,football-data.org
+769,Mexico,Mexico,MEX,football-data.org
+770,England,England,ENG,football-data.org
+771,United States,United States,USA,football-data.org
+772,South Korea,South Korea,KOR,football-data.org
+773,France,France,FRA,football-data.org
+774,South Africa,South Africa,RSA,football-data.org
+778,Algeria,Algeria,ALG,football-data.org
+779,Australia,Australia,AUS,football-data.org
+783,New Zealand,New Zealand,NZL,football-data.org
+788,Switzerland,Switzerland,SUI,football-data.org
+791,Ecuador,Ecuador,ECU,football-data.org
+792,Sweden,Sweden,SWE,football-data.org
+798,Czechia,Czech Republic,CZE,football-data.org
+799,Croatia,Croatia,CRO,football-data.org
+801,Saudi Arabia,Saudi Arabia,KSA,football-data.org
+802,Tunisia,Tunisia,TUN,football-data.org
+803,Turkey,Turkey,TUR,football-data.org
+804,Senegal,Senegal,SEN,football-data.org
+805,Belgium,Belgium,BEL,football-data.org
+815,Morocco,Morocco,MAR,football-data.org
+816,Austria,Austria,AUT,football-data.org
+818,Colombia,Colombia,COL,football-data.org
+825,Egypt,Egypt,EGY,football-data.org
+828,Canada,Canada,CAN,football-data.org
+836,Haiti,Haiti,HAI,football-data.org
+840,Iran,Iran,IRN,football-data.org
+1060,Bosnia-Herzegovina,Bosnia and Herzegovina,BIH,football-data.org
+1836,Panama,Panama,PAN,football-data.org
+1930,Cape Verde Islands,Cape Verde Islands,CPV,football-data.org
+1934,Congo DR,Congo DR,COD,football-data.org
+1935,Ivory Coast,Ivory Coast,CIV,football-data.org
+8030,Qatar,Qatar,QAT,football-data.org
+8049,Jordan,Jordan,JOR,football-data.org
+8062,Iraq,Iraq,IRQ,football-data.org
+8070,Uzbekistan,Uzbekistan,UZB,football-data.org
+8601,Netherlands,Netherlands,NED,football-data.org
+8872,Norway,Norway,NOR,football-data.org
+8873,Scotland,Scotland,SCO,football-data.org
+9460,Curaçao,Curaçao,CUW,football-data.org
