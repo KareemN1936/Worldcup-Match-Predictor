@@ -1,0 +1,1976 @@
+{
+  "general": {
+    "matchId": "4667761",
+    "matchName": "Switzerland-vs-Canada_Wed, Jun 24, 2026, 19:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DD4145",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#DD4145",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894791,
+    "leagueName": "World Cup Grp. B",
+    "leagueRoundName": "3",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Switzerland",
+      "id": 6717
+    },
+    "awayTeam": {
+      "name": "Canada",
+      "id": 5810
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Wed, Jun 24, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-06-24T19:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Switzerland",
+        "id": 6717,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6717_small.png",
+        "pageUrl": "/teams/6717/overview/switzerland",
+        "fifaRank": 19
+      },
+      {
+        "name": "Canada",
+        "id": 5810,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5810_small.png",
+        "pageUrl": "/teams/5810/overview/canada",
+        "fifaRank": 30
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-24T19:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table",
+    "injured"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667761,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-24T19:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894791,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-b",
+          "leagueName": "World Cup Grp. B",
+          "roundName": "3",
+          "round": "3"
+        },
+        "Stadium": {
+          "name": "BC Place Vancouver",
+          "city": "Vancouver, British Columbia",
+          "country": "Canada",
+          "lat": 49.276722797,
+          "long": -123.112031221,
+          "capacity": 52497,
+          "surface": "grass"
+        },
+        "Referee": {
+          "text": "",
+          "countryCode": "",
+          "country": ""
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8492_xsmall.png",
+            "linkToMatch": "/matches/switzerland-vs-norway/1wv9t5#5124811",
+            "date": {
+              "utcTime": "2026-03-31T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8492/overview/norway",
+            "tooltipText": {
+              "utcTime": "2026-03-31T16:00:00.000Z",
+              "homeTeam": "Norway",
+              "homeTeamId": 8492,
+              "homeScore": "0",
+              "awayTeam": "Switzerland",
+              "awayTeamId": 6717,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "8492",
+              "name": "Norway",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6717",
+              "name": "Switzerland",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5816_xsmall.png",
+            "linkToMatch": "/matches/jordan-vs-switzerland/1armd0#5418294",
+            "date": {
+              "utcTime": "2026-05-31T13:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5816/overview/jordan",
+            "tooltipText": {
+              "utcTime": "2026-05-31T13:00:00.000Z",
+              "homeTeam": "Switzerland",
+              "homeTeamId": 6717,
+              "homeScore": "4",
+              "awayTeam": "Jordan",
+              "awayTeamId": 5816,
+              "awayScore": "1"
+            },
+            "score": "4 - 1",
+            "home": {
+              "id": "6717",
+              "name": "Switzerland",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5816",
+              "name": "Jordan",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6716_xsmall.png",
+            "linkToMatch": "/matches/australia-vs-switzerland/1hq2oi#5418306",
+            "date": {
+              "utcTime": "2026-06-06T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6716/overview/australia",
+            "tooltipText": {
+              "utcTime": "2026-06-06T19:00:00.000Z",
+              "homeTeam": "Switzerland",
+              "homeTeamId": 6717,
+              "homeScore": "1",
+              "awayTeam": "Australia",
+              "awayTeamId": 6716,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "6717",
+              "name": "Switzerland",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6716",
+              "name": "Australia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5902_xsmall.png",
+            "linkToMatch": "/matches/qatar-vs-switzerland/1beswv#4667758",
+            "date": {
+              "utcTime": "2026-06-13T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5902/overview/qatar",
+            "tooltipText": {
+              "utcTime": "2026-06-13T19:00:00.000Z",
+              "homeTeam": "Qatar",
+              "homeTeamId": 5902,
+              "homeScore": "1",
+              "awayTeam": "Switzerland",
+              "awayTeamId": 6717,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "5902",
+              "name": "Qatar",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6717",
+              "name": "Switzerland",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10106_xsmall.png",
+            "linkToMatch": "/matches/switzerland-vs-bosnia-herzegovina/2c9awx#4667759",
+            "date": {
+              "utcTime": "2026-06-18T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/10106/overview/bosnia-herzegovina",
+            "tooltipText": {
+              "utcTime": "2026-06-18T19:00:00.000Z",
+              "homeTeam": "Switzerland",
+              "homeTeamId": 6717,
+              "homeScore": "4",
+              "awayTeam": "Bosnia and Herzegovina",
+              "awayTeamId": 10106,
+              "awayScore": "1"
+            },
+            "score": "4 - 1",
+            "home": {
+              "id": "6717",
+              "name": "Switzerland",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "10106",
+              "name": "Bosnia and Herzegovina",
+              "isOurTeam": false
+            }
+          }
+        ],
+        [
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6719_xsmall.png",
+            "linkToMatch": "/matches/canada-vs-tunisia/1aqjoo#5154125",
+            "date": {
+              "utcTime": "2026-04-01T00:58:00.000Z"
+            },
+            "teamPageUrl": "/teams/6719/overview/tunisia",
+            "tooltipText": {
+              "utcTime": "2026-04-01T00:58:00.000Z",
+              "homeTeam": "Canada",
+              "homeTeamId": 5810,
+              "homeScore": "0",
+              "awayTeam": "Tunisia",
+              "awayTeamId": 6719,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "5810",
+              "name": "Canada",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6719",
+              "name": "Tunisia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8700_xsmall.png",
+            "linkToMatch": "/matches/canada-vs-uzbekistan/1qon79#5142040",
+            "date": {
+              "utcTime": "2026-06-02T01:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8700/overview/uzbekistan",
+            "tooltipText": {
+              "utcTime": "2026-06-02T01:00:00.000Z",
+              "homeTeam": "Canada",
+              "homeTeamId": 5810,
+              "homeScore": "2",
+              "awayTeam": "Uzbekistan",
+              "awayTeamId": 8700,
+              "awayScore": "0"
+            },
+            "score": "2 - 0",
+            "home": {
+              "id": "5810",
+              "name": "Canada",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8700",
+              "name": "Uzbekistan",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5791_xsmall.png",
+            "linkToMatch": "/matches/ireland-vs-canada/142jhn#5418305",
+            "date": {
+              "utcTime": "2026-06-05T23:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/5791/overview/ireland",
+            "tooltipText": {
+              "utcTime": "2026-06-05T23:45:00.000Z",
+              "homeTeam": "Canada",
+              "homeTeamId": 5810,
+              "homeScore": "1",
+              "awayTeam": "Ireland",
+              "awayTeamId": 5791,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "5810",
+              "name": "Canada",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5791",
+              "name": "Ireland",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10106_xsmall.png",
+            "linkToMatch": "/matches/canada-vs-bosnia-herzegovina/23f1qo#4667757",
+            "date": {
+              "utcTime": "2026-06-12T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/10106/overview/bosnia-herzegovina",
+            "tooltipText": {
+              "utcTime": "2026-06-12T19:00:00.000Z",
+              "homeTeam": "Canada",
+              "homeTeamId": 5810,
+              "homeScore": "1",
+              "awayTeam": "Bosnia and Herzegovina",
+              "awayTeamId": 10106,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "5810",
+              "name": "Canada",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "10106",
+              "name": "Bosnia and Herzegovina",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5902_xsmall.png",
+            "linkToMatch": "/matches/canada-vs-qatar/14u9ym#4667760",
+            "date": {
+              "utcTime": "2026-06-18T22:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5902/overview/qatar",
+            "tooltipText": {
+              "utcTime": "2026-06-18T22:00:00.000Z",
+              "homeTeam": "Canada",
+              "homeTeamId": 5810,
+              "homeScore": "6",
+              "awayTeam": "Qatar",
+              "awayTeamId": 5902,
+              "awayScore": "0"
+            },
+            "score": "6 - 0",
+            "home": {
+              "id": "5810",
+              "name": "Canada",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5902",
+              "name": "Qatar",
+              "isOurTeam": false
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667761",
+          "MatchId": 4667761,
+          "HomeTeamId": 6717,
+          "AwayTeamId": 5810,
+          "HomeTeam": "Switzerland",
+          "AwayTeam": "Canada",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} haven't lost in their last {2} matches, and {1} in their last {3}.",
+              "TextTemplateId": "undefeated_both_unequal",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "5",
+                "10"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_stat_up",
+              "defaultText": "Switzerland haven't lost in their last 5 matches, and Canada in their last 10."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored in their last {1} matches and {2} have scored in their last {3} matches.",
+              "TextTemplateId": "goalstreak_team_both",
+              "StatValues": [
+                "home_team",
+                "4",
+                "away_team",
+                "4"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Switzerland have scored in their last 4 matches and Canada have scored in their last 4 matches."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have scored {1} goals in their last {2} matches.",
+              "TextTemplateId": "goals_team",
+              "StatValues": [
+                "away_team",
+                "8",
+                "3"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Canada have scored 8 goals in their last 3 matches."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} have {1}W, {2}D, {3}L in five matches while {4} have {5}W, {6}D, {7}L.",
+              "TextTemplateId": "team_form_both",
+              "StatValues": [
+                "home_team",
+                "2",
+                "3",
+                "0",
+                "away_team",
+                "2",
+                "3",
+                "0"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Switzerland have 2W, 3D, 0L in five matches while Canada have 2W, 3D, 0L."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 6717,
+          "priority": 1343,
+          "defaultText": "Haven't lost in {0} matches",
+          "localizedTextId": "insights_undefeated_team",
+          "statValues": [
+            {
+              "value": 5,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't lost in 5 matches",
+          "color": "#DD4145"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 5810,
+          "priority": 1343,
+          "defaultText": "Haven't lost in {0} matches",
+          "localizedTextId": "insights_undefeated_team",
+          "statValues": [
+            {
+              "value": 10,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't lost in 10 matches",
+          "color": "#C50011"
+        }
+      ],
+      "countryCode": "INT",
+      "QAData": [],
+      "matchInsightsConfig": {
+        "hasBettingInsight": true,
+        "urlTemplate": "https://data.fotmob.com/generated-match-insights/77/4667761/matchinsights_{lang}.json",
+        "languages": [
+          "en",
+          "nb",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ar",
+          "pt-BR"
+        ]
+      }
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 24,
+      "windSpeed": 1,
+      "windDirectionCardinal": "SSW",
+      "iconCode": 30,
+      "relativeHumidity": 52,
+      "precipChance": 0,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 53,
+      "description": "Partly Cloudy",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T21:00:14Z",
+      "localizedKey": "weather_condition_partly_cloudy",
+      "defaultTitle": "Partly Cloudy"
+    },
+    "lineup": {
+      "matchId": 4667761,
+      "lineupType": "lastStarting11",
+      "source": "lastStartingLineups",
+      "availableFilters": [
+        "marketValue",
+        "age",
+        "team"
+      ],
+      "homeTeam": {
+        "id": 6717,
+        "name": "Switzerland",
+        "formation": "4-3-1-2",
+        "starters": [
+          {
+            "id": 764018,
+            "age": 28,
+            "name": "Gregor Kobel",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 9789,
+            "primaryTeamName": "Borussia Dortmund",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 41061449,
+            "firstName": "Gregor",
+            "lastName": "Kobel",
+            "rankings": null
+          },
+          {
+            "id": 275034,
+            "age": 33,
+            "name": "Silvan Widmer",
+            "positionId": 32,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "3",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 9905,
+            "primaryTeamName": "Mainz 05",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 772820,
+            "firstName": "Silvan",
+            "lastName": "Widmer",
+            "rankings": null
+          },
+          {
+            "id": 517346,
+            "age": 29,
+            "name": "Nico Elvedi",
+            "positionId": 34,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 9788,
+            "primaryTeamName": "Borussia Mönchengladbach",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 6909077,
+            "firstName": "Nico",
+            "lastName": "Elvedi",
+            "rankings": null
+          },
+          {
+            "id": 521318,
+            "age": 30,
+            "name": "Manuel Akanji",
+            "positionId": 36,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 8636,
+            "primaryTeamName": "Inter",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 18112861,
+            "firstName": "Manuel",
+            "lastName": "Akanji",
+            "rankings": null
+          },
+          {
+            "id": 115591,
+            "age": 33,
+            "name": "Ricardo Rodríguez",
+            "positionId": 38,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "13",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 8603,
+            "primaryTeamName": "Real Betis",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 1615330,
+            "firstName": "Ricardo",
+            "lastName": "Rodríguez",
+            "rankings": null
+          },
+          {
+            "id": 792756,
+            "age": 29,
+            "name": "Michel Aebischer",
+            "positionId": 63,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "20",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 6479,
+            "primaryTeamName": "Pisa",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 4873373,
+            "firstName": "Michel",
+            "lastName": "Aebischer",
+            "rankings": null
+          },
+          {
+            "id": 207236,
+            "age": 33,
+            "name": "Granit Xhaka",
+            "positionId": 65,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "10",
+            "isCaptain": true,
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 8472,
+            "primaryTeamName": "Sunderland",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 17124490,
+            "firstName": "Granit",
+            "lastName": "Xhaka",
+            "rankings": null
+          },
+          {
+            "id": 201704,
+            "age": 34,
+            "name": "Remo Freuler",
+            "positionId": 67,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 9857,
+            "primaryTeamName": "Bologna",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 2679419,
+            "firstName": "Remo",
+            "lastName": "Freuler",
+            "rankings": null
+          },
+          {
+            "id": 1161211,
+            "age": 24,
+            "name": "Fabian Rieder",
+            "positionId": 85,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "22",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 8406,
+            "primaryTeamName": "Augsburg",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 10013853,
+            "firstName": "Fabian",
+            "lastName": "Rieder",
+            "rankings": null
+          },
+          {
+            "id": 527103,
+            "age": 29,
+            "name": "Breel Embolo",
+            "positionId": 104,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "7",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 9851,
+            "primaryTeamName": "Rennes",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.26
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 12740790,
+            "firstName": "Breel",
+            "lastName": "Embolo",
+            "rankings": null
+          },
+          {
+            "id": 1022649,
+            "age": 25,
+            "name": "Dan Ndoye",
+            "positionId": 106,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "11",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 10203,
+            "primaryTeamName": "Nottingham Forest",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 43313204,
+            "firstName": "Dan",
+            "lastName": "Ndoye",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 34053,
+          "age": 51,
+          "name": "Murat Yakin",
+          "countryName": "Switzerland",
+          "countryCode": "SUI",
+          "firstName": "Murat",
+          "lastName": "Yakin",
+          "primaryTeamId": 6717,
+          "primaryTeamName": "Switzerland",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "subs": [
+          {
+            "id": 1107298,
+            "age": 23,
+            "name": "Marvin Keller",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "21",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 10192,
+            "primaryTeamName": "Young Boys",
+            "marketValue": 9841149,
+            "firstName": "Marvin",
+            "lastName": "Keller",
+            "rankings": null
+          },
+          {
+            "id": 274787,
+            "age": 32,
+            "name": "Yvon Mvogo",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "12",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 8689,
+            "primaryTeamName": "Lorient",
+            "marketValue": 2196378,
+            "firstName": "Yvon",
+            "lastName": "Mvogo",
+            "rankings": null
+          },
+          {
+            "id": 1257648,
+            "age": 22,
+            "name": "Aurèle Amenda",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "24",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 9810,
+            "primaryTeamName": "Eintracht Frankfurt",
+            "marketValue": 10236149,
+            "firstName": "Aurèle",
+            "lastName": "Amenda",
+            "rankings": null
+          },
+          {
+            "id": 705484,
+            "age": 28,
+            "name": "Eray Cömert",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "18",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 10267,
+            "primaryTeamName": "Valencia",
+            "marketValue": 1523941,
+            "firstName": "Eray",
+            "lastName": "Cömert",
+            "rankings": null
+          },
+          {
+            "id": 1270002,
+            "age": 23,
+            "name": "Luca Jaquez",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "25",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 10269,
+            "primaryTeamName": "VfB Stuttgart",
+            "marketValue": 12946795,
+            "firstName": "Luca",
+            "lastName": "Jaquez",
+            "rankings": null
+          },
+          {
+            "id": 1163219,
+            "age": 23,
+            "name": "Ardon Jashari",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "14",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 8564,
+            "primaryTeamName": "Milan",
+            "marketValue": 33907219,
+            "firstName": "Ardon",
+            "lastName": "Jashari",
+            "rankings": null
+          },
+          {
+            "id": 598355,
+            "age": 29,
+            "name": "Denis Zakaria",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "6",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 9829,
+            "primaryTeamName": "Monaco",
+            "marketValue": 26375541,
+            "firstName": "Denis",
+            "lastName": "Zakaria",
+            "rankings": null
+          },
+          {
+            "id": 707970,
+            "age": 29,
+            "name": "Djibril Sow",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "15",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 8302,
+            "primaryTeamName": "Sevilla",
+            "marketValue": 7225538,
+            "firstName": "Djibril",
+            "lastName": "Sow",
+            "rankings": null
+          },
+          {
+            "id": 1520063,
+            "age": 20,
+            "name": "Johan Manzambi",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "9",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 8358,
+            "primaryTeamName": "Freiburg",
+            "marketValue": 31181920,
+            "firstName": "Johan",
+            "lastName": "Manzambi",
+            "rankings": null
+          },
+          {
+            "id": 726956,
+            "age": 29,
+            "name": "Cedric Itten",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "26",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 8194,
+            "primaryTeamName": "Fortuna Düsseldorf",
+            "marketValue": 1426645,
+            "firstName": "Cedric",
+            "lastName": "Itten",
+            "rankings": null
+          },
+          {
+            "id": 618774,
+            "age": 32,
+            "name": "Christian Fassnacht",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "16",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 10192,
+            "primaryTeamName": "Young Boys",
+            "marketValue": 1425590,
+            "firstName": "Christian",
+            "lastName": "Fassnacht",
+            "rankings": null
+          },
+          {
+            "id": 915797,
+            "age": 26,
+            "name": "Noah Okafor",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "19",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 8463,
+            "primaryTeamName": "Leeds United",
+            "marketValue": 21035120,
+            "firstName": "Noah",
+            "lastName": "Okafor",
+            "rankings": null
+          },
+          {
+            "id": 860752,
+            "age": 27,
+            "name": "Rubén Vargas",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "17",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 8302,
+            "primaryTeamName": "Sevilla",
+            "marketValue": 12652149,
+            "firstName": "Rubén",
+            "lastName": "Vargas",
+            "rankings": null
+          },
+          {
+            "id": 1067168,
+            "age": 25,
+            "name": "Zeki Amdouni",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "23",
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 8191,
+            "primaryTeamName": "Burnley",
+            "marketValue": 12179461,
+            "firstName": "Zeki",
+            "lastName": "Amdouni",
+            "rankings": null
+          }
+        ],
+        "unavailable": [
+          {
+            "id": 759817,
+            "age": 28,
+            "name": "Miro Muheim",
+            "positionId": 1000,
+            "countryName": "Switzerland",
+            "countryCode": "SUI",
+            "primaryTeamId": 9790,
+            "primaryTeamName": "Hamburger SV",
+            "marketValue": 4566537,
+            "unavailability": {
+              "injuryId": 101,
+              "type": "injury",
+              "expectedReturn": "About 1-2 weeks"
+            },
+            "firstName": "Miro",
+            "lastName": "Muheim"
+          }
+        ],
+        "averageStarterAge": 30.3,
+        "totalStarterMarketValue": 159216666,
+        "lastMatch": {
+          "matchId": 4667759,
+          "homeTeamId": 6717,
+          "awayTeamId": 10106,
+          "homeTeamName": "Switzerland",
+          "awayTeamName": "Bosnia and Herzegovina",
+          "homeScore": 4,
+          "awayScore": 1,
+          "matchDate": "2026-06-18T21:00:00"
+        }
+      },
+      "awayTeam": {
+        "id": 5810,
+        "name": "Canada",
+        "formation": "4-4-2",
+        "starters": [
+          {
+            "id": 464919,
+            "age": 32,
+            "name": "Maxime Crépeau",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "16",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 267810,
+            "primaryTeamName": "Orlando City",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.2
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.2,
+              "width": 1
+            },
+            "marketValue": 1015415,
+            "firstName": "Maxime",
+            "lastName": "Crépeau",
+            "rankings": null
+          },
+          {
+            "id": 1055426,
+            "age": 27,
+            "name": "Alistair Johnston",
+            "positionId": 32,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "2",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 9925,
+            "primaryTeamName": "Celtic",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 8286756,
+            "firstName": "Alistair",
+            "lastName": "Johnston",
+            "rankings": null
+          },
+          {
+            "id": 1399943,
+            "age": 20,
+            "name": "Luc De Fougerolles",
+            "positionId": 34,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 7947,
+            "primaryTeamName": "FCV Dender EH",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 1711441,
+            "firstName": "Luc",
+            "lastName": "De Fougerolles",
+            "rankings": null
+          },
+          {
+            "id": 847629,
+            "age": 28,
+            "name": "Derek Cornelius",
+            "positionId": 36,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "13",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 8548,
+            "primaryTeamName": "Rangers",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 2875454,
+            "firstName": "Derek",
+            "lastName": "Cornelius",
+            "rankings": null
+          },
+          {
+            "id": 729506,
+            "age": 31,
+            "name": "Richie Laryea",
+            "positionId": 38,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "22",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 56453,
+            "primaryTeamName": "Toronto FC",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 480995,
+            "firstName": "Richie",
+            "lastName": "Laryea",
+            "rankings": null
+          },
+          {
+            "id": 1026135,
+            "age": 27,
+            "name": "Tajon Buchanan",
+            "positionId": 72,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "17",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 10205,
+            "primaryTeamName": "Villarreal",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 12808710,
+            "firstName": "Tajon",
+            "lastName": "Buchanan",
+            "rankings": null
+          },
+          {
+            "id": 1288119,
+            "age": 24,
+            "name": "Ismaël Koné",
+            "positionId": 74,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 7943,
+            "primaryTeamName": "Sassuolo",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 19000691,
+            "firstName": "Ismaël",
+            "lastName": "Koné",
+            "rankings": null
+          },
+          {
+            "id": 816223,
+            "age": 29,
+            "name": "Stephen Eustaquio",
+            "positionId": 76,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "7",
+            "isCaptain": true,
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 867280,
+            "primaryTeamName": "Los Angeles FC",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 5372469,
+            "firstName": "Stephen",
+            "lastName": "Eustaquio",
+            "rankings": null
+          },
+          {
+            "id": 1359536,
+            "age": 25,
+            "name": "Ali Ahmed",
+            "positionId": 78,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "20",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 9850,
+            "primaryTeamName": "Norwich City",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 2041970,
+            "firstName": "Ali",
+            "lastName": "Ahmed",
+            "rankings": null
+          },
+          {
+            "id": 939569,
+            "age": 26,
+            "name": "Jonathan David",
+            "positionId": 104,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "10",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 9885,
+            "primaryTeamName": "Juventus",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.4
+            },
+            "marketValue": 36511959,
+            "firstName": "Jonathan",
+            "lastName": "David",
+            "rankings": null
+          },
+          {
+            "id": 544312,
+            "age": 31,
+            "name": "Cyle Larin",
+            "positionId": 106,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "9",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 8466,
+            "primaryTeamName": "Southampton",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.4
+            },
+            "marketValue": 2060467,
+            "firstName": "Cyle",
+            "lastName": "Larin",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 69655,
+          "age": 52,
+          "name": "Jesse Marsch",
+          "countryName": "USA",
+          "countryCode": "USA",
+          "firstName": "Jesse",
+          "lastName": "Marsch",
+          "primaryTeamId": 5810,
+          "primaryTeamName": "Canada",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "subs": [
+          {
+            "id": 1026105,
+            "age": 29,
+            "name": "Dayne St. Clair",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 960720,
+            "primaryTeamName": "Inter Miami CF",
+            "marketValue": 1710536,
+            "firstName": "Dayne",
+            "lastName": "St. Clair",
+            "shortName": "St. Clair",
+            "rankings": null
+          },
+          {
+            "id": 1415372,
+            "age": 22,
+            "name": "Owen Goodman",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "18",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 8283,
+            "primaryTeamName": "Barnsley",
+            "marketValue": 654294,
+            "firstName": "Owen",
+            "lastName": "Goodman",
+            "rankings": null
+          },
+          {
+            "id": 751202,
+            "age": 25,
+            "name": "Alphonso Davies",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "19",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 9823,
+            "primaryTeamName": "Bayern München",
+            "marketValue": 45267223,
+            "firstName": "Alphonso",
+            "lastName": "Davies",
+            "rankings": null
+          },
+          {
+            "id": 1100258,
+            "age": 30,
+            "name": "Joel Waterman",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 6397,
+            "primaryTeamName": "Chicago Fire FC",
+            "marketValue": 1479458,
+            "firstName": "Joel",
+            "lastName": "Waterman",
+            "rankings": null
+          },
+          {
+            "id": 1440009,
+            "age": 26,
+            "name": "Moïse Bombito",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "15",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 9831,
+            "primaryTeamName": "Nice",
+            "marketValue": 1154388,
+            "firstName": "Moïse",
+            "lastName": "Bombito",
+            "rankings": null
+          },
+          {
+            "id": 1494508,
+            "age": 22,
+            "name": "Niko Sigur",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "23",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 10154,
+            "primaryTeamName": "Hajduk Split",
+            "marketValue": 3131179,
+            "firstName": "Niko",
+            "lastName": "Sigur",
+            "rankings": null
+          },
+          {
+            "id": 432605,
+            "age": 34,
+            "name": "Jonathan Osorio",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "21",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 56453,
+            "primaryTeamName": "Toronto FC",
+            "marketValue": 507678,
+            "firstName": "Jonathan",
+            "lastName": "Osorio",
+            "rankings": null
+          },
+          {
+            "id": 943428,
+            "age": 27,
+            "name": "Mathieu Choinière",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "6",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 867280,
+            "primaryTeamName": "Los Angeles FC",
+            "marketValue": 518474,
+            "firstName": "Mathieu",
+            "lastName": "Choinière",
+            "rankings": null
+          },
+          {
+            "id": 1216798,
+            "age": 22,
+            "name": "Nathan Saliba",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "25",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 8635,
+            "primaryTeamName": "Anderlecht",
+            "marketValue": 6392960,
+            "firstName": "Nathan",
+            "lastName": "Saliba",
+            "rankings": null
+          },
+          {
+            "id": 1023943,
+            "age": 26,
+            "name": "Jacob Shaffelburg",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "14",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 867280,
+            "primaryTeamName": "Los Angeles FC",
+            "marketValue": 1618103,
+            "firstName": "Jacob",
+            "lastName": "Shaffelburg",
+            "rankings": null
+          },
+          {
+            "id": 1082106,
+            "age": 23,
+            "name": "Jayden Nelson",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "26",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 1218886,
+            "primaryTeamName": "Austin FC",
+            "marketValue": 1736433,
+            "firstName": "Jayden",
+            "lastName": "Nelson",
+            "rankings": null
+          },
+          {
+            "id": 932308,
+            "age": 26,
+            "name": "Liam Millar",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "11",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 8667,
+            "primaryTeamName": "Hull City",
+            "marketValue": 1381611,
+            "firstName": "Liam",
+            "lastName": "Millar",
+            "rankings": null
+          },
+          {
+            "id": 1252132,
+            "age": 24,
+            "name": "Promise David",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "24",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 7978,
+            "primaryTeamName": "Union St.Gilloise",
+            "marketValue": 16808777,
+            "firstName": "Promise",
+            "lastName": "David",
+            "rankings": null
+          },
+          {
+            "id": 1338740,
+            "age": 26,
+            "name": "Tani Oluwaseyi",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "12",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "primaryTeamId": 10205,
+            "primaryTeamName": "Villarreal",
+            "marketValue": 8766238,
+            "firstName": "Tani",
+            "lastName": "Oluwaseyi",
+            "rankings": null
+          }
+        ],
+        "unavailable": [
+          {
+            "id": 1288119,
+            "age": 24,
+            "name": "Ismaël Koné",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "marketValue": 19000691,
+            "unavailability": {
+              "injuryId": 23,
+              "type": "injury",
+              "expectedReturn": "Mid October 2026"
+            },
+            "firstName": "Ismaël",
+            "lastName": "Koné"
+          },
+          {
+            "id": 789598,
+            "age": 28,
+            "name": "Alfie Jones",
+            "countryName": "Canada",
+            "countryCode": "CAN",
+            "marketValue": 3531992,
+            "unavailability": {
+              "injuryId": 69,
+              "type": "injury",
+              "expectedReturn": "About 1-2 weeks"
+            },
+            "firstName": "Alfie",
+            "lastName": "Jones"
+          }
+        ],
+        "averageStarterAge": 27.7,
+        "totalStarterMarketValue": 92166327,
+        "lastMatch": {
+          "matchId": 4667760,
+          "homeTeamId": 5810,
+          "awayTeamId": 5902,
+          "homeTeamName": "Canada",
+          "awayTeamName": "Qatar",
+          "homeScore": 6,
+          "awayScore": 0,
+          "matchDate": "2026-06-19T00:00:00"
+        }
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894791",
+      "url": "https://data.fotmob.com/tables.ext.894791.fot.gz",
+      "teams": [
+        6717,
+        5810
+      ],
+      "tournamentNameForUrl": "World Cup Grp. B",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": false,
+    "momentum": false
+  },
+  "seo": {
+    "path": "switzerland-vs-canada",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667761",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Switzerland",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6717.png",
+        "url": "https://www.fotmob.com/teams/6717/overview/switzerland",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Canada",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5810.png",
+        "url": "https://www.fotmob.com/teams/5810/overview/canada",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Switzerland vs Canada",
+      "description": "Follow Switzerland vs Canada live on fotmob.com",
+      "startDate": "2026-06-24T19:00:00.000Z",
+      "endDate": "2026-06-24T21:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "BC Place Vancouver",
+        "latitude": 49.276722797,
+        "longitude": -123.112031221,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Canada",
+          "addressLocality": "Vancouver, British Columbia"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6717.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/5810.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667761",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-24T19:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Switzerland",
+          "url": "https://www.fotmob.com/teams/6717/overview/switzerland"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Canada",
+          "url": "https://www.fotmob.com/teams/5810/overview/canada"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. B",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-b"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Switzerland - Canada",
+            "item": "https://www.fotmob.com/match/4667761"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. B",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-b"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Canada",
+            "item": "https://www.fotmob.com/teams/5810/overview/canada"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Switzerland - Canada",
+            "item": "https://www.fotmob.com/match/4667761"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. B",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-b"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Switzerland",
+            "item": "https://www.fotmob.com/teams/6717/overview/switzerland"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Switzerland - Canada",
+            "item": "https://www.fotmob.com/match/4667761"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537399,
+    "date": "2026-06-22T17:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_J",
+    "home_team": "Argentina",
+    "away_team": "Austria"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.7451172471046448,
+    "draw_probability": 0.1729153096675872,
+    "away_win_probability": 0.0819674283266067,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 212.93936794874162,
+      "points_last_5_diff": 2.0,
+      "points_last_10_diff": 2.0,
+      "goal_difference_last_5_diff": 6.0,
+      "goals_for_last_5_diff": 4.0,
+      "goals_against_last_5_diff": -2.0,
+      "weighted_points_last_5_diff": -1.5,
+      "weighted_goal_difference_last_5_diff": 9.5,
+      "wins_last_5_diff": 1.0,
+      "draws_last_5_diff": -1.0,
+      "losses_last_5_diff": 0.0,
+      "clean_sheets_last_5_diff": 2.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": 2.0,
+      "win_rate_2y_diff": 0.14423076923076927,
+      "draw_rate_2y_diff": -0.051282051282051266,
+      "loss_rate_2y_diff": -0.09294871794871795,
+      "goals_for_per_match_2y_diff": -0.09615384615384626,
+      "goals_against_per_match_2y_diff": -0.44871794871794873,
+      "goal_difference_per_match_2y_diff": 0.3525641025641024,
+      "clean_sheet_rate_2y_diff": 0.358974358974359,
+      "failed_to_score_rate_2y_diff": -0.08653846153846154,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 212.93936794874162,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 6.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 4.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 2.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 2.0,
+        "leader": "Argentina"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 212.93936794874162,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 2.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 2.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 6.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 4.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -2.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -1.5,
+        "leader": "Austria"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.14423076923076927,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.3525641025641024,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.44871794871794873,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.358974358974359,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.08653846153846154,
+        "leader": "Argentina"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": 0.0612121212121212,
+    "probability_shift": 0.0024617685667994,
+    "top_signals": "goal difference:home; player rating:away; starting XI rating:home",
+    "home_win_probability": 0.7479472814381407,
+    "draw_probability": 0.1725078934267078,
+    "away_win_probability": 0.0795448251351513,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.2000000000000001,
+        "leader": "Austria"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.1000000000000005,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.2000000000000001,
+        "leader": "Austria"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.1000000000000005,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 28.615384615384617,
+    "away_avg_age": 28.115384615384617,
+    "home_forwards": 6,
+    "away_forwards": 3,
+    "home_midfielders": 8,
+    "away_midfielders": 11,
+    "home_defenders": 9,
+    "away_defenders": 9,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 3.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -3.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.5,
+        "leader": "Austria"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.5,
+        "leader": "Austria"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 3.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -3.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

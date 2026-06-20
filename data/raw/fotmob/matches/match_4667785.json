@@ -1,0 +1,1709 @@
+{
+  "general": {
+    "matchId": "4667785",
+    "matchName": "Tunisia-vs-Japan_Sun, Jun 21, 2026, 04:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D7393D",
+        "away": "#435D99"
+      },
+      "lightMode": {
+        "home": "#D7393D",
+        "away": "#435D99"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894795,
+    "leagueName": "World Cup Grp. F",
+    "leagueRoundName": "2",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Tunisia",
+      "id": 6719
+    },
+    "awayTeam": {
+      "name": "Japan",
+      "id": 6715
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sun, Jun 21, 2026, 04:00 UTC",
+    "matchTimeUTCDate": "2026-06-21T04:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Tunisia",
+        "id": 6719,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6719_small.png",
+        "pageUrl": "/teams/6719/overview/tunisia",
+        "fifaRank": 45
+      },
+      {
+        "name": "Japan",
+        "id": 6715,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6715_small.png",
+        "pageUrl": "/teams/6715/overview/japan",
+        "fifaRank": 18
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-21T04:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "lineup",
+    "table",
+    "head to head"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667785,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-21T04:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894795,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-f",
+          "leagueName": "World Cup Grp. F",
+          "roundName": "2",
+          "round": "2"
+        },
+        "Stadium": {
+          "name": "Monterrey Stadium",
+          "city": "Guadalupe",
+          "country": "Mexico",
+          "lat": 25.669182471,
+          "long": -100.244469647,
+          "capacity": 51243,
+          "surface": "grass"
+        },
+        "Referee": {
+          "imgUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/rou.png",
+          "text": "István Kovács",
+          "countryCode": "ROU",
+          "country": "Romania"
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5934_xsmall.png",
+            "linkToMatch": "/matches/haiti-vs-tunisia/1bo0fe#5154124",
+            "date": {
+              "utcTime": "2026-03-29T00:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5934/overview/haiti",
+            "tooltipText": {
+              "utcTime": "2026-03-29T00:00:00.000Z",
+              "homeTeam": "Haiti",
+              "homeTeamId": 5934,
+              "homeScore": "0",
+              "awayTeam": "Tunisia",
+              "awayTeamId": 6719,
+              "awayScore": "1"
+            },
+            "score": "0 - 1",
+            "home": {
+              "id": "5934",
+              "name": "Haiti",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6719",
+              "name": "Tunisia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5810_xsmall.png",
+            "linkToMatch": "/matches/canada-vs-tunisia/1aqjoo#5154125",
+            "date": {
+              "utcTime": "2026-04-01T00:58:00.000Z"
+            },
+            "teamPageUrl": "/teams/5810/overview/canada",
+            "tooltipText": {
+              "utcTime": "2026-04-01T00:58:00.000Z",
+              "homeTeam": "Canada",
+              "homeTeamId": 5810,
+              "homeScore": "0",
+              "awayTeam": "Tunisia",
+              "awayTeamId": 6719,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "5810",
+              "name": "Canada",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6719",
+              "name": "Tunisia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8255_xsmall.png",
+            "linkToMatch": "/matches/tunisia-vs-austria/1ur91c#5154119",
+            "date": {
+              "utcTime": "2026-06-01T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/8255/overview/austria",
+            "tooltipText": {
+              "utcTime": "2026-06-01T18:45:00.000Z",
+              "homeTeam": "Austria",
+              "homeTeamId": 8255,
+              "homeScore": "1",
+              "awayTeam": "Tunisia",
+              "awayTeamId": 6719,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "8255",
+              "name": "Austria",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6719",
+              "name": "Tunisia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8263_xsmall.png",
+            "linkToMatch": "/matches/tunisia-vs-belgium/1utti4#5154126",
+            "date": {
+              "utcTime": "2026-06-06T13:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8263/overview/belgium",
+            "tooltipText": {
+              "utcTime": "2026-06-06T13:00:00.000Z",
+              "homeTeam": "Belgium",
+              "homeTeamId": 8263,
+              "homeScore": "5",
+              "awayTeam": "Tunisia",
+              "awayTeamId": 6719,
+              "awayScore": "0"
+            },
+            "score": "5 - 0",
+            "home": {
+              "id": "8263",
+              "name": "Belgium",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6719",
+              "name": "Tunisia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8520_xsmall.png",
+            "linkToMatch": "/matches/tunisia-vs-sweden/1x5290#4667784",
+            "date": {
+              "utcTime": "2026-06-15T02:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8520/overview/sweden",
+            "tooltipText": {
+              "utcTime": "2026-06-15T02:00:00.000Z",
+              "homeTeam": "Sweden",
+              "homeTeamId": 8520,
+              "homeScore": "5",
+              "awayTeam": "Tunisia",
+              "awayTeamId": 6719,
+              "awayScore": "1"
+            },
+            "score": "5 - 1",
+            "home": {
+              "id": "8520",
+              "name": "Sweden",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6719",
+              "name": "Tunisia",
+              "isOurTeam": true
+            }
+          }
+        ],
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5797_xsmall.png",
+            "linkToMatch": "/matches/bolivia-vs-japan/1alzfv#5031705",
+            "date": {
+              "utcTime": "2025-11-18T10:15:00.000Z"
+            },
+            "teamPageUrl": "/teams/5797/overview/bolivia",
+            "tooltipText": {
+              "utcTime": "2025-11-18T10:15:00.000Z",
+              "homeTeam": "Japan",
+              "homeTeamId": 6715,
+              "homeScore": "3",
+              "awayTeam": "Bolivia",
+              "awayTeamId": 5797,
+              "awayScore": "0"
+            },
+            "score": "3 - 0",
+            "home": {
+              "id": "6715",
+              "name": "Japan",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5797",
+              "name": "Bolivia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8498_xsmall.png",
+            "linkToMatch": "/matches/japan-vs-scotland/1wwkrh#5147837",
+            "date": {
+              "utcTime": "2026-03-28T17:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8498/overview/scotland",
+            "tooltipText": {
+              "utcTime": "2026-03-28T17:00:00.000Z",
+              "homeTeam": "Scotland",
+              "homeTeamId": 8498,
+              "homeScore": "0",
+              "awayTeam": "Japan",
+              "awayTeamId": 6715,
+              "awayScore": "1"
+            },
+            "score": "0 - 1",
+            "home": {
+              "id": "8498",
+              "name": "Scotland",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6715",
+              "name": "Japan",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8491_xsmall.png",
+            "linkToMatch": "/matches/japan-vs-england/1wuals#5124812",
+            "date": {
+              "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/8491/overview/england",
+            "tooltipText": {
+              "utcTime": "2026-03-31T18:45:00.000Z",
+              "homeTeam": "England",
+              "homeTeamId": 8491,
+              "homeScore": "0",
+              "awayTeam": "Japan",
+              "awayTeamId": 6715,
+              "awayScore": "1"
+            },
+            "score": "0 - 1",
+            "home": {
+              "id": "8491",
+              "name": "England",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6715",
+              "name": "Japan",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8536_xsmall.png",
+            "linkToMatch": "/matches/japan-vs-iceland/1x8zfa#5418293",
+            "date": {
+              "utcTime": "2026-05-31T10:25:00.000Z"
+            },
+            "teamPageUrl": "/teams/8536/overview/iceland",
+            "tooltipText": {
+              "utcTime": "2026-05-31T10:25:00.000Z",
+              "homeTeam": "Japan",
+              "homeTeamId": 6715,
+              "homeScore": "1",
+              "awayTeam": "Iceland",
+              "awayTeamId": 8536,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "6715",
+              "name": "Japan",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8536",
+              "name": "Iceland",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6708_xsmall.png",
+            "linkToMatch": "/matches/netherlands-vs-japan/1hn72b#4667783",
+            "date": {
+              "utcTime": "2026-06-14T20:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6708/overview/netherlands",
+            "tooltipText": {
+              "utcTime": "2026-06-14T20:00:00.000Z",
+              "homeTeam": "Netherlands",
+              "homeTeamId": 6708,
+              "homeScore": "2",
+              "awayTeam": "Japan",
+              "awayTeamId": 6715,
+              "awayScore": "2"
+            },
+            "score": "2 - 2",
+            "home": {
+              "id": "6708",
+              "name": "Netherlands",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6715",
+              "name": "Japan",
+              "isOurTeam": true
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667785",
+          "MatchId": 4667785,
+          "HomeTeamId": 6719,
+          "AwayTeamId": 6715,
+          "HomeTeam": "Tunisia",
+          "AwayTeam": "Japan",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} haven't lost in {1} matches.",
+              "TextTemplateId": "undefeated_team",
+              "StatValues": [
+                "away_team",
+                "8"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_stat_up",
+              "defaultText": "Japan haven't lost in 8 matches."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored in their last {1} away matches.",
+              "TextTemplateId": "goalstreak_team_away",
+              "StatValues": [
+                "away_team",
+                "3"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Japan have scored in their last 3 away matches."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have an average of {2} goals in their last three matches and {1} have an average of {3}.",
+              "TextTemplateId": "average_goals_last3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "0.33",
+                "1.33"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Tunisia have an average of 0.33 goals in their last three matches and Japan have an average of 1.33."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't won a match in {1} attempts.",
+              "TextTemplateId": "not_won_team",
+              "StatValues": [
+                "home_team",
+                "4"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_stat_down",
+              "defaultText": "Tunisia haven't won a match in 4 attempts."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 6719,
+          "priority": 1343,
+          "defaultText": "{0} and {1} have not drawn any of their last {2} matches against each other.",
+          "localizedTextId": "h2h_no_draws_v2",
+          "statValues": [
+            {
+              "value": 6719,
+              "name": "Tunisia",
+              "type": "team"
+            },
+            {
+              "value": 6715,
+              "name": "Japan",
+              "type": "team"
+            },
+            {
+              "value": 4,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Tunisia and Japan have not drawn any of their last 4 matches against each other.",
+          "color": "#D7393D"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 6715,
+          "priority": 1343,
+          "defaultText": "Haven't lost in {0} matches",
+          "localizedTextId": "insights_undefeated_team",
+          "statValues": [
+            {
+              "value": 8,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't lost in 8 matches",
+          "color": "#435D99"
+        }
+      ],
+      "topScorers": {
+        "section": "Top scorers",
+        "sectionId": 6,
+        "homePlayer": {
+          "playerId": 1160097,
+          "position": 1,
+          "matchesWithRating": 1,
+          "lastName": "Rekik",
+          "fullName": "Omar Rekik",
+          "stats": {
+            "goals": 1,
+            "goalAssist": 0,
+            "ontargetScoringAtt": 1,
+            "motm": 0,
+            "gamesPlayed": 1,
+            "minsPlayed": 90,
+            "minsPlayedGoal": 90,
+            "expectedGoals": 0.03180000185966492,
+            "playerRating": 6.07
+          }
+        },
+        "awayPlayer": {
+          "playerId": 621515,
+          "position": 2,
+          "matchesWithRating": 1,
+          "lastName": "Kamada",
+          "fullName": "Daichi Kamada",
+          "stats": {
+            "goals": 1,
+            "goalAssist": 0,
+            "ontargetScoringAtt": 1,
+            "motm": 0,
+            "gamesPlayed": 1,
+            "minsPlayed": 90,
+            "minsPlayedGoal": 90,
+            "expectedGoals": 0.1404000073671341,
+            "playerRating": 8.11
+          }
+        },
+        "statsOrder": [
+          "playerRating",
+          "goals",
+          "expectedGoals",
+          "goalAssist",
+          "minsPlayedGoal",
+          "ontargetScoringAtt",
+          "motm",
+          "gamesPlayed",
+          "minsPlayed"
+        ]
+      },
+      "countryCode": "INT",
+      "QAData": [],
+      "matchInsightsConfig": {
+        "hasBettingInsight": false,
+        "urlTemplate": "https://data.fotmob.com/generated-match-insights/77/4667785/matchinsights_{lang}.json",
+        "languages": [
+          "en",
+          "nb",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ar",
+          "pt-BR"
+        ]
+      }
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": "https://pub.fotmob.com/prod/news/api/law?matchid=6c7t9tr9b24qfjwphblk6776c&competition=70excpe1synn9kadnbppahdn7&season=873cbl9cd9butm4air0mugxzo&version=v4w",
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 26,
+      "windSpeed": 2,
+      "windDirectionCardinal": "ESE",
+      "iconCode": 11,
+      "relativeHumidity": 84,
+      "precipChance": 70,
+      "precipitation": 0.1,
+      "snow": 0,
+      "cloudCover": 80,
+      "description": "Light Rain",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T22:00:07Z",
+      "localizedKey": "weather_condition_light_rain",
+      "defaultTitle": "Light Rain"
+    },
+    "lineup": {
+      "matchId": 4667785,
+      "lineupType": "predicted",
+      "source": "enetpulse",
+      "availableFilters": [
+        "marketValue",
+        "age",
+        "team"
+      ],
+      "homeTeam": {
+        "id": 6719,
+        "name": "Tunisia",
+        "formation": "4-2-3-1",
+        "starters": [
+          {
+            "id": 1718458,
+            "age": 24,
+            "name": "Abdelmouhib Chamakh",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Tunisia",
+            "countryCode": "TUN",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 554400,
+            "firstName": "Abdelmouhib",
+            "lastName": "Chamakh",
+            "rankings": null
+          },
+          {
+            "id": 789596,
+            "age": 27,
+            "name": "Yan Valery",
+            "positionId": 32,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "20",
+            "countryName": "Tunisia",
+            "countryCode": "TUN",
+            "primaryTeamId": 10192,
+            "primaryTeamName": "Young Boys",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 803893,
+            "firstName": "Yan",
+            "lastName": "Valery",
+            "rankings": null
+          },
+          {
+            "id": 1160097,
+            "age": 24,
+            "name": "Omar Rekik",
+            "positionId": 34,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "Tunisia",
+            "countryCode": "TUN",
+            "primaryTeamId": 8340,
+            "primaryTeamName": "Maribor",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 390982,
+            "firstName": "Omar",
+            "lastName": "Rekik",
+            "rankings": null
+          },
+          {
+            "id": 846392,
+            "age": 28,
+            "name": "Montassar Talbi",
+            "positionId": 36,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Tunisia",
+            "countryCode": "TUN",
+            "primaryTeamId": 8689,
+            "primaryTeamName": "Lorient",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 6419313,
+            "firstName": "Montassar",
+            "lastName": "Talbi",
+            "rankings": null
+          },
+          {
+            "id": 566187,
+            "age": 32,
+            "name": "Ali Abdi",
+            "positionId": 38,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "2",
+            "countryName": "Tunisia",
+            "countryCode": "TUN",
+            "primaryTeamId": 9831,
+            "primaryTeamName": "Nice",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 1680233,
+            "firstName": "Ali",
+            "lastName": "Abdi",
+            "rankings": null
+          },
+          {
+            "id": 304348,
+            "age": 32,
+            "name": "Rani Khedira",
+            "positionId": 64,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "13",
+            "countryName": "Tunisia",
+            "countryCode": "TUN",
+            "primaryTeamId": 8149,
+            "primaryTeamName": "Union Berlin",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 1541477,
+            "firstName": "Rani",
+            "lastName": "Khedira",
+            "rankings": null
+          },
+          {
+            "id": 574642,
+            "age": 31,
+            "name": "Ellyes Skhiri",
+            "positionId": 66,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "17",
+            "countryName": "Tunisia",
+            "countryCode": "TUN",
+            "primaryTeamId": 9810,
+            "primaryTeamName": "Eintracht Frankfurt",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 4524103,
+            "firstName": "Ellyes",
+            "lastName": "Skhiri",
+            "rankings": null
+          },
+          {
+            "id": 1015128,
+            "age": 27,
+            "name": "Elias Achouri",
+            "positionId": 83,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "7",
+            "countryName": "Tunisia",
+            "countryCode": "TUN",
+            "primaryTeamId": 8391,
+            "primaryTeamName": "FC København",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.837,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.162,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.325
+            },
+            "marketValue": 2277817,
+            "firstName": "Elias",
+            "lastName": "Achouri",
+            "rankings": null
+          },
+          {
+            "id": 1113785,
+            "age": 23,
+            "name": "Hannibal Mejbri",
+            "positionId": 85,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "10",
+            "countryName": "Tunisia",
+            "countryCode": "TUN",
+            "primaryTeamId": 8191,
+            "primaryTeamName": "Burnley",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.337
+            },
+            "marketValue": 19732053,
+            "firstName": "Hannibal",
+            "lastName": "Mejbri",
+            "shortName": "Hannibal",
+            "rankings": null
+          },
+          {
+            "id": 1244924,
+            "age": 22,
+            "name": "Ismaël Gharbi",
+            "positionId": 87,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "11",
+            "countryName": "Tunisia",
+            "countryCode": "TUN",
+            "primaryTeamId": 8406,
+            "primaryTeamName": "Augsburg",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.163,
+              "height": 0.25,
+              "width": 0.193
+            },
+            "verticalLayout": {
+              "x": 0.837,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.325
+            },
+            "marketValue": 8269620,
+            "firstName": "Ismaël",
+            "lastName": "Gharbi",
+            "rankings": null
+          },
+          {
+            "id": 845336,
+            "age": 30,
+            "name": "Firas Chaouat",
+            "positionId": 115,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "19",
+            "countryName": "Tunisia",
+            "countryCode": "TUN",
+            "primaryTeamId": 102102,
+            "primaryTeamName": "Club Africain",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 804195,
+            "firstName": "Firas",
+            "lastName": "Chaouat",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 192145,
+          "age": 57,
+          "name": "Hervé Renard",
+          "countryName": "France",
+          "countryCode": "FRA",
+          "firstName": "Hervé",
+          "lastName": "Renard",
+          "primaryTeamId": 6719,
+          "primaryTeamName": "Tunisia",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "averageStarterAge": 27.6,
+        "totalStarterMarketValue": 46998086
+      },
+      "awayTeam": {
+        "id": 6715,
+        "name": "Japan",
+        "formation": "3-4-2-1",
+        "starters": [
+          {
+            "id": 1053679,
+            "age": 23,
+            "name": "Zion Suzuki",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "primaryTeamId": 10167,
+            "primaryTeamName": "Parma",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 24076008,
+            "firstName": "Zion",
+            "lastName": "Suzuki",
+            "rankings": null
+          },
+          {
+            "id": 1023887,
+            "age": 29,
+            "name": "Tsuyoshi Watanabe",
+            "positionId": 33,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "16",
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "primaryTeamId": 10235,
+            "primaryTeamName": "Feyenoord",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 10544746,
+            "firstName": "Tsuyoshi",
+            "lastName": "Watanabe",
+            "rankings": null
+          },
+          {
+            "id": 523731,
+            "age": 34,
+            "name": "Shogo Taniguchi",
+            "positionId": 35,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "primaryTeamId": 9997,
+            "primaryTeamName": "St.Truiden",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 489195,
+            "firstName": "Shogo",
+            "lastName": "Taniguchi",
+            "rankings": null
+          },
+          {
+            "id": 851626,
+            "age": 27,
+            "name": "Hiroki Ito",
+            "positionId": 37,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "21",
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "primaryTeamId": 9823,
+            "primaryTeamName": "Bayern München",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 19385815,
+            "firstName": "Hiroki",
+            "lastName": "Ito",
+            "rankings": null
+          },
+          {
+            "id": 924610,
+            "age": 25,
+            "name": "Yukinari Sugawara",
+            "positionId": 62,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "2",
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "primaryTeamId": 8697,
+            "primaryTeamName": "Werder Bremen",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 6468523,
+            "firstName": "Yukinari",
+            "lastName": "Sugawara",
+            "rankings": null
+          },
+          {
+            "id": 1033111,
+            "age": 25,
+            "name": "Kaishu Sano",
+            "positionId": 64,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "24",
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "primaryTeamId": 9905,
+            "primaryTeamName": "Mainz 05",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 29248440,
+            "firstName": "Kaishu",
+            "lastName": "Sano",
+            "rankings": null
+          },
+          {
+            "id": 621515,
+            "age": 29,
+            "name": "Daichi Kamada",
+            "positionId": 66,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "15",
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "primaryTeamId": 9826,
+            "primaryTeamName": "Crystal Palace",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 10248016,
+            "firstName": "Daichi",
+            "lastName": "Kamada",
+            "rankings": null
+          },
+          {
+            "id": 887704,
+            "age": 25,
+            "name": "Keito Nakamura",
+            "positionId": 68,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "13",
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "primaryTeamId": 9837,
+            "primaryTeamName": "Reims",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 9885463,
+            "firstName": "Keito",
+            "lastName": "Nakamura",
+            "rankings": null
+          },
+          {
+            "id": 629805,
+            "age": 28,
+            "name": "Ritsu Doan",
+            "positionId": 84,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "10",
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "primaryTeamId": 9810,
+            "primaryTeamName": "Eintracht Frankfurt",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 21662153,
+            "firstName": "Ritsu",
+            "lastName": "Doan",
+            "rankings": null
+          },
+          {
+            "id": 728765,
+            "age": 28,
+            "name": "Daizen Maeda",
+            "positionId": 86,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "11",
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "primaryTeamId": 9925,
+            "primaryTeamName": "Celtic",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.193
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 12567723,
+            "firstName": "Daizen",
+            "lastName": "Maeda",
+            "rankings": null
+          },
+          {
+            "id": 942393,
+            "age": 27,
+            "name": "Ayase Ueda",
+            "positionId": 105,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "18",
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "primaryTeamId": 10235,
+            "primaryTeamName": "Feyenoord",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 17343060,
+            "firstName": "Ayase",
+            "lastName": "Ueda",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 431269,
+          "age": 57,
+          "name": "Hajime Moriyasu",
+          "countryName": "Japan",
+          "countryCode": "JPN",
+          "firstName": "Hajime",
+          "lastName": "Moriyasu",
+          "primaryTeamId": 6715,
+          "primaryTeamName": "Japan",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "unavailable": [
+          {
+            "id": 915111,
+            "age": 26,
+            "name": "Shuto Machino",
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "marketValue": 5938750,
+            "unavailability": {
+              "injuryId": 96,
+              "type": "injury",
+              "expectedReturn": "Doubtful"
+            },
+            "firstName": "Shuto",
+            "lastName": "Machino"
+          },
+          {
+            "id": 848289,
+            "age": 25,
+            "name": "Takefusa Kubo",
+            "positionId": 1000,
+            "countryName": "Japan",
+            "countryCode": "JPN",
+            "primaryTeamId": 8560,
+            "primaryTeamName": "Real Sociedad",
+            "marketValue": 32739969,
+            "unavailability": {
+              "injuryId": 124,
+              "type": "injury",
+              "expectedReturn": "Early July 2026"
+            },
+            "firstName": "Takefusa",
+            "lastName": "Kubo"
+          }
+        ],
+        "averageStarterAge": 27.9,
+        "totalStarterMarketValue": 161919142
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894795",
+      "url": "https://data.fotmob.com/tables.ext.894795.fot.gz",
+      "teams": [
+        6719,
+        6715
+      ],
+      "tournamentNameForUrl": "World Cup Grp. F",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": {
+      "summary": [
+        1,
+        0,
+        3
+      ],
+      "matches": [
+        {
+          "time": {
+            "utcTime": "2023-10-17T10:10:00.000Z"
+          },
+          "matchUrl": "/matches/japan-vs-tunisia/1hqd1q#4340924",
+          "league": {
+            "name": "Friendlies",
+            "id": "114",
+            "pageUrl": "/leagues/114/overview/friendlies"
+          },
+          "home": {
+            "name": "Japan",
+            "id": "6715"
+          },
+          "status": {
+            "utcTime": "2023-10-17T10:10:00.000Z",
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "awarded": false,
+            "scoreStr": "2 - 0",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
+          },
+          "finished": false,
+          "away": {
+            "name": "Tunisia",
+            "id": "6719"
+          }
+        },
+        {
+          "time": {
+            "utcTime": "2022-06-14T09:55:00.000Z"
+          },
+          "matchUrl": "/matches/japan-vs-tunisia/1hqd1q#3895397",
+          "league": {
+            "name": "Friendlies",
+            "id": "114",
+            "pageUrl": "/leagues/114/overview/friendlies"
+          },
+          "home": {
+            "name": "Japan",
+            "id": "6715"
+          },
+          "status": {
+            "utcTime": "2022-06-14T09:55:00.000Z",
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "awarded": false,
+            "scoreStr": "0 - 3",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
+          },
+          "finished": false,
+          "away": {
+            "name": "Tunisia",
+            "id": "6719"
+          }
+        },
+        {
+          "time": {
+            "utcTime": "2015-03-27T10:35:00.000Z"
+          },
+          "matchUrl": "/matches/japan-vs-tunisia/1hqd1q#1894178",
+          "league": {
+            "name": "Friendlies",
+            "id": "114",
+            "pageUrl": "/leagues/114/overview/friendlies"
+          },
+          "home": {
+            "name": "Japan",
+            "id": "6715"
+          },
+          "status": {
+            "utcTime": "2015-03-27T10:35:00.000Z",
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "awarded": false,
+            "scoreStr": "2 - 0",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
+          },
+          "finished": false,
+          "away": {
+            "name": "Tunisia",
+            "id": "6719"
+          }
+        },
+        {
+          "time": {
+            "utcTime": "2002-06-14T06:30:00.000Z"
+          },
+          "matchUrl": "/matches/japan-vs-tunisia/1hqd1q#34719",
+          "league": {
+            "name": "World Cup grp. H",
+            "id": "77",
+            "pageUrl": "/leagues/77/overview/world-cup-grp-h"
+          },
+          "home": {
+            "name": "Tunisia",
+            "id": "6719"
+          },
+          "status": {
+            "utcTime": "2002-06-14T06:30:00.000Z",
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "awarded": false,
+            "scoreStr": "0 - 2",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
+          },
+          "finished": false,
+          "away": {
+            "name": "Japan",
+            "id": "6715"
+          }
+        }
+      ]
+    },
+    "momentum": false
+  },
+  "seo": {
+    "path": "tunisia-vs-japan",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667785",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Tunisia",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
+        "url": "https://www.fotmob.com/teams/6719/overview/tunisia",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Japan",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6715.png",
+        "url": "https://www.fotmob.com/teams/6715/overview/japan",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Tunisia vs Japan",
+      "description": "Follow Tunisia vs Japan live on fotmob.com",
+      "startDate": "2026-06-21T04:00:00.000Z",
+      "endDate": "2026-06-21T06:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Monterrey Stadium",
+        "latitude": 25.669182471,
+        "longitude": -100.244469647,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Mexico",
+          "addressLocality": "Guadalupe"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6715.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667785",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-21T04:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Tunisia",
+          "url": "https://www.fotmob.com/teams/6719/overview/tunisia"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Japan",
+          "url": "https://www.fotmob.com/teams/6715/overview/japan"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. F",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-f"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tunisia - Japan",
+            "item": "https://www.fotmob.com/match/4667785"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. F",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-f"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Japan",
+            "item": "https://www.fotmob.com/teams/6715/overview/japan"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Tunisia - Japan",
+            "item": "https://www.fotmob.com/match/4667785"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. F",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-f"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tunisia",
+            "item": "https://www.fotmob.com/teams/6719/overview/tunisia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Tunisia - Japan",
+            "item": "https://www.fotmob.com/match/4667785"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

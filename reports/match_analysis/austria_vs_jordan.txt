@@ -1,0 +1,33 @@
+Austria vs Jordan
+
+Date: 2026-06-17T04:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_J
+
+Base Prediction:
+Austria Win: 68.9%
+Draw: 17.2%
+Jordan Win: 13.9%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 112.94 | edge: Austria
+- weighted points last 5: 25.00 | edge: Austria
+- goal difference last 5: 15.00 | edge: Austria
+- points last 5: 11.00 | edge: Austria
+- points last 10: 11.00 | edge: Austria
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Austria 28.1 | Jordan 28.0
+Forwards: Austria 3 | Jordan 8
+Midfielders: Austria 11 | Jordan 7
+Defenders: Austria 9 | Jordan 8
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

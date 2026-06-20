@@ -1,19 +1,340 @@
-Best Model Test Evaluation
+Phase 1 Historical Match Prediction Report
 
-Best model: xgboost
-Accuracy: 0.6014
-Log loss: 0.8721
+Best model: xgboost_slow_learning
+Selection metric: validation_log_loss
+
+Features used:
+- elo_diff
+- points_last_5_diff
+- points_last_10_diff
+- goal_difference_last_5_diff
+- goals_for_last_5_diff
+- goals_against_last_5_diff
+- weighted_points_last_5_diff
+- weighted_goal_difference_last_5_diff
+- wins_last_5_diff
+- draws_last_5_diff
+- losses_last_5_diff
+- clean_sheets_last_5_diff
+- failed_to_score_last_5_diff
+- matches_played_2y_diff
+- win_rate_2y_diff
+- draw_rate_2y_diff
+- loss_rate_2y_diff
+- goals_for_per_match_2y_diff
+- goals_against_per_match_2y_diff
+- goal_difference_per_match_2y_diff
+- clean_sheet_rate_2y_diff
+- failed_to_score_rate_2y_diff
+- neutral
+- match_importance
+
+Time-based split:
+{
+  "type": "time_based",
+  "base_train_rows": 29407,
+  "calibration_rows": 5190,
+  "validation_rows": 7414,
+  "test_rows": 7414,
+  "base_train_date_range": [
+    "1872-11-30",
+    "2005-08-17"
+  ],
+  "calibration_date_range": [
+    "2005-08-17",
+    "2011-03-24"
+  ],
+  "validation_date_range": [
+    "2011-03-25",
+    "2018-10-16"
+  ],
+  "test_date_range": [
+    "2018-10-16",
+    "2026-06-16"
+  ]
+}
+
+Prediction policy:
+{
+  "name": "draw_threshold",
+  "draw_min_probability": 0.31,
+  "draw_margin": 0.15,
+  "description": "Predict draw when draw probability is high and close to the strongest win/loss probability.",
+  "validation_accuracy": 0.5762071756137038,
+  "validation_draw_recall": 0.07963069821119446,
+  "validation_confusion_matrix": [
+    [
+      1110,
+      151,
+      857
+    ],
+    [
+      473,
+      138,
+      1122
+    ],
+    [
+      430,
+      109,
+      3024
+    ]
+  ],
+  "baseline_validation_accuracy": 0.5745886161316428,
+  "baseline_validation_draw_recall": 0.0017311021350259665
+}
+
+Model comparison:
+
+logistic_regression_baseline
+Type: baseline
+Validation accuracy: 0.5743
+Validation log loss: 0.9080
+Validation draw recall: 0.0000
+Validation confusion matrix [[loss, draw, win], ...]: [[1164, 0, 954], [522, 0, 1211], [469, 0, 3094]]
+Test accuracy: 0.6033
+Test log loss: 0.8693
+Test draw recall: 0.0000
+Test confusion matrix [[loss, draw, win], ...]: [[1292, 0, 871], [520, 0, 1179], [371, 0, 3181]]
+
+logistic_regression_baseline_calibrated
+Type: calibrated_sigmoid_on_calibration_split
+Validation accuracy: 0.5759
+Validation log loss: 0.9166
+Validation draw recall: 0.0000
+Validation confusion matrix [[loss, draw, win], ...]: [[1228, 0, 890], [550, 0, 1183], [521, 0, 3042]]
+Test accuracy: 0.6039
+Test log loss: 0.8794
+Test draw recall: 0.0000
+Test confusion matrix [[loss, draw, win], ...]: [[1334, 0, 829], [550, 0, 1149], [409, 0, 3143]]
+
+logistic_regression_balanced
+Type: balanced
+Validation accuracy: 0.5496
+Validation log loss: 0.9398
+Validation draw recall: 0.2550
+Validation confusion matrix [[loss, draw, win], ...]: [[1278, 434, 406], [618, 442, 673], [602, 606, 2355]]
+Test accuracy: 0.5815
+Test log loss: 0.8910
+Test draw recall: 0.2007
+Test confusion matrix [[loss, draw, win], ...]: [[1409, 345, 409], [625, 341, 733], [490, 501, 2561]]
+
+logistic_regression_balanced_calibrated
+Type: calibrated_sigmoid_on_calibration_split
+Validation accuracy: 0.5755
+Validation log loss: 0.9169
+Validation draw recall: 0.0000
+Validation confusion matrix [[loss, draw, win], ...]: [[1224, 0, 894], [551, 0, 1182], [520, 0, 3043]]
+Test accuracy: 0.6032
+Test log loss: 0.8798
+Test draw recall: 0.0000
+Test confusion matrix [[loss, draw, win], ...]: [[1327, 0, 836], [548, 0, 1151], [407, 0, 3145]]
+
+random_forest_baseline
+Type: baseline
+Validation accuracy: 0.5723
+Validation log loss: 0.9160
+Validation draw recall: 0.0052
+Validation confusion matrix [[loss, draw, win], ...]: [[1137, 16, 965], [515, 9, 1209], [452, 14, 3097]]
+Test accuracy: 0.5975
+Test log loss: 0.8837
+Test draw recall: 0.0065
+Test confusion matrix [[loss, draw, win], ...]: [[1238, 17, 908], [509, 11, 1179], [358, 13, 3181]]
+
+random_forest_baseline_calibrated
+Type: calibrated_sigmoid_on_calibration_split
+Validation accuracy: 0.5688
+Validation log loss: 0.9196
+Validation draw recall: 0.0277
+Validation confusion matrix [[loss, draw, win], ...]: [[1186, 83, 849], [570, 48, 1115], [507, 73, 2983]]
+Test accuracy: 0.6009
+Test log loss: 0.8865
+Test draw recall: 0.0247
+Test confusion matrix [[loss, draw, win], ...]: [[1308, 55, 800], [540, 42, 1117], [394, 53, 3105]]
+
+random_forest_balanced
+Type: balanced
+Validation accuracy: 0.5507
+Validation log loss: 0.9379
+Validation draw recall: 0.2349
+Validation confusion matrix [[loss, draw, win], ...]: [[1236, 409, 473], [587, 407, 739], [578, 545, 2440]]
+Test accuracy: 0.5834
+Test log loss: 0.8994
+Test draw recall: 0.2001
+Test confusion matrix [[loss, draw, win], ...]: [[1347, 339, 477], [584, 340, 775], [460, 454, 2638]]
+
+random_forest_balanced_calibrated
+Type: calibrated_sigmoid_on_calibration_split
+Validation accuracy: 0.5688
+Validation log loss: 0.9186
+Validation draw recall: 0.0323
+Validation confusion matrix [[loss, draw, win], ...]: [[1210, 82, 826], [581, 56, 1096], [546, 66, 2951]]
+Test accuracy: 0.6040
+Test log loss: 0.8843
+Test draw recall: 0.0259
+Test confusion matrix [[loss, draw, win], ...]: [[1331, 56, 776], [573, 44, 1082], [411, 38, 3103]]
+
+xgboost_baseline
+Type: baseline
+Validation accuracy: 0.5750
+Validation log loss: 0.9051
+Validation draw recall: 0.0017
+Validation confusion matrix [[loss, draw, win], ...]: [[1171, 3, 944], [539, 3, 1191], [472, 2, 3089]]
+Test accuracy: 0.6026
+Test log loss: 0.8670
+Test draw recall: 0.0006
+Test confusion matrix [[loss, draw, win], ...]: [[1309, 1, 853], [543, 1, 1155], [391, 3, 3158]]
+
+xgboost_baseline_calibrated
+Type: calibrated_sigmoid_on_calibration_split
+Validation accuracy: 0.5734
+Validation log loss: 0.9098
+Validation draw recall: 0.0358
+Validation confusion matrix [[loss, draw, win], ...]: [[1171, 73, 874], [539, 62, 1132], [480, 65, 3018]]
+Test accuracy: 0.6010
+Test log loss: 0.8741
+Test draw recall: 0.0235
+Test confusion matrix [[loss, draw, win], ...]: [[1303, 57, 803], [539, 40, 1120], [398, 41, 3113]]
+
+xgboost_balanced
+Type: balanced
+Validation accuracy: 0.5368
+Validation log loss: 0.9410
+Validation draw recall: 0.3630
+Validation confusion matrix [[loss, draw, win], ...]: [[1213, 586, 319], [553, 629, 551], [529, 896, 2138]]
+Test accuracy: 0.5674
+Test log loss: 0.8942
+Test draw recall: 0.3031
+Test confusion matrix [[loss, draw, win], ...]: [[1343, 494, 326], [572, 515, 612], [443, 760, 2349]]
+
+xgboost_balanced_calibrated
+Type: calibrated_sigmoid_on_calibration_split
+Validation accuracy: 0.5753
+Validation log loss: 0.9090
+Validation draw recall: 0.0254
+Validation confusion matrix [[loss, draw, win], ...]: [[1235, 51, 832], [575, 44, 1114], [531, 46, 2986]]
+Test accuracy: 0.6026
+Test log loss: 0.8736
+Test draw recall: 0.0159
+Test confusion matrix [[loss, draw, win], ...]: [[1347, 35, 781], [569, 27, 1103], [427, 31, 3094]]
+
+xgboost_regularized
+Type: tuned_baseline
+Validation accuracy: 0.5728
+Validation log loss: 0.9059
+Validation draw recall: 0.0000
+Validation confusion matrix [[loss, draw, win], ...]: [[1151, 2, 965], [524, 0, 1209], [467, 0, 3096]]
+Test accuracy: 0.6020
+Test log loss: 0.8679
+Test draw recall: 0.0000
+Test confusion matrix [[loss, draw, win], ...]: [[1289, 0, 874], [540, 0, 1159], [375, 3, 3174]]
+
+xgboost_regularized_calibrated
+Type: calibrated_sigmoid_on_calibration_split
+Validation accuracy: 0.5758
+Validation log loss: 0.9106
+Validation draw recall: 0.0329
+Validation confusion matrix [[loss, draw, win], ...]: [[1184, 60, 874], [530, 57, 1146], [489, 46, 3028]]
+Test accuracy: 0.6013
+Test log loss: 0.8745
+Test draw recall: 0.0206
+Test confusion matrix [[loss, draw, win], ...]: [[1302, 42, 819], [538, 35, 1126], [397, 34, 3121]]
+
+xgboost_regularized_balanced
+Type: tuned_balanced
+Validation accuracy: 0.5390
+Validation log loss: 0.9432
+Validation draw recall: 0.3503
+Validation confusion matrix [[loss, draw, win], ...]: [[1206, 585, 327], [549, 607, 577], [521, 859, 2183]]
+Test accuracy: 0.5685
+Test log loss: 0.8961
+Test draw recall: 0.2872
+Test confusion matrix [[loss, draw, win], ...]: [[1335, 487, 341], [571, 488, 640], [429, 731, 2392]]
+
+xgboost_regularized_balanced_calibrated
+Type: calibrated_sigmoid_on_calibration_split
+Validation accuracy: 0.5742
+Validation log loss: 0.9099
+Validation draw recall: 0.0214
+Validation confusion matrix [[loss, draw, win], ...]: [[1228, 48, 842], [569, 37, 1127], [530, 41, 2992]]
+Test accuracy: 0.6021
+Test log loss: 0.8736
+Test draw recall: 0.0159
+Test confusion matrix [[loss, draw, win], ...]: [[1339, 31, 793], [566, 27, 1106], [422, 32, 3098]]
+
+xgboost_slow_learning
+Type: tuned_baseline
+Validation accuracy: 0.5746
+Validation log loss: 0.9049
+Validation draw recall: 0.0017
+Validation confusion matrix [[loss, draw, win], ...]: [[1168, 6, 944], [533, 3, 1197], [472, 2, 3089]]
+Test accuracy: 0.6018
+Test log loss: 0.8668
+Test draw recall: 0.0012
+Test confusion matrix [[loss, draw, win], ...]: [[1305, 2, 856], [539, 2, 1158], [393, 4, 3155]]
+
+xgboost_slow_learning_calibrated
+Type: calibrated_sigmoid_on_calibration_split
+Validation accuracy: 0.5749
+Validation log loss: 0.9099
+Validation draw recall: 0.0369
+Validation confusion matrix [[loss, draw, win], ...]: [[1171, 74, 873], [539, 64, 1130], [474, 62, 3027]]
+Test accuracy: 0.6005
+Test log loss: 0.8738
+Test draw recall: 0.0235
+Test confusion matrix [[loss, draw, win], ...]: [[1297, 57, 809], [539, 40, 1120], [395, 42, 3115]]
+
+Best Model Final Test Evaluation
+
+Best model: xgboost_slow_learning
+Accuracy: 0.6018
+Log loss: 0.8668
+Draw recall: 0.0012
+Number of features used: 24
+PyFotMob features included: []
 
 Confusion matrix rows=true, columns=predicted, order=[Team A loss, Draw, Team A win]:
-[[1304, 0, 859], [544, 0, 1155], [396, 1, 3155]]
+[[1305, 2, 856], [539, 2, 1158], [393, 4, 3155]]
+
+Decision policy:
+{
+  "name": "draw_threshold",
+  "draw_min_probability": 0.31,
+  "draw_margin": 0.15,
+  "description": "Predict draw when draw probability is high and close to the strongest win/loss probability.",
+  "validation_accuracy": 0.5762071756137038,
+  "validation_draw_recall": 0.07963069821119446,
+  "validation_confusion_matrix": [
+    [
+      1110,
+      151,
+      857
+    ],
+    [
+      473,
+      138,
+      1122
+    ],
+    [
+      430,
+      109,
+      3024
+    ]
+  ],
+  "baseline_validation_accuracy": 0.5745886161316428,
+  "baseline_validation_draw_recall": 0.0017311021350259665
+}
+Policy accuracy: 0.5999
+Policy draw recall: 0.0518
+Policy confusion matrix rows=true, columns=predicted, order=[Team A loss, Draw, Team A win]:
+[[1254, 95, 814], [505, 88, 1106], [360, 86, 3106]]
 
 Classification report:
               precision    recall  f1-score   support
 
  Team A loss       0.58      0.60      0.59      2163
-        Draw       0.00      0.00      0.00      1699
+        Draw       0.25      0.00      0.00      1699
   Team A win       0.61      0.89      0.72      3552
 
     accuracy                           0.60      7414
-   macro avg       0.40      0.50      0.44      7414
-weighted avg       0.46      0.60      0.52      7414
+   macro avg       0.48      0.50      0.44      7414
+weighted avg       0.52      0.60      0.52      7414

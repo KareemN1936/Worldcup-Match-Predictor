@@ -1,0 +1,870 @@
+{
+  "general": {
+    "matchId": "4667829",
+    "matchName": "Panama-vs-England_Sat, Jun 27, 2026, 21:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#BF1F27",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#BF1F27",
+        "away": "#6FA3E6"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894801,
+    "leagueName": "World Cup Grp. L",
+    "leagueRoundName": "3",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Panama",
+      "id": 5922
+    },
+    "awayTeam": {
+      "name": "England",
+      "id": 8491
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, Jun 27, 2026, 21:00 UTC",
+    "matchTimeUTCDate": "2026-06-27T21:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Panama",
+        "id": 5922,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5922_small.png",
+        "pageUrl": "/teams/5922/overview/panama",
+        "fifaRank": 34
+      },
+      {
+        "name": "England",
+        "id": 8491,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8491_small.png",
+        "pageUrl": "/teams/8491/overview/england",
+        "fifaRank": 4
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-27T21:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table",
+    "head to head",
+    "injured"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667829,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-27T21:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894801,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-l",
+          "leagueName": "World Cup Grp. L",
+          "roundName": "3",
+          "round": "3"
+        },
+        "Stadium": {
+          "name": "New York New Jersey Stadium",
+          "city": "East Rutherford, New Jersey",
+          "country": "United States",
+          "lat": 40.813553451,
+          "long": -74.074367881,
+          "capacity": 82566,
+          "surface": "grass"
+        },
+        "Referee": {
+          "text": "",
+          "countryCode": "",
+          "country": ""
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6316_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-south-africa/18laph#5267353",
+            "date": {
+              "utcTime": "2026-03-31T17:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/6316/overview/south-africa",
+            "tooltipText": {
+              "utcTime": "2026-03-31T17:30:00.000Z",
+              "homeTeam": "South Africa",
+              "homeTeamId": 6316,
+              "homeScore": "1",
+              "awayTeam": "Panama",
+              "awayTeamId": 5922,
+              "awayScore": "2"
+            },
+            "score": "1 - 2",
+            "home": {
+              "id": "6316",
+              "name": "South Africa",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8256_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-brazil/1nuk6r#5629007",
+            "date": {
+              "utcTime": "2026-05-31T21:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/8256/overview/brazil",
+            "tooltipText": {
+              "utcTime": "2026-05-31T21:30:00.000Z",
+              "homeTeam": "Brazil",
+              "homeTeamId": 8256,
+              "homeScore": "6",
+              "awayTeam": "Panama",
+              "awayTeamId": 5922,
+              "awayScore": "2"
+            },
+            "score": "6 - 2",
+            "home": {
+              "id": "8256",
+              "name": "Brazil",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/262134_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-dominican-republic/gi63hzi#5729607",
+            "date": {
+              "utcTime": "2026-06-04T00:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/262134/overview/dominican-republic",
+            "tooltipText": {
+              "utcTime": "2026-06-04T00:45:00.000Z",
+              "homeTeam": "Panama",
+              "homeTeamId": 5922,
+              "homeScore": "4",
+              "awayTeam": "Dominican Republic",
+              "awayTeamId": 262134,
+              "awayScore": "2"
+            },
+            "score": "4 - 2",
+            "home": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "262134",
+              "name": "Dominican Republic",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10106_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-bosnia-herzegovina/24he60#5737313",
+            "date": {
+              "utcTime": "2026-06-06T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/10106/overview/bosnia-herzegovina",
+            "tooltipText": {
+              "utcTime": "2026-06-06T19:00:00.000Z",
+              "homeTeam": "Panama",
+              "homeTeamId": 5922,
+              "homeScore": "1",
+              "awayTeam": "Bosnia and Herzegovina",
+              "awayTeamId": 10106,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "10106",
+              "name": "Bosnia and Herzegovina",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6714_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-ghana/1bjek0#4667826",
+            "date": {
+              "utcTime": "2026-06-17T23:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6714/overview/ghana",
+            "tooltipText": {
+              "utcTime": "2026-06-17T23:00:00.000Z",
+              "homeTeam": "Ghana",
+              "homeTeamId": 6714,
+              "homeScore": "1",
+              "awayTeam": "Panama",
+              "awayTeamId": 5922,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "6714",
+              "name": "Ghana",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": true
+            }
+          }
+        ],
+        [
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5796_xsmall.png",
+            "linkToMatch": "/matches/uruguay-vs-england/1ortfn#5124809",
+            "date": {
+              "utcTime": "2026-03-27T19:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/5796/overview/uruguay",
+            "tooltipText": {
+              "utcTime": "2026-03-27T19:45:00.000Z",
+              "homeTeam": "England",
+              "homeTeamId": 8491,
+              "homeScore": "1",
+              "awayTeam": "Uruguay",
+              "awayTeamId": 5796,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "8491",
+              "name": "England",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5796",
+              "name": "Uruguay",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6715_xsmall.png",
+            "linkToMatch": "/matches/japan-vs-england/1wuals#5124812",
+            "date": {
+              "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/6715/overview/japan",
+            "tooltipText": {
+              "utcTime": "2026-03-31T18:45:00.000Z",
+              "homeTeam": "England",
+              "homeTeamId": 8491,
+              "homeScore": "0",
+              "awayTeam": "Japan",
+              "awayTeamId": 6715,
+              "awayScore": "1"
+            },
+            "score": "0 - 1",
+            "home": {
+              "id": "8491",
+              "name": "England",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6715",
+              "name": "Japan",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5820_xsmall.png",
+            "linkToMatch": "/matches/new-zealand-vs-england/1oz68n#5213042",
+            "date": {
+              "utcTime": "2026-06-06T20:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5820/overview/new-zealand",
+            "tooltipText": {
+              "utcTime": "2026-06-06T20:00:00.000Z",
+              "homeTeam": "England",
+              "homeTeamId": 8491,
+              "homeScore": "1",
+              "awayTeam": "New Zealand",
+              "awayTeamId": 5820,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "8491",
+              "name": "England",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5820",
+              "name": "New Zealand",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6705_xsmall.png",
+            "linkToMatch": "/matches/costa-rica-vs-england/1wr1b5#5213043",
+            "date": {
+              "utcTime": "2026-06-10T21:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6705/overview/costa-rica",
+            "tooltipText": {
+              "utcTime": "2026-06-10T21:00:00.000Z",
+              "homeTeam": "England",
+              "homeTeamId": 8491,
+              "homeScore": "3",
+              "awayTeam": "Costa Rica",
+              "awayTeamId": 6705,
+              "awayScore": "0"
+            },
+            "score": "3 - 0",
+            "home": {
+              "id": "8491",
+              "name": "England",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6705",
+              "name": "Costa Rica",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10155_xsmall.png",
+            "linkToMatch": "/matches/england-vs-croatia/2viayw#4667825",
+            "date": {
+              "utcTime": "2026-06-17T20:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/10155/overview/croatia",
+            "tooltipText": {
+              "utcTime": "2026-06-17T20:00:00.000Z",
+              "homeTeam": "England",
+              "homeTeamId": 8491,
+              "homeScore": "4",
+              "awayTeam": "Croatia",
+              "awayTeamId": 10155,
+              "awayScore": "2"
+            },
+            "score": "4 - 2",
+            "home": {
+              "id": "8491",
+              "name": "England",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "10155",
+              "name": "Croatia",
+              "isOurTeam": false
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667829",
+          "MatchId": 4667829,
+          "HomeTeamId": 5922,
+          "AwayTeamId": 8491,
+          "HomeTeam": "Panama",
+          "AwayTeam": "England",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} have {1}W, {2}D, {3}L in five matches while {4} have {5}W, {6}D, {7}L.",
+              "TextTemplateId": "team_form_both",
+              "StatValues": [
+                "home_team",
+                "2",
+                "1",
+                "2",
+                "away_team",
+                "3",
+                "1",
+                "1"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Panama have 2W, 1D, 2L in five matches while England have 3W, 1D, 1L."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored in their last {1} home matches.",
+              "TextTemplateId": "goalstreak_team_home",
+              "StatValues": [
+                "home_team",
+                "4"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Panama have scored in their last 4 home matches."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have scored {1} goals in their last {2} matches.",
+              "TextTemplateId": "goals_team",
+              "StatValues": [
+                "away_team",
+                "8",
+                "3"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "England have scored 8 goals in their last 3 matches."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't drawn in their last {1} matches.",
+              "TextTemplateId": "draw_streak_team",
+              "StatValues": [
+                "away_team",
+                "4"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "England haven't drawn in their last 4 matches."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 5922,
+          "priority": 8,
+          "defaultText": "Haven't kept a clean sheet in {0} matches",
+          "localizedTextId": "insights_not_clean_sheet",
+          "statValues": [
+            {
+              "value": 8,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't kept a clean sheet in 8 matches",
+          "color": "#BF1F27"
+        }
+      ],
+      "countryCode": "INT",
+      "QAData": []
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 29,
+      "windSpeed": 4,
+      "windDirectionCardinal": "W",
+      "iconCode": 30,
+      "relativeHumidity": 45,
+      "precipChance": 18,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 55,
+      "description": "Partly Cloudy",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T11:00:01Z",
+      "localizedKey": "weather_condition_partly_cloudy",
+      "defaultTitle": "Partly Cloudy"
+    },
+    "lineup": {
+      "matchId": 4667829,
+      "lineupType": "standard",
+      "availableFilters": [
+        "match"
+      ],
+      "homeTeam": {
+        "id": 5922,
+        "name": "Panama",
+        "unavailable": [
+          {
+            "id": 643682,
+            "name": "Adalberto Carrasquilla",
+            "unavailability": {
+              "injuryId": 121,
+              "lastUpdated": "2026-06-20T09:35:59Z",
+              "type": "injury",
+              "expectedReturn": "Doubtful"
+            },
+            "firstName": "Adalberto",
+            "lastName": "Carrasquilla"
+          }
+        ]
+      },
+      "awayTeam": {
+        "id": 8491,
+        "name": "England",
+        "unavailable": [
+          {
+            "id": 654096,
+            "name": "Declan Rice",
+            "unavailability": {
+              "injuryId": 45,
+              "lastUpdated": "2026-06-20T19:05:53Z",
+              "type": "injury",
+              "expectedReturn": "Doubtful"
+            },
+            "firstName": "Declan",
+            "lastName": "Rice"
+          },
+          {
+            "id": 696365,
+            "name": "Marcus Rashford",
+            "unavailability": {
+              "injuryId": 87,
+              "lastUpdated": "2026-06-20T19:05:45Z",
+              "type": "injury",
+              "expectedReturn": "Doubtful"
+            },
+            "firstName": "Marcus",
+            "lastName": "Rashford"
+          }
+        ]
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894801",
+      "url": "https://data.fotmob.com/tables.ext.894801.fot.gz",
+      "teams": [
+        5922,
+        8491
+      ],
+      "tournamentNameForUrl": "World Cup Grp. L",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": {
+      "summary": [
+        0,
+        0,
+        1
+      ],
+      "matches": [
+        {
+          "time": {
+            "utcTime": "2018-06-24T12:00:00.000Z"
+          },
+          "matchUrl": "/matches/panama-vs-england/1pukme#2059622",
+          "league": {
+            "name": "World Cup Grp. G",
+            "id": "77",
+            "pageUrl": "/leagues/77/overview/world-cup-grp-g"
+          },
+          "home": {
+            "name": "England",
+            "id": "8491"
+          },
+          "status": {
+            "utcTime": "2018-06-24T12:00:00.000Z",
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "awarded": false,
+            "scoreStr": "6 - 1",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
+          },
+          "finished": false,
+          "away": {
+            "name": "Panama",
+            "id": "5922"
+          }
+        }
+      ]
+    },
+    "momentum": false
+  },
+  "seo": {
+    "path": "panama-vs-england",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667829",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Panama",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5922.png",
+        "url": "https://www.fotmob.com/teams/5922/overview/panama",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "England",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8491.png",
+        "url": "https://www.fotmob.com/teams/8491/overview/england",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Panama vs England",
+      "description": "Follow Panama vs England live on fotmob.com",
+      "startDate": "2026-06-27T21:00:00.000Z",
+      "endDate": "2026-06-27T23:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "New York New Jersey Stadium",
+        "latitude": 40.813553451,
+        "longitude": -74.074367881,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "United States",
+          "addressLocality": "East Rutherford, New Jersey"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/5922.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/8491.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667829",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-27T21:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Panama",
+          "url": "https://www.fotmob.com/teams/5922/overview/panama"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "England",
+          "url": "https://www.fotmob.com/teams/8491/overview/england"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. L",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-l"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Panama - England",
+            "item": "https://www.fotmob.com/match/4667829"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. L",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-l"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "England",
+            "item": "https://www.fotmob.com/teams/8491/overview/england"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Panama - England",
+            "item": "https://www.fotmob.com/match/4667829"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. L",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-l"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Panama",
+            "item": "https://www.fotmob.com/teams/5922/overview/panama"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Panama - England",
+            "item": "https://www.fotmob.com/match/4667829"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

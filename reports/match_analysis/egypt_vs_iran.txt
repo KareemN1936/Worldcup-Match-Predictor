@@ -1,0 +1,41 @@
+Egypt vs Iran
+
+Date: 2026-06-27T03:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_G
+
+Base Prediction:
+Egypt Win: 30.3%
+Draw: 27.4%
+Iran Win: 42.3%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -63.26 | edge: Iran
+- goals for last 5: -6.00 | edge: Iran
+- goal difference last 5: -4.00 | edge: Iran
+- points last 5: -2.00 | edge: Iran
+- points last 10: -2.00 | edge: Iran
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.03
+Probability shift: 0.0026
+Top signals: player rating:home; starting XI rating:home; points per match:away
+Egypt Win: 30.6%
+Draw: 27.4%
+Iran Win: 42.1%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Egypt 28.7 | Iran 29.8
+Forwards: Egypt 5 | Iran 8
+Midfielders: Egypt 9 | Iran 6
+Defenders: Egypt 8 | Iran 9
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

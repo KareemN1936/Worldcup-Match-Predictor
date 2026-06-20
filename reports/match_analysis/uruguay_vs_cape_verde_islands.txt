@@ -1,0 +1,41 @@
+Uruguay vs Cape Verde Islands
+
+Date: 2026-06-21T22:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_H
+
+Base Prediction:
+Uruguay Win: 90.2%
+Draw: 7.3%
+Cape Verde Islands Win: 2.5%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 330.82 | edge: Uruguay
+- points last 10: 17.00 | edge: Uruguay
+- weighted points last 5: 7.50 | edge: Uruguay
+- goals against last 5: 7.00 | edge: Cape Verde Islands
+- points last 5: 4.00 | edge: Uruguay
+
+FotMob Layer:
+Features available: 5
+Reliability: 0.28
+Enrichment score: -0.01
+Probability shift: -0.0002
+Top signals: shots on target:away; yellow cards:home; points per match:away
+Uruguay Win: 90.2%
+Draw: 7.3%
+Cape Verde Islands Win: 2.5%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Uruguay 28.2 | Cape Verde Islands 29.2
+Forwards: Uruguay 4 | Cape Verde Islands 7
+Midfielders: Uruguay 10 | Cape Verde Islands 8
+Defenders: Uruguay 9 | Cape Verde Islands 8
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

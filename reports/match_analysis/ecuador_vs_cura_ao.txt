@@ -1,0 +1,41 @@
+Ecuador vs Curaçao
+
+Date: 2026-06-21T00:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_E
+
+Base Prediction:
+Ecuador Win: 84.5%
+Draw: 9.7%
+Curaçao Win: 5.9%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 290.47 | edge: Ecuador
+- goal difference last 5: 14.00 | edge: Ecuador
+- goals against last 5: -14.00 | edge: Ecuador
+- points last 5: 5.00 | edge: Ecuador
+- weighted points last 5: 5.00 | edge: Ecuador
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.34
+Probability shift: 0.0123
+Top signals: goal difference:home; starting XI rating:home; player rating:home
+Ecuador Win: 85.9%
+Draw: 9.4%
+Curaçao Win: 4.7%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Ecuador 25.6 | Curaçao 27.5
+Forwards: Ecuador 7 | Curaçao 8
+Midfielders: Ecuador 8 | Curaçao 4
+Defenders: Ecuador 8 | Curaçao 11
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

@@ -1,0 +1,33 @@
+Qatar vs Switzerland
+
+Date: 2026-06-13T19:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_B
+
+Base Prediction:
+Qatar Win: 17.9%
+Draw: 19.5%
+Switzerland Win: 62.5%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -171.55 | edge: Switzerland
+- points last 10: -10.00 | edge: Switzerland
+- goals for last 5: -7.00 | edge: Switzerland
+- goal difference last 5: -6.00 | edge: Switzerland
+- points last 5: -3.00 | edge: Switzerland
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Qatar 28.8 | Switzerland 27.8
+Forwards: Qatar 6 | Switzerland 5
+Midfielders: Qatar 8 | Switzerland 10
+Defenders: Qatar 9 | Switzerland 8
+
+Final Recommendation:
+Use: Team A loss
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

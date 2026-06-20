@@ -1,0 +1,300 @@
+{
+  "fixture": {
+    "fixture_id": 537328,
+    "date": "2026-06-12T02:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_A",
+    "home_team": "South Korea",
+    "away_team": "Czechia"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.9422763586044312,
+    "draw_probability": 0.0413969457149505,
+    "away_win_probability": 0.0163267031311988,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 343.7486773331109,
+      "points_last_5_diff": 9.0,
+      "points_last_10_diff": 19.0,
+      "goal_difference_last_5_diff": 2.0,
+      "goals_for_last_5_diff": 8.0,
+      "goals_against_last_5_diff": 6.0,
+      "weighted_points_last_5_diff": 19.5,
+      "weighted_goal_difference_last_5_diff": 5.5,
+      "wins_last_5_diff": 3.0,
+      "draws_last_5_diff": 0.0,
+      "losses_last_5_diff": 2.0,
+      "clean_sheets_last_5_diff": 2.0,
+      "failed_to_score_last_5_diff": 2.0,
+      "matches_played_2y_diff": 21.0,
+      "win_rate_2y_diff": 0.6190476190476191,
+      "draw_rate_2y_diff": 0.23809523809523808,
+      "loss_rate_2y_diff": 0.14285714285714285,
+      "goals_for_per_match_2y_diff": 1.7619047619047619,
+      "goals_against_per_match_2y_diff": 0.9523809523809523,
+      "goal_difference_per_match_2y_diff": 0.8095238095238095,
+      "clean_sheet_rate_2y_diff": 0.47619047619047616,
+      "failed_to_score_rate_2y_diff": 0.19047619047619047,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 343.7486773331109,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 19.5,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 19.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 9.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 8.0,
+        "leader": "South Korea"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 343.7486773331109,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 9.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 19.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 2.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 8.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 6.0,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 19.5,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.6190476190476191,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.8095238095238095,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.9523809523809523,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.47619047619047616,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.19047619047619047,
+        "leader": "Czechia"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": false,
+    "feature_count": 0,
+    "reliability": 0.0,
+    "enrichment_score": 0.0,
+    "probability_shift": 0.0,
+    "top_signals": null,
+    "home_win_probability": 0.9422763515839252,
+    "draw_probability": 0.0413969454065192,
+    "away_win_probability": 0.0163267030095554,
+    "predicted_result": "Team A win",
+    "strongest": [],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": null,
+        "leader": null
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 27.46153846153846,
+    "away_avg_age": 27.23076923076923,
+    "home_forwards": 6,
+    "away_forwards": 5,
+    "home_midfielders": 8,
+    "away_midfielders": 11,
+    "home_defenders": 9,
+    "away_defenders": 7,
+    "strongest": [
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -3.0,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 2.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 1.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.2307692307692299,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.2307692307692299,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 1.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -3.0,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 2.0,
+        "leader": "South Korea"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

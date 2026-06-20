@@ -1,0 +1,905 @@
+{
+  "general": {
+    "matchId": "4667775",
+    "matchName": "Turkiye-vs-USA_Fri, Jun 26, 2026, 02:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#d71c00",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#d71c00",
+        "away": "#293664"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894793,
+    "leagueName": "World Cup Grp. D",
+    "leagueRoundName": "3",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Turkiye",
+      "id": 6595
+    },
+    "awayTeam": {
+      "name": "USA",
+      "id": 6713
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Fri, Jun 26, 2026, 02:00 UTC",
+    "matchTimeUTCDate": "2026-06-26T02:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Turkiye",
+        "id": 6595,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6595_small.png",
+        "pageUrl": "/teams/6595/overview/turkiye",
+        "fifaRank": 22
+      },
+      {
+        "name": "USA",
+        "id": 6713,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6713_small.png",
+        "pageUrl": "/teams/6713/overview/usa",
+        "fifaRank": 17
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-26T02:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table",
+    "head to head",
+    "injured"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667775,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-26T02:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894793,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-d",
+          "leagueName": "World Cup Grp. D",
+          "roundName": "3",
+          "round": "3"
+        },
+        "Stadium": {
+          "name": "Los Angeles Stadium",
+          "city": "Inglewood, California",
+          "country": "United States",
+          "lat": 33.953425,
+          "long": -118.338948,
+          "capacity": 70492,
+          "surface": "grass"
+        },
+        "Referee": {
+          "text": "",
+          "countryCode": "",
+          "country": ""
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/430156_xsmall.png",
+            "linkToMatch": "/matches/turkiye-vs-kosovo/17tcdgl7#5067301",
+            "date": {
+              "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/430156/overview/kosovo",
+            "tooltipText": {
+              "utcTime": "2026-03-31T18:45:00.000Z",
+              "homeTeam": "Kosovo",
+              "homeTeamId": 430156,
+              "homeScore": "0",
+              "awayTeam": "Turkiye",
+              "awayTeamId": 6595,
+              "awayScore": "1"
+            },
+            "score": "0 - 1",
+            "home": {
+              "id": "430156",
+              "name": "Kosovo",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6595",
+              "name": "Turkiye",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8260_xsmall.png",
+            "linkToMatch": "/matches/turkiye-vs-north-macedonia/1tp7j4#5483930",
+            "date": {
+              "utcTime": "2026-06-01T17:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/8260/overview/north-macedonia",
+            "tooltipText": {
+              "utcTime": "2026-06-01T17:30:00.000Z",
+              "homeTeam": "Turkiye",
+              "homeTeamId": 6595,
+              "homeScore": "4",
+              "awayTeam": "North Macedonia",
+              "awayTeamId": 8260,
+              "awayScore": "0"
+            },
+            "score": "4 - 0",
+            "home": {
+              "id": "6595",
+              "name": "Turkiye",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8260",
+              "name": "North Macedonia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5800_xsmall.png",
+            "linkToMatch": "/matches/venezuela-vs-turkiye/19qr11#5483931",
+            "date": {
+              "utcTime": "2026-06-06T22:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5800/overview/venezuela",
+            "tooltipText": {
+              "utcTime": "2026-06-06T22:00:00.000Z",
+              "homeTeam": "Turkiye",
+              "homeTeamId": 6595,
+              "homeScore": "2",
+              "awayTeam": "Venezuela",
+              "awayTeamId": 5800,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "6595",
+              "name": "Turkiye",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5800",
+              "name": "Venezuela",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6716_xsmall.png",
+            "linkToMatch": "/matches/turkiye-vs-australia/1gr3uk#4667772",
+            "date": {
+              "utcTime": "2026-06-14T04:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6716/overview/australia",
+            "tooltipText": {
+              "utcTime": "2026-06-14T04:00:00.000Z",
+              "homeTeam": "Australia",
+              "homeTeamId": 6716,
+              "homeScore": "2",
+              "awayTeam": "Turkiye",
+              "awayTeamId": 6595,
+              "awayScore": "0"
+            },
+            "score": "2 - 0",
+            "home": {
+              "id": "6716",
+              "name": "Australia",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6595",
+              "name": "Turkiye",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6724_xsmall.png",
+            "linkToMatch": "/matches/turkiye-vs-paraguay/1gte1s#4667773",
+            "date": {
+              "utcTime": "2026-06-20T03:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6724/overview/paraguay",
+            "tooltipText": {
+              "utcTime": "2026-06-20T03:00:00.000Z",
+              "homeTeam": "Turkiye",
+              "homeTeamId": 6595,
+              "homeScore": "0",
+              "awayTeam": "Paraguay",
+              "awayTeamId": 6724,
+              "awayScore": "1"
+            },
+            "score": "0 - 1",
+            "home": {
+              "id": "6595",
+              "name": "Turkiye",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6724",
+              "name": "Paraguay",
+              "isOurTeam": false
+            }
+          }
+        ],
+        [
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8361_xsmall.png",
+            "linkToMatch": "/matches/usa-vs-portugal/1vngf0#5083234",
+            "date": {
+              "utcTime": "2026-03-31T23:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8361/overview/portugal",
+            "tooltipText": {
+              "utcTime": "2026-03-31T23:00:00.000Z",
+              "homeTeam": "USA",
+              "homeTeamId": 6713,
+              "homeScore": "0",
+              "awayTeam": "Portugal",
+              "awayTeamId": 8361,
+              "awayScore": "2"
+            },
+            "score": "0 - 2",
+            "home": {
+              "id": "6713",
+              "name": "USA",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8361",
+              "name": "Portugal",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6395_xsmall.png",
+            "linkToMatch": "/matches/senegal-vs-usa/1f5mor#5098971",
+            "date": {
+              "utcTime": "2026-05-31T19:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/6395/overview/senegal",
+            "tooltipText": {
+              "utcTime": "2026-05-31T19:30:00.000Z",
+              "homeTeam": "USA",
+              "homeTeamId": 6713,
+              "homeScore": "3",
+              "awayTeam": "Senegal",
+              "awayTeamId": 6395,
+              "awayScore": "2"
+            },
+            "score": "3 - 2",
+            "home": {
+              "id": "6713",
+              "name": "USA",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6395",
+              "name": "Senegal",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8570_xsmall.png",
+            "linkToMatch": "/matches/usa-vs-germany/1xjgfc#5084645",
+            "date": {
+              "utcTime": "2026-06-06T18:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/8570/overview/germany",
+            "tooltipText": {
+              "utcTime": "2026-06-06T18:30:00.000Z",
+              "homeTeam": "USA",
+              "homeTeamId": 6713,
+              "homeScore": "1",
+              "awayTeam": "Germany",
+              "awayTeamId": 8570,
+              "awayScore": "2"
+            },
+            "score": "1 - 2",
+            "home": {
+              "id": "6713",
+              "name": "USA",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8570",
+              "name": "Germany",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6724_xsmall.png",
+            "linkToMatch": "/matches/usa-vs-paraguay/1hr85j#4667771",
+            "date": {
+              "utcTime": "2026-06-13T01:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6724/overview/paraguay",
+            "tooltipText": {
+              "utcTime": "2026-06-13T01:00:00.000Z",
+              "homeTeam": "USA",
+              "homeTeamId": 6713,
+              "homeScore": "4",
+              "awayTeam": "Paraguay",
+              "awayTeamId": 6724,
+              "awayScore": "1"
+            },
+            "score": "4 - 1",
+            "home": {
+              "id": "6713",
+              "name": "USA",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6724",
+              "name": "Paraguay",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6716_xsmall.png",
+            "linkToMatch": "/matches/usa-vs-australia/1hox83#4667774",
+            "date": {
+              "utcTime": "2026-06-19T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6716/overview/australia",
+            "tooltipText": {
+              "utcTime": "2026-06-19T19:00:00.000Z",
+              "homeTeam": "USA",
+              "homeTeamId": 6713,
+              "homeScore": "2",
+              "awayTeam": "Australia",
+              "awayTeamId": 6716,
+              "awayScore": "0"
+            },
+            "score": "2 - 0",
+            "home": {
+              "id": "6713",
+              "name": "USA",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6716",
+              "name": "Australia",
+              "isOurTeam": false
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667775",
+          "MatchId": 4667775,
+          "HomeTeamId": 6595,
+          "AwayTeamId": 6713,
+          "HomeTeam": "Turkiye",
+          "AwayTeam": "USA",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} have {1}W, {2}D, {3}L in five matches while {4} have {5}W, {6}D, {7}L.",
+              "TextTemplateId": "team_form_both",
+              "StatValues": [
+                "home_team",
+                "3",
+                "0",
+                "2",
+                "away_team",
+                "3",
+                "0",
+                "2"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Turkiye have 3W, 0D, 2L in five matches while USA have 3W, 0D, 2L."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored {3} goals in their last {2} matches, while {1} have scored {4}.",
+              "TextTemplateId": "goals_total_last_3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "3",
+                "2",
+                "7"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Turkiye have scored 2 goals in their last 3 matches, while USA have scored 7."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have scored {3} goals in their last {2} matches, while {1} have scored {4}.",
+              "TextTemplateId": "goals_total_last_3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "3",
+                "2",
+                "7"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Turkiye have scored 2 goals in their last 3 matches, while USA have scored 7."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't drawn in their last {2} matches and {1} in their last {3}.",
+              "TextTemplateId": "draw_streak_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "6",
+                "9"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Turkiye haven't drawn in their last 6 matches and USA in their last 9."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 6595,
+          "priority": 9,
+          "defaultText": "Haven't scored in their last {0} matches",
+          "localizedTextId": "insights_goalless_team",
+          "statValues": [
+            {
+              "value": 2,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't scored in their last 2 matches",
+          "color": "#d71c00"
+        }
+      ],
+      "countryCode": "INT",
+      "QAData": [],
+      "matchInsightsConfig": {
+        "hasBettingInsight": true,
+        "urlTemplate": "https://data.fotmob.com/generated-match-insights/77/4667775/matchinsights_{lang}.json",
+        "languages": [
+          "en",
+          "nb",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ar",
+          "pt-BR"
+        ]
+      }
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 20,
+      "windSpeed": 4,
+      "windDirectionCardinal": "W",
+      "iconCode": 30,
+      "relativeHumidity": 70,
+      "precipChance": 2,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 32,
+      "description": "Partly Cloudy",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T16:00:04Z",
+      "localizedKey": "weather_condition_partly_cloudy",
+      "defaultTitle": "Partly Cloudy"
+    },
+    "lineup": {
+      "matchId": 4667775,
+      "lineupType": "unavailable",
+      "source": "enetpulse",
+      "availableFilters": [],
+      "homeTeam": {
+        "id": 6595,
+        "name": "Turkiye",
+        "formation": "",
+        "starters": []
+      },
+      "awayTeam": {
+        "id": 6713,
+        "name": "USA",
+        "formation": "",
+        "starters": [],
+        "unavailable": [
+          {
+            "id": 688295,
+            "age": 27,
+            "name": "Christian Pulisic",
+            "countryName": "USA",
+            "countryCode": "USA",
+            "marketValue": 44558052,
+            "unavailability": {
+              "injuryId": 87,
+              "type": "injury",
+              "expectedReturn": "About 1-2 weeks"
+            },
+            "firstName": "Christian",
+            "lastName": "Pulisic"
+          }
+        ]
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894793",
+      "url": "https://data.fotmob.com/tables.ext.894793.fot.gz",
+      "teams": [
+        6595,
+        6713
+      ],
+      "tournamentNameForUrl": "World Cup Grp. D",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": {
+      "summary": [
+        1,
+        0,
+        1
+      ],
+      "matches": [
+        {
+          "time": {
+            "utcTime": "2025-06-07T19:40:00.000Z"
+          },
+          "matchUrl": "/matches/turkiye-vs-usa/1gq91b#4750313",
+          "league": {
+            "name": "Friendlies",
+            "id": "114",
+            "pageUrl": "/leagues/114/overview/friendlies"
+          },
+          "home": {
+            "name": "USA",
+            "id": "6713"
+          },
+          "status": {
+            "utcTime": "2025-06-07T19:40:00.000Z",
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "awarded": false,
+            "scoreStr": "1 - 2",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
+          },
+          "finished": false,
+          "away": {
+            "name": "Turkiye",
+            "id": "6595"
+          }
+        },
+        {
+          "time": {
+            "utcTime": "2014-06-01T18:00:00.000Z"
+          },
+          "matchUrl": "/matches/turkiye-vs-usa/1gq91b#1675048",
+          "league": {
+            "name": "Friendlies",
+            "id": "114",
+            "pageUrl": "/leagues/114/overview/friendlies"
+          },
+          "home": {
+            "name": "USA",
+            "id": "6713"
+          },
+          "status": {
+            "utcTime": "2014-06-01T18:00:00.000Z",
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "awarded": false,
+            "scoreStr": "2 - 1",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
+          },
+          "finished": false,
+          "away": {
+            "name": "Turkiye",
+            "id": "6595"
+          }
+        }
+      ]
+    },
+    "momentum": false
+  },
+  "seo": {
+    "path": "turkiye-vs-usa",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667775",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Turkiye",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6595.png",
+        "url": "https://www.fotmob.com/teams/6595/overview/turkiye",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "USA",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6713.png",
+        "url": "https://www.fotmob.com/teams/6713/overview/usa",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Turkiye vs USA",
+      "description": "Follow Turkiye vs USA live on fotmob.com",
+      "startDate": "2026-06-26T02:00:00.000Z",
+      "endDate": "2026-06-26T04:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Los Angeles Stadium",
+        "latitude": 33.953425,
+        "longitude": -118.338948,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "United States",
+          "addressLocality": "Inglewood, California"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6595.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6713.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667775",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-26T02:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Turkiye",
+          "url": "https://www.fotmob.com/teams/6595/overview/turkiye"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "USA",
+          "url": "https://www.fotmob.com/teams/6713/overview/usa"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. D",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-d"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Turkiye - USA",
+            "item": "https://www.fotmob.com/match/4667775"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. D",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-d"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "USA",
+            "item": "https://www.fotmob.com/teams/6713/overview/usa"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Turkiye - USA",
+            "item": "https://www.fotmob.com/match/4667775"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. D",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-d"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Turkiye",
+            "item": "https://www.fotmob.com/teams/6595/overview/turkiye"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Turkiye - USA",
+            "item": "https://www.fotmob.com/match/4667775"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

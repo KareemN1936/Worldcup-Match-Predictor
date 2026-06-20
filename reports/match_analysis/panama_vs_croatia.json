@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537412,
+    "date": "2026-06-23T23:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_L",
+    "home_team": "Panama",
+    "away_team": "Croatia"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.2471251934766769,
+    "draw_probability": 0.266181617975235,
+    "away_win_probability": 0.4866931438446045,
+    "predicted_result": "Team A loss",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -115.29165309600148,
+      "points_last_5_diff": -1.0,
+      "points_last_10_diff": -6.0,
+      "goal_difference_last_5_diff": 0.0,
+      "goals_for_last_5_diff": 2.0,
+      "goals_against_last_5_diff": 2.0,
+      "weighted_points_last_5_diff": -11.5,
+      "weighted_goal_difference_last_5_diff": -3.5,
+      "wins_last_5_diff": -1.0,
+      "draws_last_5_diff": 2.0,
+      "losses_last_5_diff": -1.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": -1.0,
+      "matches_played_2y_diff": 8.0,
+      "win_rate_2y_diff": -0.07878787878787874,
+      "draw_rate_2y_diff": 0.0393939393939394,
+      "loss_rate_2y_diff": 0.0393939393939394,
+      "goals_for_per_match_2y_diff": -0.3666666666666667,
+      "goals_against_per_match_2y_diff": 0.40909090909090917,
+      "goal_difference_per_match_2y_diff": -0.7757575757575758,
+      "clean_sheet_rate_2y_diff": -0.051515151515151514,
+      "failed_to_score_rate_2y_diff": -0.04848484848484849,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -115.29165309600148,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -11.5,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -6.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 2.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 2.0,
+        "leader": "Croatia"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -115.29165309600148,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -1.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -6.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 2.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 2.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -11.5,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.07878787878787874,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": -0.7757575757575758,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.40909090909090917,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.051515151515151514,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.04848484848484849,
+        "leader": "Panama"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": 0.053939393939394,
+    "probability_shift": 0.0023973063973064,
+    "top_signals": "goal difference:home; starting XI rating:away; player rating:away",
+    "home_win_probability": 0.2496422048047827,
+    "draw_probability": 0.2658296235907294,
+    "away_win_probability": 0.4845281716044878,
+    "predicted_result": "Team A loss",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.0999999999999996,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.0499999999999998,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.0499999999999998,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.0999999999999996,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 30.0,
+    "away_avg_age": 27.884615384615383,
+    "home_forwards": 4,
+    "away_forwards": 6,
+    "home_midfielders": 9,
+    "away_midfielders": 10,
+    "home_defenders": 10,
+    "away_defenders": 7,
+    "strongest": [
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 3.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 2.1153846153846168,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -2.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -1.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 2.1153846153846168,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -2.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -1.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 3.0,
+        "leader": "Panama"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A loss",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

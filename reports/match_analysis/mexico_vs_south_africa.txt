@@ -1,0 +1,33 @@
+Mexico vs South Africa
+
+Date: 2026-06-11T19:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_A
+
+Base Prediction:
+Mexico Win: 75.7%
+Draw: 15.6%
+South Africa Win: 8.7%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 233.81 | edge: Mexico
+- weighted points last 5: 18.50 | edge: Mexico
+- goal difference last 5: 11.00 | edge: Mexico
+- points last 10: 9.00 | edge: Mexico
+- points last 5: 8.00 | edge: Mexico
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Mexico 27.5 | South Africa 26.3
+Forwards: Mexico 8 | South Africa 6
+Midfielders: Mexico 9 | South Africa 7
+Defenders: Mexico 6 | South Africa 10
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

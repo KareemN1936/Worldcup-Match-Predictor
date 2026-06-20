@@ -1,0 +1,41 @@
+Jordan vs Algeria
+
+Date: 2026-06-23T03:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_J
+
+Base Prediction:
+Jordan Win: 25.1%
+Draw: 24.0%
+Algeria Win: 50.9%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -106.19 | edge: Algeria
+- goal difference last 5: -16.00 | edge: Algeria
+- goals against last 5: 10.00 | edge: Algeria
+- points last 5: -8.00 | edge: Algeria
+- points last 10: -8.00 | edge: Algeria
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.18
+Probability shift: 0.0079
+Top signals: goal difference:home; starting XI rating:home; player rating:home
+Jordan Win: 25.9%
+Draw: 23.9%
+Algeria Win: 50.2%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Jordan 28.0 | Algeria 26.5
+Forwards: Jordan 8 | Algeria 6
+Midfielders: Jordan 7 | Algeria 8
+Defenders: Jordan 8 | Algeria 9
+
+Final Recommendation:
+Use: Team A loss
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

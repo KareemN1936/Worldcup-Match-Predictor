@@ -1,0 +1,41 @@
+Colombia vs Portugal
+
+Date: 2026-06-27T23:30:00Z
+Round: GROUP_STAGE
+Group: GROUP_K
+
+Base Prediction:
+Colombia Win: 31.5%
+Draw: 30.0%
+Portugal Win: 38.5%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -26.10 | edge: Portugal
+- weighted points last 5: -14.50 | edge: Portugal
+- goal difference last 5: -8.00 | edge: Portugal
+- goals for last 5: -5.00 | edge: Portugal
+- points last 5: -4.00 | edge: Portugal
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.45
+Probability shift: 0.0400
+Top signals: points per match:home; goal difference:home; starting XI rating:home
+Colombia Win: 35.8%
+Draw: 29.5%
+Portugal Win: 34.8%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Colombia 29.6 | Portugal 27.5
+Forwards: Colombia 5 | Portugal 7
+Midfielders: Colombia 10 | Portugal 7
+Defenders: Colombia 8 | Portugal 9
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

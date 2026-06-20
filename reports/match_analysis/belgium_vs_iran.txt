@@ -1,0 +1,41 @@
+Belgium vs Iran
+
+Date: 2026-06-21T19:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_G
+
+Base Prediction:
+Belgium Win: 48.9%
+Draw: 24.9%
+Iran Win: 26.1%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 24.74 | edge: Belgium
+- points last 10: 4.00 | edge: Belgium
+- goal difference last 5: 2.00 | edge: Belgium
+- points last 5: 1.00 | edge: Belgium
+- goals for last 5: 1.00 | edge: Belgium
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.03
+Probability shift: 0.0013
+Top signals: player rating:home; starting XI rating:home; points per match:away
+Belgium Win: 49.1%
+Draw: 24.9%
+Iran Win: 26.0%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Belgium 27.1 | Iran 29.8
+Forwards: Belgium 4 | Iran 8
+Midfielders: Belgium 10 | Iran 6
+Defenders: Belgium 9 | Iran 9
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

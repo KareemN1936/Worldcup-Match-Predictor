@@ -1,0 +1,33 @@
+Spain vs Cape Verde Islands
+
+Date: 2026-06-15T16:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_H
+
+Base Prediction:
+Spain Win: 94.6%
+Draw: 3.7%
+Cape Verde Islands Win: 1.7%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 517.69 | edge: Spain
+- points last 10: 22.00 | edge: Spain
+- weighted points last 5: 12.50 | edge: Spain
+- points last 5: 9.00 | edge: Spain
+- goals for last 5: 7.00 | edge: Spain
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Spain 26.2 | Cape Verde Islands 29.2
+Forwards: Spain 5 | Cape Verde Islands 7
+Midfielders: Spain 11 | Cape Verde Islands 8
+Defenders: Spain 7 | Cape Verde Islands 8
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

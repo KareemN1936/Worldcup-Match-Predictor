@@ -1,0 +1,41 @@
+Germany vs Ivory Coast
+
+Date: 2026-06-20T20:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_E
+
+Base Prediction:
+Germany Win: 69.8%
+Draw: 17.8%
+Ivory Coast Win: 12.4%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 140.08 | edge: Germany
+- goals for last 5: 9.00 | edge: Germany
+- goal difference last 5: 7.00 | edge: Germany
+- points last 10: 5.00 | edge: Germany
+- points last 5: 3.00 | edge: Germany
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.29
+Probability shift: 0.0121
+Top signals: goal difference:home; starting XI rating:home; player rating:away
+Germany Win: 71.1%
+Draw: 17.6%
+Ivory Coast Win: 11.2%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Germany 27.6 | Ivory Coast 25.3
+Forwards: Germany 6 | Ivory Coast 8
+Midfielders: Germany 10 | Ivory Coast 7
+Defenders: Germany 7 | Ivory Coast 8
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

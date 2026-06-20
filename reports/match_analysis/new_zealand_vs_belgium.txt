@@ -1,0 +1,41 @@
+New Zealand vs Belgium
+
+Date: 2026-06-27T03:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_G
+
+Base Prediction:
+New Zealand Win: 18.9%
+Draw: 24.4%
+Belgium Win: 56.7%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -157.19 | edge: Belgium
+- points last 10: -17.00 | edge: Belgium
+- goal difference last 5: -14.00 | edge: Belgium
+- goals for last 5: -8.00 | edge: Belgium
+- points last 5: -7.00 | edge: Belgium
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.03
+Probability shift: -0.0026
+Top signals: player rating:away; starting XI rating:away; points per match:away
+New Zealand Win: 18.6%
+Draw: 24.3%
+Belgium Win: 57.0%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: New Zealand 27.6 | Belgium 27.1
+Forwards: New Zealand 7 | Belgium 4
+Midfielders: New Zealand 7 | Belgium 10
+Defenders: New Zealand 9 | Belgium 9
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

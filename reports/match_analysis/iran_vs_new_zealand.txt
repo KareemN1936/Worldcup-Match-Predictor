@@ -1,0 +1,33 @@
+Iran vs New Zealand
+
+Date: 2026-06-16T01:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_G
+
+Base Prediction:
+Iran Win: 66.4%
+Draw: 20.2%
+New Zealand Win: 13.4%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 132.44 | edge: Iran
+- points last 10: 13.00 | edge: Iran
+- goal difference last 5: 12.00 | edge: Iran
+- goals for last 5: 7.00 | edge: Iran
+- points last 5: 6.00 | edge: Iran
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Iran 29.8 | New Zealand 27.6
+Forwards: Iran 8 | New Zealand 7
+Midfielders: Iran 6 | New Zealand 7
+Defenders: Iran 9 | New Zealand 9
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

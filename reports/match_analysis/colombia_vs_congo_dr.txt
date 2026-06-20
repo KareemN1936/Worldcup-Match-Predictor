@@ -1,0 +1,41 @@
+Colombia vs Congo DR
+
+Date: 2026-06-24T02:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_K
+
+Base Prediction:
+Colombia Win: 73.3%
+Draw: 16.0%
+Congo DR Win: 10.7%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 183.95 | edge: Colombia
+- weighted points last 5: -8.50 | edge: Congo DR
+- goals for last 5: 6.00 | edge: Colombia
+- points last 10: 4.00 | edge: Colombia
+- goal difference last 5: 3.00 | edge: Colombia
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.45
+Probability shift: 0.0183
+Top signals: points per match:home; goal difference:home; starting XI rating:home
+Colombia Win: 75.4%
+Draw: 15.7%
+Congo DR Win: 8.9%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Colombia 29.6 | Congo DR 28.5
+Forwards: Colombia 5 | Congo DR 8
+Midfielders: Colombia 10 | Congo DR 7
+Defenders: Colombia 8 | Congo DR 8
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

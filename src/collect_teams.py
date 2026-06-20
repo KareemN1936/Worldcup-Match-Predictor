@@ -4,7 +4,7 @@ from api_client import ApiClient
 from config import FOOTBALL_DATA_SEASON, FOOTBALL_DATA_WORLD_CUP_CODE, RAW_DATA_DIR, standardize_team_name
 
 
-TEAM_COLUMNS = ["team_id", "team_name", "country", "fifa_code", "api_provider"]
+TEAM_COLUMNS = ["team_id", "team_name", "country", "fifa_code", "flag_url", "api_provider"]
 
 
 def _empty_teams() -> pd.DataFrame:
@@ -26,6 +26,7 @@ def _teams_from_football_data_response(data: dict | None) -> pd.DataFrame:
             "team_name": standardize_team_name(team.get("name", "")),
             "country": area.get("name"),
             "fifa_code": team.get("tla"),
+            "flag_url": area.get("flag") or team.get("crest"),
             "api_provider": "football-data.org",
         })
     return pd.DataFrame(rows, columns=TEAM_COLUMNS).drop_duplicates(subset=["team_id", "team_name"])
@@ -45,6 +46,7 @@ def _teams_from_fixtures_file() -> pd.DataFrame:
                 "team_name": standardize_team_name(row.get(f"{side}_team", "")),
                 "country": row.get("country"),
                 "fifa_code": pd.NA,
+                "flag_url": pd.NA,
                 "api_provider": "football-data.org",
             })
     return pd.DataFrame(rows, columns=TEAM_COLUMNS).drop_duplicates(subset=["team_id", "team_name"])

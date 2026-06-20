@@ -1,0 +1,41 @@
+Switzerland vs Canada
+
+Date: 2026-06-24T19:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_B
+
+Base Prediction:
+Switzerland Win: 45.8%
+Draw: 26.0%
+Canada Win: 28.2%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 40.27 | edge: Switzerland
+- goals for last 5: 3.00 | edge: Switzerland
+- goals against last 5: 3.00 | edge: Canada
+- points last 10: 2.00 | edge: Switzerland
+- points last 5: -1.00 | edge: Canada
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.07
+Probability shift: -0.0059
+Top signals: goal difference:away; starting XI rating:home; player rating:home
+Switzerland Win: 45.2%
+Draw: 25.9%
+Canada Win: 28.8%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Switzerland 27.8 | Canada 26.5
+Forwards: Switzerland 5 | Canada 6
+Midfielders: Switzerland 10 | Canada 9
+Defenders: Switzerland 8 | Canada 8
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

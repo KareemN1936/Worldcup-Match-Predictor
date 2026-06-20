@@ -1,0 +1,41 @@
+Paraguay vs Australia
+
+Date: 2026-06-26T02:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_D
+
+Base Prediction:
+Paraguay Win: 31.4%
+Draw: 28.2%
+Australia Win: 40.4%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -56.81 | edge: Australia
+- weighted points last 5: -14.50 | edge: Australia
+- goal difference last 5: -4.00 | edge: Australia
+- goals against last 5: 4.00 | edge: Australia
+- points last 10: -2.00 | edge: Australia
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.08
+Probability shift: -0.0067
+Top signals: goal difference:away; player rating:home; starting XI rating:away
+Paraguay Win: 30.8%
+Draw: 28.1%
+Australia Win: 41.1%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Paraguay 28.5 | Australia 26.9
+Forwards: Paraguay 7 | Australia 5
+Midfielders: Paraguay 8 | Australia 8
+Defenders: Paraguay 8 | Australia 10
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

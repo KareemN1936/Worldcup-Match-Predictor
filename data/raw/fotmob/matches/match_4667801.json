@@ -1,0 +1,1674 @@
+{
+  "general": {
+    "matchId": "4667801",
+    "matchName": "Spain-vs-Saudi Arabia_Sun, Jun 21, 2026, 16:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#c62035",
+        "away": "#009075"
+      },
+      "lightMode": {
+        "home": "#c62035",
+        "away": "#16615B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894797,
+    "leagueName": "World Cup Grp. H",
+    "leagueRoundName": "2",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Spain",
+      "id": 6720
+    },
+    "awayTeam": {
+      "name": "Saudi Arabia",
+      "id": 7795
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sun, Jun 21, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-06-21T16:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Spain",
+        "id": 6720,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6720_small.png",
+        "pageUrl": "/teams/6720/overview/spain",
+        "fifaRank": 2
+      },
+      {
+        "name": "Saudi Arabia",
+        "id": 7795,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/7795_small.png",
+        "pageUrl": "/teams/7795/overview/saudi-arabia",
+        "fifaRank": 61
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-21T16:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "lineup",
+    "table",
+    "head to head"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667801,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-21T16:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894797,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-h",
+          "leagueName": "World Cup Grp. H",
+          "roundName": "2",
+          "round": "2"
+        },
+        "Stadium": {
+          "name": "Atlanta Stadium",
+          "city": "Atlanta, Georgia",
+          "country": "United States",
+          "lat": 33.755406175,
+          "long": -84.401075263,
+          "capacity": 68239,
+          "surface": "grass"
+        },
+        "Referee": {
+          "imgUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/bra.png",
+          "text": "Raphael Claus",
+          "countryCode": "BRA",
+          "country": "Brazil"
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8205_xsmall.png",
+            "linkToMatch": "/matches/spain-vs-serbia/1ubjrc#5249576",
+            "date": {
+              "utcTime": "2026-03-27T20:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8205/overview/serbia",
+            "tooltipText": {
+              "utcTime": "2026-03-27T20:00:00.000Z",
+              "homeTeam": "Spain",
+              "homeTeamId": 6720,
+              "homeScore": "3",
+              "awayTeam": "Serbia",
+              "awayTeamId": 8205,
+              "awayScore": "0"
+            },
+            "score": "3 - 0",
+            "home": {
+              "id": "6720",
+              "name": "Spain",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8205",
+              "name": "Serbia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10255_xsmall.png",
+            "linkToMatch": "/matches/spain-vs-egypt/2dscyg#5137675",
+            "date": {
+              "utcTime": "2026-03-31T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/10255/overview/egypt",
+            "tooltipText": {
+              "utcTime": "2026-03-31T19:00:00.000Z",
+              "homeTeam": "Spain",
+              "homeTeamId": 6720,
+              "homeScore": "0",
+              "awayTeam": "Egypt",
+              "awayTeamId": 10255,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "6720",
+              "name": "Spain",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "10255",
+              "name": "Egypt",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5819_xsmall.png",
+            "linkToMatch": "/matches/iraq-vs-spain/1at8ei#5451161",
+            "date": {
+              "utcTime": "2026-06-04T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5819/overview/iraq",
+            "tooltipText": {
+              "utcTime": "2026-06-04T19:00:00.000Z",
+              "homeTeam": "Spain",
+              "homeTeamId": 6720,
+              "homeScore": "1",
+              "awayTeam": "Iraq",
+              "awayTeamId": 5819,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "6720",
+              "name": "Spain",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5819",
+              "name": "Iraq",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5798_xsmall.png",
+            "linkToMatch": "/matches/peru-vs-spain/1anldx#5293453",
+            "date": {
+              "utcTime": "2026-06-09T02:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5798/overview/peru",
+            "tooltipText": {
+              "utcTime": "2026-06-09T02:00:00.000Z",
+              "homeTeam": "Peru",
+              "homeTeamId": 5798,
+              "homeScore": "1",
+              "awayTeam": "Spain",
+              "awayTeamId": 6720,
+              "awayScore": "3"
+            },
+            "score": "1 - 3",
+            "home": {
+              "id": "5798",
+              "name": "Peru",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6720",
+              "name": "Spain",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5888_xsmall.png",
+            "linkToMatch": "/matches/cape-verde-vs-spain/1bbtuo#4667798",
+            "date": {
+              "utcTime": "2026-06-15T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5888/overview/cape-verde",
+            "tooltipText": {
+              "utcTime": "2026-06-15T16:00:00.000Z",
+              "homeTeam": "Spain",
+              "homeTeamId": 6720,
+              "homeScore": "0",
+              "awayTeam": "Cape Verde",
+              "awayTeamId": 5888,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "6720",
+              "name": "Spain",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5888",
+              "name": "Cape Verde",
+              "isOurTeam": false
+            }
+          }
+        ],
+        [
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8205_xsmall.png",
+            "linkToMatch": "/matches/saudi-arabia-vs-serbia/247txp#5159765",
+            "date": {
+              "utcTime": "2026-03-31T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8205/overview/serbia",
+            "tooltipText": {
+              "utcTime": "2026-03-31T16:00:00.000Z",
+              "homeTeam": "Serbia",
+              "homeTeamId": 8205,
+              "homeScore": "2",
+              "awayTeam": "Saudi Arabia",
+              "awayTeamId": 7795,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "8205",
+              "name": "Serbia",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6707_xsmall.png",
+            "linkToMatch": "/matches/ecuador-vs-saudi-arabia/1qm4yg#5628899",
+            "date": {
+              "utcTime": "2026-05-31T00:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6707/overview/ecuador",
+            "tooltipText": {
+              "utcTime": "2026-05-31T00:00:00.000Z",
+              "homeTeam": "Ecuador",
+              "homeTeamId": 6707,
+              "homeScore": "2",
+              "awayTeam": "Saudi Arabia",
+              "awayTeamId": 7795,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "6707",
+              "name": "Ecuador",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5756_xsmall.png",
+            "linkToMatch": "/matches/puerto-rico-vs-saudi-arabia/1io7zv#5737559",
+            "date": {
+              "utcTime": "2026-06-05T23:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5756/overview/puerto-rico",
+            "tooltipText": {
+              "utcTime": "2026-06-05T23:00:00.000Z",
+              "homeTeam": "Puerto Rico",
+              "homeTeamId": 5756,
+              "homeScore": "0",
+              "awayTeam": "Saudi Arabia",
+              "awayTeamId": 7795,
+              "awayScore": "3"
+            },
+            "score": "0 - 3",
+            "home": {
+              "id": "5756",
+              "name": "Puerto Rico",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6395_xsmall.png",
+            "linkToMatch": "/matches/senegal-vs-saudi-arabia/1ny764#5737639",
+            "date": {
+              "utcTime": "2026-06-09T23:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6395/overview/senegal",
+            "tooltipText": {
+              "utcTime": "2026-06-09T23:00:00.000Z",
+              "homeTeam": "Saudi Arabia",
+              "homeTeamId": 7795,
+              "homeScore": "0",
+              "awayTeam": "Senegal",
+              "awayTeamId": 6395,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6395",
+              "name": "Senegal",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5796_xsmall.png",
+            "linkToMatch": "/matches/uruguay-vs-saudi-arabia/1izuvb#4667799",
+            "date": {
+              "utcTime": "2026-06-15T22:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5796/overview/uruguay",
+            "tooltipText": {
+              "utcTime": "2026-06-15T22:00:00.000Z",
+              "homeTeam": "Saudi Arabia",
+              "homeTeamId": 7795,
+              "homeScore": "1",
+              "awayTeam": "Uruguay",
+              "awayTeamId": 5796,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5796",
+              "name": "Uruguay",
+              "isOurTeam": false
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667801",
+          "MatchId": 4667801,
+          "HomeTeamId": 6720,
+          "AwayTeamId": 7795,
+          "HomeTeam": "Spain",
+          "AwayTeam": "Saudi Arabia",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} haven't lost in {1} matches.",
+              "TextTemplateId": "undefeated_team",
+              "StatValues": [
+                "home_team",
+                "11"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_stat_up",
+              "defaultText": "Spain haven't lost in 11 matches."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored in their last {1} away matches.",
+              "TextTemplateId": "goalstreak_team_away",
+              "StatValues": [
+                "away_team",
+                "4"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Saudi Arabia have scored in their last 4 away matches."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have scored {3} goals in their last {2} matches, while {1} have scored {4}.",
+              "TextTemplateId": "goals_total_last_3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "3",
+                "4",
+                "4"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Spain have scored 4 goals in their last 3 matches, while Saudi Arabia have scored 4."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} have {1}W, {2}D, {3}L in five matches while {4} have {5}W, {6}D, {7}L.",
+              "TextTemplateId": "team_form_both",
+              "StatValues": [
+                "home_team",
+                "2",
+                "3",
+                "0",
+                "away_team",
+                "1",
+                "2",
+                "2"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Spain have 2W, 3D, 0L in five matches while Saudi Arabia have 1W, 2D, 2L."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 6720,
+          "priority": 1343,
+          "defaultText": "Haven't lost in {0} matches",
+          "localizedTextId": "insights_undefeated_team",
+          "statValues": [
+            {
+              "value": 11,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't lost in 11 matches",
+          "color": "#c62035"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 6720,
+          "priority": 8,
+          "defaultText": "{0} have won the previous {2} matches against {1}.",
+          "localizedTextId": "h2h_winstreak",
+          "statValues": [
+            {
+              "value": 6720,
+              "name": "Spain",
+              "type": "team"
+            },
+            {
+              "value": 7795,
+              "name": "Saudi Arabia",
+              "type": "team"
+            },
+            {
+              "value": 2,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Spain have won the previous 2 matches against Saudi Arabia.",
+          "color": "#c62035"
+        }
+      ],
+      "countryCode": "INT",
+      "preReview": [
+        {
+          "id": "hg1aw8mhyajn1lf4wmtb8knsw",
+          "title": "Zubimendi surprised by debate around Spain's 'slow' midfield",
+          "image": "https://images.performgroup.com/di/library/omnisport/f9/9e/martin-zubimendi_5e8srhi16n0z1hkcj7edhnw92.jpg?t=-381077714",
+          "description": "Spain's midfield has been described as slow and ponderous after a poor start to their World Cup bid, leaving Martin Zubimendi surprised.",
+          "lang": "en",
+          "contentUrl": "https://apigw.fotmob.com/searchapi/search?entity=id&term=hg1aw8mhyajn1lf4wmtb8knsw",
+          "dateUpdated": "2026-06-20T16:59:59Z",
+          "source": "Opta",
+          "shareUrl": "https://www.fotmob.com/news/hg1aw8mhyajn1lf4wmtb8knsw-zubimendi-surprised-debate-around-spains-slow-midfield?utm_source=fotmob"
+        },
+        {
+          "id": "hg1aw8mhyajn1lf4wmtb8knsw_es",
+          "title": "Zubimendi, sorprendido por el debate sobre el 'lento' centro del campo de España",
+          "image": "https://images.performgroup.com/di/library/omnisport/f9/9e/martin-zubimendi_5e8srhi16n0z1hkcj7edhnw92.jpg?t=-381077714",
+          "description": "El centro del campo de España ha sido señalado como lento y pesado tras un mal arranque en el Mundial, algo que ha sorprendido a Martin Zubimendi.",
+          "lang": "es",
+          "contentUrl": "https://apigw.fotmob.com/searchapi/search?entity=id&term=hg1aw8mhyajn1lf4wmtb8knsw_es",
+          "dateUpdated": "2026-06-20T16:59:59Z",
+          "source": "Opta",
+          "shareUrl": "https://www.fotmob.com/news/hg1aw8mhyajn1lf4wmtb8knsw_es-zubimendi-sorprendido-por-el-debate-sobre-el-lento-centro-del-campo-de-espana?utm_source=fotmob"
+        },
+        {
+          "id": "hg1aw8mhyajn1lf4wmtb8knsw_it",
+          "title": "Zubimendi sorpreso dal dibattito sul centrocampo \"lento\" della Spagna",
+          "image": "https://images.performgroup.com/di/library/omnisport/f9/9e/martin-zubimendi_5e8srhi16n0z1hkcj7edhnw92.jpg?t=-381077714",
+          "description": "Zubimendi respinge l’etichetta di centrocampo lento per la Spagna dopo l’avvio deludente ai Mondiali",
+          "lang": "it",
+          "contentUrl": "https://apigw.fotmob.com/searchapi/search?entity=id&term=hg1aw8mhyajn1lf4wmtb8knsw_it",
+          "dateUpdated": "2026-06-20T16:59:59Z",
+          "source": "Opta",
+          "shareUrl": "https://www.fotmob.com/news/hg1aw8mhyajn1lf4wmtb8knsw_it-zubimendi-sorpreso-dal-dibattito-sul-centrocampo-lento-della-spagna?utm_source=fotmob"
+        },
+        {
+          "id": "hg1aw8mhyajn1lf4wmtb8knsw_pt-BR",
+          "title": "Zubimendi se diz surpreso com debate sobre meio-campo 'lento' da Espanha",
+          "image": "https://images.performgroup.com/di/library/omnisport/f9/9e/martin-zubimendi_5e8srhi16n0z1hkcj7edhnw92.jpg?t=-381077714",
+          "description": "O meio-campo da Espanha foi descrito como lento e previsível após um início ruim na Copa do Mundo, o que surpreendeu Martin Zubimendi.",
+          "lang": "pt-BR",
+          "contentUrl": "https://apigw.fotmob.com/searchapi/search?entity=id&term=hg1aw8mhyajn1lf4wmtb8knsw_pt-BR",
+          "dateUpdated": "2026-06-20T16:59:59Z",
+          "source": "Opta",
+          "shareUrl": "https://www.fotmob.com/news/hg1aw8mhyajn1lf4wmtb8knsw_pt-BR-zubimendi-se-diz-surpreso-com-debate-sobre-meio-campo-lento-da-espanha?utm_source=fotmob"
+        },
+        {
+          "id": "hg1aw8mhyajn1lf4wmtb8knsw_fr",
+          "title": "Zubimendi surpris par le débat autour d'un milieu espagnol jugé « lent »",
+          "image": "https://images.performgroup.com/di/library/omnisport/f9/9e/martin-zubimendi_5e8srhi16n0z1hkcj7edhnw92.jpg?t=-381077714",
+          "description": "Le milieu espagnol, jugé lent et laborieux après un départ manqué en Coupe du monde, a surpris Martin Zubimendi.",
+          "lang": "fr",
+          "contentUrl": "https://apigw.fotmob.com/searchapi/search?entity=id&term=hg1aw8mhyajn1lf4wmtb8knsw_fr",
+          "dateUpdated": "2026-06-20T16:59:59Z",
+          "source": "Opta",
+          "shareUrl": "https://www.fotmob.com/news/hg1aw8mhyajn1lf4wmtb8knsw_fr-zubimendi-surpris-par-le-debat-autour-dun-milieu-espagnol-juge-lent-?utm_source=fotmob"
+        },
+        {
+          "id": "hg1aw8mhyajn1lf4wmtb8knsw_ar",
+          "title": "زوبيمندي يستغرب الجدل حول «بطء» وسط إسبانيا",
+          "image": "https://images.performgroup.com/di/library/omnisport/f9/9e/martin-zubimendi_5e8srhi16n0z1hkcj7edhnw92.jpg?t=-381077714",
+          "description": "زوبيمندي يستغرب الجدل حول بطء وسط إسبانيا بعد تعادل افتتاحي في كأس العالم",
+          "lang": "ar",
+          "contentUrl": "https://apigw.fotmob.com/searchapi/search?entity=id&term=hg1aw8mhyajn1lf4wmtb8knsw_ar",
+          "dateUpdated": "2026-06-20T16:59:59Z",
+          "source": "Opta",
+          "shareUrl": "https://www.fotmob.com/news/hg1aw8mhyajn1lf4wmtb8knsw_ar--?utm_source=fotmob"
+        },
+        {
+          "id": "hg1aw8mhyajn1lf4wmtb8knsw_de",
+          "title": "Zubimendi überrascht über Debatte um Spaniens „langsames“ Mittelfeld",
+          "image": "https://images.performgroup.com/di/library/omnisport/f9/9e/martin-zubimendi_5e8srhi16n0z1hkcj7edhnw92.jpg?t=-381077714",
+          "description": "Nach dem schwachen Start in die WM-Qualifikation wurde Spaniens Mittelfeld als langsam und behäbig kritisiert – sehr zur Überraschung von Martin Zubimendi.",
+          "lang": "de",
+          "contentUrl": "https://apigw.fotmob.com/searchapi/search?entity=id&term=hg1aw8mhyajn1lf4wmtb8knsw_de",
+          "dateUpdated": "2026-06-20T16:59:59Z",
+          "source": "Opta",
+          "shareUrl": "https://www.fotmob.com/news/hg1aw8mhyajn1lf4wmtb8knsw_de-zubimendi-uberrascht-uber-debatte-um-spaniens-langsames-mittelfeld?utm_source=fotmob"
+        },
+        {
+          "id": "hg1aw8mhyajn1lf4wmtb8knsw_pt",
+          "title": "Zubimendi surpreendido com debate sobre meio-campo 'lento' de Espanha",
+          "image": "https://images.performgroup.com/di/library/omnisport/f9/9e/martin-zubimendi_5e8srhi16n0z1hkcj7edhnw92.jpg?t=-381077714",
+          "description": "Críticas ao meio-campo de Espanha, apontado como lento e pesado após um arranque fraco no Mundial, deixam Martin Zubimendi surpreendido.",
+          "lang": "pt",
+          "contentUrl": "https://apigw.fotmob.com/searchapi/search?entity=id&term=hg1aw8mhyajn1lf4wmtb8knsw_pt",
+          "dateUpdated": "2026-06-20T16:59:59Z",
+          "source": "Opta",
+          "shareUrl": "https://www.fotmob.com/news/hg1aw8mhyajn1lf4wmtb8knsw_pt-zubimendi-surpreendido-com-debate-sobre-meio-campo-lento-de-espanha?utm_source=fotmob"
+        }
+      ],
+      "QAData": [],
+      "matchInsightsConfig": {
+        "hasBettingInsight": true,
+        "urlTemplate": "https://data.fotmob.com/generated-match-insights/77/4667801/matchinsights_{lang}.json",
+        "languages": [
+          "en",
+          "nb",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ar",
+          "pt-BR"
+        ]
+      }
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": "https://pub.fotmob.com/prod/news/api/law?matchid=8muyl6d5ahy04fbwarplcg3kk&competition=70excpe1synn9kadnbppahdn7&season=873cbl9cd9butm4air0mugxzo&version=v4w",
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 27,
+      "windSpeed": 2,
+      "windDirectionCardinal": "W",
+      "iconCode": 34,
+      "relativeHumidity": 63,
+      "precipChance": 1,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 21,
+      "description": "Mostly Sunny",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T22:00:07Z",
+      "localizedKey": "weather_condition_sunny",
+      "defaultTitle": "Sunny"
+    },
+    "lineup": {
+      "matchId": 4667801,
+      "lineupType": "predicted",
+      "source": "enetpulse",
+      "availableFilters": [
+        "marketValue",
+        "age",
+        "team"
+      ],
+      "homeTeam": {
+        "id": 6720,
+        "name": "Spain",
+        "formation": "4-3-3",
+        "starters": [
+          {
+            "id": 660625,
+            "age": 29,
+            "name": "Unai Simón",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "23",
+            "countryName": "Spain",
+            "countryCode": "ESP",
+            "primaryTeamId": 8315,
+            "primaryTeamName": "Athletic Club",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.2
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.2,
+              "width": 1
+            },
+            "marketValue": 25538666,
+            "firstName": "Unai",
+            "lastName": "Simón",
+            "rankings": null
+          },
+          {
+            "id": 602563,
+            "age": 31,
+            "name": "Marcos Llorente",
+            "positionId": 32,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Spain",
+            "countryCode": "ESP",
+            "primaryTeamId": 9906,
+            "primaryTeamName": "Atletico Madrid",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 18463827,
+            "firstName": "Marcos",
+            "lastName": "Llorente",
+            "rankings": null
+          },
+          {
+            "id": 1532137,
+            "age": 19,
+            "name": "Pau Cubarsí",
+            "positionId": 34,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "22",
+            "countryName": "Spain",
+            "countryCode": "ESP",
+            "primaryTeamId": 8634,
+            "primaryTeamName": "Barcelona",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 134046487,
+            "firstName": "Pau",
+            "lastName": "Cubarsí",
+            "rankings": null
+          },
+          {
+            "id": 411617,
+            "age": 32,
+            "name": "Aymeric Laporte",
+            "positionId": 36,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "14",
+            "countryName": "Spain",
+            "countryCode": "ESP",
+            "primaryTeamId": 8315,
+            "primaryTeamName": "Athletic Club",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 7044833,
+            "firstName": "Aymeric",
+            "lastName": "Laporte",
+            "rankings": null
+          },
+          {
+            "id": 873289,
+            "age": 27,
+            "name": "Marc Cucurella",
+            "positionId": 38,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "24",
+            "countryName": "Spain",
+            "countryCode": "ESP",
+            "primaryTeamId": 8633,
+            "primaryTeamName": "Real Madrid",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 45916601,
+            "firstName": "Marc",
+            "lastName": "Cucurella",
+            "rankings": null
+          },
+          {
+            "id": 605654,
+            "age": 30,
+            "name": "Fabián Ruiz",
+            "positionId": 73,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "Spain",
+            "countryCode": "ESP",
+            "primaryTeamId": 9847,
+            "primaryTeamName": "Paris Saint-Germain",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 33299522,
+            "firstName": "Fabián",
+            "lastName": "Ruiz",
+            "rankings": null
+          },
+          {
+            "id": 675088,
+            "age": 29,
+            "name": "Rodri",
+            "positionId": 75,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "16",
+            "countryName": "Spain",
+            "countryCode": "ESP",
+            "primaryTeamId": 8456,
+            "primaryTeamName": "Manchester City",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 73119590,
+            "firstName": "",
+            "lastName": "Rodri",
+            "rankings": null
+          },
+          {
+            "id": 1083323,
+            "age": 23,
+            "name": "Pedri",
+            "positionId": 77,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "20",
+            "countryName": "Spain",
+            "countryCode": "ESP",
+            "primaryTeamId": 8634,
+            "primaryTeamName": "Barcelona",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 106919654,
+            "firstName": "",
+            "lastName": "Pedri",
+            "rankings": null
+          },
+          {
+            "id": 1467236,
+            "age": 18,
+            "name": "Lamine Yamal",
+            "positionId": 103,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "19",
+            "countryName": "Spain",
+            "countryCode": "ESP",
+            "primaryTeamId": 8634,
+            "primaryTeamName": "Barcelona",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 191225068,
+            "firstName": "Lamine",
+            "lastName": "Yamal",
+            "shortName": "Lamine Yamal",
+            "rankings": null
+          },
+          {
+            "id": 678234,
+            "age": 29,
+            "name": "Mikel Oyarzabal",
+            "positionId": 105,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "21",
+            "countryName": "Spain",
+            "countryCode": "ESP",
+            "primaryTeamId": 8560,
+            "primaryTeamName": "Real Sociedad",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 34428044,
+            "firstName": "Mikel",
+            "lastName": "Oyarzabal",
+            "rankings": null
+          },
+          {
+            "id": 1202110,
+            "age": 23,
+            "name": "Nico Williams",
+            "positionId": 107,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "17",
+            "countryName": "Spain",
+            "countryCode": "ESP",
+            "primaryTeamId": 8315,
+            "primaryTeamName": "Athletic Club",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 57864744,
+            "firstName": "Nico",
+            "lastName": "Williams",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 1059866,
+          "age": 65,
+          "name": "Luis de la Fuente",
+          "countryName": "Spain",
+          "countryCode": "ESP",
+          "firstName": "Luis de",
+          "lastName": "la Fuente",
+          "primaryTeamId": 6720,
+          "primaryTeamName": "Spain",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "unavailable": [
+          {
+            "id": 1553105,
+            "age": 22,
+            "name": "Víctor Muñoz",
+            "positionId": 1000,
+            "countryName": "Spain",
+            "countryCode": "ESP",
+            "primaryTeamId": 8650,
+            "primaryTeamName": "Liverpool",
+            "marketValue": 80000,
+            "unavailability": {
+              "injuryId": 87,
+              "type": "injury",
+              "expectedReturn": "A few days"
+            },
+            "firstName": "Víctor",
+            "lastName": "Muñoz"
+          }
+        ],
+        "averageStarterAge": 26.9,
+        "totalStarterMarketValue": 727867036
+      },
+      "awayTeam": {
+        "id": 7795,
+        "name": "Saudi Arabia",
+        "formation": "3-4-2-1",
+        "starters": [
+          {
+            "id": 535669,
+            "age": 34,
+            "name": "Mohammed Al Owais",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "21",
+            "countryName": "Saudi Arabia",
+            "countryCode": "KSA",
+            "primaryTeamId": 1793879,
+            "primaryTeamName": "Al-Ula FC",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 141322,
+            "firstName": "Mohammed",
+            "lastName": "Al Owais",
+            "rankings": null
+          },
+          {
+            "id": 848607,
+            "age": 27,
+            "name": "Hassan Al Tambakti",
+            "positionId": 33,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Saudi Arabia",
+            "countryCode": "KSA",
+            "primaryTeamId": 2529,
+            "primaryTeamName": "Al Hilal",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 1251573,
+            "firstName": "Hassan",
+            "lastName": "Al Tambakti",
+            "rankings": null
+          },
+          {
+            "id": 640284,
+            "age": 30,
+            "name": "Ali Lajami",
+            "positionId": 35,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Saudi Arabia",
+            "countryCode": "KSA",
+            "primaryTeamId": 2529,
+            "primaryTeamName": "Al Hilal",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 576017,
+            "firstName": "Ali",
+            "lastName": "Lajami",
+            "rankings": null
+          },
+          {
+            "id": 848600,
+            "age": 29,
+            "name": "Abdulelah Al Amri",
+            "positionId": 37,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "Saudi Arabia",
+            "countryCode": "KSA",
+            "primaryTeamId": 101918,
+            "primaryTeamName": "Al Nassr FC",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 809866,
+            "firstName": "Abdulelah",
+            "lastName": "Al Amri",
+            "rankings": null
+          },
+          {
+            "id": 1002617,
+            "age": 26,
+            "name": "Saud Abdulhamid",
+            "positionId": 62,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "12",
+            "countryName": "Saudi Arabia",
+            "countryCode": "KSA",
+            "primaryTeamId": 8588,
+            "primaryTeamName": "Lens",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 3205482,
+            "firstName": "Saud",
+            "lastName": "Abdulhamid",
+            "rankings": null
+          },
+          {
+            "id": 866373,
+            "age": 31,
+            "name": "Mohamed Kanno",
+            "positionId": 64,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "23",
+            "countryName": "Saudi Arabia",
+            "countryCode": "KSA",
+            "primaryTeamId": 2529,
+            "primaryTeamName": "Al Hilal",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 745159,
+            "firstName": "Mohamed",
+            "lastName": "Kanno",
+            "rankings": null
+          },
+          {
+            "id": 823457,
+            "age": 29,
+            "name": "Abdullah Alkhaibari",
+            "positionId": 66,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "15",
+            "countryName": "Saudi Arabia",
+            "countryCode": "KSA",
+            "primaryTeamId": 101918,
+            "primaryTeamName": "Al Nassr FC",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 576017,
+            "firstName": "Abdullah",
+            "lastName": "Alkhaibari",
+            "rankings": null
+          },
+          {
+            "id": 1138003,
+            "age": 26,
+            "name": "Moteb Al-Harbi",
+            "positionId": 68,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "24",
+            "countryName": "Saudi Arabia",
+            "countryCode": "KSA",
+            "primaryTeamId": 2529,
+            "primaryTeamName": "Al Hilal",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 896617,
+            "firstName": "Moteb",
+            "lastName": "Al-Harbi",
+            "rankings": null
+          },
+          {
+            "id": 1235341,
+            "age": 23,
+            "name": "Musab Al-Juwayr",
+            "positionId": 84,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "7",
+            "countryName": "Saudi Arabia",
+            "countryCode": "KSA",
+            "primaryTeamId": 101919,
+            "primaryTeamName": "Al Qadsiah",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 4855676,
+            "firstName": "Musab",
+            "lastName": "Al-Juwayr",
+            "rankings": null
+          },
+          {
+            "id": 307753,
+            "age": 34,
+            "name": "Salem Al-Dawsari",
+            "positionId": 86,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "10",
+            "countryName": "Saudi Arabia",
+            "countryCode": "KSA",
+            "primaryTeamId": 2529,
+            "primaryTeamName": "Al Hilal",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.193
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 935851,
+            "firstName": "Salem",
+            "lastName": "Al-Dawsari",
+            "rankings": null
+          },
+          {
+            "id": 844226,
+            "age": 26,
+            "name": "Firas Al-Buraikan",
+            "positionId": 105,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "9",
+            "countryName": "Saudi Arabia",
+            "countryCode": "KSA",
+            "primaryTeamId": 2530,
+            "primaryTeamName": "Al Ahli",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 3789763,
+            "firstName": "Firas",
+            "lastName": "Al-Buraikan",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 312235,
+          "age": 56,
+          "name": "Georgios Donis",
+          "countryName": "Greece",
+          "countryCode": "GRE",
+          "firstName": "Georgios",
+          "lastName": "Donis",
+          "primaryTeamId": 7795,
+          "primaryTeamName": "Saudi Arabia",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "averageStarterAge": 29.1,
+        "totalStarterMarketValue": 17783343
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894797",
+      "url": "https://data.fotmob.com/tables.ext.894797.fot.gz",
+      "teams": [
+        6720,
+        7795
+      ],
+      "tournamentNameForUrl": "World Cup Grp. H",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": {
+      "summary": [
+        2,
+        0,
+        0
+      ],
+      "matches": [
+        {
+          "time": {
+            "utcTime": "2012-09-07T20:00:00.000Z"
+          },
+          "matchUrl": "/matches/spain-vs-saudi-arabia/1qq6ht#1294688",
+          "league": {
+            "name": "Friendlies",
+            "id": "114",
+            "pageUrl": "/leagues/114/overview/friendlies"
+          },
+          "home": {
+            "name": "Spain",
+            "id": "6720"
+          },
+          "status": {
+            "utcTime": "2012-09-07T20:00:00.000Z",
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "awarded": false,
+            "scoreStr": "5 - 0",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
+          },
+          "finished": false,
+          "away": {
+            "name": "Saudi Arabia",
+            "id": "7795"
+          }
+        },
+        {
+          "time": {
+            "utcTime": "2006-06-23T14:00:00.000Z"
+          },
+          "matchUrl": "/matches/spain-vs-saudi-arabia/1qq6ht#36017",
+          "league": {
+            "name": "World Cup grp. H",
+            "id": "77",
+            "pageUrl": "/leagues/77/overview/world-cup-grp-h"
+          },
+          "home": {
+            "name": "Saudi Arabia",
+            "id": "7795"
+          },
+          "status": {
+            "utcTime": "2006-06-23T14:00:00.000Z",
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "awarded": false,
+            "scoreStr": "0 - 1",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
+          },
+          "finished": false,
+          "away": {
+            "name": "Spain",
+            "id": "6720"
+          }
+        }
+      ]
+    },
+    "momentum": false
+  },
+  "seo": {
+    "path": "spain-vs-saudi-arabia",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667801",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Spain",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
+        "url": "https://www.fotmob.com/teams/6720/overview/spain",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Saudi Arabia",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/7795.png",
+        "url": "https://www.fotmob.com/teams/7795/overview/saudi-arabia",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Spain vs Saudi Arabia",
+      "description": "Follow Spain vs Saudi Arabia live on fotmob.com",
+      "startDate": "2026-06-21T16:00:00.000Z",
+      "endDate": "2026-06-21T18:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Atlanta Stadium",
+        "latitude": 33.755406175,
+        "longitude": -84.401075263,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "United States",
+          "addressLocality": "Atlanta, Georgia"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/7795.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667801",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-21T16:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Spain",
+          "url": "https://www.fotmob.com/teams/6720/overview/spain"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Saudi Arabia",
+          "url": "https://www.fotmob.com/teams/7795/overview/saudi-arabia"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. H",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-h"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Spain - Saudi Arabia",
+            "item": "https://www.fotmob.com/match/4667801"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. H",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-h"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Saudi Arabia",
+            "item": "https://www.fotmob.com/teams/7795/overview/saudi-arabia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain - Saudi Arabia",
+            "item": "https://www.fotmob.com/match/4667801"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. H",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-h"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Spain",
+            "item": "https://www.fotmob.com/teams/6720/overview/spain"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Spain - Saudi Arabia",
+            "item": "https://www.fotmob.com/match/4667801"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

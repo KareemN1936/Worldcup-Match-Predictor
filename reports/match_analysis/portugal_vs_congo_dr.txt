@@ -1,0 +1,33 @@
+Portugal vs Congo DR
+
+Date: 2026-06-17T17:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_K
+
+Base Prediction:
+Portugal Win: 79.8%
+Draw: 12.0%
+Congo DR Win: 8.3%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 210.05 | edge: Portugal
+- goal difference last 5: 11.00 | edge: Portugal
+- goals for last 5: 11.00 | edge: Portugal
+- points last 5: 6.00 | edge: Portugal
+- weighted points last 5: 6.00 | edge: Portugal
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Portugal 27.5 | Congo DR 28.5
+Forwards: Portugal 7 | Congo DR 8
+Midfielders: Portugal 7 | Congo DR 7
+Defenders: Portugal 9 | Congo DR 8
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

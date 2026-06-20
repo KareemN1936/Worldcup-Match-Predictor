@@ -1,0 +1,107 @@
+[
+  {
+    "endpoint": "matches",
+    "params": {
+      "date": "20260618"
+    },
+    "url": "https://www.fotmob.com/api/data/matches?date=20260618",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "preview": "{\"leagues\":[{\"isGroup\":true,\"groupName\":\"K\",\"ccode\":\"INT\",\"id\":894800,\"primaryId\":77,\"name\":\"World Cup Grp. K\",\"matches\":[{\"id\":4667820,\"leagueId\":894800,\"time\":\"18.06.2026 04:00\",",
+    "json_keys": [
+      "date",
+      "leagues"
+    ]
+  },
+  {
+    "endpoint": "matches",
+    "params": {
+      "date": "20260618",
+      "timezone": "UTC"
+    },
+    "url": "https://www.fotmob.com/api/data/matches?date=20260618&timezone=UTC",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "preview": "{\"leagues\":[{\"isGroup\":true,\"groupName\":\"K\",\"ccode\":\"INT\",\"id\":894800,\"primaryId\":77,\"name\":\"World Cup Grp. K\",\"matches\":[{\"id\":4667820,\"leagueId\":894800,\"time\":\"18.06.2026 04:00\",",
+    "json_keys": [
+      "date",
+      "leagues"
+    ]
+  },
+  {
+    "endpoint": "matchDetails",
+    "params": {
+      "matchId": "4667820"
+    },
+    "url": "https://www.fotmob.com/api/data/matchDetails?matchId=4667820",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "preview": "{\"general\":{\"matchId\":\"4667820\",\"matchName\":\"Uzbekistan-vs-Colombia_Thu, Jun 18, 2026, 02:00 UTC\",\"matchRound\":\"1\",\"teamColors\":{\"darkMode\":{\"home\":\"#005acf\",\"away\":\"#ECE772\"},\"lig",
+    "json_keys": [
+      "content",
+      "general",
+      "hasPendingVAR",
+      "header",
+      "nav",
+      "ongoing",
+      "seo"
+    ]
+  },
+  {
+    "endpoint": "teams",
+    "params": {
+      "id": "8634"
+    },
+    "url": "https://www.fotmob.com/api/data/teams?id=8634",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "preview": "{\"tabs\":[\"overview\",\"table\",\"fixtures\",\"squad\",\"stats\",\"transfers\",\"history\"],\"allAvailableSeasons\":[],\"details\":{\"id\":8634,\"type\":\"team\",\"name\":\"Barcelona\",\"latestSeason\":\"2025/20",
+    "json_keys": [
+      "QAData",
+      "allAvailableSeasons",
+      "details",
+      "fixtures",
+      "history",
+      "overview",
+      "seostr",
+      "squad",
+      "stats",
+      "table",
+      "tabs",
+      "transfers"
+    ]
+  },
+  {
+    "endpoint": "teams",
+    "params": {
+      "teamId": "8634"
+    },
+    "url": "https://www.fotmob.com/api/data/teams?teamId=8634",
+    "status_code": 200,
+    "content_type": "application/json; charset=utf-8",
+    "preview": "{\"action\":{\"notFound\":true}}",
+    "json_keys": [
+      "action"
+    ]
+  },
+  {
+    "endpoint": "searchData",
+    "params": {
+      "term": "Barcelona"
+    },
+    "url": "https://www.fotmob.com/api/data/searchData?term=Barcelona",
+    "status_code": 404,
+    "content_type": "text/html; charset=utf-8",
+    "preview": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\"><head><meta name=\"apple-itunes-app\" content=\"app-id=488575683\"/><link rel=\"alternate\" href=\"android-app://com.mobilefootie.wc2010/http\"/><l"
+  },
+  {
+    "endpoint": "search",
+    "params": {
+      "term": "Barcelona"
+    },
+    "url": "https://www.fotmob.com/api/data/search?term=Barcelona",
+    "status_code": 404,
+    "content_type": "text/html; charset=utf-8",
+    "preview": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\"><head><meta name=\"apple-itunes-app\" content=\"app-id=488575683\"/><link rel=\"alternate\" href=\"android-app://com.mobilefootie.wc2010/http\"/><l"
+  }
+]

@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537406,
+    "date": "2026-06-24T02:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_K",
+    "home_team": "Colombia",
+    "away_team": "Congo DR"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.7325736880302429,
+    "draw_probability": 0.1601292788982391,
+    "away_win_probability": 0.1072970703244209,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 183.9548220171073,
+      "points_last_5_diff": 2.0,
+      "points_last_10_diff": 4.0,
+      "goal_difference_last_5_diff": 3.0,
+      "goals_for_last_5_diff": 6.0,
+      "goals_against_last_5_diff": 3.0,
+      "weighted_points_last_5_diff": -8.5,
+      "weighted_goal_difference_last_5_diff": 2.0,
+      "wins_last_5_diff": 1.0,
+      "draws_last_5_diff": -1.0,
+      "losses_last_5_diff": 0.0,
+      "clean_sheets_last_5_diff": -1.0,
+      "failed_to_score_last_5_diff": -2.0,
+      "matches_played_2y_diff": 2.0,
+      "win_rate_2y_diff": -0.16666666666666663,
+      "draw_rate_2y_diff": 0.10576923076923078,
+      "loss_rate_2y_diff": 0.060897435897435875,
+      "goals_for_per_match_2y_diff": 0.5480769230769231,
+      "goals_against_per_match_2y_diff": 0.41987179487179493,
+      "goal_difference_per_match_2y_diff": 0.1282051282051282,
+      "clean_sheet_rate_2y_diff": -0.24038461538461536,
+      "failed_to_score_rate_2y_diff": 0.06730769230769232,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 183.9548220171073,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -8.5,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 6.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 4.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 3.0,
+        "leader": "Colombia"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 183.9548220171073,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 2.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 4.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 3.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 6.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 3.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -8.5,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.16666666666666663,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.1282051282051282,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.41987179487179493,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.24038461538461536,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.06730769230769232,
+        "leader": "Congo DR"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": 0.4496969696969698,
+    "probability_shift": 0.0183361703294696,
+    "top_signals": "points per match:home; goal difference:home; starting XI rating:home",
+    "home_win_probability": 0.7536737282540007,
+    "draw_probability": 0.1570379338428524,
+    "away_win_probability": 0.0892883379031469,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 2.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 2.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.4000000000000003,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.0999999999999996,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 2.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 2.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.0999999999999996,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.4000000000000003,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 29.615384615384617,
+    "away_avg_age": 28.5,
+    "home_forwards": 5,
+    "away_forwards": 8,
+    "home_midfielders": 10,
+    "away_midfielders": 7,
+    "home_defenders": 8,
+    "away_defenders": 8,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -3.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 3.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 1.1153846153846168,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 1.1153846153846168,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -3.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 3.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

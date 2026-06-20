@@ -1,0 +1,17 @@
+{
+  "last_attempt_at": "2026-06-20T17:59:25.972209+00:00",
+  "last_finished_at": "2026-06-20T18:01:31.251121+00:00",
+  "last_status": "success",
+  "return_code": 0,
+  "command": [
+    "C:\\Users\\Kareem\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "C:\\Users\\Kareem\\Desktop\\Worldcup Match Predictor\\src\\run_pipeline.py",
+    "--update-predictions"
+  ],
+  "log_path": "C:\\Users\\Kareem\\Desktop\\Worldcup Match Predictor\\reports\\update_logs\\update_20260620_205925.log",
+  "outputs": {
+    "fixture_predictions": "C:\\Users\\Kareem\\Desktop\\Worldcup Match Predictor\\reports\\fixture_predictions.csv",
+    "match_analysis": "C:\\Users\\Kareem\\Desktop\\Worldcup Match Predictor\\reports\\match_analysis",
+    "fotmob_feature_coverage": "C:\\Users\\Kareem\\Desktop\\Worldcup Match Predictor\\reports\\fotmob_feature_coverage.csv"
+  }
+}

@@ -1,0 +1,805 @@
+{
+  "general": {
+    "matchId": "4667830",
+    "matchName": "Croatia-vs-Ghana_Sat, Jun 27, 2026, 21:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CC3737",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#CC3737",
+        "away": "#100f10"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894801,
+    "leagueName": "World Cup Grp. L",
+    "leagueRoundName": "3",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Croatia",
+      "id": 10155
+    },
+    "awayTeam": {
+      "name": "Ghana",
+      "id": 6714
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, Jun 27, 2026, 21:00 UTC",
+    "matchTimeUTCDate": "2026-06-27T21:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Croatia",
+        "id": 10155,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10155_small.png",
+        "pageUrl": "/teams/10155/overview/croatia",
+        "fifaRank": 11
+      },
+      {
+        "name": "Ghana",
+        "id": 6714,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6714_small.png",
+        "pageUrl": "/teams/6714/overview/ghana",
+        "fifaRank": 73
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-27T21:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table",
+    "injured"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667830,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-27T21:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894801,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-l",
+          "leagueName": "World Cup Grp. L",
+          "roundName": "3",
+          "round": "3"
+        },
+        "Stadium": {
+          "name": "Philadelphia Stadium",
+          "city": "Philadelphia, Pennsylvania",
+          "country": "United States",
+          "lat": 39.9008024,
+          "long": -75.1674968,
+          "capacity": 69879,
+          "surface": "grass"
+        },
+        "Referee": {
+          "text": "",
+          "countryCode": "",
+          "country": ""
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8258_xsmall.png",
+            "linkToMatch": "/matches/colombia-vs-croatia/2sxre5#5147840",
+            "date": {
+              "utcTime": "2026-03-26T23:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/8258/overview/colombia",
+            "tooltipText": {
+              "utcTime": "2026-03-26T23:30:00.000Z",
+              "homeTeam": "Colombia",
+              "homeTeamId": 8258,
+              "homeScore": "1",
+              "awayTeam": "Croatia",
+              "awayTeamId": 10155,
+              "awayScore": "2"
+            },
+            "score": "1 - 2",
+            "home": {
+              "id": "8258",
+              "name": "Colombia",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "10155",
+              "name": "Croatia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8256_xsmall.png",
+            "linkToMatch": "/matches/brazil-vs-croatia/2swyz6#5110104",
+            "date": {
+              "utcTime": "2026-04-01T00:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8256/overview/brazil",
+            "tooltipText": {
+              "utcTime": "2026-04-01T00:00:00.000Z",
+              "homeTeam": "Brazil",
+              "homeTeamId": 8256,
+              "homeScore": "3",
+              "awayTeam": "Croatia",
+              "awayTeamId": 10155,
+              "awayScore": "1"
+            },
+            "score": "3 - 1",
+            "home": {
+              "id": "8256",
+              "name": "Brazil",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "10155",
+              "name": "Croatia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8263_xsmall.png",
+            "linkToMatch": "/matches/belgium-vs-croatia/2szqg2#5147839",
+            "date": {
+              "utcTime": "2026-06-02T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8263/overview/belgium",
+            "tooltipText": {
+              "utcTime": "2026-06-02T16:00:00.000Z",
+              "homeTeam": "Croatia",
+              "homeTeamId": 10155,
+              "homeScore": "0",
+              "awayTeam": "Belgium",
+              "awayTeamId": 8263,
+              "awayScore": "2"
+            },
+            "score": "0 - 2",
+            "home": {
+              "id": "10155",
+              "name": "Croatia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8263",
+              "name": "Belgium",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5787_xsmall.png",
+            "linkToMatch": "/matches/slovenia-vs-croatia/23nxao#5159769",
+            "date": {
+              "utcTime": "2026-06-07T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/5787/overview/slovenia",
+            "tooltipText": {
+              "utcTime": "2026-06-07T18:45:00.000Z",
+              "homeTeam": "Croatia",
+              "homeTeamId": 10155,
+              "homeScore": "2",
+              "awayTeam": "Slovenia",
+              "awayTeamId": 5787,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "10155",
+              "name": "Croatia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5787",
+              "name": "Slovenia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8491_xsmall.png",
+            "linkToMatch": "/matches/england-vs-croatia/2viayw#4667825",
+            "date": {
+              "utcTime": "2026-06-17T20:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8491/overview/england",
+            "tooltipText": {
+              "utcTime": "2026-06-17T20:00:00.000Z",
+              "homeTeam": "England",
+              "homeTeamId": 8491,
+              "homeScore": "4",
+              "awayTeam": "Croatia",
+              "awayTeamId": 10155,
+              "awayScore": "2"
+            },
+            "score": "4 - 2",
+            "home": {
+              "id": "8491",
+              "name": "England",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "10155",
+              "name": "Croatia",
+              "isOurTeam": true
+            }
+          }
+        ],
+        [
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8255_xsmall.png",
+            "linkToMatch": "/matches/ghana-vs-austria/1upn9w#5154117",
+            "date": {
+              "utcTime": "2026-03-27T17:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8255/overview/austria",
+            "tooltipText": {
+              "utcTime": "2026-03-27T17:00:00.000Z",
+              "homeTeam": "Austria",
+              "homeTeamId": 8255,
+              "homeScore": "5",
+              "awayTeam": "Ghana",
+              "awayTeamId": 6714,
+              "awayScore": "1"
+            },
+            "score": "5 - 1",
+            "home": {
+              "id": "8255",
+              "name": "Austria",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6714",
+              "name": "Ghana",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8570_xsmall.png",
+            "linkToMatch": "/matches/ghana-vs-germany/1xjs7w#5100790",
+            "date": {
+              "utcTime": "2026-03-30T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/8570/overview/germany",
+            "tooltipText": {
+              "utcTime": "2026-03-30T18:45:00.000Z",
+              "homeTeam": "Germany",
+              "homeTeamId": 8570,
+              "homeScore": "2",
+              "awayTeam": "Ghana",
+              "awayTeamId": 6714,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "8570",
+              "name": "Germany",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6714",
+              "name": "Ghana",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6710_xsmall.png",
+            "linkToMatch": "/matches/mexico-vs-ghana/1hnhf6#5217284",
+            "date": {
+              "utcTime": "2026-05-23T02:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6710/overview/mexico",
+            "tooltipText": {
+              "utcTime": "2026-05-23T02:00:00.000Z",
+              "homeTeam": "Mexico",
+              "homeTeamId": 6710,
+              "homeScore": "2",
+              "awayTeam": "Ghana",
+              "awayTeamId": 6714,
+              "awayScore": "0"
+            },
+            "score": "2 - 0",
+            "home": {
+              "id": "6710",
+              "name": "Mexico",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6714",
+              "name": "Ghana",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5790_xsmall.png",
+            "linkToMatch": "/matches/wales-vs-ghana/1aju86#5226683",
+            "date": {
+              "utcTime": "2026-06-02T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/5790/overview/wales",
+            "tooltipText": {
+              "utcTime": "2026-06-02T18:45:00.000Z",
+              "homeTeam": "Wales",
+              "homeTeamId": 5790,
+              "homeScore": "1",
+              "awayTeam": "Ghana",
+              "awayTeamId": 6714,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "5790",
+              "name": "Wales",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6714",
+              "name": "Ghana",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5922_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-ghana/1bjek0#4667826",
+            "date": {
+              "utcTime": "2026-06-17T23:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5922/overview/panama",
+            "tooltipText": {
+              "utcTime": "2026-06-17T23:00:00.000Z",
+              "homeTeam": "Ghana",
+              "homeTeamId": 6714,
+              "homeScore": "1",
+              "awayTeam": "Panama",
+              "awayTeamId": 5922,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "6714",
+              "name": "Ghana",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": false
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667830",
+          "MatchId": 4667830,
+          "HomeTeamId": 10155,
+          "AwayTeamId": 6714,
+          "HomeTeam": "Croatia",
+          "AwayTeam": "Ghana",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} have {1}W, {2}D, {3}L in five matches while {4} have {5}W, {6}D, {7}L.",
+              "TextTemplateId": "team_form_both",
+              "StatValues": [
+                "home_team",
+                "2",
+                "0",
+                "3",
+                "away_team",
+                "1",
+                "1",
+                "3"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Croatia have 2W, 0D, 3L in five matches while Ghana have 1W, 1D, 3L."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have an average of {2} goals in their last three matches and {1} have an average of {3}.",
+              "TextTemplateId": "average_goals_last3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "1.33",
+                "0.67"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Croatia have an average of 1.33 goals in their last three matches and Ghana have an average of 0.67."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have an average of {2} goals in their last three matches and {1} have an average of {3}.",
+              "TextTemplateId": "average_goals_last3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "1.33",
+                "0.67"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Croatia have an average of 1.33 goals in their last three matches and Ghana have an average of 0.67."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't drawn in their last {1} matches.",
+              "TextTemplateId": "draw_streak_team",
+              "StatValues": [
+                "home_team",
+                "8"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Croatia haven't drawn in their last 8 matches."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 10155,
+          "priority": 8,
+          "defaultText": "Haven't kept a clean sheet in {0} matches",
+          "localizedTextId": "insights_not_clean_sheet",
+          "statValues": [
+            {
+              "value": 7,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't kept a clean sheet in 7 matches",
+          "color": "#CC3737"
+        }
+      ],
+      "countryCode": "INT",
+      "QAData": []
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 30,
+      "windSpeed": 4,
+      "windDirectionCardinal": "W",
+      "iconCode": 30,
+      "relativeHumidity": 44,
+      "precipChance": 16,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 56,
+      "description": "Partly Cloudy",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T11:00:01Z",
+      "localizedKey": "weather_condition_partly_cloudy",
+      "defaultTitle": "Partly Cloudy"
+    },
+    "lineup": {
+      "matchId": 4667830,
+      "lineupType": "standard",
+      "availableFilters": [
+        "match"
+      ],
+      "homeTeam": {
+        "id": 10155,
+        "name": "Croatia",
+        "unavailable": []
+      },
+      "awayTeam": {
+        "id": 6714,
+        "name": "Ghana",
+        "unavailable": [
+          {
+            "id": 615411,
+            "name": "Lawrence Ati Zigi",
+            "unavailability": {
+              "injuryId": 121,
+              "lastUpdated": "2026-06-18T10:12:24Z",
+              "type": "injury",
+              "expectedReturn": "Doubtful"
+            },
+            "firstName": "Lawrence Ati",
+            "lastName": "Zigi"
+          }
+        ]
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894801",
+      "url": "https://data.fotmob.com/tables.ext.894801.fot.gz",
+      "teams": [
+        10155,
+        6714
+      ],
+      "tournamentNameForUrl": "World Cup Grp. L",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": false,
+    "momentum": false
+  },
+  "seo": {
+    "path": "croatia-vs-ghana",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667830",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Croatia",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10155.png",
+        "url": "https://www.fotmob.com/teams/10155/overview/croatia",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Ghana",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6714.png",
+        "url": "https://www.fotmob.com/teams/6714/overview/ghana",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Croatia vs Ghana",
+      "description": "Follow Croatia vs Ghana live on fotmob.com",
+      "startDate": "2026-06-27T21:00:00.000Z",
+      "endDate": "2026-06-27T23:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Philadelphia Stadium",
+        "latitude": 39.9008024,
+        "longitude": -75.1674968,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "United States",
+          "addressLocality": "Philadelphia, Pennsylvania"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/10155.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6714.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667830",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-27T21:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Croatia",
+          "url": "https://www.fotmob.com/teams/10155/overview/croatia"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Ghana",
+          "url": "https://www.fotmob.com/teams/6714/overview/ghana"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. L",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-l"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Croatia - Ghana",
+            "item": "https://www.fotmob.com/match/4667830"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. L",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-l"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ghana",
+            "item": "https://www.fotmob.com/teams/6714/overview/ghana"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Croatia - Ghana",
+            "item": "https://www.fotmob.com/match/4667830"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. L",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-l"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Croatia",
+            "item": "https://www.fotmob.com/teams/10155/overview/croatia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Croatia - Ghana",
+            "item": "https://www.fotmob.com/match/4667830"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

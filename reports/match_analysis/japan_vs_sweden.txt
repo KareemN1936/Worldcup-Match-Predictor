@@ -1,0 +1,41 @@
+Japan vs Sweden
+
+Date: 2026-06-25T23:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_F
+
+Base Prediction:
+Japan Win: 72.0%
+Draw: 18.5%
+Sweden Win: 9.5%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 177.61 | edge: Japan
+- weighted points last 5: -23.50 | edge: Sweden
+- points last 10: 10.00 | edge: Japan
+- goals against last 5: -7.00 | edge: Japan
+- goals for last 5: -6.00 | edge: Sweden
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.03
+Probability shift: -0.0026
+Top signals: points per match:away; player rating:home; starting XI rating:home
+Japan Win: 71.8%
+Draw: 18.4%
+Sweden Win: 9.8%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Japan 27.2 | Sweden 27.0
+Forwards: Japan 7 | Sweden 6
+Midfielders: Japan 7 | Sweden 7
+Defenders: Japan 9 | Sweden 10
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

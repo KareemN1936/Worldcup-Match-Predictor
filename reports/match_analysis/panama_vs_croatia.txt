@@ -1,0 +1,41 @@
+Panama vs Croatia
+
+Date: 2026-06-23T23:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_L
+
+Base Prediction:
+Panama Win: 24.7%
+Draw: 26.6%
+Croatia Win: 48.7%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -115.29 | edge: Croatia
+- weighted points last 5: -11.50 | edge: Croatia
+- points last 10: -6.00 | edge: Croatia
+- goals for last 5: 2.00 | edge: Panama
+- goals against last 5: 2.00 | edge: Croatia
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.05
+Probability shift: 0.0024
+Top signals: goal difference:home; starting XI rating:away; player rating:away
+Panama Win: 25.0%
+Draw: 26.6%
+Croatia Win: 48.5%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Panama 30.0 | Croatia 27.9
+Forwards: Panama 4 | Croatia 6
+Midfielders: Panama 9 | Croatia 10
+Defenders: Panama 10 | Croatia 7
+
+Final Recommendation:
+Use: Team A loss
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

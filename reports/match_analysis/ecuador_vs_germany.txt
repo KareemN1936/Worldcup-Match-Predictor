@@ -1,0 +1,41 @@
+Ecuador vs Germany
+
+Date: 2026-06-25T20:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_E
+
+Base Prediction:
+Ecuador Win: 32.6%
+Draw: 23.6%
+Germany Win: 43.8%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -58.34 | edge: Germany
+- weighted points last 5: -17.50 | edge: Germany
+- points last 10: -13.00 | edge: Germany
+- goals for last 5: -12.00 | edge: Germany
+- goal difference last 5: -10.00 | edge: Germany
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.60
+Probability shift: -0.0532
+Top signals: points per match:away; goal difference:away; starting XI rating:away
+Ecuador Win: 27.6%
+Draw: 22.8%
+Germany Win: 49.6%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Ecuador 25.6 | Germany 27.6
+Forwards: Ecuador 7 | Germany 6
+Midfielders: Ecuador 8 | Germany 10
+Defenders: Ecuador 8 | Germany 7
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

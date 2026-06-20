@@ -1,0 +1,41 @@
+Congo DR vs Uzbekistan
+
+Date: 2026-06-27T23:30:00Z
+Round: GROUP_STAGE
+Group: GROUP_K
+
+Base Prediction:
+Congo DR Win: 34.2%
+Draw: 28.8%
+Uzbekistan Win: 37.0%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -75.90 | edge: Uzbekistan
+- weighted points last 5: 10.50 | edge: Congo DR
+- goals against last 5: -4.00 | edge: Congo DR
+- points last 10: 3.00 | edge: Congo DR
+- points last 5: 2.00 | edge: Congo DR
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.38
+Probability shift: 0.0338
+Top signals: goal difference:home; points per match:home; starting XI rating:home
+Congo DR Win: 37.8%
+Draw: 28.3%
+Uzbekistan Win: 33.8%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Congo DR 28.5 | Uzbekistan 27.7
+Forwards: Congo DR 8 | Uzbekistan 4
+Midfielders: Congo DR 7 | Uzbekistan 9
+Defenders: Congo DR 8 | Uzbekistan 10
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

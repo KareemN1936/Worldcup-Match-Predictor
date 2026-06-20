@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537411,
+    "date": "2026-06-23T20:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_L",
+    "home_team": "England",
+    "away_team": "Ghana"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.8682141900062561,
+    "draw_probability": 0.1110831648111343,
+    "away_win_probability": 0.0207026842981576,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 357.00063258306636,
+      "points_last_5_diff": 9.0,
+      "points_last_10_diff": 14.0,
+      "goal_difference_last_5_diff": 13.0,
+      "goals_for_last_5_diff": 4.0,
+      "goals_against_last_5_diff": -9.0,
+      "weighted_points_last_5_diff": 19.5,
+      "weighted_goal_difference_last_5_diff": 20.0,
+      "wins_last_5_diff": 3.0,
+      "draws_last_5_diff": 0.0,
+      "losses_last_5_diff": -3.0,
+      "clean_sheets_last_5_diff": 3.0,
+      "failed_to_score_last_5_diff": -1.0,
+      "matches_played_2y_diff": 6.0,
+      "win_rate_2y_diff": 0.3923076923076923,
+      "draw_rate_2y_diff": -0.09615384615384615,
+      "loss_rate_2y_diff": -0.29615384615384616,
+      "goals_for_per_match_2y_diff": 0.726923076923077,
+      "goals_against_per_match_2y_diff": -0.6115384615384615,
+      "goal_difference_per_match_2y_diff": 1.3384615384615386,
+      "clean_sheet_rate_2y_diff": 0.26538461538461544,
+      "failed_to_score_rate_2y_diff": -0.22307692307692306,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 357.00063258306636,
+        "leader": "England"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 19.5,
+        "leader": "England"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 14.0,
+        "leader": "England"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 13.0,
+        "leader": "England"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 9.0,
+        "leader": "England"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 357.00063258306636,
+        "leader": "England"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 9.0,
+        "leader": "England"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 14.0,
+        "leader": "England"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 13.0,
+        "leader": "England"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 4.0,
+        "leader": "England"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -9.0,
+        "leader": "England"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 19.5,
+        "leader": "England"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.3923076923076923,
+        "leader": "England"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 1.3384615384615386,
+        "leader": "England"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.6115384615384615,
+        "leader": "England"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.26538461538461544,
+        "leader": "England"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.22307692307692306,
+        "leader": "England"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": 0.0830303030303029,
+    "probability_shift": 0.0028849738981587,
+    "top_signals": "goal difference:home; player rating:home; points per match:away",
+    "home_win_probability": 0.8716020396380109,
+    "draw_probability": 0.110569963998509,
+    "away_win_probability": 0.0178279963634801,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "England"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0499999999999998,
+        "leader": "England"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "England"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0499999999999998,
+        "leader": "England"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 26.615384615384617,
+    "away_avg_age": 26.423076923076923,
+    "home_forwards": 6,
+    "away_forwards": 9,
+    "home_midfielders": 8,
+    "away_midfielders": 5,
+    "home_defenders": 9,
+    "away_defenders": 9,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -3.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 3.0,
+        "leader": "England"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.1923076923076934,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.1923076923076934,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -3.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 3.0,
+        "leader": "England"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

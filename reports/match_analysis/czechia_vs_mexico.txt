@@ -1,0 +1,41 @@
+Czechia vs Mexico
+
+Date: 2026-06-25T01:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_A
+
+Base Prediction:
+Czechia Win: 7.0%
+Draw: 16.0%
+Mexico Win: 77.0%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -363.70 | edge: Mexico
+- weighted points last 5: -23.50 | edge: Mexico
+- points last 10: -23.00 | edge: Mexico
+- points last 5: -13.00 | edge: Mexico
+- goals for last 5: -11.00 | edge: Mexico
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.43
+Probability shift: -0.0335
+Top signals: points per match:away; goal difference:away; starting XI rating:away
+Czechia Win: 3.7%
+Draw: 15.4%
+Mexico Win: 80.9%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Czechia 27.2 | Mexico 27.5
+Forwards: Czechia 5 | Mexico 8
+Midfielders: Czechia 11 | Mexico 9
+Defenders: Czechia 7 | Mexico 6
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

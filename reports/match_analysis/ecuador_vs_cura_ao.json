@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537354,
+    "date": "2026-06-21T00:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_E",
+    "home_team": "Ecuador",
+    "away_team": "Cura\u00e7ao"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.844640851020813,
+    "draw_probability": 0.0965480953454971,
+    "away_win_probability": 0.0588110759854316,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 290.46921508095807,
+      "points_last_5_diff": 5.0,
+      "points_last_10_diff": 3.0,
+      "goal_difference_last_5_diff": 14.0,
+      "goals_for_last_5_diff": 0.0,
+      "goals_against_last_5_diff": -14.0,
+      "weighted_points_last_5_diff": 5.0,
+      "weighted_goal_difference_last_5_diff": 34.5,
+      "wins_last_5_diff": 1.0,
+      "draws_last_5_diff": 2.0,
+      "losses_last_5_diff": -3.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": 2.0,
+      "win_rate_2y_diff": -0.07478260869565218,
+      "draw_rate_2y_diff": 0.2591304347826087,
+      "loss_rate_2y_diff": -0.18434782608695655,
+      "goals_for_per_match_2y_diff": -1.0,
+      "goals_against_per_match_2y_diff": -0.8243478260869566,
+      "goal_difference_per_match_2y_diff": -0.17565217391304344,
+      "clean_sheet_rate_2y_diff": 0.08173913043478265,
+      "failed_to_score_rate_2y_diff": 0.13913043478260873,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 290.46921508095807,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 14.0,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -14.0,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 5.0,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 5.0,
+        "leader": "Ecuador"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 290.46921508095807,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 5.0,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 3.0,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 14.0,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -14.0,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 5.0,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.07478260869565218,
+        "leader": "Cura\u00e7ao"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": -0.17565217391304344,
+        "leader": "Cura\u00e7ao"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.8243478260869566,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.08173913043478265,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.13913043478260873,
+        "leader": "Cura\u00e7ao"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": 0.3436363636363634,
+    "probability_shift": 0.0123000306389548,
+    "top_signals": "goal difference:home; starting XI rating:home; player rating:home",
+    "home_win_probability": 0.8590541409091522,
+    "draw_probability": 0.0943201151707813,
+    "away_win_probability": 0.0466257439200664,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 5.0,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.6999999999999993,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0999999999999996,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 5.0,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0999999999999996,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.6999999999999993,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 25.57692307692308,
+    "away_avg_age": 27.53846153846154,
+    "home_forwards": 7,
+    "away_forwards": 8,
+    "home_midfielders": 8,
+    "away_midfielders": 4,
+    "home_defenders": 8,
+    "away_defenders": 11,
+    "strongest": [
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 4.0,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -3.0,
+        "leader": "Cura\u00e7ao"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.96153846153846,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -1.0,
+        "leader": "Cura\u00e7ao"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.96153846153846,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -1.0,
+        "leader": "Cura\u00e7ao"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 4.0,
+        "leader": "Ecuador"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -3.0,
+        "leader": "Cura\u00e7ao"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

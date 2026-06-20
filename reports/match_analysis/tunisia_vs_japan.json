@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537360,
+    "date": "2026-06-21T04:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_F",
+    "home_team": "Tunisia",
+    "away_team": "Japan"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.1193800345063209,
+    "draw_probability": 0.2209732085466385,
+    "away_win_probability": 0.65964674949646,
+    "predicted_result": "Team A loss",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -234.12548358442768,
+      "points_last_5_diff": -9.0,
+      "points_last_10_diff": -9.0,
+      "goal_difference_last_5_diff": -15.0,
+      "goals_for_last_5_diff": -6.0,
+      "goals_against_last_5_diff": 9.0,
+      "weighted_points_last_5_diff": -14.0,
+      "weighted_goal_difference_last_5_diff": -30.5,
+      "wins_last_5_diff": -3.0,
+      "draws_last_5_diff": 0.0,
+      "losses_last_5_diff": 3.0,
+      "clean_sheets_last_5_diff": -2.0,
+      "failed_to_score_last_5_diff": 3.0,
+      "matches_played_2y_diff": 9.0,
+      "win_rate_2y_diff": -0.16724137931034483,
+      "draw_rate_2y_diff": -0.008620689655172403,
+      "loss_rate_2y_diff": 0.17586206896551723,
+      "goals_for_per_match_2y_diff": -0.7327586206896552,
+      "goals_against_per_match_2y_diff": 0.5534482758620689,
+      "goal_difference_per_match_2y_diff": -1.2862068965517242,
+      "clean_sheet_rate_2y_diff": -0.27068965517241383,
+      "failed_to_score_rate_2y_diff": 0.041379310344827586,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -234.12548358442768,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -15.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -14.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -9.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -9.0,
+        "leader": "Japan"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -234.12548358442768,
+        "leader": "Japan"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -9.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -9.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -15.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -6.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 9.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -14.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.16724137931034483,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": -1.2862068965517242,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.5534482758620689,
+        "leader": "Japan"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.27068965517241383,
+        "leader": "Japan"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.041379310344827586,
+        "leader": "Japan"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": -0.5509090909090909,
+    "probability_shift": -0.0242486492850563,
+    "top_signals": "goal difference:away; starting XI rating:away; points per match:away",
+    "home_win_probability": 0.095594995839004,
+    "draw_probability": 0.2171767287735008,
+    "away_win_probability": 0.6872282753874951,
+    "predicted_result": "Team A loss",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": -4.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -1.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -1.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.3499999999999996,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -1.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": -4.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.3499999999999996,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -1.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 26.15384615384616,
+    "away_avg_age": 27.192307692307693,
+    "home_forwards": 6,
+    "away_forwards": 7,
+    "home_midfielders": 7,
+    "away_midfielders": 7,
+    "home_defenders": 10,
+    "away_defenders": 9,
+    "strongest": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.0384615384615363,
+        "leader": "Tunisia"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -1.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "Tunisia"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.0384615384615363,
+        "leader": "Tunisia"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -1.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "Tunisia"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A loss",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

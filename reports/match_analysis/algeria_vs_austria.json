@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537402,
+    "date": "2026-06-28T02:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_J",
+    "home_team": "Algeria",
+    "away_team": "Austria"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.4143573045730591,
+    "draw_probability": 0.2992458641529083,
+    "away_win_probability": 0.2863968312740326,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -6.755208799223055,
+      "points_last_5_diff": -3.0,
+      "points_last_10_diff": -3.0,
+      "goal_difference_last_5_diff": 1.0,
+      "goals_for_last_5_diff": 1.0,
+      "goals_against_last_5_diff": 0.0,
+      "weighted_points_last_5_diff": -17.0,
+      "weighted_goal_difference_last_5_diff": -16.5,
+      "wins_last_5_diff": -1.0,
+      "draws_last_5_diff": 0.0,
+      "losses_last_5_diff": 1.0,
+      "clean_sheets_last_5_diff": 2.0,
+      "failed_to_score_last_5_diff": 2.0,
+      "matches_played_2y_diff": 7.0,
+      "win_rate_2y_diff": 0.11693548387096775,
+      "draw_rate_2y_diff": -0.005376344086021501,
+      "loss_rate_2y_diff": -0.11155913978494625,
+      "goals_for_per_match_2y_diff": 0.07258064516129048,
+      "goals_against_per_match_2y_diff": -0.22043010752688175,
+      "goal_difference_per_match_2y_diff": 0.293010752688172,
+      "clean_sheet_rate_2y_diff": 0.2473118279569893,
+      "failed_to_score_rate_2y_diff": 0.06854838709677419,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -17.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -6.755208799223055,
+        "leader": "Austria"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -3.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -3.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 1.0,
+        "leader": "Algeria"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -6.755208799223055,
+        "leader": "Austria"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -3.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -3.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 1.0,
+        "leader": "Algeria"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 1.0,
+        "leader": "Algeria"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -17.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.11693548387096775,
+        "leader": "Algeria"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.293010752688172,
+        "leader": "Algeria"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.22043010752688175,
+        "leader": "Algeria"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.2473118279569893,
+        "leader": "Algeria"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.06854838709677419,
+        "leader": "Austria"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.8888888888888888,
+    "enrichment_score": -0.6418181818181817,
+    "probability_shift": -0.057050505050505,
+    "top_signals": "points per match:away; goal difference:away; starting XI rating:away",
+    "home_win_probability": 0.3614307610138801,
+    "draw_probability": 0.2911579042400759,
+    "away_win_probability": 0.3474113347460439,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": -5.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -3.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.8999999999999995,
+        "leader": "Austria"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.2000000000000001,
+        "leader": "Austria"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -3.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": -5.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.2000000000000001,
+        "leader": "Austria"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.8999999999999995,
+        "leader": "Austria"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 26.46153846153846,
+    "away_avg_age": 28.115384615384617,
+    "home_forwards": 6,
+    "away_forwards": 3,
+    "home_midfielders": 8,
+    "away_midfielders": 11,
+    "home_defenders": 9,
+    "away_defenders": 9,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 3.0,
+        "leader": "Algeria"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -3.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.6538461538461569,
+        "leader": "Algeria"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.6538461538461569,
+        "leader": "Algeria"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 3.0,
+        "leader": "Algeria"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -3.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
+  }
+}

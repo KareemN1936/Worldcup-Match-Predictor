@@ -1,0 +1,300 @@
+{
+  "fixture": {
+    "fixture_id": 537351,
+    "date": "2026-06-14T17:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_E",
+    "home_team": "Germany",
+    "away_team": "Cura\u00e7ao"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.911023199558258,
+    "draw_probability": 0.0602065399289131,
+    "away_win_probability": 0.0287702064961195,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 348.809332342546,
+      "points_last_5_diff": 12.0,
+      "points_last_10_diff": 16.0,
+      "goal_difference_last_5_diff": 24.0,
+      "goals_for_last_5_diff": 12.0,
+      "goals_against_last_5_diff": -12.0,
+      "weighted_points_last_5_diff": 22.5,
+      "weighted_goal_difference_last_5_diff": 69.0,
+      "wins_last_5_diff": 4.0,
+      "draws_last_5_diff": 0.0,
+      "losses_last_5_diff": -4.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": -1.0,
+      "matches_played_2y_diff": 2.0,
+      "win_rate_2y_diff": 0.2452173913043479,
+      "draw_rate_2y_diff": -0.1008695652173913,
+      "loss_rate_2y_diff": -0.14434782608695654,
+      "goals_for_per_match_2y_diff": 0.6000000000000001,
+      "goals_against_per_match_2y_diff": -0.3443478260869566,
+      "goal_difference_per_match_2y_diff": 0.9443478260869564,
+      "clean_sheet_rate_2y_diff": -0.07826086956521738,
+      "failed_to_score_rate_2y_diff": -0.18086956521739128,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 348.809332342546,
+        "leader": "Germany"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 24.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 22.5,
+        "leader": "Germany"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 16.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 12.0,
+        "leader": "Germany"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 348.809332342546,
+        "leader": "Germany"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 12.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 16.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 24.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 12.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -12.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 22.5,
+        "leader": "Germany"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.2452173913043479,
+        "leader": "Germany"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.9443478260869564,
+        "leader": "Germany"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.3443478260869566,
+        "leader": "Germany"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.07826086956521738,
+        "leader": "Cura\u00e7ao"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.18086956521739128,
+        "leader": "Germany"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": false,
+    "feature_count": 0,
+    "reliability": 0.0,
+    "enrichment_score": 0.0,
+    "probability_shift": 0.0,
+    "top_signals": null,
+    "home_win_probability": 0.911023248768736,
+    "draw_probability": 0.0602065431810724,
+    "away_win_probability": 0.0287702080501914,
+    "predicted_result": "Team A win",
+    "strongest": [],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": null,
+        "leader": null
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 27.615384615384617,
+    "away_avg_age": 27.53846153846154,
+    "home_forwards": 6,
+    "away_forwards": 8,
+    "home_midfielders": 10,
+    "away_midfielders": 4,
+    "home_defenders": 7,
+    "away_defenders": 11,
+    "strongest": [
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 6.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -4.0,
+        "leader": "Cura\u00e7ao"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -2.0,
+        "leader": "Cura\u00e7ao"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.0769230769230766,
+        "leader": "Cura\u00e7ao"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.0769230769230766,
+        "leader": "Cura\u00e7ao"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -2.0,
+        "leader": "Cura\u00e7ao"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 6.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -4.0,
+        "leader": "Cura\u00e7ao"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

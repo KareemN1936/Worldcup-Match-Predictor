@@ -1,0 +1,33 @@
+Argentina vs Algeria
+
+Date: 2026-06-17T01:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_J
+
+Base Prediction:
+Argentina Win: 73.0%
+Draw: 17.6%
+Algeria Win: 9.4%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 219.69 | edge: Argentina
+- weighted points last 5: 15.50 | edge: Argentina
+- points last 5: 5.00 | edge: Argentina
+- points last 10: 5.00 | edge: Argentina
+- goal difference last 5: 5.00 | edge: Argentina
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Argentina 28.6 | Algeria 26.5
+Forwards: Argentina 6 | Algeria 6
+Midfielders: Argentina 8 | Algeria 8
+Defenders: Argentina 9 | Algeria 9
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

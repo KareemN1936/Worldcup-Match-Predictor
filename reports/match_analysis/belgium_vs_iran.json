@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537365,
+    "date": "2026-06-21T19:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_G",
+    "home_team": "Belgium",
+    "away_team": "Iran"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.4893979132175445,
+    "draw_probability": 0.2491649091243744,
+    "away_win_probability": 0.261437177658081,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 24.743025003506773,
+      "points_last_5_diff": 1.0,
+      "points_last_10_diff": 4.0,
+      "goal_difference_last_5_diff": 2.0,
+      "goals_for_last_5_diff": 1.0,
+      "goals_against_last_5_diff": -1.0,
+      "weighted_points_last_5_diff": 1.0,
+      "weighted_goal_difference_last_5_diff": 2.0,
+      "wins_last_5_diff": 0.0,
+      "draws_last_5_diff": 1.0,
+      "losses_last_5_diff": -1.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": 6.0,
+      "win_rate_2y_diff": -0.13894736842105265,
+      "draw_rate_2y_diff": 0.016842105263157936,
+      "loss_rate_2y_diff": 0.12210526315789477,
+      "goals_for_per_match_2y_diff": 0.3578947368421055,
+      "goals_against_per_match_2y_diff": 0.21052631578947367,
+      "goal_difference_per_match_2y_diff": 0.1473684210526316,
+      "clean_sheet_rate_2y_diff": -0.1663157894736842,
+      "failed_to_score_rate_2y_diff": 0.06947368421052635,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 24.743025003506773,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 4.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 2.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 1.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 1.0,
+        "leader": "Belgium"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 24.743025003506773,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 1.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 4.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 2.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 1.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -1.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 1.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.13894736842105265,
+        "leader": "Iran"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.1473684210526316,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.21052631578947367,
+        "leader": "Iran"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.1663157894736842,
+        "leader": "Iran"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.06947368421052635,
+        "leader": "Iran"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": 0.0290909090909092,
+    "probability_shift": 0.0012929292929292,
+    "top_signals": "player rating:home; starting XI rating:home; points per match:away",
+    "home_win_probability": 0.4908177610426223,
+    "draw_probability": 0.2489707035689336,
+    "away_win_probability": 0.2602115353884441,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.1000000000000005,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.1000000000000005,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.1000000000000005,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.1000000000000005,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 27.115384615384617,
+    "away_avg_age": 29.846153846153847,
+    "home_forwards": 4,
+    "away_forwards": 8,
+    "home_midfielders": 10,
+    "away_midfielders": 6,
+    "home_defenders": 9,
+    "away_defenders": 9,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -4.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 4.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -2.73076923076923,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -2.73076923076923,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -4.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 4.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

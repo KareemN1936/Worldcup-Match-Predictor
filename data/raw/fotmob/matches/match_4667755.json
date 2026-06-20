@@ -1,0 +1,1932 @@
+{
+  "general": {
+    "matchId": "4667755",
+    "matchName": "Czechia-vs-Mexico_Thu, Jun 25, 2026, 01:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D9273C",
+        "away": "#00634b"
+      },
+      "lightMode": {
+        "home": "#D9273C",
+        "away": "#00634b"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894790,
+    "leagueName": "World Cup Grp. A",
+    "leagueRoundName": "3",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Czechia",
+      "id": 8496
+    },
+    "awayTeam": {
+      "name": "Mexico",
+      "id": 6710
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Thu, Jun 25, 2026, 01:00 UTC",
+    "matchTimeUTCDate": "2026-06-25T01:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Czechia",
+        "id": 8496,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8496_small.png",
+        "pageUrl": "/teams/8496/overview/czechia",
+        "fifaRank": 40
+      },
+      {
+        "name": "Mexico",
+        "id": 6710,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6710_small.png",
+        "pageUrl": "/teams/6710/overview/mexico",
+        "fifaRank": 14
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-25T01:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table",
+    "injured"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667755,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-25T01:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894790,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp",
+          "leagueName": "World Cup Grp. A",
+          "roundName": "3",
+          "round": "3"
+        },
+        "Stadium": {
+          "name": "Mexico City Stadium",
+          "city": "Ciudad de México",
+          "country": "Mexico",
+          "lat": 19.302825295,
+          "long": -99.150388241,
+          "capacity": 80824,
+          "surface": "grass"
+        },
+        "Referee": {
+          "text": "",
+          "countryCode": "",
+          "country": ""
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8238_xsmall.png",
+            "linkToMatch": "/matches/denmark-vs-czechia/2bdc0x#5067302",
+            "date": {
+              "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/8238/overview/denmark",
+            "tooltipText": {
+              "utcTime": "2026-03-31T18:45:00.000Z",
+              "homeTeam": "Czechia",
+              "homeTeamId": 8496,
+              "homeScore": "2",
+              "awayTeam": "Denmark",
+              "awayTeamId": 8238,
+              "awayScore": "2"
+            },
+            "score": "2 - 2",
+            "home": {
+              "id": "8496",
+              "name": "Czechia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8238",
+              "name": "Denmark",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/430156_xsmall.png",
+            "linkToMatch": "/matches/czechia-vs-kosovo/1873roja#5629006",
+            "date": {
+              "utcTime": "2026-05-31T14:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/430156/overview/kosovo",
+            "tooltipText": {
+              "utcTime": "2026-05-31T14:00:00.000Z",
+              "homeTeam": "Czechia",
+              "homeTeamId": 8496,
+              "homeScore": "2",
+              "awayTeam": "Kosovo",
+              "awayTeamId": 430156,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "8496",
+              "name": "Czechia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "430156",
+              "name": "Kosovo",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5858_xsmall.png",
+            "linkToMatch": "/matches/guatemala-vs-czechia/1pcdsr#5406267",
+            "date": {
+              "utcTime": "2026-06-05T00:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5858/overview/guatemala",
+            "tooltipText": {
+              "utcTime": "2026-06-05T00:00:00.000Z",
+              "homeTeam": "Czechia",
+              "homeTeamId": 8496,
+              "homeScore": "3",
+              "awayTeam": "Guatemala",
+              "awayTeamId": 5858,
+              "awayScore": "1"
+            },
+            "score": "3 - 1",
+            "home": {
+              "id": "8496",
+              "name": "Czechia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5858",
+              "name": "Guatemala",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/7804_xsmall.png",
+            "linkToMatch": "/matches/south-korea-vs-czechia/273opa#4667752",
+            "date": {
+              "utcTime": "2026-06-12T02:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/7804/overview/south-korea",
+            "tooltipText": {
+              "utcTime": "2026-06-12T02:00:00.000Z",
+              "homeTeam": "South Korea",
+              "homeTeamId": 7804,
+              "homeScore": "2",
+              "awayTeam": "Czechia",
+              "awayTeamId": 8496,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "7804",
+              "name": "South Korea",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "8496",
+              "name": "Czechia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6316_xsmall.png",
+            "linkToMatch": "/matches/south-africa-vs-czechia/1tbjja#4667753",
+            "date": {
+              "utcTime": "2026-06-18T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6316/overview/south-africa",
+            "tooltipText": {
+              "utcTime": "2026-06-18T16:00:00.000Z",
+              "homeTeam": "Czechia",
+              "homeTeamId": 8496,
+              "homeScore": "1",
+              "awayTeam": "South Africa",
+              "awayTeamId": 6316,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "8496",
+              "name": "Czechia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6316",
+              "name": "South Africa",
+              "isOurTeam": false
+            }
+          }
+        ],
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6714_xsmall.png",
+            "linkToMatch": "/matches/mexico-vs-ghana/1hnhf6#5217284",
+            "date": {
+              "utcTime": "2026-05-23T02:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6714/overview/ghana",
+            "tooltipText": {
+              "utcTime": "2026-05-23T02:00:00.000Z",
+              "homeTeam": "Mexico",
+              "homeTeamId": 6710,
+              "homeScore": "2",
+              "awayTeam": "Ghana",
+              "awayTeamId": 6714,
+              "awayScore": "0"
+            },
+            "score": "2 - 0",
+            "home": {
+              "id": "6710",
+              "name": "Mexico",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6714",
+              "name": "Ghana",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6716_xsmall.png",
+            "linkToMatch": "/matches/mexico-vs-australia/1ho253#5217285",
+            "date": {
+              "utcTime": "2026-05-31T02:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6716/overview/australia",
+            "tooltipText": {
+              "utcTime": "2026-05-31T02:00:00.000Z",
+              "homeTeam": "Mexico",
+              "homeTeamId": 6710,
+              "homeScore": "1",
+              "awayTeam": "Australia",
+              "awayTeamId": 6716,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "6710",
+              "name": "Mexico",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6716",
+              "name": "Australia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8205_xsmall.png",
+            "linkToMatch": "/matches/mexico-vs-serbia/1u8cmr#5217286",
+            "date": {
+              "utcTime": "2026-06-05T02:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8205/overview/serbia",
+            "tooltipText": {
+              "utcTime": "2026-06-05T02:00:00.000Z",
+              "homeTeam": "Mexico",
+              "homeTeamId": 6710,
+              "homeScore": "5",
+              "awayTeam": "Serbia",
+              "awayTeamId": 8205,
+              "awayScore": "1"
+            },
+            "score": "5 - 1",
+            "home": {
+              "id": "6710",
+              "name": "Mexico",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8205",
+              "name": "Serbia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6316_xsmall.png",
+            "linkToMatch": "/matches/south-africa-vs-mexico/1einvt#4667751",
+            "date": {
+              "utcTime": "2026-06-11T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6316/overview/south-africa",
+            "tooltipText": {
+              "utcTime": "2026-06-11T19:00:00.000Z",
+              "homeTeam": "Mexico",
+              "homeTeamId": 6710,
+              "homeScore": "2",
+              "awayTeam": "South Africa",
+              "awayTeamId": 6316,
+              "awayScore": "0"
+            },
+            "score": "2 - 0",
+            "home": {
+              "id": "6710",
+              "name": "Mexico",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6316",
+              "name": "South Africa",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/7804_xsmall.png",
+            "linkToMatch": "/matches/mexico-vs-south-korea/1qpvav#4667754",
+            "date": {
+              "utcTime": "2026-06-19T01:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/7804/overview/south-korea",
+            "tooltipText": {
+              "utcTime": "2026-06-19T01:00:00.000Z",
+              "homeTeam": "Mexico",
+              "homeTeamId": 6710,
+              "homeScore": "1",
+              "awayTeam": "South Korea",
+              "awayTeamId": 7804,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "6710",
+              "name": "Mexico",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "7804",
+              "name": "South Korea",
+              "isOurTeam": false
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667755",
+          "MatchId": 4667755,
+          "HomeTeamId": 8496,
+          "AwayTeamId": 6710,
+          "HomeTeam": "Czechia",
+          "AwayTeam": "Mexico",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} have won their last {1} matches.",
+              "TextTemplateId": "good_form_team",
+              "StatValues": [
+                "away_team",
+                "5"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_stat_up",
+              "defaultText": "Mexico have won their last 5 matches."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored in their last {1} matches and {2} have scored in their last {3} matches.",
+              "TextTemplateId": "goalstreak_team_both",
+              "StatValues": [
+                "home_team",
+                "9",
+                "away_team",
+                "6"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Czechia have scored in their last 9 matches and Mexico have scored in their last 6 matches."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have scored {1} goals in their last {2} matches.",
+              "TextTemplateId": "goals_team",
+              "StatValues": [
+                "away_team",
+                "8",
+                "3"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Mexico have scored 8 goals in their last 3 matches."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't drawn in their last {1} matches.",
+              "TextTemplateId": "draw_streak_team",
+              "StatValues": [
+                "away_team",
+                "5"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Mexico haven't drawn in their last 5 matches."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 8496,
+          "priority": 1345,
+          "defaultText": "Haven't kept a clean sheet in {0} matches",
+          "localizedTextId": "insights_not_clean_sheet",
+          "statValues": [
+            {
+              "value": 6,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't kept a clean sheet in 6 matches",
+          "color": "#D9273C"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 6710,
+          "priority": 1343,
+          "defaultText": "Haven't lost in {0} matches",
+          "localizedTextId": "insights_undefeated_team",
+          "statValues": [
+            {
+              "value": 10,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't lost in 10 matches",
+          "color": "#00634b"
+        }
+      ],
+      "countryCode": "INT",
+      "QAData": [],
+      "matchInsightsConfig": {
+        "hasBettingInsight": true,
+        "urlTemplate": "https://data.fotmob.com/generated-match-insights/77/4667755/matchinsights_{lang}.json",
+        "languages": [
+          "en",
+          "nb",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ar",
+          "pt-BR"
+        ]
+      }
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 17,
+      "windSpeed": 3,
+      "windDirectionCardinal": "NNE",
+      "iconCode": 4,
+      "relativeHumidity": 76,
+      "precipChance": 89,
+      "precipitation": 1.75,
+      "snow": 0,
+      "cloudCover": 98,
+      "description": "Thunderstorms",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T15:00:01Z",
+      "localizedKey": "weather_condition_thunderstorms",
+      "defaultTitle": "Thunderstorms"
+    },
+    "lineup": {
+      "matchId": 4667755,
+      "lineupType": "lastStarting11",
+      "source": "lastStartingLineups",
+      "availableFilters": [
+        "marketValue",
+        "age",
+        "team"
+      ],
+      "homeTeam": {
+        "id": 8496,
+        "name": "Czechia",
+        "formation": "3-5-2",
+        "starters": [
+          {
+            "id": 1077903,
+            "age": 26,
+            "name": "Matej Kovár",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 8640,
+            "primaryTeamName": "PSV Eindhoven",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.195,
+              "width": 0.2
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.2,
+              "width": 1
+            },
+            "marketValue": 6828768,
+            "firstName": "Matej",
+            "lastName": "Kovár",
+            "rankings": null
+          },
+          {
+            "id": 1225995,
+            "age": 26,
+            "name": "Robin Hranác",
+            "positionId": 33,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 8226,
+            "primaryTeamName": "Hoffenheim",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.79,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 1996538,
+            "firstName": "Robin",
+            "lastName": "Hranác",
+            "rankings": null
+          },
+          {
+            "id": 306168,
+            "age": 33,
+            "name": "Tomás Holes",
+            "positionId": 35,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 7787,
+            "primaryTeamName": "Slavia Prague",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.5,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 911994,
+            "firstName": "Tomás",
+            "lastName": "Holes",
+            "rankings": null
+          },
+          {
+            "id": 798029,
+            "age": 27,
+            "name": "Ladislav Krejcí",
+            "positionId": 37,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "7",
+            "isCaptain": true,
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 8602,
+            "primaryTeamName": "Wolverhampton Wanderers",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.21,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 24068639,
+            "firstName": "Ladislav",
+            "lastName": "Krejcí",
+            "rankings": null
+          },
+          {
+            "id": 307317,
+            "age": 33,
+            "name": "Vladimír Coufal",
+            "positionId": 71,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 8226,
+            "primaryTeamName": "Hoffenheim",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.89,
+              "height": 0.195,
+              "width": 0.773
+            },
+            "verticalLayout": {
+              "x": 0.11,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.195
+            },
+            "marketValue": 1978041,
+            "firstName": "Vladimír",
+            "lastName": "Coufal",
+            "rankings": null
+          },
+          {
+            "id": 806551,
+            "age": 27,
+            "name": "Michal Sadílek",
+            "positionId": 73,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "18",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 7787,
+            "primaryTeamName": "Slavia Prague",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.695,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.305,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.195
+            },
+            "marketValue": 7514500,
+            "firstName": "Michal",
+            "lastName": "Sadílek",
+            "rankings": null
+          },
+          {
+            "id": 196311,
+            "age": 35,
+            "name": "Vladimír Darida",
+            "positionId": 75,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 1712,
+            "primaryTeamName": "Hradec Kralove",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.5,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.195
+            },
+            "marketValue": 164259,
+            "firstName": "Vladimír",
+            "lastName": "Darida",
+            "rankings": null
+          },
+          {
+            "id": 1151313,
+            "age": 25,
+            "name": "Lukás Cerv",
+            "positionId": 77,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "12",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 6033,
+            "primaryTeamName": "Viktoria Plzen",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.305,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.695,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.195
+            },
+            "marketValue": 6477340,
+            "firstName": "Lukás",
+            "lastName": "Cerv",
+            "rankings": null
+          },
+          {
+            "id": 1478281,
+            "age": 23,
+            "name": "Alexandr Sojka",
+            "positionId": 79,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "24",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 6033,
+            "primaryTeamName": "Viktoria Plzen",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.11,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.89,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.195
+            },
+            "marketValue": 990684,
+            "firstName": "Alexandr",
+            "lastName": "Sojka",
+            "rankings": null
+          },
+          {
+            "id": 969870,
+            "age": 23,
+            "name": "Adam Hlozek",
+            "positionId": 104,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "9",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 8226,
+            "primaryTeamName": "Hoffenheim",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.7,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.4
+            },
+            "marketValue": 16423325,
+            "firstName": "Adam",
+            "lastName": "Hlozek",
+            "rankings": null
+          },
+          {
+            "id": 540097,
+            "age": 30,
+            "name": "Patrik Schick",
+            "positionId": 106,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "10",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 8178,
+            "primaryTeamName": "Bayer Leverkusen",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.3,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.4
+            },
+            "marketValue": 20269697,
+            "firstName": "Patrik",
+            "lastName": "Schick",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 278086,
+          "age": 74,
+          "name": "Miroslav Koubek",
+          "countryName": "Czechia",
+          "countryCode": "CZE",
+          "firstName": "Miroslav",
+          "lastName": "Koubek",
+          "primaryTeamId": 8496,
+          "primaryTeamName": "Czechia",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "subs": [
+          {
+            "id": 463967,
+            "age": 30,
+            "name": "Jindrich Stanek",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "16",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 7787,
+            "primaryTeamName": "Slavia Prague",
+            "marketValue": 1642782,
+            "firstName": "Jindrich",
+            "lastName": "Stanek",
+            "rankings": null
+          },
+          {
+            "id": 1186978,
+            "age": 23,
+            "name": "Lukás Hornícek",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "23",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 10264,
+            "primaryTeamName": "Braga",
+            "marketValue": 12295424,
+            "firstName": "Lukás",
+            "lastName": "Hornícek",
+            "rankings": null
+          },
+          {
+            "id": 1085401,
+            "age": 25,
+            "name": "David Zima",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "2",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 7787,
+            "primaryTeamName": "Slavia Prague",
+            "marketValue": 6929529,
+            "firstName": "David",
+            "lastName": "Zima",
+            "rankings": null
+          },
+          {
+            "id": 249063,
+            "age": 33,
+            "name": "Jaroslav Zeleny",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "20",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 10247,
+            "primaryTeamName": "Sparta Prague",
+            "marketValue": 344000,
+            "firstName": "Jaroslav",
+            "lastName": "Zeleny",
+            "rankings": null
+          },
+          {
+            "id": 1288146,
+            "age": 23,
+            "name": "Stepán Chaloupek",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "6",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 7787,
+            "primaryTeamName": "Slavia Prague",
+            "marketValue": 4082360,
+            "firstName": "Stepán",
+            "lastName": "Chaloupek",
+            "rankings": null
+          },
+          {
+            "id": 883759,
+            "age": 28,
+            "name": "David Doudera",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "21",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 7787,
+            "primaryTeamName": "Slavia Prague",
+            "marketValue": 2411050,
+            "firstName": "David",
+            "lastName": "Doudera",
+            "rankings": null
+          },
+          {
+            "id": 1764021,
+            "age": 18,
+            "name": "Hugo Sochurek",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "25",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 10247,
+            "primaryTeamName": "Sparta Prague",
+            "firstName": "Hugo",
+            "lastName": "Sochurek",
+            "rankings": null
+          },
+          {
+            "id": 791682,
+            "age": 29,
+            "name": "Lukás Provod",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "17",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 7787,
+            "primaryTeamName": "Slavia Prague",
+            "marketValue": 6605239,
+            "firstName": "Lukás",
+            "lastName": "Provod",
+            "rankings": null
+          },
+          {
+            "id": 524437,
+            "age": 31,
+            "name": "Tomás Soucek",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "22",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 8654,
+            "primaryTeamName": "West Ham United",
+            "marketValue": 13254623,
+            "firstName": "Tomás",
+            "lastName": "Soucek",
+            "rankings": null
+          },
+          {
+            "id": 1202885,
+            "age": 23,
+            "name": "Denis Visinsky",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "26",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 6033,
+            "primaryTeamName": "Viktoria Plzen",
+            "marketValue": 1826366,
+            "firstName": "Denis",
+            "lastName": "Visinsky",
+            "rankings": null
+          },
+          {
+            "id": 690332,
+            "age": 29,
+            "name": "Jan Kuchta",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "11",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 10247,
+            "primaryTeamName": "Sparta Prague",
+            "marketValue": 1446643,
+            "firstName": "Jan",
+            "lastName": "Kuchta",
+            "rankings": null
+          },
+          {
+            "id": 988769,
+            "age": 27,
+            "name": "Mojmír Chytil",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "13",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 7787,
+            "primaryTeamName": "Slavia Prague",
+            "marketValue": 2589362,
+            "firstName": "Mojmír",
+            "lastName": "Chytil",
+            "rankings": null
+          },
+          {
+            "id": 1037539,
+            "age": 25,
+            "name": "Pavel Sulc",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "15",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 9748,
+            "primaryTeamName": "Lyon",
+            "marketValue": 13765419,
+            "firstName": "Pavel",
+            "lastName": "Sulc",
+            "rankings": null
+          },
+          {
+            "id": 523217,
+            "age": 31,
+            "name": "Tomás Chory",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "19",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "primaryTeamId": 7787,
+            "primaryTeamName": "Slavia Prague",
+            "marketValue": 1741483,
+            "firstName": "Tomás",
+            "lastName": "Chory",
+            "rankings": null
+          }
+        ],
+        "unavailable": [
+          {
+            "id": 1247323,
+            "age": 25,
+            "name": "David Jurásek",
+            "countryName": "Czechia",
+            "countryCode": "CZE",
+            "marketValue": 3535530,
+            "unavailability": {
+              "injuryId": 69,
+              "type": "injury",
+              "expectedReturn": "Late July 2026"
+            },
+            "firstName": "David",
+            "lastName": "Jurásek"
+          }
+        ],
+        "averageStarterAge": 28.4,
+        "totalStarterMarketValue": 87623785,
+        "lastMatch": {
+          "matchId": 4667753,
+          "homeTeamId": 8496,
+          "awayTeamId": 6316,
+          "homeTeamName": "Czechia",
+          "awayTeamName": "South Africa",
+          "homeScore": 1,
+          "awayScore": 1,
+          "matchDate": "2026-06-18T18:00:00"
+        }
+      },
+      "awayTeam": {
+        "id": 6710,
+        "name": "Mexico",
+        "formation": "4-1-4-1",
+        "starters": [
+          {
+            "id": 1227878,
+            "age": 26,
+            "name": "Raúl Rangel",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 7807,
+            "primaryTeamName": "Chivas",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 7416142,
+            "firstName": "Raúl",
+            "lastName": "Rangel",
+            "rankings": null
+          },
+          {
+            "id": 727586,
+            "age": 28,
+            "name": "Jorge Sánchez",
+            "positionId": 32,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "2",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 8619,
+            "primaryTeamName": "PAOK Thessaloniki",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 1612506,
+            "firstName": "Jorge",
+            "lastName": "Sánchez",
+            "rankings": null
+          },
+          {
+            "id": 783505,
+            "age": 28,
+            "name": "Edson Álvarez",
+            "positionId": 34,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "4",
+            "isCaptain": true,
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 8695,
+            "primaryTeamName": "Fenerbahçe",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 16354479,
+            "firstName": "Edson",
+            "lastName": "Álvarez",
+            "rankings": null
+          },
+          {
+            "id": 914103,
+            "age": 27,
+            "name": "Johan Vásquez",
+            "positionId": 36,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 10233,
+            "primaryTeamName": "Genoa",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 15501772,
+            "firstName": "Johan",
+            "lastName": "Vásquez",
+            "rankings": null
+          },
+          {
+            "id": 597976,
+            "age": 31,
+            "name": "Jesús Gallardo",
+            "positionId": 38,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "23",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 6618,
+            "primaryTeamName": "Toluca",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 2124700,
+            "firstName": "Jesús",
+            "lastName": "Gallardo",
+            "rankings": null
+          },
+          {
+            "id": 971628,
+            "age": 26,
+            "name": "Érik Lira",
+            "positionId": 65,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "6",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 6578,
+            "primaryTeamName": "Cruz Azul",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 12740743,
+            "firstName": "Érik",
+            "lastName": "Lira",
+            "rankings": null
+          },
+          {
+            "id": 720737,
+            "age": 27,
+            "name": "Roberto Alvarado",
+            "positionId": 82,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "25",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 7807,
+            "primaryTeamName": "Chivas",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 6903009,
+            "firstName": "Roberto",
+            "lastName": "Alvarado",
+            "rankings": null
+          },
+          {
+            "id": 1170238,
+            "age": 23,
+            "name": "Brian Gutiérrez",
+            "positionId": 84,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "26",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 7807,
+            "primaryTeamName": "Chivas",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.193
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 7623369,
+            "firstName": "Brian",
+            "lastName": "Gutiérrez",
+            "rankings": null
+          },
+          {
+            "id": 921174,
+            "age": 31,
+            "name": "Luis Romo",
+            "positionId": 86,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "7",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 7807,
+            "primaryTeamName": "Chivas",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 1958037,
+            "firstName": "Luis",
+            "lastName": "Romo",
+            "rankings": null
+          },
+          {
+            "id": 720560,
+            "age": 29,
+            "name": "Julián Quiñones",
+            "positionId": 88,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "16",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 101919,
+            "primaryTeamName": "Al Qadsiah",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 12139266,
+            "firstName": "Julián",
+            "lastName": "Quiñones",
+            "rankings": null
+          },
+          {
+            "id": 292313,
+            "age": 35,
+            "name": "Raul Jiménez",
+            "positionId": 115,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "9",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 8602,
+            "primaryTeamName": "Wolverhampton Wanderers",
+            "horizontalLayout": {
+              "x": 0.89,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.212
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.89,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 3582025,
+            "firstName": "Raul",
+            "lastName": "Jiménez",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 78642,
+          "age": 67,
+          "name": "Javier Aguirre",
+          "countryName": "Mexico",
+          "countryCode": "MEX",
+          "firstName": "Javier",
+          "lastName": "Aguirre",
+          "primaryTeamId": 6710,
+          "primaryTeamName": "Mexico",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "subs": [
+          {
+            "id": 751164,
+            "age": 30,
+            "name": "Carlos Acevedo",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "12",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 7857,
+            "primaryTeamName": "Santos Laguna",
+            "marketValue": 1966723,
+            "firstName": "Carlos",
+            "lastName": "Acevedo",
+            "rankings": null
+          },
+          {
+            "id": 31047,
+            "age": 40,
+            "name": "Guillermo Ochoa",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "13",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 2134,
+            "primaryTeamName": "AEL Limassol",
+            "marketValue": 128224,
+            "firstName": "Guillermo",
+            "lastName": "Ochoa",
+            "rankings": null
+          },
+          {
+            "id": 1074586,
+            "age": 26,
+            "name": "Israel Reyes",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "15",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 6576,
+            "primaryTeamName": "CF America",
+            "marketValue": 3692688,
+            "firstName": "Israel",
+            "lastName": "Reyes",
+            "rankings": null
+          },
+          {
+            "id": 1432212,
+            "age": 22,
+            "name": "Mateo Chávez",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "20",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 10229,
+            "primaryTeamName": "AZ Alkmaar",
+            "marketValue": 5007950,
+            "firstName": "Mateo",
+            "lastName": "Chávez",
+            "rankings": null
+          },
+          {
+            "id": 895954,
+            "age": 29,
+            "name": "Álvaro Fidalgo",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 8603,
+            "primaryTeamName": "Real Betis",
+            "marketValue": 6687371,
+            "firstName": "Álvaro",
+            "lastName": "Fidalgo",
+            "rankings": null
+          },
+          {
+            "id": 1670377,
+            "age": 17,
+            "name": "Gilberto Mora",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "19",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 162418,
+            "primaryTeamName": "Tijuana",
+            "marketValue": 8507926,
+            "firstName": "Gilberto",
+            "lastName": "Mora",
+            "rankings": null
+          },
+          {
+            "id": 527616,
+            "age": 30,
+            "name": "Luis Chávez",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "24",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 9763,
+            "primaryTeamName": "Dinamo Moscow",
+            "marketValue": 4542490,
+            "firstName": "Luis",
+            "lastName": "Chávez",
+            "rankings": null
+          },
+          {
+            "id": 1254394,
+            "age": 20,
+            "name": "Obed Vargas",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "18",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 9906,
+            "primaryTeamName": "Atletico Madrid",
+            "marketValue": 11157185,
+            "firstName": "Obed",
+            "lastName": "Vargas",
+            "rankings": null
+          },
+          {
+            "id": 559986,
+            "age": 30,
+            "name": "Orbelín Pineda",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "17",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 8563,
+            "primaryTeamName": "AEK Athens",
+            "marketValue": 4686643,
+            "firstName": "Orbelín",
+            "lastName": "Pineda",
+            "rankings": null
+          },
+          {
+            "id": 728365,
+            "age": 28,
+            "name": "Alexis Vega",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "10",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 6618,
+            "primaryTeamName": "Toluca",
+            "marketValue": 5147602,
+            "firstName": "Alexis",
+            "lastName": "Vega",
+            "rankings": null
+          },
+          {
+            "id": 1456983,
+            "age": 23,
+            "name": "Armando González",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "14",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 7807,
+            "primaryTeamName": "Chivas",
+            "marketValue": 3489200,
+            "firstName": "Armando",
+            "lastName": "González",
+            "rankings": null
+          },
+          {
+            "id": 977404,
+            "age": 25,
+            "name": "César Huerta",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "21",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 8635,
+            "primaryTeamName": "Anderlecht",
+            "marketValue": 4726664,
+            "firstName": "César",
+            "lastName": "Huerta",
+            "rankings": null
+          },
+          {
+            "id": 558539,
+            "age": 31,
+            "name": "Guillermo Martínez",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "22",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 1946,
+            "primaryTeamName": "Pumas",
+            "marketValue": 1117487,
+            "firstName": "Guillermo",
+            "lastName": "Martínez",
+            "rankings": null
+          },
+          {
+            "id": 954092,
+            "age": 25,
+            "name": "Santiago Giménez",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "11",
+            "countryName": "Mexico",
+            "countryCode": "MEX",
+            "primaryTeamId": 8564,
+            "primaryTeamName": "Milan",
+            "marketValue": 22315335,
+            "firstName": "Santiago",
+            "lastName": "Giménez",
+            "rankings": null
+          }
+        ],
+        "unavailable": [],
+        "averageStarterAge": 28.7,
+        "totalStarterMarketValue": 87956048,
+        "lastMatch": {
+          "matchId": 4667754,
+          "homeTeamId": 6710,
+          "awayTeamId": 7804,
+          "homeTeamName": "Mexico",
+          "awayTeamName": "South Korea",
+          "homeScore": 1,
+          "awayScore": 0,
+          "matchDate": "2026-06-19T03:00:00"
+        }
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894790",
+      "url": "https://data.fotmob.com/tables.ext.894790.fot.gz",
+      "teams": [
+        8496,
+        6710
+      ],
+      "tournamentNameForUrl": "World Cup Grp. A",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": false,
+    "momentum": false
+  },
+  "seo": {
+    "path": "czechia-vs-mexico",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667755",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Czechia",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8496.png",
+        "url": "https://www.fotmob.com/teams/8496/overview/czechia",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Mexico",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6710.png",
+        "url": "https://www.fotmob.com/teams/6710/overview/mexico",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Czechia vs Mexico",
+      "description": "Follow Czechia vs Mexico live on fotmob.com",
+      "startDate": "2026-06-25T01:00:00.000Z",
+      "endDate": "2026-06-25T03:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Mexico City Stadium",
+        "latitude": 19.302825295,
+        "longitude": -99.150388241,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Mexico",
+          "addressLocality": "Ciudad de México"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/8496.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6710.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667755",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-25T01:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Czechia",
+          "url": "https://www.fotmob.com/teams/8496/overview/czechia"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Mexico",
+          "url": "https://www.fotmob.com/teams/6710/overview/mexico"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. A",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Czechia - Mexico",
+            "item": "https://www.fotmob.com/match/4667755"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. A",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Mexico",
+            "item": "https://www.fotmob.com/teams/6710/overview/mexico"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Czechia - Mexico",
+            "item": "https://www.fotmob.com/match/4667755"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. A",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Czechia",
+            "item": "https://www.fotmob.com/teams/8496/overview/czechia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Czechia - Mexico",
+            "item": "https://www.fotmob.com/match/4667755"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

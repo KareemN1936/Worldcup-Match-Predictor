@@ -1,0 +1,33 @@
+France vs Iraq
+
+Date: 2026-06-22T21:00:00Z
+Round: GROUP_STAGE
+
+Base Prediction:
+France Win: 82.3%
+Draw: 11.7%
+Iraq Win: 6.0%
+
+FotMob-Adjusted Prediction:
+France Win: 86.7%
+Draw: 11.2%
+Iraq Win: 2.1%
+Adjustment shift: 0.0390
+
+FotMob Momentum:
+Matches before: France 1 | Iraq 1
+Momentum score: 2.36
+Points/match diff: 3.00
+Goal-difference/match diff: 5.00
+
+Squad Comparison:
+Average age: France 26.6 | Iraq 26.7
+Forwards: France 6 | Iraq 6
+Midfielders: France 8 | Iraq 8
+Defenders: France 9 | Iraq 9
+
+Why:
+- France have the better recent FotMob tournament momentum signal.
+- France have earned more points per match in prior FotMob-tracked World Cup games.
+- France have the stronger average player-rating trend so far.
+- France have the younger squad profile.

@@ -1,0 +1,41 @@
+Norway vs France
+
+Date: 2026-06-26T19:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_I
+
+Base Prediction:
+Norway Win: 23.7%
+Draw: 23.0%
+France Win: 53.3%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -153.30 | edge: France
+- points last 5: -4.00 | edge: France
+- points last 10: -4.00 | edge: France
+- weighted points last 5: -4.00 | edge: France
+- goals for last 5: -3.00 | edge: France
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.04
+Probability shift: -0.0036
+Top signals: goal difference:home; starting XI rating:away; player rating:away
+Norway Win: 23.4%
+Draw: 22.9%
+France Win: 53.7%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Norway 26.3 | France 26.6
+Forwards: Norway 5 | France 6
+Midfielders: Norway 9 | France 8
+Defenders: Norway 9 | France 9
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

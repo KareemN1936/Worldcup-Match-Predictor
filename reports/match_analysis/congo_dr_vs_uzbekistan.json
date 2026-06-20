@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537408,
+    "date": "2026-06-27T23:30:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_K",
+    "home_team": "Congo DR",
+    "away_team": "Uzbekistan"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.3418991565704345,
+    "draw_probability": 0.2880885601043701,
+    "away_win_probability": 0.3700122833251953,
+    "predicted_result": "Team A loss",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -75.90036658735062,
+      "points_last_5_diff": 2.0,
+      "points_last_10_diff": 3.0,
+      "goal_difference_last_5_diff": 2.0,
+      "goals_for_last_5_diff": -2.0,
+      "goals_against_last_5_diff": -4.0,
+      "weighted_points_last_5_diff": 10.5,
+      "weighted_goal_difference_last_5_diff": 2.0,
+      "wins_last_5_diff": 1.0,
+      "draws_last_5_diff": -1.0,
+      "losses_last_5_diff": 0.0,
+      "clean_sheets_last_5_diff": 2.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": 4.0,
+      "win_rate_2y_diff": 0.21666666666666662,
+      "draw_rate_2y_diff": -0.22499999999999998,
+      "loss_rate_2y_diff": 0.008333333333333331,
+      "goals_for_per_match_2y_diff": 0.125,
+      "goals_against_per_match_2y_diff": -0.2583333333333334,
+      "goal_difference_per_match_2y_diff": 0.38333333333333336,
+      "clean_sheet_rate_2y_diff": 0.025000000000000022,
+      "failed_to_score_rate_2y_diff": -0.175,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -75.90036658735062,
+        "leader": "Uzbekistan"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 10.5,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -4.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 3.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 2.0,
+        "leader": "Congo DR"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -75.90036658735062,
+        "leader": "Uzbekistan"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 2.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 3.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 2.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -2.0,
+        "leader": "Uzbekistan"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -4.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 10.5,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.21666666666666662,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.38333333333333336,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.2583333333333334,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.025000000000000022,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.175,
+        "leader": "Congo DR"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.8888888888888888,
+    "enrichment_score": 0.3806060606060605,
+    "probability_shift": 0.0338316498316498,
+    "top_signals": "goal difference:home; points per match:home; starting XI rating:home",
+    "home_win_probability": 0.3782904443718136,
+    "draw_probability": 0.2832387167548432,
+    "away_win_probability": 0.338470838873343,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 2.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 1.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.5999999999999996,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0999999999999996,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 1.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 2.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0999999999999996,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.5999999999999996,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 28.5,
+    "away_avg_age": 27.65384615384616,
+    "home_forwards": 8,
+    "away_forwards": 4,
+    "home_midfielders": 7,
+    "away_midfielders": 9,
+    "home_defenders": 8,
+    "away_defenders": 10,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 4.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -2.0,
+        "leader": "Uzbekistan"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -2.0,
+        "leader": "Uzbekistan"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.8461538461538431,
+        "leader": "Uzbekistan"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.8461538461538431,
+        "leader": "Uzbekistan"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 4.0,
+        "leader": "Congo DR"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -2.0,
+        "leader": "Uzbekistan"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -2.0,
+        "leader": "Uzbekistan"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
+  }
+}

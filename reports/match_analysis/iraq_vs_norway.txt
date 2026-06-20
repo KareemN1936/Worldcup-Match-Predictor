@@ -1,0 +1,33 @@
+Iraq vs Norway
+
+Date: 2026-06-16T22:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_I
+
+Base Prediction:
+Iraq Win: 27.1%
+Draw: 22.9%
+Norway Win: 49.9%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -128.75 | edge: Norway
+- goal difference last 5: -7.00 | edge: Norway
+- points last 10: -5.00 | edge: Norway
+- goals for last 5: -4.00 | edge: Norway
+- goals against last 5: 3.00 | edge: Norway
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Iraq 26.7 | Norway 26.3
+Forwards: Iraq 6 | Norway 5
+Midfielders: Iraq 8 | Norway 9
+Defenders: Iraq 9 | Norway 9
+
+Final Recommendation:
+Use: Team A loss
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

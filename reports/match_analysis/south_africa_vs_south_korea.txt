@@ -1,0 +1,41 @@
+South Africa vs South Korea
+
+Date: 2026-06-25T01:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_A
+
+Base Prediction:
+South Africa Win: 17.9%
+Draw: 21.5%
+South Korea Win: 60.7%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -213.87 | edge: South Korea
+- weighted points last 5: -14.50 | edge: South Korea
+- points last 10: -5.00 | edge: South Korea
+- goals for last 5: -5.00 | edge: South Korea
+- points last 5: -4.00 | edge: South Korea
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.30
+Probability shift: -0.0271
+Top signals: points per match:away; starting XI rating:away; goal difference:away
+South Africa Win: 15.3%
+Draw: 21.0%
+South Korea Win: 63.7%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: South Africa 26.3 | South Korea 27.5
+Forwards: South Africa 6 | South Korea 6
+Midfielders: South Africa 7 | South Korea 8
+Defenders: South Africa 10 | South Korea 9
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

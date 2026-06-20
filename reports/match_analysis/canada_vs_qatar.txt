@@ -1,0 +1,41 @@
+Canada vs Qatar
+
+Date: 2026-06-18T22:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_B
+
+Base Prediction:
+Canada Win: 68.5%
+Draw: 20.6%
+Qatar Win: 10.9%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 131.28 | edge: Canada
+- points last 10: 8.00 | edge: Canada
+- goal difference last 5: 6.00 | edge: Canada
+- points last 5: 4.00 | edge: Canada
+- goals for last 5: 4.00 | edge: Canada
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.03
+Probability shift: 0.0012
+Top signals: starting XI rating:home; points per match:away; goal difference:away
+Canada Win: 68.7%
+Draw: 20.6%
+Qatar Win: 10.7%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Canada 26.5 | Qatar 28.8
+Forwards: Canada 6 | Qatar 6
+Midfielders: Canada 9 | Qatar 8
+Defenders: Canada 8 | Qatar 9
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

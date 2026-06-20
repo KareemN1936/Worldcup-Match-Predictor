@@ -1,0 +1,759 @@
+{
+  "general": {
+    "matchId": "4667803",
+    "matchName": "Cape Verde-vs-Saudi Arabia_Sat, Jun 27, 2026, 00:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0059bb",
+        "away": "#009075"
+      },
+      "lightMode": {
+        "home": "#004bab",
+        "away": "#16615B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894797,
+    "leagueName": "World Cup Grp. H",
+    "leagueRoundName": "3",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Cape Verde",
+      "id": 5888
+    },
+    "awayTeam": {
+      "name": "Saudi Arabia",
+      "id": 7795
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, Jun 27, 2026, 00:00 UTC",
+    "matchTimeUTCDate": "2026-06-27T00:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Cape Verde",
+        "id": 5888,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5888_small.png",
+        "pageUrl": "/teams/5888/overview/cape-verde",
+        "fifaRank": 67
+      },
+      {
+        "name": "Saudi Arabia",
+        "id": 7795,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/7795_small.png",
+        "pageUrl": "/teams/7795/overview/saudi-arabia",
+        "fifaRank": 61
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-27T00:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667803,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-27T00:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894797,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-h",
+          "leagueName": "World Cup Grp. H",
+          "roundName": "3",
+          "round": "3"
+        },
+        "Stadium": {
+          "name": "Houston Stadium",
+          "city": "Houston, Texas",
+          "country": "United States",
+          "lat": 29.684827801,
+          "long": -95.410938263,
+          "capacity": 71054,
+          "surface": "grass"
+        },
+        "Referee": {
+          "text": "",
+          "countryCode": "",
+          "country": ""
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10255_xsmall.png",
+            "linkToMatch": "/matches/cape-verde-vs-egypt/25l1iw#5060482",
+            "date": {
+              "utcTime": "2025-11-17T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/10255/overview/egypt",
+            "tooltipText": {
+              "utcTime": "2025-11-17T16:00:00.000Z",
+              "homeTeam": "Egypt",
+              "homeTeamId": 10255,
+              "homeScore": "1",
+              "awayTeam": "Cape Verde",
+              "awayTeamId": 5888,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "10255",
+              "name": "Egypt",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5888",
+              "name": "Cape Verde",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9762_xsmall.png",
+            "linkToMatch": "/matches/cape-verde-vs-chile/20x59x#5187284",
+            "date": {
+              "utcTime": "2026-03-27T03:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/9762/overview/chile",
+            "tooltipText": {
+              "utcTime": "2026-03-27T03:00:00.000Z",
+              "homeTeam": "Chile",
+              "homeTeamId": 9762,
+              "homeScore": "4",
+              "awayTeam": "Cape Verde",
+              "awayTeamId": 5888,
+              "awayScore": "2"
+            },
+            "score": "4 - 2",
+            "home": {
+              "id": "9762",
+              "name": "Chile",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5888",
+              "name": "Cape Verde",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/7871_xsmall.png",
+            "linkToMatch": "/matches/cape-verde-vs-finland/1kd3of#5187286",
+            "date": {
+              "utcTime": "2026-03-30T03:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/7871/overview/finland",
+            "tooltipText": {
+              "utcTime": "2026-03-30T03:00:00.000Z",
+              "homeTeam": "Cape Verde",
+              "homeTeamId": 5888,
+              "homeScore": "1",
+              "awayTeam": "Finland",
+              "awayTeamId": 7871,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "5888",
+              "name": "Cape Verde",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "7871",
+              "name": "Finland",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8205_xsmall.png",
+            "linkToMatch": "/matches/cape-verde-vs-serbia/1n4t0o#5667645",
+            "date": {
+              "utcTime": "2026-05-31T15:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8205/overview/serbia",
+            "tooltipText": {
+              "utcTime": "2026-05-31T15:00:00.000Z",
+              "homeTeam": "Cape Verde",
+              "homeTeamId": 5888,
+              "homeScore": "3",
+              "awayTeam": "Serbia",
+              "awayTeamId": 8205,
+              "awayScore": "0"
+            },
+            "score": "3 - 0",
+            "home": {
+              "id": "5888",
+              "name": "Cape Verde",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8205",
+              "name": "Serbia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6720_xsmall.png",
+            "linkToMatch": "/matches/cape-verde-vs-spain/1bbtuo#4667798",
+            "date": {
+              "utcTime": "2026-06-15T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6720/overview/spain",
+            "tooltipText": {
+              "utcTime": "2026-06-15T16:00:00.000Z",
+              "homeTeam": "Spain",
+              "homeTeamId": 6720,
+              "homeScore": "0",
+              "awayTeam": "Cape Verde",
+              "awayTeamId": 5888,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "6720",
+              "name": "Spain",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5888",
+              "name": "Cape Verde",
+              "isOurTeam": true
+            }
+          }
+        ],
+        [
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8205_xsmall.png",
+            "linkToMatch": "/matches/saudi-arabia-vs-serbia/247txp#5159765",
+            "date": {
+              "utcTime": "2026-03-31T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8205/overview/serbia",
+            "tooltipText": {
+              "utcTime": "2026-03-31T16:00:00.000Z",
+              "homeTeam": "Serbia",
+              "homeTeamId": 8205,
+              "homeScore": "2",
+              "awayTeam": "Saudi Arabia",
+              "awayTeamId": 7795,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "8205",
+              "name": "Serbia",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6707_xsmall.png",
+            "linkToMatch": "/matches/ecuador-vs-saudi-arabia/1qm4yg#5628899",
+            "date": {
+              "utcTime": "2026-05-31T00:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6707/overview/ecuador",
+            "tooltipText": {
+              "utcTime": "2026-05-31T00:00:00.000Z",
+              "homeTeam": "Ecuador",
+              "homeTeamId": 6707,
+              "homeScore": "2",
+              "awayTeam": "Saudi Arabia",
+              "awayTeamId": 7795,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "6707",
+              "name": "Ecuador",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5756_xsmall.png",
+            "linkToMatch": "/matches/puerto-rico-vs-saudi-arabia/1io7zv#5737559",
+            "date": {
+              "utcTime": "2026-06-05T23:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5756/overview/puerto-rico",
+            "tooltipText": {
+              "utcTime": "2026-06-05T23:00:00.000Z",
+              "homeTeam": "Puerto Rico",
+              "homeTeamId": 5756,
+              "homeScore": "0",
+              "awayTeam": "Saudi Arabia",
+              "awayTeamId": 7795,
+              "awayScore": "3"
+            },
+            "score": "0 - 3",
+            "home": {
+              "id": "5756",
+              "name": "Puerto Rico",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6395_xsmall.png",
+            "linkToMatch": "/matches/senegal-vs-saudi-arabia/1ny764#5737639",
+            "date": {
+              "utcTime": "2026-06-09T23:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6395/overview/senegal",
+            "tooltipText": {
+              "utcTime": "2026-06-09T23:00:00.000Z",
+              "homeTeam": "Saudi Arabia",
+              "homeTeamId": 7795,
+              "homeScore": "0",
+              "awayTeam": "Senegal",
+              "awayTeamId": 6395,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6395",
+              "name": "Senegal",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5796_xsmall.png",
+            "linkToMatch": "/matches/uruguay-vs-saudi-arabia/1izuvb#4667799",
+            "date": {
+              "utcTime": "2026-06-15T22:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5796/overview/uruguay",
+            "tooltipText": {
+              "utcTime": "2026-06-15T22:00:00.000Z",
+              "homeTeam": "Saudi Arabia",
+              "homeTeamId": 7795,
+              "homeScore": "1",
+              "awayTeam": "Uruguay",
+              "awayTeamId": 5796,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5796",
+              "name": "Uruguay",
+              "isOurTeam": false
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667803",
+          "MatchId": 4667803,
+          "HomeTeamId": 5888,
+          "AwayTeamId": 7795,
+          "HomeTeam": "Cape Verde",
+          "AwayTeam": "Saudi Arabia",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} have {1}W, {2}D, {3}L in five matches while {4} have {5}W, {6}D, {7}L.",
+              "TextTemplateId": "team_form_both",
+              "StatValues": [
+                "home_team",
+                "2",
+                "1",
+                "2",
+                "away_team",
+                "1",
+                "2",
+                "2"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Cape Verde have 2W, 1D, 2L in five matches while Saudi Arabia have 1W, 2D, 2L."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored in their last {1} home matches.",
+              "TextTemplateId": "goalstreak_team_home",
+              "StatValues": [
+                "home_team",
+                "4"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Cape Verde have scored in their last 4 home matches."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have scored {3} goals in their last {2} matches, while {1} have scored {4}.",
+              "TextTemplateId": "goals_total_last_3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "3",
+                "4",
+                "4"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Cape Verde have scored 4 goals in their last 3 matches, while Saudi Arabia have scored 4."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} have {1}W, {2}D, {3}L in five matches while {4} have {5}W, {6}D, {7}L.",
+              "TextTemplateId": "team_form_both",
+              "StatValues": [
+                "home_team",
+                "2",
+                "1",
+                "2",
+                "away_team",
+                "1",
+                "2",
+                "2"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Cape Verde have 2W, 1D, 2L in five matches while Saudi Arabia have 1W, 2D, 2L."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "countryCode": "INT",
+      "QAData": []
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 31,
+      "windSpeed": 7,
+      "windDirectionCardinal": "SSE",
+      "iconCode": 34,
+      "relativeHumidity": 65,
+      "precipChance": 1,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 27,
+      "description": "Mostly Sunny",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T14:00:03Z",
+      "localizedKey": "weather_condition_sunny",
+      "defaultTitle": "Sunny"
+    },
+    "lineup": null,
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894797",
+      "url": "https://data.fotmob.com/tables.ext.894797.fot.gz",
+      "teams": [
+        5888,
+        7795
+      ],
+      "tournamentNameForUrl": "World Cup Grp. H",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": false,
+    "momentum": false
+  },
+  "seo": {
+    "path": "cape-verde-vs-saudi-arabia",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667803",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Cape Verde",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5888.png",
+        "url": "https://www.fotmob.com/teams/5888/overview/cape-verde",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Saudi Arabia",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/7795.png",
+        "url": "https://www.fotmob.com/teams/7795/overview/saudi-arabia",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Cape Verde vs Saudi Arabia",
+      "description": "Follow Cape Verde vs Saudi Arabia live on fotmob.com",
+      "startDate": "2026-06-27T00:00:00.000Z",
+      "endDate": "2026-06-27T02:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Houston Stadium",
+        "latitude": 29.684827801,
+        "longitude": -95.410938263,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "United States",
+          "addressLocality": "Houston, Texas"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/5888.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/7795.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667803",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-27T00:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Cape Verde",
+          "url": "https://www.fotmob.com/teams/5888/overview/cape-verde"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Saudi Arabia",
+          "url": "https://www.fotmob.com/teams/7795/overview/saudi-arabia"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. H",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-h"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Cape Verde - Saudi Arabia",
+            "item": "https://www.fotmob.com/match/4667803"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. H",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-h"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Saudi Arabia",
+            "item": "https://www.fotmob.com/teams/7795/overview/saudi-arabia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Cape Verde - Saudi Arabia",
+            "item": "https://www.fotmob.com/match/4667803"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. H",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-h"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Cape Verde",
+            "item": "https://www.fotmob.com/teams/5888/overview/cape-verde"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Cape Verde - Saudi Arabia",
+            "item": "https://www.fotmob.com/match/4667803"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

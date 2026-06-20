@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537393,
+    "date": "2026-06-22T21:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_I",
+    "home_team": "France",
+    "away_team": "Iraq"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.8163561224937439,
+    "draw_probability": 0.1180204227566719,
+    "away_win_probability": 0.06562340259552,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 282.04629189542356,
+      "points_last_5_diff": 5.0,
+      "points_last_10_diff": 9.0,
+      "goal_difference_last_5_diff": 9.0,
+      "goals_for_last_5_diff": 7.0,
+      "goals_against_last_5_diff": -2.0,
+      "weighted_points_last_5_diff": 5.0,
+      "weighted_goal_difference_last_5_diff": 23.0,
+      "wins_last_5_diff": 2.0,
+      "draws_last_5_diff": -1.0,
+      "losses_last_5_diff": -1.0,
+      "clean_sheets_last_5_diff": -1.0,
+      "failed_to_score_last_5_diff": -1.0,
+      "matches_played_2y_diff": -1.0,
+      "win_rate_2y_diff": 0.16534391534391535,
+      "draw_rate_2y_diff": -0.0291005291005291,
+      "loss_rate_2y_diff": -0.13624338624338628,
+      "goals_for_per_match_2y_diff": 0.9616402116402115,
+      "goals_against_per_match_2y_diff": -0.0727513227513229,
+      "goal_difference_per_match_2y_diff": 1.0343915343915344,
+      "clean_sheet_rate_2y_diff": -0.021164021164021163,
+      "failed_to_score_rate_2y_diff": -0.13756613756613756,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 282.04629189542356,
+        "leader": "France"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 9.0,
+        "leader": "France"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 9.0,
+        "leader": "France"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 7.0,
+        "leader": "France"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 5.0,
+        "leader": "France"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 282.04629189542356,
+        "leader": "France"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 5.0,
+        "leader": "France"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 9.0,
+        "leader": "France"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 9.0,
+        "leader": "France"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 7.0,
+        "leader": "France"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -2.0,
+        "leader": "France"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 5.0,
+        "leader": "France"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.16534391534391535,
+        "leader": "France"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 1.0343915343915344,
+        "leader": "France"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.0727513227513229,
+        "leader": "France"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.021164021164021163,
+        "leader": "Iraq"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.13756613756613756,
+        "leader": "France"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": 0.6709090909090909,
+    "probability_shift": 0.0248577447110956,
+    "top_signals": "points per match:home; goal difference:home; starting XI rating:home",
+    "home_win_probability": 0.8454169430055021,
+    "draw_probability": 0.1136137158889189,
+    "away_win_probability": 0.0409693411055788,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 5.0,
+        "leader": "France"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 3.0,
+        "leader": "France"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 1.4000000000000004,
+        "leader": "France"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.2999999999999998,
+        "leader": "France"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 3.0,
+        "leader": "France"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 5.0,
+        "leader": "France"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.2999999999999998,
+        "leader": "France"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 1.4000000000000004,
+        "leader": "France"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 26.57692307692308,
+    "away_avg_age": 26.65384615384616,
+    "home_forwards": 6,
+    "away_forwards": 6,
+    "home_midfielders": 8,
+    "away_midfielders": 8,
+    "home_defenders": 9,
+    "away_defenders": 9,
+    "strongest": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -0.0769230769230766,
+        "leader": "France"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -0.0769230769230766,
+        "leader": "France"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

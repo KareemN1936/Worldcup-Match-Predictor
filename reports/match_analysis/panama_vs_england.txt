@@ -1,0 +1,41 @@
+Panama vs England
+
+Date: 2026-06-27T21:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_L
+
+Base Prediction:
+Panama Win: 16.1%
+Draw: 17.7%
+England Win: 66.1%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -203.07 | edge: England
+- weighted points last 5: -12.50 | edge: England
+- points last 10: -9.00 | edge: England
+- goals against last 5: 9.00 | edge: England
+- goal difference last 5: -6.00 | edge: England
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.58
+Probability shift: -0.0506
+Top signals: points per match:away; goal difference:away; starting XI rating:away
+Panama Win: 11.2%
+Draw: 16.9%
+England Win: 71.9%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Panama 30.0 | England 26.6
+Forwards: Panama 4 | England 6
+Midfielders: Panama 9 | England 8
+Defenders: Panama 10 | England 9
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

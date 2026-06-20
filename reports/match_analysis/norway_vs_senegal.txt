@@ -1,0 +1,41 @@
+Norway vs Senegal
+
+Date: 2026-06-23T00:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_I
+
+Base Prediction:
+Norway Win: 46.3%
+Draw: 23.8%
+Senegal Win: 29.9%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 29.72 | edge: Norway
+- weighted points last 5: 11.50 | edge: Norway
+- goal difference last 5: 3.00 | edge: Norway
+- points last 10: 2.00 | edge: Norway
+- goals against last 5: -2.00 | edge: Norway
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.55
+Probability shift: 0.0246
+Top signals: points per match:home; goal difference:home; starting XI rating:home
+Norway Win: 49.0%
+Draw: 23.4%
+Senegal Win: 27.6%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Norway 26.3 | Senegal 27.3
+Forwards: Norway 5 | Senegal 6
+Midfielders: Norway 9 | Senegal 10
+Defenders: Norway 9 | Senegal 7
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

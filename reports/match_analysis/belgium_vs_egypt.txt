@@ -1,0 +1,33 @@
+Belgium vs Egypt
+
+Date: 2026-06-15T19:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_G
+
+Base Prediction:
+Belgium Win: 60.4%
+Draw: 21.3%
+Egypt Win: 18.3%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 88.00 | edge: Belgium
+- goals for last 5: 7.00 | edge: Belgium
+- points last 10: 6.00 | edge: Belgium
+- goal difference last 5: 6.00 | edge: Belgium
+- points last 5: 3.00 | edge: Belgium
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Belgium 27.1 | Egypt 28.7
+Forwards: Belgium 4 | Egypt 5
+Midfielders: Belgium 10 | Egypt 9
+Defenders: Belgium 9 | Egypt 8
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

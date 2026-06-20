@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537414,
+    "date": "2026-06-27T21:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_L",
+    "home_team": "Croatia",
+    "away_team": "Ghana"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.7878166437149048,
+    "draw_probability": 0.1307939440011978,
+    "away_win_probability": 0.081389345228672,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 269.22437348274,
+      "points_last_5_diff": 8.0,
+      "points_last_10_diff": 11.0,
+      "goal_difference_last_5_diff": 7.0,
+      "goals_for_last_5_diff": 5.0,
+      "goals_against_last_5_diff": -2.0,
+      "weighted_points_last_5_diff": 18.5,
+      "weighted_goal_difference_last_5_diff": 10.5,
+      "wins_last_5_diff": 3.0,
+      "draws_last_5_diff": -1.0,
+      "losses_last_5_diff": -2.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": -1.0,
+      "matches_played_2y_diff": 2.0,
+      "win_rate_2y_diff": 0.24545454545454543,
+      "draw_rate_2y_diff": -0.022727272727272735,
+      "loss_rate_2y_diff": -0.22272727272727275,
+      "goals_for_per_match_2y_diff": 0.6499999999999999,
+      "goals_against_per_match_2y_diff": -0.05909090909090908,
+      "goal_difference_per_match_2y_diff": 0.709090909090909,
+      "clean_sheet_rate_2y_diff": -0.0318181818181818,
+      "failed_to_score_rate_2y_diff": -0.11818181818181817,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 269.22437348274,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 18.5,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 11.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 8.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 7.0,
+        "leader": "Croatia"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 269.22437348274,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 8.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 11.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 7.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 5.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -2.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 18.5,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.24545454545454543,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.709090909090909,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.05909090909090908,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.0318181818181818,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.11818181818181817,
+        "leader": "Croatia"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.8888888888888888,
+    "enrichment_score": -0.5472727272727274,
+    "probability_shift": -0.0419421721602931,
+    "top_signals": "points per match:away; goal difference:away; starting XI rating:away",
+    "home_win_probability": 0.7521841695798436,
+    "draw_probability": 0.1234409945353911,
+    "away_win_probability": 0.1243748358847652,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -3.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": -3.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.5,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0499999999999998,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -3.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": -3.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0499999999999998,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.5,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 27.884615384615383,
+    "away_avg_age": 26.423076923076923,
+    "home_forwards": 6,
+    "away_forwards": 9,
+    "home_midfielders": 10,
+    "away_midfielders": 5,
+    "home_defenders": 7,
+    "away_defenders": 9,
+    "strongest": [
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 5.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -3.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -2.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 1.46153846153846,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 1.46153846153846,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -3.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 5.0,
+        "leader": "Croatia"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -2.0,
+        "leader": "Ghana"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
+  }
+}

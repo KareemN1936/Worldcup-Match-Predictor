@@ -1,0 +1,41 @@
+Senegal vs Iraq
+
+Date: 2026-06-26T19:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_I
+
+Base Prediction:
+Senegal Win: 57.6%
+Draw: 27.1%
+Iraq Win: 15.3%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 99.03 | edge: Senegal
+- weighted points last 5: -10.50 | edge: Iraq
+- goal difference last 5: 4.00 | edge: Senegal
+- points last 10: 3.00 | edge: Senegal
+- goals for last 5: 3.00 | edge: Senegal
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.13
+Probability shift: 0.0119
+Top signals: goal difference:home; player rating:home; starting XI rating:home
+Senegal Win: 58.9%
+Draw: 27.0%
+Iraq Win: 14.2%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Senegal 27.3 | Iraq 26.7
+Forwards: Senegal 6 | Iraq 6
+Midfielders: Senegal 10 | Iraq 8
+Defenders: Senegal 7 | Iraq 9
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

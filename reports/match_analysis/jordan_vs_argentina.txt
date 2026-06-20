@@ -1,0 +1,41 @@
+Jordan vs Argentina
+
+Date: 2026-06-28T02:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_J
+
+Base Prediction:
+Jordan Win: 5.9%
+Draw: 19.2%
+Argentina Win: 74.9%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -325.88 | edge: Argentina
+- weighted points last 5: -23.50 | edge: Argentina
+- goal difference last 5: -21.00 | edge: Argentina
+- points last 5: -13.00 | edge: Argentina
+- points last 10: -13.00 | edge: Argentina
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.53
+Probability shift: -0.0421
+Top signals: points per match:away; goal difference:away; starting XI rating:away
+Jordan Win: 1.7%
+Draw: 18.5%
+Argentina Win: 79.8%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Jordan 28.0 | Argentina 28.6
+Forwards: Jordan 8 | Argentina 6
+Midfielders: Jordan 7 | Argentina 8
+Defenders: Jordan 8 | Argentina 9
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

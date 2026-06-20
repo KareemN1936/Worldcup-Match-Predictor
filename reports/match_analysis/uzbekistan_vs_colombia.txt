@@ -1,0 +1,33 @@
+Uzbekistan vs Colombia
+
+Date: 2026-06-18T02:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_K
+
+Base Prediction:
+Uzbekistan Win: 23.9%
+Draw: 26.3%
+Colombia Win: 49.8%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -108.05 | edge: Colombia
+- points last 10: -7.00 | edge: Colombia
+- goal difference last 5: -5.00 | edge: Colombia
+- points last 5: -4.00 | edge: Colombia
+- goals for last 5: -4.00 | edge: Colombia
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Uzbekistan 27.7 | Colombia 29.6
+Forwards: Uzbekistan 4 | Colombia 5
+Midfielders: Uzbekistan 9 | Colombia 10
+Defenders: Uzbekistan 10 | Colombia 8
+
+Final Recommendation:
+Use: Team A loss
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

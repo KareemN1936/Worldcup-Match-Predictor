@@ -1,0 +1,41 @@
+Czechia vs South Africa
+
+Date: 2026-06-18T16:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_A
+
+Base Prediction:
+Czechia Win: 21.6%
+Draw: 22.7%
+South Africa Win: 55.8%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -129.88 | edge: South Africa
+- points last 10: -14.00 | edge: South Africa
+- points last 5: -5.00 | edge: South Africa
+- goals against last 5: -5.00 | edge: Czechia
+- weighted points last 5: -5.00 | edge: South Africa
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.23
+Probability shift: 0.0102
+Top signals: starting XI rating:home; goal difference:home; player rating:home
+Czechia Win: 22.6%
+Draw: 22.5%
+South Africa Win: 54.9%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Czechia 27.2 | South Africa 26.3
+Forwards: Czechia 5 | South Africa 6
+Midfielders: Czechia 11 | South Africa 7
+Defenders: Czechia 7 | South Africa 10
+
+Final Recommendation:
+Use: Team A loss
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

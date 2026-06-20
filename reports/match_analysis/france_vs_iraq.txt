@@ -1,0 +1,41 @@
+France vs Iraq
+
+Date: 2026-06-22T21:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_I
+
+Base Prediction:
+France Win: 81.6%
+Draw: 11.8%
+Iraq Win: 6.6%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 282.05 | edge: France
+- points last 10: 9.00 | edge: France
+- goal difference last 5: 9.00 | edge: France
+- goals for last 5: 7.00 | edge: France
+- points last 5: 5.00 | edge: France
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.67
+Probability shift: 0.0249
+Top signals: points per match:home; goal difference:home; starting XI rating:home
+France Win: 84.5%
+Draw: 11.4%
+Iraq Win: 4.1%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: France 26.6 | Iraq 26.7
+Forwards: France 6 | Iraq 6
+Midfielders: France 8 | Iraq 8
+Defenders: France 9 | Iraq 9
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

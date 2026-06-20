@@ -1,0 +1,41 @@
+Scotland vs Brazil
+
+Date: 2026-06-24T22:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_C
+
+Base Prediction:
+Scotland Win: 23.1%
+Draw: 26.3%
+Brazil Win: 50.5%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -138.98 | edge: Brazil
+- weighted points last 5: 6.00 | edge: Scotland
+- points last 10: 4.00 | edge: Scotland
+- goals for last 5: -4.00 | edge: Brazil
+- goals against last 5: -4.00 | edge: Scotland
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.21
+Probability shift: -0.0190
+Top signals: goal difference:away; points per match:away; starting XI rating:away
+Scotland Win: 21.3%
+Draw: 26.0%
+Brazil Win: 52.6%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Scotland 29.1 | Brazil 28.7
+Forwards: Scotland 5 | Brazil 9
+Midfielders: Scotland 8 | Brazil 5
+Defenders: Scotland 10 | Brazil 9
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

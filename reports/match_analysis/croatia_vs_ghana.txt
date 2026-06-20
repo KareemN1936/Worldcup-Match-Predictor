@@ -1,0 +1,41 @@
+Croatia vs Ghana
+
+Date: 2026-06-27T21:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_L
+
+Base Prediction:
+Croatia Win: 78.8%
+Draw: 13.1%
+Ghana Win: 8.1%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 269.22 | edge: Croatia
+- weighted points last 5: 18.50 | edge: Croatia
+- points last 10: 11.00 | edge: Croatia
+- points last 5: 8.00 | edge: Croatia
+- goal difference last 5: 7.00 | edge: Croatia
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.55
+Probability shift: -0.0419
+Top signals: points per match:away; goal difference:away; starting XI rating:away
+Croatia Win: 75.2%
+Draw: 12.3%
+Ghana Win: 12.4%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Croatia 27.9 | Ghana 26.4
+Forwards: Croatia 6 | Ghana 9
+Midfielders: Croatia 10 | Ghana 5
+Defenders: Croatia 7 | Ghana 9
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

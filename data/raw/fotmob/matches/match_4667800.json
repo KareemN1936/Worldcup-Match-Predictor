@@ -1,0 +1,1484 @@
+{
+  "general": {
+    "matchId": "4667800",
+    "matchName": "Uruguay-vs-Cape Verde_Sun, Jun 21, 2026, 22:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#79b8e1",
+        "away": "#0059bb"
+      },
+      "lightMode": {
+        "home": "#6eadd6",
+        "away": "#004bab"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894797,
+    "leagueName": "World Cup Grp. H",
+    "leagueRoundName": "2",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Uruguay",
+      "id": 5796
+    },
+    "awayTeam": {
+      "name": "Cape Verde",
+      "id": 5888
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sun, Jun 21, 2026, 22:00 UTC",
+    "matchTimeUTCDate": "2026-06-21T22:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Uruguay",
+        "id": 5796,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5796_small.png",
+        "pageUrl": "/teams/5796/overview/uruguay",
+        "fifaRank": 16
+      },
+      {
+        "name": "Cape Verde",
+        "id": 5888,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5888_small.png",
+        "pageUrl": "/teams/5888/overview/cape-verde",
+        "fifaRank": 67
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-21T22:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "lineup",
+    "table"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667800,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-21T22:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894797,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-h",
+          "leagueName": "World Cup Grp. H",
+          "roundName": "2",
+          "round": "2"
+        },
+        "Stadium": {
+          "name": "Miami Stadium",
+          "city": "Miami Gardens, Florida",
+          "country": "United States",
+          "lat": 25.957919269,
+          "long": -80.23884058,
+          "capacity": 74916,
+          "surface": "grass"
+        },
+        "Referee": {
+          "imgUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/nor.png",
+          "text": "Espen Eskås",
+          "countryCode": "NOR",
+          "country": "Norway"
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6710_xsmall.png",
+            "linkToMatch": "/matches/uruguay-vs-mexico/1akdit#5031703",
+            "date": {
+              "utcTime": "2025-11-16T01:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6710/overview/mexico",
+            "tooltipText": {
+              "utcTime": "2025-11-16T01:00:00.000Z",
+              "homeTeam": "Mexico",
+              "homeTeamId": 6710,
+              "homeScore": "0",
+              "awayTeam": "Uruguay",
+              "awayTeamId": 5796,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "6710",
+              "name": "Mexico",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5796",
+              "name": "Uruguay",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6713_xsmall.png",
+            "linkToMatch": "/matches/uruguay-vs-usa/1al6h8#4959855",
+            "date": {
+              "utcTime": "2025-11-19T00:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6713/overview/usa",
+            "tooltipText": {
+              "utcTime": "2025-11-19T00:00:00.000Z",
+              "homeTeam": "USA",
+              "homeTeamId": 6713,
+              "homeScore": "5",
+              "awayTeam": "Uruguay",
+              "awayTeamId": 5796,
+              "awayScore": "1"
+            },
+            "score": "5 - 1",
+            "home": {
+              "id": "6713",
+              "name": "USA",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5796",
+              "name": "Uruguay",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8491_xsmall.png",
+            "linkToMatch": "/matches/uruguay-vs-england/1ortfn#5124809",
+            "date": {
+              "utcTime": "2026-03-27T19:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/8491/overview/england",
+            "tooltipText": {
+              "utcTime": "2026-03-27T19:45:00.000Z",
+              "homeTeam": "England",
+              "homeTeamId": 8491,
+              "homeScore": "1",
+              "awayTeam": "Uruguay",
+              "awayTeamId": 5796,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "8491",
+              "name": "England",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5796",
+              "name": "Uruguay",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6317_xsmall.png",
+            "linkToMatch": "/matches/uruguay-vs-algeria/17oobq#5271629",
+            "date": {
+              "utcTime": "2026-03-31T18:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/6317/overview/algeria",
+            "tooltipText": {
+              "utcTime": "2026-03-31T18:30:00.000Z",
+              "homeTeam": "Algeria",
+              "homeTeamId": 6317,
+              "homeScore": "0",
+              "awayTeam": "Uruguay",
+              "awayTeamId": 5796,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "6317",
+              "name": "Algeria",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5796",
+              "name": "Uruguay",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/7795_xsmall.png",
+            "linkToMatch": "/matches/uruguay-vs-saudi-arabia/1izuvb#4667799",
+            "date": {
+              "utcTime": "2026-06-15T22:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/7795/overview/saudi-arabia",
+            "tooltipText": {
+              "utcTime": "2026-06-15T22:00:00.000Z",
+              "homeTeam": "Saudi Arabia",
+              "homeTeamId": 7795,
+              "homeScore": "1",
+              "awayTeam": "Uruguay",
+              "awayTeamId": 5796,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5796",
+              "name": "Uruguay",
+              "isOurTeam": true
+            }
+          }
+        ],
+        [
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10255_xsmall.png",
+            "linkToMatch": "/matches/cape-verde-vs-egypt/25l1iw#5060482",
+            "date": {
+              "utcTime": "2025-11-17T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/10255/overview/egypt",
+            "tooltipText": {
+              "utcTime": "2025-11-17T16:00:00.000Z",
+              "homeTeam": "Egypt",
+              "homeTeamId": 10255,
+              "homeScore": "1",
+              "awayTeam": "Cape Verde",
+              "awayTeamId": 5888,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "10255",
+              "name": "Egypt",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5888",
+              "name": "Cape Verde",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9762_xsmall.png",
+            "linkToMatch": "/matches/cape-verde-vs-chile/20x59x#5187284",
+            "date": {
+              "utcTime": "2026-03-27T03:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/9762/overview/chile",
+            "tooltipText": {
+              "utcTime": "2026-03-27T03:00:00.000Z",
+              "homeTeam": "Chile",
+              "homeTeamId": 9762,
+              "homeScore": "4",
+              "awayTeam": "Cape Verde",
+              "awayTeamId": 5888,
+              "awayScore": "2"
+            },
+            "score": "4 - 2",
+            "home": {
+              "id": "9762",
+              "name": "Chile",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5888",
+              "name": "Cape Verde",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/7871_xsmall.png",
+            "linkToMatch": "/matches/cape-verde-vs-finland/1kd3of#5187286",
+            "date": {
+              "utcTime": "2026-03-30T03:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/7871/overview/finland",
+            "tooltipText": {
+              "utcTime": "2026-03-30T03:00:00.000Z",
+              "homeTeam": "Cape Verde",
+              "homeTeamId": 5888,
+              "homeScore": "1",
+              "awayTeam": "Finland",
+              "awayTeamId": 7871,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "5888",
+              "name": "Cape Verde",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "7871",
+              "name": "Finland",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8205_xsmall.png",
+            "linkToMatch": "/matches/cape-verde-vs-serbia/1n4t0o#5667645",
+            "date": {
+              "utcTime": "2026-05-31T15:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8205/overview/serbia",
+            "tooltipText": {
+              "utcTime": "2026-05-31T15:00:00.000Z",
+              "homeTeam": "Cape Verde",
+              "homeTeamId": 5888,
+              "homeScore": "3",
+              "awayTeam": "Serbia",
+              "awayTeamId": 8205,
+              "awayScore": "0"
+            },
+            "score": "3 - 0",
+            "home": {
+              "id": "5888",
+              "name": "Cape Verde",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8205",
+              "name": "Serbia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6720_xsmall.png",
+            "linkToMatch": "/matches/cape-verde-vs-spain/1bbtuo#4667798",
+            "date": {
+              "utcTime": "2026-06-15T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6720/overview/spain",
+            "tooltipText": {
+              "utcTime": "2026-06-15T16:00:00.000Z",
+              "homeTeam": "Spain",
+              "homeTeamId": 6720,
+              "homeScore": "0",
+              "awayTeam": "Cape Verde",
+              "awayTeamId": 5888,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "6720",
+              "name": "Spain",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5888",
+              "name": "Cape Verde",
+              "isOurTeam": true
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667800",
+          "MatchId": 4667800,
+          "HomeTeamId": 5796,
+          "AwayTeamId": 5888,
+          "HomeTeam": "Uruguay",
+          "AwayTeam": "Cape Verde",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} haven't won a match in {1} attempts.",
+              "TextTemplateId": "not_won_team",
+              "StatValues": [
+                "home_team",
+                "5"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_stat_down",
+              "defaultText": "Uruguay haven't won a match in 5 attempts."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored in their last {1} home matches.",
+              "TextTemplateId": "goalstreak_team_home",
+              "StatValues": [
+                "home_team",
+                "3"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Uruguay have scored in their last 3 home matches."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have an average of {2} goals in their last three matches and {1} have an average of {3}.",
+              "TextTemplateId": "average_goals_last3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "0.67",
+                "1.33"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Uruguay have an average of 0.67 goals in their last three matches and Cape Verde have an average of 1.33."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't won a match in {1} attempts.",
+              "TextTemplateId": "not_won_team",
+              "StatValues": [
+                "home_team",
+                "5"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_stat_down",
+              "defaultText": "Uruguay haven't won a match in 5 attempts."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 5796,
+          "priority": 8,
+          "defaultText": "Haven't won a match in {0} attempts",
+          "localizedTextId": "insights_not_won_team",
+          "statValues": [
+            {
+              "value": 5,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't won a match in 5 attempts",
+          "color": "#6eadd6"
+        }
+      ],
+      "countryCode": "INT",
+      "QAData": [],
+      "matchInsightsConfig": {
+        "hasBettingInsight": true,
+        "urlTemplate": "https://data.fotmob.com/generated-match-insights/77/4667800/matchinsights_{lang}.json",
+        "languages": [
+          "en",
+          "nb",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ar",
+          "pt-BR"
+        ]
+      }
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 31,
+      "windSpeed": 4,
+      "windDirectionCardinal": "S",
+      "iconCode": 4,
+      "relativeHumidity": 64,
+      "precipChance": 68,
+      "precipitation": 7.42,
+      "snow": 0,
+      "cloudCover": 75,
+      "description": "Thunderstorms",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T22:00:13Z",
+      "localizedKey": "weather_condition_thunderstorms",
+      "defaultTitle": "Thunderstorms"
+    },
+    "lineup": {
+      "matchId": 4667800,
+      "lineupType": "predicted",
+      "source": "enetpulse",
+      "availableFilters": [
+        "marketValue",
+        "age",
+        "team"
+      ],
+      "homeTeam": {
+        "id": 5796,
+        "name": "Uruguay",
+        "formation": "4-3-3",
+        "starters": [
+          {
+            "id": 56829,
+            "age": 40,
+            "name": "Fernando Muslera",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "23",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "primaryTeamId": 10094,
+            "primaryTeamName": "Estudiantes",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.2
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.2,
+              "width": 1
+            },
+            "marketValue": 643472,
+            "firstName": "Fernando",
+            "lastName": "Muslera",
+            "rankings": null
+          },
+          {
+            "id": 465614,
+            "age": 33,
+            "name": "Guillermo Varela",
+            "positionId": 32,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "13",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "primaryTeamId": 9770,
+            "primaryTeamName": "Flamengo",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 1077786,
+            "firstName": "Guillermo",
+            "lastName": "Varela",
+            "rankings": null
+          },
+          {
+            "id": 1020026,
+            "age": 26,
+            "name": "Sebastián Cáceres",
+            "positionId": 34,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "primaryTeamId": 6576,
+            "primaryTeamName": "CF America",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 3116400,
+            "firstName": "Sebastián",
+            "lastName": "Cáceres",
+            "rankings": null
+          },
+          {
+            "id": 729093,
+            "age": 28,
+            "name": "Mathías Olivera",
+            "positionId": 36,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "16",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "primaryTeamId": 9875,
+            "primaryTeamName": "Napoli",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 17632949,
+            "firstName": "Mathías",
+            "lastName": "Olivera",
+            "rankings": null
+          },
+          {
+            "id": 1053963,
+            "age": 26,
+            "name": "Juan Sanabria",
+            "positionId": 38,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "25",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "primaryTeamId": 6606,
+            "primaryTeamName": "Real Salt Lake",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 2984556,
+            "firstName": "Juan",
+            "lastName": "Sanabria",
+            "rankings": null
+          },
+          {
+            "id": 743533,
+            "age": 27,
+            "name": "Federico Valverde",
+            "positionId": 73,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "primaryTeamId": 8633,
+            "primaryTeamName": "Real Madrid",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 112969063,
+            "firstName": "Federico",
+            "lastName": "Valverde",
+            "rankings": null
+          },
+          {
+            "id": 751198,
+            "age": 29,
+            "name": "Nicolás de la Cruz",
+            "positionId": 75,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "7",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "primaryTeamId": 9770,
+            "primaryTeamName": "Flamengo",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 10337490,
+            "firstName": "Nicolás de",
+            "lastName": "la Cruz",
+            "rankings": null
+          },
+          {
+            "id": 620618,
+            "age": 28,
+            "name": "Rodrigo Bentancur",
+            "positionId": 77,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "6",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "primaryTeamId": 8586,
+            "primaryTeamName": "Tottenham Hotspur",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 21082975,
+            "firstName": "Rodrigo",
+            "lastName": "Bentancur",
+            "rankings": null
+          },
+          {
+            "id": 840212,
+            "age": 27,
+            "name": "Agustín Canobbio",
+            "positionId": 103,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "14",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "primaryTeamId": 9863,
+            "primaryTeamName": "Fluminense",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 4863777,
+            "firstName": "Agustín",
+            "lastName": "Canobbio",
+            "rankings": null
+          },
+          {
+            "id": 1032811,
+            "age": 27,
+            "name": "Federico Viñas",
+            "positionId": 105,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "21",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "primaryTeamId": 8670,
+            "primaryTeamName": "Real Oviedo",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 2736548,
+            "firstName": "Federico",
+            "lastName": "Viñas",
+            "rankings": null
+          },
+          {
+            "id": 1031656,
+            "age": 26,
+            "name": "Maxi Araújo",
+            "positionId": 107,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "20",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "primaryTeamId": 9768,
+            "primaryTeamName": "Sporting CP",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 25121246,
+            "firstName": "Maxi",
+            "lastName": "Araújo",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 154305,
+          "age": 70,
+          "name": "Marcelo Bielsa",
+          "countryName": "Argentina",
+          "countryCode": "ARG",
+          "firstName": "Marcelo",
+          "lastName": "Bielsa",
+          "primaryTeamId": 5796,
+          "primaryTeamName": "Uruguay",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "unavailable": [
+          {
+            "id": 921253,
+            "age": 27,
+            "name": "Ronald Araujo",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "marketValue": 31223330,
+            "unavailability": {
+              "injuryId": 87,
+              "type": "injury",
+              "expectedReturn": "A few weeks"
+            },
+            "firstName": "Ronald",
+            "lastName": "Araujo"
+          },
+          {
+            "id": 438647,
+            "age": 32,
+            "name": "Giorgian de Arrascaeta",
+            "countryName": "Uruguay",
+            "countryCode": "URU",
+            "marketValue": 14404269,
+            "unavailability": {
+              "injuryId": 20,
+              "type": "injury",
+              "expectedReturn": "Early July 2026"
+            },
+            "firstName": "Giorgian",
+            "lastName": "de Arrascaeta"
+          }
+        ],
+        "averageStarterAge": 29.4,
+        "totalStarterMarketValue": 202566262
+      },
+      "awayTeam": {
+        "id": 5888,
+        "name": "Cape Verde",
+        "formation": "4-2-3-1",
+        "starters": [
+          {
+            "id": 422149,
+            "age": 40,
+            "name": "Vozinha",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Cape Verde",
+            "countryCode": "CPV",
+            "primaryTeamId": 9774,
+            "primaryTeamName": "Chaves",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 149794,
+            "firstName": "",
+            "lastName": "Vozinha",
+            "rankings": null
+          },
+          {
+            "id": 444000,
+            "age": 31,
+            "name": "Steven Moreira",
+            "positionId": 32,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "22",
+            "countryName": "Cape Verde",
+            "countryCode": "CPV",
+            "primaryTeamId": 6001,
+            "primaryTeamName": "Columbus Crew",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 707488,
+            "firstName": "Steven",
+            "lastName": "Moreira",
+            "rankings": null
+          },
+          {
+            "id": 230134,
+            "age": 34,
+            "name": "Roberto Lopes",
+            "positionId": 34,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "Cape Verde",
+            "countryCode": "CPV",
+            "primaryTeamId": 4131,
+            "primaryTeamName": "Shamrock Rovers",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 50000,
+            "firstName": "Roberto",
+            "lastName": "Lopes",
+            "rankings": null
+          },
+          {
+            "id": 496648,
+            "age": 31,
+            "name": "Diney Borges",
+            "positionId": 36,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Cape Verde",
+            "countryCode": "CPV",
+            "primaryTeamId": 1112866,
+            "primaryTeamName": "Al Bataeh",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 693537,
+            "firstName": "Diney",
+            "lastName": "Borges",
+            "rankings": null
+          },
+          {
+            "id": 1441786,
+            "age": 23,
+            "name": "Sidny Lopes Cabral",
+            "positionId": 38,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "13",
+            "countryName": "Cape Verde",
+            "countryCode": "CPV",
+            "primaryTeamId": 9752,
+            "primaryTeamName": "Trabzonspor",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 1345064,
+            "firstName": "Sidny Lopes",
+            "lastName": "Cabral",
+            "rankings": null
+          },
+          {
+            "id": 890503,
+            "age": 29,
+            "name": "Kevin Pina",
+            "positionId": 64,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "6",
+            "countryName": "Cape Verde",
+            "countryCode": "CPV",
+            "primaryTeamId": 168719,
+            "primaryTeamName": "FC Krasnodar",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 2519528,
+            "firstName": "Kevin",
+            "lastName": "Pina",
+            "rankings": null
+          },
+          {
+            "id": 665167,
+            "age": 29,
+            "name": "Laros Duarte",
+            "positionId": 66,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "15",
+            "countryName": "Cape Verde",
+            "countryCode": "CPV",
+            "primaryTeamId": 355346,
+            "primaryTeamName": "Puskas FC Academy",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 818049,
+            "firstName": "Laros",
+            "lastName": "Duarte",
+            "rankings": null
+          },
+          {
+            "id": 172615,
+            "age": 36,
+            "name": "Ryan Mendes",
+            "positionId": 83,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "20",
+            "countryName": "Cape Verde",
+            "countryCode": "CPV",
+            "primaryTeamId": 1281818,
+            "primaryTeamName": "Igdir FK",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.837,
+              "height": 0.25,
+              "width": 0.193
+            },
+            "verticalLayout": {
+              "x": 0.162,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.325
+            },
+            "marketValue": 118519,
+            "firstName": "Ryan",
+            "lastName": "Mendes",
+            "rankings": null
+          },
+          {
+            "id": 680905,
+            "age": 32,
+            "name": "Jamiro Monteiro",
+            "positionId": 85,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "10",
+            "countryName": "Cape Verde",
+            "countryCode": "CPV",
+            "primaryTeamId": 6413,
+            "primaryTeamName": "PEC Zwolle",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.337
+            },
+            "marketValue": 389439,
+            "firstName": "Jamiro",
+            "lastName": "Monteiro",
+            "rankings": null
+          },
+          {
+            "id": 785716,
+            "age": 28,
+            "name": "Jovane Cabral",
+            "positionId": 87,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "7",
+            "countryName": "Cape Verde",
+            "countryCode": "CPV",
+            "primaryTeamId": 1074320,
+            "primaryTeamName": "Estrela da Amadora",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.163,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.837,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.325
+            },
+            "marketValue": 484392,
+            "firstName": "Jovane",
+            "lastName": "Cabral",
+            "rankings": null
+          },
+          {
+            "id": 1309634,
+            "age": 25,
+            "name": "Dailon Livramento",
+            "positionId": 115,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "19",
+            "countryName": "Cape Verde",
+            "countryCode": "CPV",
+            "primaryTeamId": 212821,
+            "primaryTeamName": "Casa Pia AC",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 998002,
+            "firstName": "Dailon",
+            "lastName": "Livramento",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 1204965,
+          "age": 56,
+          "name": "Bubista",
+          "countryName": "Cape Verde",
+          "countryCode": "CPV",
+          "firstName": "",
+          "lastName": "Bubista",
+          "primaryTeamId": 5888,
+          "primaryTeamName": "Cape Verde",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "averageStarterAge": 31.1,
+        "totalStarterMarketValue": 8273812
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894797",
+      "url": "https://data.fotmob.com/tables.ext.894797.fot.gz",
+      "teams": [
+        5796,
+        5888
+      ],
+      "tournamentNameForUrl": "World Cup Grp. H",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": false,
+    "momentum": false
+  },
+  "seo": {
+    "path": "uruguay-vs-cape-verde",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667800",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Uruguay",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5796.png",
+        "url": "https://www.fotmob.com/teams/5796/overview/uruguay",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Cape Verde",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5888.png",
+        "url": "https://www.fotmob.com/teams/5888/overview/cape-verde",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Uruguay vs Cape Verde",
+      "description": "Follow Uruguay vs Cape Verde live on fotmob.com",
+      "startDate": "2026-06-21T22:00:00.000Z",
+      "endDate": "2026-06-22T00:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Miami Stadium",
+        "latitude": 25.957919269,
+        "longitude": -80.23884058,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "United States",
+          "addressLocality": "Miami Gardens, Florida"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/5796.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/5888.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667800",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-21T22:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Uruguay",
+          "url": "https://www.fotmob.com/teams/5796/overview/uruguay"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Cape Verde",
+          "url": "https://www.fotmob.com/teams/5888/overview/cape-verde"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. H",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-h"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Uruguay - Cape Verde",
+            "item": "https://www.fotmob.com/match/4667800"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. H",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-h"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Cape Verde",
+            "item": "https://www.fotmob.com/teams/5888/overview/cape-verde"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Uruguay - Cape Verde",
+            "item": "https://www.fotmob.com/match/4667800"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. H",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-h"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Uruguay",
+            "item": "https://www.fotmob.com/teams/5796/overview/uruguay"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Uruguay - Cape Verde",
+            "item": "https://www.fotmob.com/match/4667800"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

@@ -1,0 +1,41 @@
+Scotland vs Morocco
+
+Date: 2026-06-19T22:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_C
+
+Base Prediction:
+Scotland Win: 23.5%
+Draw: 24.7%
+Morocco Win: 51.8%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -131.64 | edge: Morocco
+- weighted points last 5: 5.00 | edge: Scotland
+- goal difference last 5: -4.00 | edge: Morocco
+- goals for last 5: -4.00 | edge: Morocco
+- points last 5: -2.00 | edge: Morocco
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.29
+Probability shift: 0.0131
+Top signals: points per match:home; goal difference:home; player rating:away
+Scotland Win: 24.9%
+Draw: 24.5%
+Morocco Win: 50.6%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Scotland 29.1 | Morocco 25.9
+Forwards: Scotland 5 | Morocco 5
+Midfielders: Scotland 8 | Morocco 9
+Defenders: Scotland 10 | Morocco 9
+
+Final Recommendation:
+Use: Team A loss
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

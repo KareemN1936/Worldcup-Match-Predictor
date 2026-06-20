@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537332,
+    "date": "2026-06-25T01:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_A",
+    "home_team": "South Africa",
+    "away_team": "South Korea"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.1788681298494339,
+    "draw_probability": 0.2145946770906448,
+    "away_win_probability": 0.6065372228622437,
+    "predicted_result": "Team A loss",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -213.86517018640006,
+      "points_last_5_diff": -4.0,
+      "points_last_10_diff": -5.0,
+      "goal_difference_last_5_diff": -4.0,
+      "goals_for_last_5_diff": -5.0,
+      "goals_against_last_5_diff": -1.0,
+      "weighted_points_last_5_diff": -14.5,
+      "weighted_goal_difference_last_5_diff": -14.5,
+      "wins_last_5_diff": -2.0,
+      "draws_last_5_diff": 2.0,
+      "losses_last_5_diff": 0.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": 3.0,
+      "win_rate_2y_diff": -0.11904761904761907,
+      "draw_rate_2y_diff": 0.0535714285714286,
+      "loss_rate_2y_diff": 0.0654761904761905,
+      "goals_for_per_match_2y_diff": -0.13690476190476186,
+      "goals_against_per_match_2y_diff": -0.07738095238095233,
+      "goal_difference_per_match_2y_diff": -0.059523809523809534,
+      "clean_sheet_rate_2y_diff": -0.01785714285714285,
+      "failed_to_score_rate_2y_diff": 0.059523809523809534,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -213.86517018640006,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -14.5,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -5.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -5.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -4.0,
+        "leader": "South Korea"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -213.86517018640006,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -4.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -5.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -4.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -5.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -1.0,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -14.5,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.11904761904761907,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": -0.059523809523809534,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.07738095238095233,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.01785714285714285,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.059523809523809534,
+        "leader": "South Korea"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.8888888888888888,
+    "enrichment_score": -0.304848484848485,
+    "probability_shift": -0.0270976430976431,
+    "top_signals": "points per match:away; starting XI rating:away; goal difference:away",
+    "home_win_probability": 0.1525974886610982,
+    "draw_probability": 0.2103149500943935,
+    "away_win_probability": 0.6370875612445082,
+    "predicted_result": "Team A loss",
+    "strongest": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -1.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": -1.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.5500000000000007,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.1500000000000003,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -1.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": -1.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.1500000000000003,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.5500000000000007,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 26.346153846153847,
+    "away_avg_age": 27.46153846153846,
+    "home_forwards": 6,
+    "away_forwards": 6,
+    "home_midfielders": 7,
+    "away_midfielders": 8,
+    "home_defenders": 10,
+    "away_defenders": 9,
+    "strongest": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.1153846153846132,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -1.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.1153846153846132,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -1.0,
+        "leader": "South Korea"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "South Africa"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A loss",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
+  }
+}

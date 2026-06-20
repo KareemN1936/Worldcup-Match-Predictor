@@ -1,0 +1,1967 @@
+{
+  "general": {
+    "matchId": "4667827",
+    "matchName": "Panama-vs-Croatia_Tue, Jun 23, 2026, 23:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#BF1F27",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#BF1F27",
+        "away": "#0040a5"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894801,
+    "leagueName": "World Cup Grp. L",
+    "leagueRoundName": "2",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Panama",
+      "id": 5922
+    },
+    "awayTeam": {
+      "name": "Croatia",
+      "id": 10155
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Tue, Jun 23, 2026, 23:00 UTC",
+    "matchTimeUTCDate": "2026-06-23T23:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Panama",
+        "id": 5922,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5922_small.png",
+        "pageUrl": "/teams/5922/overview/panama",
+        "fifaRank": 34
+      },
+      {
+        "name": "Croatia",
+        "id": 10155,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10155_small.png",
+        "pageUrl": "/teams/10155/overview/croatia",
+        "fifaRank": 11
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-23T23:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table",
+    "injured"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667827,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-23T23:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894801,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-l",
+          "leagueName": "World Cup Grp. L",
+          "roundName": "2",
+          "round": "2"
+        },
+        "Stadium": {
+          "name": "Toronto Stadium",
+          "city": "Toronto, Ontario",
+          "country": "Canada",
+          "lat": 43.633205971,
+          "long": -79.41855669,
+          "capacity": 43036,
+          "surface": "grass"
+        },
+        "Referee": {
+          "text": "",
+          "countryCode": "",
+          "country": ""
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6316_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-south-africa/18laph#5267353",
+            "date": {
+              "utcTime": "2026-03-31T17:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/6316/overview/south-africa",
+            "tooltipText": {
+              "utcTime": "2026-03-31T17:30:00.000Z",
+              "homeTeam": "South Africa",
+              "homeTeamId": 6316,
+              "homeScore": "1",
+              "awayTeam": "Panama",
+              "awayTeamId": 5922,
+              "awayScore": "2"
+            },
+            "score": "1 - 2",
+            "home": {
+              "id": "6316",
+              "name": "South Africa",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8256_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-brazil/1nuk6r#5629007",
+            "date": {
+              "utcTime": "2026-05-31T21:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/8256/overview/brazil",
+            "tooltipText": {
+              "utcTime": "2026-05-31T21:30:00.000Z",
+              "homeTeam": "Brazil",
+              "homeTeamId": 8256,
+              "homeScore": "6",
+              "awayTeam": "Panama",
+              "awayTeamId": 5922,
+              "awayScore": "2"
+            },
+            "score": "6 - 2",
+            "home": {
+              "id": "8256",
+              "name": "Brazil",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/262134_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-dominican-republic/gi63hzi#5729607",
+            "date": {
+              "utcTime": "2026-06-04T00:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/262134/overview/dominican-republic",
+            "tooltipText": {
+              "utcTime": "2026-06-04T00:45:00.000Z",
+              "homeTeam": "Panama",
+              "homeTeamId": 5922,
+              "homeScore": "4",
+              "awayTeam": "Dominican Republic",
+              "awayTeamId": 262134,
+              "awayScore": "2"
+            },
+            "score": "4 - 2",
+            "home": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "262134",
+              "name": "Dominican Republic",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10106_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-bosnia-herzegovina/24he60#5737313",
+            "date": {
+              "utcTime": "2026-06-06T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/10106/overview/bosnia-herzegovina",
+            "tooltipText": {
+              "utcTime": "2026-06-06T19:00:00.000Z",
+              "homeTeam": "Panama",
+              "homeTeamId": 5922,
+              "homeScore": "1",
+              "awayTeam": "Bosnia and Herzegovina",
+              "awayTeamId": 10106,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "10106",
+              "name": "Bosnia and Herzegovina",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6714_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-ghana/1bjek0#4667826",
+            "date": {
+              "utcTime": "2026-06-17T23:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6714/overview/ghana",
+            "tooltipText": {
+              "utcTime": "2026-06-17T23:00:00.000Z",
+              "homeTeam": "Ghana",
+              "homeTeamId": 6714,
+              "homeScore": "1",
+              "awayTeam": "Panama",
+              "awayTeamId": 5922,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "6714",
+              "name": "Ghana",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": true
+            }
+          }
+        ],
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8258_xsmall.png",
+            "linkToMatch": "/matches/colombia-vs-croatia/2sxre5#5147840",
+            "date": {
+              "utcTime": "2026-03-26T23:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/8258/overview/colombia",
+            "tooltipText": {
+              "utcTime": "2026-03-26T23:30:00.000Z",
+              "homeTeam": "Colombia",
+              "homeTeamId": 8258,
+              "homeScore": "1",
+              "awayTeam": "Croatia",
+              "awayTeamId": 10155,
+              "awayScore": "2"
+            },
+            "score": "1 - 2",
+            "home": {
+              "id": "8258",
+              "name": "Colombia",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "10155",
+              "name": "Croatia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8256_xsmall.png",
+            "linkToMatch": "/matches/brazil-vs-croatia/2swyz6#5110104",
+            "date": {
+              "utcTime": "2026-04-01T00:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8256/overview/brazil",
+            "tooltipText": {
+              "utcTime": "2026-04-01T00:00:00.000Z",
+              "homeTeam": "Brazil",
+              "homeTeamId": 8256,
+              "homeScore": "3",
+              "awayTeam": "Croatia",
+              "awayTeamId": 10155,
+              "awayScore": "1"
+            },
+            "score": "3 - 1",
+            "home": {
+              "id": "8256",
+              "name": "Brazil",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "10155",
+              "name": "Croatia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8263_xsmall.png",
+            "linkToMatch": "/matches/belgium-vs-croatia/2szqg2#5147839",
+            "date": {
+              "utcTime": "2026-06-02T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8263/overview/belgium",
+            "tooltipText": {
+              "utcTime": "2026-06-02T16:00:00.000Z",
+              "homeTeam": "Croatia",
+              "homeTeamId": 10155,
+              "homeScore": "0",
+              "awayTeam": "Belgium",
+              "awayTeamId": 8263,
+              "awayScore": "2"
+            },
+            "score": "0 - 2",
+            "home": {
+              "id": "10155",
+              "name": "Croatia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8263",
+              "name": "Belgium",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5787_xsmall.png",
+            "linkToMatch": "/matches/slovenia-vs-croatia/23nxao#5159769",
+            "date": {
+              "utcTime": "2026-06-07T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/5787/overview/slovenia",
+            "tooltipText": {
+              "utcTime": "2026-06-07T18:45:00.000Z",
+              "homeTeam": "Croatia",
+              "homeTeamId": 10155,
+              "homeScore": "2",
+              "awayTeam": "Slovenia",
+              "awayTeamId": 5787,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "10155",
+              "name": "Croatia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5787",
+              "name": "Slovenia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8491_xsmall.png",
+            "linkToMatch": "/matches/england-vs-croatia/2viayw#4667825",
+            "date": {
+              "utcTime": "2026-06-17T20:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8491/overview/england",
+            "tooltipText": {
+              "utcTime": "2026-06-17T20:00:00.000Z",
+              "homeTeam": "England",
+              "homeTeamId": 8491,
+              "homeScore": "4",
+              "awayTeam": "Croatia",
+              "awayTeamId": 10155,
+              "awayScore": "2"
+            },
+            "score": "4 - 2",
+            "home": {
+              "id": "8491",
+              "name": "England",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "10155",
+              "name": "Croatia",
+              "isOurTeam": true
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667827",
+          "MatchId": 4667827,
+          "HomeTeamId": 5922,
+          "AwayTeamId": 10155,
+          "HomeTeam": "Panama",
+          "AwayTeam": "Croatia",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} have {1}W, {2}D, {3}L in five matches while {4} have {5}W, {6}D, {7}L.",
+              "TextTemplateId": "team_form_both",
+              "StatValues": [
+                "home_team",
+                "2",
+                "1",
+                "2",
+                "away_team",
+                "2",
+                "0",
+                "3"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Panama have 2W, 1D, 2L in five matches while Croatia have 2W, 0D, 3L."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored in their last {1} home matches.",
+              "TextTemplateId": "goalstreak_team_home",
+              "StatValues": [
+                "home_team",
+                "4"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Panama have scored in their last 4 home matches."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have scored {3} goals in their last {2} matches, while {1} have scored {4}.",
+              "TextTemplateId": "goals_total_last_3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "3",
+                "5",
+                "4"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Panama have scored 5 goals in their last 3 matches, while Croatia have scored 4."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't drawn in their last {1} matches.",
+              "TextTemplateId": "draw_streak_team",
+              "StatValues": [
+                "away_team",
+                "8"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Croatia haven't drawn in their last 8 matches."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 5922,
+          "priority": 1345,
+          "defaultText": "Haven't kept a clean sheet in {0} matches",
+          "localizedTextId": "insights_not_clean_sheet",
+          "statValues": [
+            {
+              "value": 8,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't kept a clean sheet in 8 matches",
+          "color": "#BF1F27"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 10155,
+          "priority": 1345,
+          "defaultText": "Haven't kept a clean sheet in {0} matches",
+          "localizedTextId": "insights_not_clean_sheet",
+          "statValues": [
+            {
+              "value": 7,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't kept a clean sheet in 7 matches",
+          "color": "#CC3737"
+        }
+      ],
+      "countryCode": "INT",
+      "QAData": [],
+      "matchInsightsConfig": {
+        "hasBettingInsight": false,
+        "urlTemplate": "https://data.fotmob.com/generated-match-insights/77/4667827/matchinsights_{lang}.json",
+        "languages": [
+          "en",
+          "nb",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ar",
+          "pt-BR"
+        ]
+      }
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 21,
+      "windSpeed": 5,
+      "windDirectionCardinal": "NNW",
+      "iconCode": 30,
+      "relativeHumidity": 53,
+      "precipChance": 0,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 51,
+      "description": "Partly Cloudy",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T13:00:01Z",
+      "localizedKey": "weather_condition_partly_cloudy",
+      "defaultTitle": "Partly Cloudy"
+    },
+    "lineup": {
+      "matchId": 4667827,
+      "lineupType": "lastStarting11",
+      "source": "lastStartingLineups",
+      "availableFilters": [
+        "marketValue",
+        "age",
+        "team"
+      ],
+      "homeTeam": {
+        "id": 5922,
+        "name": "Panama",
+        "formation": "3-4-3",
+        "starters": [
+          {
+            "id": 531913,
+            "age": 31,
+            "name": "Orlando Mosquera",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "22",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 582749,
+            "primaryTeamName": "Al-Fayha",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.2
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.2,
+              "width": 1
+            },
+            "marketValue": 289356,
+            "firstName": "Orlando",
+            "lastName": "Mosquera",
+            "rankings": null
+          },
+          {
+            "id": 688448,
+            "age": 29,
+            "name": "Jiovany Ramos",
+            "positionId": 33,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "13",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 657277,
+            "primaryTeamName": "Academia Puerto Cabello",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 121444,
+            "firstName": "Jiovany",
+            "lastName": "Ramos",
+            "rankings": null
+          },
+          {
+            "id": 1223132,
+            "age": 25,
+            "name": "José Córdoba",
+            "positionId": 35,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 9850,
+            "primaryTeamName": "Norwich City",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 4109713,
+            "firstName": "José",
+            "lastName": "Córdoba",
+            "rankings": null
+          },
+          {
+            "id": 688449,
+            "age": 27,
+            "name": "Andrés Andrade",
+            "positionId": 37,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "16",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 9977,
+            "primaryTeamName": "LASK",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 1377080,
+            "firstName": "Andrés",
+            "lastName": "Andrade",
+            "rankings": null
+          },
+          {
+            "id": 643635,
+            "age": 30,
+            "name": "Amir Murillo",
+            "positionId": 72,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "23",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 10188,
+            "primaryTeamName": "Beşiktaş",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 8366320,
+            "firstName": "Amir",
+            "lastName": "Murillo",
+            "rankings": null
+          },
+          {
+            "id": 1017520,
+            "age": 26,
+            "name": "Carlos Harvey",
+            "positionId": 74,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "14",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 207242,
+            "primaryTeamName": "Minnesota United",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 381854,
+            "firstName": "Carlos",
+            "lastName": "Harvey",
+            "rankings": null
+          },
+          {
+            "id": 526710,
+            "age": 32,
+            "name": "Yoel Bárcenas",
+            "positionId": 76,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "11",
+            "isCaptain": true,
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 1170234,
+            "primaryTeamName": "Mazatlan FC",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 521964,
+            "firstName": "Yoel",
+            "lastName": "Bárcenas",
+            "rankings": null
+          },
+          {
+            "id": 888966,
+            "age": 28,
+            "name": "César Blackman",
+            "positionId": 78,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "2",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 6019,
+            "primaryTeamName": "Slovan Bratislava",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 1558623,
+            "firstName": "César",
+            "lastName": "Blackman",
+            "rankings": null
+          },
+          {
+            "id": 727101,
+            "age": 29,
+            "name": "Cristian Martínez",
+            "positionId": 103,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "6",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 2095,
+            "primaryTeamName": "Hapoel Ironi Kiryat Shmona",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 648589,
+            "firstName": "Cristian",
+            "lastName": "Martínez",
+            "rankings": null
+          },
+          {
+            "id": 312159,
+            "age": 35,
+            "name": "Cecilio Waterman",
+            "positionId": 105,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "18",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 4054,
+            "primaryTeamName": "Universidad de Concepcion",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 255088,
+            "firstName": "Cecilio",
+            "lastName": "Waterman",
+            "rankings": null
+          },
+          {
+            "id": 940333,
+            "age": 28,
+            "name": "José Luis Rodriguez",
+            "positionId": 107,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "7",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 649424,
+            "primaryTeamName": "FC Juarez",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 2110668,
+            "firstName": "José Luis",
+            "lastName": "Rodriguez",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 36053,
+          "age": 53,
+          "name": "Thomas Christiansen",
+          "countryName": "Spain",
+          "countryCode": "ESP",
+          "firstName": "Thomas",
+          "lastName": "Christiansen",
+          "primaryTeamId": 5922,
+          "primaryTeamName": "Panama",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "subs": [
+          {
+            "id": 1330683,
+            "age": 32,
+            "name": "César Samudio",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "12",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 9932,
+            "primaryTeamName": "CD Marathon",
+            "firstName": "César",
+            "lastName": "Samudio",
+            "rankings": null
+          },
+          {
+            "id": 206088,
+            "age": 35,
+            "name": "Luis Mejía",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 8304,
+            "primaryTeamName": "Nacional",
+            "marketValue": 232826,
+            "firstName": "Luis",
+            "lastName": "Mejía",
+            "rankings": null
+          },
+          {
+            "id": 1454648,
+            "age": 24,
+            "name": "Edgardo Fariña",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 657508,
+            "primaryTeamName": "Nizhny Novgorod",
+            "marketValue": 1127127,
+            "firstName": "Edgardo",
+            "lastName": "Fariña",
+            "rankings": null
+          },
+          {
+            "id": 643638,
+            "age": 31,
+            "name": "Fidel Escobar",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 6607,
+            "primaryTeamName": "Deportivo Saprissa",
+            "marketValue": 50000,
+            "firstName": "Fidel",
+            "lastName": "Escobar",
+            "rankings": null
+          },
+          {
+            "id": 924235,
+            "age": 27,
+            "name": "Jorge Gutiérrez",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "26",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 176496,
+            "primaryTeamName": "Deportivo La Guaira",
+            "marketValue": 343158,
+            "firstName": "Jorge",
+            "lastName": "Gutiérrez",
+            "rankings": null
+          },
+          {
+            "id": 501847,
+            "age": 34,
+            "name": "Roderick Miller",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "25",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 4674,
+            "primaryTeamName": "Turan Tovuz",
+            "marketValue": 153592,
+            "firstName": "Roderick",
+            "lastName": "Miller",
+            "rankings": null
+          },
+          {
+            "id": 643682,
+            "age": 27,
+            "name": "Adalberto Carrasquilla",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 1946,
+            "primaryTeamName": "Pumas",
+            "marketValue": 2587686,
+            "firstName": "Adalberto",
+            "lastName": "Carrasquilla",
+            "rankings": null
+          },
+          {
+            "id": 308131,
+            "age": 36,
+            "name": "Aníbal Godoy",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "20",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 1701119,
+            "primaryTeamName": "San Diego FC",
+            "marketValue": 76121,
+            "firstName": "Aníbal",
+            "lastName": "Godoy",
+            "rankings": null
+          },
+          {
+            "id": 1137803,
+            "age": 30,
+            "name": "César Yanis",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "21",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 4055,
+            "primaryTeamName": "Cobresal",
+            "marketValue": 189079,
+            "firstName": "César",
+            "lastName": "Yanis",
+            "rankings": null
+          },
+          {
+            "id": 503710,
+            "age": 35,
+            "name": "Éric Davis",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "15",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 165476,
+            "primaryTeamName": "CD Plaza Amador",
+            "marketValue": 132165,
+            "firstName": "Éric",
+            "lastName": "Davis",
+            "rankings": null
+          },
+          {
+            "id": 183088,
+            "age": 38,
+            "name": "Alberto Quintero",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "19",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 165476,
+            "primaryTeamName": "CD Plaza Amador",
+            "marketValue": 226321,
+            "firstName": "Alberto",
+            "lastName": "Quintero",
+            "rankings": null
+          },
+          {
+            "id": 1404414,
+            "age": 25,
+            "name": "Azarías Londoño",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "24",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 113053,
+            "primaryTeamName": "Universidad Catolica",
+            "marketValue": 868215,
+            "firstName": "Azarías",
+            "lastName": "Londoño",
+            "rankings": null
+          },
+          {
+            "id": 574077,
+            "age": 29,
+            "name": "Ismael Díaz",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "10",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 1841,
+            "primaryTeamName": "Leon",
+            "marketValue": 1560666,
+            "firstName": "Ismael",
+            "lastName": "Díaz",
+            "rankings": null
+          },
+          {
+            "id": 940334,
+            "age": 32,
+            "name": "José Fajardo",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "17",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 113053,
+            "primaryTeamName": "Universidad Catolica",
+            "marketValue": 273292,
+            "firstName": "José",
+            "lastName": "Fajardo",
+            "rankings": null
+          },
+          {
+            "id": 1054138,
+            "age": 27,
+            "name": "Tomás Rodríguez",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "9",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "primaryTeamId": 6607,
+            "primaryTeamName": "Deportivo Saprissa",
+            "marketValue": 632276,
+            "firstName": "Tomás",
+            "lastName": "Rodríguez",
+            "rankings": null
+          }
+        ],
+        "unavailable": [
+          {
+            "id": 643682,
+            "age": 27,
+            "name": "Adalberto Carrasquilla",
+            "countryName": "Panama",
+            "countryCode": "PAN",
+            "marketValue": 2587686,
+            "unavailability": {
+              "injuryId": 121,
+              "type": "injury",
+              "expectedReturn": "Doubtful"
+            },
+            "firstName": "Adalberto",
+            "lastName": "Carrasquilla"
+          }
+        ],
+        "averageStarterAge": 29.4,
+        "totalStarterMarketValue": 19740699,
+        "lastMatch": {
+          "matchId": 4667826,
+          "homeTeamId": 6714,
+          "awayTeamId": 5922,
+          "homeTeamName": "Ghana",
+          "awayTeamName": "Panama",
+          "homeScore": 1,
+          "awayScore": 0,
+          "matchDate": "2026-06-18T01:00:00"
+        }
+      },
+      "awayTeam": {
+        "id": 10155,
+        "name": "Croatia",
+        "formation": "3-4-2-1",
+        "starters": [
+          {
+            "id": 383971,
+            "age": 31,
+            "name": "Dominik Livakovic",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 10156,
+            "primaryTeamName": "Dinamo Zagreb",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 3891344,
+            "firstName": "Dominik",
+            "lastName": "Livakovic",
+            "rankings": null
+          },
+          {
+            "id": 1186228,
+            "age": 26,
+            "name": "Josip Sutalo",
+            "positionId": 33,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "6",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8593,
+            "primaryTeamName": "Ajax",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 16794245,
+            "firstName": "Josip",
+            "lastName": "Sutalo",
+            "rankings": null
+          },
+          {
+            "id": 1413996,
+            "age": 19,
+            "name": "Luka Vuskovic",
+            "positionId": 35,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "22",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 9790,
+            "primaryTeamName": "Hamburger SV",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 32219783,
+            "firstName": "Luka",
+            "lastName": "Vuskovic",
+            "rankings": null
+          },
+          {
+            "id": 1070712,
+            "age": 24,
+            "name": "Josko Gvardiol",
+            "positionId": 37,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8456,
+            "primaryTeamName": "Manchester City",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 75822526,
+            "firstName": "Josko",
+            "lastName": "Gvardiol",
+            "rankings": null
+          },
+          {
+            "id": 950824,
+            "age": 26,
+            "name": "Josip Stanisic",
+            "positionId": 62,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "2",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 9823,
+            "primaryTeamName": "Bayern München",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 39760322,
+            "firstName": "Josip",
+            "lastName": "Stanisic",
+            "rankings": null
+          },
+          {
+            "id": 31097,
+            "age": 40,
+            "name": "Luka Modric",
+            "positionId": 64,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "10",
+            "isCaptain": true,
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8564,
+            "primaryTeamName": "Milan",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 2177851,
+            "firstName": "Luka",
+            "lastName": "Modric",
+            "rankings": null
+          },
+          {
+            "id": 446266,
+            "age": 31,
+            "name": "Mario Pasalic",
+            "positionId": 66,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "15",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8524,
+            "primaryTeamName": "Atalanta",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 5961574,
+            "firstName": "Mario",
+            "lastName": "Pasalic",
+            "rankings": null
+          },
+          {
+            "id": 163670,
+            "age": 37,
+            "name": "Ivan Perisic",
+            "positionId": 68,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "14",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8640,
+            "primaryTeamName": "PSV Eindhoven",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 1246333,
+            "firstName": "Ivan",
+            "lastName": "Perisic",
+            "rankings": null
+          },
+          {
+            "id": 1382000,
+            "age": 22,
+            "name": "Petar Sucic",
+            "positionId": 84,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "17",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8636,
+            "primaryTeamName": "Inter",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 34937126,
+            "firstName": "Petar",
+            "lastName": "Sucic",
+            "rankings": null
+          },
+          {
+            "id": 1215064,
+            "age": 23,
+            "name": "Martin Baturina",
+            "positionId": 86,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "16",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 10171,
+            "primaryTeamName": "Como",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.193
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 24026244,
+            "firstName": "Martin",
+            "lastName": "Baturina",
+            "rankings": null
+          },
+          {
+            "id": 709796,
+            "age": 28,
+            "name": "Petar Musa",
+            "positionId": 105,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "26",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 6399,
+            "primaryTeamName": "FC Dallas",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 7480902,
+            "firstName": "Petar",
+            "lastName": "Musa",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 886759,
+          "age": 59,
+          "name": "Zlatko Dalic",
+          "countryName": "Croatia",
+          "countryCode": "CRO",
+          "firstName": "Zlatko",
+          "lastName": "Dalic",
+          "primaryTeamId": 10155,
+          "primaryTeamName": "Croatia",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "subs": [
+          {
+            "id": 873557,
+            "age": 26,
+            "name": "Dominik Kotarski",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "23",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8391,
+            "primaryTeamName": "FC København",
+            "marketValue": 7915290,
+            "firstName": "Dominik",
+            "lastName": "Kotarski",
+            "rankings": null
+          },
+          {
+            "id": 1077684,
+            "age": 26,
+            "name": "Ivor Pandur",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "12",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8667,
+            "primaryTeamName": "Hull City",
+            "marketValue": 2709254,
+            "firstName": "Ivor",
+            "lastName": "Pandur",
+            "rankings": null
+          },
+          {
+            "id": 557799,
+            "age": 29,
+            "name": "Duje Caleta-Car",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8560,
+            "primaryTeamName": "Real Sociedad",
+            "marketValue": 2342592,
+            "firstName": "Duje",
+            "lastName": "Caleta-Car",
+            "rankings": null
+          },
+          {
+            "id": 831474,
+            "age": 28,
+            "name": "Marin Pongracic",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8535,
+            "primaryTeamName": "Fiorentina",
+            "marketValue": 11402568,
+            "firstName": "Marin",
+            "lastName": "Pongracic",
+            "rankings": null
+          },
+          {
+            "id": 616170,
+            "age": 28,
+            "name": "Martin Erlic",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "25",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8113,
+            "primaryTeamName": "FC Midtjylland",
+            "marketValue": 2382975,
+            "firstName": "Martin",
+            "lastName": "Erlic",
+            "rankings": null
+          },
+          {
+            "id": 173461,
+            "age": 35,
+            "name": "Andrej Kramaric",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "9",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8226,
+            "primaryTeamName": "Hoffenheim",
+            "marketValue": 2364784,
+            "firstName": "Andrej",
+            "lastName": "Kramaric",
+            "rankings": null
+          },
+          {
+            "id": 643448,
+            "age": 29,
+            "name": "Kristijan Jakic",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "18",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8406,
+            "primaryTeamName": "Augsburg",
+            "marketValue": 5731370,
+            "firstName": "Kristijan",
+            "lastName": "Jakic",
+            "rankings": null
+          },
+          {
+            "id": 959597,
+            "age": 23,
+            "name": "Luka Sucic",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "21",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8560,
+            "primaryTeamName": "Real Sociedad",
+            "marketValue": 13669398,
+            "firstName": "Luka",
+            "lastName": "Sucic",
+            "rankings": null
+          },
+          {
+            "id": 1199714,
+            "age": 25,
+            "name": "Marco Pasalic",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "24",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 267810,
+            "primaryTeamName": "Orlando City",
+            "marketValue": 6568028,
+            "firstName": "Marco",
+            "lastName": "Pasalic",
+            "rankings": null
+          },
+          {
+            "id": 239219,
+            "age": 32,
+            "name": "Mateo Kovacic",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8456,
+            "primaryTeamName": "Manchester City",
+            "marketValue": 12025567,
+            "firstName": "Mateo",
+            "lastName": "Kovacic",
+            "rankings": null
+          },
+          {
+            "id": 641595,
+            "age": 28,
+            "name": "Nikola Moro",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "7",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 9857,
+            "primaryTeamName": "Bologna",
+            "marketValue": 5982615,
+            "firstName": "Nikola",
+            "lastName": "Moro",
+            "rankings": null
+          },
+          {
+            "id": 557677,
+            "age": 28,
+            "name": "Nikola Vlasic",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "13",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 9804,
+            "primaryTeamName": "Torino",
+            "marketValue": 9096603,
+            "firstName": "Nikola",
+            "lastName": "Vlasic",
+            "rankings": null
+          },
+          {
+            "id": 1300358,
+            "age": 25,
+            "name": "Toni Fruk",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "19",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 10162,
+            "primaryTeamName": "Rijeka",
+            "marketValue": 8918255,
+            "firstName": "Toni",
+            "lastName": "Fruk",
+            "rankings": null
+          },
+          {
+            "id": 251269,
+            "age": 34,
+            "name": "Ante Budimir",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "11",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8371,
+            "primaryTeamName": "Osasuna",
+            "marketValue": 2930992,
+            "firstName": "Ante",
+            "lastName": "Budimir",
+            "rankings": null
+          },
+          {
+            "id": 1210893,
+            "age": 23,
+            "name": "Igor Matanovic",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "20",
+            "countryName": "Croatia",
+            "countryCode": "CRO",
+            "primaryTeamId": 8358,
+            "primaryTeamName": "Freiburg",
+            "marketValue": 9735751,
+            "firstName": "Igor",
+            "lastName": "Matanovic",
+            "rankings": null
+          }
+        ],
+        "averageStarterAge": 28.3,
+        "totalStarterMarketValue": 244318250,
+        "lastMatch": {
+          "matchId": 4667825,
+          "homeTeamId": 8491,
+          "awayTeamId": 10155,
+          "homeTeamName": "England",
+          "awayTeamName": "Croatia",
+          "homeScore": 4,
+          "awayScore": 2,
+          "matchDate": "2026-06-17T22:00:00"
+        }
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894801",
+      "url": "https://data.fotmob.com/tables.ext.894801.fot.gz",
+      "teams": [
+        5922,
+        10155
+      ],
+      "tournamentNameForUrl": "World Cup Grp. L",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": false,
+    "momentum": false
+  },
+  "seo": {
+    "path": "panama-vs-croatia",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667827",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Panama",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5922.png",
+        "url": "https://www.fotmob.com/teams/5922/overview/panama",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Croatia",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/10155.png",
+        "url": "https://www.fotmob.com/teams/10155/overview/croatia",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Panama vs Croatia",
+      "description": "Follow Panama vs Croatia live on fotmob.com",
+      "startDate": "2026-06-23T23:00:00.000Z",
+      "endDate": "2026-06-24T01:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Toronto Stadium",
+        "latitude": 43.633205971,
+        "longitude": -79.41855669,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Canada",
+          "addressLocality": "Toronto, Ontario"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/5922.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/10155.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667827",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-23T23:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Panama",
+          "url": "https://www.fotmob.com/teams/5922/overview/panama"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Croatia",
+          "url": "https://www.fotmob.com/teams/10155/overview/croatia"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. L",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-l"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Panama - Croatia",
+            "item": "https://www.fotmob.com/match/4667827"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. L",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-l"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Croatia",
+            "item": "https://www.fotmob.com/teams/10155/overview/croatia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Panama - Croatia",
+            "item": "https://www.fotmob.com/match/4667827"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. L",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-l"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Panama",
+            "item": "https://www.fotmob.com/teams/5922/overview/panama"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Panama - Croatia",
+            "item": "https://www.fotmob.com/match/4667827"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

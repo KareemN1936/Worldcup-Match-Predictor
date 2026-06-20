@@ -1,0 +1,33 @@
+Ivory Coast vs Ecuador
+
+Date: 2026-06-14T23:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_E
+
+Base Prediction:
+Ivory Coast Win: 29.4%
+Draw: 27.3%
+Ecuador Win: 43.4%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -81.74 | edge: Ecuador
+- weighted points last 5: 14.50 | edge: Ivory Coast
+- points last 10: 8.00 | edge: Ivory Coast
+- points last 5: 4.00 | edge: Ivory Coast
+- goal difference last 5: 3.00 | edge: Ivory Coast
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Ivory Coast 25.3 | Ecuador 25.6
+Forwards: Ivory Coast 8 | Ecuador 7
+Midfielders: Ivory Coast 7 | Ecuador 8
+Defenders: Ivory Coast 8 | Ecuador 8
+
+Final Recommendation:
+Use: Team A loss
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

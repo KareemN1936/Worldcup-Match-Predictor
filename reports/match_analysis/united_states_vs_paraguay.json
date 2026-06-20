@@ -1,0 +1,300 @@
+{
+  "fixture": {
+    "fixture_id": 537345,
+    "date": "2026-06-13T01:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_D",
+    "home_team": "United States",
+    "away_team": "Paraguay"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.4722192287445068,
+    "draw_probability": 0.2590845823287964,
+    "away_win_probability": 0.2686962485313415,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 38.425364925755275,
+      "points_last_5_diff": -3.0,
+      "points_last_10_diff": 5.0,
+      "goal_difference_last_5_diff": -4.0,
+      "goals_for_last_5_diff": 1.0,
+      "goals_against_last_5_diff": 5.0,
+      "weighted_points_last_5_diff": 7.5,
+      "weighted_goal_difference_last_5_diff": 17.0,
+      "wins_last_5_diff": -1.0,
+      "draws_last_5_diff": 0.0,
+      "losses_last_5_diff": 1.0,
+      "clean_sheets_last_5_diff": -2.0,
+      "failed_to_score_last_5_diff": 1.0,
+      "matches_played_2y_diff": 9.0,
+      "win_rate_2y_diff": 0.10869565217391303,
+      "draw_rate_2y_diff": -0.1671195652173913,
+      "loss_rate_2y_diff": 0.05842391304347827,
+      "goals_for_per_match_2y_diff": 0.5013586956521738,
+      "goals_against_per_match_2y_diff": 0.15760869565217384,
+      "goal_difference_per_match_2y_diff": 0.34375,
+      "clean_sheet_rate_2y_diff": -0.17255434782608697,
+      "failed_to_score_rate_2y_diff": -0.02989130434782608,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 38.425364925755275,
+        "leader": "United States"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 7.5,
+        "leader": "United States"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 5.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 5.0,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -4.0,
+        "leader": "Paraguay"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 38.425364925755275,
+        "leader": "United States"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -3.0,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 5.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -4.0,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 1.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 5.0,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 7.5,
+        "leader": "United States"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.10869565217391303,
+        "leader": "United States"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.34375,
+        "leader": "United States"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.15760869565217384,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.17255434782608697,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.02989130434782608,
+        "leader": "United States"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": false,
+    "feature_count": 0,
+    "reliability": 0.0,
+    "enrichment_score": 0.0,
+    "probability_shift": 0.0,
+    "top_signals": null,
+    "home_win_probability": 0.4722192005980491,
+    "draw_probability": 0.2590845668861528,
+    "away_win_probability": 0.268696232515798,
+    "predicted_result": "Team A win",
+    "strongest": [],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": null,
+        "leader": null
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 26.423076923076923,
+    "away_avg_age": 28.53846153846154,
+    "home_forwards": 6,
+    "away_forwards": 7,
+    "home_midfielders": 8,
+    "away_midfielders": 8,
+    "home_defenders": 9,
+    "away_defenders": 8,
+    "strongest": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -2.1153846153846168,
+        "leader": "United States"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -1.0,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -2.1153846153846168,
+        "leader": "United States"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -1.0,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "United States"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

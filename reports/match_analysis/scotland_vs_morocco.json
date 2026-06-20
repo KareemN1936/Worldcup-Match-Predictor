@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537342,
+    "date": "2026-06-19T22:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_C",
+    "home_team": "Scotland",
+    "away_team": "Morocco"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.2349807173013687,
+    "draw_probability": 0.2468332797288894,
+    "away_win_probability": 0.5181860327720642,
+    "predicted_result": "Team A loss",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -131.63984279794,
+      "points_last_5_diff": -2.0,
+      "points_last_10_diff": -1.0,
+      "goal_difference_last_5_diff": -4.0,
+      "goals_for_last_5_diff": -4.0,
+      "goals_against_last_5_diff": 0.0,
+      "weighted_points_last_5_diff": 5.0,
+      "weighted_goal_difference_last_5_diff": -0.5,
+      "wins_last_5_diff": 0.0,
+      "draws_last_5_diff": -2.0,
+      "losses_last_5_diff": 2.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": 2.0,
+      "matches_played_2y_diff": -12.0,
+      "win_rate_2y_diff": -0.3503105590062112,
+      "draw_rate_2y_diff": -0.04099378881987578,
+      "loss_rate_2y_diff": 0.391304347826087,
+      "goals_for_per_match_2y_diff": -0.834782608695652,
+      "goals_against_per_match_2y_diff": 0.8161490683229813,
+      "goal_difference_per_match_2y_diff": -1.6509316770186337,
+      "clean_sheet_rate_2y_diff": -0.36645962732919257,
+      "failed_to_score_rate_2y_diff": 0.20372670807453416,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -131.63984279794,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 5.0,
+        "leader": "Scotland"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -4.0,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -4.0,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -2.0,
+        "leader": "Morocco"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -131.63984279794,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -2.0,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -1.0,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -4.0,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -4.0,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 5.0,
+        "leader": "Scotland"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.3503105590062112,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": -1.6509316770186337,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.8161490683229813,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.36645962732919257,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.20372670807453416,
+        "leader": "Morocco"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": 0.2939393939393941,
+    "probability_shift": 0.013063973063973,
+    "top_signals": "points per match:home; goal difference:home; player rating:away",
+    "home_win_probability": 0.2486944705264924,
+    "draw_probability": 0.2448602473538645,
+    "away_win_probability": 0.506445282119643,
+    "predicted_result": "Team A loss",
+    "strongest": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 2.0,
+        "leader": "Scotland"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Scotland"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.1499999999999994,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.0999999999999996,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 2.0,
+        "leader": "Scotland"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Scotland"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.1499999999999994,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.0999999999999996,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 29.08,
+    "away_avg_age": 25.884615384615383,
+    "home_forwards": 5,
+    "away_forwards": 5,
+    "home_midfielders": 8,
+    "away_midfielders": 9,
+    "home_defenders": 10,
+    "away_defenders": 9,
+    "strongest": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 3.195384615384615,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -1.0,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "Scotland"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 3.195384615384615,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -1.0,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "Scotland"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A loss",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

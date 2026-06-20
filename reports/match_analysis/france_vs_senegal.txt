@@ -1,0 +1,33 @@
+France vs Senegal
+
+Date: 2026-06-16T19:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_I
+
+Base Prediction:
+France Win: 68.4%
+Draw: 19.1%
+Senegal Win: 12.5%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 183.02 | edge: France
+- weighted points last 5: 15.50 | edge: France
+- points last 10: 6.00 | edge: France
+- points last 5: 5.00 | edge: France
+- goal difference last 5: 5.00 | edge: France
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: France 26.6 | Senegal 27.3
+Forwards: France 6 | Senegal 6
+Midfielders: France 8 | Senegal 10
+Defenders: France 9 | Senegal 7
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

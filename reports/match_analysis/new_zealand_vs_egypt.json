@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537366,
+    "date": "2026-06-22T01:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_G",
+    "home_team": "New Zealand",
+    "away_team": "Egypt"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.3077980577945709,
+    "draw_probability": 0.2388717383146286,
+    "away_win_probability": 0.453330248594284,
+    "predicted_result": "Team A loss",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -69.18257833571897,
+      "points_last_5_diff": -4.0,
+      "points_last_10_diff": -11.0,
+      "goal_difference_last_5_diff": -8.0,
+      "goals_for_last_5_diff": -1.0,
+      "goals_against_last_5_diff": 7.0,
+      "weighted_points_last_5_diff": -2.5,
+      "weighted_goal_difference_last_5_diff": -7.5,
+      "wins_last_5_diff": -1.0,
+      "draws_last_5_diff": -1.0,
+      "losses_last_5_diff": 2.0,
+      "clean_sheets_last_5_diff": -3.0,
+      "failed_to_score_last_5_diff": 2.0,
+      "matches_played_2y_diff": -4.0,
+      "win_rate_2y_diff": -0.03724137931034488,
+      "draw_rate_2y_diff": -0.22482758620689658,
+      "loss_rate_2y_diff": 0.2620689655172414,
+      "goals_for_per_match_2y_diff": 1.0206896551724136,
+      "goals_against_per_match_2y_diff": 0.45931034482758626,
+      "goal_difference_per_match_2y_diff": 0.5613793103448277,
+      "clean_sheet_rate_2y_diff": -0.15172413793103445,
+      "failed_to_score_rate_2y_diff": 0.03862068965517243,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -69.18257833571897,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -11.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -8.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 7.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -4.0,
+        "leader": "Egypt"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -69.18257833571897,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -4.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -11.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -8.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -1.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 7.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -2.5,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.03724137931034488,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.5613793103448277,
+        "leader": "New Zealand"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.45931034482758626,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.15172413793103445,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.03862068965517243,
+        "leader": "Egypt"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": -0.0290909090909092,
+    "probability_shift": -0.0012929292929292,
+    "top_signals": "player rating:away; starting XI rating:away; points per match:away",
+    "home_win_probability": 0.3065843931847919,
+    "draw_probability": 0.2386748597299711,
+    "away_win_probability": 0.4547407470852367,
+    "predicted_result": "Team A loss",
+    "strongest": [
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.1000000000000005,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.1000000000000005,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.1000000000000005,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.1000000000000005,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 27.615384615384617,
+    "away_avg_age": 28.65384615384616,
+    "home_forwards": 7,
+    "away_forwards": 5,
+    "home_midfielders": 7,
+    "away_midfielders": 9,
+    "home_defenders": 9,
+    "away_defenders": 8,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 2.0,
+        "leader": "New Zealand"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -2.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.03846153846154,
+        "leader": "New Zealand"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "New Zealand"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.03846153846154,
+        "leader": "New Zealand"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 2.0,
+        "leader": "New Zealand"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -2.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "New Zealand"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A loss",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

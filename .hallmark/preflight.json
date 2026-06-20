@@ -1,0 +1,9 @@
+{
+  "scanned_at": "2026-06-20",
+  "framework": "Streamlit",
+  "font_stack": "Inter Tight display, Inter body, with Segoe UI/system fallbacks",
+  "palette": "OKLCH tournament tokens in tokens.css",
+  "motion": "CSS-only, reduced-motion supported",
+  "spacing": "4px-derived named custom-property scale",
+  "preserved": ["tournament palette", "typography", "Streamlit navigation", "data flow"]
+}

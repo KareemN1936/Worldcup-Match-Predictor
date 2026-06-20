@@ -1,0 +1,41 @@
+Cape Verde Islands vs Saudi Arabia
+
+Date: 2026-06-27T00:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_H
+
+Base Prediction:
+Cape Verde Islands Win: 14.8%
+Draw: 17.3%
+Saudi Arabia Win: 67.9%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -195.52 | edge: Saudi Arabia
+- points last 10: -11.00 | edge: Saudi Arabia
+- weighted points last 5: -8.50 | edge: Saudi Arabia
+- goals for last 5: -6.00 | edge: Saudi Arabia
+- points last 5: -5.00 | edge: Saudi Arabia
+
+FotMob Layer:
+Features available: 5
+Reliability: 0.56
+Enrichment score: 0.01
+Probability shift: 0.0005
+Top signals: shots on target:home; yellow cards:away; points per match:away
+Cape Verde Islands Win: 14.8%
+Draw: 17.3%
+Saudi Arabia Win: 67.9%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Cape Verde Islands 29.2 | Saudi Arabia 28.0
+Forwards: Cape Verde Islands 7 | Saudi Arabia 5
+Midfielders: Cape Verde Islands 8 | Saudi Arabia 9
+Defenders: Cape Verde Islands 8 | Saudi Arabia 9
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

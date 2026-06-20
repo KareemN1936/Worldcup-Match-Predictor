@@ -1,0 +1,882 @@
+{
+  "general": {
+    "matchId": "4667776",
+    "matchName": "Paraguay-vs-Australia_Fri, Jun 26, 2026, 02:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EE3F2D",
+        "away": "#FFB81C"
+      },
+      "lightMode": {
+        "home": "#EE3F2D",
+        "away": "#de9c00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894793,
+    "leagueName": "World Cup Grp. D",
+    "leagueRoundName": "3",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Paraguay",
+      "id": 6724
+    },
+    "awayTeam": {
+      "name": "Australia",
+      "id": 6716
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Fri, Jun 26, 2026, 02:00 UTC",
+    "matchTimeUTCDate": "2026-06-26T02:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Paraguay",
+        "id": 6724,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6724_small.png",
+        "pageUrl": "/teams/6724/overview/paraguay",
+        "fifaRank": 41
+      },
+      {
+        "name": "Australia",
+        "id": 6716,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6716_small.png",
+        "pageUrl": "/teams/6716/overview/australia",
+        "fifaRank": 27
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-26T02:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table",
+    "head to head",
+    "injured"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667776,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-26T02:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894793,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-d",
+          "leagueName": "World Cup Grp. D",
+          "roundName": "3",
+          "round": "3"
+        },
+        "Stadium": {
+          "name": "San Francisco Bay Area Stadium",
+          "city": "Santa Clara, California",
+          "country": "United States",
+          "lat": 37.403227787,
+          "long": -121.969776469,
+          "capacity": 68827,
+          "surface": "grass"
+        },
+        "Referee": {
+          "text": "",
+          "countryCode": "",
+          "country": ""
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6383_xsmall.png",
+            "linkToMatch": "/matches/greece-vs-paraguay/1f5cky#5213030",
+            "date": {
+              "utcTime": "2026-03-27T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6383/overview/greece",
+            "tooltipText": {
+              "utcTime": "2026-03-27T19:00:00.000Z",
+              "homeTeam": "Greece",
+              "homeTeamId": 6383,
+              "homeScore": "0",
+              "awayTeam": "Paraguay",
+              "awayTeamId": 6724,
+              "awayScore": "1"
+            },
+            "score": "0 - 1",
+            "home": {
+              "id": "6383",
+              "name": "Greece",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6724",
+              "name": "Paraguay",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6262_xsmall.png",
+            "linkToMatch": "/matches/morocco-vs-paraguay/1e7igj#5217276",
+            "date": {
+              "utcTime": "2026-03-31T18:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6262/overview/morocco",
+            "tooltipText": {
+              "utcTime": "2026-03-31T18:00:00.000Z",
+              "homeTeam": "Morocco",
+              "homeTeamId": 6262,
+              "homeScore": "2",
+              "awayTeam": "Paraguay",
+              "awayTeamId": 6724,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "6262",
+              "name": "Morocco",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6724",
+              "name": "Paraguay",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5807_xsmall.png",
+            "linkToMatch": "/matches/nicaragua-vs-paraguay/1ar30y#5729928",
+            "date": {
+              "utcTime": "2026-06-05T22:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/5807/overview/nicaragua",
+            "tooltipText": {
+              "utcTime": "2026-06-05T22:45:00.000Z",
+              "homeTeam": "Paraguay",
+              "homeTeamId": 6724,
+              "homeScore": "4",
+              "awayTeam": "Nicaragua",
+              "awayTeamId": 5807,
+              "awayScore": "0"
+            },
+            "score": "4 - 0",
+            "home": {
+              "id": "6724",
+              "name": "Paraguay",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5807",
+              "name": "Nicaragua",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6713_xsmall.png",
+            "linkToMatch": "/matches/usa-vs-paraguay/1hr85j#4667771",
+            "date": {
+              "utcTime": "2026-06-13T01:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6713/overview/usa",
+            "tooltipText": {
+              "utcTime": "2026-06-13T01:00:00.000Z",
+              "homeTeam": "USA",
+              "homeTeamId": 6713,
+              "homeScore": "4",
+              "awayTeam": "Paraguay",
+              "awayTeamId": 6724,
+              "awayScore": "1"
+            },
+            "score": "4 - 1",
+            "home": {
+              "id": "6713",
+              "name": "USA",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6724",
+              "name": "Paraguay",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6595_xsmall.png",
+            "linkToMatch": "/matches/turkiye-vs-paraguay/1gte1s#4667773",
+            "date": {
+              "utcTime": "2026-06-20T03:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6595/overview/turkiye",
+            "tooltipText": {
+              "utcTime": "2026-06-20T03:00:00.000Z",
+              "homeTeam": "Turkiye",
+              "homeTeamId": 6595,
+              "homeScore": "0",
+              "awayTeam": "Paraguay",
+              "awayTeamId": 6724,
+              "awayScore": "1"
+            },
+            "score": "0 - 1",
+            "home": {
+              "id": "6595",
+              "name": "Turkiye",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6724",
+              "name": "Paraguay",
+              "isOurTeam": true
+            }
+          }
+        ],
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/287981_xsmall.png",
+            "linkToMatch": "/matches/australia-vs-curacao/jy54c9l#5187281",
+            "date": {
+              "utcTime": "2026-03-31T09:10:00.000Z"
+            },
+            "teamPageUrl": "/teams/287981/overview/curacao",
+            "tooltipText": {
+              "utcTime": "2026-03-31T09:10:00.000Z",
+              "homeTeam": "Australia",
+              "homeTeamId": 6716,
+              "homeScore": "5",
+              "awayTeam": "Curacao",
+              "awayTeamId": 287981,
+              "awayScore": "1"
+            },
+            "score": "5 - 1",
+            "home": {
+              "id": "6716",
+              "name": "Australia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "287981",
+              "name": "Curacao",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6710_xsmall.png",
+            "linkToMatch": "/matches/mexico-vs-australia/1ho253#5217285",
+            "date": {
+              "utcTime": "2026-05-31T02:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6710/overview/mexico",
+            "tooltipText": {
+              "utcTime": "2026-05-31T02:00:00.000Z",
+              "homeTeam": "Mexico",
+              "homeTeamId": 6710,
+              "homeScore": "1",
+              "awayTeam": "Australia",
+              "awayTeamId": 6716,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "6710",
+              "name": "Mexico",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6716",
+              "name": "Australia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6717_xsmall.png",
+            "linkToMatch": "/matches/australia-vs-switzerland/1hq2oi#5418306",
+            "date": {
+              "utcTime": "2026-06-06T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6717/overview/switzerland",
+            "tooltipText": {
+              "utcTime": "2026-06-06T19:00:00.000Z",
+              "homeTeam": "Switzerland",
+              "homeTeamId": 6717,
+              "homeScore": "1",
+              "awayTeam": "Australia",
+              "awayTeamId": 6716,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "6717",
+              "name": "Switzerland",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6716",
+              "name": "Australia",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6595_xsmall.png",
+            "linkToMatch": "/matches/turkiye-vs-australia/1gr3uk#4667772",
+            "date": {
+              "utcTime": "2026-06-14T04:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6595/overview/turkiye",
+            "tooltipText": {
+              "utcTime": "2026-06-14T04:00:00.000Z",
+              "homeTeam": "Australia",
+              "homeTeamId": 6716,
+              "homeScore": "2",
+              "awayTeam": "Turkiye",
+              "awayTeamId": 6595,
+              "awayScore": "0"
+            },
+            "score": "2 - 0",
+            "home": {
+              "id": "6716",
+              "name": "Australia",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6595",
+              "name": "Turkiye",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6713_xsmall.png",
+            "linkToMatch": "/matches/usa-vs-australia/1hox83#4667774",
+            "date": {
+              "utcTime": "2026-06-19T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6713/overview/usa",
+            "tooltipText": {
+              "utcTime": "2026-06-19T19:00:00.000Z",
+              "homeTeam": "USA",
+              "homeTeamId": 6713,
+              "homeScore": "2",
+              "awayTeam": "Australia",
+              "awayTeamId": 6716,
+              "awayScore": "0"
+            },
+            "score": "2 - 0",
+            "home": {
+              "id": "6713",
+              "name": "USA",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6716",
+              "name": "Australia",
+              "isOurTeam": true
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667776",
+          "MatchId": 4667776,
+          "HomeTeamId": 6724,
+          "AwayTeamId": 6716,
+          "HomeTeam": "Paraguay",
+          "AwayTeam": "Australia",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} have {1}W, {2}D, {3}L in five matches while {4} have {5}W, {6}D, {7}L.",
+              "TextTemplateId": "team_form_both",
+              "StatValues": [
+                "home_team",
+                "3",
+                "0",
+                "2",
+                "away_team",
+                "2",
+                "1",
+                "2"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Paraguay have 3W, 0D, 2L in five matches while Australia have 2W, 1D, 2L."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored {3} goals in their last {2} matches, while {1} have scored {4}.",
+              "TextTemplateId": "goals_total_last_3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "3",
+                "6",
+                "3"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Paraguay have scored 6 goals in their last 3 matches, while Australia have scored 3."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have scored {3} goals in their last {2} matches, while {1} have scored {4}.",
+              "TextTemplateId": "goals_total_last_3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "3",
+                "6",
+                "3"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Paraguay have scored 6 goals in their last 3 matches, while Australia have scored 3."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't drawn in their last {1} matches.",
+              "TextTemplateId": "draw_streak_team",
+              "StatValues": [
+                "home_team",
+                "8"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Paraguay haven't drawn in their last 8 matches."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "countryCode": "INT",
+      "QAData": [],
+      "matchInsightsConfig": {
+        "hasBettingInsight": false,
+        "urlTemplate": "https://data.fotmob.com/generated-match-insights/77/4667776/matchinsights_{lang}.json",
+        "languages": [
+          "en",
+          "nb",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ar",
+          "pt-BR"
+        ]
+      }
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 22,
+      "windSpeed": 5,
+      "windDirectionCardinal": "NNW",
+      "iconCode": 32,
+      "relativeHumidity": 56,
+      "precipChance": 0,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 1,
+      "description": "Sunny",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T16:00:04Z",
+      "localizedKey": "weather_condition_sunny",
+      "defaultTitle": "Sunny"
+    },
+    "lineup": {
+      "matchId": 4667776,
+      "lineupType": "unavailable",
+      "source": "enetpulse",
+      "availableFilters": [],
+      "homeTeam": {
+        "id": 6724,
+        "name": "Paraguay",
+        "formation": "",
+        "starters": [],
+        "unavailable": [
+          {
+            "id": 442277,
+            "age": 32,
+            "name": "Miguel Almirón",
+            "countryName": "Paraguay",
+            "countryCode": "PAR",
+            "marketValue": 18080334,
+            "unavailability": {
+              "type": "suspension",
+              "expectedReturn": "Late June 2026",
+              "expectedReturnDate": "2026-06-26T04:00:00Z"
+            },
+            "firstName": "Miguel",
+            "lastName": "Almirón"
+          },
+          {
+            "id": 1354561,
+            "age": 23,
+            "name": "Diego Gómez",
+            "countryName": "Paraguay",
+            "countryCode": "PAR",
+            "marketValue": 3386880,
+            "unavailability": {
+              "injuryId": 14,
+              "type": "injury",
+              "expectedReturn": "Doubtful"
+            },
+            "firstName": "Diego",
+            "lastName": "Gómez"
+          }
+        ]
+      },
+      "awayTeam": {
+        "id": 6716,
+        "name": "Australia",
+        "formation": "",
+        "starters": [],
+        "unavailable": [
+          {
+            "id": 185014,
+            "age": 35,
+            "name": "Mathew Leckie",
+            "countryName": "Australia",
+            "countryCode": "AUS",
+            "marketValue": 151231,
+            "unavailability": {
+              "injuryId": 121,
+              "type": "injury",
+              "expectedReturn": "Doubtful"
+            },
+            "firstName": "Mathew",
+            "lastName": "Leckie"
+          }
+        ]
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894793",
+      "url": "https://data.fotmob.com/tables.ext.894793.fot.gz",
+      "teams": [
+        6724,
+        6716
+      ],
+      "tournamentNameForUrl": "World Cup Grp. D",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": {
+      "summary": [
+        0,
+        0,
+        1
+      ],
+      "matches": [
+        {
+          "time": {
+            "utcTime": "2010-10-09T09:00:00.000Z"
+          },
+          "matchUrl": "/matches/australia-vs-paraguay/1hs39g#921558",
+          "league": {
+            "name": "Friendlies",
+            "id": "114",
+            "pageUrl": "/leagues/114/overview/friendlies"
+          },
+          "home": {
+            "name": "Australia",
+            "id": "6716"
+          },
+          "status": {
+            "utcTime": "2010-10-09T09:00:00.000Z",
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "awarded": false,
+            "scoreStr": "1 - 0",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
+          },
+          "finished": false,
+          "away": {
+            "name": "Paraguay",
+            "id": "6724"
+          }
+        }
+      ]
+    },
+    "momentum": false
+  },
+  "seo": {
+    "path": "paraguay-vs-australia",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667776",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Paraguay",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6724.png",
+        "url": "https://www.fotmob.com/teams/6724/overview/paraguay",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Australia",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6716.png",
+        "url": "https://www.fotmob.com/teams/6716/overview/australia",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Paraguay vs Australia",
+      "description": "Follow Paraguay vs Australia live on fotmob.com",
+      "startDate": "2026-06-26T02:00:00.000Z",
+      "endDate": "2026-06-26T04:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "San Francisco Bay Area Stadium",
+        "latitude": 37.403227787,
+        "longitude": -121.969776469,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "United States",
+          "addressLocality": "Santa Clara, California"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6724.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6716.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667776",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-26T02:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Paraguay",
+          "url": "https://www.fotmob.com/teams/6724/overview/paraguay"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Australia",
+          "url": "https://www.fotmob.com/teams/6716/overview/australia"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. D",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-d"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Paraguay - Australia",
+            "item": "https://www.fotmob.com/match/4667776"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. D",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-d"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Australia",
+            "item": "https://www.fotmob.com/teams/6716/overview/australia"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Paraguay - Australia",
+            "item": "https://www.fotmob.com/match/4667776"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. D",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-d"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Paraguay",
+            "item": "https://www.fotmob.com/teams/6724/overview/paraguay"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Paraguay - Australia",
+            "item": "https://www.fotmob.com/match/4667776"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

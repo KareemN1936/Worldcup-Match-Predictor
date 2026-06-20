@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537329,
+    "date": "2026-06-18T16:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_A",
+    "home_team": "Czechia",
+    "away_team": "South Africa"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.2155675292015075,
+    "draw_probability": 0.2265684008598327,
+    "away_win_probability": 0.5578640699386597,
+    "predicted_result": "Team A loss",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -129.88350714671083,
+      "points_last_5_diff": -5.0,
+      "points_last_10_diff": -14.0,
+      "goal_difference_last_5_diff": 2.0,
+      "goals_for_last_5_diff": -3.0,
+      "goals_against_last_5_diff": -5.0,
+      "weighted_points_last_5_diff": -5.0,
+      "weighted_goal_difference_last_5_diff": 9.0,
+      "wins_last_5_diff": -1.0,
+      "draws_last_5_diff": -2.0,
+      "losses_last_5_diff": -2.0,
+      "clean_sheets_last_5_diff": -2.0,
+      "failed_to_score_last_5_diff": -2.0,
+      "matches_played_2y_diff": -24.0,
+      "win_rate_2y_diff": -0.5,
+      "draw_rate_2y_diff": -0.2916666666666667,
+      "loss_rate_2y_diff": -0.20833333333333334,
+      "goals_for_per_match_2y_diff": -1.625,
+      "goals_against_per_match_2y_diff": -0.875,
+      "goal_difference_per_match_2y_diff": -0.75,
+      "clean_sheet_rate_2y_diff": -0.4583333333333333,
+      "failed_to_score_rate_2y_diff": -0.25,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -129.88350714671083,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -14.0,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -5.0,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -5.0,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -5.0,
+        "leader": "South Africa"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -129.88350714671083,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -5.0,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -14.0,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 2.0,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -3.0,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -5.0,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -5.0,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.5,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": -0.75,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.875,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.4583333333333333,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.25,
+        "leader": "Czechia"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": 0.2284848484848486,
+    "probability_shift": 0.0101548821548821,
+    "top_signals": "starting XI rating:home; goal difference:home; player rating:home",
+    "home_win_probability": 0.2261817812231702,
+    "draw_probability": 0.2249943827172571,
+    "away_win_probability": 0.5488238360595725,
+    "predicted_result": "Team A loss",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.6000000000000005,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.450000000000001,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.450000000000001,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.6000000000000005,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 27.23076923076923,
+    "away_avg_age": 26.346153846153847,
+    "home_forwards": 5,
+    "away_forwards": 6,
+    "home_midfielders": 11,
+    "away_midfielders": 7,
+    "home_defenders": 7,
+    "away_defenders": 10,
+    "strongest": [
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 4.0,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -3.0,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -1.0,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.8846153846153832,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.8846153846153832,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -1.0,
+        "leader": "South Africa"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 4.0,
+        "leader": "Czechia"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -3.0,
+        "leader": "South Africa"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A loss",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

@@ -1,0 +1,1931 @@
+{
+  "general": {
+    "matchId": "4667756",
+    "matchName": "South Africa-vs-South Korea_Thu, Jun 25, 2026, 01:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEBB2F",
+        "away": "#F7383F"
+      },
+      "lightMode": {
+        "home": "#d89f28",
+        "away": "#F7383F"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894790,
+    "leagueName": "World Cup Grp. A",
+    "leagueRoundName": "3",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "South Africa",
+      "id": 6316
+    },
+    "awayTeam": {
+      "name": "South Korea",
+      "id": 7804
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Thu, Jun 25, 2026, 01:00 UTC",
+    "matchTimeUTCDate": "2026-06-25T01:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "South Africa",
+        "id": 6316,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6316_small.png",
+        "pageUrl": "/teams/6316/overview/south-africa",
+        "fifaRank": 60
+      },
+      {
+        "name": "South Korea",
+        "id": 7804,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/7804_small.png",
+        "pageUrl": "/teams/7804/overview/south-korea",
+        "fifaRank": 25
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-25T01:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table",
+    "injured"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667756,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-25T01:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894790,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp",
+          "leagueName": "World Cup Grp. A",
+          "roundName": "3",
+          "round": "3"
+        },
+        "Stadium": {
+          "name": "Monterrey Stadium",
+          "city": "Guadalupe",
+          "country": "Mexico",
+          "lat": 25.669182471,
+          "long": -100.244469647,
+          "capacity": 51243,
+          "surface": "grass"
+        },
+        "Referee": {
+          "text": "",
+          "countryCode": "",
+          "country": ""
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5922_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-south-africa/18laph#5267352",
+            "date": {
+              "utcTime": "2026-03-27T17:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5922/overview/panama",
+            "tooltipText": {
+              "utcTime": "2026-03-27T17:00:00.000Z",
+              "homeTeam": "South Africa",
+              "homeTeamId": 6316,
+              "homeScore": "1",
+              "awayTeam": "Panama",
+              "awayTeamId": 5922,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "6316",
+              "name": "South Africa",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5922_xsmall.png",
+            "linkToMatch": "/matches/panama-vs-south-africa/18laph#5267353",
+            "date": {
+              "utcTime": "2026-03-31T17:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/5922/overview/panama",
+            "tooltipText": {
+              "utcTime": "2026-03-31T17:30:00.000Z",
+              "homeTeam": "South Africa",
+              "homeTeamId": 6316,
+              "homeScore": "1",
+              "awayTeam": "Panama",
+              "awayTeamId": 5922,
+              "awayScore": "2"
+            },
+            "score": "1 - 2",
+            "home": {
+              "id": "6316",
+              "name": "South Africa",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5922",
+              "name": "Panama",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5807_xsmall.png",
+            "linkToMatch": "/matches/nicaragua-vs-south-africa/17r9ty#5628897",
+            "date": {
+              "utcTime": "2026-05-29T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5807/overview/nicaragua",
+            "tooltipText": {
+              "utcTime": "2026-05-29T16:00:00.000Z",
+              "homeTeam": "South Africa",
+              "homeTeamId": 6316,
+              "homeScore": "0",
+              "awayTeam": "Nicaragua",
+              "awayTeamId": 5807,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "6316",
+              "name": "South Africa",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5807",
+              "name": "Nicaragua",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6710_xsmall.png",
+            "linkToMatch": "/matches/south-africa-vs-mexico/1einvt#4667751",
+            "date": {
+              "utcTime": "2026-06-11T19:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6710/overview/mexico",
+            "tooltipText": {
+              "utcTime": "2026-06-11T19:00:00.000Z",
+              "homeTeam": "Mexico",
+              "homeTeamId": 6710,
+              "homeScore": "2",
+              "awayTeam": "South Africa",
+              "awayTeamId": 6316,
+              "awayScore": "0"
+            },
+            "score": "2 - 0",
+            "home": {
+              "id": "6710",
+              "name": "Mexico",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6316",
+              "name": "South Africa",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8496_xsmall.png",
+            "linkToMatch": "/matches/south-africa-vs-czechia/1tbjja#4667753",
+            "date": {
+              "utcTime": "2026-06-18T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8496/overview/czechia",
+            "tooltipText": {
+              "utcTime": "2026-06-18T16:00:00.000Z",
+              "homeTeam": "Czechia",
+              "homeTeamId": 8496,
+              "homeScore": "1",
+              "awayTeam": "South Africa",
+              "awayTeamId": 6316,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "8496",
+              "name": "Czechia",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6316",
+              "name": "South Africa",
+              "isOurTeam": true
+            }
+          }
+        ],
+        [
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8255_xsmall.png",
+            "linkToMatch": "/matches/south-korea-vs-austria/24s3qh#5154118",
+            "date": {
+              "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/8255/overview/austria",
+            "tooltipText": {
+              "utcTime": "2026-03-31T18:45:00.000Z",
+              "homeTeam": "Austria",
+              "homeTeamId": 8255,
+              "homeScore": "1",
+              "awayTeam": "South Korea",
+              "awayTeamId": 7804,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "8255",
+              "name": "Austria",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "7804",
+              "name": "South Korea",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/7724_xsmall.png",
+            "linkToMatch": "/matches/trinidad-tobago-vs-south-korea/1zsc8g#5628900",
+            "date": {
+              "utcTime": "2026-05-31T01:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/7724/overview/trinidad-tobago",
+            "tooltipText": {
+              "utcTime": "2026-05-31T01:00:00.000Z",
+              "homeTeam": "South Korea",
+              "homeTeamId": 7804,
+              "homeScore": "5",
+              "awayTeam": "Trinidad and Tobago",
+              "awayTeamId": 7724,
+              "awayScore": "0"
+            },
+            "score": "5 - 0",
+            "home": {
+              "id": "7804",
+              "name": "South Korea",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "7724",
+              "name": "Trinidad and Tobago",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6327_xsmall.png",
+            "linkToMatch": "/matches/el-salvador-vs-south-korea/1ngai2#5628901",
+            "date": {
+              "utcTime": "2026-06-04T01:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6327/overview/el-salvador",
+            "tooltipText": {
+              "utcTime": "2026-06-04T01:00:00.000Z",
+              "homeTeam": "South Korea",
+              "homeTeamId": 7804,
+              "homeScore": "1",
+              "awayTeam": "El Salvador",
+              "awayTeamId": 6327,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "7804",
+              "name": "South Korea",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6327",
+              "name": "El Salvador",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8496_xsmall.png",
+            "linkToMatch": "/matches/south-korea-vs-czechia/273opa#4667752",
+            "date": {
+              "utcTime": "2026-06-12T02:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8496/overview/czechia",
+            "tooltipText": {
+              "utcTime": "2026-06-12T02:00:00.000Z",
+              "homeTeam": "South Korea",
+              "homeTeamId": 7804,
+              "homeScore": "2",
+              "awayTeam": "Czechia",
+              "awayTeamId": 8496,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "7804",
+              "name": "South Korea",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8496",
+              "name": "Czechia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6710_xsmall.png",
+            "linkToMatch": "/matches/mexico-vs-south-korea/1qpvav#4667754",
+            "date": {
+              "utcTime": "2026-06-19T01:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6710/overview/mexico",
+            "tooltipText": {
+              "utcTime": "2026-06-19T01:00:00.000Z",
+              "homeTeam": "Mexico",
+              "homeTeamId": 6710,
+              "homeScore": "1",
+              "awayTeam": "South Korea",
+              "awayTeamId": 7804,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "6710",
+              "name": "Mexico",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "7804",
+              "name": "South Korea",
+              "isOurTeam": true
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667756",
+          "MatchId": 4667756,
+          "HomeTeamId": 6316,
+          "AwayTeamId": 7804,
+          "HomeTeam": "South Africa",
+          "AwayTeam": "South Korea",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} haven't won a match in {1} attempts.",
+              "TextTemplateId": "not_won_team",
+              "StatValues": [
+                "home_team",
+                "6"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_stat_down",
+              "defaultText": "South Africa haven't won a match in 6 attempts."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have an average of {2} goals in their last three matches and {1} have an average of {3}.",
+              "TextTemplateId": "average_goals_last3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "0.33",
+                "1"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "South Africa have an average of 0.33 goals in their last three matches and South Korea have an average of 1."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have an average of {2} goals in their last three matches and {1} have an average of {3}.",
+              "TextTemplateId": "average_goals_last3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "0.33",
+                "1"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "South Africa have an average of 0.33 goals in their last three matches and South Korea have an average of 1."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't won a match in {1} attempts.",
+              "TextTemplateId": "not_won_team",
+              "StatValues": [
+                "home_team",
+                "6"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_stat_down",
+              "defaultText": "South Africa haven't won a match in 6 attempts."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 6316,
+          "priority": 8,
+          "defaultText": "Haven't won a match in {0} attempts",
+          "localizedTextId": "insights_not_won_team",
+          "statValues": [
+            {
+              "value": 6,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't won a match in 6 attempts",
+          "color": "#d89f28"
+        }
+      ],
+      "countryCode": "INT",
+      "QAData": [],
+      "matchInsightsConfig": {
+        "hasBettingInsight": false,
+        "urlTemplate": "https://data.fotmob.com/generated-match-insights/77/4667756/matchinsights_{lang}.json",
+        "languages": [
+          "en",
+          "nb",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ar",
+          "pt-BR"
+        ]
+      }
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 32,
+      "windSpeed": 6,
+      "windDirectionCardinal": "ESE",
+      "iconCode": 32,
+      "relativeHumidity": 47,
+      "precipChance": 0,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 4,
+      "description": "Sunny",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T15:00:02Z",
+      "localizedKey": "weather_condition_sunny",
+      "defaultTitle": "Sunny"
+    },
+    "lineup": {
+      "matchId": 4667756,
+      "lineupType": "lastStarting11",
+      "source": "lastStartingLineups",
+      "availableFilters": [
+        "marketValue",
+        "age",
+        "team"
+      ],
+      "homeTeam": {
+        "id": 6316,
+        "name": "South Africa",
+        "formation": "4-3-3",
+        "starters": [
+          {
+            "id": 253991,
+            "age": 34,
+            "name": "Ronwen Williams",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "isCaptain": true,
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 4530,
+            "primaryTeamName": "Mamelodi Sundowns FC",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.2
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.2,
+              "width": 1
+            },
+            "marketValue": 607227,
+            "firstName": "Ronwen",
+            "lastName": "Williams",
+            "rankings": null
+          },
+          {
+            "id": 940010,
+            "age": 31,
+            "name": "Khuliso Mudau",
+            "positionId": 32,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "20",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 4530,
+            "primaryTeamName": "Mamelodi Sundowns FC",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 493186,
+            "firstName": "Khuliso",
+            "lastName": "Mudau",
+            "rankings": null
+          },
+          {
+            "id": 1600334,
+            "age": 22,
+            "name": "Ime Okon",
+            "positionId": 34,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "21",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 9904,
+            "primaryTeamName": "Hannover 96",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 1924580,
+            "firstName": "Ime",
+            "lastName": "Okon",
+            "rankings": null
+          },
+          {
+            "id": 1719066,
+            "age": 20,
+            "name": "Mbekezeli Mbokazi",
+            "positionId": 36,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "14",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 6397,
+            "primaryTeamName": "Chicago Fire FC",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 704961,
+            "firstName": "Mbekezeli",
+            "lastName": "Mbokazi",
+            "rankings": null
+          },
+          {
+            "id": 616179,
+            "age": 30,
+            "name": "Aubrey Maphosa Modiba",
+            "positionId": 38,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "6",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 4530,
+            "primaryTeamName": "Mamelodi Sundowns FC",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 803451,
+            "firstName": "Aubrey Maphosa",
+            "lastName": "Modiba",
+            "rankings": null
+          },
+          {
+            "id": 1124424,
+            "age": 26,
+            "name": "Thalente Mbatha",
+            "positionId": 73,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "5",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 7866,
+            "primaryTeamName": "Orlando Pirates",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 826792,
+            "firstName": "Thalente",
+            "lastName": "Mbatha",
+            "rankings": null
+          },
+          {
+            "id": 848361,
+            "age": 29,
+            "name": "Teboho Mokoena",
+            "positionId": 75,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "4",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 4530,
+            "primaryTeamName": "Mamelodi Sundowns FC",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 1522161,
+            "firstName": "Teboho",
+            "lastName": "Mokoena",
+            "rankings": null
+          },
+          {
+            "id": 1178629,
+            "age": 25,
+            "name": "Jayden Adams",
+            "positionId": 77,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "23",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 4530,
+            "primaryTeamName": "Mamelodi Sundowns FC",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 264000,
+            "firstName": "Jayden",
+            "lastName": "Adams",
+            "rankings": null
+          },
+          {
+            "id": 1394951,
+            "age": 22,
+            "name": "Thapelo Maseko",
+            "positionId": 103,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "12",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 2134,
+            "primaryTeamName": "AEL Limassol",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 546480,
+            "firstName": "Thapelo",
+            "lastName": "Maseko",
+            "rankings": null
+          },
+          {
+            "id": 1076668,
+            "age": 30,
+            "name": "Iqraam Rayners",
+            "positionId": 105,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "15",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 4530,
+            "primaryTeamName": "Mamelodi Sundowns FC",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 1686937,
+            "firstName": "Iqraam",
+            "lastName": "Rayners",
+            "rankings": null
+          },
+          {
+            "id": 1054166,
+            "age": 24,
+            "name": "Oswin Appollis",
+            "positionId": 107,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "7",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 7866,
+            "primaryTeamName": "Orlando Pirates",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 0.29
+            },
+            "marketValue": 683649,
+            "firstName": "Oswin",
+            "lastName": "Appollis",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 179919,
+          "age": 74,
+          "name": "Hugo Broos",
+          "countryName": "Belgium",
+          "countryCode": "BEL",
+          "firstName": "Hugo",
+          "lastName": "Broos",
+          "primaryTeamId": 6316,
+          "primaryTeamName": "South Africa",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "subs": [
+          {
+            "id": 428006,
+            "age": 32,
+            "name": "Ricardo Goss",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "22",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 102099,
+            "primaryTeamName": "Siwelele",
+            "marketValue": 92330,
+            "firstName": "Ricardo",
+            "lastName": "Goss",
+            "rankings": null
+          },
+          {
+            "id": 787099,
+            "age": 29,
+            "name": "Sipho Chaine",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "16",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 7866,
+            "primaryTeamName": "Orlando Pirates",
+            "marketValue": 738447,
+            "firstName": "Sipho",
+            "lastName": "Chaine",
+            "rankings": null
+          },
+          {
+            "id": 1202481,
+            "age": 25,
+            "name": "Bradley Cross",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "26",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 6279,
+            "primaryTeamName": "Kaizer Chiefs",
+            "marketValue": 434237,
+            "firstName": "Bradley",
+            "lastName": "Cross",
+            "rankings": null
+          },
+          {
+            "id": 1451566,
+            "age": 23,
+            "name": "Kamogelo Sebelebele",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "25",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 7866,
+            "primaryTeamName": "Orlando Pirates",
+            "marketValue": 551735,
+            "firstName": "Kamogelo",
+            "lastName": "Sebelebele",
+            "rankings": null
+          },
+          {
+            "id": 1680696,
+            "age": 22,
+            "name": "Khulumani Ndamane",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 4530,
+            "primaryTeamName": "Mamelodi Sundowns FC",
+            "marketValue": 330272,
+            "firstName": "Khulumani",
+            "lastName": "Ndamane",
+            "rankings": null
+          },
+          {
+            "id": 716819,
+            "age": 30,
+            "name": "Nkosinathi Sibisi",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "19",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 7866,
+            "primaryTeamName": "Orlando Pirates",
+            "marketValue": 742924,
+            "firstName": "Nkosinathi",
+            "lastName": "Sibisi",
+            "rankings": null
+          },
+          {
+            "id": 1469826,
+            "age": 22,
+            "name": "Olwethu Makhanya",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "24",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 191716,
+            "primaryTeamName": "Philadelphia Union",
+            "marketValue": 1770272,
+            "firstName": "Olwethu",
+            "lastName": "Makhanya",
+            "rankings": null
+          },
+          {
+            "id": 1680659,
+            "age": 22,
+            "name": "Samukelo Kabini",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "18",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 9917,
+            "primaryTeamName": "Molde",
+            "marketValue": 1911749,
+            "firstName": "Samukelo",
+            "lastName": "Kabini",
+            "rankings": null
+          },
+          {
+            "id": 1579341,
+            "age": 27,
+            "name": "Thabang Matuludi",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "2",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 149600,
+            "primaryTeamName": "Polokwane City",
+            "marketValue": 388495,
+            "firstName": "Thabang",
+            "lastName": "Matuludi",
+            "rankings": null
+          },
+          {
+            "id": 1137059,
+            "age": 26,
+            "name": "Evidence Makgopa",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "17",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 7866,
+            "primaryTeamName": "Orlando Pirates",
+            "marketValue": 570048,
+            "firstName": "Evidence",
+            "lastName": "Makgopa",
+            "rankings": null
+          },
+          {
+            "id": 881500,
+            "age": 25,
+            "name": "Lyle Foster",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "9",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 8191,
+            "primaryTeamName": "Burnley",
+            "marketValue": 13339724,
+            "firstName": "Lyle",
+            "lastName": "Foster",
+            "rankings": null
+          },
+          {
+            "id": 1471333,
+            "age": 21,
+            "name": "Relebohile Mofokeng",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "10",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 7866,
+            "primaryTeamName": "Orlando Pirates",
+            "marketValue": 1471376,
+            "firstName": "Relebohile",
+            "lastName": "Mofokeng",
+            "rankings": null
+          },
+          {
+            "id": 1289611,
+            "age": 25,
+            "name": "Tshepang Moremi",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "8",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 7866,
+            "primaryTeamName": "Orlando Pirates",
+            "marketValue": 512211,
+            "firstName": "Tshepang",
+            "lastName": "Moremi",
+            "rankings": null
+          }
+        ],
+        "unavailable": [
+          {
+            "id": 848361,
+            "age": 29,
+            "name": "Teboho Mokoena",
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "marketValue": 1522161,
+            "unavailability": {
+              "type": "suspension",
+              "expectedReturn": "Late June 2026",
+              "expectedReturnDate": "2026-06-25T03:00:00Z"
+            },
+            "firstName": "Teboho",
+            "lastName": "Mokoena"
+          },
+          {
+            "id": 303609,
+            "age": 36,
+            "name": "Themba Zwane",
+            "positionId": 1100,
+            "countryName": "South Africa",
+            "countryCode": "RSA",
+            "primaryTeamId": 4530,
+            "primaryTeamName": "Mamelodi Sundowns FC",
+            "marketValue": 50000,
+            "unavailability": {
+              "type": "suspension",
+              "expectedReturn": "Late June 2026",
+              "expectedReturnDate": "2026-06-25T03:00:00Z"
+            },
+            "firstName": "Themba",
+            "lastName": "Zwane"
+          }
+        ],
+        "averageStarterAge": 27.1,
+        "totalStarterMarketValue": 10063424,
+        "lastMatch": {
+          "matchId": 4667753,
+          "homeTeamId": 8496,
+          "awayTeamId": 6316,
+          "homeTeamName": "Czechia",
+          "awayTeamName": "South Africa",
+          "homeScore": 1,
+          "awayScore": 1,
+          "matchDate": "2026-06-18T18:00:00"
+        }
+      },
+      "awayTeam": {
+        "id": 7804,
+        "name": "South Korea",
+        "formation": "3-4-2-1",
+        "starters": [
+          {
+            "id": 167247,
+            "age": 35,
+            "name": "Seung-Gyu Kim",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 4399,
+            "primaryTeamName": "FC Tokyo",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 428072,
+            "firstName": "Seung-Gyu",
+            "lastName": "Kim",
+            "rankings": null
+          },
+          {
+            "id": 1232253,
+            "age": 24,
+            "name": "Han-Beom Lee",
+            "positionId": 33,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "2",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 8113,
+            "primaryTeamName": "FC Midtjylland",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 1876824,
+            "firstName": "Han-Beom",
+            "lastName": "Lee",
+            "rankings": null
+          },
+          {
+            "id": 828159,
+            "age": 29,
+            "name": "Min-Jae Kim",
+            "positionId": 35,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 9823,
+            "primaryTeamName": "Bayern München",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 28289403,
+            "firstName": "Min-Jae",
+            "lastName": "Kim",
+            "rankings": null
+          },
+          {
+            "id": 1232264,
+            "age": 25,
+            "name": "Gi-Hyuk Lee",
+            "positionId": 37,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 164734,
+            "primaryTeamName": "Gangwon FC",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 587202,
+            "firstName": "Gi-Hyuk",
+            "lastName": "Lee",
+            "rankings": null
+          },
+          {
+            "id": 828273,
+            "age": 30,
+            "name": "Moon-Hwan Kim",
+            "positionId": 62,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "15",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 133900,
+            "primaryTeamName": "Daejeon Hana Citizen",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 703550,
+            "firstName": "Moon-Hwan",
+            "lastName": "Kim",
+            "rankings": null
+          },
+          {
+            "id": 623698,
+            "age": 29,
+            "name": "In-Beom Hwang",
+            "positionId": 64,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "6",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 10235,
+            "primaryTeamName": "Feyenoord",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 6715589,
+            "firstName": "In-Beom",
+            "lastName": "Hwang",
+            "rankings": null
+          },
+          {
+            "id": 848102,
+            "age": 29,
+            "name": "Seung-Ho Paik",
+            "positionId": 66,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 8658,
+            "primaryTeamName": "Birmingham City",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 1729819,
+            "firstName": "Seung-Ho",
+            "lastName": "Paik",
+            "rankings": null
+          },
+          {
+            "id": 1132818,
+            "age": 27,
+            "name": "Young-Woo Seol",
+            "positionId": 68,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "22",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 8687,
+            "primaryTeamName": "FK Crvena Zvezda",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 3748172,
+            "firstName": "Young-Woo",
+            "lastName": "Seol",
+            "rankings": null
+          },
+          {
+            "id": 940976,
+            "age": 25,
+            "name": "Kang-In Lee",
+            "positionId": 84,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "19",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 9847,
+            "primaryTeamName": "Paris Saint-Germain",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 30725960,
+            "firstName": "Kang-In",
+            "lastName": "Lee",
+            "rankings": null
+          },
+          {
+            "id": 523749,
+            "age": 33,
+            "name": "Jae-Sung Lee",
+            "positionId": 86,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "10",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 9905,
+            "primaryTeamName": "Mainz 05",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.193
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 1546406,
+            "firstName": "Jae-Sung",
+            "lastName": "Lee",
+            "rankings": null
+          },
+          {
+            "id": 212867,
+            "age": 33,
+            "name": "Heung-Min Son",
+            "positionId": 105,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "7",
+            "isCaptain": true,
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 867280,
+            "primaryTeamName": "Los Angeles FC",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 10366969,
+            "firstName": "Heung-Min",
+            "lastName": "Son",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 29429,
+          "age": 57,
+          "name": "Myung-Bo Hong",
+          "countryName": "South Korea",
+          "countryCode": "KOR",
+          "firstName": "Myung-Bo",
+          "lastName": "Hong",
+          "primaryTeamId": 7804,
+          "primaryTeamName": "South Korea",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "subs": [
+          {
+            "id": 848068,
+            "age": 28,
+            "name": "Bum-Keun Song",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "12",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 46038,
+            "primaryTeamName": "Jeonbuk Hyundai Motors FC",
+            "marketValue": 802283,
+            "firstName": "Bum-Keun",
+            "lastName": "Song",
+            "rankings": null
+          },
+          {
+            "id": 433265,
+            "age": 34,
+            "name": "Hyeon-Woo Jo",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "21",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 133896,
+            "primaryTeamName": "Ulsan HD FC",
+            "marketValue": 348096,
+            "firstName": "Hyeon-Woo",
+            "lastName": "Jo",
+            "rankings": null
+          },
+          {
+            "id": 1053477,
+            "age": 25,
+            "name": "Tae-Hyeon Kim",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 4397,
+            "primaryTeamName": "Kashima Antlers",
+            "firstName": "Tae-Hyeon",
+            "lastName": "Kim",
+            "rankings": null
+          },
+          {
+            "id": 1326507,
+            "age": 24,
+            "name": "Wi-Je Cho",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "14",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 46038,
+            "primaryTeamName": "Jeonbuk Hyundai Motors FC",
+            "marketValue": 224044,
+            "firstName": "Wi-Je",
+            "lastName": "Cho",
+            "rankings": null
+          },
+          {
+            "id": 954131,
+            "age": 28,
+            "name": "Dong-Gyeong Lee",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "26",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 133896,
+            "primaryTeamName": "Ulsan HD FC",
+            "marketValue": 854201,
+            "firstName": "Dong-Gyeong",
+            "lastName": "Lee",
+            "rankings": null
+          },
+          {
+            "id": 1185902,
+            "age": 22,
+            "name": "Jens Castrop",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "23",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 9788,
+            "primaryTeamName": "Borussia Mönchengladbach",
+            "marketValue": 8100960,
+            "firstName": "Jens",
+            "lastName": "Castrop",
+            "rankings": null
+          },
+          {
+            "id": 622980,
+            "age": 29,
+            "name": "Jin-Gyu Kim",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "24",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 46038,
+            "primaryTeamName": "Jeonbuk Hyundai Motors FC",
+            "marketValue": 624363,
+            "firstName": "Jin-Gyu",
+            "lastName": "Kim",
+            "rankings": null
+          },
+          {
+            "id": 925647,
+            "age": 30,
+            "name": "Jin-Seob Park",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "16",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 51443,
+            "primaryTeamName": "Zhejiang Professional",
+            "marketValue": 736091,
+            "firstName": "Jin-Seob",
+            "lastName": "Park",
+            "rankings": null
+          },
+          {
+            "id": 1386482,
+            "age": 22,
+            "name": "Jun-Ho Bae",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "17",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 10194,
+            "primaryTeamName": "Stoke City",
+            "marketValue": 530000,
+            "firstName": "Jun-Ho",
+            "lastName": "Bae",
+            "rankings": null
+          },
+          {
+            "id": 1107251,
+            "age": 23,
+            "name": "Tae-Seok Lee",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "13",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 10011,
+            "primaryTeamName": "Austria Wien",
+            "marketValue": 1468856,
+            "firstName": "Tae-Seok",
+            "lastName": "Lee",
+            "rankings": null
+          },
+          {
+            "id": 1026781,
+            "age": 28,
+            "name": "Gue-Sung Cho",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "9",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 8113,
+            "primaryTeamName": "FC Midtjylland",
+            "marketValue": 2312388,
+            "firstName": "Gue-Sung",
+            "lastName": "Cho",
+            "rankings": null
+          },
+          {
+            "id": 620026,
+            "age": 30,
+            "name": "Hee-Chan Hwang",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "11",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 8602,
+            "primaryTeamName": "Wolverhampton Wanderers",
+            "marketValue": 9715794,
+            "firstName": "Hee-Chan",
+            "lastName": "Hwang",
+            "rankings": null
+          },
+          {
+            "id": 1044299,
+            "age": 25,
+            "name": "Hyun-Gyu Oh",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "18",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 10188,
+            "primaryTeamName": "Beşiktaş",
+            "marketValue": 11036244,
+            "firstName": "Hyun-Gyu",
+            "lastName": "Oh",
+            "rankings": null
+          },
+          {
+            "id": 1232560,
+            "age": 24,
+            "name": "Hyun-Jun Yang",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "20",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 9925,
+            "primaryTeamName": "Celtic",
+            "marketValue": 3177632,
+            "firstName": "Hyun-Jun",
+            "lastName": "Yang",
+            "rankings": null
+          },
+          {
+            "id": 1107283,
+            "age": 24,
+            "name": "Ji-Sung Eom",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "25",
+            "countryName": "South Korea",
+            "countryCode": "KOR",
+            "primaryTeamId": 10003,
+            "primaryTeamName": "Swansea City",
+            "marketValue": 1883960,
+            "firstName": "Ji-Sung",
+            "lastName": "Eom",
+            "rankings": null
+          }
+        ],
+        "averageStarterAge": 29.6,
+        "totalStarterMarketValue": 86717966,
+        "lastMatch": {
+          "matchId": 4667754,
+          "homeTeamId": 6710,
+          "awayTeamId": 7804,
+          "homeTeamName": "Mexico",
+          "awayTeamName": "South Korea",
+          "homeScore": 1,
+          "awayScore": 0,
+          "matchDate": "2026-06-19T03:00:00"
+        }
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894790",
+      "url": "https://data.fotmob.com/tables.ext.894790.fot.gz",
+      "teams": [
+        6316,
+        7804
+      ],
+      "tournamentNameForUrl": "World Cup Grp. A",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": false,
+    "momentum": false
+  },
+  "seo": {
+    "path": "south-africa-vs-south-korea",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667756",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "South Africa",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6316.png",
+        "url": "https://www.fotmob.com/teams/6316/overview/south-africa",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "South Korea",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/7804.png",
+        "url": "https://www.fotmob.com/teams/7804/overview/south-korea",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "South Africa vs South Korea",
+      "description": "Follow South Africa vs South Korea live on fotmob.com",
+      "startDate": "2026-06-25T01:00:00.000Z",
+      "endDate": "2026-06-25T03:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Monterrey Stadium",
+        "latitude": 25.669182471,
+        "longitude": -100.244469647,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Mexico",
+          "addressLocality": "Guadalupe"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6316.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/7804.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667756",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-25T01:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "South Africa",
+          "url": "https://www.fotmob.com/teams/6316/overview/south-africa"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "South Korea",
+          "url": "https://www.fotmob.com/teams/7804/overview/south-korea"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. A",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "South Africa - South Korea",
+            "item": "https://www.fotmob.com/match/4667756"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. A",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "South Korea",
+            "item": "https://www.fotmob.com/teams/7804/overview/south-korea"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "South Africa - South Korea",
+            "item": "https://www.fotmob.com/match/4667756"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. A",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "South Africa",
+            "item": "https://www.fotmob.com/teams/6316/overview/south-africa"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "South Africa - South Korea",
+            "item": "https://www.fotmob.com/match/4667756"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

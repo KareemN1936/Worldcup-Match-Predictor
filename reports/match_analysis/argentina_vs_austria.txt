@@ -1,0 +1,41 @@
+Argentina vs Austria
+
+Date: 2026-06-22T17:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_J
+
+Base Prediction:
+Argentina Win: 74.5%
+Draw: 17.3%
+Austria Win: 8.2%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 212.94 | edge: Argentina
+- goal difference last 5: 6.00 | edge: Argentina
+- goals for last 5: 4.00 | edge: Argentina
+- points last 5: 2.00 | edge: Argentina
+- points last 10: 2.00 | edge: Argentina
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.06
+Probability shift: 0.0025
+Top signals: goal difference:home; player rating:away; starting XI rating:home
+Argentina Win: 74.8%
+Draw: 17.3%
+Austria Win: 8.0%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Argentina 28.6 | Austria 28.1
+Forwards: Argentina 6 | Austria 3
+Midfielders: Argentina 8 | Austria 11
+Defenders: Argentina 9 | Austria 9
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

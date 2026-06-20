@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537348,
+    "date": "2026-06-19T19:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_D",
+    "home_team": "United States",
+    "away_team": "Australia"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.3634484708309173,
+    "draw_probability": 0.2556073665618896,
+    "away_win_probability": 0.3809441924095154,
+    "predicted_result": "Team A loss",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -18.38487234503009,
+      "points_last_5_diff": -4.0,
+      "points_last_10_diff": 3.0,
+      "goal_difference_last_5_diff": -8.0,
+      "goals_for_last_5_diff": 1.0,
+      "goals_against_last_5_diff": 9.0,
+      "weighted_points_last_5_diff": -7.0,
+      "weighted_goal_difference_last_5_diff": -7.0,
+      "wins_last_5_diff": -1.0,
+      "draws_last_5_diff": -1.0,
+      "losses_last_5_diff": 2.0,
+      "clean_sheets_last_5_diff": -2.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": 11.0,
+      "win_rate_2y_diff": -0.023809523809523836,
+      "draw_rate_2y_diff": -0.14434523809523808,
+      "loss_rate_2y_diff": 0.16815476190476192,
+      "goals_for_per_match_2y_diff": 0.24255952380952372,
+      "goals_against_per_match_2y_diff": 0.5654761904761905,
+      "goal_difference_per_match_2y_diff": -0.32291666666666663,
+      "clean_sheet_rate_2y_diff": -0.16220238095238093,
+      "failed_to_score_rate_2y_diff": -0.0982142857142857,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -18.38487234503009,
+        "leader": "Australia"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 9.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -8.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -7.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -4.0,
+        "leader": "Australia"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -18.38487234503009,
+        "leader": "Australia"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -4.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 3.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -8.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 1.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 9.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -7.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.023809523809523836,
+        "leader": "Australia"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": -0.32291666666666663,
+        "leader": "Australia"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.5654761904761905,
+        "leader": "Australia"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.16220238095238093,
+        "leader": "Australia"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.0982142857142857,
+        "leader": "United States"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": 0.0539393939393937,
+    "probability_shift": 0.0023973063973063,
+    "top_signals": "goal difference:home; player rating:away; starting XI rating:home",
+    "home_win_probability": 0.3660212593412539,
+    "draw_probability": 0.2552502803013533,
+    "away_win_probability": 0.3787284603573926,
+    "predicted_result": "Team A loss",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.2500000000000009,
+        "leader": "Australia"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.0999999999999996,
+        "leader": "United States"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.2500000000000009,
+        "leader": "Australia"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.0999999999999996,
+        "leader": "United States"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 26.423076923076923,
+    "away_avg_age": 26.884615384615383,
+    "home_forwards": 6,
+    "away_forwards": 5,
+    "home_midfielders": 8,
+    "away_midfielders": 8,
+    "home_defenders": 9,
+    "away_defenders": 10,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 1.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -1.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -0.4615384615384599,
+        "leader": "United States"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -0.4615384615384599,
+        "leader": "United States"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 1.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -1.0,
+        "leader": "Australia"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A loss",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

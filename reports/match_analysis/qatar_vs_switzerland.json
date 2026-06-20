@@ -1,0 +1,300 @@
+{
+  "fixture": {
+    "fixture_id": 537334,
+    "date": "2026-06-13T19:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_B",
+    "home_team": "Qatar",
+    "away_team": "Switzerland"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.179494023323059,
+    "draw_probability": 0.1950162202119827,
+    "away_win_probability": 0.6254897713661194,
+    "predicted_result": "Team A loss",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -171.54895175403317,
+      "points_last_5_diff": -3.0,
+      "points_last_10_diff": -10.0,
+      "goal_difference_last_5_diff": -6.0,
+      "goals_for_last_5_diff": -7.0,
+      "goals_against_last_5_diff": -1.0,
+      "weighted_points_last_5_diff": -2.5,
+      "weighted_goal_difference_last_5_diff": -7.5,
+      "wins_last_5_diff": -1.0,
+      "draws_last_5_diff": 0.0,
+      "losses_last_5_diff": 1.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": 2.0,
+      "matches_played_2y_diff": 0.0,
+      "win_rate_2y_diff": -0.15999999999999998,
+      "draw_rate_2y_diff": -0.08000000000000002,
+      "loss_rate_2y_diff": 0.24,
+      "goals_for_per_match_2y_diff": -0.6400000000000001,
+      "goals_against_per_match_2y_diff": 0.6400000000000001,
+      "goal_difference_per_match_2y_diff": -1.28,
+      "clean_sheet_rate_2y_diff": -0.16000000000000003,
+      "failed_to_score_rate_2y_diff": 0.12000000000000002,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -171.54895175403317,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -10.0,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -7.0,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -6.0,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -3.0,
+        "leader": "Switzerland"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -171.54895175403317,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -3.0,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -10.0,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -6.0,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -7.0,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -1.0,
+        "leader": "Qatar"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -2.5,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.15999999999999998,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": -1.28,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.6400000000000001,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.16000000000000003,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.12000000000000002,
+        "leader": "Switzerland"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": false,
+    "feature_count": 0,
+    "reliability": 0.0,
+    "enrichment_score": 0.0,
+    "probability_shift": 0.0,
+    "top_signals": null,
+    "home_win_probability": 0.1794940206483897,
+    "draw_probability": 0.1950162173060146,
+    "away_win_probability": 0.6254897620455956,
+    "predicted_result": "Team A loss",
+    "strongest": [],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": null,
+        "leader": null
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 28.846153846153847,
+    "away_avg_age": 27.807692307692307,
+    "home_forwards": 6,
+    "away_forwards": 5,
+    "home_midfielders": 8,
+    "away_midfielders": 10,
+    "home_defenders": 9,
+    "away_defenders": 8,
+    "strongest": [
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -2.0,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 1.03846153846154,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 1.0,
+        "leader": "Qatar"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "Qatar"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 1.03846153846154,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 1.0,
+        "leader": "Qatar"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -2.0,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "Qatar"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A loss",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

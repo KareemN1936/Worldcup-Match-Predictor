@@ -1,0 +1,41 @@
+Tunisia vs Japan
+
+Date: 2026-06-21T04:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_F
+
+Base Prediction:
+Tunisia Win: 11.9%
+Draw: 22.1%
+Japan Win: 66.0%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -234.13 | edge: Japan
+- goal difference last 5: -15.00 | edge: Japan
+- weighted points last 5: -14.00 | edge: Japan
+- points last 5: -9.00 | edge: Japan
+- points last 10: -9.00 | edge: Japan
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: -0.55
+Probability shift: -0.0242
+Top signals: goal difference:away; starting XI rating:away; points per match:away
+Tunisia Win: 9.6%
+Draw: 21.7%
+Japan Win: 68.7%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Tunisia 26.2 | Japan 27.2
+Forwards: Tunisia 6 | Japan 7
+Midfielders: Tunisia 7 | Japan 7
+Defenders: Tunisia 10 | Japan 9
+
+Final Recommendation:
+Use: Team A loss
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

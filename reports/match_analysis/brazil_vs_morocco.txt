@@ -1,0 +1,33 @@
+Brazil vs Morocco
+
+Date: 2026-06-13T22:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_C
+
+Base Prediction:
+Brazil Win: 39.1%
+Draw: 24.4%
+Morocco Win: 36.5%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 7.34 | edge: Brazil
+- points last 10: -5.00 | edge: Morocco
+- goal difference last 5: -4.00 | edge: Morocco
+- goals against last 5: 4.00 | edge: Morocco
+- 2-year goal difference per match: -1.25 | edge: Morocco
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Brazil 28.7 | Morocco 25.9
+Forwards: Brazil 9 | Morocco 5
+Midfielders: Brazil 5 | Morocco 9
+Defenders: Brazil 9 | Morocco 9
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

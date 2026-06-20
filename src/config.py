@@ -34,8 +34,36 @@ FEATURE_COLUMNS = [
     "goal_difference_last_5_diff",
     "goals_for_last_5_diff",
     "goals_against_last_5_diff",
+    "weighted_points_last_5_diff",
+    "weighted_goal_difference_last_5_diff",
+    "wins_last_5_diff",
+    "draws_last_5_diff",
+    "losses_last_5_diff",
+    "clean_sheets_last_5_diff",
+    "failed_to_score_last_5_diff",
+    "matches_played_2y_diff",
+    "win_rate_2y_diff",
+    "draw_rate_2y_diff",
+    "loss_rate_2y_diff",
+    "goals_for_per_match_2y_diff",
+    "goals_against_per_match_2y_diff",
+    "goal_difference_per_match_2y_diff",
+    "clean_sheet_rate_2y_diff",
+    "failed_to_score_rate_2y_diff",
     "neutral",
     "match_importance",
+]
+
+FOTMOB_DIFF_FEATURE_COLUMNS = [
+    "starting_xi_avg_rating_diff",
+    "team_shots_on_target_diff",
+    "team_expected_goals_diff",
+    "team_chances_created_diff",
+    "goals_minus_xg_diff",
+    "avg_player_rating_diff",
+    "red_cards_diff",
+    "yellow_cards_diff",
+    "substitute_goal_contributions_diff",
 ]
 
 RESULT_LABELS = {
@@ -47,10 +75,14 @@ RESULT_LABELS = {
 UPCOMING_FIXTURE_STATUSES = {"SCHEDULED", "TIMED", "POSTPONED"}
 
 TEAM_NAME_ALIASES = {
+    "Bosnia and Herzegovina": "Bosnia-Herzegovina",
+    "Curacao": "Curaçao",
+    "DR Congo": "Congo DR",
     "IR Iran": "Iran",
     "Korea Republic": "South Korea",
     "Korea DPR": "North Korea",
     "Türkiye": "Turkey",
+    "Turkiye": "Turkey",
     "USA": "United States",
     "United States of America": "United States",
 }

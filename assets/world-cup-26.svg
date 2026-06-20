@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="fallback" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#20d88a"/>
+      <stop offset="0.5" stop-color="#f6d44a"/>
+      <stop offset="1" stop-color="#f16b4e"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#fallback)"/>
+  <text x="32" y="41" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="900" fill="#09151d">26</text>
+</svg>

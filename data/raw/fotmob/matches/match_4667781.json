@@ -1,0 +1,922 @@
+{
+  "general": {
+    "matchId": "4667781",
+    "matchName": "Ecuador-vs-Germany_Thu, Jun 25, 2026, 20:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ECD743",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#e29b00",
+        "away": "#464646"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894794,
+    "leagueName": "World Cup Grp. E",
+    "leagueRoundName": "3",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Ecuador",
+      "id": 6707
+    },
+    "awayTeam": {
+      "name": "Germany",
+      "id": 8570
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Thu, Jun 25, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-06-25T20:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Ecuador",
+        "id": 6707,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6707_small.png",
+        "pageUrl": "/teams/6707/overview/ecuador",
+        "fifaRank": 23
+      },
+      {
+        "name": "Germany",
+        "id": 8570,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8570_small.png",
+        "pageUrl": "/teams/8570/overview/germany",
+        "fifaRank": 10
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-25T20:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table",
+    "head to head",
+    "injured"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667781,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-25T20:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894794,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-e",
+          "leagueName": "World Cup Grp. E",
+          "roundName": "3",
+          "round": "3"
+        },
+        "Stadium": {
+          "name": "New York New Jersey Stadium",
+          "city": "East Rutherford, New Jersey",
+          "country": "United States",
+          "lat": 40.813553451,
+          "long": -74.074367881,
+          "capacity": 82566,
+          "surface": "grass"
+        },
+        "Referee": {
+          "text": "",
+          "countryCode": "",
+          "country": ""
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6262_xsmall.png",
+            "linkToMatch": "/matches/morocco-vs-ecuador/1e2s7k#5217275",
+            "date": {
+              "utcTime": "2026-03-27T20:15:00.000Z"
+            },
+            "teamPageUrl": "/teams/6262/overview/morocco",
+            "tooltipText": {
+              "utcTime": "2026-03-27T20:15:00.000Z",
+              "homeTeam": "Morocco",
+              "homeTeamId": 6262,
+              "homeScore": "1",
+              "awayTeam": "Ecuador",
+              "awayTeamId": 6707,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "6262",
+              "name": "Morocco",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6707",
+              "name": "Ecuador",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6708_xsmall.png",
+            "linkToMatch": "/matches/ecuador-vs-netherlands/1hkw80#5110542",
+            "date": {
+              "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/6708/overview/netherlands",
+            "tooltipText": {
+              "utcTime": "2026-03-31T18:45:00.000Z",
+              "homeTeam": "Netherlands",
+              "homeTeamId": 6708,
+              "homeScore": "1",
+              "awayTeam": "Ecuador",
+              "awayTeamId": 6707,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "6708",
+              "name": "Netherlands",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6707",
+              "name": "Ecuador",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/7795_xsmall.png",
+            "linkToMatch": "/matches/ecuador-vs-saudi-arabia/1qm4yg#5628899",
+            "date": {
+              "utcTime": "2026-05-31T00:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/7795/overview/saudi-arabia",
+            "tooltipText": {
+              "utcTime": "2026-05-31T00:00:00.000Z",
+              "homeTeam": "Ecuador",
+              "homeTeamId": 6707,
+              "homeScore": "2",
+              "awayTeam": "Saudi Arabia",
+              "awayTeamId": 7795,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "6707",
+              "name": "Ecuador",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5858_xsmall.png",
+            "linkToMatch": "/matches/guatemala-vs-ecuador/1b087u#5349852",
+            "date": {
+              "utcTime": "2026-06-07T20:15:00.000Z"
+            },
+            "teamPageUrl": "/teams/5858/overview/guatemala",
+            "tooltipText": {
+              "utcTime": "2026-06-07T20:15:00.000Z",
+              "homeTeam": "Ecuador",
+              "homeTeamId": 6707,
+              "homeScore": "3",
+              "awayTeam": "Guatemala",
+              "awayTeamId": 5858,
+              "awayScore": "0"
+            },
+            "score": "3 - 0",
+            "home": {
+              "id": "6707",
+              "name": "Ecuador",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5858",
+              "name": "Guatemala",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6709_xsmall.png",
+            "linkToMatch": "/matches/ecuador-vs-ivory-coast/1hl6kp#4667778",
+            "date": {
+              "utcTime": "2026-06-14T23:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6709/overview/ivory-coast",
+            "tooltipText": {
+              "utcTime": "2026-06-14T23:00:00.000Z",
+              "homeTeam": "Ivory Coast",
+              "homeTeamId": 6709,
+              "homeScore": "1",
+              "awayTeam": "Ecuador",
+              "awayTeamId": 6707,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "6709",
+              "name": "Ivory Coast",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6707",
+              "name": "Ecuador",
+              "isOurTeam": true
+            }
+          }
+        ],
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6714_xsmall.png",
+            "linkToMatch": "/matches/ghana-vs-germany/1xjs7w#5100790",
+            "date": {
+              "utcTime": "2026-03-30T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/6714/overview/ghana",
+            "tooltipText": {
+              "utcTime": "2026-03-30T18:45:00.000Z",
+              "homeTeam": "Germany",
+              "homeTeamId": 8570,
+              "homeScore": "2",
+              "awayTeam": "Ghana",
+              "awayTeamId": 6714,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "8570",
+              "name": "Germany",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6714",
+              "name": "Ghana",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/7871_xsmall.png",
+            "linkToMatch": "/matches/finland-vs-germany/28h5v3#5084826",
+            "date": {
+              "utcTime": "2026-05-31T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/7871/overview/finland",
+            "tooltipText": {
+              "utcTime": "2026-05-31T18:45:00.000Z",
+              "homeTeam": "Germany",
+              "homeTeamId": 8570,
+              "homeScore": "4",
+              "awayTeam": "Finland",
+              "awayTeamId": 7871,
+              "awayScore": "0"
+            },
+            "score": "4 - 0",
+            "home": {
+              "id": "8570",
+              "name": "Germany",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "7871",
+              "name": "Finland",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6713_xsmall.png",
+            "linkToMatch": "/matches/usa-vs-germany/1xjgfc#5084645",
+            "date": {
+              "utcTime": "2026-06-06T18:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/6713/overview/usa",
+            "tooltipText": {
+              "utcTime": "2026-06-06T18:30:00.000Z",
+              "homeTeam": "USA",
+              "homeTeamId": 6713,
+              "homeScore": "1",
+              "awayTeam": "Germany",
+              "awayTeamId": 8570,
+              "awayScore": "2"
+            },
+            "score": "1 - 2",
+            "home": {
+              "id": "6713",
+              "name": "USA",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "8570",
+              "name": "Germany",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/287981_xsmall.png",
+            "linkToMatch": "/matches/germany-vs-curacao/k77fsyu#4667777",
+            "date": {
+              "utcTime": "2026-06-14T17:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/287981/overview/curacao",
+            "tooltipText": {
+              "utcTime": "2026-06-14T17:00:00.000Z",
+              "homeTeam": "Germany",
+              "homeTeamId": 8570,
+              "homeScore": "7",
+              "awayTeam": "Curacao",
+              "awayTeamId": 287981,
+              "awayScore": "1"
+            },
+            "score": "7 - 1",
+            "home": {
+              "id": "8570",
+              "name": "Germany",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "287981",
+              "name": "Curacao",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6709_xsmall.png",
+            "linkToMatch": "/matches/ivory-coast-vs-germany/1xi59e#4667780",
+            "date": {
+              "utcTime": "2026-06-20T20:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6709/overview/ivory-coast",
+            "tooltipText": {
+              "utcTime": "2026-06-20T20:00:00.000Z",
+              "homeTeam": "Germany",
+              "homeTeamId": 8570,
+              "homeScore": "2",
+              "awayTeam": "Ivory Coast",
+              "awayTeamId": 6709,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "8570",
+              "name": "Germany",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6709",
+              "name": "Ivory Coast",
+              "isOurTeam": false
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667781",
+          "MatchId": 4667781,
+          "HomeTeamId": 6707,
+          "AwayTeamId": 8570,
+          "HomeTeam": "Ecuador",
+          "AwayTeam": "Germany",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} have won their last {1} matches.",
+              "TextTemplateId": "good_form_team",
+              "StatValues": [
+                "away_team",
+                "11"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_stat_up",
+              "defaultText": "Germany have won their last 11 matches."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored in their last {1} home matches.",
+              "TextTemplateId": "goalstreak_team_home",
+              "StatValues": [
+                "home_team",
+                "4"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Ecuador have scored in their last 4 home matches."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have scored {1} goals in their last {2} matches.",
+              "TextTemplateId": "goals_team",
+              "StatValues": [
+                "away_team",
+                "11",
+                "3"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Germany have scored 11 goals in their last 3 matches."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't drawn in their last {1} matches.",
+              "TextTemplateId": "draw_streak_team",
+              "StatValues": [
+                "away_team",
+                "12"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Germany haven't drawn in their last 12 matches."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 8570,
+          "priority": 1343,
+          "defaultText": "Haven't lost in {0} matches",
+          "localizedTextId": "insights_undefeated_team",
+          "statValues": [
+            {
+              "value": 11,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't lost in 11 matches",
+          "color": "#464646"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 8570,
+          "priority": 8,
+          "defaultText": "{0} have won the previous {2} matches against {1}.",
+          "localizedTextId": "h2h_winstreak",
+          "statValues": [
+            {
+              "value": 8570,
+              "name": "Germany",
+              "type": "team"
+            },
+            {
+              "value": 6707,
+              "name": "Ecuador",
+              "type": "team"
+            },
+            {
+              "value": 2,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Germany have won the previous 2 matches against Ecuador.",
+          "color": "#464646"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 8570,
+          "priority": 7,
+          "defaultText": "Have won their last {0} matches",
+          "localizedTextId": "insights_good_form_team",
+          "statValues": [
+            {
+              "value": 11,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Have won their last 11 matches",
+          "color": "#464646"
+        }
+      ],
+      "countryCode": "INT",
+      "QAData": []
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 29,
+      "windSpeed": 5,
+      "windDirectionCardinal": "S",
+      "iconCode": 28,
+      "relativeHumidity": 44,
+      "precipChance": 21,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 67,
+      "description": "Mostly Cloudy",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T22:00:14Z",
+      "localizedKey": "weather_condition_cloudy",
+      "defaultTitle": "Cloudy"
+    },
+    "lineup": {
+      "matchId": 4667781,
+      "lineupType": "unavailable",
+      "source": "enetpulse",
+      "availableFilters": [],
+      "homeTeam": {
+        "id": 6707,
+        "name": "Ecuador",
+        "formation": "",
+        "starters": []
+      },
+      "awayTeam": {
+        "id": 8570,
+        "name": "Germany",
+        "formation": "",
+        "starters": [],
+        "unavailable": [
+          {
+            "id": 1002058,
+            "age": 26,
+            "name": "Nico Schlotterbeck",
+            "countryName": "Germany",
+            "countryCode": "GER",
+            "marketValue": 43361627,
+            "unavailability": {
+              "injuryId": 30,
+              "type": "injury",
+              "expectedReturn": "Doubtful"
+            },
+            "firstName": "Nico",
+            "lastName": "Schlotterbeck"
+          }
+        ]
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894794",
+      "url": "https://data.fotmob.com/tables.ext.894794.fot.gz",
+      "teams": [
+        6707,
+        8570
+      ],
+      "tournamentNameForUrl": "World Cup Grp. E",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": {
+      "summary": [
+        0,
+        0,
+        2
+      ],
+      "matches": [
+        {
+          "time": {
+            "utcTime": "2013-05-29T18:35:00.000Z"
+          },
+          "matchUrl": "/matches/ecuador-vs-germany/1xhhol#1420542",
+          "league": {
+            "name": "Friendlies",
+            "id": "114",
+            "pageUrl": "/leagues/114/overview/friendlies"
+          },
+          "home": {
+            "name": "Ecuador",
+            "id": "6707"
+          },
+          "status": {
+            "utcTime": "2013-05-29T18:35:00.000Z",
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "awarded": false,
+            "scoreStr": "2 - 4",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
+          },
+          "finished": false,
+          "away": {
+            "name": "Germany",
+            "id": "8570"
+          }
+        },
+        {
+          "time": {
+            "utcTime": "2006-06-20T14:00:00.000Z"
+          },
+          "matchUrl": "/matches/ecuador-vs-germany/1xhhol#35029",
+          "league": {
+            "name": "World Cup grp. A",
+            "id": "77",
+            "pageUrl": "/leagues/77/overview/world-cup-grp"
+          },
+          "home": {
+            "name": "Ecuador",
+            "id": "6707"
+          },
+          "status": {
+            "utcTime": "2006-06-20T14:00:00.000Z",
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "awarded": false,
+            "scoreStr": "0 - 3",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
+          },
+          "finished": false,
+          "away": {
+            "name": "Germany",
+            "id": "8570"
+          }
+        }
+      ]
+    },
+    "momentum": false
+  },
+  "seo": {
+    "path": "ecuador-vs-germany",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667781",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Ecuador",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6707.png",
+        "url": "https://www.fotmob.com/teams/6707/overview/ecuador",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Germany",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://www.fotmob.com/teams/8570/overview/germany",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Ecuador vs Germany",
+      "description": "Follow Ecuador vs Germany live on fotmob.com",
+      "startDate": "2026-06-25T20:00:00.000Z",
+      "endDate": "2026-06-25T22:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "New York New Jersey Stadium",
+        "latitude": 40.813553451,
+        "longitude": -74.074367881,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "United States",
+          "addressLocality": "East Rutherford, New Jersey"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6707.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667781",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-25T20:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Ecuador",
+          "url": "https://www.fotmob.com/teams/6707/overview/ecuador"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Germany",
+          "url": "https://www.fotmob.com/teams/8570/overview/germany"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. E",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-e"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ecuador - Germany",
+            "item": "https://www.fotmob.com/match/4667781"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. E",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-e"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Germany",
+            "item": "https://www.fotmob.com/teams/8570/overview/germany"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Ecuador - Germany",
+            "item": "https://www.fotmob.com/match/4667781"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. E",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-e"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ecuador",
+            "item": "https://www.fotmob.com/teams/6707/overview/ecuador"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Ecuador - Germany",
+            "item": "https://www.fotmob.com/match/4667781"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

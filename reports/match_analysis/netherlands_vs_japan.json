@@ -1,0 +1,300 @@
+{
+  "fixture": {
+    "fixture_id": 537357,
+    "date": "2026-06-14T20:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_F",
+    "home_team": "Netherlands",
+    "away_team": "Japan"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.3923616707324981,
+    "draw_probability": 0.2663000524044037,
+    "away_win_probability": 0.3413383066654205,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -0.6217325568209162,
+      "points_last_5_diff": -5.0,
+      "points_last_10_diff": 0.0,
+      "goal_difference_last_5_diff": -5.0,
+      "goals_for_last_5_diff": -1.0,
+      "goals_against_last_5_diff": 4.0,
+      "weighted_points_last_5_diff": -6.5,
+      "weighted_goal_difference_last_5_diff": -6.5,
+      "wins_last_5_diff": -2.0,
+      "draws_last_5_diff": 1.0,
+      "losses_last_5_diff": 1.0,
+      "clean_sheets_last_5_diff": -4.0,
+      "failed_to_score_last_5_diff": 1.0,
+      "matches_played_2y_diff": 6.0,
+      "win_rate_2y_diff": -0.18846153846153846,
+      "draw_rate_2y_diff": 0.13461538461538464,
+      "loss_rate_2y_diff": 0.05384615384615385,
+      "goals_for_per_match_2y_diff": 0.05769230769230749,
+      "goals_against_per_match_2y_diff": 0.5269230769230768,
+      "goal_difference_per_match_2y_diff": -0.4692307692307691,
+      "clean_sheet_rate_2y_diff": -0.3423076923076923,
+      "failed_to_score_rate_2y_diff": -0.08461538461538462,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -6.5,
+        "leader": "Japan"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -5.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -5.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 4.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -1.0,
+        "leader": "Japan"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -0.6217325568209162,
+        "leader": "Japan"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -5.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -5.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -1.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 4.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -6.5,
+        "leader": "Japan"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.18846153846153846,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": -0.4692307692307691,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.5269230769230768,
+        "leader": "Japan"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.3423076923076923,
+        "leader": "Japan"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.08461538461538462,
+        "leader": "Netherlands"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": false,
+    "feature_count": 0,
+    "reliability": 0.0,
+    "enrichment_score": 0.0,
+    "probability_shift": 0.0,
+    "top_signals": null,
+    "home_win_probability": 0.3923616590392095,
+    "draw_probability": 0.2663000444680439,
+    "away_win_probability": 0.3413382964927465,
+    "predicted_result": "Team A win",
+    "strongest": [],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": null,
+        "leader": null
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 27.26923076923077,
+    "away_avg_age": 27.192307692307693,
+    "home_forwards": 5,
+    "away_forwards": 7,
+    "home_midfielders": 11,
+    "away_midfielders": 7,
+    "home_defenders": 7,
+    "away_defenders": 9,
+    "strongest": [
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 4.0,
+        "leader": "Netherlands"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -2.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -2.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.0769230769230766,
+        "leader": "Japan"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.0769230769230766,
+        "leader": "Japan"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -2.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 4.0,
+        "leader": "Netherlands"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -2.0,
+        "leader": "Japan"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

@@ -1,0 +1,1935 @@
+{
+  "general": {
+    "matchId": "4667814",
+    "matchName": "Jordan-vs-Algeria_Tue, Jun 23, 2026, 03:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#00977B"
+      },
+      "lightMode": {
+        "home": "#e2001d",
+        "away": "#00977B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894799,
+    "leagueName": "World Cup Grp. J",
+    "leagueRoundName": "2",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Jordan",
+      "id": 5816
+    },
+    "awayTeam": {
+      "name": "Algeria",
+      "id": 6317
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Tue, Jun 23, 2026, 03:00 UTC",
+    "matchTimeUTCDate": "2026-06-23T03:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Jordan",
+        "id": 5816,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5816_small.png",
+        "pageUrl": "/teams/5816/overview/jordan",
+        "fifaRank": 63
+      },
+      {
+        "name": "Algeria",
+        "id": 6317,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6317_small.png",
+        "pageUrl": "/teams/6317/overview/algeria",
+        "fifaRank": 28
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-23T03:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667814,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-23T03:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894799,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-j",
+          "leagueName": "World Cup Grp. J",
+          "roundName": "2",
+          "round": "2"
+        },
+        "Stadium": {
+          "name": "San Francisco Bay Area Stadium",
+          "city": "Santa Clara, California",
+          "country": "United States",
+          "lat": 37.403227787,
+          "long": -121.969776469,
+          "capacity": 68827,
+          "surface": "grass"
+        },
+        "Referee": {
+          "imgUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/svn.png",
+          "text": "Slavko Vinčić",
+          "countryCode": "SVN",
+          "country": "Slovenia"
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6262_xsmall.png",
+            "linkToMatch": "/matches/jordan-vs-morocco/17flm7#5075570",
+            "date": {
+              "utcTime": "2025-12-18T16:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6262/overview/morocco",
+            "tooltipText": {
+              "utcTime": "2025-12-18T16:00:00.000Z",
+              "homeTeam": "Jordan",
+              "homeTeamId": 5816,
+              "homeScore": "2",
+              "awayTeam": "Morocco",
+              "awayTeamId": 6262,
+              "awayScore": "3"
+            },
+            "score": "2 - 3",
+            "home": {
+              "id": "5816",
+              "name": "Jordan",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6262",
+              "name": "Morocco",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6705_xsmall.png",
+            "linkToMatch": "/matches/jordan-vs-costa-rica/1aoecu#5277217",
+            "date": {
+              "utcTime": "2026-03-27T17:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/6705/overview/costa-rica",
+            "tooltipText": {
+              "utcTime": "2026-03-27T17:30:00.000Z",
+              "homeTeam": "Jordan",
+              "homeTeamId": 5816,
+              "homeScore": "2",
+              "awayTeam": "Costa Rica",
+              "awayTeamId": 6705,
+              "awayScore": "2"
+            },
+            "score": "2 - 2",
+            "home": {
+              "id": "5816",
+              "name": "Jordan",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6705",
+              "name": "Costa Rica",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6717_xsmall.png",
+            "linkToMatch": "/matches/jordan-vs-switzerland/1armd0#5418294",
+            "date": {
+              "utcTime": "2026-05-31T13:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6717/overview/switzerland",
+            "tooltipText": {
+              "utcTime": "2026-05-31T13:00:00.000Z",
+              "homeTeam": "Switzerland",
+              "homeTeamId": 6717,
+              "homeScore": "4",
+              "awayTeam": "Jordan",
+              "awayTeamId": 5816,
+              "awayScore": "1"
+            },
+            "score": "4 - 1",
+            "home": {
+              "id": "6717",
+              "name": "Switzerland",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5816",
+              "name": "Jordan",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8258_xsmall.png",
+            "linkToMatch": "/matches/jordan-vs-colombia/1mz2kx#5629009",
+            "date": {
+              "utcTime": "2026-06-07T23:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8258/overview/colombia",
+            "tooltipText": {
+              "utcTime": "2026-06-07T23:00:00.000Z",
+              "homeTeam": "Colombia",
+              "homeTeamId": 8258,
+              "homeScore": "2",
+              "awayTeam": "Jordan",
+              "awayTeamId": 5816,
+              "awayScore": "0"
+            },
+            "score": "2 - 0",
+            "home": {
+              "id": "8258",
+              "name": "Colombia",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5816",
+              "name": "Jordan",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8255_xsmall.png",
+            "linkToMatch": "/matches/jordan-vs-austria/1my603#4667813",
+            "date": {
+              "utcTime": "2026-06-17T04:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8255/overview/austria",
+            "tooltipText": {
+              "utcTime": "2026-06-17T04:00:00.000Z",
+              "homeTeam": "Austria",
+              "homeTeamId": 8255,
+              "homeScore": "3",
+              "awayTeam": "Jordan",
+              "awayTeamId": 5816,
+              "awayScore": "1"
+            },
+            "score": "3 - 1",
+            "home": {
+              "id": "8255",
+              "name": "Austria",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "5816",
+              "name": "Jordan",
+              "isOurTeam": true
+            }
+          }
+        ],
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5858_xsmall.png",
+            "linkToMatch": "/matches/guatemala-vs-algeria/184tb9#5250866",
+            "date": {
+              "utcTime": "2026-03-27T19:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/5858/overview/guatemala",
+            "tooltipText": {
+              "utcTime": "2026-03-27T19:30:00.000Z",
+              "homeTeam": "Algeria",
+              "homeTeamId": 6317,
+              "homeScore": "7",
+              "awayTeam": "Guatemala",
+              "awayTeamId": 5858,
+              "awayScore": "0"
+            },
+            "score": "7 - 0",
+            "home": {
+              "id": "6317",
+              "name": "Algeria",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5858",
+              "name": "Guatemala",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5796_xsmall.png",
+            "linkToMatch": "/matches/uruguay-vs-algeria/17oobq#5271629",
+            "date": {
+              "utcTime": "2026-03-31T18:30:00.000Z"
+            },
+            "teamPageUrl": "/teams/5796/overview/uruguay",
+            "tooltipText": {
+              "utcTime": "2026-03-31T18:30:00.000Z",
+              "homeTeam": "Algeria",
+              "homeTeamId": 6317,
+              "homeScore": "0",
+              "awayTeam": "Uruguay",
+              "awayTeamId": 5796,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "6317",
+              "name": "Algeria",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5796",
+              "name": "Uruguay",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6708_xsmall.png",
+            "linkToMatch": "/matches/algeria-vs-netherlands/1eidtx#5212021",
+            "date": {
+              "utcTime": "2026-06-03T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/6708/overview/netherlands",
+            "tooltipText": {
+              "utcTime": "2026-06-03T18:45:00.000Z",
+              "homeTeam": "Netherlands",
+              "homeTeamId": 6708,
+              "homeScore": "0",
+              "awayTeam": "Algeria",
+              "awayTeamId": 6317,
+              "awayScore": "1"
+            },
+            "score": "0 - 1",
+            "home": {
+              "id": "6708",
+              "name": "Netherlands",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6317",
+              "name": "Algeria",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5797_xsmall.png",
+            "linkToMatch": "/matches/bolivia-vs-algeria/17oxo8#5736393",
+            "date": {
+              "utcTime": "2026-06-11T00:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5797/overview/bolivia",
+            "tooltipText": {
+              "utcTime": "2026-06-11T00:00:00.000Z",
+              "homeTeam": "Bolivia",
+              "homeTeamId": 5797,
+              "homeScore": "0",
+              "awayTeam": "Algeria",
+              "awayTeamId": 6317,
+              "awayScore": "4"
+            },
+            "score": "0 - 4",
+            "home": {
+              "id": "5797",
+              "name": "Bolivia",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6317",
+              "name": "Algeria",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6706_xsmall.png",
+            "linkToMatch": "/matches/algeria-vs-argentina/1ehtqa#4667812",
+            "date": {
+              "utcTime": "2026-06-17T01:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6706/overview/argentina",
+            "tooltipText": {
+              "utcTime": "2026-06-17T01:00:00.000Z",
+              "homeTeam": "Argentina",
+              "homeTeamId": 6706,
+              "homeScore": "3",
+              "awayTeam": "Algeria",
+              "awayTeamId": 6317,
+              "awayScore": "0"
+            },
+            "score": "3 - 0",
+            "home": {
+              "id": "6706",
+              "name": "Argentina",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6317",
+              "name": "Algeria",
+              "isOurTeam": true
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667814",
+          "MatchId": 4667814,
+          "HomeTeamId": 5816,
+          "AwayTeamId": 6317,
+          "HomeTeam": "Jordan",
+          "AwayTeam": "Algeria",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} haven't won a match in {1} attempts.",
+              "TextTemplateId": "not_won_team",
+              "StatValues": [
+                "home_team",
+                "5"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_stat_down",
+              "defaultText": "Jordan haven't won a match in 5 attempts."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored in their last {1} home matches.",
+              "TextTemplateId": "goalstreak_team_home",
+              "StatValues": [
+                "home_team",
+                "4"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Jordan have scored in their last 4 home matches."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have an average of {2} goals in their last three matches and {1} have an average of {3}.",
+              "TextTemplateId": "average_goals_last3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "0.67",
+                "1.67"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Jordan have an average of 0.67 goals in their last three matches and Algeria have an average of 1.67."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't won a match in {1} attempts.",
+              "TextTemplateId": "not_won_team",
+              "StatValues": [
+                "home_team",
+                "5"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_stat_down",
+              "defaultText": "Jordan haven't won a match in 5 attempts."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 5816,
+          "priority": 1344,
+          "defaultText": "Have lost their last {0} matches",
+          "localizedTextId": "insights_bad_form_team",
+          "statValues": [
+            {
+              "value": 3,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Have lost their last 3 matches",
+          "color": "#e2001d"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 5816,
+          "priority": 8,
+          "defaultText": "Haven't won a match in {0} attempts",
+          "localizedTextId": "insights_not_won_team",
+          "statValues": [
+            {
+              "value": 5,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't won a match in 5 attempts",
+          "color": "#e2001d"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 5816,
+          "priority": 8,
+          "defaultText": "Haven't kept a clean sheet in {0} matches",
+          "localizedTextId": "insights_not_clean_sheet",
+          "statValues": [
+            {
+              "value": 5,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't kept a clean sheet in 5 matches",
+          "color": "#e2001d"
+        }
+      ],
+      "countryCode": "INT",
+      "QAData": [],
+      "matchInsightsConfig": {
+        "hasBettingInsight": false,
+        "urlTemplate": "https://data.fotmob.com/generated-match-insights/77/4667814/matchinsights_{lang}.json",
+        "languages": [
+          "en",
+          "nb",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ar",
+          "pt-BR"
+        ]
+      }
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 20,
+      "windSpeed": 5,
+      "windDirectionCardinal": "NNW",
+      "iconCode": 32,
+      "relativeHumidity": 66,
+      "precipChance": 1,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 0,
+      "description": "Sunny",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T17:00:04Z",
+      "localizedKey": "weather_condition_sunny",
+      "defaultTitle": "Sunny"
+    },
+    "lineup": {
+      "matchId": 4667814,
+      "lineupType": "lastStarting11",
+      "source": "lastStartingLineups",
+      "availableFilters": [
+        "marketValue",
+        "age",
+        "team"
+      ],
+      "homeTeam": {
+        "id": 5816,
+        "name": "Jordan",
+        "formation": "5-4-1",
+        "starters": [
+          {
+            "id": 734654,
+            "age": 33,
+            "name": "Yazeed Yazeed Abulaila",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101688,
+            "primaryTeamName": "Al-Hussein SC",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.195,
+              "width": 0.2
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.2,
+              "width": 1
+            },
+            "firstName": "Yazeed Yazeed",
+            "lastName": "Abulaila",
+            "rankings": null
+          },
+          {
+            "id": 1312681,
+            "age": 32,
+            "name": "Abdallah Nasib",
+            "positionId": 33,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101659,
+            "primaryTeamName": "Al Zawraa",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.695,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.305,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.195
+            },
+            "firstName": "Abdallah",
+            "lastName": "Nasib",
+            "rankings": null
+          },
+          {
+            "id": 852168,
+            "age": 30,
+            "name": "Yazan Abu Al-Arab",
+            "positionId": 35,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 92630,
+            "primaryTeamName": "FC Seoul",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.5,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.195
+            },
+            "marketValue": 636491,
+            "firstName": "Yazan Abu",
+            "lastName": "Al-Arab",
+            "rankings": null
+          },
+          {
+            "id": 1033300,
+            "age": 25,
+            "name": "Mo Abualnadi",
+            "positionId": 37,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "16",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 165223,
+            "primaryTeamName": "Selangor",
+            "horizontalLayout": {
+              "x": 0.357,
+              "y": 0.305,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.695,
+              "y": 0.357,
+              "height": 0.2,
+              "width": 0.195
+            },
+            "marketValue": 103503,
+            "firstName": "Mo",
+            "lastName": "Abualnadi",
+            "rankings": null
+          },
+          {
+            "id": 546201,
+            "age": 32,
+            "name": "Ehsan Haddad",
+            "positionId": 51,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "23",
+            "isCaptain": true,
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101688,
+            "primaryTeamName": "Al-Hussein SC",
+            "horizontalLayout": {
+              "x": 0.371,
+              "y": 0.89,
+              "height": 0.195,
+              "width": 0.243
+            },
+            "verticalLayout": {
+              "x": 0.11,
+              "y": 0.371,
+              "height": 0.2,
+              "width": 0.195
+            },
+            "firstName": "Ehsan",
+            "lastName": "Haddad",
+            "rankings": null
+          },
+          {
+            "id": 1247001,
+            "age": 23,
+            "name": "Mohannad Abu Taha",
+            "positionId": 59,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "20",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101656,
+            "primaryTeamName": "Al Quwa Al Jawiya",
+            "horizontalLayout": {
+              "x": 0.371,
+              "y": 0.11,
+              "height": 0.195,
+              "width": 0.243
+            },
+            "verticalLayout": {
+              "x": 0.89,
+              "y": 0.371,
+              "height": 0.2,
+              "width": 0.195
+            },
+            "marketValue": 385919,
+            "firstName": "Mohannad Abu",
+            "lastName": "Taha",
+            "rankings": null
+          },
+          {
+            "id": 1823348,
+            "age": 20,
+            "name": "Odeh Fakhouri",
+            "positionId": 72,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "11",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 517894,
+            "primaryTeamName": "Pyramids FC",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.875,
+              "height": 0.195,
+              "width": 0.243
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "firstName": "Odeh",
+            "lastName": "Fakhouri",
+            "rankings": null
+          },
+          {
+            "id": 1195369,
+            "age": 27,
+            "name": "Nizar Al Rashdan",
+            "positionId": 74,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "21",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101900,
+            "primaryTeamName": "Qatar SC",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.625,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 181960,
+            "firstName": "Nizar",
+            "lastName": "Al Rashdan",
+            "rankings": null
+          },
+          {
+            "id": 1036253,
+            "age": 29,
+            "name": "Noor Al-Rawabdeh",
+            "positionId": 76,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 165223,
+            "primaryTeamName": "Selangor",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.375,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "firstName": "Noor",
+            "lastName": "Al-Rawabdeh",
+            "rankings": null
+          },
+          {
+            "id": 1028896,
+            "age": 26,
+            "name": "Ali Iyad Olwan",
+            "positionId": 78,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "9",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101905,
+            "primaryTeamName": "Al-Sailiya",
+            "horizontalLayout": {
+              "x": 0.613,
+              "y": 0.125,
+              "height": 0.195,
+              "width": 0.243
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.613,
+              "height": 0.2,
+              "width": 0.25
+            },
+            "marketValue": 344010,
+            "firstName": "Ali Iyad",
+            "lastName": "Olwan",
+            "rankings": null
+          },
+          {
+            "id": 813055,
+            "age": 29,
+            "name": "Mousa Tamari",
+            "positionId": 115,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "10",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 9851,
+            "primaryTeamName": "Rennes",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.195,
+              "width": 0.257
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.2,
+              "width": 1
+            },
+            "marketValue": 5340000,
+            "firstName": "Mousa",
+            "lastName": "Tamari",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 1136875,
+          "age": 55,
+          "name": "Jamal Sellami",
+          "countryName": "Morocco",
+          "countryCode": "MAR",
+          "firstName": "Jamal",
+          "lastName": "Sellami",
+          "primaryTeamId": 5816,
+          "primaryTeamName": "Jordan",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "subs": [
+          {
+            "id": 915790,
+            "age": 26,
+            "name": "Abdullah Al Fakhouri",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "22",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101690,
+            "primaryTeamName": "Al-Wehdat",
+            "firstName": "Abdullah",
+            "lastName": "Al Fakhouri",
+            "rankings": null
+          },
+          {
+            "id": 1554110,
+            "age": 33,
+            "name": "Nour Bani Attiah",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "12",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101665,
+            "primaryTeamName": "Al-Faisaly",
+            "firstName": "Nour Bani",
+            "lastName": "Attiah",
+            "rankings": null
+          },
+          {
+            "id": 1991034,
+            "age": 28,
+            "name": "Anas Badawi",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "26",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "firstName": "Anas",
+            "lastName": "Badawi",
+            "rankings": null
+          },
+          {
+            "id": 1554109,
+            "age": 26,
+            "name": "Husam Abu Dahab",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101665,
+            "primaryTeamName": "Al-Faisaly",
+            "firstName": "Husam Abu",
+            "lastName": "Dahab",
+            "rankings": null
+          },
+          {
+            "id": 1902793,
+            "age": 20,
+            "name": "Mohammad Abu Ghoush",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "18",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101688,
+            "primaryTeamName": "Al-Hussein SC",
+            "firstName": "Mohammad Abu",
+            "lastName": "Ghoush",
+            "rankings": null
+          },
+          {
+            "id": 1179369,
+            "age": 29,
+            "name": "Saed Al-Rosan",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "19",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101688,
+            "primaryTeamName": "Al-Hussein SC",
+            "firstName": "Saed",
+            "lastName": "Al-Rosan",
+            "rankings": null
+          },
+          {
+            "id": 847766,
+            "age": 34,
+            "name": "Saleem Obaid",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "17",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101688,
+            "primaryTeamName": "Al-Hussein SC",
+            "firstName": "Saleem",
+            "lastName": "Obaid",
+            "rankings": null
+          },
+          {
+            "id": 1213678,
+            "age": 23,
+            "name": "Amer Jamous",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "6",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101659,
+            "primaryTeamName": "Al Zawraa",
+            "firstName": "Amer",
+            "lastName": "Jamous",
+            "rankings": null
+          },
+          {
+            "id": 1202924,
+            "age": 26,
+            "name": "Ibrahim Saadeh",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "15",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "marketValue": 200023,
+            "firstName": "Ibrahim",
+            "lastName": "Saadeh",
+            "rankings": null
+          },
+          {
+            "id": 674520,
+            "age": 32,
+            "name": "Mahmoud Al Mardi",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "13",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101688,
+            "primaryTeamName": "Al-Hussein SC",
+            "firstName": "Mahmoud",
+            "lastName": "Al Mardi",
+            "rankings": null
+          },
+          {
+            "id": 1350517,
+            "age": 31,
+            "name": "Mohammad Abu Hasheesh",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "2",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "marketValue": 111363,
+            "firstName": "Mohammad Abu",
+            "lastName": "Hasheesh",
+            "rankings": null
+          },
+          {
+            "id": 600844,
+            "age": 34,
+            "name": "Mohammad Al-Daoud",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "25",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101690,
+            "primaryTeamName": "Al-Wehdat",
+            "firstName": "Mohammad",
+            "lastName": "Al-Daoud",
+            "rankings": null
+          },
+          {
+            "id": 546203,
+            "age": 32,
+            "name": "Rajaei Ayed",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "14",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101688,
+            "primaryTeamName": "Al-Hussein SC",
+            "firstName": "Rajaei",
+            "lastName": "Ayed",
+            "rankings": null
+          },
+          {
+            "id": 1642793,
+            "age": 22,
+            "name": "Ali Al-Azaizeh",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "24",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 101916,
+            "primaryTeamName": "Al Shabab",
+            "marketValue": 307980,
+            "firstName": "Ali",
+            "lastName": "Al-Azaizeh",
+            "rankings": null
+          },
+          {
+            "id": 1059129,
+            "age": 28,
+            "name": "Mohammad Abuzraiq",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "7",
+            "countryName": "Jordan",
+            "countryCode": "JOR",
+            "primaryTeamId": 102049,
+            "primaryTeamName": "Raja Casablanca",
+            "firstName": "Mohammad",
+            "lastName": "Abuzraiq",
+            "rankings": null
+          }
+        ],
+        "averageStarterAge": 28.2,
+        "lastMatch": {
+          "matchId": 4667813,
+          "homeTeamId": 8255,
+          "awayTeamId": 5816,
+          "homeTeamName": "Austria",
+          "awayTeamName": "Jordan",
+          "homeScore": 3,
+          "awayScore": 1,
+          "matchDate": "2026-06-17T06:00:00"
+        }
+      },
+      "awayTeam": {
+        "id": 6317,
+        "name": "Algeria",
+        "formation": "4-2-3-1",
+        "starters": [
+          {
+            "id": 770880,
+            "age": 28,
+            "name": "Luca Zidane",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "23",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 7878,
+            "primaryTeamName": "Granada",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 929728,
+            "firstName": "Luca",
+            "lastName": "Zidane",
+            "rankings": null
+          },
+          {
+            "id": 1231029,
+            "age": 24,
+            "name": "Rafik Belghali",
+            "positionId": 32,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "17",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 9876,
+            "primaryTeamName": "Hellas Verona",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 6040926,
+            "firstName": "Rafik",
+            "lastName": "Belghali",
+            "rankings": null
+          },
+          {
+            "id": 210683,
+            "age": 34,
+            "name": "Aïssa Mandi",
+            "positionId": 34,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "2",
+            "isCaptain": true,
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 8639,
+            "primaryTeamName": "Lille",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 1097598,
+            "firstName": "Aïssa",
+            "lastName": "Mandi",
+            "rankings": null
+          },
+          {
+            "id": 559065,
+            "age": 31,
+            "name": "Ramy Bensebaini",
+            "positionId": 36,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "21",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 9789,
+            "primaryTeamName": "Borussia Dortmund",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 13190102,
+            "firstName": "Ramy",
+            "lastName": "Bensebaini",
+            "rankings": null
+          },
+          {
+            "id": 933845,
+            "age": 25,
+            "name": "Rayan Aït-Nouri",
+            "positionId": 38,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "15",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 8456,
+            "primaryTeamName": "Manchester City",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 47935298,
+            "firstName": "Rayan",
+            "lastName": "Aït-Nouri",
+            "shortName": "Ait Nouri",
+            "rankings": null
+          },
+          {
+            "id": 1033099,
+            "age": 26,
+            "name": "Hicham Boudaoui",
+            "positionId": 64,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "14",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 9831,
+            "primaryTeamName": "Nice",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 12031880,
+            "firstName": "Hicham",
+            "lastName": "Boudaoui",
+            "rankings": null
+          },
+          {
+            "id": 500520,
+            "age": 31,
+            "name": "Nabil Bentaleb",
+            "positionId": 66,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "19",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 8639,
+            "primaryTeamName": "Lille",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 995503,
+            "firstName": "Nabil",
+            "lastName": "Bentaleb",
+            "rankings": null
+          },
+          {
+            "id": 1576876,
+            "age": 24,
+            "name": "Anis Hadj Moussa",
+            "positionId": 83,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "11",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 10235,
+            "primaryTeamName": "Feyenoord",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.837,
+              "height": 0.25,
+              "width": 0.193
+            },
+            "verticalLayout": {
+              "x": 0.162,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.325
+            },
+            "marketValue": 23239013,
+            "firstName": "Anis Hadj",
+            "lastName": "Moussa",
+            "shortName": "Hadj Moussa",
+            "rankings": null
+          },
+          {
+            "id": 1457626,
+            "age": 20,
+            "name": "Ibrahim Maza",
+            "positionId": 85,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "22",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 8178,
+            "primaryTeamName": "Bayer Leverkusen",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.337
+            },
+            "marketValue": 21028010,
+            "firstName": "Ibrahim",
+            "lastName": "Maza",
+            "rankings": null
+          },
+          {
+            "id": 1345875,
+            "age": 23,
+            "name": "Farès Chaïbi",
+            "positionId": 87,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "10",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 9810,
+            "primaryTeamName": "Eintracht Frankfurt",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.163,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.837,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.325
+            },
+            "marketValue": 19651861,
+            "firstName": "Farès",
+            "lastName": "Chaïbi",
+            "rankings": null
+          },
+          {
+            "id": 844437,
+            "age": 26,
+            "name": "Amine Gouiri",
+            "positionId": 115,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "9",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 8592,
+            "primaryTeamName": "Marseille",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 30903837,
+            "firstName": "Amine",
+            "lastName": "Gouiri",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 191551,
+          "age": 62,
+          "name": "Vladimir Petkovic",
+          "countryName": "Bosnia and Herzegovina",
+          "countryCode": "BIH",
+          "firstName": "Vladimir",
+          "lastName": "Petkovic",
+          "primaryTeamId": 6317,
+          "primaryTeamName": "Algeria",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "subs": [
+          {
+            "id": 1285492,
+            "age": 26,
+            "name": "Melvin Mastil",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 2442,
+            "primaryTeamName": "Stade Nyonnais",
+            "marketValue": 289431,
+            "firstName": "Melvin",
+            "lastName": "Mastil",
+            "rankings": null
+          },
+          {
+            "id": 1116034,
+            "age": 31,
+            "name": "Oussama Benbot",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "16",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 101628,
+            "primaryTeamName": "USM Alger",
+            "firstName": "Oussama",
+            "lastName": "Benbot",
+            "rankings": null
+          },
+          {
+            "id": 1362385,
+            "age": 27,
+            "name": "Achref Abada",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 101628,
+            "primaryTeamName": "USM Alger",
+            "firstName": "Achref",
+            "lastName": "Abada",
+            "rankings": null
+          },
+          {
+            "id": 1178324,
+            "age": 23,
+            "name": "Jaouen Hadjam",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "13",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 10192,
+            "primaryTeamName": "Young Boys",
+            "marketValue": 9868310,
+            "firstName": "Jaouen",
+            "lastName": "Hadjam",
+            "rankings": null
+          },
+          {
+            "id": 1131925,
+            "age": 26,
+            "name": "Mohamed Tougai",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 8153,
+            "primaryTeamName": "Espérance",
+            "marketValue": 1108005,
+            "firstName": "Mohamed",
+            "lastName": "Tougai",
+            "rankings": null
+          },
+          {
+            "id": 1039219,
+            "age": 27,
+            "name": "Samir Chergui",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "26",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 6379,
+            "primaryTeamName": "Paris FC",
+            "marketValue": 1600467,
+            "firstName": "Samir",
+            "lastName": "Chergui",
+            "rankings": null
+          },
+          {
+            "id": 1118823,
+            "age": 27,
+            "name": "Zineddine Belaïd",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 101630,
+            "primaryTeamName": "JS Kabylie",
+            "marketValue": 420053,
+            "firstName": "Zineddine",
+            "lastName": "Belaïd",
+            "rankings": null
+          },
+          {
+            "id": 776299,
+            "age": 27,
+            "name": "Houssem Aouar",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 8577,
+            "primaryTeamName": "Al Ittihad",
+            "marketValue": 7972149,
+            "firstName": "Houssem",
+            "lastName": "Aouar",
+            "rankings": null
+          },
+          {
+            "id": 1074967,
+            "age": 28,
+            "name": "Ramiz Zerrouki",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "6",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 8611,
+            "primaryTeamName": "FC Twente",
+            "marketValue": 5142369,
+            "firstName": "Ramiz",
+            "lastName": "Zerrouki",
+            "rankings": null
+          },
+          {
+            "id": 1288907,
+            "age": 22,
+            "name": "Yacine Titraoui",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "24",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 9986,
+            "primaryTeamName": "Sporting Charleroi",
+            "marketValue": 8224768,
+            "firstName": "Yacine",
+            "lastName": "Titraoui",
+            "rankings": null
+          },
+          {
+            "id": 1298669,
+            "age": 23,
+            "name": "Adil Boulbina",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "20",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 203826,
+            "primaryTeamName": "Al-Duhail SC",
+            "marketValue": 2458944,
+            "firstName": "Adil",
+            "lastName": "Boulbina",
+            "rankings": null
+          },
+          {
+            "id": 1523327,
+            "age": 23,
+            "name": "Farès Ghedjemis",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "25",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 9891,
+            "primaryTeamName": "Frosinone",
+            "marketValue": 2181566,
+            "firstName": "Farès",
+            "lastName": "Ghedjemis",
+            "rankings": null
+          },
+          {
+            "id": 1134206,
+            "age": 26,
+            "name": "Mohamed Amoura",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "18",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 8721,
+            "primaryTeamName": "Wolfsburg",
+            "marketValue": 29306496,
+            "firstName": "Mohamed",
+            "lastName": "Amoura",
+            "rankings": null
+          },
+          {
+            "id": 1210929,
+            "age": 26,
+            "name": "Nadir Benbouali",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "12",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 5755,
+            "primaryTeamName": "Györi ETO",
+            "marketValue": 960187,
+            "firstName": "Nadir",
+            "lastName": "Benbouali",
+            "rankings": null
+          },
+          {
+            "id": 278343,
+            "age": 35,
+            "name": "Riyad Mahrez",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "7",
+            "countryName": "Algeria",
+            "countryCode": "ALG",
+            "primaryTeamId": 2530,
+            "primaryTeamName": "Al Ahli",
+            "marketValue": 4478232,
+            "firstName": "Riyad",
+            "lastName": "Mahrez",
+            "rankings": null
+          }
+        ],
+        "averageStarterAge": 26.9,
+        "totalStarterMarketValue": 177043756,
+        "lastMatch": {
+          "matchId": 4667812,
+          "homeTeamId": 6706,
+          "awayTeamId": 6317,
+          "homeTeamName": "Argentina",
+          "awayTeamName": "Algeria",
+          "homeScore": 3,
+          "awayScore": 0,
+          "matchDate": "2026-06-17T03:00:00"
+        }
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894799",
+      "url": "https://data.fotmob.com/tables.ext.894799.fot.gz",
+      "teams": [
+        5816,
+        6317
+      ],
+      "tournamentNameForUrl": "World Cup Grp. J",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": false,
+    "momentum": false
+  },
+  "seo": {
+    "path": "jordan-vs-algeria",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667814",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Jordan",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5816.png",
+        "url": "https://www.fotmob.com/teams/5816/overview/jordan",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Algeria",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6317.png",
+        "url": "https://www.fotmob.com/teams/6317/overview/algeria",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Jordan vs Algeria",
+      "description": "Follow Jordan vs Algeria live on fotmob.com",
+      "startDate": "2026-06-23T03:00:00.000Z",
+      "endDate": "2026-06-23T05:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "San Francisco Bay Area Stadium",
+        "latitude": 37.403227787,
+        "longitude": -121.969776469,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "United States",
+          "addressLocality": "Santa Clara, California"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/5816.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6317.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667814",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-23T03:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Jordan",
+          "url": "https://www.fotmob.com/teams/5816/overview/jordan"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Algeria",
+          "url": "https://www.fotmob.com/teams/6317/overview/algeria"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. J",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-j"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Jordan - Algeria",
+            "item": "https://www.fotmob.com/match/4667814"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. J",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-j"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Algeria",
+            "item": "https://www.fotmob.com/teams/6317/overview/algeria"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Jordan - Algeria",
+            "item": "https://www.fotmob.com/match/4667814"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. J",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-j"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Jordan",
+            "item": "https://www.fotmob.com/teams/5816/overview/jordan"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Jordan - Algeria",
+            "item": "https://www.fotmob.com/match/4667814"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

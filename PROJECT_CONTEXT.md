@@ -1913,3 +1913,36 @@ Do not skip steps.
 Do not build the fancy version before the basic version works.
 
 A simple correct model is better than a complicated broken one.
+
+---
+
+## 33. Phase 4 Experimental PyFotMob Enrichment
+
+PyFotMob/FotMob may be used as an optional enrichment provider for football analytics only:
+
+```text
+team info
+match details
+lineups
+formations
+player match stats
+team match stats
+```
+
+Rules:
+
+```text
+Do not remove the Phase 1 historical model.
+Do not remove football-data.org fixtures/results.
+Do not use betting odds or betting-related features.
+Do not crash the core pipeline if PyFotMob fails.
+Do not use same-match stats to predict the same match.
+Use tournament stats only after they happened.
+```
+
+Run optional enrichment with:
+
+```bash
+python src/run_pipeline.py --fotmob-only
+python src/run_pipeline.py --with-fixtures --with-fotmob
+```

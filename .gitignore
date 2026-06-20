@@ -2,3 +2,5 @@
 __pycache__/
 *.pkl
 data/raw/raw_api_json/
+reports/update_logs/
+reports/update.lock

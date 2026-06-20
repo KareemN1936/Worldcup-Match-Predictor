@@ -1,0 +1,41 @@
+Portugal vs Uzbekistan
+
+Date: 2026-06-23T17:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_K
+
+Base Prediction:
+Portugal Win: 65.5%
+Draw: 20.4%
+Uzbekistan Win: 14.1%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 134.15 | edge: Portugal
+- weighted points last 5: 16.50 | edge: Portugal
+- goal difference last 5: 13.00 | edge: Portugal
+- goals for last 5: 9.00 | edge: Portugal
+- points last 5: 8.00 | edge: Portugal
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.38
+Probability shift: 0.0168
+Top signals: goal difference:home; points per match:home; starting XI rating:home
+Portugal Win: 67.4%
+Draw: 20.2%
+Uzbekistan Win: 12.5%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Portugal 27.5 | Uzbekistan 27.7
+Forwards: Portugal 7 | Uzbekistan 4
+Midfielders: Portugal 7 | Uzbekistan 9
+Defenders: Portugal 9 | Uzbekistan 10
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

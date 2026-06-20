@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2026-06-21",
+    "macrostructure": "Tournament Console",
+    "theme": "custom",
+    "theme_axes": "dark stadium paper / heavy sports display / emerald-red-gold accents",
+    "enrichment": "CSS tournament graphics",
+    "brief": "Compact global page spacing, fixed sidebar navigation, direct fixture-to-detail links, and quieter form and tab focus states",
+    "variation_knobs": "flush page titles / full-width active sidebar rail / full-card fixture hit target / embedded detail affordance"
+  },
+  {
+    "date": "2026-06-20",
+    "macrostructure": "Tournament Console",
+    "theme": "custom",
+    "theme_axes": "dark stadium paper / heavy sports display / emerald-red-gold accents",
+    "enrichment": "CSS tournament graphics",
+    "brief": "Full UI stabilization with functional navigation and compact two-up fixture cards",
+    "variation_knobs": "two-up fixture grid / inline probability row / responsive sidebar recovery"
+  },
+  {
+    "date": "2026-06-19",
+    "macrostructure": "Tournament Console",
+    "theme": "custom",
+    "theme_axes": "dark stadium paper / heavy sports display / emerald-red-gold accents",
+    "enrichment": "CSS tournament graphics",
+    "brief": "Redesign Streamlit World Cup predictor into a polished tournament-themed dashboard"
+  }
+]

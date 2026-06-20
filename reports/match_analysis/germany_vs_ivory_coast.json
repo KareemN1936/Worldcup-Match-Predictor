@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537353,
+    "date": "2026-06-20T20:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_E",
+    "home_team": "Germany",
+    "away_team": "Ivory Coast"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.6976494193077087,
+    "draw_probability": 0.1782971769571304,
+    "away_win_probability": 0.1240533515810966,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 140.08266407281008,
+      "points_last_5_diff": 3.0,
+      "points_last_10_diff": 5.0,
+      "goal_difference_last_5_diff": 7.0,
+      "goals_for_last_5_diff": 9.0,
+      "goals_against_last_5_diff": 2.0,
+      "weighted_points_last_5_diff": 3.0,
+      "weighted_goal_difference_last_5_diff": 27.0,
+      "wins_last_5_diff": 1.0,
+      "draws_last_5_diff": 0.0,
+      "losses_last_5_diff": -1.0,
+      "clean_sheets_last_5_diff": -2.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": 0.0,
+      "win_rate_2y_diff": 0.0,
+      "draw_rate_2y_diff": 0.04000000000000001,
+      "loss_rate_2y_diff": -0.04000000000000001,
+      "goals_for_per_match_2y_diff": 0.8,
+      "goals_against_per_match_2y_diff": 0.48,
+      "goal_difference_per_match_2y_diff": 0.31999999999999984,
+      "clean_sheet_rate_2y_diff": -0.24,
+      "failed_to_score_rate_2y_diff": -0.15999999999999998,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 140.08266407281008,
+        "leader": "Germany"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 9.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 7.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 5.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 3.0,
+        "leader": "Germany"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 140.08266407281008,
+        "leader": "Germany"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 3.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 5.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 7.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 9.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 2.0,
+        "leader": "Ivory Coast"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 3.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.31999999999999984,
+        "leader": "Germany"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.48,
+        "leader": "Ivory Coast"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.24,
+        "leader": "Ivory Coast"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.15999999999999998,
+        "leader": "Germany"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": 0.2854545454545454,
+    "probability_shift": 0.0120823467611062,
+    "top_signals": "goal difference:home; starting XI rating:home; player rating:away",
+    "home_win_probability": 0.7114510027175502,
+    "draw_probability": 0.1763067566741156,
+    "away_win_probability": 0.1122422406083341,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 5.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.5,
+        "leader": "Germany"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.0999999999999996,
+        "leader": "Ivory Coast"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 5.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.0999999999999996,
+        "leader": "Ivory Coast"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.5,
+        "leader": "Germany"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 27.615384615384617,
+    "away_avg_age": 25.346153846153847,
+    "home_forwards": 6,
+    "away_forwards": 8,
+    "home_midfielders": 10,
+    "away_midfielders": 7,
+    "home_defenders": 7,
+    "away_defenders": 8,
+    "strongest": [
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 3.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 2.26923076923077,
+        "leader": "Ivory Coast"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -2.0,
+        "leader": "Ivory Coast"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -1.0,
+        "leader": "Ivory Coast"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 2.26923076923077,
+        "leader": "Ivory Coast"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -2.0,
+        "leader": "Ivory Coast"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 3.0,
+        "leader": "Germany"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -1.0,
+        "leader": "Ivory Coast"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

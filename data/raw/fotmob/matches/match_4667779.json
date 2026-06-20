@@ -1,0 +1,1468 @@
+{
+  "general": {
+    "matchId": "4667779",
+    "matchName": "Ecuador-vs-Curacao_Sun, Jun 21, 2026, 00:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ECD743",
+        "away": "#2162BC"
+      },
+      "lightMode": {
+        "home": "#e29b00",
+        "away": "#2162BC"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894794,
+    "leagueName": "World Cup Grp. E",
+    "leagueRoundName": "2",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Ecuador",
+      "id": 6707
+    },
+    "awayTeam": {
+      "name": "Curacao",
+      "id": 287981
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sun, Jun 21, 2026, 00:00 UTC",
+    "matchTimeUTCDate": "2026-06-21T00:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Ecuador",
+        "id": 6707,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6707_small.png",
+        "pageUrl": "/teams/6707/overview/ecuador",
+        "fifaRank": 23
+      },
+      {
+        "name": "Curacao",
+        "id": 287981,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/287981_small.png",
+        "pageUrl": "/teams/287981/overview/curacao",
+        "fifaRank": 82
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-21T00:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "lineup",
+    "table"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667779,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-21T00:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894794,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-e",
+          "leagueName": "World Cup Grp. E",
+          "roundName": "2",
+          "round": "2"
+        },
+        "Stadium": {
+          "name": "Kansas City Stadium",
+          "city": "Kansas City, Missouri",
+          "country": "United States",
+          "lat": 39.048931391,
+          "long": -94.483993649,
+          "capacity": 79416,
+          "surface": "grass"
+        },
+        "Referee": {
+          "imgUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/chn.png",
+          "text": "Ning Ma",
+          "countryCode": "CHN",
+          "country": "China"
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6262_xsmall.png",
+            "linkToMatch": "/matches/morocco-vs-ecuador/1e2s7k#5217275",
+            "date": {
+              "utcTime": "2026-03-27T20:15:00.000Z"
+            },
+            "teamPageUrl": "/teams/6262/overview/morocco",
+            "tooltipText": {
+              "utcTime": "2026-03-27T20:15:00.000Z",
+              "homeTeam": "Morocco",
+              "homeTeamId": 6262,
+              "homeScore": "1",
+              "awayTeam": "Ecuador",
+              "awayTeamId": 6707,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "6262",
+              "name": "Morocco",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6707",
+              "name": "Ecuador",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6708_xsmall.png",
+            "linkToMatch": "/matches/ecuador-vs-netherlands/1hkw80#5110542",
+            "date": {
+              "utcTime": "2026-03-31T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/6708/overview/netherlands",
+            "tooltipText": {
+              "utcTime": "2026-03-31T18:45:00.000Z",
+              "homeTeam": "Netherlands",
+              "homeTeamId": 6708,
+              "homeScore": "1",
+              "awayTeam": "Ecuador",
+              "awayTeamId": 6707,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "6708",
+              "name": "Netherlands",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6707",
+              "name": "Ecuador",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/7795_xsmall.png",
+            "linkToMatch": "/matches/ecuador-vs-saudi-arabia/1qm4yg#5628899",
+            "date": {
+              "utcTime": "2026-05-31T00:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/7795/overview/saudi-arabia",
+            "tooltipText": {
+              "utcTime": "2026-05-31T00:00:00.000Z",
+              "homeTeam": "Ecuador",
+              "homeTeamId": 6707,
+              "homeScore": "2",
+              "awayTeam": "Saudi Arabia",
+              "awayTeamId": 7795,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "6707",
+              "name": "Ecuador",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "7795",
+              "name": "Saudi Arabia",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5858_xsmall.png",
+            "linkToMatch": "/matches/guatemala-vs-ecuador/1b087u#5349852",
+            "date": {
+              "utcTime": "2026-06-07T20:15:00.000Z"
+            },
+            "teamPageUrl": "/teams/5858/overview/guatemala",
+            "tooltipText": {
+              "utcTime": "2026-06-07T20:15:00.000Z",
+              "homeTeam": "Ecuador",
+              "homeTeamId": 6707,
+              "homeScore": "3",
+              "awayTeam": "Guatemala",
+              "awayTeamId": 5858,
+              "awayScore": "0"
+            },
+            "score": "3 - 0",
+            "home": {
+              "id": "6707",
+              "name": "Ecuador",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5858",
+              "name": "Guatemala",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6709_xsmall.png",
+            "linkToMatch": "/matches/ecuador-vs-ivory-coast/1hl6kp#4667778",
+            "date": {
+              "utcTime": "2026-06-14T23:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6709/overview/ivory-coast",
+            "tooltipText": {
+              "utcTime": "2026-06-14T23:00:00.000Z",
+              "homeTeam": "Ivory Coast",
+              "homeTeamId": 6709,
+              "homeScore": "1",
+              "awayTeam": "Ecuador",
+              "awayTeamId": 6707,
+              "awayScore": "0"
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "6709",
+              "name": "Ivory Coast",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "6707",
+              "name": "Ecuador",
+              "isOurTeam": true
+            }
+          }
+        ],
+        [
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5806_xsmall.png",
+            "linkToMatch": "/matches/jamaica-vs-curacao/jtppa3s#4822544",
+            "date": {
+              "utcTime": "2025-11-19T01:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5806/overview/jamaica",
+            "tooltipText": {
+              "utcTime": "2025-11-19T01:00:00.000Z",
+              "homeTeam": "Jamaica",
+              "homeTeamId": 5806,
+              "homeScore": "0",
+              "awayTeam": "Curacao",
+              "awayTeamId": 287981,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "5806",
+              "name": "Jamaica",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "287981",
+              "name": "Curacao",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5822_xsmall.png",
+            "linkToMatch": "/matches/china-vs-curacao/jtsi180#5187278",
+            "date": {
+              "utcTime": "2026-03-27T06:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5822/overview/china",
+            "tooltipText": {
+              "utcTime": "2026-03-27T06:00:00.000Z",
+              "homeTeam": "China",
+              "homeTeamId": 5822,
+              "homeScore": "2",
+              "awayTeam": "Curacao",
+              "awayTeamId": 287981,
+              "awayScore": "0"
+            },
+            "score": "2 - 0",
+            "home": {
+              "id": "5822",
+              "name": "China",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "287981",
+              "name": "Curacao",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6716_xsmall.png",
+            "linkToMatch": "/matches/australia-vs-curacao/jy54c9l#5187281",
+            "date": {
+              "utcTime": "2026-03-31T09:10:00.000Z"
+            },
+            "teamPageUrl": "/teams/6716/overview/australia",
+            "tooltipText": {
+              "utcTime": "2026-03-31T09:10:00.000Z",
+              "homeTeam": "Australia",
+              "homeTeamId": 6716,
+              "homeScore": "5",
+              "awayTeam": "Curacao",
+              "awayTeamId": 287981,
+              "awayScore": "1"
+            },
+            "score": "5 - 1",
+            "home": {
+              "id": "6716",
+              "name": "Australia",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "287981",
+              "name": "Curacao",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8498_xsmall.png",
+            "linkToMatch": "/matches/scotland-vs-curacao/k6uq7tu#5147838",
+            "date": {
+              "utcTime": "2026-05-30T12:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8498/overview/scotland",
+            "tooltipText": {
+              "utcTime": "2026-05-30T12:00:00.000Z",
+              "homeTeam": "Scotland",
+              "homeTeamId": 8498,
+              "homeScore": "4",
+              "awayTeam": "Curacao",
+              "awayTeamId": 287981,
+              "awayScore": "1"
+            },
+            "score": "4 - 1",
+            "home": {
+              "id": "8498",
+              "name": "Scotland",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "287981",
+              "name": "Curacao",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8570_xsmall.png",
+            "linkToMatch": "/matches/germany-vs-curacao/k77fsyu#4667777",
+            "date": {
+              "utcTime": "2026-06-14T17:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8570/overview/germany",
+            "tooltipText": {
+              "utcTime": "2026-06-14T17:00:00.000Z",
+              "homeTeam": "Germany",
+              "homeTeamId": 8570,
+              "homeScore": "7",
+              "awayTeam": "Curacao",
+              "awayTeamId": 287981,
+              "awayScore": "1"
+            },
+            "score": "7 - 1",
+            "home": {
+              "id": "8570",
+              "name": "Germany",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "287981",
+              "name": "Curacao",
+              "isOurTeam": true
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667779",
+          "MatchId": 4667779,
+          "HomeTeamId": 6707,
+          "AwayTeamId": 287981,
+          "HomeTeam": "Ecuador",
+          "AwayTeam": "Curacao",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} have lost their last {1} matches.",
+              "TextTemplateId": "bad_form_team",
+              "StatValues": [
+                "away_team",
+                "4"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_stat_down",
+              "defaultText": "Curacao have lost their last 4 matches."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored in their last {1} home matches.",
+              "TextTemplateId": "goalstreak_team_home",
+              "StatValues": [
+                "home_team",
+                "4"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Ecuador have scored in their last 4 home matches."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have scored {3} goals in their last {2} matches, while {1} have scored {4}.",
+              "TextTemplateId": "goals_total_last_3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "3",
+                "5",
+                "3"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Ecuador have scored 5 goals in their last 3 matches, while Curacao have scored 3."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't won a match in {1} attempts.",
+              "TextTemplateId": "not_won_team",
+              "StatValues": [
+                "away_team",
+                "5"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_stat_down",
+              "defaultText": "Curacao haven't won a match in 5 attempts."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 287981,
+          "priority": 1344,
+          "defaultText": "Have lost their last {0} matches",
+          "localizedTextId": "insights_bad_form_team",
+          "statValues": [
+            {
+              "value": 4,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Have lost their last 4 matches",
+          "color": "#2162BC"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 287981,
+          "priority": 8,
+          "defaultText": "Haven't won a match in {0} attempts",
+          "localizedTextId": "insights_not_won_team",
+          "statValues": [
+            {
+              "value": 5,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't won a match in 5 attempts",
+          "color": "#2162BC"
+        }
+      ],
+      "countryCode": "INT",
+      "QAData": [],
+      "matchInsightsConfig": {
+        "hasBettingInsight": false,
+        "urlTemplate": "https://data.fotmob.com/generated-match-insights/77/4667779/matchinsights_{lang}.json",
+        "languages": [
+          "en",
+          "nb",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ar",
+          "pt-BR"
+        ]
+      }
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": "https://pub.fotmob.com/prod/news/api/law?matchid=9erlmm2s3kapioujs9clvcic&competition=70excpe1synn9kadnbppahdn7&season=873cbl9cd9butm4air0mugxzo&version=v4w",
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 28,
+      "windSpeed": 3,
+      "windDirectionCardinal": "ESE",
+      "iconCode": 30,
+      "relativeHumidity": 54,
+      "precipChance": 1,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 42,
+      "description": "Partly Cloudy",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T22:00:01Z",
+      "localizedKey": "weather_condition_partly_cloudy",
+      "defaultTitle": "Partly Cloudy"
+    },
+    "lineup": {
+      "matchId": 4667779,
+      "lineupType": "predicted",
+      "source": "enetpulse",
+      "availableFilters": [
+        "marketValue",
+        "age",
+        "team"
+      ],
+      "homeTeam": {
+        "id": 6707,
+        "name": "Ecuador",
+        "formation": "4-2-3-1",
+        "starters": [
+          {
+            "id": 146801,
+            "age": 39,
+            "name": "Hernán Galindez",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Ecuador",
+            "countryCode": "ECU",
+            "primaryTeamId": 10081,
+            "primaryTeamName": "Huracan",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 1024390,
+            "firstName": "Hernán",
+            "lastName": "Galindez",
+            "rankings": null
+          },
+          {
+            "id": 848593,
+            "age": 28,
+            "name": "Ángelo Preciado",
+            "positionId": 32,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "17",
+            "countryName": "Ecuador",
+            "countryCode": "ECU",
+            "primaryTeamId": 10272,
+            "primaryTeamName": "Atletico MG",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 2351831,
+            "firstName": "Ángelo",
+            "lastName": "Preciado",
+            "rankings": null
+          },
+          {
+            "id": 1137670,
+            "age": 24,
+            "name": "Willian Pacho",
+            "positionId": 34,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "6",
+            "countryName": "Ecuador",
+            "countryCode": "ECU",
+            "primaryTeamId": 9847,
+            "primaryTeamName": "Paris Saint-Germain",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 75388101,
+            "firstName": "Willian",
+            "lastName": "Pacho",
+            "rankings": null
+          },
+          {
+            "id": 1354085,
+            "age": 22,
+            "name": "Joel Ordóñez",
+            "positionId": 36,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "Ecuador",
+            "countryCode": "ECU",
+            "primaryTeamId": 8342,
+            "primaryTeamName": "Club Brugge",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 41116028,
+            "firstName": "Joel",
+            "lastName": "Ordóñez",
+            "rankings": null
+          },
+          {
+            "id": 1137667,
+            "age": 24,
+            "name": "Piero Hincapié",
+            "positionId": 38,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Ecuador",
+            "countryCode": "ECU",
+            "primaryTeamId": 9825,
+            "primaryTeamName": "Arsenal",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 63074996,
+            "firstName": "Piero",
+            "lastName": "Hincapié",
+            "rankings": null
+          },
+          {
+            "id": 1137668,
+            "age": 24,
+            "name": "Moisés Caicedo",
+            "positionId": 64,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "23",
+            "countryName": "Ecuador",
+            "countryCode": "ECU",
+            "primaryTeamId": 8455,
+            "primaryTeamName": "Chelsea",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 115288104,
+            "firstName": "Moisés",
+            "lastName": "Caicedo",
+            "rankings": null
+          },
+          {
+            "id": 832171,
+            "age": 27,
+            "name": "Alan Franco",
+            "positionId": 66,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "21",
+            "countryName": "Ecuador",
+            "countryCode": "ECU",
+            "primaryTeamId": 10272,
+            "primaryTeamName": "Atletico MG",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 2793714,
+            "firstName": "Alan",
+            "lastName": "Franco",
+            "rankings": null
+          },
+          {
+            "id": 845368,
+            "age": 25,
+            "name": "John Yeboah",
+            "positionId": 83,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "9",
+            "countryName": "Ecuador",
+            "countryCode": "ECU",
+            "primaryTeamId": 7881,
+            "primaryTeamName": "Venezia",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.837,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.162,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.325
+            },
+            "marketValue": 2619368,
+            "firstName": "John",
+            "lastName": "Yeboah",
+            "rankings": null
+          },
+          {
+            "id": 1108611,
+            "age": 24,
+            "name": "Pedro Vite",
+            "positionId": 85,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "15",
+            "countryName": "Ecuador",
+            "countryCode": "ECU",
+            "primaryTeamId": 1946,
+            "primaryTeamName": "Pumas",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.337
+            },
+            "marketValue": 8294552,
+            "firstName": "Pedro",
+            "lastName": "Vite",
+            "rankings": null
+          },
+          {
+            "id": 980311,
+            "age": 25,
+            "name": "Gonzalo Plata",
+            "positionId": 87,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "19",
+            "countryName": "Ecuador",
+            "countryCode": "ECU",
+            "primaryTeamId": 9770,
+            "primaryTeamName": "Flamengo",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.163,
+              "height": 0.25,
+              "width": 0.193
+            },
+            "verticalLayout": {
+              "x": 0.837,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.325
+            },
+            "marketValue": 9232096,
+            "firstName": "Gonzalo",
+            "lastName": "Plata",
+            "rankings": null
+          },
+          {
+            "id": 195927,
+            "age": 36,
+            "name": "Enner Valencia",
+            "positionId": 115,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "13",
+            "countryName": "Ecuador",
+            "countryCode": "ECU",
+            "primaryTeamId": 7848,
+            "primaryTeamName": "Pachuca",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 1251424,
+            "firstName": "Enner",
+            "lastName": "Valencia",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 1135477,
+          "age": 45,
+          "name": "Sebastián Beccacece",
+          "countryName": "Argentina",
+          "countryCode": "ARG",
+          "firstName": "Sebastián",
+          "lastName": "Beccacece",
+          "primaryTeamId": 6707,
+          "primaryTeamName": "Ecuador",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "averageStarterAge": 27.6,
+        "totalStarterMarketValue": 322434604
+      },
+      "awayTeam": {
+        "id": 287981,
+        "name": "Curacao",
+        "formation": "4-3-1-2",
+        "starters": [
+          {
+            "id": 150242,
+            "age": 37,
+            "name": "Eloy Room",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Curacao",
+            "countryCode": "CUW",
+            "primaryTeamId": 721896,
+            "primaryTeamName": "Miami FC",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 83664,
+            "firstName": "Eloy",
+            "lastName": "Room",
+            "rankings": null
+          },
+          {
+            "id": 671327,
+            "age": 27,
+            "name": "Sherel Floranus",
+            "positionId": 32,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Curacao",
+            "countryCode": "CUW",
+            "primaryTeamId": 6413,
+            "primaryTeamName": "PEC Zwolle",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 831414,
+            "firstName": "Sherel",
+            "lastName": "Floranus",
+            "rankings": null
+          },
+          {
+            "id": 467479,
+            "age": 29,
+            "name": "Riechedly Bazoer",
+            "positionId": 34,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "23",
+            "countryName": "Curacao",
+            "countryCode": "CUW",
+            "primaryTeamId": 8622,
+            "primaryTeamName": "Konyaspor",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 1155782,
+            "firstName": "Riechedly",
+            "lastName": "Bazoer",
+            "rankings": null
+          },
+          {
+            "id": 794244,
+            "age": 27,
+            "name": "Armando Obispo",
+            "positionId": 36,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "18",
+            "countryName": "Curacao",
+            "countryCode": "CUW",
+            "primaryTeamId": 8640,
+            "primaryTeamName": "PSV Eindhoven",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 2250193,
+            "firstName": "Armando",
+            "lastName": "Obispo",
+            "rankings": null
+          },
+          {
+            "id": 1335315,
+            "age": 23,
+            "name": "Deveron Fonville",
+            "positionId": 38,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "24",
+            "countryName": "Curacao",
+            "countryCode": "CUW",
+            "primaryTeamId": 8464,
+            "primaryTeamName": "NEC Nijmegen",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 1337478,
+            "firstName": "Deveron",
+            "lastName": "Fonville",
+            "rankings": null
+          },
+          {
+            "id": 1243246,
+            "age": 22,
+            "name": "Livano Comenencia",
+            "positionId": 63,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "Curacao",
+            "countryCode": "CUW",
+            "primaryTeamId": 10243,
+            "primaryTeamName": "FC Zürich",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 1017772,
+            "firstName": "Livano",
+            "lastName": "Comenencia",
+            "rankings": null
+          },
+          {
+            "id": 183500,
+            "age": 34,
+            "name": "Leandro Bacuna",
+            "positionId": 65,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "10",
+            "countryName": "Curacao",
+            "countryCode": "CUW",
+            "primaryTeamId": 1281818,
+            "primaryTeamName": "Igdir FK",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 187406,
+            "firstName": "Leandro",
+            "lastName": "Bacuna",
+            "rankings": null
+          },
+          {
+            "id": 614574,
+            "age": 28,
+            "name": "Juninho Bacuna",
+            "positionId": 67,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "7",
+            "countryName": "Curacao",
+            "countryCode": "CUW",
+            "primaryTeamId": 6601,
+            "primaryTeamName": "FC Volendam",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 1452865,
+            "firstName": "Juninho",
+            "lastName": "Bacuna",
+            "rankings": null
+          },
+          {
+            "id": 751066,
+            "age": 26,
+            "name": "Tahith Chong",
+            "positionId": 85,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "21",
+            "countryName": "Curacao",
+            "countryCode": "CUW",
+            "primaryTeamId": 8657,
+            "primaryTeamName": "Sheffield United",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 2849292,
+            "firstName": "Tahith",
+            "lastName": "Chong",
+            "rankings": null
+          },
+          {
+            "id": 289441,
+            "age": 32,
+            "name": "Jürgen Locadia",
+            "positionId": 104,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "9",
+            "countryName": "Curacao",
+            "countryCode": "CUW",
+            "primaryTeamId": 721896,
+            "primaryTeamName": "Miami FC",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 124148,
+            "firstName": "Jürgen",
+            "lastName": "Locadia",
+            "rankings": null
+          },
+          {
+            "id": 1050160,
+            "age": 24,
+            "name": "Sontje Hansen",
+            "positionId": 106,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "12",
+            "countryName": "Curacao",
+            "countryCode": "CUW",
+            "primaryTeamId": 8549,
+            "primaryTeamName": "Middlesbrough",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.26
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 4401694,
+            "firstName": "Sontje",
+            "lastName": "Hansen",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 78614,
+          "age": 78,
+          "name": "Dick Advocaat",
+          "countryName": "Netherlands",
+          "countryCode": "NED",
+          "firstName": "Dick",
+          "lastName": "Advocaat",
+          "primaryTeamId": 287981,
+          "primaryTeamName": "Curacao",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "averageStarterAge": 28.6,
+        "totalStarterMarketValue": 15691708
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894794",
+      "url": "https://data.fotmob.com/tables.ext.894794.fot.gz",
+      "teams": [
+        6707,
+        287981
+      ],
+      "tournamentNameForUrl": "World Cup Grp. E",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": false,
+    "momentum": false
+  },
+  "seo": {
+    "path": "ecuador-vs-curacao",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667779",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Ecuador",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6707.png",
+        "url": "https://www.fotmob.com/teams/6707/overview/ecuador",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Curacao",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/287981.png",
+        "url": "https://www.fotmob.com/teams/287981/overview/curacao",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Ecuador vs Curacao",
+      "description": "Follow Ecuador vs Curacao live on fotmob.com",
+      "startDate": "2026-06-21T00:00:00.000Z",
+      "endDate": "2026-06-21T02:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Kansas City Stadium",
+        "latitude": 39.048931391,
+        "longitude": -94.483993649,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "United States",
+          "addressLocality": "Kansas City, Missouri"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/6707.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/287981.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667779",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-21T00:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Ecuador",
+          "url": "https://www.fotmob.com/teams/6707/overview/ecuador"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Curacao",
+          "url": "https://www.fotmob.com/teams/287981/overview/curacao"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. E",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-e"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ecuador - Curacao",
+            "item": "https://www.fotmob.com/match/4667779"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. E",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-e"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Curacao",
+            "item": "https://www.fotmob.com/teams/287981/overview/curacao"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Ecuador - Curacao",
+            "item": "https://www.fotmob.com/match/4667779"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. E",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-e"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ecuador",
+            "item": "https://www.fotmob.com/teams/6707/overview/ecuador"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Ecuador - Curacao",
+            "item": "https://www.fotmob.com/match/4667779"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

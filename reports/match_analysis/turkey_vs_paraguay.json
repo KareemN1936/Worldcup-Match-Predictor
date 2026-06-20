@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537347,
+    "date": "2026-06-20T03:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_D",
+    "home_team": "Turkey",
+    "away_team": "Paraguay"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.4766144156455993,
+    "draw_probability": 0.2440724968910217,
+    "away_win_probability": 0.2793130874633789,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 39.9713865762285,
+      "points_last_5_diff": 3.0,
+      "points_last_10_diff": 8.0,
+      "goal_difference_last_5_diff": 3.0,
+      "goals_for_last_5_diff": -1.0,
+      "goals_against_last_5_diff": -4.0,
+      "weighted_points_last_5_diff": 24.0,
+      "weighted_goal_difference_last_5_diff": 13.5,
+      "wins_last_5_diff": 1.0,
+      "draws_last_5_diff": 0.0,
+      "losses_last_5_diff": -1.0,
+      "clean_sheets_last_5_diff": 1.0,
+      "failed_to_score_last_5_diff": 1.0,
+      "matches_played_2y_diff": 3.0,
+      "win_rate_2y_diff": 0.2625418060200669,
+      "draw_rate_2y_diff": -0.1454849498327759,
+      "loss_rate_2y_diff": -0.11705685618729095,
+      "goals_for_per_match_2y_diff": 0.705685618729097,
+      "goals_against_per_match_2y_diff": 0.013377926421404673,
+      "goal_difference_per_match_2y_diff": 0.6923076923076923,
+      "clean_sheet_rate_2y_diff": -0.08361204013377926,
+      "failed_to_score_rate_2y_diff": 0.013377926421404701,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 39.9713865762285,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 24.0,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 8.0,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -4.0,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 3.0,
+        "leader": "Turkey"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 39.9713865762285,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 3.0,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 8.0,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 3.0,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -1.0,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -4.0,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 24.0,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.2625418060200669,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.6923076923076923,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.013377926421404673,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.08361204013377926,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.013377926421404701,
+        "leader": "Paraguay"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.4444444444444444,
+    "enrichment_score": 0.1993939393939395,
+    "probability_shift": 0.0088619528619528,
+    "top_signals": "starting XI rating:home; goal difference:home; player rating:home",
+    "home_win_probability": 0.4863383500141092,
+    "draw_probability": 0.2427303192480998,
+    "away_win_probability": 0.2709313307377909,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.6000000000000005,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.2500000000000009,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.2500000000000009,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.6000000000000005,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 27.23076923076923,
+    "away_avg_age": 28.53846153846154,
+    "home_forwards": 5,
+    "away_forwards": 7,
+    "home_midfielders": 8,
+    "away_midfielders": 8,
+    "home_defenders": 10,
+    "away_defenders": 8,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -2.0,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 2.0,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.3076923076923102,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.3076923076923102,
+        "leader": "Turkey"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -2.0,
+        "leader": "Paraguay"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 2.0,
+        "leader": "Turkey"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

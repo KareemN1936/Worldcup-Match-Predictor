@@ -1,0 +1,2021 @@
+{
+  "general": {
+    "matchId": "4667822",
+    "matchName": "Portugal-vs-Uzbekistan_Tue, Jun 23, 2026, 17:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ab0027",
+        "away": "#005acf"
+      },
+      "lightMode": {
+        "home": "#ab0027",
+        "away": "#294AA7"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894800,
+    "leagueName": "World Cup Grp. K",
+    "leagueRoundName": "2",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Portugal",
+      "id": 8361
+    },
+    "awayTeam": {
+      "name": "Uzbekistan",
+      "id": 8700
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Tue, Jun 23, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-06-23T17:00:00.000Z",
+    "started": false,
+    "finished": false,
+    "gender": "male"
+  },
+  "header": {
+    "teams": [
+      {
+        "name": "Portugal",
+        "id": 8361,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8361_small.png",
+        "pageUrl": "/teams/8361/overview/portugal",
+        "fifaRank": 5
+      },
+      {
+        "name": "Uzbekistan",
+        "id": 8700,
+        "score": 0,
+        "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8700_small.png",
+        "pageUrl": "/teams/8700/overview/uzbekistan",
+        "fifaRank": 50
+      }
+    ],
+    "status": {
+      "utcTime": "2026-06-23T17:00:00.000Z",
+      "numberOfHomeRedCards": 0,
+      "numberOfAwayRedCards": 0,
+      "halfs": {},
+      "started": false,
+      "cancelled": false,
+      "finished": false
+    },
+    "events": null
+  },
+  "nav": [
+    "matchfacts",
+    "table",
+    "injured"
+  ],
+  "ongoing": false,
+  "hasPendingVAR": false,
+  "content": {
+    "matchFacts": {
+      "matchId": 4667822,
+      "highlights": null,
+      "playerOfTheMatch": {},
+      "events": {
+        "ongoing": true,
+        "events": [],
+        "eventTypes": [
+          "Injuries"
+        ],
+        "penaltyShootoutEvents": null
+      },
+      "infoBox": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-06-23T17:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 894800,
+          "parentLeagueId": 77,
+          "link": "/leagues/77/overview/world-cup-grp-k",
+          "leagueName": "World Cup Grp. K",
+          "roundName": "2",
+          "round": "2"
+        },
+        "Stadium": {
+          "name": "Houston Stadium",
+          "city": "Houston, Texas",
+          "country": "United States",
+          "lat": 29.684827801,
+          "long": -95.410938263,
+          "capacity": 71054,
+          "surface": "grass"
+        },
+        "Referee": {
+          "text": "",
+          "countryCode": "",
+          "country": ""
+        },
+        "Attendance": null
+      },
+      "teamForm": [
+        [
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6710_xsmall.png",
+            "linkToMatch": "/matches/mexico-vs-portugal/1vmhix#5083233",
+            "date": {
+              "utcTime": "2026-03-29T01:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6710/overview/mexico",
+            "tooltipText": {
+              "utcTime": "2026-03-29T01:00:00.000Z",
+              "homeTeam": "Mexico",
+              "homeTeamId": 6710,
+              "homeScore": "0",
+              "awayTeam": "Portugal",
+              "awayTeamId": 8361,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "6710",
+              "name": "Mexico",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "8361",
+              "name": "Portugal",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6713_xsmall.png",
+            "linkToMatch": "/matches/usa-vs-portugal/1vngf0#5083234",
+            "date": {
+              "utcTime": "2026-03-31T23:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6713/overview/usa",
+            "tooltipText": {
+              "utcTime": "2026-03-31T23:00:00.000Z",
+              "homeTeam": "USA",
+              "homeTeamId": 6713,
+              "homeScore": "0",
+              "awayTeam": "Portugal",
+              "awayTeamId": 8361,
+              "awayScore": "2"
+            },
+            "score": "0 - 2",
+            "home": {
+              "id": "6713",
+              "name": "USA",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "8361",
+              "name": "Portugal",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9762_xsmall.png",
+            "linkToMatch": "/matches/portugal-vs-chile/2ps8p0#5418304",
+            "date": {
+              "utcTime": "2026-06-06T17:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/9762/overview/chile",
+            "tooltipText": {
+              "utcTime": "2026-06-06T17:45:00.000Z",
+              "homeTeam": "Portugal",
+              "homeTeamId": 8361,
+              "homeScore": "2",
+              "awayTeam": "Chile",
+              "awayTeamId": 9762,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "8361",
+              "name": "Portugal",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "9762",
+              "name": "Chile",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6346_xsmall.png",
+            "linkToMatch": "/matches/nigeria-vs-portugal/1seblj#5293170",
+            "date": {
+              "utcTime": "2026-06-10T19:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/6346/overview/nigeria",
+            "tooltipText": {
+              "utcTime": "2026-06-10T19:45:00.000Z",
+              "homeTeam": "Portugal",
+              "homeTeamId": 8361,
+              "homeScore": "2",
+              "awayTeam": "Nigeria",
+              "awayTeamId": 6346,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "8361",
+              "name": "Portugal",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6346",
+              "name": "Nigeria",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6321_xsmall.png",
+            "linkToMatch": "/matches/dr-congo-vs-portugal/1s6g4o#4667819",
+            "date": {
+              "utcTime": "2026-06-17T17:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/6321/overview/dr-congo",
+            "tooltipText": {
+              "utcTime": "2026-06-17T17:00:00.000Z",
+              "homeTeam": "Portugal",
+              "homeTeamId": 8361,
+              "homeScore": "1",
+              "awayTeam": "DR Congo",
+              "awayTeamId": 6321,
+              "awayScore": "1"
+            },
+            "score": "1 - 1",
+            "home": {
+              "id": "8361",
+              "name": "Portugal",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "6321",
+              "name": "DR Congo",
+              "isOurTeam": false
+            }
+          }
+        ],
+        [
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5889_xsmall.png",
+            "linkToMatch": "/matches/gabon-vs-uzbekistan/1rda4f#5187289",
+            "date": {
+              "utcTime": "2026-03-27T14:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5889/overview/gabon",
+            "tooltipText": {
+              "utcTime": "2026-03-27T14:00:00.000Z",
+              "homeTeam": "Uzbekistan",
+              "homeTeamId": 8700,
+              "homeScore": "3",
+              "awayTeam": "Gabon",
+              "awayTeamId": 5889,
+              "awayScore": "1"
+            },
+            "score": "3 - 1",
+            "home": {
+              "id": "8700",
+              "name": "Uzbekistan",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5889",
+              "name": "Gabon",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": 0,
+            "resultString": "D",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5800_xsmall.png",
+            "linkToMatch": "/matches/venezuela-vs-uzbekistan/1qlj9y#5187291",
+            "date": {
+              "utcTime": "2026-03-30T14:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5800/overview/venezuela",
+            "tooltipText": {
+              "utcTime": "2026-03-30T14:00:00.000Z",
+              "homeTeam": "Uzbekistan",
+              "homeTeamId": 8700,
+              "homeScore": "0",
+              "awayTeam": "Venezuela",
+              "awayTeamId": 5800,
+              "awayScore": "0"
+            },
+            "score": "0 - 0",
+            "home": {
+              "id": "8700",
+              "name": "Uzbekistan",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "5800",
+              "name": "Venezuela",
+              "isOurTeam": false
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/5810_xsmall.png",
+            "linkToMatch": "/matches/canada-vs-uzbekistan/1qon79#5142040",
+            "date": {
+              "utcTime": "2026-06-02T01:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/5810/overview/canada",
+            "tooltipText": {
+              "utcTime": "2026-06-02T01:00:00.000Z",
+              "homeTeam": "Canada",
+              "homeTeamId": 5810,
+              "homeScore": "2",
+              "awayTeam": "Uzbekistan",
+              "awayTeamId": 8700,
+              "awayScore": "0"
+            },
+            "score": "2 - 0",
+            "home": {
+              "id": "5810",
+              "name": "Canada",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "8700",
+              "name": "Uzbekistan",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/6708_xsmall.png",
+            "linkToMatch": "/matches/netherlands-vs-uzbekistan/1yokno#5648191",
+            "date": {
+              "utcTime": "2026-06-08T18:45:00.000Z"
+            },
+            "teamPageUrl": "/teams/6708/overview/netherlands",
+            "tooltipText": {
+              "utcTime": "2026-06-08T18:45:00.000Z",
+              "homeTeam": "Netherlands",
+              "homeTeamId": 6708,
+              "homeScore": "2",
+              "awayTeam": "Uzbekistan",
+              "awayTeamId": 8700,
+              "awayScore": "1"
+            },
+            "score": "2 - 1",
+            "home": {
+              "id": "6708",
+              "name": "Netherlands",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "8700",
+              "name": "Uzbekistan",
+              "isOurTeam": true
+            }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8258_xsmall.png",
+            "linkToMatch": "/matches/colombia-vs-uzbekistan/2dm7x9#4667820",
+            "date": {
+              "utcTime": "2026-06-18T02:00:00.000Z"
+            },
+            "teamPageUrl": "/teams/8258/overview/colombia",
+            "tooltipText": {
+              "utcTime": "2026-06-18T02:00:00.000Z",
+              "homeTeam": "Uzbekistan",
+              "homeTeamId": 8700,
+              "homeScore": "1",
+              "awayTeam": "Colombia",
+              "awayTeamId": 8258,
+              "awayScore": "3"
+            },
+            "score": "1 - 3",
+            "home": {
+              "id": "8700",
+              "name": "Uzbekistan",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "8258",
+              "name": "Colombia",
+              "isOurTeam": false
+            }
+          }
+        ]
+      ],
+      "poll": {
+        "oddspoll": {
+          "PollName": "oddspoll-match-4667822",
+          "MatchId": 4667822,
+          "HomeTeamId": 8361,
+          "AwayTeamId": 8700,
+          "HomeTeam": "Portugal",
+          "AwayTeam": "Uzbekistan",
+          "Facts": [
+            {
+              "OddsType": "1x2",
+              "DefaultLabel": "Who will win?",
+              "TextLabelId": "who_will_win",
+              "DefaultTemplate": "{0} haven't lost in {1} matches.",
+              "TextTemplateId": "undefeated_team",
+              "StatValues": [
+                "home_team",
+                "6"
+              ],
+              "DefaultLabels": [
+                "1",
+                "x",
+                "2"
+              ],
+              "LabelTemplates": [
+                "label_1",
+                "label_x",
+                "label_2"
+              ],
+              "Icon": "poll_stat_up",
+              "defaultText": "Portugal haven't lost in 6 matches."
+            },
+            {
+              "OddsType": "bts",
+              "DefaultLabel": "Will both teams score?",
+              "TextLabelId": "both_score",
+              "DefaultTemplate": "{0} have scored in their last {1} home matches.",
+              "TextTemplateId": "goalstreak_team_home",
+              "StatValues": [
+                "home_team",
+                "7"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Portugal have scored in their last 7 home matches."
+            },
+            {
+              "OddsType": "ou",
+              "DefaultLabel": "Will there be more than 2.5 goals?",
+              "TextLabelId": "over_under",
+              "DefaultTemplate": "{0} have an average of {2} goals in their last three matches and {1} have an average of {3}.",
+              "TextTemplateId": "average_goals_last3_both",
+              "StatValues": [
+                "home_team",
+                "away_team",
+                "1.67",
+                "0.67"
+              ],
+              "DefaultLabels": [
+                "yes",
+                "no"
+              ],
+              "LabelTemplates": [
+                "label_yes",
+                "label_no"
+              ],
+              "Icon": "poll_goal",
+              "defaultText": "Portugal have an average of 1.67 goals in their last three matches and Uzbekistan have an average of 0.67."
+            },
+            {
+              "OddsType": "dc",
+              "DefaultLabel": "Double chance",
+              "TextLabelId": "double_chance",
+              "DefaultTemplate": "{0} haven't drawn in their last {1} matches.",
+              "TextTemplateId": "draw_streak_team",
+              "StatValues": [
+                "away_team",
+                "9"
+              ],
+              "DefaultLabels": [
+                "1x",
+                "12",
+                "x2"
+              ],
+              "LabelTemplates": [
+                "label_1x",
+                "label_12",
+                "label_x2"
+              ],
+              "Icon": "poll_teams",
+              "defaultText": "Uzbekistan haven't drawn in their last 9 matches."
+            }
+          ]
+        },
+        "renderToTop": true
+      },
+      "topPlayers": {
+        "homeTopPlayers": [],
+        "awayTopPlayers": []
+      },
+      "insights": [
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 8361,
+          "priority": 1343,
+          "defaultText": "Haven't lost in {0} matches",
+          "localizedTextId": "insights_undefeated_team",
+          "statValues": [
+            {
+              "value": 6,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Haven't lost in 6 matches",
+          "color": "#ab0027"
+        },
+        {
+          "type": "team",
+          "playerId": null,
+          "teamId": 8700,
+          "priority": 1344,
+          "defaultText": "Have lost their last {0} matches",
+          "localizedTextId": "insights_bad_form_team",
+          "statValues": [
+            {
+              "value": 3,
+              "name": null,
+              "type": "integer"
+            }
+          ],
+          "text": "Have lost their last 3 matches",
+          "color": "#294AA7"
+        }
+      ],
+      "topScorers": {
+        "section": "Top scorers",
+        "sectionId": 6,
+        "homePlayer": {
+          "playerId": 1342757,
+          "position": 2,
+          "matchesWithRating": 1,
+          "lastName": "Neves",
+          "fullName": "João Neves",
+          "stats": {
+            "goals": 1,
+            "goalAssist": 0,
+            "ontargetScoringAtt": 1,
+            "motm": 1,
+            "gamesPlayed": 1,
+            "minsPlayed": 90,
+            "minsPlayedGoal": 90,
+            "expectedGoals": 0.052400000393390656,
+            "playerRating": 8.15
+          }
+        },
+        "awayPlayer": {
+          "playerId": 1249993,
+          "position": 3,
+          "matchesWithRating": 1,
+          "lastName": "Fayzullayev",
+          "fullName": "Abbosbek Fayzullayev",
+          "stats": {
+            "goals": 1,
+            "goalAssist": 0,
+            "ontargetScoringAtt": 1,
+            "motm": 0,
+            "gamesPlayed": 1,
+            "minsPlayed": 77,
+            "minsPlayedGoal": 77,
+            "expectedGoals": 0.9822999835014343,
+            "playerRating": 7.13
+          }
+        },
+        "statsOrder": [
+          "playerRating",
+          "goals",
+          "expectedGoals",
+          "goalAssist",
+          "minsPlayedGoal",
+          "ontargetScoringAtt",
+          "motm",
+          "gamesPlayed",
+          "minsPlayed"
+        ]
+      },
+      "countryCode": "INT",
+      "QAData": [],
+      "matchInsightsConfig": {
+        "hasBettingInsight": true,
+        "urlTemplate": "https://data.fotmob.com/generated-match-insights/77/4667822/matchinsights_{lang}.json",
+        "languages": [
+          "en",
+          "nb",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ar",
+          "pt-BR"
+        ]
+      }
+    },
+    "liveticker": false,
+    "superlive": {
+      "superLiveUrl": null,
+      "showSuperLive": false
+    },
+    "buzz": null,
+    "stats": null,
+    "playerStats": null,
+    "shotmap": {
+      "shots": [],
+      "Periods": {
+        "All": []
+      }
+    },
+    "weather": {
+      "temperature": 31,
+      "windSpeed": 4,
+      "windDirectionCardinal": "S",
+      "iconCode": 30,
+      "relativeHumidity": 65,
+      "precipChance": 5,
+      "precipitation": 0,
+      "snow": 0,
+      "cloudCover": 34,
+      "description": "Partly Cloudy",
+      "apiUsed": "forecast",
+      "lastUpdated": "2026-06-20T19:00:14Z",
+      "localizedKey": "weather_condition_partly_cloudy",
+      "defaultTitle": "Partly Cloudy"
+    },
+    "lineup": {
+      "matchId": 4667822,
+      "lineupType": "lastStarting11",
+      "source": "lastStartingLineups",
+      "availableFilters": [
+        "marketValue",
+        "age",
+        "team"
+      ],
+      "homeTeam": {
+        "id": 8361,
+        "name": "Portugal",
+        "formation": "4-2-3-1",
+        "starters": [
+          {
+            "id": 795630,
+            "age": 26,
+            "name": "Diogo Costa",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 9773,
+            "primaryTeamName": "FC Porto",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 41250452,
+            "firstName": "Diogo",
+            "lastName": "Costa",
+            "rankings": null
+          },
+          {
+            "id": 361757,
+            "age": 32,
+            "name": "João Cancelo",
+            "positionId": 32,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "20",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 8634,
+            "primaryTeamName": "Barcelona",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 8009864,
+            "firstName": "João",
+            "lastName": "Cancelo",
+            "rankings": null
+          },
+          {
+            "id": 1187283,
+            "age": 24,
+            "name": "Tomás Araújo",
+            "positionId": 34,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "4",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 9772,
+            "primaryTeamName": "Benfica",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 33234023,
+            "firstName": "Tomás",
+            "lastName": "Araújo",
+            "rankings": null
+          },
+          {
+            "id": 1343750,
+            "age": 22,
+            "name": "Renato Veiga",
+            "positionId": 36,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "13",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 10205,
+            "primaryTeamName": "Villarreal",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 27392170,
+            "firstName": "Renato",
+            "lastName": "Veiga",
+            "rankings": null
+          },
+          {
+            "id": 1158945,
+            "age": 24,
+            "name": "Nuno Mendes",
+            "positionId": 38,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "25",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 9847,
+            "primaryTeamName": "Paris Saint-Germain",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 74117178,
+            "firstName": "Nuno",
+            "lastName": "Mendes",
+            "rankings": null
+          },
+          {
+            "id": 1342757,
+            "age": 21,
+            "name": "João Neves",
+            "positionId": 64,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "15",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 9847,
+            "primaryTeamName": "Paris Saint-Germain",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 83160931,
+            "firstName": "João",
+            "lastName": "Neves",
+            "rankings": null
+          },
+          {
+            "id": 1061249,
+            "age": 26,
+            "name": "Vitinha",
+            "positionId": 66,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "23",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 9847,
+            "primaryTeamName": "Paris Saint-Germain",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 115254274,
+            "firstName": "",
+            "lastName": "Vitinha",
+            "rankings": null
+          },
+          {
+            "id": 488139,
+            "age": 31,
+            "name": "Bernardo Silva",
+            "positionId": 83,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "10",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 8633,
+            "primaryTeamName": "Real Madrid",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.837,
+              "height": 0.25,
+              "width": 0.385
+            },
+            "verticalLayout": {
+              "x": 0.162,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.325
+            },
+            "marketValue": 21958596,
+            "firstName": "Bernardo",
+            "lastName": "Silva",
+            "rankings": null
+          },
+          {
+            "id": 422685,
+            "age": 31,
+            "name": "Bruno Fernandes",
+            "positionId": 85,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "8",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 10260,
+            "primaryTeamName": "Manchester United",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.337
+            },
+            "marketValue": 41424684,
+            "firstName": "Bruno",
+            "lastName": "Fernandes",
+            "rankings": null
+          },
+          {
+            "id": 843040,
+            "age": 26,
+            "name": "Pedro Neto",
+            "positionId": 87,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "18",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 8455,
+            "primaryTeamName": "Chelsea",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.163,
+              "height": 0.25,
+              "width": 0.193
+            },
+            "verticalLayout": {
+              "x": 0.837,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.325
+            },
+            "marketValue": 63829619,
+            "firstName": "Pedro",
+            "lastName": "Neto",
+            "rankings": null
+          },
+          {
+            "id": 30893,
+            "age": 41,
+            "name": "Cristiano Ronaldo",
+            "positionId": 115,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "7",
+            "isCaptain": true,
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 101918,
+            "primaryTeamName": "Al Nassr FC",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 10428964,
+            "firstName": "Cristiano",
+            "lastName": "Ronaldo",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 35382,
+          "age": 52,
+          "name": "Roberto Martínez",
+          "countryName": "Spain",
+          "countryCode": "ESP",
+          "firstName": "Roberto",
+          "lastName": "Martínez",
+          "primaryTeamId": 8361,
+          "primaryTeamName": "Portugal",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "subs": [
+          {
+            "id": 416175,
+            "age": 33,
+            "name": "José Sá",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "12",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 8602,
+            "primaryTeamName": "Wolverhampton Wanderers",
+            "marketValue": 5668745,
+            "firstName": "José",
+            "lastName": "Sá",
+            "rankings": null
+          },
+          {
+            "id": 361717,
+            "age": 32,
+            "name": "Rui Silva",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "22",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 9768,
+            "primaryTeamName": "Sporting CP",
+            "firstName": "Rui",
+            "lastName": "Silva",
+            "rankings": null
+          },
+          {
+            "id": 751550,
+            "age": 27,
+            "name": "Diogo Dalot",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 10260,
+            "primaryTeamName": "Manchester United",
+            "marketValue": 37614885,
+            "firstName": "Diogo",
+            "lastName": "Dalot",
+            "rankings": null
+          },
+          {
+            "id": 1165710,
+            "age": 24,
+            "name": "Gonçalo Inácio",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "14",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 9768,
+            "primaryTeamName": "Sporting CP",
+            "marketValue": 41469017,
+            "firstName": "Gonçalo",
+            "lastName": "Inácio",
+            "rankings": null
+          },
+          {
+            "id": 955529,
+            "age": 27,
+            "name": "Matheus Nunes",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "6",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 8456,
+            "primaryTeamName": "Manchester City",
+            "marketValue": 52493932,
+            "firstName": "Matheus",
+            "lastName": "Nunes",
+            "rankings": null
+          },
+          {
+            "id": 470834,
+            "age": 32,
+            "name": "Nélson Semedo",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "2",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 8695,
+            "primaryTeamName": "Fenerbahçe",
+            "marketValue": 4137762,
+            "firstName": "Nélson",
+            "lastName": "Semedo",
+            "rankings": null
+          },
+          {
+            "id": 614006,
+            "age": 29,
+            "name": "Rúben Dias",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 8456,
+            "primaryTeamName": "Manchester City",
+            "marketValue": 51902198,
+            "firstName": "Rúben",
+            "lastName": "Dias",
+            "rankings": null
+          },
+          {
+            "id": 1185336,
+            "age": 23,
+            "name": "Francisco Conceição",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "26",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 9885,
+            "primaryTeamName": "Juventus",
+            "marketValue": 33800999,
+            "firstName": "Francisco",
+            "lastName": "Conceição",
+            "rankings": null
+          },
+          {
+            "id": 534684,
+            "age": 29,
+            "name": "Rúben Neves",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "21",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 2529,
+            "primaryTeamName": "Al Hilal",
+            "marketValue": 18724266,
+            "firstName": "Rúben",
+            "lastName": "Neves",
+            "rankings": null
+          },
+          {
+            "id": 1130583,
+            "age": 25,
+            "name": "Samú",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "24",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 8661,
+            "primaryTeamName": "Mallorca",
+            "marketValue": 16694598,
+            "firstName": "",
+            "lastName": "Samú",
+            "rankings": null
+          },
+          {
+            "id": 732282,
+            "age": 26,
+            "name": "Trincão",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "16",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 9768,
+            "primaryTeamName": "Sporting CP",
+            "marketValue": 40083898,
+            "firstName": "",
+            "lastName": "Trincão",
+            "rankings": null
+          },
+          {
+            "id": 536455,
+            "age": 29,
+            "name": "Gonçalo Guedes",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "19",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 8560,
+            "primaryTeamName": "Real Sociedad",
+            "marketValue": 6180035,
+            "firstName": "Gonçalo",
+            "lastName": "Guedes",
+            "rankings": null
+          },
+          {
+            "id": 940087,
+            "age": 25,
+            "name": "Gonçalo Ramos",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "9",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 9847,
+            "primaryTeamName": "Paris Saint-Germain",
+            "marketValue": 39286781,
+            "firstName": "Gonçalo",
+            "lastName": "Ramos",
+            "rankings": null
+          },
+          {
+            "id": 794427,
+            "age": 26,
+            "name": "Joao Félix",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "11",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 101918,
+            "primaryTeamName": "Al Nassr FC",
+            "marketValue": 18585158,
+            "firstName": "Joao",
+            "lastName": "Félix",
+            "shortName": "Joao Félix",
+            "rankings": null
+          },
+          {
+            "id": 848844,
+            "age": 27,
+            "name": "Rafael Leão",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "17",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "primaryTeamId": 8564,
+            "primaryTeamName": "Milan",
+            "marketValue": 66500201,
+            "firstName": "Rafael",
+            "lastName": "Leão",
+            "rankings": null
+          }
+        ],
+        "unavailable": [
+          {
+            "id": 1187283,
+            "age": 24,
+            "name": "Tomás Araújo",
+            "countryName": "Portugal",
+            "countryCode": "POR",
+            "marketValue": 33234023,
+            "unavailability": {
+              "injuryId": 121,
+              "type": "injury",
+              "expectedReturn": "Doubtful"
+            },
+            "firstName": "Tomás",
+            "lastName": "Araújo"
+          }
+        ],
+        "averageStarterAge": 28.1,
+        "totalStarterMarketValue": 520060755,
+        "lastMatch": {
+          "matchId": 4667819,
+          "homeTeamId": 8361,
+          "awayTeamId": 6321,
+          "homeTeamName": "Portugal",
+          "awayTeamName": "DR Congo",
+          "homeScore": 1,
+          "awayScore": 1,
+          "matchDate": "2026-06-17T19:00:00"
+        }
+      },
+      "awayTeam": {
+        "id": 8700,
+        "name": "Uzbekistan",
+        "formation": "3-4-2-1",
+        "starters": [
+          {
+            "id": 619700,
+            "age": 35,
+            "name": "Utkir Yusupov",
+            "positionId": 11,
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "1",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 139914,
+            "primaryTeamName": "Foolad Khuzestan",
+            "horizontalLayout": {
+              "x": 0.1,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.1,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 117550,
+            "firstName": "Utkir",
+            "lastName": "Yusupov",
+            "rankings": null
+          },
+          {
+            "id": 1362998,
+            "age": 22,
+            "name": "Abdukodir Khusanov",
+            "positionId": 33,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "2",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 8456,
+            "primaryTeamName": "Manchester City",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.79,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.21,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 47021741,
+            "firstName": "Abdukodir",
+            "lastName": "Khusanov",
+            "rankings": null
+          },
+          {
+            "id": 1294120,
+            "age": 28,
+            "name": "Abdulla Abdullaev",
+            "positionId": 35,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "18",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 391664,
+            "primaryTeamName": "Dibba Al Fujairah",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "firstName": "Abdulla",
+            "lastName": "Abdullaev",
+            "rankings": null
+          },
+          {
+            "id": 643624,
+            "age": 29,
+            "name": "Rustamjon Ashurmatov",
+            "positionId": 37,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "5",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 101614,
+            "primaryTeamName": "Esteghlal",
+            "horizontalLayout": {
+              "x": 0.292,
+              "y": 0.21,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.79,
+              "y": 0.292,
+              "height": 0.192,
+              "width": 0.29
+            },
+            "marketValue": 450370,
+            "firstName": "Rustamjon",
+            "lastName": "Ashurmatov",
+            "rankings": null
+          },
+          {
+            "id": 1898281,
+            "age": 18,
+            "name": "Behruzjon Karimov",
+            "positionId": 62,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "24",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.875,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.125,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "firstName": "Behruzjon",
+            "lastName": "Karimov",
+            "rankings": null
+          },
+          {
+            "id": 929168,
+            "age": 26,
+            "name": "Akmal Mozgovoy",
+            "positionId": 64,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "6",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 182933,
+            "primaryTeamName": "Baniyas",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.625,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.375,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 747979,
+            "firstName": "Akmal",
+            "lastName": "Mozgovoy",
+            "rankings": null
+          },
+          {
+            "id": 624405,
+            "age": 30,
+            "name": "Otabek Shukurov",
+            "positionId": 66,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "7",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 182933,
+            "primaryTeamName": "Baniyas",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.375,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.625,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 851980,
+            "firstName": "Otabek",
+            "lastName": "Shukurov",
+            "rankings": null
+          },
+          {
+            "id": 1258316,
+            "age": 27,
+            "name": "Sherzod Nasrulloev",
+            "positionId": 68,
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "13",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 102153,
+            "primaryTeamName": "Nasaf Qarshi",
+            "horizontalLayout": {
+              "x": 0.485,
+              "y": 0.125,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.875,
+              "y": 0.485,
+              "height": 0.192,
+              "width": 0.25
+            },
+            "marketValue": 512561,
+            "firstName": "Sherzod",
+            "lastName": "Nasrulloev",
+            "rankings": null
+          },
+          {
+            "id": 1249993,
+            "age": 22,
+            "name": "Abbosbek Fayzullayev",
+            "positionId": 84,
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "22",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 1933,
+            "primaryTeamName": "Başakşehir",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.7,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.3,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 9290438,
+            "firstName": "Abbosbek",
+            "lastName": "Fayzullayev",
+            "rankings": null
+          },
+          {
+            "id": 1057486,
+            "age": 25,
+            "name": "Oston Urunov",
+            "positionId": 86,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "11",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 101610,
+            "primaryTeamName": "Persepolis",
+            "horizontalLayout": {
+              "x": 0.678,
+              "y": 0.3,
+              "height": 0.25,
+              "width": 0.193
+            },
+            "verticalLayout": {
+              "x": 0.7,
+              "y": 0.678,
+              "height": 0.192,
+              "width": 0.4
+            },
+            "marketValue": 1476986,
+            "firstName": "Oston",
+            "lastName": "Urunov",
+            "rankings": null
+          },
+          {
+            "id": 619513,
+            "age": 30,
+            "name": "Eldor Shomurodov",
+            "positionId": 105,
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "14",
+            "isCaptain": true,
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 1933,
+            "primaryTeamName": "Başakşehir",
+            "horizontalLayout": {
+              "x": 0.87,
+              "y": 0.5,
+              "height": 0.25,
+              "width": 0.192
+            },
+            "verticalLayout": {
+              "x": 0.5,
+              "y": 0.87,
+              "height": 0.192,
+              "width": 1
+            },
+            "marketValue": 5632756,
+            "firstName": "Eldor",
+            "lastName": "Shomurodov",
+            "rankings": null
+          }
+        ],
+        "coach": {
+          "id": 34520,
+          "age": 52,
+          "name": "Fabio Cannavaro",
+          "countryName": "Italy",
+          "countryCode": "ITA",
+          "firstName": "Fabio",
+          "lastName": "Cannavaro",
+          "primaryTeamId": 8700,
+          "primaryTeamName": "Uzbekistan",
+          "usualPlayingPositionId": null,
+          "isCoach": true
+        },
+        "subs": [
+          {
+            "id": 1259187,
+            "age": 25,
+            "name": "Abduvohid Nematov",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "12",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 102153,
+            "primaryTeamName": "Nasaf Qarshi",
+            "marketValue": 835722,
+            "firstName": "Abduvohid",
+            "lastName": "Nematov",
+            "rankings": null
+          },
+          {
+            "id": 643639,
+            "age": 31,
+            "name": "Botirali Ergashev",
+            "usualPlayingPositionId": 0,
+            "shirtNumber": "16",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 115128,
+            "primaryTeamName": "AGMK",
+            "marketValue": 194020,
+            "firstName": "Botirali",
+            "lastName": "Ergashev",
+            "rankings": null
+          },
+          {
+            "id": 1029597,
+            "age": 26,
+            "name": "Avazbek Ulasmaliev",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "25",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 115128,
+            "primaryTeamName": "AGMK",
+            "firstName": "Avazbek",
+            "lastName": "Ulasmaliev",
+            "rankings": null
+          },
+          {
+            "id": 1477513,
+            "age": 22,
+            "name": "Jakhongir Urozov",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "26",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "marketValue": 817362,
+            "firstName": "Jakhongir",
+            "lastName": "Urozov",
+            "rankings": null
+          },
+          {
+            "id": 940778,
+            "age": 29,
+            "name": "Khoziakbar Alidzhanov",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "3",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 102141,
+            "primaryTeamName": "Pakhtakor Tashkent",
+            "firstName": "Khoziakbar",
+            "lastName": "Alidzhanov",
+            "rankings": null
+          },
+          {
+            "id": 922298,
+            "age": 33,
+            "name": "Umar Eshmuradov",
+            "usualPlayingPositionId": 1,
+            "shirtNumber": "15",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 102153,
+            "primaryTeamName": "Nasaf Qarshi",
+            "marketValue": 89238,
+            "firstName": "Umar",
+            "lastName": "Eshmuradov",
+            "rankings": null
+          },
+          {
+            "id": 933051,
+            "age": 28,
+            "name": "Azizbek Amonov",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "20",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 102149,
+            "primaryTeamName": "Dinamo Samarkand",
+            "marketValue": 138709,
+            "firstName": "Azizbek",
+            "lastName": "Amonov",
+            "rankings": null
+          },
+          {
+            "id": 629823,
+            "age": 28,
+            "name": "Azizjon Ganiev",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "19",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 1112866,
+            "primaryTeamName": "Al Bataeh",
+            "marketValue": 1539756,
+            "firstName": "Azizjon",
+            "lastName": "Ganiev",
+            "rankings": null
+          },
+          {
+            "id": 619508,
+            "age": 29,
+            "name": "Dostonbek Khamdamov",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "17",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 102141,
+            "primaryTeamName": "Pakhtakor Tashkent",
+            "marketValue": 178908,
+            "firstName": "Dostonbek",
+            "lastName": "Khamdamov",
+            "rankings": null
+          },
+          {
+            "id": 589585,
+            "age": 35,
+            "name": "Farrukh Sayfiev",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "4",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 102155,
+            "primaryTeamName": "Navbahor Namangan",
+            "marketValue": 71246,
+            "firstName": "Farrukh",
+            "lastName": "Sayfiev",
+            "rankings": null
+          },
+          {
+            "id": 619697,
+            "age": 30,
+            "name": "Odildzhon Khamrobekov",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "9",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 176352,
+            "primaryTeamName": "Tractor",
+            "marketValue": 770585,
+            "firstName": "Odildzhon",
+            "lastName": "Khamrobekov",
+            "rankings": null
+          },
+          {
+            "id": 1477517,
+            "age": 23,
+            "name": "Sherzod Esanov",
+            "usualPlayingPositionId": 2,
+            "shirtNumber": "23",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 102158,
+            "primaryTeamName": "Buxoro",
+            "marketValue": 142187,
+            "firstName": "Sherzod",
+            "lastName": "Esanov",
+            "rankings": null
+          },
+          {
+            "id": 251915,
+            "age": 33,
+            "name": "Igor Sergeev",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "21",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 101610,
+            "primaryTeamName": "Persepolis",
+            "marketValue": 828896,
+            "firstName": "Igor",
+            "lastName": "Sergeev",
+            "rankings": null
+          },
+          {
+            "id": 431169,
+            "age": 32,
+            "name": "Jamshid Iskandarov",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "8",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 102145,
+            "primaryTeamName": "Neftchi Fargona",
+            "marketValue": 475106,
+            "firstName": "Jamshid",
+            "lastName": "Iskandarov",
+            "rankings": null
+          },
+          {
+            "id": 1421621,
+            "age": 25,
+            "name": "Ruslanbek Jiyanov",
+            "usualPlayingPositionId": 3,
+            "shirtNumber": "10",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "primaryTeamId": 102155,
+            "primaryTeamName": "Navbahor Namangan",
+            "marketValue": 338535,
+            "firstName": "Ruslanbek",
+            "lastName": "Jiyanov",
+            "rankings": null
+          }
+        ],
+        "unavailable": [
+          {
+            "id": 643624,
+            "age": 29,
+            "name": "Rustamjon Ashurmatov",
+            "countryName": "Uzbekistan",
+            "countryCode": "UZB",
+            "marketValue": 450370,
+            "unavailability": {
+              "injuryId": 101,
+              "type": "injury",
+              "expectedReturn": "Doubtful"
+            },
+            "firstName": "Rustamjon",
+            "lastName": "Ashurmatov"
+          }
+        ],
+        "averageStarterAge": 27.2,
+        "totalStarterMarketValue": 66102361,
+        "lastMatch": {
+          "matchId": 4667820,
+          "homeTeamId": 8700,
+          "awayTeamId": 8258,
+          "homeTeamName": "Uzbekistan",
+          "awayTeamName": "Colombia",
+          "homeScore": 1,
+          "awayScore": 3,
+          "matchDate": "2026-06-18T04:00:00"
+        }
+      }
+    },
+    "hasPlayoff": false,
+    "table": {
+      "leagueId": "894800",
+      "url": "https://data.fotmob.com/tables.ext.894800.fot.gz",
+      "teams": [
+        8361,
+        8700
+      ],
+      "tournamentNameForUrl": "World Cup Grp. K",
+      "parentLeagueId": 77,
+      "countryCode": "INT"
+    },
+    "h2h": false,
+    "momentum": false
+  },
+  "seo": {
+    "path": "portugal-vs-uzbekistan",
+    "eventJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "SportsEvent",
+      "@id": "https://www.fotmob.com/match/4667822",
+      "sport": "Football/Soccer",
+      "homeTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Portugal",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8361.png",
+        "url": "https://www.fotmob.com/teams/8361/overview/portugal",
+        "location": null,
+        "memberOf": null
+      },
+      "awayTeam": {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "Uzbekistan",
+        "sport": "Football/Soccer",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8700.png",
+        "url": "https://www.fotmob.com/teams/8700/overview/uzbekistan",
+        "location": null,
+        "memberOf": null
+      },
+      "name": "Portugal vs Uzbekistan",
+      "description": "Follow Portugal vs Uzbekistan live on fotmob.com",
+      "startDate": "2026-06-23T17:00:00.000Z",
+      "endDate": "2026-06-23T19:00:00.000Z",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "Houston Stadium",
+        "latitude": 29.684827801,
+        "longitude": -95.410938263,
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "United States",
+          "addressLocality": "Houston, Texas"
+        }
+      },
+      "image": [
+        "https://images.fotmob.com/image_resources/logo/teamlogo/8361.png",
+        "https://images.fotmob.com/image_resources/logo/teamlogo/8700.png"
+      ],
+      "organizer": {
+        "@type": "Organization",
+        "name": "FotMob",
+        "url": "https://www.fotmob.com",
+        "logo": "https://www.fotmob.com/img/fotmob_icon_2017.png"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.fotmob.com/match/4667822",
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD",
+        "validFrom": "2026-06-23T17:00:00.000Z"
+      },
+      "performer": [
+        {
+          "@type": "SportsTeam",
+          "name": "Portugal",
+          "url": "https://www.fotmob.com/teams/8361/overview/portugal"
+        },
+        {
+          "@type": "SportsTeam",
+          "name": "Uzbekistan",
+          "url": "https://www.fotmob.com/teams/8700/overview/uzbekistan"
+        }
+      ]
+    },
+    "breadcrumbJSONLD": [
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. K",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-k"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Portugal - Uzbekistan",
+            "item": "https://www.fotmob.com/match/4667822"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. K",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-k"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Uzbekistan",
+            "item": "https://www.fotmob.com/teams/8700/overview/uzbekistan"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Portugal - Uzbekistan",
+            "item": "https://www.fotmob.com/match/4667822"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.fotmob.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup Grp. K",
+            "item": "https://www.fotmob.com/leagues/77/overview/world-cup-grp-k"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Portugal",
+            "item": "https://www.fotmob.com/teams/8361/overview/portugal"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Portugal - Uzbekistan",
+            "item": "https://www.fotmob.com/match/4667822"
+          }
+        ]
+      }
+    ],
+    "faqJSONLD": null
+  }
+}

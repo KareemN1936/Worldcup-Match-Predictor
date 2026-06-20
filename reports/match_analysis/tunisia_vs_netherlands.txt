@@ -1,0 +1,41 @@
+Tunisia vs Netherlands
+
+Date: 2026-06-25T23:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_F
+
+Base Prediction:
+Tunisia Win: 13.6%
+Draw: 24.1%
+Netherlands Win: 62.2%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -233.50 | edge: Netherlands
+- goal difference last 5: -10.00 | edge: Netherlands
+- points last 10: -9.00 | edge: Netherlands
+- weighted points last 5: -7.50 | edge: Netherlands
+- goals for last 5: -5.00 | edge: Netherlands
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.67
+Probability shift: -0.0596
+Top signals: points per match:away; goal difference:away; starting XI rating:away
+Tunisia Win: 7.7%
+Draw: 23.2%
+Netherlands Win: 69.0%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Tunisia 26.2 | Netherlands 27.3
+Forwards: Tunisia 6 | Netherlands 5
+Midfielders: Tunisia 7 | Netherlands 11
+Defenders: Tunisia 10 | Netherlands 7
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

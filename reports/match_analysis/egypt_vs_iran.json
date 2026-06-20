@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537368,
+    "date": "2026-06-27T03:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_G",
+    "home_team": "Egypt",
+    "away_team": "Iran"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.30284383893013,
+    "draw_probability": 0.2740712761878967,
+    "away_win_probability": 0.4230849146842956,
+    "predicted_result": "Team A loss",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -63.25945687887065,
+      "points_last_5_diff": -2.0,
+      "points_last_10_diff": -2.0,
+      "goal_difference_last_5_diff": -4.0,
+      "goals_for_last_5_diff": -6.0,
+      "goals_against_last_5_diff": -2.0,
+      "weighted_points_last_5_diff": -2.0,
+      "weighted_goal_difference_last_5_diff": -4.0,
+      "wins_last_5_diff": -1.0,
+      "draws_last_5_diff": 1.0,
+      "losses_last_5_diff": 0.0,
+      "clean_sheets_last_5_diff": 1.0,
+      "failed_to_score_last_5_diff": 1.0,
+      "matches_played_2y_diff": 10.0,
+      "win_rate_2y_diff": -0.06170598911070779,
+      "draw_rate_2y_diff": 0.08166969147005448,
+      "loss_rate_2y_diff": -0.019963702359346636,
+      "goals_for_per_match_2y_diff": -0.4627949183303084,
+      "goals_against_per_match_2y_diff": -0.16878402903811252,
+      "goal_difference_per_match_2y_diff": -0.294010889292196,
+      "clean_sheet_rate_2y_diff": 0.025408348457350294,
+      "failed_to_score_rate_2y_diff": 0.030852994555353924,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -63.25945687887065,
+        "leader": "Iran"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -6.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -4.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -2.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -2.0,
+        "leader": "Iran"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -63.25945687887065,
+        "leader": "Iran"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -2.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -2.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -4.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -6.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -2.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -2.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.06170598911070779,
+        "leader": "Iran"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": -0.294010889292196,
+        "leader": "Iran"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.16878402903811252,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.025408348457350294,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.030852994555353924,
+        "leader": "Iran"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.8888888888888888,
+    "enrichment_score": 0.0290909090909092,
+    "probability_shift": 0.0025858585858585,
+    "top_signals": "player rating:home; starting XI rating:home; points per match:away",
+    "home_win_probability": 0.3055877297397006,
+    "draw_probability": 0.2736956439601284,
+    "away_win_probability": 0.4207166263001708,
+    "predicted_result": "Team A loss",
+    "strongest": [
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.1000000000000005,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.1000000000000005,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.1000000000000005,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.1000000000000005,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 28.65384615384616,
+    "away_avg_age": 29.846153846153847,
+    "home_forwards": 5,
+    "away_forwards": 8,
+    "home_midfielders": 9,
+    "away_midfielders": 6,
+    "home_defenders": 8,
+    "away_defenders": 9,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -3.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 3.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.1923076923076898,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -1.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.1923076923076898,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -3.0,
+        "leader": "Iran"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 3.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -1.0,
+        "leader": "Iran"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A loss",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
+  }
+}

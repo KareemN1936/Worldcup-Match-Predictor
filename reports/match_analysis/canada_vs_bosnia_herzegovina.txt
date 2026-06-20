@@ -1,0 +1,33 @@
+Canada vs Bosnia-Herzegovina
+
+Date: 2026-06-12T19:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_B
+
+Base Prediction:
+Canada Win: 70.0%
+Draw: 20.6%
+Bosnia-Herzegovina Win: 9.3%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 151.55 | edge: Canada
+- weighted points last 5: -5.00 | edge: Bosnia-Herzegovina
+- points last 5: 2.00 | edge: Canada
+- points last 10: 2.00 | edge: Canada
+- goal difference last 5: 2.00 | edge: Canada
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Canada 26.5 | Bosnia-Herzegovina 25.9
+Forwards: Canada 6 | Bosnia-Herzegovina 7
+Midfielders: Canada 9 | Bosnia-Herzegovina 8
+Defenders: Canada 8 | Bosnia-Herzegovina 8
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

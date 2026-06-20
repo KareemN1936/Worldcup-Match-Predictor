@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537362,
+    "date": "2026-06-25T23:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_F",
+    "home_team": "Japan",
+    "away_team": "Sweden"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.720045804977417,
+    "draw_probability": 0.1846720725297927,
+    "away_win_probability": 0.0952821001410484,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 177.60998174961878,
+      "points_last_5_diff": 3.0,
+      "points_last_10_diff": 10.0,
+      "goal_difference_last_5_diff": 1.0,
+      "goals_for_last_5_diff": -6.0,
+      "goals_against_last_5_diff": -7.0,
+      "weighted_points_last_5_diff": -23.5,
+      "weighted_goal_difference_last_5_diff": -22.0,
+      "wins_last_5_diff": 1.0,
+      "draws_last_5_diff": 0.0,
+      "losses_last_5_diff": -1.0,
+      "clean_sheets_last_5_diff": 4.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": -1.0,
+      "win_rate_2y_diff": 0.1261904761904762,
+      "draw_rate_2y_diff": 0.059523809523809534,
+      "loss_rate_2y_diff": -0.1857142857142857,
+      "goals_for_per_match_2y_diff": -0.03571428571428559,
+      "goals_against_per_match_2y_diff": -0.8785714285714286,
+      "goal_difference_per_match_2y_diff": 0.8428571428571429,
+      "clean_sheet_rate_2y_diff": 0.45952380952380956,
+      "failed_to_score_rate_2y_diff": 0.009523809523809545,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 177.60998174961878,
+        "leader": "Japan"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -23.5,
+        "leader": "Sweden"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 10.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -7.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -6.0,
+        "leader": "Sweden"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 177.60998174961878,
+        "leader": "Japan"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 3.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 10.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 1.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -6.0,
+        "leader": "Sweden"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -7.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -23.5,
+        "leader": "Sweden"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.1261904761904762,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.8428571428571429,
+        "leader": "Japan"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.8785714285714286,
+        "leader": "Japan"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.45952380952380956,
+        "leader": "Japan"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.009523809523809545,
+        "leader": "Sweden"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.8888888888888888,
+    "enrichment_score": -0.0309090909090908,
+    "probability_shift": -0.0025550256671327,
+    "top_signals": "points per match:away; player rating:home; starting XI rating:home",
+    "home_win_probability": 0.7178576242867324,
+    "draw_probability": 0.1842552268815886,
+    "away_win_probability": 0.0978871488316789,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -0.5,
+        "leader": "Sweden"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.2249999999999996,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 8.881784197001252e-16,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -0.5,
+        "leader": "Sweden"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.2249999999999996,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 8.881784197001252e-16,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 27.192307692307693,
+    "away_avg_age": 27.0,
+    "home_forwards": 7,
+    "away_forwards": 6,
+    "home_midfielders": 7,
+    "away_midfielders": 7,
+    "home_defenders": 9,
+    "away_defenders": 10,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 1.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -1.0,
+        "leader": "Sweden"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.1923076923076934,
+        "leader": "Sweden"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.1923076923076934,
+        "leader": "Sweden"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 1.0,
+        "leader": "Japan"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -1.0,
+        "leader": "Sweden"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
+  }
+}

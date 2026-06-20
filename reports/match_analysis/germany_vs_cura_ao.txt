@@ -1,0 +1,33 @@
+Germany vs Curaçao
+
+Date: 2026-06-14T17:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_E
+
+Base Prediction:
+Germany Win: 91.1%
+Draw: 6.0%
+Curaçao Win: 2.9%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 348.81 | edge: Germany
+- goal difference last 5: 24.00 | edge: Germany
+- weighted points last 5: 22.50 | edge: Germany
+- points last 10: 16.00 | edge: Germany
+- points last 5: 12.00 | edge: Germany
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Germany 27.6 | Curaçao 27.5
+Forwards: Germany 6 | Curaçao 8
+Midfielders: Germany 10 | Curaçao 4
+Defenders: Germany 7 | Curaçao 11
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

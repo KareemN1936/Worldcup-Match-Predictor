@@ -1,0 +1,33 @@
+Sweden vs Tunisia
+
+Date: 2026-06-15T02:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_F
+
+Base Prediction:
+Sweden Win: 50.5%
+Draw: 24.2%
+Tunisia Win: 25.3%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 56.52 | edge: Sweden
+- weighted points last 5: 37.50 | edge: Sweden
+- goal difference last 5: 14.00 | edge: Sweden
+- goals for last 5: 12.00 | edge: Sweden
+- points last 5: 6.00 | edge: Sweden
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+Average age: Sweden 27.0 | Tunisia 26.2
+Forwards: Sweden 6 | Tunisia 6
+Midfielders: Sweden 7 | Tunisia 7
+Defenders: Sweden 10 | Tunisia 10
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

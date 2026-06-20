@@ -1,0 +1,300 @@
+{
+  "fixture": {
+    "fixture_id": 537410,
+    "date": "2026-06-17T23:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_L",
+    "home_team": "Ghana",
+    "away_team": "Panama"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.2372102588415146,
+    "draw_probability": 0.2463575154542923,
+    "away_win_probability": 0.5164322257041931,
+    "predicted_result": "Team A loss",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": -153.93272038673854,
+      "points_last_5_diff": -7.0,
+      "points_last_10_diff": -5.0,
+      "goal_difference_last_5_diff": -7.0,
+      "goals_for_last_5_diff": -7.0,
+      "goals_against_last_5_diff": 0.0,
+      "weighted_points_last_5_diff": -7.0,
+      "weighted_goal_difference_last_5_diff": -7.0,
+      "wins_last_5_diff": -2.0,
+      "draws_last_5_diff": -1.0,
+      "losses_last_5_diff": 3.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": 2.0,
+      "matches_played_2y_diff": -10.0,
+      "win_rate_2y_diff": -0.16666666666666669,
+      "draw_rate_2y_diff": -0.016666666666666663,
+      "loss_rate_2y_diff": 0.18333333333333335,
+      "goals_for_per_match_2y_diff": -0.2833333333333332,
+      "goals_against_per_match_2y_diff": -0.3500000000000001,
+      "goal_difference_per_match_2y_diff": 0.06666666666666668,
+      "clean_sheet_rate_2y_diff": 0.08333333333333331,
+      "failed_to_score_rate_2y_diff": 0.16666666666666666,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -153.93272038673854,
+        "leader": "Panama"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -7.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -7.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -7.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -7.0,
+        "leader": "Panama"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": -153.93272038673854,
+        "leader": "Panama"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -7.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -5.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -7.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -7.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -7.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.16666666666666669,
+        "leader": "Panama"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.06666666666666668,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.3500000000000001,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.08333333333333331,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.16666666666666666,
+        "leader": "Panama"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": false,
+    "feature_count": 0,
+    "reliability": 0.0,
+    "enrichment_score": 0.0,
+    "probability_shift": 0.0,
+    "top_signals": null,
+    "home_win_probability": 0.2372102588415146,
+    "draw_probability": 0.2463575154542923,
+    "away_win_probability": 0.5164322257041931,
+    "predicted_result": "Team A loss",
+    "strongest": [],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": null,
+        "leader": null
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 26.423076923076923,
+    "away_avg_age": 30.0,
+    "home_forwards": 9,
+    "away_forwards": 4,
+    "home_midfielders": 5,
+    "away_midfielders": 9,
+    "home_defenders": 9,
+    "away_defenders": 10,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 5.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -4.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -3.5769230769230766,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -1.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -3.5769230769230766,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 5.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -4.0,
+        "leader": "Panama"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -1.0,
+        "leader": "Panama"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A loss",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

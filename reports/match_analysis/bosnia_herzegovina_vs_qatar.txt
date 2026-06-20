@@ -1,0 +1,41 @@
+Bosnia-Herzegovina vs Qatar
+
+Date: 2026-06-24T19:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_B
+
+Base Prediction:
+Bosnia-Herzegovina Win: 40.6%
+Draw: 28.3%
+Qatar Win: 31.0%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -20.27 | edge: Qatar
+- weighted points last 5: 8.50 | edge: Bosnia-Herzegovina
+- points last 10: 6.00 | edge: Bosnia-Herzegovina
+- goal difference last 5: 4.00 | edge: Bosnia-Herzegovina
+- points last 5: 2.00 | edge: Bosnia-Herzegovina
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.18
+Probability shift: 0.0162
+Top signals: goal difference:home; starting XI rating:home; player rating:home
+Bosnia-Herzegovina Win: 42.4%
+Draw: 28.1%
+Qatar Win: 29.5%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Bosnia-Herzegovina 25.9 | Qatar 28.8
+Forwards: Bosnia-Herzegovina 7 | Qatar 6
+Midfielders: Bosnia-Herzegovina 8 | Qatar 8
+Defenders: Bosnia-Herzegovina 8 | Qatar 9
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

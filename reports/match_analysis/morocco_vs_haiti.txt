@@ -1,0 +1,41 @@
+Morocco vs Haiti
+
+Date: 2026-06-24T22:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_C
+
+Base Prediction:
+Morocco Win: 81.1%
+Draw: 12.6%
+Haiti Win: 6.2%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 285.66 | edge: Morocco
+- weighted points last 5: 10.50 | edge: Morocco
+- goal difference last 5: 9.00 | edge: Morocco
+- points last 10: 8.00 | edge: Morocco
+- points last 5: 7.00 | edge: Morocco
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.60
+Probability shift: 0.0450
+Top signals: points per match:home; goal difference:home; starting XI rating:home
+Morocco Win: 86.4%
+Draw: 11.8%
+Haiti Win: 1.7%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Morocco 25.9 | Haiti 27.0
+Forwards: Morocco 5 | Haiti 8
+Midfielders: Morocco 9 | Haiti 6
+Defenders: Morocco 9 | Haiti 9
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

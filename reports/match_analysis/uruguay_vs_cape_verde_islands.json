@@ -1,0 +1,331 @@
+{
+  "fixture": {
+    "fixture_id": 537372,
+    "date": "2026-06-21T22:00:00Z",
+    "round": "GROUP_STAGE",
+    "group": "GROUP_H",
+    "home_team": "Uruguay",
+    "away_team": "Cape Verde Islands"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.9017167687416076,
+    "draw_probability": 0.0732077285647392,
+    "away_win_probability": 0.0250754952430725,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 330.815791120963,
+      "points_last_5_diff": 4.0,
+      "points_last_10_diff": 17.0,
+      "goal_difference_last_5_diff": -4.0,
+      "goals_for_last_5_diff": 3.0,
+      "goals_against_last_5_diff": 7.0,
+      "weighted_points_last_5_diff": 7.5,
+      "weighted_goal_difference_last_5_diff": -4.0,
+      "wins_last_5_diff": 0.0,
+      "draws_last_5_diff": 4.0,
+      "losses_last_5_diff": 1.0,
+      "clean_sheets_last_5_diff": 2.0,
+      "failed_to_score_last_5_diff": 2.0,
+      "matches_played_2y_diff": 26.0,
+      "win_rate_2y_diff": 0.3076923076923077,
+      "draw_rate_2y_diff": 0.5,
+      "loss_rate_2y_diff": 0.19230769230769232,
+      "goals_for_per_match_2y_diff": 1.0384615384615385,
+      "goals_against_per_match_2y_diff": 0.7692307692307693,
+      "goal_difference_per_match_2y_diff": 0.2692307692307692,
+      "clean_sheet_rate_2y_diff": 0.5,
+      "failed_to_score_rate_2y_diff": 0.46153846153846156,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 330.815791120963,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 17.0,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 7.5,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 7.0,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 4.0,
+        "leader": "Uruguay"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 330.815791120963,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 4.0,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 17.0,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -4.0,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 3.0,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 7.0,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 7.5,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.3076923076923077,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.2692307692307692,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.7692307692307693,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.5,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.46153846153846156,
+        "leader": "Cape Verde Islands"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 5,
+    "reliability": 0.2777777777777778,
+    "enrichment_score": -0.0093896713615023,
+    "probability_shift": -0.0001951703785233,
+    "top_signals": "shots on target:away; yellow cards:home; points per match:away",
+    "home_win_probability": 0.9015567965164532,
+    "draw_probability": 0.0731715512180747,
+    "away_win_probability": 0.025271652265472,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": -1.0,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": -1.0,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": -1.0,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": -1.0,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 28.192307692307693,
+    "away_avg_age": 29.23076923076923,
+    "home_forwards": 4,
+    "away_forwards": 7,
+    "home_midfielders": 10,
+    "away_midfielders": 8,
+    "home_defenders": 9,
+    "away_defenders": 8,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -3.0,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 2.0,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.0384615384615363,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.0384615384615363,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -3.0,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 2.0,
+        "leader": "Uruguay"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "Uruguay"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

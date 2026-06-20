@@ -1,0 +1,41 @@
+Turkey vs Paraguay
+
+Date: 2026-06-20T03:00:00Z
+Round: GROUP_STAGE
+Group: GROUP_D
+
+Base Prediction:
+Turkey Win: 47.7%
+Draw: 24.4%
+Paraguay Win: 27.9%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 39.97 | edge: Turkey
+- weighted points last 5: 24.00 | edge: Turkey
+- points last 10: 8.00 | edge: Turkey
+- goals against last 5: -4.00 | edge: Turkey
+- points last 5: 3.00 | edge: Turkey
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.44
+Enrichment score: 0.20
+Probability shift: 0.0089
+Top signals: starting XI rating:home; goal difference:home; player rating:home
+Turkey Win: 48.6%
+Draw: 24.3%
+Paraguay Win: 27.1%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Turkey 27.2 | Paraguay 28.5
+Forwards: Turkey 5 | Paraguay 7
+Midfielders: Turkey 8 | Paraguay 8
+Defenders: Turkey 10 | Paraguay 8
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.
