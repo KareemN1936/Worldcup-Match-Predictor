@@ -1183,7 +1183,7 @@ hr {
   }
 
   .st-key-hero_actions {
-    margin-top: var(--space-sm);
+    margin-top: var(--space-xl);
     padding-inline: 0;
     padding-right: 0;
   }
@@ -1429,7 +1429,7 @@ hr {
   }
 
   .st-key-hero_actions {
-    margin-top: 0;
+    margin-top: var(--space-lg);
   }
 
   .match-card__meta {
@@ -1829,6 +1829,8 @@ hr {
   section[data-testid="stSidebar"][aria-expanded="false"] {
     width: 0 !important;
     min-width: 0 !important;
+    overflow: hidden !important;
+    border: none !important;
   }
 
   section[data-testid="stSidebar"] > div:first-child {
