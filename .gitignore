@@ -2,5 +2,9 @@
 __pycache__/
 *.pkl
 data/raw/raw_api_json/
+data/raw/fotmob/
 reports/update_logs/
 reports/update.lock
+PROJECT_CONTEXT.md
+streamlit-*.log
+
