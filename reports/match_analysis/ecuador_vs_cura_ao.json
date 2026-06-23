@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.3436363636363634,
-    "probability_shift": 0.0123000306389548,
+    "enrichment_score": 0.3872727272727271,
+    "probability_shift": 0.0138619392915205,
     "top_signals": "goal difference:home; starting XI rating:home; player rating:home",
-    "home_win_probability": 0.8590541409091522,
-    "draw_probability": 0.0943201151707813,
-    "away_win_probability": 0.0466257439200664,
+    "home_win_probability": 0.8608894906411492,
+    "draw_probability": 0.0940364107888248,
+    "away_win_probability": 0.045074098570026,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -169,7 +169,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.6999999999999993,
+        "value": 1.0245454545454544,
         "leader": "Ecuador"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.6999999999999993,
+        "value": 1.0245454545454544,
         "leader": "Ecuador"
       },
       {

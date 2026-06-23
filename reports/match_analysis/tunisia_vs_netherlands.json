@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.6709090909090909,
-    "probability_shift": -0.0596363636363636,
+    "enrichment_score": -0.6599999999999999,
+    "probability_shift": -0.0586666666666666,
     "top_signals": "points per match:away; goal difference:away; starting XI rating:away",
-    "home_win_probability": 0.0774312100994546,
-    "draw_probability": 0.2322081076474375,
-    "away_win_probability": 0.6903606822531078,
+    "home_win_probability": 0.0783972247219477,
+    "draw_probability": 0.2323587806449518,
+    "away_win_probability": 0.6892439946331005,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -175,13 +175,13 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -1.5,
+        "value": -1.6777272727272727,
         "leader": "Netherlands"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": -0.2999999999999998,
+        "value": -0.2249999999999996,
         "leader": "Netherlands"
       },
       {
@@ -207,13 +207,13 @@
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": -0.2999999999999998,
+        "value": -0.2249999999999996,
         "leader": "Netherlands"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -1.5,
+        "value": -1.6777272727272727,
         "leader": "Netherlands"
       },
       {

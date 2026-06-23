@@ -152,37 +152,37 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.0309090909090908,
-    "probability_shift": -0.0025550256671327,
-    "top_signals": "points per match:away; player rating:home; starting XI rating:home",
-    "home_win_probability": 0.7178576242867324,
-    "draw_probability": 0.1842552268815886,
-    "away_win_probability": 0.0978871488316789,
+    "enrichment_score": 0.3307217630853994,
+    "probability_shift": 0.027338319197025,
+    "top_signals": "goal difference:home; starting XI rating:home; points per match:home",
+    "home_win_probability": 0.7514930523595713,
+    "draw_probability": 0.1801896290368604,
+    "away_win_probability": 0.0683173186035682,
     "predicted_result": "Team A win",
     "strongest": [
       {
-        "feature": "fotmob_points_per_match_diff",
-        "label": "points per match",
-        "value": -0.5,
-        "leader": "Sweden"
-      },
-      {
-        "feature": "fotmob_avg_player_rating_diff",
-        "label": "average player rating",
-        "value": 0.2249999999999996,
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 2.0,
         "leader": "Japan"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 8.881784197001252e-16,
+        "value": 0.6695454545454549,
         "leader": "Japan"
       },
       {
-        "feature": "fotmob_goal_difference_per_match_diff",
-        "label": "goal difference per match",
-        "value": 0.0,
-        "leader": "Even"
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.5,
+        "leader": "Japan"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.125,
+        "leader": "Japan"
       },
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
@@ -195,25 +195,25 @@
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": -0.5,
-        "leader": "Sweden"
+        "value": 0.5,
+        "leader": "Japan"
       },
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": 2.0,
+        "leader": "Japan"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": 0.2249999999999996,
+        "value": 0.125,
         "leader": "Japan"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 8.881784197001252e-16,
+        "value": 0.6695454545454549,
         "leader": "Japan"
       },
       {

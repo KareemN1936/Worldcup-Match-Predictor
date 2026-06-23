@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.4278787878787876,
-    "probability_shift": -0.0334844246886795,
+    "enrichment_score": -0.4457300275482092,
+    "probability_shift": -0.0348814055796314,
     "top_signals": "points per match:away; goal difference:away; starting XI rating:away",
-    "home_win_probability": 0.0371734970190626,
-    "draw_probability": 0.1543166339282902,
-    "away_win_probability": 0.808509869052647,
+    "home_win_probability": 0.0357771611229963,
+    "draw_probability": 0.1540786933031156,
+    "away_win_probability": 0.810144145573888,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -175,7 +175,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.4499999999999993,
+        "value": -0.5727272727272723,
         "leader": "Mexico"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.4499999999999993,
+        "value": -0.5727272727272723,
         "leader": "Mexico"
       },
       {

@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: -0.03
-Probability shift: -0.0015
+Enrichment score: 0.01
+Probability shift: 0.0004
 Top signals: goal difference:home; player rating:away; starting XI rating:away
-Mexico Win: 50.0%
+Mexico Win: 50.2%
 Draw: 26.2%
-South Korea Win: 23.8%
+South Korea Win: 23.6%
 FotMob-enriched result: Team A win
 
 Squad Context:

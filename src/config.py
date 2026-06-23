@@ -29,6 +29,7 @@ TARGET_COLUMN = "result"
 
 FEATURE_COLUMNS = [
     "elo_diff",
+    "elo_gap_abs",
     "points_last_5_diff",
     "points_last_10_diff",
     "goal_difference_last_5_diff",
@@ -50,6 +51,12 @@ FEATURE_COLUMNS = [
     "goal_difference_per_match_2y_diff",
     "clean_sheet_rate_2y_diff",
     "failed_to_score_rate_2y_diff",
+    "draw_rate_2y_mean",
+    "goals_total_per_match_2y_mean",
+    "goals_against_per_match_2y_mean",
+    "clean_sheet_rate_2y_mean",
+    "failed_to_score_rate_2y_mean",
+    "recent_draws_last_5_sum",
     "neutral",
     "match_importance",
 ]

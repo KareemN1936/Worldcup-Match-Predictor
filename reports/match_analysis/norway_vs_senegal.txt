@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.55
-Probability shift: 0.0246
+Enrichment score: 0.58
+Probability shift: 0.0259
 Top signals: points per match:home; goal difference:home; starting XI rating:home
-Norway Win: 49.0%
+Norway Win: 49.1%
 Draw: 23.4%
-Senegal Win: 27.6%
+Senegal Win: 27.5%
 FotMob-enriched result: Team A win
 
 Squad Context:

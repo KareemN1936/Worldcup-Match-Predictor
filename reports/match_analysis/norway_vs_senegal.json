@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.5545454545454545,
-    "probability_shift": 0.0246464646464646,
+    "enrichment_score": 0.5836363636363636,
+    "probability_shift": 0.0259393939393939,
     "top_signals": "points per match:home; goal difference:home; starting XI rating:home",
-    "home_win_probability": 0.4898009976136303,
-    "draw_probability": 0.2343979275816085,
-    "away_win_probability": 0.2758010748047612,
+    "home_win_probability": 0.4912279855799283,
+    "draw_probability": 0.2341989212888869,
+    "away_win_probability": 0.2745730931311846,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -175,7 +175,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.7999999999999998,
+        "value": 1.1318181818181818,
         "leader": "Norway"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.7999999999999998,
+        "value": 1.1318181818181818,
         "leader": "Norway"
       },
       {

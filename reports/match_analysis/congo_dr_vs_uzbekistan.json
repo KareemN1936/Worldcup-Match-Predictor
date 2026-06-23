@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": 0.3806060606060605,
-    "probability_shift": 0.0338316498316498,
+    "enrichment_score": 0.4096969696969696,
+    "probability_shift": 0.0364175084175084,
     "top_signals": "goal difference:home; points per match:home; starting XI rating:home",
-    "home_win_probability": 0.3782904443718136,
-    "draw_probability": 0.2832387167548432,
-    "away_win_probability": 0.338470838873343,
+    "home_win_probability": 0.381092351773656,
+    "draw_probability": 0.2828653083705899,
+    "away_win_probability": 0.3360423398557541,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -175,7 +175,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.5999999999999996,
+        "value": 0.7999999999999998,
         "leader": "Congo DR"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.5999999999999996,
+        "value": 0.7999999999999998,
         "leader": "Congo DR"
       },
       {

@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.0663636363636364,
-    "probability_shift": -0.0058989898989899,
-    "top_signals": "goal difference:away; starting XI rating:home; player rating:home",
-    "home_win_probability": 0.4523160393133097,
-    "draw_probability": 0.2592136310295034,
-    "away_win_probability": 0.2884703296571869,
+    "enrichment_score": -0.0796528925619835,
+    "probability_shift": -0.0070802571166207,
+    "top_signals": "goal difference:away; player rating:home; starting XI rating:home",
+    "home_win_probability": 0.4512401097459335,
+    "draw_probability": 0.2590383695196063,
+    "away_win_probability": 0.2897215207344601,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -167,15 +167,15 @@
         "leader": "Canada"
       },
       {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
-        "value": 0.1999999999999993,
-        "leader": "Switzerland"
-      },
-      {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
         "value": 0.125,
+        "leader": "Switzerland"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.1086363636363634,
         "leader": "Switzerland"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.1999999999999993,
+        "value": 0.1086363636363634,
         "leader": "Switzerland"
       },
       {

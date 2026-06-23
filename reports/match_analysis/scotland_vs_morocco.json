@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.2939393939393941,
-    "probability_shift": 0.013063973063973,
-    "top_signals": "points per match:home; goal difference:home; player rating:away",
-    "home_win_probability": 0.2486944705264924,
-    "draw_probability": 0.2448602473538645,
-    "away_win_probability": 0.506445282119643,
+    "enrichment_score": 0.2737079889807163,
+    "probability_shift": 0.012164799510254,
+    "top_signals": "points per match:home; goal difference:home; starting XI rating:away",
+    "home_win_probability": 0.2477482710373853,
+    "draw_probability": 0.2449963788913679,
+    "away_win_probability": 0.5072553500712468,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -173,15 +173,15 @@
         "leader": "Scotland"
       },
       {
-        "feature": "fotmob_avg_player_rating_diff",
-        "label": "average player rating",
-        "value": -0.1499999999999994,
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.2390909090909092,
         "leader": "Morocco"
       },
       {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
-        "value": -0.0999999999999996,
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.1499999999999994,
         "leader": "Morocco"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.0999999999999996,
+        "value": -0.2390909090909092,
         "leader": "Morocco"
       },
       {

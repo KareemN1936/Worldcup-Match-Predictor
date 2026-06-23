@@ -152,37 +152,37 @@
     "available": true,
     "feature_count": 5,
     "reliability": 0.5555555555555556,
-    "enrichment_score": 0.0093896713615023,
-    "probability_shift": 0.0005064189527329,
-    "top_signals": "shots on target:home; yellow cards:away; points per match:away",
-    "home_win_probability": 0.1481717471224082,
-    "draw_probability": 0.1730710368871556,
-    "away_win_probability": 0.6787572159904361,
+    "enrichment_score": 0.3661971830985915,
+    "probability_shift": 0.0197503391565851,
+    "top_signals": "goal difference:home; points per match:home; shots on target:home",
+    "home_win_probability": 0.1680645268038242,
+    "draw_probability": 0.1698757441728866,
+    "away_win_probability": 0.6620597290232891,
     "predicted_result": "Team A loss",
     "strongest": [
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
         "label": "shots on target per match",
-        "value": 1.0,
+        "value": 2.5,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 2.0,
         "leader": "Cape Verde Islands"
       },
       {
         "feature": "fotmob_yellow_cards_per_match_diff",
         "label": "yellow cards per match",
-        "value": 1.0,
+        "value": 1.5,
         "leader": "Saudi Arabia"
       },
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": 0.0,
-        "leader": "Even"
-      },
-      {
-        "feature": "fotmob_goal_difference_per_match_diff",
-        "label": "goal difference per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": 0.5,
+        "leader": "Cape Verde Islands"
       },
       {
         "feature": "fotmob_red_cards_per_match_diff",
@@ -195,14 +195,14 @@
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": 0.5,
+        "leader": "Cape Verde Islands"
       },
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": 2.0,
+        "leader": "Cape Verde Islands"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
@@ -219,7 +219,7 @@
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
         "label": "shots on target per match",
-        "value": 1.0,
+        "value": 2.5,
         "leader": "Cape Verde Islands"
       },
       {
@@ -237,7 +237,7 @@
       {
         "feature": "fotmob_yellow_cards_per_match_diff",
         "label": "yellow cards per match",
-        "value": 1.0,
+        "value": 1.5,
         "leader": "Saudi Arabia"
       },
       {

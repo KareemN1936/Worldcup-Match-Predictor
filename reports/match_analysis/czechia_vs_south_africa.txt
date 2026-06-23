@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.23
-Probability shift: 0.0102
+Enrichment score: 0.25
+Probability shift: 0.0109
 Top signals: starting XI rating:home; goal difference:home; player rating:home
-Czechia Win: 22.6%
+Czechia Win: 22.7%
 Draw: 22.5%
-South Africa Win: 54.9%
+South Africa Win: 54.8%
 FotMob-enriched result: Team A loss
 
 Squad Context:

@@ -23,7 +23,7 @@ Features available: 8
 Reliability: 0.44
 Enrichment score: -0.03
 Probability shift: -0.0013
-Top signals: player rating:away; starting XI rating:away; points per match:away
+Top signals: starting XI rating:away; player rating:away; points per match:away
 New Zealand Win: 30.7%
 Draw: 23.9%
 Egypt Win: 45.5%

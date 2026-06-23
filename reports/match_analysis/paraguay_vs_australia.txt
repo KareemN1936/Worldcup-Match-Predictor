@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: -0.08
-Probability shift: -0.0067
-Top signals: goal difference:away; player rating:home; starting XI rating:away
-Paraguay Win: 30.8%
+Enrichment score: -0.09
+Probability shift: -0.0081
+Top signals: goal difference:away; starting XI rating:away; player rating:home
+Paraguay Win: 30.6%
 Draw: 28.1%
-Australia Win: 41.1%
+Australia Win: 41.3%
 FotMob-enriched result: Team A loss
 
 Squad Context:

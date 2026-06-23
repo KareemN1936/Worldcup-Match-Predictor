@@ -152,18 +152,18 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.0290909090909091,
-    "probability_shift": 0.0011463158655648,
+    "enrichment_score": 0.0375537190082642,
+    "probability_shift": 0.0014797895719109,
     "top_signals": "starting XI rating:home; points per match:away; goal difference:away",
-    "home_win_probability": 0.764717965957773,
-    "draw_probability": 0.1483325312545153,
-    "away_win_probability": 0.0869495027877116,
+    "home_win_probability": 0.7651025561563811,
+    "draw_probability": 0.1482757126967147,
+    "away_win_probability": 0.0866217311469041,
     "predicted_result": "Team A win",
     "strongest": [
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.2000000000000001,
+        "value": 0.2581818181818169,
         "leader": "Switzerland"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.2000000000000001,
+        "value": 0.2581818181818169,
         "leader": "Switzerland"
       },
       {

@@ -152,36 +152,36 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.5981818181818183,
-    "probability_shift": -0.0531717171717171,
+    "enrichment_score": -0.5222809917355371,
+    "probability_shift": -0.0464249770431588,
     "top_signals": "points per match:away; goal difference:away; starting XI rating:away",
-    "home_win_probability": 0.2757042351188025,
-    "draw_probability": 0.2278771021139098,
-    "away_win_probability": 0.4964186627672876,
+    "home_win_probability": 0.282138698532923,
+    "draw_probability": 0.2289287290197832,
+    "away_win_probability": 0.4889325724472937,
     "predicted_result": "Team A loss",
     "strongest": [
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": -4.5,
+        "value": -4.0,
         "leader": "Germany"
       },
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": -3.0,
+        "value": -2.5,
         "leader": "Germany"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.8500000000000005,
+        "value": -0.4531818181818172,
         "leader": "Germany"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": 0.0499999999999998,
+        "value": 0.1749999999999998,
         "leader": "Ecuador"
       },
       {
@@ -195,25 +195,25 @@
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": -3.0,
+        "value": -2.5,
         "leader": "Germany"
       },
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": -4.5,
+        "value": -4.0,
         "leader": "Germany"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": 0.0499999999999998,
+        "value": 0.1749999999999998,
         "leader": "Ecuador"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.8500000000000005,
+        "value": -0.4531818181818172,
         "leader": "Germany"
       },
       {

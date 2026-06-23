@@ -1835,30 +1835,41 @@ hr {
 
   section[data-testid="stSidebar"] > div:first-child {
     width: min(88vw, 20rem) !important;
-    padding: var(--space-md);
+    padding: var(--space-sm);
     box-shadow: 20px 0 70px oklch(0% 0 0 / 45%);
   }
 
   .sidebar-brand {
-    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-columns: auto minmax(0, 1fr);
     gap: var(--space-xs);
+    margin: var(--space-sm) 0;
+    padding-right: 2.75rem;
   }
 
   .sidebar-brand__mark {
-    justify-self: end;
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 1rem;
-    order: 1;
+    justify-self: start;
+    width: 2rem;
+    height: 2rem;
+    font-size: var(--text-sm);
+    order: initial;
   }
 
   .sidebar-brand__name {
-    font-size: var(--text-md);
+    display: block;
+    font-size: var(--text-sm);
+  }
+
+  .sidebar-brand__copy {
+    display: block;
   }
 
   [data-testid="stSidebarHeader"] {
     display: flex !important;
-    min-height: 3.25rem;
+    position: absolute;
+    top: var(--space-sm);
+    right: var(--space-sm);
+    z-index: 6;
+    min-height: 0;
   }
 
   [data-testid="stSidebarCollapseButton"] {
@@ -1866,23 +1877,25 @@ hr {
   }
 
   .st-key-sidebar_footer {
-    position: static;
-    width: auto;
-    margin-top: auto;
-    padding: var(--space-md) 0 0;
+    position: fixed;
+    inset-inline-start: var(--space-lg);
+    bottom: var(--space-sm);
+    width: calc(min(88vw, 20rem) - var(--space-lg) - var(--space-lg));
+    margin-top: 0;
+    padding: 0 0 var(--space-xs);
   }
 
   .st-key-sidebar_footer [data-testid="stCaptionContainer"] {
     color: var(--color-subtle);
     font-size: var(--text-xs) !important;
-    text-align: center;
-    margin-bottom: var(--space-sm);
+    text-align: left;
+    margin-bottom: 0;
   }
 
   .st-key-sidebar_footer .stButton button {
-    min-height: 2.75rem;
+    min-height: 2.625rem;
     font-weight: 700;
-    border-radius: var(--radius-md);
+    border-radius: 999px;
   }
 
   section[data-testid="stSidebar"] .stRadio,
@@ -1891,8 +1904,12 @@ hr {
   }
 
   section[data-testid="stSidebar"] .stRadio label {
+    box-sizing: border-box;
+    display: flex;
+    justify-self: stretch;
+    width: calc(100% + var(--space-sm));
     min-height: 2.75rem;
-    margin: 0 calc(-1 * var(--space-md)) 0 0;
+    margin: 0 calc(-1 * var(--space-sm)) 0 0;
     padding: var(--space-xs) var(--space-md) var(--space-xs) var(--space-sm);
     border-left-width: 3px;
     border-radius: var(--radius-sm) 0 0 var(--radius-sm);

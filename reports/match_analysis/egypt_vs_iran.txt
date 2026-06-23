@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: 0.03
-Probability shift: 0.0026
-Top signals: player rating:home; starting XI rating:home; points per match:away
-Egypt Win: 30.6%
-Draw: 27.4%
-Iran Win: 42.1%
+Enrichment score: 0.26
+Probability shift: 0.0231
+Top signals: points per match:home; goal difference:home; starting XI rating:home
+Egypt Win: 32.8%
+Draw: 27.1%
+Iran Win: 40.2%
 FotMob-enriched result: Team A loss
 
 Squad Context:

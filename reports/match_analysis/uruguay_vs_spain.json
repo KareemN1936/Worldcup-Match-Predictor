@@ -152,37 +152,37 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.0654545454545453,
-    "probability_shift": -0.0058181818181818,
-    "top_signals": "starting XI rating:away; player rating:away; points per match:away",
-    "home_win_probability": 0.1828085455542572,
-    "draw_probability": 0.2082781342006722,
-    "away_win_probability": 0.6089133202450706,
+    "enrichment_score": -0.4034820936639119,
+    "probability_shift": -0.0358650749923477,
+    "top_signals": "goal difference:away; points per match:away; starting XI rating:away",
+    "home_win_probability": 0.1536510715843868,
+    "draw_probability": 0.2034860037836599,
+    "away_win_probability": 0.6428629246319532,
     "predicted_result": "Team A loss",
     "strongest": [
       {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
-        "value": -0.2999999999999998,
-        "leader": "Spain"
-      },
-      {
-        "feature": "fotmob_avg_player_rating_diff",
-        "label": "average player rating",
-        "value": -0.1499999999999994,
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": -2.0,
         "leader": "Spain"
       },
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -1.0,
+        "leader": "Spain"
       },
       {
-        "feature": "fotmob_goal_difference_per_match_diff",
-        "label": "goal difference per match",
-        "value": 0.0,
-        "leader": "Even"
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.8072727272727285,
+        "leader": "Spain"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.0499999999999998,
+        "leader": "Spain"
       },
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
@@ -195,25 +195,25 @@
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -1.0,
+        "leader": "Spain"
       },
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -2.0,
+        "leader": "Spain"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": -0.1499999999999994,
+        "value": -0.0499999999999998,
         "leader": "Spain"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.2999999999999998,
+        "value": -0.8072727272727285,
         "leader": "Spain"
       },
       {

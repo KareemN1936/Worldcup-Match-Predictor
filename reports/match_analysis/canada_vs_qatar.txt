@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.03
-Probability shift: 0.0012
+Enrichment score: 0.02
+Probability shift: 0.0010
 Top signals: starting XI rating:home; points per match:away; goal difference:away
 Canada Win: 68.7%
 Draw: 20.6%
-Qatar Win: 10.7%
+Qatar Win: 10.8%
 FotMob-enriched result: Team A win
 
 Squad Context:

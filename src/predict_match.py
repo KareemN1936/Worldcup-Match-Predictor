@@ -1,6 +1,7 @@
 import argparse
 import json
 from collections import defaultdict
+from datetime import datetime, timezone
 
 import joblib
 import pandas as pd
@@ -10,6 +11,11 @@ from build_features import get_match_importance
 from config import FEATURE_COLUMNS, MODELS_DIR, PROCESSED_DATA_DIR, RAW_DATA_DIR, REPORTS_DIR, RESULT_LABELS, UPCOMING_FIXTURE_STATUSES, standardize_team_name
 from fotmob_prediction_features import enrich_probabilities_with_fotmob, read_fotmob_rolling_features, write_fotmob_coverage_report
 from prediction_policy import apply_prediction_policy, load_policy
+from web.data_loader import load_fixtures
+
+
+PREDICTION_HISTORY_PATH = REPORTS_DIR / "prediction_history.csv"
+COMPLETED_STATUSES = {"FINISHED", "COMPLETED"}
 
 
 def _points(goals_for: int, goals_against: int) -> int:
@@ -82,7 +88,7 @@ def _two_year_rates(history: list[dict], as_of_date: pd.Timestamp) -> dict[str, 
     }
 
 
-def build_latest_team_state() -> tuple[dict[str, float], dict[str, list[dict]]]:
+def build_latest_team_state(as_of_date: pd.Timestamp | None = None) -> tuple[dict[str, float], dict[str, list[dict]]]:
     matches = pd.read_csv(RAW_DATA_DIR / "historical_matches.csv")
     if matches.empty:
         raise ValueError("historical_matches.csv is empty. Add historical data and run the pipeline first.")
@@ -90,6 +96,8 @@ def build_latest_team_state() -> tuple[dict[str, float], dict[str, list[dict]]]:
     matches["date"] = pd.to_datetime(matches["date"], errors="coerce")
     matches["home_team"] = matches["home_team"].apply(standardize_team_name)
     matches["away_team"] = matches["away_team"].apply(standardize_team_name)
+    if as_of_date is not None and pd.notna(as_of_date):
+        matches = matches[matches["date"] < as_of_date].copy()
     matches = matches.sort_values(["date", "match_id"])
 
     ratings: dict[str, float] = {}
@@ -139,6 +147,7 @@ def build_prediction_features(
     neutral: bool,
     tournament: str,
     state: tuple[dict[str, float], dict[str, list[dict]]] | None = None,
+    as_of_date: pd.Timestamp | None = None,
 ) -> pd.DataFrame:
     team_a = standardize_team_name(team_a)
     team_b = standardize_team_name(team_b)
@@ -153,12 +162,13 @@ def build_prediction_features(
         for match in team_history
         if pd.notna(match.get("date"))
     ]
-    as_of_date = max(all_dates) + pd.Timedelta(days=1) if all_dates else pd.Timestamp.today()
+    as_of_date = as_of_date or (max(all_dates) + pd.Timedelta(days=1) if all_dates else pd.Timestamp.today())
     team_a_2y = _two_year_rates(history[team_a], as_of_date)
     team_b_2y = _two_year_rates(history[team_b], as_of_date)
 
     row = {
         "elo_diff": ratings.get(team_a, 1500.0) - ratings.get(team_b, 1500.0),
+        "elo_gap_abs": abs(ratings.get(team_a, 1500.0) - ratings.get(team_b, 1500.0)),
         "points_last_5_diff": team_a_last_5["points"] - team_b_last_5["points"],
         "points_last_10_diff": team_a_last_10["points"] - team_b_last_10["points"],
         "goal_difference_last_5_diff": team_a_last_5["goal_difference"] - team_b_last_5["goal_difference"],
@@ -180,6 +190,21 @@ def build_prediction_features(
         "goal_difference_per_match_2y_diff": team_a_2y["goal_difference_per_match"] - team_b_2y["goal_difference_per_match"],
         "clean_sheet_rate_2y_diff": team_a_2y["clean_sheet_rate"] - team_b_2y["clean_sheet_rate"],
         "failed_to_score_rate_2y_diff": team_a_2y["failed_to_score_rate"] - team_b_2y["failed_to_score_rate"],
+        "draw_rate_2y_mean": (team_a_2y["draw_rate"] + team_b_2y["draw_rate"]) / 2,
+        "goals_total_per_match_2y_mean": (
+            team_a_2y["goals_for_per_match"]
+            + team_a_2y["goals_against_per_match"]
+            + team_b_2y["goals_for_per_match"]
+            + team_b_2y["goals_against_per_match"]
+        ) / 2,
+        "goals_against_per_match_2y_mean": (
+            team_a_2y["goals_against_per_match"] + team_b_2y["goals_against_per_match"]
+        ) / 2,
+        "clean_sheet_rate_2y_mean": (team_a_2y["clean_sheet_rate"] + team_b_2y["clean_sheet_rate"]) / 2,
+        "failed_to_score_rate_2y_mean": (
+            team_a_2y["failed_to_score_rate"] + team_b_2y["failed_to_score_rate"]
+        ) / 2,
+        "recent_draws_last_5_sum": team_a_last_5["draws"] + team_b_last_5["draws"],
         "neutral": int(neutral),
         "match_importance": get_match_importance(tournament),
     }
@@ -193,6 +218,21 @@ def _load_model():
     return joblib.load(model_path)
 
 
+def _trained_feature_columns() -> list[str]:
+    metadata_path = MODELS_DIR / "model_metadata.json"
+    if not metadata_path.exists():
+        return FEATURE_COLUMNS
+    metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+    return metadata.get("features", FEATURE_COLUMNS)
+
+
+def _model_version() -> str:
+    metadata_path = MODELS_DIR / "model_metadata.json"
+    if not metadata_path.exists():
+        return "unknown"
+    return json.loads(metadata_path.read_text(encoding="utf-8")).get("best_model", "unknown")
+
+
 def predict(
     team_a: str,
     team_b: str,
@@ -200,12 +240,14 @@ def predict(
     tournament: str = "Friendly",
     model=None,
     state: tuple[dict[str, float], dict[str, list[dict]]] | None = None,
+    as_of_date: pd.Timestamp | None = None,
 ) -> dict:
     team_a = standardize_team_name(team_a)
     team_b = standardize_team_name(team_b)
     model = model or _load_model()
-    features = build_prediction_features(team_a, team_b, neutral, tournament, state=state)
-    raw_probabilities = model.predict_proba(features)[0]
+    features = build_prediction_features(team_a, team_b, neutral, tournament, state=state, as_of_date=as_of_date)
+    model_features = features.reindex(columns=_trained_feature_columns(), fill_value=0)
+    raw_probabilities = model.predict_proba(model_features)[0]
     probability_by_class = {int(class_label): float(raw_probabilities[index]) for index, class_label in enumerate(model.classes_)}
     probabilities = pd.DataFrame([{
         0: probability_by_class.get(0, 0.0),
@@ -238,31 +280,45 @@ def predict_fixtures(only_upcoming: bool = True) -> pd.DataFrame:
         print("fixtures.csv is empty. Collect fixtures with a valid FOOTBALL_API_KEY before predicting fixtures.")
         return pd.DataFrame()
 
-    if only_upcoming and "status" in fixtures.columns:
-        fixtures = fixtures[fixtures["status"].astype(str).isin(UPCOMING_FIXTURE_STATUSES)].copy()
-        if fixtures.empty:
+    prediction_fixtures = fixtures.copy()
+    if "status" in prediction_fixtures.columns:
+        prediction_fixtures = prediction_fixtures[
+            prediction_fixtures["status"].astype(str).str.upper().isin(UPCOMING_FIXTURE_STATUSES)
+        ].copy()
+        if prediction_fixtures.empty and only_upcoming:
             print("No upcoming fixtures found in fixtures.csv.")
             return pd.DataFrame()
 
-    fixtures = fixtures.dropna(subset=["home_team", "away_team"]).copy()
-    fixtures = fixtures[
-        (fixtures["home_team"].astype(str).str.strip() != "")
-        & (fixtures["away_team"].astype(str).str.strip() != "")
-        & (fixtures["home_team"].astype(str).str.lower() != "nan")
-        & (fixtures["away_team"].astype(str).str.lower() != "nan")
+    prediction_fixtures = prediction_fixtures.dropna(subset=["home_team", "away_team"]).copy()
+    prediction_fixtures = prediction_fixtures[
+        (prediction_fixtures["home_team"].astype(str).str.strip() != "")
+        & (prediction_fixtures["away_team"].astype(str).str.strip() != "")
+        & (prediction_fixtures["home_team"].astype(str).str.lower() != "nan")
+        & (prediction_fixtures["away_team"].astype(str).str.lower() != "nan")
     ].copy()
-    if fixtures.empty:
+    if prediction_fixtures.empty and only_upcoming:
         print("No fixtures with both teams known were found in fixtures.csv.")
         return pd.DataFrame()
 
     model = _load_model()
+    # Only upcoming fixtures are generated here, so the latest completed-match
+    # state is valid for every candidate without repeatedly rebuilding history.
     state = build_latest_team_state()
     rows = []
-    for _, fixture in fixtures.iterrows():
+    for _, fixture in prediction_fixtures.iterrows():
         home_team = standardize_team_name(fixture["home_team"])
         away_team = standardize_team_name(fixture["away_team"])
         tournament = fixture.get("competition", "FIFA World Cup")
-        prediction = predict(home_team, away_team, neutral=True, tournament=tournament, model=model, state=state)
+        fixture_date = pd.to_datetime(fixture.get("date"), errors="coerce", utc=True)
+        prediction = predict(
+            home_team,
+            away_team,
+            neutral=True,
+            tournament=tournament,
+            model=model,
+            state=state,
+            as_of_date=fixture_date.tz_localize(None) if pd.notna(fixture_date) else None,
+        )
         rows.append({
             "fixture_id": fixture.get("fixture_id"),
             "date": fixture.get("date"),
@@ -279,14 +335,181 @@ def predict_fixtures(only_upcoming: bool = True) -> pd.DataFrame:
         })
 
     predictions = pd.DataFrame(rows)
+    if not predictions.empty:
+        predictions = merge_fotmob_rolling_features(predictions)
+        predictions = merge_squad_features(predictions)
+        predictions = enrich_probabilities_with_fotmob(predictions, policy=load_policy())
+        predictions["predicted_at"] = datetime.now(timezone.utc).isoformat()
+        predictions["prediction_source"] = "pre_match_snapshot"
+        predictions["model_version"] = _model_version()
+        _append_prediction_history(predictions)
+        write_fotmob_coverage_report(predictions)
+
+    history = _read_prediction_history()
+    current_predictions = _select_frozen_predictions(fixtures, history, only_upcoming=only_upcoming)
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    output_path = REPORTS_DIR / "fixture_predictions.csv"
+    current_predictions.to_csv(output_path, index=False)
+    print(f"Fixture predictions saved: {output_path} ({len(current_predictions)} rows)")
+    return current_predictions
+
+
+def _read_prediction_history() -> pd.DataFrame:
+    if not PREDICTION_HISTORY_PATH.exists():
+        return pd.DataFrame()
+    history = pd.read_csv(PREDICTION_HISTORY_PATH)
+    if "fixture_id" in history.columns:
+        history["fixture_id"] = history["fixture_id"].astype(str).str.replace(r"\.0$", "", regex=True)
+    return history
+
+
+def _append_prediction_history(predictions: pd.DataFrame) -> None:
+    if predictions.empty:
+        return
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    history = _read_prediction_history()
+    snapshots = predictions.copy()
+    snapshots["fixture_id"] = snapshots["fixture_id"].astype(str).str.replace(r"\.0$", "", regex=True)
+    if not history.empty and "prediction_source" in snapshots.columns and "model_version" in snapshots.columns:
+        retrospective_keys = snapshots.loc[
+            snapshots["prediction_source"] == "retrospective_backtest",
+            ["fixture_id", "prediction_source", "model_version"],
+        ].drop_duplicates()
+        if not retrospective_keys.empty and {"prediction_source", "model_version"}.issubset(history.columns):
+            history = history.merge(
+                retrospective_keys.assign(_replace=True),
+                on=["fixture_id", "prediction_source", "model_version"],
+                how="left",
+            )
+            history = history[history["_replace"].isna()].drop(columns="_replace")
+    combined = pd.concat([history, snapshots], ignore_index=True, sort=False)
+    combined = combined.drop_duplicates(subset=["fixture_id", "predicted_at"], keep="last")
+    combined.to_csv(PREDICTION_HISTORY_PATH, index=False)
+
+
+def _select_frozen_predictions(
+    fixtures: pd.DataFrame,
+    history: pd.DataFrame,
+    only_upcoming: bool,
+) -> pd.DataFrame:
+    """Use the latest snapshot made before kickoff; never backfill completed games."""
+    if history.empty or "fixture_id" not in fixtures.columns:
+        return pd.DataFrame(columns=history.columns)
+
+    fixture_info = fixtures.copy()
+    fixture_info["fixture_id"] = fixture_info["fixture_id"].astype(str).str.replace(r"\.0$", "", regex=True)
+    fixture_info["_kickoff"] = pd.to_datetime(fixture_info.get("date"), errors="coerce", utc=True)
+    fixture_info["_status"] = fixture_info.get("status", "").astype(str).str.upper()
+    status_by_id = fixture_info.set_index("fixture_id")["_status"].to_dict()
+    kickoff_by_id = fixture_info.set_index("fixture_id")["_kickoff"].to_dict()
+
+    snapshots = history.copy()
+    snapshots["_predicted_at"] = pd.to_datetime(snapshots.get("predicted_at"), errors="coerce", utc=True)
+    selected = []
+    for fixture_id, group in snapshots.dropna(subset=["_predicted_at"]).groupby("fixture_id", sort=False):
+        status = status_by_id.get(fixture_id, "")
+        if only_upcoming and status not in UPCOMING_FIXTURE_STATUSES:
+            continue
+        kickoff = kickoff_by_id.get(fixture_id)
+        retrospective = group.get("prediction_source", pd.Series("", index=group.index)).eq("retrospective_backtest")
+        eligible = group
+        if pd.notna(kickoff):
+            eligible = group[(group["_predicted_at"] <= kickoff) | retrospective]
+        if eligible.empty:
+            continue
+        operational = eligible[eligible.get("prediction_source", "") == "pre_match_snapshot"]
+        chosen_from = operational if not operational.empty else eligible
+        selected.append(chosen_from.sort_values("_predicted_at").iloc[-1])
+
+    if not selected:
+        return pd.DataFrame(columns=[column for column in history.columns if not column.startswith("_")])
+    output = pd.DataFrame(selected).drop(columns=["_predicted_at"], errors="ignore")
+    return output.reset_index(drop=True)
+
+
+def _apply_completed_result(
+    state: tuple[dict[str, float], dict[str, list[dict]]],
+    row: pd.Series,
+) -> None:
+    ratings, history = state
+    home = standardize_team_name(row["home_team"])
+    away = standardize_team_name(row["away_team"])
+    home_score = int(row["home_score"])
+    away_score = int(row["away_score"])
+    tournament = row.get("competition", "FIFA World Cup")
+    rating_home = ratings.get(home, 1500.0)
+    rating_away = ratings.get(away, 1500.0)
+    expected_home = expected_score(rating_home, rating_away)
+    actual_home = 1.0 if home_score > away_score else (0.5 if home_score == away_score else 0.0)
+    k = get_k_factor(tournament)
+    ratings[home] = rating_home + k * (actual_home - expected_home)
+    ratings[away] = rating_away + k * ((1 - actual_home) - (1 - expected_home))
+    match_date = pd.to_datetime(row["date"], errors="coerce", utc=True).tz_localize(None)
+    history[home].append({
+        "date": match_date,
+        "points": _points(home_score, away_score),
+        "goals_for": home_score,
+        "goals_against": away_score,
+        "importance": get_match_importance(tournament),
+    })
+    history[away].append({
+        "date": match_date,
+        "points": _points(away_score, home_score),
+        "goals_for": away_score,
+        "goals_against": home_score,
+        "importance": get_match_importance(tournament),
+    })
+
+
+def backtest_completed_fixtures() -> pd.DataFrame:
+    """Score completed fixtures causally with the current model and kickoff-time state."""
+    fixtures = load_fixtures()
+    completed = fixtures[
+        fixtures.get("status", pd.Series(index=fixtures.index, dtype=str))
+        .astype(str).str.upper().isin(COMPLETED_STATUSES)
+    ].dropna(subset=["home_team", "away_team", "home_score", "away_score"]).copy()
+    completed["_kickoff"] = pd.to_datetime(completed["date"], errors="coerce", utc=True)
+    completed = completed.dropna(subset=["_kickoff"]).sort_values("_kickoff")
+    if completed.empty:
+        return pd.DataFrame()
+
+    first_kickoff = completed["_kickoff"].min().tz_localize(None)
+    state = build_latest_team_state(as_of_date=first_kickoff)
+    model = _load_model()
+    rows = []
+    for kickoff, kickoff_matches in completed.groupby("_kickoff", sort=True):
+        for _, fixture in kickoff_matches.iterrows():
+            prediction = predict(
+                fixture["home_team"], fixture["away_team"], neutral=True,
+                tournament=fixture.get("competition", "FIFA World Cup"),
+                model=model, state=state, as_of_date=kickoff.tz_localize(None),
+            )
+            rows.append({
+                "fixture_id": fixture.get("fixture_id"), "date": fixture.get("date"),
+                "round": fixture.get("round"), "group": fixture.get("group"),
+                "home_team": standardize_team_name(fixture["home_team"]),
+                "away_team": standardize_team_name(fixture["away_team"]),
+                "home_win_probability": prediction["team_a_win"],
+                "draw_probability": prediction["draw"],
+                "away_win_probability": prediction["team_b_win"],
+                "predicted_class": prediction["predicted_class"],
+                "predicted_result": prediction["predicted_result"],
+                "prediction_policy": prediction["prediction_policy"],
+            })
+        for _, fixture in kickoff_matches.iterrows():
+            _apply_completed_result(state, fixture)
+
+    predictions = pd.DataFrame(rows)
     predictions = merge_fotmob_rolling_features(predictions)
     predictions = merge_squad_features(predictions)
     predictions = enrich_probabilities_with_fotmob(predictions, policy=load_policy())
-    write_fotmob_coverage_report(predictions)
-    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
-    output_path = REPORTS_DIR / "fixture_predictions.csv"
-    predictions.to_csv(output_path, index=False)
-    print(f"Fixture predictions saved: {output_path} ({len(predictions)} rows)")
+    predictions["predicted_at"] = datetime.now(timezone.utc).isoformat()
+    predictions["prediction_source"] = "retrospective_backtest"
+    predictions["model_version"] = _model_version()
+    _append_prediction_history(predictions)
+    history = _read_prediction_history()
+    current = _select_frozen_predictions(fixtures, history, only_upcoming=False)
+    current.to_csv(REPORTS_DIR / "fixture_predictions.csv", index=False)
     return predictions
 
 
@@ -428,11 +651,17 @@ def main() -> None:
     parser.add_argument("team_b", nargs="?", help="Second listed team, for example Senegal")
     parser.add_argument("--fixtures", action="store_true", help="Predict all upcoming fixtures from data/raw/fixtures.csv")
     parser.add_argument("--all-fixtures", action="store_true", help="Predict every fixture in data/raw/fixtures.csv, including completed fixtures")
+    parser.add_argument("--backtest-completed", action="store_true", help="Causally rescore completed fixtures with the current model")
     parser.add_argument("--neutral", action="store_true", default=True, help="Use neutral venue. Default: true")
     parser.add_argument("--not-neutral", dest="neutral", action="store_false", help="Use non-neutral venue")
     parser.add_argument("--tournament", default="Friendly", help="Tournament name used for match_importance")
     parser.add_argument("--json", action="store_true", help="Print raw JSON output")
     args = parser.parse_args()
+
+    if args.backtest_completed:
+        predictions = backtest_completed_fixtures()
+        print(f"Retrospective backtest saved ({len(predictions)} completed fixtures).")
+        return
 
     if args.fixtures or args.all_fixtures:
         predictions = predict_fixtures(only_upcoming=not args.all_fixtures)

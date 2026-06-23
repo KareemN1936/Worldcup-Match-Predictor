@@ -167,14 +167,14 @@
         "leader": "Japan"
       },
       {
-        "feature": "fotmob_points_per_match_diff",
-        "label": "points per match",
-        "value": -1.0,
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -1.1490909090909085,
         "leader": "Japan"
       },
       {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
         "value": -1.0,
         "leader": "Japan"
       },
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -1.0,
+        "value": -1.1490909090909085,
         "leader": "Japan"
       },
       {

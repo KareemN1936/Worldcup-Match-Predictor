@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.5472727272727274,
-    "probability_shift": -0.0419421721602931,
+    "enrichment_score": -0.5181818181818182,
+    "probability_shift": -0.0397126879258589,
     "top_signals": "points per match:away; goal difference:away; starting XI rating:away",
-    "home_win_probability": 0.7521841695798436,
-    "draw_probability": 0.1234409945353911,
-    "away_win_probability": 0.1243748358847652,
+    "home_win_probability": 0.7540934216995295,
+    "draw_probability": 0.123834978692432,
+    "away_win_probability": 0.1220715996080384,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -175,7 +175,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.5,
+        "value": -0.2999999999999998,
         "leader": "Ghana"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.5,
+        "value": -0.2999999999999998,
         "leader": "Ghana"
       },
       {

@@ -117,10 +117,9 @@ def enrich_probabilities_with_fotmob(predictions: pd.DataFrame, policy: dict | N
         base_draw = float(row["draw_probability"])
         base_away = float(row["away_win_probability"])
 
-        draw_shift = -abs(shift) * 0.20
         enriched_home, enriched_draw, enriched_away = _normalize_probabilities(
             base_home + shift,
-            base_draw + draw_shift,
+            base_draw,
             base_away - shift,
         )
 

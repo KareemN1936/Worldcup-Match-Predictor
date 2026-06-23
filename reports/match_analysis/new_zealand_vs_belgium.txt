@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: -0.03
-Probability shift: -0.0026
-Top signals: player rating:away; starting XI rating:away; points per match:away
-New Zealand Win: 18.6%
-Draw: 24.3%
-Belgium Win: 57.0%
+Enrichment score: -0.24
+Probability shift: -0.0215
+Top signals: starting XI rating:away; goal difference:away; points per match:away
+New Zealand Win: 16.8%
+Draw: 24.0%
+Belgium Win: 59.1%
 FotMob-enriched result: Team A loss
 
 Squad Context:

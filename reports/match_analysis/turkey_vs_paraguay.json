@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.1993939393939395,
-    "probability_shift": 0.0088619528619528,
+    "enrichment_score": 0.2094435261707989,
+    "probability_shift": 0.0093086011631466,
     "top_signals": "starting XI rating:home; goal difference:home; player rating:home",
-    "home_win_probability": 0.4863383500141092,
-    "draw_probability": 0.2427303192480998,
-    "away_win_probability": 0.2709313307377909,
+    "home_win_probability": 0.4868293568722731,
+    "draw_probability": 0.2426625464307839,
+    "away_win_probability": 0.270508096696943,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -169,7 +169,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.6000000000000005,
+        "value": 0.669090909090909,
         "leader": "Turkey"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.6000000000000005,
+        "value": 0.669090909090909,
         "leader": "Turkey"
       },
       {

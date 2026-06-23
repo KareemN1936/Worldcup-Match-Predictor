@@ -1,7 +1,9 @@
+import argparse
 import json
 from pathlib import Path
 
 import joblib
+import numpy as np
 import pandas as pd
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.ensemble import RandomForestClassifier
@@ -14,7 +16,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.utils.class_weight import compute_sample_weight
 from xgboost import XGBClassifier
 
-from config import FEATURE_COLUMNS, FOTMOB_DIFF_FEATURE_COLUMNS, MODELS_DIR, PROCESSED_DATA_DIR, RANDOM_STATE, REPORTS_DIR, TARGET_COLUMN
+from config import FEATURE_COLUMNS, FOTMOB_DIFF_FEATURE_COLUMNS, MODELS_DIR, PROCESSED_DATA_DIR, RANDOM_STATE, RAW_DATA_DIR, REPORTS_DIR, TARGET_COLUMN
+from model_ensemble import ProbabilityEnsemble
 from prediction_policy import save_policy, tune_draw_policy
 
 
@@ -134,13 +137,42 @@ def evaluate_split(model, split: pd.DataFrame, feature_columns: list[str]) -> di
     }
 
 
-def _fit_model(model, x_train: pd.DataFrame, y_train: pd.Series, use_sample_weight: bool = False):
-    if not use_sample_weight:
-        model.fit(x_train, y_train)
-        return model
+def evaluate_time_windows(model, split: pd.DataFrame, feature_columns: list[str], windows: int = 3) -> dict:
+    ordered = split.sort_values("date").reset_index(drop=True)
+    window_metrics = [
+        evaluate_split(model, ordered.iloc[indexes], feature_columns)
+        for indexes in np.array_split(np.arange(len(ordered)), windows)
+        if len(indexes)
+    ]
+    losses = [item["log_loss"] for item in window_metrics]
+    return {
+        "windows": window_metrics,
+        "mean_log_loss": float(np.mean(losses)),
+        "log_loss_std": float(np.std(losses)),
+        "selection_score": float(np.mean(losses) + 0.10 * np.std(losses)),
+    }
 
-    sample_weight = compute_sample_weight(class_weight="balanced", y=y_train)
-    model.fit(x_train, y_train, classifier__sample_weight=sample_weight)
+
+def recency_weights(data: pd.DataFrame, half_life_years: float = 8.0) -> pd.Series:
+    reference_date = data["date"].max()
+    age_years = (reference_date - data["date"]).dt.days.clip(lower=0) / 365.25
+    weights = 0.5 ** (age_years / half_life_years)
+    weights = weights.clip(lower=0.05)
+    return weights / weights.mean()
+
+
+def _fit_model(
+    model,
+    x_train: pd.DataFrame,
+    y_train: pd.Series,
+    sample_weight: pd.Series,
+    balance_classes: bool = False,
+):
+    weights = sample_weight.to_numpy(dtype=float)
+    if balance_classes:
+        weights = weights * compute_sample_weight(class_weight="balanced", y=y_train)
+
+    model.fit(x_train, y_train, classifier__sample_weight=weights)
     return model
 
 
@@ -186,6 +218,8 @@ def train() -> dict:
     y_calibration = calibration_data[TARGET_COLUMN].astype(int)
     x_validation = validation_data[feature_columns]
     y_validation = validation_data[TARGET_COLUMN].astype(int)
+    full_train_weights = recency_weights(train_data)
+    base_train_weights = recency_weights(base_train_data)
 
     MODELS_DIR.mkdir(parents=True, exist_ok=True)
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -195,41 +229,89 @@ def train() -> dict:
     best_validation_log_loss = float("inf")
 
     for name, spec in MODEL_SPECS.items():
-        model = _fit_model(spec["factory"](), x_full_train, y_full_train, use_sample_weight=spec["sample_weight"])
+        model = _fit_model(
+            spec["factory"](),
+            x_full_train,
+            y_full_train,
+            full_train_weights,
+            balance_classes=spec["sample_weight"],
+        )
         model_path = MODELS_DIR / _safe_model_filename(name)
         joblib.dump(model, model_path)
 
         validation_metrics = evaluate_split(model, validation_data, feature_columns)
         test_metrics = evaluate_split(model, test_data, feature_columns)
+        rolling_metrics = evaluate_time_windows(model, validation_data, feature_columns)
         results[name] = {
             "model_path": str(model_path.relative_to(MODELS_DIR.parent)),
             "type": spec["type"],
             "validation": validation_metrics,
             "test": test_metrics,
+            "rolling_validation": rolling_metrics,
         }
 
-        if validation_metrics["log_loss"] < best_validation_log_loss:
-            best_validation_log_loss = validation_metrics["log_loss"]
+        if rolling_metrics["selection_score"] < best_validation_log_loss:
+            best_validation_log_loss = rolling_metrics["selection_score"]
             best_name = name
 
         calibrated_name = f"{name}_calibrated"
-        calibration_base_model = _fit_model(spec["factory"](), x_base_train, y_base_train, use_sample_weight=spec["sample_weight"])
+        calibration_base_model = _fit_model(
+            spec["factory"](),
+            x_base_train,
+            y_base_train,
+            base_train_weights,
+            balance_classes=spec["sample_weight"],
+        )
         calibrated_model = _calibrate_model(calibration_base_model, x_calibration, y_calibration)
         calibrated_path = MODELS_DIR / _safe_model_filename(calibrated_name)
         joblib.dump(calibrated_model, calibrated_path)
 
         calibrated_validation_metrics = evaluate_split(calibrated_model, validation_data, feature_columns)
         calibrated_test_metrics = evaluate_split(calibrated_model, test_data, feature_columns)
+        calibrated_rolling_metrics = evaluate_time_windows(calibrated_model, validation_data, feature_columns)
         results[calibrated_name] = {
             "model_path": str(calibrated_path.relative_to(MODELS_DIR.parent)),
             "type": "calibrated_sigmoid_on_calibration_split",
             "validation": calibrated_validation_metrics,
             "test": calibrated_test_metrics,
+            "rolling_validation": calibrated_rolling_metrics,
         }
 
-        if calibrated_validation_metrics["log_loss"] < best_validation_log_loss:
-            best_validation_log_loss = calibrated_validation_metrics["log_loss"]
+        if calibrated_rolling_metrics["selection_score"] < best_validation_log_loss:
+            best_validation_log_loss = calibrated_rolling_metrics["selection_score"]
             best_name = calibrated_name
+
+    top_names = sorted(
+        results,
+        key=lambda model_name: results[model_name]["rolling_validation"]["selection_score"],
+    )[:3]
+    top_scores = np.asarray(
+        [results[model_name]["rolling_validation"]["selection_score"] for model_name in top_names],
+        dtype=float,
+    )
+    ensemble_weights = (1.0 / top_scores).tolist()
+    ensemble = ProbabilityEnsemble(
+        [joblib.load(MODELS_DIR / _safe_model_filename(model_name)) for model_name in top_names],
+        ensemble_weights,
+    )
+    ensemble_name = "probability_ensemble"
+    ensemble_path = MODELS_DIR / _safe_model_filename(ensemble_name)
+    joblib.dump(ensemble, ensemble_path)
+    ensemble_validation_metrics = evaluate_split(ensemble, validation_data, feature_columns)
+    ensemble_test_metrics = evaluate_split(ensemble, test_data, feature_columns)
+    ensemble_rolling_metrics = evaluate_time_windows(ensemble, validation_data, feature_columns)
+    results[ensemble_name] = {
+        "model_path": str(ensemble_path.relative_to(MODELS_DIR.parent)),
+        "type": "soft_voting_recent_log_loss_weighted",
+        "members": top_names,
+        "weights": (np.asarray(ensemble_weights) / np.sum(ensemble_weights)).tolist(),
+        "validation": ensemble_validation_metrics,
+        "test": ensemble_test_metrics,
+        "rolling_validation": ensemble_rolling_metrics,
+    }
+    if ensemble_rolling_metrics["selection_score"] < best_validation_log_loss:
+        best_validation_log_loss = ensemble_rolling_metrics["selection_score"]
+        best_name = ensemble_name
 
     best_model_path = MODELS_DIR / _safe_model_filename(best_name)
     best_model = joblib.load(best_model_path)
@@ -242,7 +324,8 @@ def train() -> dict:
         "best_model": best_name,
         "best_model_path": str(Path("models") / "best_model.pkl"),
         "prediction_policy_path": str(Path("models") / "prediction_policy.json"),
-        "selection_metric": "validation_log_loss",
+        "selection_metric": "rolling_validation_log_loss_with_stability_penalty",
+        "recency_weighting": {"method": "exponential_half_life", "half_life_years": 8.0, "minimum_weight": 0.05},
         "features": feature_columns,
         "fotmob_features_included": [column for column in feature_columns if column in FOTMOB_DIFF_FEATURE_COLUMNS],
         "target": "0 = Team A loss, 1 = Draw, 2 = Team A win",
@@ -313,7 +396,95 @@ def write_training_report(metadata: dict) -> None:
     pd.DataFrame(rows).sort_values("validation_log_loss").to_csv(REPORTS_DIR / "model_comparison.csv", index=False)
 
 
+def refit_production_model() -> dict:
+    """Refit the selected architecture on all data available before the tournament."""
+    metadata_path = MODELS_DIR / "model_metadata.json"
+    metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+    selected_name = metadata["best_model"]
+    if selected_name not in MODEL_SPECS:
+        members = metadata["models"].get(selected_name, {}).get("members", [])
+        selected_name = members[0] if members else "xgboost_slow_learning"
+    if selected_name.endswith("_calibrated"):
+        selected_name = selected_name.removesuffix("_calibrated")
+
+    data = pd.read_csv(PROCESSED_DATA_DIR / "training_dataset.csv")
+    data["date"] = pd.to_datetime(data["date"], errors="coerce")
+    fixtures = pd.read_csv(RAW_DATA_DIR / "fixtures.csv")
+    tournament_start = pd.to_datetime(fixtures["date"], errors="coerce", utc=True).min().tz_localize(None)
+    production_data = data[data["date"] < tournament_start].dropna(subset=["date", TARGET_COLUMN]).copy()
+    feature_columns = metadata["features"]
+    selection_point = int(len(production_data) * 0.85)
+    development = production_data.iloc[:selection_point]
+    pre_tournament_holdout = production_data.iloc[selection_point:]
+    calibration_point = int(len(development) * 0.85)
+    base_development = development.iloc[:calibration_point]
+    calibration_development = development.iloc[calibration_point:]
+
+    holdout_base = _fit_model(
+        MODEL_SPECS[selected_name]["factory"](),
+        development[feature_columns], development[TARGET_COLUMN].astype(int), recency_weights(development),
+        balance_classes=MODEL_SPECS[selected_name]["sample_weight"],
+    )
+    calibration_base = _fit_model(
+        MODEL_SPECS[selected_name]["factory"](),
+        base_development[feature_columns], base_development[TARGET_COLUMN].astype(int), recency_weights(base_development),
+        balance_classes=MODEL_SPECS[selected_name]["sample_weight"],
+    )
+    holdout_calibrated = _calibrate_model(
+        calibration_base,
+        calibration_development[feature_columns],
+        calibration_development[TARGET_COLUMN].astype(int),
+    )
+    base_loss = evaluate_split(holdout_base, pre_tournament_holdout, feature_columns)["log_loss"]
+    calibrated_loss = evaluate_split(holdout_calibrated, pre_tournament_holdout, feature_columns)["log_loss"]
+
+    if calibrated_loss < base_loss:
+        final_calibration_point = int(len(production_data) * 0.90)
+        final_base_data = production_data.iloc[:final_calibration_point]
+        final_calibration_data = production_data.iloc[final_calibration_point:]
+        final_base = _fit_model(
+            MODEL_SPECS[selected_name]["factory"](),
+            final_base_data[feature_columns], final_base_data[TARGET_COLUMN].astype(int), recency_weights(final_base_data),
+            balance_classes=MODEL_SPECS[selected_name]["sample_weight"],
+        )
+        model = _calibrate_model(
+            final_base,
+            final_calibration_data[feature_columns],
+            final_calibration_data[TARGET_COLUMN].astype(int),
+        )
+        production_variant = "recent_sigmoid_calibrated"
+    else:
+        model = _fit_model(
+            MODEL_SPECS[selected_name]["factory"](),
+            production_data[feature_columns], production_data[TARGET_COLUMN].astype(int), recency_weights(production_data),
+            balance_classes=MODEL_SPECS[selected_name]["sample_weight"],
+        )
+        production_variant = "uncalibrated"
+    joblib.dump(model, MODELS_DIR / "best_model.pkl")
+    metadata["production_model"] = {
+        "architecture": selected_name,
+        "training_rows": len(production_data),
+        "training_date_range": [
+            str(production_data["date"].min().date()),
+            str(production_data["date"].max().date()),
+        ],
+        "strict_cutoff": tournament_start.isoformat(),
+        "uses_tournament_results": False,
+        "variant": production_variant,
+        "pre_tournament_holdout_log_loss": {"uncalibrated": base_loss, "calibrated": calibrated_loss},
+    }
+    metadata_path.write_text(json.dumps(metadata, indent=2), encoding="utf-8")
+    return metadata
+
+
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--refit-production", action="store_true")
+    args = parser.parse_args()
+    if args.refit_production:
+        metadata = refit_production_model()
+        print(f"Production model refit: {metadata['production_model']}")
+        return
     metadata = train()
     write_training_report(metadata)
     print(f"Models trained. Best model: {metadata['best_model']}")

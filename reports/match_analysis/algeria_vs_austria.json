@@ -152,37 +152,37 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.6418181818181817,
-    "probability_shift": -0.057050505050505,
-    "top_signals": "points per match:away; goal difference:away; starting XI rating:away",
-    "home_win_probability": 0.3614307610138801,
-    "draw_probability": 0.2911579042400759,
-    "away_win_probability": 0.3474113347460439,
+    "enrichment_score": -0.0653774104683197,
+    "probability_shift": -0.0058113253749617,
+    "top_signals": "goal difference:away; starting XI rating:home; points per match:away",
+    "home_win_probability": 0.409021370451899,
+    "draw_probability": 0.298430454372347,
+    "away_win_probability": 0.2925481751757539,
     "predicted_result": "Team A win",
     "strongest": [
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": -5.0,
-        "leader": "Austria"
-      },
-      {
-        "feature": "fotmob_points_per_match_diff",
-        "label": "points per match",
-        "value": -3.0,
+        "value": -1.0,
         "leader": "Austria"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.8999999999999995,
-        "leader": "Austria"
+        "value": 0.0713636363636354,
+        "leader": "Algeria"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": -0.2000000000000001,
-        "leader": "Austria"
+        "value": 0.0,
+        "leader": "Even"
       },
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
@@ -195,26 +195,26 @@
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": -3.0,
-        "leader": "Austria"
+        "value": 0.0,
+        "leader": "Even"
       },
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": -5.0,
+        "value": -1.0,
         "leader": "Austria"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": -0.2000000000000001,
-        "leader": "Austria"
+        "value": 0.0,
+        "leader": "Even"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.8999999999999995,
-        "leader": "Austria"
+        "value": 0.0713636363636354,
+        "leader": "Algeria"
       },
       {
         "feature": "fotmob_shots_on_target_per_match_diff",

@@ -152,23 +152,23 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": -0.0290909090909092,
-    "probability_shift": -0.0012929292929292,
-    "top_signals": "player rating:away; starting XI rating:away; points per match:away",
-    "home_win_probability": 0.3065843931847919,
-    "draw_probability": 0.2386748597299711,
-    "away_win_probability": 0.4547407470852367,
+    "enrichment_score": -0.029223140495868,
+    "probability_shift": -0.0012988062442608,
+    "top_signals": "starting XI rating:away; player rating:away; points per match:away",
+    "home_win_probability": 0.3065788751566488,
+    "draw_probability": 0.238673964643343,
+    "away_win_probability": 0.4547471602000082,
     "predicted_result": "Team A loss",
     "strongest": [
       {
-        "feature": "fotmob_avg_player_rating_diff",
-        "label": "average player rating",
-        "value": -0.1000000000000005,
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.1009090909090923,
         "leader": "Egypt"
       },
       {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
         "value": -0.1000000000000005,
         "leader": "Egypt"
       },
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.1000000000000005,
+        "value": -0.1009090909090923,
         "leader": "Egypt"
       },
       {

@@ -152,18 +152,18 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.0290909090909091,
-    "probability_shift": 0.0012470607102519,
+    "enrichment_score": 0.0222148760330579,
+    "probability_shift": 0.0009523009060105,
     "top_signals": "starting XI rating:home; points per match:away; goal difference:away",
-    "home_win_probability": 0.6868948471866761,
-    "draw_probability": 0.2056650713044539,
-    "away_win_probability": 0.1074400815088699,
+    "home_win_probability": 0.6865595297271675,
+    "draw_probability": 0.2057119078255161,
+    "away_win_probability": 0.1077285624473164,
     "predicted_result": "Team A win",
     "strongest": [
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.2000000000000001,
+        "value": 0.1527272727272732,
         "leader": "Canada"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.2000000000000001,
+        "value": 0.1527272727272732,
         "leader": "Canada"
       },
       {

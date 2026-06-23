@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: -0.07
-Probability shift: -0.0059
-Top signals: goal difference:away; starting XI rating:home; player rating:home
-Switzerland Win: 45.2%
+Enrichment score: -0.08
+Probability shift: -0.0071
+Top signals: goal difference:away; player rating:home; starting XI rating:home
+Switzerland Win: 45.1%
 Draw: 25.9%
-Canada Win: 28.8%
+Canada Win: 29.0%
 FotMob-enriched result: Team A win
 
 Squad Context:

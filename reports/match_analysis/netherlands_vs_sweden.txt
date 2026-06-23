@@ -21,8 +21,8 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: -0.47
-Probability shift: -0.0198
+Enrichment score: -0.46
+Probability shift: -0.0191
 Top signals: points per match:away; goal difference:away; player rating:home
 Netherlands Win: 69.4%
 Draw: 17.9%

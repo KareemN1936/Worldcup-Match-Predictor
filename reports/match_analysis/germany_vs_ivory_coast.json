@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.2854545454545454,
-    "probability_shift": 0.0120823467611062,
+    "enrichment_score": 0.3185123966942148,
+    "probability_shift": 0.013481576264419,
     "top_signals": "goal difference:home; starting XI rating:home; player rating:away",
-    "home_win_probability": 0.7114510027175502,
-    "draw_probability": 0.1763067566741156,
-    "away_win_probability": 0.1122422406083341,
+    "home_win_probability": 0.713053650193916,
+    "draw_probability": 0.176075626284117,
+    "away_win_probability": 0.1108707235219669,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -169,7 +169,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.5,
+        "value": 0.7272727272727266,
         "leader": "Germany"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.5,
+        "value": 0.7272727272727266,
         "leader": "Germany"
       },
       {

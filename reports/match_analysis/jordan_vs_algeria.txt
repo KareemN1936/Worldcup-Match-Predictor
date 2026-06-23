@@ -22,9 +22,9 @@ FotMob Layer:
 Features available: 8
 Reliability: 0.44
 Enrichment score: 0.18
-Probability shift: 0.0079
+Probability shift: 0.0080
 Top signals: goal difference:home; starting XI rating:home; player rating:home
-Jordan Win: 25.9%
+Jordan Win: 26.0%
 Draw: 23.9%
 Algeria Win: 50.2%
 FotMob-enriched result: Team A loss

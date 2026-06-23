@@ -21,9 +21,9 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.08
-Probability shift: 0.0029
-Top signals: goal difference:home; player rating:home; points per match:away
+Enrichment score: 0.09
+Probability shift: 0.0031
+Top signals: goal difference:home; player rating:home; starting XI rating:home
 England Win: 87.2%
 Draw: 11.1%
 Ghana Win: 1.8%

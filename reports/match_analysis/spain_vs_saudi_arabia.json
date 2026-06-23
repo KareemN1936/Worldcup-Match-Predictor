@@ -152,18 +152,18 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.0945454545454544,
-    "probability_shift": 0.0033677656038842,
+    "enrichment_score": 0.103801652892562,
+    "probability_shift": 0.0036974769217471,
     "top_signals": "starting XI rating:home; player rating:home; points per match:away",
-    "home_win_probability": 0.8524785299948203,
-    "draw_probability": 0.1219040017348457,
-    "away_win_probability": 0.0256174682703339,
+    "home_win_probability": 0.8528647412888579,
+    "draw_probability": 0.1218460552443048,
+    "away_win_probability": 0.0252892034668372,
     "predicted_result": "Team A win",
     "strongest": [
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.5,
+        "value": 0.5636363636363644,
         "leader": "Spain"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.5,
+        "value": 0.5636363636363644,
         "leader": "Spain"
       },
       {

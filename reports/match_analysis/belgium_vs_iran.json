@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.0290909090909092,
-    "probability_shift": 0.0012929292929292,
+    "enrichment_score": 0.0232727272727272,
+    "probability_shift": 0.0010343434343434,
     "top_signals": "player rating:home; starting XI rating:home; points per match:away",
-    "home_win_probability": 0.4908177610426223,
-    "draw_probability": 0.2489707035689336,
-    "away_win_probability": 0.2602115353884441,
+    "home_win_probability": 0.4905337327210407,
+    "draw_probability": 0.2490095527166939,
+    "away_win_probability": 0.2604567145622652,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -169,7 +169,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.1000000000000005,
+        "value": 0.0599999999999996,
         "leader": "Belgium"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.1000000000000005,
+        "value": 0.0599999999999996,
         "leader": "Belgium"
       },
       {

@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": -0.4745454545454545,
-    "probability_shift": -0.0198103507475419,
+    "enrichment_score": -0.4577520661157025,
+    "probability_shift": -0.0191092947963227,
     "top_signals": "points per match:away; goal difference:away; player rating:home",
-    "home_win_probability": 0.6936540577976202,
-    "draw_probability": 0.1789408940814851,
-    "away_win_probability": 0.1274050481208946,
+    "home_win_probability": 0.6942601721487619,
+    "draw_probability": 0.1790564574184562,
+    "away_win_probability": 0.1266833704327818,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -181,7 +181,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.2999999999999998,
+        "value": -0.1845454545454545,
         "leader": "Sweden"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.2999999999999998,
+        "value": -0.1845454545454545,
         "leader": "Sweden"
       },
       {

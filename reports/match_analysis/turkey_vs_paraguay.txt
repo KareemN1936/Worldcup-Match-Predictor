@@ -21,10 +21,10 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.20
-Probability shift: 0.0089
+Enrichment score: 0.21
+Probability shift: 0.0093
 Top signals: starting XI rating:home; goal difference:home; player rating:home
-Turkey Win: 48.6%
+Turkey Win: 48.7%
 Draw: 24.3%
 Paraguay Win: 27.1%
 FotMob-enriched result: Team A win

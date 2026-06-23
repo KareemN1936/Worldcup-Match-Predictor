@@ -204,6 +204,7 @@ def build_training_dataset() -> pd.DataFrame:
             "tournament": match.get("tournament", "Other"),
             "result": result_from_scores(int(match["home_score"]), int(match["away_score"])),
             "elo_diff": float(match.get("elo_diff", 0.0) if pd.notna(match.get("elo_diff", 0.0)) else 0.0),
+            "elo_gap_abs": abs(float(match.get("elo_diff", 0.0) if pd.notna(match.get("elo_diff", 0.0)) else 0.0)),
             "points_last_5_diff": team_a_last_5["points"] - team_b_last_5["points"],
             "points_last_10_diff": team_a_last_10["points"] - team_b_last_10["points"],
             "goal_difference_last_5_diff": team_a_last_5["goal_difference"] - team_b_last_5["goal_difference"],
@@ -225,6 +226,21 @@ def build_training_dataset() -> pd.DataFrame:
             "goal_difference_per_match_2y_diff": team_a_2y["goal_difference_per_match"] - team_b_2y["goal_difference_per_match"],
             "clean_sheet_rate_2y_diff": team_a_2y["clean_sheet_rate"] - team_b_2y["clean_sheet_rate"],
             "failed_to_score_rate_2y_diff": team_a_2y["failed_to_score_rate"] - team_b_2y["failed_to_score_rate"],
+            "draw_rate_2y_mean": (team_a_2y["draw_rate"] + team_b_2y["draw_rate"]) / 2,
+            "goals_total_per_match_2y_mean": (
+                team_a_2y["goals_for_per_match"]
+                + team_a_2y["goals_against_per_match"]
+                + team_b_2y["goals_for_per_match"]
+                + team_b_2y["goals_against_per_match"]
+            ) / 2,
+            "goals_against_per_match_2y_mean": (
+                team_a_2y["goals_against_per_match"] + team_b_2y["goals_against_per_match"]
+            ) / 2,
+            "clean_sheet_rate_2y_mean": (team_a_2y["clean_sheet_rate"] + team_b_2y["clean_sheet_rate"]) / 2,
+            "failed_to_score_rate_2y_mean": (
+                team_a_2y["failed_to_score_rate"] + team_b_2y["failed_to_score_rate"]
+            ) / 2,
+            "recent_draws_last_5_sum": team_a_last_5["draws"] + team_b_last_5["draws"],
             "neutral": int(str(match.get("neutral", False)).lower() in ["true", "1", "yes"]),
             "match_importance": get_match_importance(match.get("tournament", "Other")),
         }

@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: 0.13
-Probability shift: 0.0119
-Top signals: goal difference:home; player rating:home; starting XI rating:home
-Senegal Win: 58.9%
-Draw: 27.0%
-Iraq Win: 14.2%
+Enrichment score: 0.19
+Probability shift: 0.0166
+Top signals: goal difference:home; starting XI rating:home; player rating:home
+Senegal Win: 59.4%
+Draw: 26.9%
+Iraq Win: 13.7%
 FotMob-enriched result: Team A win
 
 Squad Context:

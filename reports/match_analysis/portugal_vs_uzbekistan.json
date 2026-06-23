@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.3806060606060605,
-    "probability_shift": 0.0168357542134294,
+    "enrichment_score": 0.4028209366391184,
+    "probability_shift": 0.0178184085415786,
     "top_signals": "goal difference:home; points per match:home; starting XI rating:home",
-    "home_win_probability": 0.6738381176993432,
-    "draw_probability": 0.2016542653416797,
-    "away_win_probability": 0.124507616958977,
+    "home_win_probability": 0.674957189983461,
+    "draw_probability": 0.2014968046305585,
+    "away_win_probability": 0.1235460053859805,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -175,7 +175,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.5999999999999996,
+        "value": 0.7527272727272729,
         "leader": "Portugal"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.5999999999999996,
+        "value": 0.7527272727272729,
         "leader": "Portugal"
       },
       {

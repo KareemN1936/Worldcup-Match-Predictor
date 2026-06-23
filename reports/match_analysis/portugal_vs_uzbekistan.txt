@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.38
-Probability shift: 0.0168
+Enrichment score: 0.40
+Probability shift: 0.0178
 Top signals: goal difference:home; points per match:home; starting XI rating:home
-Portugal Win: 67.4%
-Draw: 20.2%
-Uzbekistan Win: 12.5%
+Portugal Win: 67.5%
+Draw: 20.1%
+Uzbekistan Win: 12.4%
 FotMob-enriched result: Team A win
 
 Squad Context:

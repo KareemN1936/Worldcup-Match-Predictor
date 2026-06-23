@@ -138,7 +138,7 @@ with st.sidebar.container(key="sidebar_footer"):
     if st.button("Refresh Data", type="primary", use_container_width=True):
         with st.spinner("Updating fixtures, predictions, and analysis…"):
             proc = subprocess.run(
-                [sys.executable, "src/run_pipeline.py", "--update-predictions"],
+                [sys.executable, "src/auto_update.py", "--once"],
                 capture_output=True,
                 text=True,
                 cwd=ROOT_DIR,
@@ -153,10 +153,8 @@ with st.sidebar.container(key="sidebar_footer"):
         st.rerun()
 
 
-def best_model_metrics() -> tuple[str, float | None, float | None]:
-    best_name = metadata.get("best_model", "Unavailable")
-    test_metrics = metadata.get("models", {}).get(best_name, {}).get("test", {})
-    return best_name, test_metrics.get("accuracy"), test_metrics.get("log_loss")
+def best_model_name() -> str:
+    return metadata.get("best_model", "Unavailable")
 
 
 def format_number(value) -> str:
@@ -165,6 +163,56 @@ def format_number(value) -> str:
     if isinstance(value, float):
         return f"{value:.3f}"
     return str(value)
+
+
+def live_prediction_metrics(
+    match_data: pd.DataFrame,
+) -> tuple[int, int, float | None, int, int, float | None]:
+    """Calculate overall and decisive-match winner accuracy."""
+    required = {"status", "home_score", "away_score"}
+    if match_data.empty or not required.issubset(match_data.columns):
+        return 0, 0, None, 0, 0, None
+
+    probability_columns = [
+        "display_home_win_probability",
+        "display_draw_probability",
+        "display_away_win_probability",
+    ]
+    if not set(probability_columns).issubset(match_data.columns):
+        return 0, 0, None, 0, 0, None
+
+    played = match_data[
+        match_data["status"].astype(str).str.upper().isin({"FINISHED", "COMPLETED"})
+    ].copy()
+    for column in ["home_score", "away_score", *probability_columns]:
+        played[column] = pd.to_numeric(played[column], errors="coerce")
+    played = played.dropna(subset=["home_score", "away_score", *probability_columns])
+    probability_totals = played[probability_columns].sum(axis=1)
+    played = played[probability_totals > 0].copy()
+    if played.empty:
+        return 0, 0, None, 0, 0, None
+
+    probabilities = played[probability_columns].clip(lower=0)
+    probabilities = probabilities.div(probabilities.sum(axis=1), axis=0)
+
+    actual = pd.Series("draw", index=played.index)
+    actual.loc[played["home_score"] > played["away_score"]] = "home"
+    actual.loc[played["away_score"] > played["home_score"]] = "away"
+
+    predicted = probabilities.idxmax(axis=1).map(
+        {
+            "display_home_win_probability": "home",
+            "display_draw_probability": "draw",
+            "display_away_win_probability": "away",
+        }
+    )
+    correct = int((actual == predicted).sum())
+    total = len(played)
+    decisive = actual != "draw"
+    winner_total = int(decisive.sum())
+    winner_correct = int((actual[decisive] == predicted[decisive]).sum())
+    winner_accuracy = winner_correct / winner_total if winner_total else None
+    return correct, total, correct / total, winner_correct, winner_total, winner_accuracy
 
 
 def upcoming_matches_frame() -> pd.DataFrame:
@@ -176,8 +224,37 @@ def upcoming_matches_frame() -> pd.DataFrame:
     return scheduled.sort_values("_date").head(3)
 
 
+best_name = best_model_name()
+(
+    correct_predictions,
+    played_predictions,
+    live_accuracy,
+    correct_winners,
+    games_with_winner,
+    winner_accuracy,
+) = live_prediction_metrics(matches)
+completed_metric_rows = matches[
+    matches.get("status", pd.Series(index=matches.index, dtype=str))
+    .astype(str).str.upper().isin({"FINISHED", "COMPLETED"})
+]
+uses_retrospective_backtest = (
+    "prediction_source" in completed_metric_rows.columns
+    and completed_metric_rows["prediction_source"].eq("retrospective_backtest").any()
+)
+metric_scope = "Retrospective backtest · " if uses_retrospective_backtest else ""
+accuracy_hint = (
+    f"{metric_scope}{correct_predictions} out of {played_predictions} games guessed correctly"
+    if played_predictions
+    else "Awaiting results from frozen pre-match predictions"
+)
+winner_accuracy_hint = (
+    f"{metric_scope}{correct_winners} out of {games_with_winner} games with a winner guessed correctly"
+    if games_with_winner
+    else "Awaiting results from frozen pre-match predictions"
+)
+
+
 if page == "Overview":
-    best_name, accuracy, log_loss = best_model_metrics()
     total_matches = len(fixtures)
     completed = completed_count(fixtures)
     upcoming = max(total_matches - completed, 0)
@@ -215,12 +292,12 @@ if page == "Overview":
         ]
     )
 
-    render_section_head("Model Pulse", "Current saved model and test-set behavior.")
+    render_section_head("Model Pulse", "Live performance across completed tournament predictions.")
     render_stat_grid(
         [
             {"label": "Best model", "value": best_name, "hint": "Selected by validation metric", "color": "var(--color-blue)"},
-            {"label": "Accuracy", "value": format_number(accuracy), "hint": "Held-out test accuracy", "color": "var(--color-accent)"},
-            {"label": "Log loss", "value": format_number(log_loss), "hint": "Lower is better", "color": "var(--color-accent-3)"},
+            {"label": "Accuracy", "value": percent(live_accuracy), "hint": accuracy_hint, "color": "var(--color-accent)"},
+            {"label": "Winner accuracy", "value": percent(winner_accuracy), "hint": winner_accuracy_hint, "color": "var(--color-accent-3)"},
             {"label": "Last update", "value": "Ready", "hint": str(last_updated), "color": "var(--color-accent-2)"},
         ]
     )
@@ -370,14 +447,12 @@ elif page == "Match Detail":
 
 
 elif page == "Model Performance":
-    best_name, accuracy, log_loss = best_model_metrics()
-
-    render_section_head("Model Performance", "Saved model and evaluation artifacts.")
+    render_section_head("Model Performance", "Live tournament performance and saved evaluation artifacts.")
     render_stat_grid(
         [
             {"label": "Best model", "value": best_name, "hint": "Current selected model", "color": "var(--color-blue)"},
-            {"label": "Accuracy", "value": format_number(accuracy), "hint": "Test split", "color": "var(--color-accent)"},
-            {"label": "Log loss", "value": format_number(log_loss), "hint": "Test split", "color": "var(--color-accent-3)"},
+            {"label": "Accuracy", "value": percent(live_accuracy), "hint": accuracy_hint, "color": "var(--color-accent)"},
+            {"label": "Winner accuracy", "value": percent(winner_accuracy), "hint": winner_accuracy_hint, "color": "var(--color-accent-3)"},
             {"label": "Features", "value": len(metadata.get("features", [])), "hint": "Training inputs", "color": "var(--color-accent-2)"},
         ]
     )

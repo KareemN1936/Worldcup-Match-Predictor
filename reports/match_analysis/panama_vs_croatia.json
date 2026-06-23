@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.053939393939394,
-    "probability_shift": 0.0023973063973064,
+    "enrichment_score": 0.0337079889807163,
+    "probability_shift": 0.0014981328435873,
     "top_signals": "goal difference:home; starting XI rating:away; player rating:away",
-    "home_win_probability": 0.2496422048047827,
-    "draw_probability": 0.2658296235907294,
-    "away_win_probability": 0.4845281716044878,
+    "home_win_probability": 0.2486978539225429,
+    "draw_probability": 0.2659616924852613,
+    "away_win_probability": 0.4853404535921957,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -169,7 +169,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.0999999999999996,
+        "value": -0.2390909090909083,
         "leader": "Croatia"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.0999999999999996,
+        "value": -0.2390909090909083,
         "leader": "Croatia"
       },
       {

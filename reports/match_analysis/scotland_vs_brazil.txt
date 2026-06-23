@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: -0.21
-Probability shift: -0.0190
+Enrichment score: -0.23
+Probability shift: -0.0207
 Top signals: goal difference:away; points per match:away; starting XI rating:away
-Scotland Win: 21.3%
+Scotland Win: 21.1%
 Draw: 26.0%
-Brazil Win: 52.6%
+Brazil Win: 52.8%
 FotMob-enriched result: Team A loss
 
 Squad Context:

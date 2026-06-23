@@ -1,27 +1,27 @@
 {
   "name": "draw_threshold",
-  "draw_min_probability": 0.31,
-  "draw_margin": 0.15,
+  "draw_min_probability": 0.34,
+  "draw_margin": 0.05,
   "description": "Predict draw when draw probability is high and close to the strongest win/loss probability.",
-  "validation_accuracy": 0.5762071756137038,
-  "validation_draw_recall": 0.07963069821119446,
+  "validation_accuracy": 0.5747234960884813,
+  "validation_draw_recall": 0.038084246970571264,
   "validation_confusion_matrix": [
     [
-      1110,
-      151,
-      857
+      1192,
+      84,
+      842
     ],
     [
-      473,
-      138,
-      1122
+      543,
+      66,
+      1124
     ],
     [
-      430,
-      109,
-      3024
+      498,
+      62,
+      3003
     ]
   ],
-  "baseline_validation_accuracy": 0.5745886161316428,
-  "baseline_validation_draw_recall": 0.0017311021350259665
+  "baseline_validation_accuracy": 0.5740490963042891,
+  "baseline_validation_draw_recall": 0.01673398730525101
 }

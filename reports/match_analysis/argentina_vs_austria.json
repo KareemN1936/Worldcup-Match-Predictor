@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.0612121212121212,
-    "probability_shift": 0.0024617685667994,
-    "top_signals": "goal difference:home; player rating:away; starting XI rating:home",
-    "home_win_probability": 0.7479472814381407,
-    "draw_probability": 0.1725078934267078,
-    "away_win_probability": 0.0795448251351513,
+    "enrichment_score": 0.0765509641873278,
+    "probability_shift": 0.0030786509871388,
+    "top_signals": "goal difference:home; starting XI rating:home; player rating:away",
+    "home_win_probability": 0.7486568798961045,
+    "draw_probability": 0.1724057374579679,
+    "away_win_probability": 0.0789373826459276,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -167,16 +167,16 @@
         "leader": "Argentina"
       },
       {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.205454545454546,
+        "leader": "Argentina"
+      },
+      {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
         "value": -0.2000000000000001,
         "leader": "Austria"
-      },
-      {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
-        "value": 0.1000000000000005,
-        "leader": "Argentina"
       },
       {
         "feature": "fotmob_points_per_match_diff",
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.1000000000000005,
+        "value": 0.205454545454546,
         "leader": "Argentina"
       },
       {

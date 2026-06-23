@@ -152,37 +152,37 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.0290909090909092,
-    "probability_shift": -0.0025858585858585,
-    "top_signals": "player rating:away; starting XI rating:away; points per match:away",
-    "home_win_probability": 0.1864926828855631,
-    "draw_probability": 0.2432345720899487,
-    "away_win_probability": 0.570272745024488,
+    "enrichment_score": -0.2415426997245181,
+    "probability_shift": -0.0214704621977349,
+    "top_signals": "starting XI rating:away; goal difference:away; points per match:away",
+    "home_win_probability": 0.168234042245294,
+    "draw_probability": 0.2403640024435578,
+    "away_win_probability": 0.591401955311148,
     "predicted_result": "Team A loss",
     "strongest": [
       {
-        "feature": "fotmob_avg_player_rating_diff",
-        "label": "average player rating",
-        "value": -0.1000000000000005,
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": -1.0,
         "leader": "Belgium"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.1000000000000005,
+        "value": -0.6022727272727284,
         "leader": "Belgium"
       },
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -0.5,
+        "leader": "Belgium"
       },
       {
-        "feature": "fotmob_goal_difference_per_match_diff",
-        "label": "goal difference per match",
-        "value": 0.0,
-        "leader": "Even"
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.1000000000000005,
+        "leader": "Belgium"
       },
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
@@ -195,14 +195,14 @@
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -0.5,
+        "leader": "Belgium"
       },
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -1.0,
+        "leader": "Belgium"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.1000000000000005,
+        "value": -0.6022727272727284,
         "leader": "Belgium"
       },
       {

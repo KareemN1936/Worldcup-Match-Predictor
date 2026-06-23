@@ -21,8 +21,8 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.03
-Probability shift: 0.0013
+Enrichment score: 0.02
+Probability shift: 0.0010
 Top signals: player rating:home; starting XI rating:home; points per match:away
 Belgium Win: 49.1%
 Draw: 24.9%

@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.5763636363636362,
-    "probability_shift": -0.0506440504709879,
+    "enrichment_score": -0.5723966942148759,
+    "probability_shift": -0.050295482300267,
     "top_signals": "points per match:away; goal difference:away; starting XI rating:away",
-    "home_win_probability": 0.111904458933901,
-    "draw_probability": 0.1686822689971058,
-    "away_win_probability": 0.7194132720689931,
+    "home_win_probability": 0.1122486884607392,
+    "draw_probability": 0.1687408120650126,
+    "away_win_probability": 0.7190104994742481,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -175,7 +175,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.5999999999999996,
+        "value": -0.5727272727272723,
         "leader": "England"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.5999999999999996,
+        "value": -0.5727272727272723,
         "leader": "England"
       },
       {

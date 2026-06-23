@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": -0.0333333333333335,
-    "probability_shift": -0.0014814814814814,
+    "enrichment_score": 0.0089807162534432,
+    "probability_shift": 0.0003991429445974,
     "top_signals": "goal difference:home; player rating:away; starting XI rating:away",
-    "home_win_probability": 0.4997845549958873,
-    "draw_probability": 0.2620740423015428,
-    "away_win_probability": 0.2381414027025698,
+    "home_win_probability": 0.5015571337340369,
+    "draw_probability": 0.2622337921968088,
+    "away_win_probability": 0.2362090740691542,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -175,7 +175,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.3000000000000007,
+        "value": -0.0090909090909097,
         "leader": "South Korea"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.3000000000000007,
+        "value": -0.0090909090909097,
         "leader": "South Korea"
       },
       {

@@ -22,7 +22,7 @@ FotMob Layer:
 Features available: 8
 Reliability: 0.44
 Enrichment score: 0.05
-Probability shift: 0.0024
+Probability shift: 0.0022
 Top signals: goal difference:home; player rating:away; starting XI rating:home
 United States Win: 36.6%
 Draw: 25.5%

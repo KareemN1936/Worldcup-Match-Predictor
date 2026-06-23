@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: 0.38
-Probability shift: 0.0338
+Enrichment score: 0.41
+Probability shift: 0.0364
 Top signals: goal difference:home; points per match:home; starting XI rating:home
-Congo DR Win: 37.8%
+Congo DR Win: 38.1%
 Draw: 28.3%
-Uzbekistan Win: 33.8%
+Uzbekistan Win: 33.6%
 FotMob-enriched result: Team A win
 
 Squad Context:

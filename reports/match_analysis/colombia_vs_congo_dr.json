@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.4496969696969698,
-    "probability_shift": 0.0183361703294696,
+    "enrichment_score": 0.4366060606060605,
+    "probability_shift": 0.0178023950206872,
     "top_signals": "points per match:home; goal difference:home; starting XI rating:home",
-    "home_win_probability": 0.7536737282540007,
-    "draw_probability": 0.1570379338428524,
-    "away_win_probability": 0.0892883379031469,
+    "home_win_probability": 0.7530572997018606,
+    "draw_probability": 0.1571282458609633,
+    "away_win_probability": 0.0898144544371761,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -175,7 +175,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.4000000000000003,
+        "value": 0.3099999999999996,
         "leader": "Colombia"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.4000000000000003,
+        "value": 0.3099999999999996,
         "leader": "Colombia"
       },
       {

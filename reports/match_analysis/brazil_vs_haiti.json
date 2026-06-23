@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.2539393939393938,
-    "probability_shift": 0.0096788594178479,
+    "enrichment_score": 0.2631955922865011,
+    "probability_shift": 0.0100316579386112,
     "top_signals": "points per match:home; goal difference:home; starting XI rating:home",
-    "home_win_probability": 0.803650621465746,
-    "draw_probability": 0.1236916904858672,
-    "away_win_probability": 0.0726576880483868,
+    "home_win_probability": 0.8040609485796805,
+    "draw_probability": 0.1236297341271867,
+    "away_win_probability": 0.0723093172931328,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -175,7 +175,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.2000000000000001,
+        "value": 0.2636363636363628,
         "leader": "Brazil"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.2000000000000001,
+        "value": 0.2636363636363628,
         "leader": "Brazil"
       },
       {

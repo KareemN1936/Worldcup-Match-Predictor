@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": 0.6039393939393938,
-    "probability_shift": 0.0450281456989069,
+    "enrichment_score": 0.6184848484848483,
+    "probability_shift": 0.046112616844691,
     "top_signals": "points per match:home; goal difference:home; starting XI rating:home",
-    "home_win_probability": 0.8640386897902844,
-    "draw_probability": 0.118483644647421,
-    "away_win_probability": 0.0174776655622945,
+    "home_win_probability": 0.8653224050113666,
+    "draw_probability": 0.1182906691193146,
+    "away_win_probability": 0.0163869258693188,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -175,7 +175,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.8999999999999995,
+        "value": 1.0431818181818198,
         "leader": "Morocco"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.8999999999999995,
+        "value": 1.0431818181818198,
         "leader": "Morocco"
       },
       {

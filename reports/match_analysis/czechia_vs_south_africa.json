@@ -152,12 +152,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.2284848484848486,
-    "probability_shift": 0.0101548821548821,
+    "enrichment_score": 0.2452782369146005,
+    "probability_shift": 0.0109012549739822,
     "top_signals": "starting XI rating:home; goal difference:home; player rating:home",
-    "home_win_probability": 0.2261817812231702,
-    "draw_probability": 0.2249943827172571,
-    "away_win_probability": 0.5488238360595725,
+    "home_win_probability": 0.2269636218377842,
+    "draw_probability": 0.2248784413104115,
+    "away_win_probability": 0.5481579368518041,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -169,7 +169,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.6000000000000005,
+        "value": 0.7154545454545449,
         "leader": "Czechia"
       },
       {
@@ -213,7 +213,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.6000000000000005,
+        "value": 0.7154545454545449,
         "leader": "Czechia"
       },
       {
