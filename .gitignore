@@ -1,5 +1,11 @@
 .env
+.venv/
+venv/
 __pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 *.pkl
 data/raw/raw_api_json/
 data/raw/fotmob/
@@ -7,4 +13,6 @@ reports/update_logs/
 reports/update.lock
 PROJECT_CONTEXT.md
 streamlit-*.log
-
+.hallmark/
+.DS_Store
+Thumbs.db

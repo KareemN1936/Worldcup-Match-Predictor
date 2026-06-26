@@ -241,7 +241,7 @@ uses_retrospective_backtest = (
     "prediction_source" in completed_metric_rows.columns
     and completed_metric_rows["prediction_source"].eq("retrospective_backtest").any()
 )
-metric_scope = "Retrospective backtest · " if uses_retrospective_backtest else ""
+metric_scope = "Retrospective backtest | " if uses_retrospective_backtest else ""
 accuracy_hint = (
     f"{metric_scope}{correct_predictions} out of {played_predictions} games guessed correctly"
     if played_predictions
@@ -392,7 +392,7 @@ elif page == "Match Detail":
             labels = []
             for index, row in detail_matches.iterrows():
                 date = pd.to_datetime(row.get("date"), errors="coerce")
-                date_label = date.strftime("%b %d · %H:%M") if pd.notna(date) else "Date unavailable"
+                date_label = date.strftime("%b %d | %H:%M") if pd.notna(date) else "Date unavailable"
                 labels.append((f"{date_label} | {row.get('home_team')} vs {row.get('away_team')}", index))
 
             selected_idx = st.session_state.pop("_selected_match_idx", None)

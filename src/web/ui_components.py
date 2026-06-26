@@ -22,7 +22,7 @@ def _score_text(value) -> str:
 def status_label(row: pd.Series) -> str:
     status = str(row.get("status", "scheduled")).strip() or "scheduled"
     if pd.notna(row.get("home_score")) and pd.notna(row.get("away_score")):
-        return f"{status.title()} · {_score_text(row.get('home_score'))} - {_score_text(row.get('away_score'))}"
+        return f"{status.title()} | {_score_text(row.get('home_score'))} - {_score_text(row.get('away_score'))}"
     return status.replace("_", " ").title()
 
 
@@ -30,7 +30,7 @@ def format_match_date(value) -> str:
     date = pd.to_datetime(value, errors="coerce")
     if pd.isna(date):
         return "Date unavailable"
-    return date.strftime("%b %d, %Y · %H:%M")
+    return date.strftime("%b %d, %Y | %H:%M")
 
 
 def _html(markup: str) -> str:
@@ -55,7 +55,7 @@ def render_sidebar_brand() -> None:
             <div>
                 <div class="sidebar-brand__name">World Cup Intel</div>
                 <div class="sidebar-brand__copy">
-                    Fixtures · predictions · model reads
+                    Fixtures | predictions | model reads
                 </div>
             </div>
         </div>
@@ -210,7 +210,7 @@ def _result_summary_html(row: pd.Series) -> str:
         return _html(f"""
         <div class="match-result match-result--unavailable">
             <span class="match-result__verdict">AI prediction unavailable</span>
-            <span><strong>Actual:</strong> {escape(actual_label)} · No saved pre-match pick was found.</span>
+            <span><strong>Actual:</strong> {escape(actual_label)} | No saved pre-match pick was found.</span>
         </div>
         """)
     state = "correct" if was_correct else "wrong"
@@ -219,7 +219,7 @@ def _result_summary_html(row: pd.Series) -> str:
     return _html(f"""
     <div class="match-result match-result--{state}">
         <span class="match-result__verdict">{symbol} {verdict}</span>
-        <span><strong>Actual:</strong> {escape(actual_label)} · <strong>AI picked:</strong> {escape(predicted_label)}</span>
+        <span><strong>Actual:</strong> {escape(actual_label)} | <strong>AI picked:</strong> {escape(predicted_label)}</span>
     </div>
     """)
 
@@ -314,7 +314,7 @@ def _match_card_html(
 
     note_html = f'<div class="match-note">{escape(notes[0])}</div>' if notes else ""
     venue_bits = [str(row.get(key)) for key in ["stadium", "city"] if pd.notna(row.get(key)) and str(row.get(key)).strip()]
-    venue = " · ".join(venue_bits) if venue_bits else "Venue TBD"
+    venue = " | ".join(venue_bits) if venue_bits else "Venue TBD"
     details_html = ""
     if detail_idx is not None:
         details_html = (
@@ -326,7 +326,7 @@ def _match_card_html(
     return _html(f"""
     <article class="match-card">
         <div class="match-card__meta">
-            <span>{escape(group)} · {escape(round_name)}</span>
+            <span>{escape(group)} | {escape(round_name)}</span>
             <span>{escape(status_label(row))}</span>
         </div>
         <div class="match-card__teams">
@@ -393,7 +393,7 @@ def render_match_detail_hero(row: pd.Series, flag_lookup: dict[str, str]) -> Non
         score_label = "Full time" if "FINISHED" in str(row.get("status", "")).upper() else score_label
 
     venue_bits = [str(row.get(key)) for key in ["stadium", "city"] if pd.notna(row.get(key)) and str(row.get(key)).strip()]
-    venue = " · ".join(venue_bits) if venue_bits else "Venue TBD"
+    venue = " | ".join(venue_bits) if venue_bits else "Venue TBD"
     meta = [
         format_match_date(row.get("date")),
         str(row.get("round", "Round unavailable")).replace("_", " ").title(),
