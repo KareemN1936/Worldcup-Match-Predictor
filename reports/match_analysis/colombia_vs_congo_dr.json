@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": 183.9548220171073,
+      "elo_gap_abs": 183.9548220171073,
       "points_last_5_diff": 2.0,
       "points_last_10_diff": 4.0,
       "goal_difference_last_5_diff": 3.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.1282051282051282,
       "clean_sheet_rate_2y_diff": -0.24038461538461536,
       "failed_to_score_rate_2y_diff": 0.06730769230769232,
+      "draw_rate_2y_mean": 0.1778846153846154,
+      "goals_total_per_match_2y_mean": 2.400641025641026,
+      "goals_against_per_match_2y_mean": 0.7516025641025641,
+      "clean_sheet_rate_2y_mean": 0.5048076923076923,
+      "failed_to_score_rate_2y_mean": 0.15865384615384615,
+      "recent_draws_last_5_sum": 1.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.4366060606060605,
-    "probability_shift": 0.0178023950206872,
+    "enrichment_score": 0.4496969696969698,
+    "probability_shift": 0.0183361703294696,
     "top_signals": "points per match:home; goal difference:home; starting XI rating:home",
-    "home_win_probability": 0.7530572997018606,
-    "draw_probability": 0.1571282458609633,
-    "away_win_probability": 0.0898144544371761,
+    "home_win_probability": 0.7536737282540007,
+    "draw_probability": 0.1570379338428524,
+    "away_win_probability": 0.0892883379031469,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -175,7 +182,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.3099999999999996,
+        "value": 0.4000000000000003,
         "leader": "Colombia"
       },
       {
@@ -213,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.3099999999999996,
+        "value": 0.4000000000000003,
         "leader": "Colombia"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 29.615384615384617,
     "away_avg_age": 28.5,
-    "home_forwards": 5,
-    "away_forwards": 8,
-    "home_midfielders": 10,
-    "away_midfielders": 7,
-    "home_defenders": 8,
-    "away_defenders": 8,
+    "home_forwards": 5.0,
+    "away_forwards": 8.0,
+    "home_midfielders": 10.0,
+    "away_midfielders": 7.0,
+    "home_defenders": 8.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

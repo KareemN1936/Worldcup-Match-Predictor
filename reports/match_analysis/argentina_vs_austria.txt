@@ -1,13 +1,13 @@
 Argentina vs Austria
 
-Date: 2026-06-22T17:00:00Z
+Date: 2026-06-22 17:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_J
 
 Base Prediction:
-Argentina Win: 74.5%
-Draw: 17.3%
-Austria Win: 8.2%
+Argentina Win: 75.4%
+Draw: 16.8%
+Austria Win: 7.8%
 Predicted result: Team A win
 Decision policy: draw_threshold
 
@@ -22,11 +22,11 @@ FotMob Layer:
 Features available: 8
 Reliability: 0.44
 Enrichment score: 0.08
-Probability shift: 0.0031
+Probability shift: 0.0030
 Top signals: goal difference:home; starting XI rating:home; player rating:away
-Argentina Win: 74.9%
-Draw: 17.2%
-Austria Win: 7.9%
+Argentina Win: 75.7%
+Draw: 16.8%
+Austria Win: 7.5%
 FotMob-enriched result: Team A win
 
 Squad Context:

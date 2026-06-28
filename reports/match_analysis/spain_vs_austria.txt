@@ -1,0 +1,41 @@
+Spain vs Austria
+
+Date: 2026-07-02 19:00:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+Spain Win: 70.3%
+Draw: 20.7%
+Austria Win: 9.0%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 223.62 | edge: Spain
+- weighted points last 5: -14.50 | edge: Austria
+- points last 5: -4.00 | edge: Austria
+- goals for last 5: -4.00 | edge: Austria
+- points last 10: -3.00 | edge: Austria
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.39
+Probability shift: 0.0326
+Top signals: starting XI rating:home; points per match:home; goal difference:home
+Spain Win: 73.6%
+Draw: 20.7%
+Austria Win: 5.8%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Spain 26.2 | Austria 28.1
+Forwards: Spain 5 | Austria 3
+Midfielders: Spain 11 | Austria 11
+Defenders: Spain 7 | Austria 9
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

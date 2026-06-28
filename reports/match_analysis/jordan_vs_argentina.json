@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -325.8840513075161,
+      "elo_gap_abs": 325.8840513075161,
       "points_last_5_diff": -13.0,
       "points_last_10_diff": -13.0,
       "goal_difference_last_5_diff": -21.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -1.6129807692307692,
       "clean_sheet_rate_2y_diff": -0.3798076923076923,
       "failed_to_score_rate_2y_diff": 0.24278846153846154,
+      "draw_rate_2y_mean": 0.2139423076923077,
+      "goals_total_per_match_2y_mean": 2.628605769230769,
+      "goals_against_per_match_2y_mean": 0.8329326923076923,
+      "clean_sheet_rate_2y_mean": 0.5024038461538461,
+      "failed_to_score_rate_2y_mean": 0.15985576923076922,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,18 +159,18 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.560099173553719,
-    "probability_shift": -0.044843763626631,
+    "enrichment_score": -0.5254545454545455,
+    "probability_shift": -0.042069977149578,
     "top_signals": "points per match:away; goal difference:away; starting XI rating:away",
-    "home_win_probability": 0.0141737602751281,
-    "draw_probability": 0.1845153475094801,
-    "away_win_probability": 0.8013108922153916,
+    "home_win_probability": 0.0169631538245377,
+    "draw_probability": 0.184971582347986,
+    "away_win_probability": 0.7980652638274762,
     "predicted_result": "Team A loss",
     "strongest": [
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": -4.0,
+        "value": -5.0,
         "leader": "Argentina"
       },
       {
@@ -175,7 +182,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.7381818181818183,
+        "value": -0.5,
         "leader": "Argentina"
       },
       {
@@ -201,7 +208,7 @@
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": -4.0,
+        "value": -5.0,
         "leader": "Argentina"
       },
       {
@@ -213,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.7381818181818183,
+        "value": -0.5,
         "leader": "Argentina"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 28.03846153846154,
     "away_avg_age": 28.615384615384617,
-    "home_forwards": 8,
-    "away_forwards": 6,
-    "home_midfielders": 7,
-    "away_midfielders": 8,
-    "home_defenders": 8,
-    "away_defenders": 9,
+    "home_forwards": 8.0,
+    "away_forwards": 6.0,
+    "home_midfielders": 7.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 8.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

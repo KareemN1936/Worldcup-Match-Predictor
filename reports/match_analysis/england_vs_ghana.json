@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": 357.00063258306636,
+      "elo_gap_abs": 357.00063258306636,
       "points_last_5_diff": 9.0,
       "points_last_10_diff": 14.0,
       "goal_difference_last_5_diff": 13.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 1.3384615384615386,
       "clean_sheet_rate_2y_diff": 0.26538461538461544,
       "failed_to_score_rate_2y_diff": -0.22307692307692306,
+      "draw_rate_2y_mean": 0.20192307692307693,
+      "goals_total_per_match_2y_mean": 2.5576923076923075,
+      "goals_against_per_match_2y_mean": 0.8442307692307691,
+      "clean_sheet_rate_2y_mean": 0.4826923076923077,
+      "failed_to_score_rate_2y_mean": 0.18846153846153846,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.0879228650137741,
-    "probability_shift": 0.0030549710329672,
-    "top_signals": "goal difference:home; player rating:home; starting XI rating:home",
-    "home_win_probability": 0.8718017927829066,
-    "draw_probability": 0.1105397054003178,
-    "away_win_probability": 0.0176585018167755,
+    "enrichment_score": 0.0830303030303029,
+    "probability_shift": 0.0028849738981587,
+    "top_signals": "goal difference:home; player rating:home; points per match:away",
+    "home_win_probability": 0.8716020396380109,
+    "draw_probability": 0.110569963998509,
+    "away_win_probability": 0.0178279963634801,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -173,14 +180,14 @@
         "leader": "England"
       },
       {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
-        "value": 0.0336363636363641,
-        "leader": "England"
-      },
-      {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
         "value": 0.0,
         "leader": "Even"
       },
@@ -213,8 +220,8 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.0336363636363641,
-        "leader": "England"
+        "value": 0.0,
+        "leader": "Even"
       },
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 26.615384615384617,
     "away_avg_age": 26.423076923076923,
-    "home_forwards": 6,
-    "away_forwards": 9,
-    "home_midfielders": 8,
-    "away_midfielders": 5,
-    "home_defenders": 9,
-    "away_defenders": 9,
+    "home_forwards": 6.0,
+    "away_forwards": 9.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 5.0,
+    "home_defenders": 9.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

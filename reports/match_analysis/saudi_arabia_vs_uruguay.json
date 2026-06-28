@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537370,
-    "date": "2026-06-15T22:00:00Z",
+    "date": "2026-06-15 22:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_H",
     "home_team": "Saudi Arabia",
     "away_team": "Uruguay"
   },
   "base_prediction": {
-    "home_win_probability": 0.2642433941364288,
-    "draw_probability": 0.283770889043808,
-    "away_win_probability": 0.4519856572151184,
+    "home_win_probability": 0.1936046779155731,
+    "draw_probability": 0.2958681881427765,
+    "away_win_probability": 0.5105271339416504,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": -135.29479716281912,
+      "elo_gap_abs": 135.29479716281912,
       "points_last_5_diff": 1.0,
       "points_last_10_diff": -6.0,
       "goal_difference_last_5_diff": 5.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -0.2692307692307692,
       "clean_sheet_rate_2y_diff": -0.19444444444444442,
       "failed_to_score_rate_2y_diff": -0.10042735042735046,
+      "draw_rate_2y_mean": 0.375,
+      "goals_total_per_match_2y_mean": 2.014957264957265,
+      "goals_against_per_match_2y_mean": 0.9401709401709402,
+      "clean_sheet_rate_2y_mean": 0.4027777777777778,
+      "failed_to_score_rate_2y_mean": 0.4113247863247863,
+      "recent_draws_last_5_sum": 6.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.2642434098865634,
-    "draw_probability": 0.283770905957872,
-    "away_win_probability": 0.4519856841555645,
+    "home_win_probability": 0.1936046779155731,
+    "draw_probability": 0.2958681881427765,
+    "away_win_probability": 0.5105271339416504,
     "predicted_result": "Team A loss",
     "strongest": [],
     "all": [
@@ -221,12 +228,12 @@
     "available": true,
     "home_avg_age": 27.96153846153846,
     "away_avg_age": 28.192307692307693,
-    "home_forwards": 5,
-    "away_forwards": 4,
-    "home_midfielders": 9,
-    "away_midfielders": 10,
-    "home_defenders": 9,
-    "away_defenders": 9,
+    "home_forwards": 5.0,
+    "away_forwards": 4.0,
+    "home_midfielders": 9.0,
+    "away_midfielders": 10.0,
+    "home_defenders": 9.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537336,
-    "date": "2026-06-18T22:00:00Z",
+    "date": "2026-06-18 22:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_B",
     "home_team": "Canada",
     "away_team": "Qatar"
   },
   "base_prediction": {
-    "home_win_probability": 0.6854764819145203,
-    "draw_probability": 0.2058631926774978,
-    "away_win_probability": 0.1086603477597236,
+    "home_win_probability": 0.5731380581855774,
+    "draw_probability": 0.3021804690361023,
+    "away_win_probability": 0.1246814653277397,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": 131.27750478914254,
+      "elo_gap_abs": 131.27750478914254,
       "points_last_5_diff": 4.0,
       "points_last_10_diff": 8.0,
       "goal_difference_last_5_diff": 6.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 1.2733333333333334,
       "clean_sheet_rate_2y_diff": 0.38,
       "failed_to_score_rate_2y_diff": 0.05333333333333329,
+      "draw_rate_2y_mean": 0.39666666666666667,
+      "goals_total_per_match_2y_mean": 2.5366666666666666,
+      "goals_against_per_match_2y_mean": 1.27,
+      "clean_sheet_rate_2y_mean": 0.31,
+      "failed_to_score_rate_2y_mean": 0.30666666666666664,
+      "recent_draws_last_5_sum": 7.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -153,11 +160,11 @@
     "feature_count": 8,
     "reliability": 0.4444444444444444,
     "enrichment_score": 0.0222148760330579,
-    "probability_shift": 0.0009523009060105,
+    "probability_shift": 0.0009873278236914,
     "top_signals": "starting XI rating:home; points per match:away; goal difference:away",
-    "home_win_probability": 0.6865595297271675,
-    "draw_probability": 0.2057119078255161,
-    "away_win_probability": 0.1077285624473164,
+    "home_win_probability": 0.5741253902868364,
+    "draw_probability": 0.3021804712875222,
+    "away_win_probability": 0.1236941384256414,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 26.46153846153846,
     "away_avg_age": 28.846153846153847,
-    "home_forwards": 6,
-    "away_forwards": 6,
-    "home_midfielders": 9,
-    "away_midfielders": 8,
-    "home_defenders": 8,
-    "away_defenders": 9,
+    "home_forwards": 6.0,
+    "away_forwards": 6.0,
+    "home_midfielders": 9.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 8.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "squad_avg_age_diff",

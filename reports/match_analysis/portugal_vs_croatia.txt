@@ -1,0 +1,41 @@
+Portugal vs Croatia
+
+Date: 2026-07-02 23:00:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+Portugal Win: 49.1%
+Draw: 26.7%
+Croatia Win: 24.2%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 42.42 | edge: Portugal
+- goal difference last 5: 13.00 | edge: Portugal
+- goals for last 5: 7.00 | edge: Portugal
+- goals against last 5: -6.00 | edge: Portugal
+- points last 5: 4.00 | edge: Portugal
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.11
+Probability shift: 0.0096
+Top signals: goal difference:home; points per match:away; starting XI rating:home
+Portugal Win: 50.1%
+Draw: 26.7%
+Croatia Win: 23.2%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Portugal 27.5 | Croatia 27.9
+Forwards: Portugal 7 | Croatia 6
+Midfielders: Portugal 7 | Croatia 10
+Defenders: Portugal 9 | Croatia 7
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

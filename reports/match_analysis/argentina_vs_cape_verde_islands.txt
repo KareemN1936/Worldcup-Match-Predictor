@@ -1,0 +1,41 @@
+Argentina vs Cape Verde Islands
+
+Date: 2026-07-03 22:00:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+Argentina Win: 84.7%
+Draw: 13.9%
+Cape Verde Islands Win: 1.5%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 507.01 | edge: Argentina
+- points last 10: 27.00 | edge: Argentina
+- weighted points last 5: 25.50 | edge: Argentina
+- points last 5: 15.00 | edge: Argentina
+- goals for last 5: 15.00 | edge: Argentina
+
+FotMob Layer:
+Features available: 5
+Reliability: 0.56
+Enrichment score: 0.64
+Probability shift: 0.0284
+Top signals: points per match:home; goal difference:home; shots on target:away
+Argentina Win: 85.5%
+Draw: 13.5%
+Cape Verde Islands Win: 1.0%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Argentina 28.6 | Cape Verde Islands 29.2
+Forwards: Argentina 6 | Cape Verde Islands 7
+Midfielders: Argentina 8 | Cape Verde Islands 8
+Defenders: Argentina 9 | Cape Verde Islands 8
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

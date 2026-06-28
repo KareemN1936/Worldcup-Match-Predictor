@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -213.86517018640006,
+      "elo_gap_abs": 213.86517018640006,
       "points_last_5_diff": -4.0,
       "points_last_10_diff": -5.0,
       "goal_difference_last_5_diff": -4.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -0.059523809523809534,
       "clean_sheet_rate_2y_diff": -0.01785714285714285,
       "failed_to_score_rate_2y_diff": 0.059523809523809534,
+      "draw_rate_2y_mean": 0.2648809523809524,
+      "goals_total_per_match_2y_mean": 2.607142857142857,
+      "goals_against_per_match_2y_mean": 0.9136904761904762,
+      "clean_sheet_rate_2y_mean": 0.46726190476190477,
+      "failed_to_score_rate_2y_mean": 0.22023809523809523,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.3066997245179063,
-    "probability_shift": -0.027262197734925,
+    "enrichment_score": -0.304848484848485,
+    "probability_shift": -0.0270976430976431,
     "top_signals": "points per match:away; starting XI rating:away; goal difference:away",
-    "home_win_probability": 0.1524370815433638,
-    "draw_probability": 0.2102888183460032,
-    "away_win_probability": 0.637274100110633,
+    "home_win_probability": 0.1525974886610982,
+    "draw_probability": 0.2103149500943935,
+    "away_win_probability": 0.6370875612445082,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -175,7 +182,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.5627272727272725,
+        "value": -0.5500000000000007,
         "leader": "South Korea"
       },
       {
@@ -213,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.5627272727272725,
+        "value": -0.5500000000000007,
         "leader": "South Korea"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 26.346153846153847,
     "away_avg_age": 27.46153846153846,
-    "home_forwards": 6,
-    "away_forwards": 6,
-    "home_midfielders": 7,
-    "away_midfielders": 8,
-    "home_defenders": 10,
-    "away_defenders": 9,
+    "home_forwards": 6.0,
+    "away_forwards": 6.0,
+    "home_midfielders": 7.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 10.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "squad_avg_age_diff",

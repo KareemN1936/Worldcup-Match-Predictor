@@ -1,0 +1,41 @@
+United States vs Bosnia-Herzegovina
+
+Date: 2026-07-02 00:00:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+United States Win: 73.7%
+Draw: 18.4%
+Bosnia-Herzegovina Win: 7.9%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 202.70 | edge: United States
+- goals against last 5: 8.00 | edge: Bosnia-Herzegovina
+- points last 10: 6.00 | edge: United States
+- goals for last 5: 6.00 | edge: United States
+- goal difference last 5: -2.00 | edge: Bosnia-Herzegovina
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.27
+Probability shift: 0.0218
+Top signals: goal difference:home; points per match:home; starting XI rating:home
+United States Win: 75.8%
+Draw: 18.4%
+Bosnia-Herzegovina Win: 5.7%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: United States 26.4 | Bosnia-Herzegovina 25.9
+Forwards: United States 6 | Bosnia-Herzegovina 7
+Midfielders: United States 8 | Bosnia-Herzegovina 8
+Defenders: United States 9 | Bosnia-Herzegovina 8
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

@@ -1,13 +1,13 @@
 Mexico vs South Africa
 
-Date: 2026-06-11T19:00:00Z
+Date: 2026-06-11 19:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_A
 
 Base Prediction:
-Mexico Win: 75.7%
-Draw: 15.6%
-South Africa Win: 8.7%
+Mexico Win: 75.2%
+Draw: 17.9%
+South Africa Win: 6.9%
 Predicted result: Team A win
 Decision policy: draw_threshold
 

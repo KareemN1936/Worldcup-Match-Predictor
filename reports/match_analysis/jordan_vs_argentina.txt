@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: -0.56
-Probability shift: -0.0448
+Enrichment score: -0.53
+Probability shift: -0.0421
 Top signals: points per match:away; goal difference:away; starting XI rating:away
-Jordan Win: 1.4%
+Jordan Win: 1.7%
 Draw: 18.5%
-Argentina Win: 80.1%
+Argentina Win: 79.8%
 FotMob-enriched result: Team A loss
 
 Squad Context:

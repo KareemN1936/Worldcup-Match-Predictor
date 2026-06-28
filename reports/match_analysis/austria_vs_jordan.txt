@@ -1,13 +1,13 @@
 Austria vs Jordan
 
-Date: 2026-06-17T04:00:00Z
+Date: 2026-06-17 04:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_J
 
 Base Prediction:
-Austria Win: 68.9%
-Draw: 17.2%
-Jordan Win: 13.9%
+Austria Win: 58.1%
+Draw: 27.4%
+Jordan Win: 14.5%
 Predicted result: Team A win
 Decision policy: draw_threshold
 

@@ -1,13 +1,13 @@
 Netherlands vs Sweden
 
-Date: 2026-06-20T17:00:00Z
+Date: 2026-06-20 17:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_F
 
 Base Prediction:
-Netherlands Win: 71.1%
-Draw: 18.2%
-Sweden Win: 10.7%
+Netherlands Win: 70.3%
+Draw: 19.9%
+Sweden Win: 9.8%
 Predicted result: Team A win
 Decision policy: draw_threshold
 
@@ -22,11 +22,11 @@ FotMob Layer:
 Features available: 8
 Reliability: 0.44
 Enrichment score: -0.46
-Probability shift: -0.0191
+Probability shift: -0.0193
 Top signals: points per match:away; goal difference:away; player rating:home
-Netherlands Win: 69.4%
-Draw: 17.9%
-Sweden Win: 12.7%
+Netherlands Win: 68.4%
+Draw: 19.9%
+Sweden Win: 11.7%
 FotMob-enriched result: Team A win
 
 Squad Context:

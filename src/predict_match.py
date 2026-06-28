@@ -16,6 +16,7 @@ from web.data_loader import load_fixtures
 
 PREDICTION_HISTORY_PATH = REPORTS_DIR / "prediction_history.csv"
 COMPLETED_STATUSES = {"FINISHED", "COMPLETED"}
+UNKNOWN_TEAM_VALUES = {"", "nan", "none", "null", "tbd", "to be decided", "to be determined"}
 
 
 def _points(goals_for: int, goals_against: int) -> int:
@@ -139,6 +140,47 @@ def build_latest_team_state(as_of_date: pd.Timestamp | None = None) -> tuple[dic
         })
 
     return ratings, history
+
+
+def _known_team_mask(fixtures: pd.DataFrame) -> pd.Series:
+    """Return rows where both fixture teams are confirmed real team names."""
+    if fixtures.empty or "home_team" not in fixtures.columns or "away_team" not in fixtures.columns:
+        return pd.Series(False, index=fixtures.index)
+    home = fixtures["home_team"].astype(str).str.strip()
+    away = fixtures["away_team"].astype(str).str.strip()
+    return ~home.str.lower().isin(UNKNOWN_TEAM_VALUES) & ~away.str.lower().isin(UNKNOWN_TEAM_VALUES)
+
+
+def _completed_fixture_rows(fixtures: pd.DataFrame) -> pd.DataFrame:
+    if fixtures.empty:
+        return pd.DataFrame()
+    status = fixtures.get("status", pd.Series(index=fixtures.index, dtype=str)).astype(str).str.upper()
+    completed = fixtures[
+        status.isin(COMPLETED_STATUSES)
+        & _known_team_mask(fixtures)
+    ].dropna(subset=["home_score", "away_score"]).copy()
+    if completed.empty:
+        return completed
+    completed["_kickoff"] = pd.to_datetime(completed.get("date"), errors="coerce", utc=True)
+    completed = completed.dropna(subset=["_kickoff"]).sort_values("_kickoff")
+    return completed
+
+
+def _state_before_fixture(
+    state: tuple[dict[str, float], dict[str, list[dict]]],
+    completed: pd.DataFrame,
+    next_completed_index: int,
+    kickoff: pd.Timestamp,
+) -> int:
+    """Apply completed tournament games that kicked off before this fixture."""
+    while next_completed_index < len(completed):
+        completed_row = completed.iloc[next_completed_index]
+        completed_kickoff = completed_row.get("_kickoff")
+        if pd.isna(completed_kickoff) or completed_kickoff >= kickoff:
+            break
+        _apply_completed_result(state, completed_row)
+        next_completed_index += 1
+    return next_completed_index
 
 
 def build_prediction_features(
@@ -275,7 +317,9 @@ def predict_fixtures(only_upcoming: bool = True) -> pd.DataFrame:
     if not fixtures_path.exists():
         raise FileNotFoundError("data/raw/fixtures.csv does not exist. Run python src/run_pipeline.py --fixtures-only first.")
 
-    fixtures = pd.read_csv(fixtures_path)
+    # load_fixtures() folds in cached FotMob final scores, so tournament
+    # results can update the state used for later knockout predictions.
+    fixtures = load_fixtures()
     if fixtures.empty:
         print("fixtures.csv is empty. Collect fixtures with a valid FOOTBALL_API_KEY before predicting fixtures.")
         return pd.DataFrame()
@@ -289,27 +333,26 @@ def predict_fixtures(only_upcoming: bool = True) -> pd.DataFrame:
             print("No upcoming fixtures found in fixtures.csv.")
             return pd.DataFrame()
 
-    prediction_fixtures = prediction_fixtures.dropna(subset=["home_team", "away_team"]).copy()
-    prediction_fixtures = prediction_fixtures[
-        (prediction_fixtures["home_team"].astype(str).str.strip() != "")
-        & (prediction_fixtures["away_team"].astype(str).str.strip() != "")
-        & (prediction_fixtures["home_team"].astype(str).str.lower() != "nan")
-        & (prediction_fixtures["away_team"].astype(str).str.lower() != "nan")
-    ].copy()
+    prediction_fixtures = prediction_fixtures[_known_team_mask(prediction_fixtures)].copy()
     if prediction_fixtures.empty and only_upcoming:
         print("No fixtures with both teams known were found in fixtures.csv.")
         return pd.DataFrame()
 
+    prediction_fixtures["_kickoff"] = pd.to_datetime(prediction_fixtures.get("date"), errors="coerce", utc=True)
+    prediction_fixtures = prediction_fixtures.sort_values("_kickoff", na_position="last")
+    completed_for_state = _completed_fixture_rows(fixtures)
+    first_kickoff = prediction_fixtures["_kickoff"].dropna().min()
     model = _load_model()
-    # Only upcoming fixtures are generated here, so the latest completed-match
-    # state is valid for every candidate without repeatedly rebuilding history.
-    state = build_latest_team_state()
+    state = build_latest_team_state(as_of_date=first_kickoff.tz_localize(None) if pd.notna(first_kickoff) else None)
+    completed_index = 0
     rows = []
     for _, fixture in prediction_fixtures.iterrows():
         home_team = standardize_team_name(fixture["home_team"])
         away_team = standardize_team_name(fixture["away_team"])
         tournament = fixture.get("competition", "FIFA World Cup")
-        fixture_date = pd.to_datetime(fixture.get("date"), errors="coerce", utc=True)
+        fixture_date = fixture.get("_kickoff")
+        if pd.notna(fixture_date):
+            completed_index = _state_before_fixture(state, completed_for_state, completed_index, fixture_date)
         prediction = predict(
             home_team,
             away_team,
@@ -335,6 +378,7 @@ def predict_fixtures(only_upcoming: bool = True) -> pd.DataFrame:
         })
 
     predictions = pd.DataFrame(rows)
+    predictions = predictions.drop(columns=["_kickoff"], errors="ignore")
     if not predictions.empty:
         predictions = merge_fotmob_rolling_features(predictions)
         predictions = merge_squad_features(predictions)
@@ -418,8 +462,13 @@ def _select_frozen_predictions(
         if eligible.empty:
             continue
         operational = eligible[eligible.get("prediction_source", "") == "pre_match_snapshot"]
-        chosen_from = operational if not operational.empty else eligible
-        selected.append(chosen_from.sort_values("_predicted_at").iloc[-1])
+        if not operational.empty:
+            selected.append(operational.sort_values("_predicted_at").iloc[-1])
+        else:
+            # Retrospective rows stand in for missing pre-match snapshots.
+            # Keep the first one frozen so rerunning backtests with a newer
+            # model does not rewrite historical dashboard accuracy.
+            selected.append(eligible.sort_values("_predicted_at").iloc[0])
 
     if not selected:
         return pd.DataFrame(columns=[column for column in history.columns if not column.startswith("_")])

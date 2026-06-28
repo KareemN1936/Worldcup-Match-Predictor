@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -63.25945687887065,
+      "elo_gap_abs": 63.25945687887065,
       "points_last_5_diff": -2.0,
       "points_last_10_diff": -2.0,
       "goal_difference_last_5_diff": -4.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -0.294010889292196,
       "clean_sheet_rate_2y_diff": 0.025408348457350294,
       "failed_to_score_rate_2y_diff": 0.030852994555353924,
+      "draw_rate_2y_mean": 0.3039927404718693,
+      "goals_total_per_match_2y_mean": 2.3157894736842106,
+      "goals_against_per_match_2y_mean": 0.7050816696914701,
+      "clean_sheet_rate_2y_mean": 0.5390199637023594,
+      "failed_to_score_rate_2y_mean": 0.22595281306715065,
+      "recent_draws_last_5_sum": 3.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,35 +159,35 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": 0.2603526170798898,
-    "probability_shift": 0.0231424548515457,
-    "top_signals": "points per match:home; goal difference:home; starting XI rating:home",
-    "home_win_probability": 0.3275021246480424,
-    "draw_probability": 0.2706956897057319,
-    "away_win_probability": 0.4018021856462256,
+    "enrichment_score": 0.0290909090909092,
+    "probability_shift": 0.0025858585858585,
+    "top_signals": "player rating:home; starting XI rating:home; points per match:away",
+    "home_win_probability": 0.3055877297397006,
+    "draw_probability": 0.2736956439601284,
+    "away_win_probability": 0.4207166263001708,
     "predicted_result": "Team A loss",
     "strongest": [
       {
-        "feature": "fotmob_points_per_match_diff",
-        "label": "points per match",
-        "value": 1.0,
-        "leader": "Egypt"
-      },
-      {
-        "feature": "fotmob_goal_difference_per_match_diff",
-        "label": "goal difference per match",
-        "value": 1.0,
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.1000000000000005,
         "leader": "Egypt"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.3940909090909095,
+        "value": 0.1000000000000005,
         "leader": "Egypt"
       },
       {
-        "feature": "fotmob_avg_player_rating_diff",
-        "label": "average player rating",
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
         "value": 0.0,
         "leader": "Even"
       },
@@ -195,25 +202,25 @@
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": 1.0,
-        "leader": "Egypt"
-      },
-      {
-        "feature": "fotmob_goal_difference_per_match_diff",
-        "label": "goal difference per match",
-        "value": 1.0,
-        "leader": "Egypt"
-      },
-      {
-        "feature": "fotmob_avg_player_rating_diff",
-        "label": "average player rating",
         "value": 0.0,
         "leader": "Even"
       },
       {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.1000000000000005,
+        "leader": "Egypt"
+      },
+      {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.3940909090909095,
+        "value": 0.1000000000000005,
         "leader": "Egypt"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 28.65384615384616,
     "away_avg_age": 29.846153846153847,
-    "home_forwards": 5,
-    "away_forwards": 8,
-    "home_midfielders": 9,
-    "away_midfielders": 6,
-    "home_defenders": 8,
-    "away_defenders": 9,
+    "home_forwards": 5.0,
+    "away_forwards": 8.0,
+    "home_midfielders": 9.0,
+    "away_midfielders": 6.0,
+    "home_defenders": 8.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

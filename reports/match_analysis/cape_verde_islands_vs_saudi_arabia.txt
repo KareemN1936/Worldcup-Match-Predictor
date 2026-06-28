@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 5
 Reliability: 0.56
-Enrichment score: 0.37
-Probability shift: 0.0198
-Top signals: goal difference:home; points per match:home; shots on target:home
-Cape Verde Islands Win: 16.8%
-Draw: 17.0%
-Saudi Arabia Win: 66.2%
+Enrichment score: 0.01
+Probability shift: 0.0005
+Top signals: shots on target:home; yellow cards:away; points per match:away
+Cape Verde Islands Win: 14.8%
+Draw: 17.3%
+Saudi Arabia Win: 67.9%
 FotMob-enriched result: Team A loss
 
 Squad Context:

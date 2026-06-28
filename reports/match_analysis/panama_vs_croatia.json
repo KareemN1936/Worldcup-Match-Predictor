@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -115.29165309600148,
+      "elo_gap_abs": 115.29165309600148,
       "points_last_5_diff": -1.0,
       "points_last_10_diff": -6.0,
       "goal_difference_last_5_diff": 0.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -0.7757575757575758,
       "clean_sheet_rate_2y_diff": -0.051515151515151514,
       "failed_to_score_rate_2y_diff": -0.04848484848484849,
+      "draw_rate_2y_mean": 0.24696969696969695,
+      "goals_total_per_match_2y_mean": 3.112121212121212,
+      "goals_against_per_match_2y_mean": 1.2954545454545454,
+      "clean_sheet_rate_2y_mean": 0.2924242424242424,
+      "failed_to_score_rate_2y_mean": 0.1575757575757576,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.0337079889807163,
-    "probability_shift": 0.0014981328435873,
+    "enrichment_score": 0.053939393939394,
+    "probability_shift": 0.0023973063973064,
     "top_signals": "goal difference:home; starting XI rating:away; player rating:away",
-    "home_win_probability": 0.2486978539225429,
-    "draw_probability": 0.2659616924852613,
-    "away_win_probability": 0.4853404535921957,
+    "home_win_probability": 0.2496422048047827,
+    "draw_probability": 0.2658296235907294,
+    "away_win_probability": 0.4845281716044878,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -169,7 +176,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.2390909090909083,
+        "value": -0.0999999999999996,
         "leader": "Croatia"
       },
       {
@@ -213,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.2390909090909083,
+        "value": -0.0999999999999996,
         "leader": "Croatia"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 30.0,
     "away_avg_age": 27.884615384615383,
-    "home_forwards": 4,
-    "away_forwards": 6,
-    "home_midfielders": 9,
-    "away_midfielders": 10,
-    "home_defenders": 10,
-    "away_defenders": 7,
+    "home_forwards": 4.0,
+    "away_forwards": 6.0,
+    "home_midfielders": 9.0,
+    "away_midfielders": 10.0,
+    "home_defenders": 10.0,
+    "away_defenders": 7.0,
     "strongest": [
       {
         "feature": "num_defenders_diff",

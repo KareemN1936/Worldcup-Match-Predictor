@@ -1,13 +1,13 @@
 Ghana vs Panama
 
-Date: 2026-06-17T23:00:00Z
+Date: 2026-06-17 23:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_L
 
 Base Prediction:
-Ghana Win: 23.7%
+Ghana Win: 19.4%
 Draw: 24.6%
-Panama Win: 51.6%
+Panama Win: 56.0%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 

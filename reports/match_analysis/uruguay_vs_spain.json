@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -186.87245356601443,
+      "elo_gap_abs": 186.87245356601443,
       "points_last_5_diff": -5.0,
       "points_last_10_diff": -5.0,
       "goal_difference_last_5_diff": -9.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -1.2863247863247864,
       "clean_sheet_rate_2y_diff": 0.018518518518518545,
       "failed_to_score_rate_2y_diff": 0.35042735042735046,
+      "draw_rate_2y_mean": 0.39814814814814814,
+      "goals_total_per_match_2y_mean": 2.5334757834757835,
+      "goals_against_per_match_2y_mean": 0.8105413105413106,
+      "clean_sheet_rate_2y_mean": 0.4907407407407407,
+      "failed_to_score_rate_2y_mean": 0.2863247863247863,
+      "recent_draws_last_5_sum": 7.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,37 +159,37 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.4034820936639119,
-    "probability_shift": -0.0358650749923477,
-    "top_signals": "goal difference:away; points per match:away; starting XI rating:away",
-    "home_win_probability": 0.1536510715843868,
-    "draw_probability": 0.2034860037836599,
-    "away_win_probability": 0.6428629246319532,
+    "enrichment_score": -0.0654545454545453,
+    "probability_shift": -0.0058181818181818,
+    "top_signals": "starting XI rating:away; player rating:away; points per match:away",
+    "home_win_probability": 0.1828085455542572,
+    "draw_probability": 0.2082781342006722,
+    "away_win_probability": 0.6089133202450706,
     "predicted_result": "Team A loss",
     "strongest": [
       {
-        "feature": "fotmob_goal_difference_per_match_diff",
-        "label": "goal difference per match",
-        "value": -2.0,
-        "leader": "Spain"
-      },
-      {
-        "feature": "fotmob_points_per_match_diff",
-        "label": "points per match",
-        "value": -1.0,
-        "leader": "Spain"
-      },
-      {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.8072727272727285,
+        "value": -0.2999999999999998,
         "leader": "Spain"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": -0.0499999999999998,
+        "value": -0.1499999999999994,
         "leader": "Spain"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
       },
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
@@ -195,25 +202,25 @@
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": -1.0,
-        "leader": "Spain"
+        "value": 0.0,
+        "leader": "Even"
       },
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": -2.0,
-        "leader": "Spain"
+        "value": 0.0,
+        "leader": "Even"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": -0.0499999999999998,
+        "value": -0.1499999999999994,
         "leader": "Spain"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.8072727272727285,
+        "value": -0.2999999999999998,
         "leader": "Spain"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 28.192307692307693,
     "away_avg_age": 26.192307692307693,
-    "home_forwards": 4,
-    "away_forwards": 5,
-    "home_midfielders": 10,
-    "away_midfielders": 11,
-    "home_defenders": 9,
-    "away_defenders": 7,
+    "home_forwards": 4.0,
+    "away_forwards": 5.0,
+    "home_midfielders": 10.0,
+    "away_midfielders": 11.0,
+    "home_defenders": 9.0,
+    "away_defenders": 7.0,
     "strongest": [
       {
         "feature": "squad_avg_age_diff",

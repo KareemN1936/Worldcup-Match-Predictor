@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": 99.02893792129248,
+      "elo_gap_abs": 99.02893792129248,
       "points_last_5_diff": 0.0,
       "points_last_10_diff": 3.0,
       "goal_difference_last_5_diff": 4.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 1.4642857142857142,
       "clean_sheet_rate_2y_diff": 0.17857142857142855,
       "failed_to_score_rate_2y_diff": -0.14285714285714285,
+      "draw_rate_2y_mean": 0.19642857142857142,
+      "goals_total_per_match_2y_mean": 2.375,
+      "goals_against_per_match_2y_mean": 0.8571428571428572,
+      "clean_sheet_rate_2y_mean": 0.5178571428571428,
+      "failed_to_score_rate_2y_mean": 0.21428571428571427,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,30 +159,30 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": 0.1864297520661154,
-    "probability_shift": 0.016571533516988,
-    "top_signals": "goal difference:home; starting XI rating:home; player rating:home",
-    "home_win_probability": 0.5941316959161277,
-    "draw_probability": 0.2688546945257293,
-    "away_win_probability": 0.1370136095581429,
+    "enrichment_score": 0.1339393939393939,
+    "probability_shift": 0.0119057239057239,
+    "top_signals": "goal difference:home; player rating:home; starting XI rating:home",
+    "home_win_probability": 0.5888990054358025,
+    "draw_probability": 0.2695385999622929,
+    "away_win_probability": 0.1415623946019045,
     "predicted_result": "Team A win",
     "strongest": [
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": 1.5,
-        "leader": "Senegal"
-      },
-      {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
-        "value": 0.3504545454545447,
+        "value": 1.0,
         "leader": "Senegal"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": 0.1499999999999994,
+        "value": 0.2999999999999998,
+        "leader": "Senegal"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.1000000000000005,
         "leader": "Senegal"
       },
       {
@@ -201,19 +208,19 @@
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": 1.5,
+        "value": 1.0,
         "leader": "Senegal"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": 0.1499999999999994,
+        "value": 0.2999999999999998,
         "leader": "Senegal"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.3504545454545447,
+        "value": 0.1000000000000005,
         "leader": "Senegal"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 27.296296296296298,
     "away_avg_age": 26.65384615384616,
-    "home_forwards": 6,
-    "away_forwards": 6,
-    "home_midfielders": 10,
-    "away_midfielders": 8,
-    "home_defenders": 7,
-    "away_defenders": 9,
+    "home_forwards": 6.0,
+    "away_forwards": 6.0,
+    "home_midfielders": 10.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 7.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "num_midfielders_diff",

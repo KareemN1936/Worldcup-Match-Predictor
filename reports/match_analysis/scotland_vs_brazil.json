@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -138.97510105192237,
+      "elo_gap_abs": 138.97510105192237,
       "points_last_5_diff": -1.0,
       "points_last_10_diff": 4.0,
       "goal_difference_last_5_diff": 0.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -0.4052173913043478,
       "clean_sheet_rate_2y_diff": -0.012173913043478257,
       "failed_to_score_rate_2y_diff": 0.060869565217391286,
+      "draw_rate_2y_mean": 0.2252173913043478,
+      "goals_total_per_match_2y_mean": 2.687826086956522,
+      "goals_against_per_match_2y_mean": 1.0252173913043479,
+      "clean_sheet_rate_2y_mean": 0.35391304347826086,
+      "failed_to_score_rate_2y_mean": 0.23043478260869565,
+      "recent_draws_last_5_sum": 1.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.2334049586776858,
-    "probability_shift": -0.0207471074380165,
+    "enrichment_score": -0.2136363636363635,
+    "probability_shift": -0.0189898989898989,
     "top_signals": "goal difference:away; points per match:away; starting XI rating:away",
-    "home_win_probability": 0.2114561246383521,
-    "draw_probability": 0.2601822417355064,
-    "away_win_probability": 0.5283616336261415,
+    "home_win_probability": 0.2131454346042137,
+    "draw_probability": 0.2604432357964333,
+    "away_win_probability": 0.5264113295993529,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -175,7 +182,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.4359090909090906,
+        "value": -0.2999999999999998,
         "leader": "Brazil"
       },
       {
@@ -213,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.4359090909090906,
+        "value": -0.2999999999999998,
         "leader": "Brazil"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 29.08,
     "away_avg_age": 28.65384615384616,
-    "home_forwards": 5,
-    "away_forwards": 9,
-    "home_midfielders": 8,
-    "away_midfielders": 5,
-    "home_defenders": 10,
-    "away_defenders": 9,
+    "home_forwards": 5.0,
+    "away_forwards": 9.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 5.0,
+    "home_defenders": 10.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

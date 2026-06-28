@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: 0.62
-Probability shift: 0.0461
+Enrichment score: 0.60
+Probability shift: 0.0450
 Top signals: points per match:home; goal difference:home; starting XI rating:home
-Morocco Win: 86.5%
+Morocco Win: 86.4%
 Draw: 11.8%
-Haiti Win: 1.6%
+Haiti Win: 1.7%
 FotMob-enriched result: Team A win
 
 Squad Context:

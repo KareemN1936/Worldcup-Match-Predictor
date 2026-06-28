@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537341,
-    "date": "2026-06-20T00:30:00Z",
+    "date": "2026-06-20 00:30:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_C",
     "home_team": "Brazil",
     "away_team": "Haiti"
   },
   "base_prediction": {
-    "home_win_probability": 0.7924160957336426,
-    "draw_probability": 0.1253880262374878,
-    "away_win_probability": 0.0821959003806114,
+    "home_win_probability": 0.7848045825958252,
+    "draw_probability": 0.1721000671386718,
+    "away_win_probability": 0.0430953353643417,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": 292.99394837713885,
+      "elo_gap_abs": 292.99394837713885,
       "points_last_5_diff": 6.0,
       "points_last_10_diff": 3.0,
       "goal_difference_last_5_diff": 5.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -0.46434782608695657,
       "clean_sheet_rate_2y_diff": -0.07478260869565218,
       "failed_to_score_rate_2y_diff": -0.01739130434782607,
+      "draw_rate_2y_mean": 0.24695652173913044,
+      "goals_total_per_match_2y_mean": 3.079130434782609,
+      "goals_against_per_match_2y_mean": 1.0034782608695652,
+      "clean_sheet_rate_2y_mean": 0.3973913043478261,
+      "failed_to_score_rate_2y_mean": 0.20869565217391306,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -153,11 +160,11 @@
     "feature_count": 8,
     "reliability": 0.4444444444444444,
     "enrichment_score": 0.2631955922865011,
-    "probability_shift": 0.0100316579386112,
+    "probability_shift": 0.010120694236767,
     "top_signals": "points per match:home; goal difference:home; starting XI rating:home",
-    "home_win_probability": 0.8040609485796805,
-    "draw_probability": 0.1236297341271867,
-    "away_win_probability": 0.0723093172931328,
+    "home_win_probability": 0.7949252886779021,
+    "draw_probability": 0.1721000697031627,
+    "away_win_probability": 0.0329746416189351,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 28.65384615384616,
     "away_avg_age": 27.0,
-    "home_forwards": 9,
-    "away_forwards": 8,
-    "home_midfielders": 5,
-    "away_midfielders": 6,
-    "home_defenders": 9,
-    "away_defenders": 9,
+    "home_forwards": 9.0,
+    "away_forwards": 8.0,
+    "home_midfielders": 5.0,
+    "away_midfielders": 6.0,
+    "home_defenders": 9.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "squad_avg_age_diff",

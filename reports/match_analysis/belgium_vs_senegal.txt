@@ -1,0 +1,41 @@
+Belgium vs Senegal
+
+Date: 2026-07-01 20:00:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+Belgium Win: 51.1%
+Draw: 24.7%
+Senegal Win: 24.1%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 35.68 | edge: Belgium
+- goal difference last 5: 9.00 | edge: Belgium
+- weighted points last 5: 7.50 | edge: Belgium
+- goals for last 5: 6.00 | edge: Belgium
+- points last 5: 4.00 | edge: Belgium
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.22
+Probability shift: 0.0198
+Top signals: points per match:home; starting XI rating:home; goal difference:home
+Belgium Win: 53.1%
+Draw: 24.7%
+Senegal Win: 22.1%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Belgium 27.1 | Senegal 27.3
+Forwards: Belgium 4 | Senegal 6
+Midfielders: Belgium 10 | Senegal 10
+Defenders: Belgium 9 | Senegal 7
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

@@ -1,0 +1,338 @@
+{
+  "fixture": {
+    "fixture_id": 537421,
+    "date": "2026-07-02 00:00:00+00:00",
+    "round": "LAST_32",
+    "group": null,
+    "home_team": "United States",
+    "away_team": "Bosnia-Herzegovina"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.7365119457244873,
+    "draw_probability": 0.1844760030508041,
+    "away_win_probability": 0.0790120810270309,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 202.69932490294218,
+      "elo_gap_abs": 202.69932490294218,
+      "points_last_5_diff": 1.0,
+      "points_last_10_diff": 6.0,
+      "goal_difference_last_5_diff": -2.0,
+      "goals_for_last_5_diff": 6.0,
+      "goals_against_last_5_diff": 8.0,
+      "weighted_points_last_5_diff": 1.0,
+      "weighted_goal_difference_last_5_diff": 8.5,
+      "wins_last_5_diff": 2.0,
+      "draws_last_5_diff": -5.0,
+      "losses_last_5_diff": 3.0,
+      "clean_sheets_last_5_diff": -1.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": 11.0,
+      "win_rate_2y_diff": 0.2142857142857143,
+      "draw_rate_2y_diff": -0.33482142857142855,
+      "loss_rate_2y_diff": 0.1205357142857143,
+      "goals_for_per_match_2y_diff": 0.2901785714285714,
+      "goals_against_per_match_2y_diff": -0.10119047619047628,
+      "goal_difference_per_match_2y_diff": 0.3913690476190476,
+      "clean_sheet_rate_2y_diff": -0.019345238095238082,
+      "failed_to_score_rate_2y_diff": -0.0029761904761904656,
+      "draw_rate_2y_mean": 0.2611607142857143,
+      "goals_total_per_match_2y_mean": 2.9992559523809526,
+      "goals_against_per_match_2y_mean": 1.4255952380952381,
+      "clean_sheet_rate_2y_mean": 0.22842261904761904,
+      "failed_to_score_rate_2y_mean": 0.18898809523809523,
+      "recent_draws_last_5_sum": 5.0,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 202.69932490294218,
+        "leader": "United States"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 8.0,
+        "leader": "Bosnia-Herzegovina"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 6.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 6.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -2.0,
+        "leader": "Bosnia-Herzegovina"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 202.69932490294218,
+        "leader": "United States"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 1.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 6.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -2.0,
+        "leader": "Bosnia-Herzegovina"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 6.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 8.0,
+        "leader": "Bosnia-Herzegovina"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 1.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.2142857142857143,
+        "leader": "United States"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.3913690476190476,
+        "leader": "United States"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.10119047619047628,
+        "leader": "United States"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.019345238095238082,
+        "leader": "Bosnia-Herzegovina"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.0029761904761904656,
+        "leader": "United States"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.8888888888888888,
+    "enrichment_score": 0.267926538108356,
+    "probability_shift": 0.0217553503987001,
+    "top_signals": "goal difference:home; points per match:home; starting XI rating:home",
+    "home_win_probability": 0.7582672735250617,
+    "draw_probability": 0.184475997552991,
+    "away_win_probability": 0.0572567289219473,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.6666666666666663,
+        "leader": "United States"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.6666666666666667,
+        "leader": "United States"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.3906060606060606,
+        "leader": "United States"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -1.7763568394002505e-15,
+        "leader": "Bosnia-Herzegovina"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.6666666666666667,
+        "leader": "United States"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.6666666666666663,
+        "leader": "United States"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -1.7763568394002505e-15,
+        "leader": "Bosnia-Herzegovina"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.3906060606060606,
+        "leader": "United States"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 26.423076923076923,
+    "away_avg_age": 25.923076923076923,
+    "home_forwards": 6.0,
+    "away_forwards": 7.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 9.0,
+    "away_defenders": 8.0,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -1.0,
+        "leader": "Bosnia-Herzegovina"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "United States"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.5,
+        "leader": "Bosnia-Herzegovina"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.5,
+        "leader": "Bosnia-Herzegovina"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -1.0,
+        "leader": "Bosnia-Herzegovina"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "United States"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
+  }
+}

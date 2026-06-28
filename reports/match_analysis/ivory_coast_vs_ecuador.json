@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537352,
-    "date": "2026-06-14T23:00:00Z",
+    "date": "2026-06-14 23:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_E",
     "home_team": "Ivory Coast",
     "away_team": "Ecuador"
   },
   "base_prediction": {
-    "home_win_probability": 0.2938257455825805,
-    "draw_probability": 0.2726498544216156,
-    "away_win_probability": 0.4335243999958038,
+    "home_win_probability": 0.2160459160804748,
+    "draw_probability": 0.3485264778137207,
+    "away_win_probability": 0.435427576303482,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": -81.74254681122216,
+      "elo_gap_abs": 81.74254681122216,
       "points_last_5_diff": 4.0,
       "points_last_10_diff": 8.0,
       "goal_difference_last_5_diff": 3.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.8,
       "clean_sheet_rate_2y_diff": 0.07999999999999996,
       "failed_to_score_rate_2y_diff": -0.16000000000000003,
+      "draw_rate_2y_mean": 0.32,
+      "goals_total_per_match_2y_mean": 1.8800000000000001,
+      "goals_against_per_match_2y_mean": 0.48,
+      "clean_sheet_rate_2y_mean": 0.6000000000000001,
+      "failed_to_score_rate_2y_mean": 0.32,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.2938257455825805,
-    "draw_probability": 0.2726498544216156,
-    "away_win_probability": 0.4335243999958038,
+    "home_win_probability": 0.2160459225191451,
+    "draw_probability": 0.3485264882006195,
+    "away_win_probability": 0.4354275892802354,
     "predicted_result": "Team A loss",
     "strongest": [],
     "all": [
@@ -221,12 +228,12 @@
     "available": true,
     "home_avg_age": 25.346153846153847,
     "away_avg_age": 25.57692307692308,
-    "home_forwards": 8,
-    "away_forwards": 7,
-    "home_midfielders": 7,
-    "away_midfielders": 8,
-    "home_defenders": 8,
-    "away_defenders": 8,
+    "home_forwards": 8.0,
+    "away_forwards": 7.0,
+    "home_midfielders": 7.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 8.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

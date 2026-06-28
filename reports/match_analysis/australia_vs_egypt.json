@@ -1,0 +1,338 @@
+{
+  "fixture": {
+    "fixture_id": 537428,
+    "date": "2026-07-03 18:00:00+00:00",
+    "round": "LAST_32",
+    "group": null,
+    "home_team": "Australia",
+    "away_team": "Egypt"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.4711757600307464,
+    "draw_probability": 0.3062555491924286,
+    "away_win_probability": 0.2225686162710189,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 89.62996542239875,
+      "elo_gap_abs": 89.62996542239875,
+      "points_last_5_diff": 2.0,
+      "points_last_10_diff": 0.0,
+      "goal_difference_last_5_diff": 2.0,
+      "goals_for_last_5_diff": 2.0,
+      "goals_against_last_5_diff": 0.0,
+      "weighted_points_last_5_diff": 12.0,
+      "weighted_goal_difference_last_5_diff": 11.5,
+      "wins_last_5_diff": 1.0,
+      "draws_last_5_diff": -1.0,
+      "losses_last_5_diff": 0.0,
+      "clean_sheets_last_5_diff": -1.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": -8.0,
+      "win_rate_2y_diff": 0.006568144499178974,
+      "draw_rate_2y_diff": -0.10673234811165849,
+      "loss_rate_2y_diff": 0.10016420361247946,
+      "goals_for_per_match_2y_diff": 0.09688013136288998,
+      "goals_against_per_match_2y_diff": 0.18883415435139572,
+      "goal_difference_per_match_2y_diff": -0.09195402298850575,
+      "clean_sheet_rate_2y_diff": -0.17077175697865354,
+      "failed_to_score_rate_2y_diff": 0.0443349753694581,
+      "draw_rate_2y_mean": 0.29146141215106736,
+      "goals_total_per_match_2y_mean": 2.142857142857143,
+      "goals_against_per_match_2y_mean": 0.7151067323481117,
+      "clean_sheet_rate_2y_mean": 0.4663382594417077,
+      "failed_to_score_rate_2y_mean": 0.26354679802955666,
+      "recent_draws_last_5_sum": 3.0,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 89.62996542239875,
+        "leader": "Australia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 12.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 2.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 2.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 2.0,
+        "leader": "Australia"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 89.62996542239875,
+        "leader": "Australia"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 2.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 2.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 2.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 12.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.006568144499178974,
+        "leader": "Australia"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": -0.09195402298850575,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.18883415435139572,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.17077175697865354,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.0443349753694581,
+        "leader": "Egypt"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.8888888888888888,
+    "enrichment_score": -0.1375353535353536,
+    "probability_shift": -0.0122253647586981,
+    "top_signals": "goal difference:away; starting XI rating:away; points per match:away",
+    "home_win_probability": 0.45895042946652,
+    "draw_probability": 0.3062555720102468,
+    "away_win_probability": 0.2347939985232331,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": -0.6666666666666666,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -0.3333333333333335,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.3233333333333341,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0166666666666666,
+        "leader": "Australia"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -0.3333333333333335,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": -0.6666666666666666,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0166666666666666,
+        "leader": "Australia"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.3233333333333341,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 26.884615384615383,
+    "away_avg_age": 28.65384615384616,
+    "home_forwards": 5.0,
+    "away_forwards": 5.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 9.0,
+    "home_defenders": 10.0,
+    "away_defenders": 8.0,
+    "strongest": [
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 2.0,
+        "leader": "Australia"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.7692307692307736,
+        "leader": "Australia"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -1.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.7692307692307736,
+        "leader": "Australia"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": -1.0,
+        "leader": "Egypt"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 2.0,
+        "leader": "Australia"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
+  }
+}

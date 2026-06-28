@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: -0.40
-Probability shift: -0.0359
-Top signals: goal difference:away; points per match:away; starting XI rating:away
-Uruguay Win: 15.4%
-Draw: 20.3%
-Spain Win: 64.3%
+Enrichment score: -0.07
+Probability shift: -0.0058
+Top signals: starting XI rating:away; player rating:away; points per match:away
+Uruguay Win: 18.3%
+Draw: 20.8%
+Spain Win: 60.9%
 FotMob-enriched result: Team A loss
 
 Squad Context:

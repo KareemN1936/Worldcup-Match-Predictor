@@ -1,13 +1,13 @@
 Qatar vs Switzerland
 
-Date: 2026-06-13T19:00:00Z
+Date: 2026-06-13 19:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_B
 
 Base Prediction:
 Qatar Win: 17.9%
-Draw: 19.5%
-Switzerland Win: 62.5%
+Draw: 21.7%
+Switzerland Win: 60.4%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 

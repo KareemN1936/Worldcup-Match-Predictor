@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537403,
-    "date": "2026-06-17T17:00:00Z",
+    "date": "2026-06-17 17:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_K",
     "home_team": "Portugal",
     "away_team": "Congo DR"
   },
   "base_prediction": {
-    "home_win_probability": 0.7975218892097473,
-    "draw_probability": 0.1196341589093208,
-    "away_win_probability": 0.0828439593315124,
+    "home_win_probability": 0.7076161503791809,
+    "draw_probability": 0.2066642045974731,
+    "away_win_probability": 0.0857196375727653,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": 210.05309802804936,
+      "elo_gap_abs": 210.05309802804936,
       "points_last_5_diff": 6.0,
       "points_last_10_diff": 5.0,
       "goal_difference_last_5_diff": 11.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.3666666666666666,
       "clean_sheet_rate_2y_diff": -0.305,
       "failed_to_score_rate_2y_diff": 0.15500000000000003,
+      "draw_rate_2y_mean": 0.2025,
+      "goals_total_per_match_2y_mean": 2.4783333333333335,
+      "goals_against_per_match_2y_mean": 0.7308333333333333,
+      "clean_sheet_rate_2y_mean": 0.47250000000000003,
+      "failed_to_score_rate_2y_mean": 0.2025,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.7975218832677462,
-    "draw_probability": 0.1196341580179768,
-    "away_win_probability": 0.0828439587142768,
+    "home_win_probability": 0.7076161556513321,
+    "draw_probability": 0.2066642061372414,
+    "away_win_probability": 0.0857196382114264,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [
@@ -221,12 +228,12 @@
     "available": true,
     "home_avg_age": 27.53846153846154,
     "away_avg_age": 28.5,
-    "home_forwards": 7,
-    "away_forwards": 8,
-    "home_midfielders": 7,
-    "away_midfielders": 7,
-    "home_defenders": 9,
-    "away_defenders": 8,
+    "home_forwards": 7.0,
+    "away_forwards": 8.0,
+    "home_midfielders": 7.0,
+    "away_midfielders": 7.0,
+    "home_defenders": 9.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

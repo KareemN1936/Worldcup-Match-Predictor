@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -56.810237270785365,
+      "elo_gap_abs": 56.810237270785365,
       "points_last_5_diff": -1.0,
       "points_last_10_diff": -2.0,
       "goal_difference_last_5_diff": -4.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -0.6666666666666666,
       "clean_sheet_rate_2y_diff": 0.010351966873706042,
       "failed_to_score_rate_2y_diff": -0.06832298136645962,
+      "draw_rate_2y_mean": 0.2494824016563147,
+      "goals_total_per_match_2y_mean": 2.360248447204969,
+      "goals_against_per_match_2y_mean": 1.0134575569358177,
+      "clean_sheet_rate_2y_mean": 0.3861283643892339,
+      "failed_to_score_rate_2y_mean": 0.2515527950310559,
+      "recent_draws_last_5_sum": 1.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.0906997245179062,
-    "probability_shift": -0.008062197734925,
-    "top_signals": "goal difference:away; starting XI rating:away; player rating:home",
-    "home_win_probability": 0.3064264140642323,
-    "draw_probability": 0.2807062176998978,
-    "away_win_probability": 0.4128673682358699,
+    "enrichment_score": -0.0757575757575757,
+    "probability_shift": -0.0067340067340067,
+    "top_signals": "goal difference:away; player rating:home; starting XI rating:away",
+    "home_win_probability": 0.3076748879130835,
+    "draw_probability": 0.2808975472828692,
+    "away_win_probability": 0.4114275648040473,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -167,16 +174,16 @@
         "leader": "Australia"
       },
       {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
-        "value": -0.1527272727272723,
-        "leader": "Australia"
-      },
-      {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
         "value": 0.0499999999999998,
         "leader": "Paraguay"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.0499999999999998,
+        "leader": "Australia"
       },
       {
         "feature": "fotmob_points_per_match_diff",
@@ -213,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.1527272727272723,
+        "value": -0.0499999999999998,
         "leader": "Australia"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 28.53846153846154,
     "away_avg_age": 26.884615384615383,
-    "home_forwards": 7,
-    "away_forwards": 5,
-    "home_midfielders": 8,
-    "away_midfielders": 8,
-    "home_defenders": 8,
-    "away_defenders": 10,
+    "home_forwards": 7.0,
+    "away_forwards": 5.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 8.0,
+    "away_defenders": 10.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

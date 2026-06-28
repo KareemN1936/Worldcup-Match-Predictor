@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537363,
-    "date": "2026-06-15T19:00:00Z",
+    "date": "2026-06-15 19:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_G",
     "home_team": "Belgium",
     "away_team": "Egypt"
   },
   "base_prediction": {
-    "home_win_probability": 0.6041672825813293,
-    "draw_probability": 0.2128720432519912,
-    "away_win_probability": 0.1829607188701629,
+    "home_win_probability": 0.5601858496665955,
+    "draw_probability": 0.2809785008430481,
+    "away_win_probability": 0.1588356345891952,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": 88.00248188237742,
+      "elo_gap_abs": 88.00248188237742,
       "points_last_5_diff": 3.0,
       "points_last_10_diff": 6.0,
       "goal_difference_last_5_diff": 6.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.4413793103448276,
       "clean_sheet_rate_2y_diff": -0.1917241379310345,
       "failed_to_score_rate_2y_diff": 0.03862068965517243,
+      "draw_rate_2y_mean": 0.3124137931034483,
+      "goals_total_per_match_2y_mean": 2.6,
+      "goals_against_per_match_2y_mean": 0.8103448275862069,
+      "clean_sheet_rate_2y_mean": 0.45586206896551723,
+      "failed_to_score_rate_2y_mean": 0.2606896551724138,
+      "recent_draws_last_5_sum": 4.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.6041672555729484,
-    "draw_probability": 0.2128720337358698,
-    "away_win_probability": 0.1829607106911818,
+    "home_win_probability": 0.5601858580140152,
+    "draw_probability": 0.2809785050299541,
+    "away_win_probability": 0.1588356369560306,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [
@@ -221,12 +228,12 @@
     "available": true,
     "home_avg_age": 27.115384615384617,
     "away_avg_age": 28.65384615384616,
-    "home_forwards": 4,
-    "away_forwards": 5,
-    "home_midfielders": 10,
-    "away_midfielders": 9,
-    "home_defenders": 9,
-    "away_defenders": 8,
+    "home_forwards": 4.0,
+    "away_forwards": 5.0,
+    "home_midfielders": 10.0,
+    "away_midfielders": 9.0,
+    "home_defenders": 9.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "squad_avg_age_diff",

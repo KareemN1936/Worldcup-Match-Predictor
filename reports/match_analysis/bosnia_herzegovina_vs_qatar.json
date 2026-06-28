@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -20.271426374502653,
+      "elo_gap_abs": 20.271426374502653,
       "points_last_5_diff": 2.0,
       "points_last_10_diff": 6.0,
       "goal_difference_last_5_diff": 4.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.5923809523809525,
       "clean_sheet_rate_2y_diff": 0.11809523809523809,
       "failed_to_score_rate_2y_diff": -0.08952380952380956,
+      "draw_rate_2y_mean": 0.39428571428571424,
+      "goals_total_per_match_2y_mean": 2.9723809523809526,
+      "goals_against_per_match_2y_mean": 1.658095238095238,
+      "clean_sheet_rate_2y_mean": 0.17904761904761904,
+      "failed_to_score_rate_2y_mean": 0.23523809523809525,
+      "recent_draws_last_5_sum": 8.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": 0.1970743801652893,
-    "probability_shift": 0.017517722681359,
+    "enrichment_score": 0.1827272727272726,
+    "probability_shift": 0.0162424242424242,
     "top_signals": "goal difference:home; starting XI rating:home; player rating:home",
-    "home_win_probability": 0.4252878850028932,
-    "draw_probability": 0.2808790881176251,
-    "away_win_probability": 0.2938330268794817,
+    "home_win_probability": 0.4238996029971028,
+    "draw_probability": 0.281063104642299,
+    "away_win_probability": 0.2950372923605982,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -169,7 +176,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.4486363636363641,
+        "value": 0.3499999999999996,
         "leader": "Bosnia-Herzegovina"
       },
       {
@@ -213,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.4486363636363641,
+        "value": 0.3499999999999996,
         "leader": "Bosnia-Herzegovina"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 25.923076923076923,
     "away_avg_age": 28.846153846153847,
-    "home_forwards": 7,
-    "away_forwards": 6,
-    "home_midfielders": 8,
-    "away_midfielders": 8,
-    "home_defenders": 8,
-    "away_defenders": 9,
+    "home_forwards": 7.0,
+    "away_forwards": 6.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 8.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "squad_avg_age_diff",

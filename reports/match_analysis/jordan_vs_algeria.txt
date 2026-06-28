@@ -1,13 +1,13 @@
 Jordan vs Algeria
 
-Date: 2026-06-23T03:00:00Z
+Date: 2026-06-23 03:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_J
 
 Base Prediction:
-Jordan Win: 25.1%
-Draw: 24.0%
-Algeria Win: 50.9%
+Jordan Win: 22.6%
+Draw: 29.4%
+Algeria Win: 48.0%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 
@@ -24,9 +24,9 @@ Reliability: 0.44
 Enrichment score: 0.18
 Probability shift: 0.0080
 Top signals: goal difference:home; starting XI rating:home; player rating:home
-Jordan Win: 26.0%
-Draw: 23.9%
-Algeria Win: 50.2%
+Jordan Win: 23.4%
+Draw: 29.4%
+Algeria Win: 47.2%
 FotMob-enriched result: Team A loss
 
 Squad Context:

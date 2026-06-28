@@ -1,0 +1,338 @@
+{
+  "fixture": {
+    "fixture_id": 537420,
+    "date": "2026-07-02 19:00:00+00:00",
+    "round": "LAST_32",
+    "group": null,
+    "home_team": "Spain",
+    "away_team": "Austria"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.702966570854187,
+    "draw_probability": 0.2066514790058136,
+    "away_win_probability": 0.0903819426894187,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 223.6190375329552,
+      "elo_gap_abs": 223.6190375329552,
+      "points_last_5_diff": -4.0,
+      "points_last_10_diff": -3.0,
+      "goal_difference_last_5_diff": -3.0,
+      "goals_for_last_5_diff": -4.0,
+      "goals_against_last_5_diff": -1.0,
+      "weighted_points_last_5_diff": -14.5,
+      "weighted_goal_difference_last_5_diff": -10.0,
+      "wins_last_5_diff": -2.0,
+      "draws_last_5_diff": 2.0,
+      "losses_last_5_diff": 0.0,
+      "clean_sheets_last_5_diff": 1.0,
+      "failed_to_score_last_5_diff": 2.0,
+      "matches_played_2y_diff": 3.0,
+      "win_rate_2y_diff": 0.07870370370370372,
+      "draw_rate_2y_diff": 0.12962962962962962,
+      "loss_rate_2y_diff": -0.20833333333333334,
+      "goals_for_per_match_2y_diff": 0.15740740740740744,
+      "goals_against_per_match_2y_diff": 0.01851851851851849,
+      "goal_difference_per_match_2y_diff": 0.13888888888888884,
+      "clean_sheet_rate_2y_diff": 0.14814814814814814,
+      "failed_to_score_rate_2y_diff": -0.013888888888888895,
+      "draw_rate_2y_mean": 0.23148148148148145,
+      "goals_total_per_match_2y_mean": 3.1712962962962963,
+      "goals_against_per_match_2y_mean": 0.8425925925925926,
+      "clean_sheet_rate_2y_mean": 0.4074074074074074,
+      "failed_to_score_rate_2y_mean": 0.11805555555555555,
+      "recent_draws_last_5_sum": 4.0,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 223.6190375329552,
+        "leader": "Spain"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -14.5,
+        "leader": "Austria"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -4.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -4.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -3.0,
+        "leader": "Austria"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 223.6190375329552,
+        "leader": "Spain"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -4.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -3.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": -3.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": -4.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -1.0,
+        "leader": "Spain"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": -14.5,
+        "leader": "Austria"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.07870370370370372,
+        "leader": "Spain"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.13888888888888884,
+        "leader": "Spain"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.01851851851851849,
+        "leader": "Austria"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.14814814814814814,
+        "leader": "Spain"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.013888888888888895,
+        "leader": "Spain"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.8888888888888888,
+    "enrichment_score": 0.3872213039485768,
+    "probability_shift": 0.0325965794948207,
+    "top_signals": "starting XI rating:home; points per match:home; goal difference:home",
+    "home_win_probability": 0.7355631558293804,
+    "draw_probability": 0.2066514805454871,
+    "away_win_probability": 0.0577853636251325,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.6666666666666667,
+        "leader": "Spain"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 1.0000000000000002,
+        "leader": "Spain"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.8857575757575757,
+        "leader": "Spain"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0333333333333341,
+        "leader": "Spain"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 1.0000000000000002,
+        "leader": "Spain"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.6666666666666667,
+        "leader": "Spain"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0333333333333341,
+        "leader": "Spain"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.8857575757575757,
+        "leader": "Spain"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 26.192307692307693,
+    "away_avg_age": 28.115384615384617,
+    "home_forwards": 5.0,
+    "away_forwards": 3.0,
+    "home_midfielders": 11.0,
+    "away_midfielders": 11.0,
+    "home_defenders": 7.0,
+    "away_defenders": 9.0,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 2.0,
+        "leader": "Spain"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -2.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.923076923076924,
+        "leader": "Spain"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -1.923076923076924,
+        "leader": "Spain"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": 2.0,
+        "leader": "Spain"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -2.0,
+        "leader": "Austria"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
+  }
+}

@@ -1,0 +1,41 @@
+Netherlands vs Morocco
+
+Date: 2026-06-30 01:00:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+Netherlands Win: 36.7%
+Draw: 25.9%
+Morocco Win: 37.4%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- goal difference last 5: -9.00 | edge: Morocco
+- goals for last 5: -6.00 | edge: Morocco
+- Elo advantage: -5.24 | edge: Morocco
+- points last 5: -3.00 | edge: Morocco
+- goals against last 5: 3.00 | edge: Morocco
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.11
+Probability shift: 0.0094
+Top signals: goal difference:home; starting XI rating:home; player rating:away
+Netherlands Win: 37.7%
+Draw: 25.9%
+Morocco Win: 36.4%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Netherlands 27.3 | Morocco 25.9
+Forwards: Netherlands 5 | Morocco 5
+Midfielders: Netherlands 11 | Morocco 9
+Defenders: Netherlands 7 | Morocco 9
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

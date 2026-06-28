@@ -1,0 +1,338 @@
+{
+  "fixture": {
+    "fixture_id": 537430,
+    "date": "2026-07-04 01:30:00+00:00",
+    "round": "LAST_32",
+    "group": null,
+    "home_team": "Colombia",
+    "away_team": "Ghana"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.7519479393959045,
+    "draw_probability": 0.1840364187955856,
+    "away_win_probability": 0.064015582203865,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 285.54704585900004,
+      "elo_gap_abs": 285.54704585900004,
+      "points_last_5_diff": 8.0,
+      "points_last_10_diff": 11.0,
+      "goal_difference_last_5_diff": 12.0,
+      "goals_for_last_5_diff": 7.0,
+      "goals_against_last_5_diff": -5.0,
+      "weighted_points_last_5_diff": 8.0,
+      "weighted_goal_difference_last_5_diff": 12.0,
+      "wins_last_5_diff": 3.0,
+      "draws_last_5_diff": -1.0,
+      "losses_last_5_diff": -2.0,
+      "clean_sheets_last_5_diff": 2.0,
+      "failed_to_score_last_5_diff": -2.0,
+      "matches_played_2y_diff": 6.0,
+      "win_rate_2y_diff": 0.2,
+      "draw_rate_2y_diff": -0.019230769230769218,
+      "loss_rate_2y_diff": -0.1807692307692308,
+      "goals_for_per_match_2y_diff": 0.573076923076923,
+      "goals_against_per_match_2y_diff": -0.18846153846153835,
+      "goal_difference_per_match_2y_diff": 0.7615384615384615,
+      "clean_sheet_rate_2y_diff": 0.03461538461538466,
+      "failed_to_score_rate_2y_diff": -0.10769230769230767,
+      "draw_rate_2y_mean": 0.2403846153846154,
+      "goals_total_per_match_2y_mean": 2.6923076923076925,
+      "goals_against_per_match_2y_mean": 1.0557692307692308,
+      "clean_sheet_rate_2y_mean": 0.36730769230769234,
+      "failed_to_score_rate_2y_mean": 0.24615384615384617,
+      "recent_draws_last_5_sum": 1.0,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 285.54704585900004,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 12.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 11.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 8.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 8.0,
+        "leader": "Colombia"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 285.54704585900004,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 8.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 11.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 12.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 7.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -5.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 8.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.2,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.7615384615384615,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": -0.18846153846153835,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.03461538461538466,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": -0.10769230769230767,
+        "leader": "Colombia"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.8888888888888888,
+    "enrichment_score": 0.2985895316804405,
+    "probability_shift": 0.023835461706705,
+    "top_signals": "points per match:home; starting XI rating:home; goal difference:home",
+    "home_win_probability": 0.7757834473429064,
+    "draw_probability": 0.1840364297650116,
+    "away_win_probability": 0.0401801228920819,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 1.0000000000000002,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.6236363636363622,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0333333333333332,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 1.0000000000000002,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0333333333333332,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.6236363636363622,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 29.615384615384617,
+    "away_avg_age": 26.423076923076923,
+    "home_forwards": 5.0,
+    "away_forwards": 9.0,
+    "home_midfielders": 10.0,
+    "away_midfielders": 5.0,
+    "home_defenders": 8.0,
+    "away_defenders": 9.0,
+    "strongest": [
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 5.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -4.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 3.1923076923076934,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -1.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 3.1923076923076934,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -4.0,
+        "leader": "Ghana"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 5.0,
+        "leader": "Colombia"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": -1.0,
+        "leader": "Ghana"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
+  }
+}

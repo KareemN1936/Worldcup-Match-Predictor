@@ -1,0 +1,41 @@
+Brazil vs Japan
+
+Date: 2026-06-29 17:00:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+Brazil Win: 40.9%
+Draw: 30.8%
+Japan Win: 28.2%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 11.95 | edge: Brazil
+- goals for last 5: 5.00 | edge: Brazil
+- goals against last 5: 5.00 | edge: Japan
+- weighted points last 5: -4.50 | edge: Japan
+- points last 10: -4.00 | edge: Japan
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.18
+Probability shift: 0.0163
+Top signals: points per match:home; goal difference:home; starting XI rating:home
+Brazil Win: 42.6%
+Draw: 30.8%
+Japan Win: 26.6%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Brazil 28.7 | Japan 27.2
+Forwards: Brazil 9 | Japan 7
+Midfielders: Brazil 5 | Japan 7
+Defenders: Brazil 9 | Japan 9
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

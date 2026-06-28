@@ -1,13 +1,13 @@
 Tunisia vs Japan
 
-Date: 2026-06-21T04:00:00Z
+Date: 2026-06-21 04:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_F
 
 Base Prediction:
-Tunisia Win: 11.9%
-Draw: 22.1%
-Japan Win: 66.0%
+Tunisia Win: 13.8%
+Draw: 27.6%
+Japan Win: 58.6%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 
@@ -22,11 +22,11 @@ FotMob Layer:
 Features available: 8
 Reliability: 0.44
 Enrichment score: -0.55
-Probability shift: -0.0242
+Probability shift: -0.0245
 Top signals: goal difference:away; starting XI rating:away; points per match:away
-Tunisia Win: 9.6%
-Draw: 21.7%
-Japan Win: 68.7%
+Tunisia Win: 11.4%
+Draw: 27.6%
+Japan Win: 61.1%
 FotMob-enriched result: Team A loss
 
 Squad Context:

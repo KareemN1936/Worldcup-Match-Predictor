@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537334,
-    "date": "2026-06-13T19:00:00Z",
+    "date": "2026-06-13 19:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_B",
     "home_team": "Qatar",
     "away_team": "Switzerland"
   },
   "base_prediction": {
-    "home_win_probability": 0.179494023323059,
-    "draw_probability": 0.1950162202119827,
-    "away_win_probability": 0.6254897713661194,
+    "home_win_probability": 0.1788413524627685,
+    "draw_probability": 0.2168578803539276,
+    "away_win_probability": 0.6043007969856262,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": -171.54895175403317,
+      "elo_gap_abs": 171.54895175403317,
       "points_last_5_diff": -3.0,
       "points_last_10_diff": -10.0,
       "goal_difference_last_5_diff": -6.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -1.28,
       "clean_sheet_rate_2y_diff": -0.16000000000000003,
       "failed_to_score_rate_2y_diff": 0.12000000000000002,
+      "draw_rate_2y_mean": 0.4,
+      "goals_total_per_match_2y_mean": 3.04,
+      "goals_against_per_match_2y_mean": 1.52,
+      "clean_sheet_rate_2y_mean": 0.2,
+      "failed_to_score_rate_2y_mean": 0.22000000000000003,
+      "recent_draws_last_5_sum": 6.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.1794940206483897,
-    "draw_probability": 0.1950162173060146,
-    "away_win_probability": 0.6254897620455956,
+    "home_win_probability": 0.178841347132881,
+    "draw_probability": 0.2168578738910593,
+    "away_win_probability": 0.6043007789760596,
     "predicted_result": "Team A loss",
     "strongest": [],
     "all": [
@@ -221,12 +228,12 @@
     "available": true,
     "home_avg_age": 28.846153846153847,
     "away_avg_age": 27.807692307692307,
-    "home_forwards": 6,
-    "away_forwards": 5,
-    "home_midfielders": 8,
-    "away_midfielders": 10,
-    "home_defenders": 9,
-    "away_defenders": 8,
+    "home_forwards": 6.0,
+    "away_forwards": 5.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 10.0,
+    "home_defenders": 9.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "num_midfielders_diff",

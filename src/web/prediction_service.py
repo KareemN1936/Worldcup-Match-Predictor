@@ -4,7 +4,7 @@ from pathlib import Path
 import joblib
 import pandas as pd
 
-from .data_loader import MODELS_DIR, PROCESSED_DIR, load_predictions
+from .data_loader import MODELS_DIR, PROCESSED_DIR, load_fixtures, load_predictions
 from .notes import build_model_notes
 
 
@@ -43,8 +43,60 @@ def predict_all_fixtures(fixtures_df: pd.DataFrame | None = None) -> pd.DataFram
     return predict_fixtures(only_upcoming=False)
 
 
+def _clean_team(value) -> str:
+    return str(value or "").strip().lower()
+
+
+def _confirmed_upcoming_fixtures(fixtures: pd.DataFrame) -> pd.DataFrame:
+    if fixtures.empty or not {"fixture_id", "home_team", "away_team"}.issubset(fixtures.columns):
+        return pd.DataFrame()
+    unknown = {"", "nan", "none", "null", "tbd", "to be decided", "to be determined"}
+    confirmed = fixtures.copy()
+    if "status" in confirmed.columns:
+        confirmed = confirmed[
+            confirmed["status"].astype(str).str.upper().isin({"SCHEDULED", "TIMED", "POSTPONED"})
+        ].copy()
+    confirmed = confirmed[
+        ~confirmed["home_team"].map(_clean_team).isin(unknown)
+        & ~confirmed["away_team"].map(_clean_team).isin(unknown)
+    ].copy()
+    confirmed["fixture_id"] = confirmed["fixture_id"].astype(str).str.replace(r"\.0$", "", regex=True)
+    return confirmed
+
+
+def _missing_confirmed_predictions(fixtures: pd.DataFrame, predictions: pd.DataFrame) -> pd.DataFrame:
+    confirmed = _confirmed_upcoming_fixtures(fixtures)
+    if confirmed.empty:
+        return confirmed
+    if predictions.empty or "fixture_id" not in predictions.columns:
+        return confirmed
+
+    saved = predictions.copy()
+    saved["fixture_id"] = saved["fixture_id"].astype(str).str.replace(r"\.0$", "", regex=True)
+    saved = saved[["fixture_id", "home_team", "away_team"]].drop_duplicates("fixture_id", keep="last")
+    merged = confirmed[["fixture_id", "home_team", "away_team"]].merge(
+        saved,
+        on="fixture_id",
+        how="left",
+        suffixes=("", "_prediction"),
+    )
+    missing = merged["home_team_prediction"].isna() | merged["away_team_prediction"].isna()
+    changed = (
+        merged["home_team"].map(_clean_team) != merged["home_team_prediction"].map(_clean_team)
+    ) | (
+        merged["away_team"].map(_clean_team) != merged["away_team_prediction"].map(_clean_team)
+    )
+    return confirmed[confirmed["fixture_id"].isin(merged.loc[missing | changed, "fixture_id"])]
+
+
 def load_or_generate_predictions() -> pd.DataFrame:
     predictions = load_predictions()
+    fixtures = load_fixtures()
+    if not _missing_confirmed_predictions(fixtures, predictions).empty:
+        try:
+            return predict_all_fixtures(fixtures)
+        except Exception:
+            return predictions
     if not predictions.empty:
         return predictions
     try:

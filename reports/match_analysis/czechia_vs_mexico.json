@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -363.6968082362541,
+      "elo_gap_abs": 363.6968082362541,
       "points_last_5_diff": -13.0,
       "points_last_10_diff": -23.0,
       "goal_difference_last_5_diff": -9.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -0.7878787878787878,
       "clean_sheet_rate_2y_diff": -0.6363636363636364,
       "failed_to_score_rate_2y_diff": -0.2727272727272727,
+      "draw_rate_2y_mean": 0.13636363636363635,
+      "goals_total_per_match_2y_mean": 1.0606060606060606,
+      "goals_against_per_match_2y_mean": 0.3333333333333333,
+      "clean_sheet_rate_2y_mean": 0.3181818181818182,
+      "failed_to_score_rate_2y_mean": 0.13636363636363635,
+      "recent_draws_last_5_sum": 1.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.4457300275482092,
-    "probability_shift": -0.0348814055796314,
+    "enrichment_score": -0.4278787878787876,
+    "probability_shift": -0.0334844246886795,
     "top_signals": "points per match:away; goal difference:away; starting XI rating:away",
-    "home_win_probability": 0.0357771611229963,
-    "draw_probability": 0.1540786933031156,
-    "away_win_probability": 0.810144145573888,
+    "home_win_probability": 0.0371734970190626,
+    "draw_probability": 0.1543166339282902,
+    "away_win_probability": 0.808509869052647,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -175,7 +182,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.5727272727272723,
+        "value": -0.4499999999999993,
         "leader": "Mexico"
       },
       {
@@ -213,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.5727272727272723,
+        "value": -0.4499999999999993,
         "leader": "Mexico"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 27.23076923076923,
     "away_avg_age": 27.5,
-    "home_forwards": 5,
-    "away_forwards": 8,
-    "home_midfielders": 11,
-    "away_midfielders": 9,
-    "home_defenders": 7,
-    "away_defenders": 6,
+    "home_forwards": 5.0,
+    "away_forwards": 8.0,
+    "home_midfielders": 11.0,
+    "away_midfielders": 9.0,
+    "home_defenders": 7.0,
+    "away_defenders": 6.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

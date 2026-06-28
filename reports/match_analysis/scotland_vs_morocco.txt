@@ -1,13 +1,13 @@
 Scotland vs Morocco
 
-Date: 2026-06-19T22:00:00Z
+Date: 2026-06-19 22:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_C
 
 Base Prediction:
-Scotland Win: 23.5%
-Draw: 24.7%
-Morocco Win: 51.8%
+Scotland Win: 24.1%
+Draw: 26.4%
+Morocco Win: 49.5%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 
@@ -24,9 +24,9 @@ Reliability: 0.44
 Enrichment score: 0.27
 Probability shift: 0.0122
 Top signals: points per match:home; goal difference:home; starting XI rating:away
-Scotland Win: 24.8%
-Draw: 24.5%
-Morocco Win: 50.7%
+Scotland Win: 25.3%
+Draw: 26.4%
+Morocco Win: 48.3%
 FotMob-enriched result: Team A loss
 
 Squad Context:

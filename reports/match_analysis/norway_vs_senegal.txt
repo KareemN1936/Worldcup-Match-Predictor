@@ -1,13 +1,13 @@
 Norway vs Senegal
 
-Date: 2026-06-23T00:00:00Z
+Date: 2026-06-23 00:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_I
 
 Base Prediction:
-Norway Win: 46.3%
-Draw: 23.8%
-Senegal Win: 29.9%
+Norway Win: 44.9%
+Draw: 26.2%
+Senegal Win: 29.0%
 Predicted result: Team A win
 Decision policy: draw_threshold
 
@@ -24,9 +24,9 @@ Reliability: 0.44
 Enrichment score: 0.58
 Probability shift: 0.0259
 Top signals: points per match:home; goal difference:home; starting XI rating:home
-Norway Win: 49.1%
-Draw: 23.4%
-Senegal Win: 27.5%
+Norway Win: 47.5%
+Draw: 26.2%
+Senegal Win: 26.4%
 FotMob-enriched result: Team A win
 
 Squad Context:

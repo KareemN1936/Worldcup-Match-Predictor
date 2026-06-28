@@ -1,0 +1,41 @@
+France vs Sweden
+
+Date: 2026-06-30 21:00:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+France Win: 82.8%
+Draw: 13.8%
+Sweden Win: 3.4%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 273.58 | edge: France
+- weighted points last 5: -19.00 | edge: Sweden
+- points last 10: 14.00 | edge: France
+- goals against last 5: -3.00 | edge: France
+- points last 5: 2.00 | edge: France
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.59
+Probability shift: 0.0428
+Top signals: points per match:home; goal difference:home; starting XI rating:home
+France Win: 85.5%
+Draw: 13.5%
+Sweden Win: 1.0%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: France 26.6 | Sweden 27.0
+Forwards: France 6 | Sweden 6
+Midfielders: France 8 | Sweden 7
+Defenders: France 9 | Sweden 10
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

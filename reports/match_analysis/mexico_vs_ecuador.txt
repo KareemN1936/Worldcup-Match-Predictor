@@ -1,0 +1,41 @@
+Mexico vs Ecuador
+
+Date: 2026-07-01 01:00:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+Mexico Win: 37.4%
+Draw: 42.2%
+Ecuador Win: 20.5%
+Predicted result: Draw
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- weighted points last 5: 15.50 | edge: Mexico
+- points last 10: 6.00 | edge: Mexico
+- goal difference last 5: 6.00 | edge: Mexico
+- points last 5: 5.00 | edge: Mexico
+- goals for last 5: 4.00 | edge: Mexico
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.33
+Probability shift: 0.0292
+Top signals: points per match:home; goal difference:home; player rating:away
+Mexico Win: 40.3%
+Draw: 42.2%
+Ecuador Win: 17.5%
+FotMob-enriched result: Draw
+
+Squad Context:
+Average age: Mexico 27.5 | Ecuador 25.6
+Forwards: Mexico 8 | Ecuador 7
+Midfielders: Mexico 9 | Ecuador 8
+Defenders: Mexico 6 | Ecuador 8
+
+Final Recommendation:
+Use: Draw
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537398,
-    "date": "2026-06-17T04:00:00Z",
+    "date": "2026-06-17 04:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_J",
     "home_team": "Austria",
     "away_team": "Jordan"
   },
   "base_prediction": {
-    "home_win_probability": 0.6890420913696289,
-    "draw_probability": 0.1720008701086044,
-    "away_win_probability": 0.138956993818283,
+    "home_win_probability": 0.580946683883667,
+    "draw_probability": 0.2740890085697174,
+    "away_win_probability": 0.1449643522500991,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": 112.94468335877445,
+      "elo_gap_abs": 112.94468335877445,
       "points_last_5_diff": 11.0,
       "points_last_10_diff": 11.0,
       "goal_difference_last_5_diff": 15.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 1.2604166666666667,
       "clean_sheet_rate_2y_diff": 0.020833333333333315,
       "failed_to_score_rate_2y_diff": -0.15625,
+      "draw_rate_2y_mean": 0.23958333333333331,
+      "goals_total_per_match_2y_mean": 2.901041666666667,
+      "goals_against_per_match_2y_mean": 1.0572916666666667,
+      "clean_sheet_rate_2y_mean": 0.32291666666666663,
+      "failed_to_score_rate_2y_mean": 0.203125,
+      "recent_draws_last_5_sum": 3.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.6890421221722121,
-    "draw_probability": 0.1720008777976428,
-    "away_win_probability": 0.138957000030145,
+    "home_win_probability": 0.5809466579133276,
+    "draw_probability": 0.2740889963169844,
+    "away_win_probability": 0.1449643457696879,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [
@@ -221,12 +228,12 @@
     "available": true,
     "home_avg_age": 28.115384615384617,
     "away_avg_age": 28.03846153846154,
-    "home_forwards": 3,
-    "away_forwards": 8,
-    "home_midfielders": 11,
-    "away_midfielders": 7,
-    "home_defenders": 9,
-    "away_defenders": 8,
+    "home_forwards": 3.0,
+    "away_forwards": 8.0,
+    "home_midfielders": 11.0,
+    "away_midfielders": 7.0,
+    "home_defenders": 9.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

@@ -1,13 +1,13 @@
 Turkey vs Paraguay
 
-Date: 2026-06-20T03:00:00Z
+Date: 2026-06-20 03:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_D
 
 Base Prediction:
-Turkey Win: 47.7%
-Draw: 24.4%
-Paraguay Win: 27.9%
+Turkey Win: 39.5%
+Draw: 32.9%
+Paraguay Win: 27.6%
 Predicted result: Team A win
 Decision policy: draw_threshold
 
@@ -24,9 +24,9 @@ Reliability: 0.44
 Enrichment score: 0.21
 Probability shift: 0.0093
 Top signals: starting XI rating:home; goal difference:home; player rating:home
-Turkey Win: 48.7%
-Draw: 24.3%
-Paraguay Win: 27.1%
+Turkey Win: 40.5%
+Draw: 32.9%
+Paraguay Win: 26.7%
 FotMob-enriched result: Team A win
 
 Squad Context:

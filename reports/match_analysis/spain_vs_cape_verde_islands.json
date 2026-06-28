@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537369,
-    "date": "2026-06-15T16:00:00Z",
+    "date": "2026-06-15 16:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_H",
     "home_team": "Spain",
     "away_team": "Cape Verde Islands"
   },
   "base_prediction": {
-    "home_win_probability": 0.9462583661079408,
-    "draw_probability": 0.0370494574308395,
-    "away_win_probability": 0.0166921727359294,
+    "home_win_probability": 0.9526678323745728,
+    "draw_probability": 0.0268986765295267,
+    "away_win_probability": 0.020433509722352,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": 517.6882446869774,
+      "elo_gap_abs": 517.6882446869774,
       "points_last_5_diff": 9.0,
       "points_last_10_diff": 22.0,
       "goal_difference_last_5_diff": 5.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 1.5555555555555556,
       "clean_sheet_rate_2y_diff": 0.48148148148148145,
       "failed_to_score_rate_2y_diff": 0.1111111111111111,
+      "draw_rate_2y_mean": 0.14814814814814814,
+      "goals_total_per_match_2y_mean": 1.6296296296296298,
+      "goals_against_per_match_2y_mean": 0.42592592592592593,
+      "clean_sheet_rate_2y_mean": 0.24074074074074073,
+      "failed_to_score_rate_2y_mean": 0.05555555555555555,
+      "recent_draws_last_5_sum": 3.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.9462583696330278,
-    "draw_probability": 0.0370494575688595,
-    "away_win_probability": 0.0166921727981126,
+    "home_win_probability": 0.952667814629752,
+    "draw_probability": 0.0268986760284998,
+    "away_win_probability": 0.0204335093417482,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [
@@ -221,12 +228,12 @@
     "available": true,
     "home_avg_age": 26.192307692307693,
     "away_avg_age": 29.23076923076923,
-    "home_forwards": 5,
-    "away_forwards": 7,
-    "home_midfielders": 11,
-    "away_midfielders": 8,
-    "home_defenders": 7,
-    "away_defenders": 8,
+    "home_forwards": 5.0,
+    "away_forwards": 7.0,
+    "home_midfielders": 11.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 7.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "squad_avg_age_diff",

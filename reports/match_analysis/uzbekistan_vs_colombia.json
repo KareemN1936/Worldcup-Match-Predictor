@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537404,
-    "date": "2026-06-18T02:00:00Z",
+    "date": "2026-06-18 02:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_K",
     "home_team": "Uzbekistan",
     "away_team": "Colombia"
   },
   "base_prediction": {
-    "home_win_probability": 0.2385900467634201,
-    "draw_probability": 0.2633236050605774,
-    "away_win_probability": 0.4980863034725189,
+    "home_win_probability": 0.2196569293737411,
+    "draw_probability": 0.2910289764404297,
+    "away_win_probability": 0.4893141388893127,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": -108.05445542975667,
+      "elo_gap_abs": 108.05445542975667,
       "points_last_5_diff": -4.0,
       "points_last_10_diff": -7.0,
       "goal_difference_last_5_diff": -5.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -0.5115384615384615,
       "clean_sheet_rate_2y_diff": 0.21538461538461534,
       "failed_to_score_rate_2y_diff": 0.10769230769230767,
+      "draw_rate_2y_mean": 0.29038461538461535,
+      "goals_total_per_match_2y_mean": 2.4673076923076924,
+      "goals_against_per_match_2y_mean": 0.8807692307692307,
+      "clean_sheet_rate_2y_mean": 0.49230769230769234,
+      "failed_to_score_rate_2y_mean": 0.24615384615384617,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.2385900574292268,
-    "draw_probability": 0.2633236168320603,
-    "away_win_probability": 0.4980863257387128,
+    "home_win_probability": 0.2196569195543116,
+    "draw_probability": 0.2910289634304212,
+    "away_win_probability": 0.4893141170152671,
     "predicted_result": "Team A loss",
     "strongest": [],
     "all": [
@@ -221,12 +228,12 @@
     "available": true,
     "home_avg_age": 27.65384615384616,
     "away_avg_age": 29.615384615384617,
-    "home_forwards": 4,
-    "away_forwards": 5,
-    "home_midfielders": 9,
-    "away_midfielders": 10,
-    "home_defenders": 10,
-    "away_defenders": 8,
+    "home_forwards": 4.0,
+    "away_forwards": 5.0,
+    "home_midfielders": 9.0,
+    "away_midfielders": 10.0,
+    "home_defenders": 10.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "num_defenders_diff",

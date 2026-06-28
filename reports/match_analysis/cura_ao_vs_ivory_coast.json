@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -208.7266682697359,
+      "elo_gap_abs": 208.7266682697359,
       "points_last_5_diff": -9.0,
       "points_last_10_diff": -11.0,
       "goal_difference_last_5_diff": -17.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -0.6243478260869566,
       "clean_sheet_rate_2y_diff": -0.1617391304347826,
       "failed_to_score_rate_2y_diff": 0.020869565217391306,
+      "draw_rate_2y_mean": 0.19043478260869565,
+      "goals_total_per_match_2y_mean": 2.792173913043478,
+      "goals_against_per_match_2y_mean": 0.8921739130434783,
+      "clean_sheet_rate_2y_mean": 0.5591304347826087,
+      "failed_to_score_rate_2y_mean": 0.25043478260869567,
+      "recent_draws_last_5_sum": 0.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,37 +159,37 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.4274710743801652,
-    "probability_shift": -0.0349827688107521,
+    "enrichment_score": -0.5781818181818181,
+    "probability_shift": -0.0473164199597907,
     "top_signals": "goal difference:away; points per match:away; starting XI rating:away",
-    "home_win_probability": 0.0867346058142632,
-    "draw_probability": 0.1435587820170501,
-    "away_win_probability": 0.7697066121686866,
+    "home_win_probability": 0.0744991172718539,
+    "draw_probability": 0.1414259892877425,
+    "away_win_probability": 0.7840748934404034,
     "predicted_result": "Team A loss",
     "strongest": [
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": -3.0,
+        "value": -6.0,
         "leader": "Ivory Coast"
       },
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": -1.0,
+        "value": -1.5,
         "leader": "Ivory Coast"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.5763636363636362,
+        "value": -1.0,
         "leader": "Ivory Coast"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": 0.0750000000000001,
-        "leader": "Cura\u00e7ao"
+        "value": -0.0999999999999996,
+        "leader": "Ivory Coast"
       },
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
@@ -195,25 +202,25 @@
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": -1.0,
+        "value": -1.5,
         "leader": "Ivory Coast"
       },
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": -3.0,
+        "value": -6.0,
         "leader": "Ivory Coast"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": 0.0750000000000001,
-        "leader": "Cura\u00e7ao"
+        "value": -0.0999999999999996,
+        "leader": "Ivory Coast"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.5763636363636362,
+        "value": -1.0,
         "leader": "Ivory Coast"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 27.53846153846154,
     "away_avg_age": 25.346153846153847,
-    "home_forwards": 8,
-    "away_forwards": 8,
-    "home_midfielders": 4,
-    "away_midfielders": 7,
-    "home_defenders": 11,
-    "away_defenders": 8,
+    "home_forwards": 8.0,
+    "away_forwards": 8.0,
+    "home_midfielders": 4.0,
+    "away_midfielders": 7.0,
+    "home_defenders": 11.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "num_midfielders_diff",

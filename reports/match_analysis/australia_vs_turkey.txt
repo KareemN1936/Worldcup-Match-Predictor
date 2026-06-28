@@ -1,14 +1,14 @@
 Australia vs Turkey
 
-Date: 2026-06-14T04:00:00Z
+Date: 2026-06-14 04:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_D
 
 Base Prediction:
-Australia Win: 45.4%
-Draw: 26.6%
-Turkey Win: 28.0%
-Predicted result: Team A win
+Australia Win: 34.7%
+Draw: 28.6%
+Turkey Win: 36.7%
+Predicted result: Team A loss
 Decision policy: draw_threshold
 
 Historical Model Factors:
@@ -28,6 +28,6 @@ Midfielders: Australia 8 | Turkey 8
 Defenders: Australia 10 | Turkey 10
 
 Final Recommendation:
-Use: Team A win
+Use: Team A loss
 Source: base_model
 Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

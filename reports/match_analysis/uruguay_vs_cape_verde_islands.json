@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537372,
-    "date": "2026-06-21T22:00:00Z",
+    "date": "2026-06-21 22:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_H",
     "home_team": "Uruguay",
     "away_team": "Cape Verde Islands"
   },
   "base_prediction": {
-    "home_win_probability": 0.9017167687416076,
-    "draw_probability": 0.0732077285647392,
-    "away_win_probability": 0.0250754952430725,
+    "home_win_probability": 0.8073434829711914,
+    "draw_probability": 0.1417742669582367,
+    "away_win_probability": 0.0508822724223136,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": 330.815791120963,
+      "elo_gap_abs": 330.815791120963,
       "points_last_5_diff": 4.0,
       "points_last_10_diff": 17.0,
       "goal_difference_last_5_diff": -4.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.2692307692307692,
       "clean_sheet_rate_2y_diff": 0.5,
       "failed_to_score_rate_2y_diff": 0.46153846153846156,
+      "draw_rate_2y_mean": 0.25,
+      "goals_total_per_match_2y_mean": 0.903846153846154,
+      "goals_against_per_match_2y_mean": 0.38461538461538464,
+      "clean_sheet_rate_2y_mean": 0.25,
+      "failed_to_score_rate_2y_mean": 0.23076923076923078,
+      "recent_draws_last_5_sum": 4.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -153,11 +160,11 @@
     "feature_count": 5,
     "reliability": 0.2777777777777778,
     "enrichment_score": -0.0093896713615023,
-    "probability_shift": -0.0001951703785233,
+    "probability_shift": -0.0002197852157091,
     "top_signals": "shots on target:away; yellow cards:home; points per match:away",
-    "home_win_probability": 0.9015567965164532,
-    "draw_probability": 0.0731715512180747,
-    "away_win_probability": 0.025271652265472,
+    "home_win_probability": 0.8071236797148622,
+    "draw_probability": 0.1417742637893349,
+    "away_win_probability": 0.0511020564958028,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 28.192307692307693,
     "away_avg_age": 29.23076923076923,
-    "home_forwards": 4,
-    "away_forwards": 7,
-    "home_midfielders": 10,
-    "away_midfielders": 8,
-    "home_defenders": 9,
-    "away_defenders": 8,
+    "home_forwards": 4.0,
+    "away_forwards": 7.0,
+    "home_midfielders": 10.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 9.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

@@ -1,13 +1,13 @@
 United States vs Australia
 
-Date: 2026-06-19T19:00:00Z
+Date: 2026-06-19 19:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_D
 
 Base Prediction:
-United States Win: 36.3%
-Draw: 25.6%
-Australia Win: 38.1%
+United States Win: 33.0%
+Draw: 29.0%
+Australia Win: 38.0%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 
@@ -24,9 +24,9 @@ Reliability: 0.44
 Enrichment score: 0.05
 Probability shift: 0.0022
 Top signals: goal difference:home; player rating:away; starting XI rating:home
-United States Win: 36.6%
-Draw: 25.5%
-Australia Win: 37.9%
+United States Win: 33.2%
+Draw: 29.0%
+Australia Win: 37.7%
 FotMob-enriched result: Team A loss
 
 Squad Context:

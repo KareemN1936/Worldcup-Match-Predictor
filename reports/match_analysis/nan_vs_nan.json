@@ -1,0 +1,276 @@
+{
+  "fixture": {
+    "fixture_id": 537390,
+    "date": "2026-07-19 19:00:00+00:00",
+    "round": "FINAL",
+    "group": null,
+    "home_team": NaN,
+    "away_team": NaN
+  },
+  "base_prediction": {
+    "home_win_probability": 0.3684704601764679,
+    "draw_probability": 0.1818136274814605,
+    "away_win_probability": 0.4497158825397491,
+    "predicted_result": "Team A loss",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 0.0,
+      "elo_gap_abs": 0.0,
+      "points_last_5_diff": 0.0,
+      "points_last_10_diff": 0.0,
+      "goal_difference_last_5_diff": 0.0,
+      "goals_for_last_5_diff": 0.0,
+      "goals_against_last_5_diff": 0.0,
+      "weighted_points_last_5_diff": 0.0,
+      "weighted_goal_difference_last_5_diff": 0.0,
+      "wins_last_5_diff": 0.0,
+      "draws_last_5_diff": 0.0,
+      "losses_last_5_diff": 0.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": 0.0,
+      "win_rate_2y_diff": 0.0,
+      "draw_rate_2y_diff": 0.0,
+      "loss_rate_2y_diff": 0.0,
+      "goals_for_per_match_2y_diff": 0.0,
+      "goals_against_per_match_2y_diff": 0.0,
+      "goal_difference_per_match_2y_diff": 0.0,
+      "clean_sheet_rate_2y_diff": 0.0,
+      "failed_to_score_rate_2y_diff": 0.0,
+      "draw_rate_2y_mean": 0.0,
+      "goals_total_per_match_2y_mean": 0.0,
+      "goals_against_per_match_2y_mean": 0.0,
+      "clean_sheet_rate_2y_mean": 0.0,
+      "failed_to_score_rate_2y_mean": 0.0,
+      "recent_draws_last_5_sum": 0.0,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": false,
+    "feature_count": 0,
+    "reliability": 0.0,
+    "enrichment_score": 0.0,
+    "probability_shift": 0.0,
+    "top_signals": null,
+    "home_win_probability": 0.3684704711577437,
+    "draw_probability": 0.181813632899929,
+    "away_win_probability": 0.4497158959423272,
+    "predicted_result": "Team A loss",
+    "strongest": [],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": null,
+        "leader": null
+      }
+    ]
+  },
+  "squad_context": {
+    "available": false,
+    "home_avg_age": null,
+    "away_avg_age": null,
+    "home_forwards": null,
+    "away_forwards": null,
+    "home_midfielders": null,
+    "away_midfielders": null,
+    "home_defenders": null,
+    "away_defenders": null,
+    "strongest": [],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": null,
+        "leader": null
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A loss",
+    "source": "base_model",
+    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+  }
+}

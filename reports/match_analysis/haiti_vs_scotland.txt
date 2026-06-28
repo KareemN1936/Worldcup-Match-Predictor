@@ -1,13 +1,13 @@
 Haiti vs Scotland
 
-Date: 2026-06-14T01:00:00Z
+Date: 2026-06-14 01:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_C
 
 Base Prediction:
-Haiti Win: 22.5%
-Draw: 24.2%
-Scotland Win: 53.3%
+Haiti Win: 20.6%
+Draw: 28.1%
+Scotland Win: 51.3%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 

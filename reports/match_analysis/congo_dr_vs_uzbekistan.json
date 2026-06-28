@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -75.90036658735062,
+      "elo_gap_abs": 75.90036658735062,
       "points_last_5_diff": 2.0,
       "points_last_10_diff": 3.0,
       "goal_difference_last_5_diff": 2.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.38333333333333336,
       "clean_sheet_rate_2y_diff": 0.025000000000000022,
       "failed_to_score_rate_2y_diff": -0.175,
+      "draw_rate_2y_mean": 0.2375,
+      "goals_total_per_match_2y_mean": 1.9833333333333334,
+      "goals_against_per_match_2y_mean": 0.6708333333333334,
+      "clean_sheet_rate_2y_mean": 0.6125,
+      "failed_to_score_rate_2y_mean": 0.2125,
+      "recent_draws_last_5_sum": 3.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": 0.4096969696969696,
-    "probability_shift": 0.0364175084175084,
+    "enrichment_score": 0.3806060606060605,
+    "probability_shift": 0.0338316498316498,
     "top_signals": "goal difference:home; points per match:home; starting XI rating:home",
-    "home_win_probability": 0.381092351773656,
-    "draw_probability": 0.2828653083705899,
-    "away_win_probability": 0.3360423398557541,
+    "home_win_probability": 0.3782904443718136,
+    "draw_probability": 0.2832387167548432,
+    "away_win_probability": 0.338470838873343,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -175,7 +182,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.7999999999999998,
+        "value": 0.5999999999999996,
         "leader": "Congo DR"
       },
       {
@@ -213,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.7999999999999998,
+        "value": 0.5999999999999996,
         "leader": "Congo DR"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 28.5,
     "away_avg_age": 27.65384615384616,
-    "home_forwards": 8,
-    "away_forwards": 4,
-    "home_midfielders": 7,
-    "away_midfielders": 9,
-    "home_defenders": 8,
-    "away_defenders": 10,
+    "home_forwards": 8.0,
+    "away_forwards": 4.0,
+    "home_midfielders": 7.0,
+    "away_midfielders": 9.0,
+    "home_defenders": 8.0,
+    "away_defenders": 10.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

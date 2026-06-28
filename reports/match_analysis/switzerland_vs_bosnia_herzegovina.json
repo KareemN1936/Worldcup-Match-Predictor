@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537335,
-    "date": "2026-06-18T19:00:00Z",
+    "date": "2026-06-18 19:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_B",
     "home_team": "Switzerland",
     "away_team": "Bosnia-Herzegovina"
   },
   "base_prediction": {
-    "home_win_probability": 0.7633963227272034,
-    "draw_probability": 0.1485277861356735,
-    "away_win_probability": 0.0880758836865425,
+    "home_win_probability": 0.7541086673736572,
+    "draw_probability": 0.1583837270736694,
+    "away_win_probability": 0.0875076726078987,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": 191.82037812853582,
+      "elo_gap_abs": 191.82037812853582,
       "points_last_5_diff": 1.0,
       "points_last_10_diff": 4.0,
       "goal_difference_last_5_diff": 2.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.6876190476190476,
       "clean_sheet_rate_2y_diff": 0.041904761904761945,
       "failed_to_score_rate_2y_diff": -0.030476190476190462,
+      "draw_rate_2y_mean": 0.4342857142857143,
+      "goals_total_per_match_2y_mean": 2.9723809523809526,
+      "goals_against_per_match_2y_mean": 1.3380952380952382,
+      "clean_sheet_rate_2y_mean": 0.2590476190476191,
+      "failed_to_score_rate_2y_mean": 0.17523809523809525,
+      "recent_draws_last_5_sum": 8.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -153,11 +160,11 @@
     "feature_count": 8,
     "reliability": 0.4444444444444444,
     "enrichment_score": 0.0375537190082642,
-    "probability_shift": 0.0014797895719109,
+    "probability_shift": 0.0014952911718839,
     "top_signals": "starting XI rating:home; points per match:away; goal difference:away",
-    "home_win_probability": 0.7651025561563811,
-    "draw_probability": 0.1482757126967147,
-    "away_win_probability": 0.0866217311469041,
+    "home_win_probability": 0.7556039078783509,
+    "draw_probability": 0.1583837164532136,
+    "away_win_probability": 0.0860123756684355,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 27.807692307692307,
     "away_avg_age": 25.923076923076923,
-    "home_forwards": 5,
-    "away_forwards": 7,
-    "home_midfielders": 10,
-    "away_midfielders": 8,
-    "home_defenders": 8,
-    "away_defenders": 8,
+    "home_forwards": 5.0,
+    "away_forwards": 7.0,
+    "home_midfielders": 10.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 8.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

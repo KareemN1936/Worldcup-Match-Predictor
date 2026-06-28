@@ -1,0 +1,41 @@
+South Africa vs Canada
+
+Date: 2026-06-28 19:00:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+South Africa Win: 18.6%
+Draw: 29.3%
+Canada Win: 52.1%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -149.53 | edge: Canada
+- weighted points last 5: -5.50 | edge: Canada
+- goal difference last 5: -4.00 | edge: Canada
+- goals for last 5: -3.00 | edge: Canada
+- points last 5: -2.00 | edge: Canada
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.18
+Probability shift: -0.0160
+Top signals: goal difference:away; starting XI rating:away; player rating:away
+South Africa Win: 17.0%
+Draw: 29.3%
+Canada Win: 53.7%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: South Africa 26.3 | Canada 26.5
+Forwards: South Africa 6 | Canada 6
+Midfielders: South Africa 7 | Canada 9
+Defenders: South Africa 10 | Canada 8
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

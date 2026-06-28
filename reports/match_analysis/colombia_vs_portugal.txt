@@ -21,10 +21,10 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: 0.44
-Probability shift: 0.0394
+Enrichment score: 0.45
+Probability shift: 0.0400
 Top signals: points per match:home; goal difference:home; starting XI rating:home
-Colombia Win: 35.7%
+Colombia Win: 35.8%
 Draw: 29.5%
 Portugal Win: 34.8%
 FotMob-enriched result: Team A win

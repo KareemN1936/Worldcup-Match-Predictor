@@ -1,13 +1,13 @@
 Belgium vs Iran
 
-Date: 2026-06-21T19:00:00Z
+Date: 2026-06-21 19:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_G
 
 Base Prediction:
-Belgium Win: 48.9%
-Draw: 24.9%
-Iran Win: 26.1%
+Belgium Win: 45.5%
+Draw: 26.9%
+Iran Win: 27.6%
 Predicted result: Team A win
 Decision policy: draw_threshold
 
@@ -24,9 +24,9 @@ Reliability: 0.44
 Enrichment score: 0.02
 Probability shift: 0.0010
 Top signals: player rating:home; starting XI rating:home; points per match:away
-Belgium Win: 49.1%
-Draw: 24.9%
-Iran Win: 26.0%
+Belgium Win: 45.6%
+Draw: 26.9%
+Iran Win: 27.5%
 FotMob-enriched result: Team A win
 
 Squad Context:

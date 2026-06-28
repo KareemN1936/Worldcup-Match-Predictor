@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537330,
-    "date": "2026-06-19T01:00:00Z",
+    "date": "2026-06-19 01:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_A",
     "home_team": "Mexico",
     "away_team": "South Korea"
   },
   "base_prediction": {
-    "home_win_probability": 0.5011179447174072,
-    "draw_probability": 0.2622926831245422,
-    "away_win_probability": 0.2365893572568893,
+    "home_win_probability": 0.4482094943523407,
+    "draw_probability": 0.3182691633701324,
+    "away_win_probability": 0.2335212975740432,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": 19.948130903143237,
+      "elo_gap_abs": 19.948130903143237,
       "points_last_5_diff": 4.0,
       "points_last_10_diff": 4.0,
       "goal_difference_last_5_diff": 7.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -0.02164502164502169,
       "clean_sheet_rate_2y_diff": 0.1601731601731602,
       "failed_to_score_rate_2y_diff": 0.08225108225108224,
+      "draw_rate_2y_mean": 0.2554112554112554,
+      "goals_total_per_match_2y_mean": 2.4177489177489178,
+      "goals_against_per_match_2y_mean": 0.8095238095238095,
+      "clean_sheet_rate_2y_mean": 0.5562770562770563,
+      "failed_to_score_rate_2y_mean": 0.2316017316017316,
+      "recent_draws_last_5_sum": 1.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.0089807162534432,
     "probability_shift": 0.0003991429445974,
     "top_signals": "goal difference:home; player rating:away; starting XI rating:away",
-    "home_win_probability": 0.5015571337340369,
-    "draw_probability": 0.2622337921968088,
-    "away_win_probability": 0.2362090740691542,
+    "home_win_probability": 0.4486086573513079,
+    "draw_probability": 0.3182691775978734,
+    "away_win_probability": 0.2331221650508186,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 27.5,
     "away_avg_age": 27.46153846153846,
-    "home_forwards": 8,
-    "away_forwards": 6,
-    "home_midfielders": 9,
-    "away_midfielders": 8,
-    "home_defenders": 6,
-    "away_defenders": 9,
+    "home_forwards": 8.0,
+    "away_forwards": 6.0,
+    "home_midfielders": 9.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 6.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "num_defenders_diff",

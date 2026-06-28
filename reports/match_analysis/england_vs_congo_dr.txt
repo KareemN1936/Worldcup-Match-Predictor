@@ -1,0 +1,41 @@
+England vs Congo DR
+
+Date: 2026-07-01 16:00:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+England Win: 73.6%
+Draw: 18.7%
+Congo DR Win: 7.7%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 255.41 | edge: England
+- points last 10: 7.00 | edge: England
+- goal difference last 5: 4.00 | edge: England
+- points last 5: 3.00 | edge: England
+- goals for last 5: 3.00 | edge: England
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.26
+Probability shift: 0.0212
+Top signals: points per match:home; goal difference:home; starting XI rating:home
+England Win: 75.8%
+Draw: 18.7%
+Congo DR Win: 5.6%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: England 26.6 | Congo DR 28.5
+Forwards: England 6 | Congo DR 8
+Midfielders: England 8 | Congo DR 7
+Defenders: England 9 | Congo DR 8
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

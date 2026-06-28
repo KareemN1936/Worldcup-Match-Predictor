@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537347,
-    "date": "2026-06-20T03:00:00Z",
+    "date": "2026-06-20 03:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_D",
     "home_team": "Turkey",
     "away_team": "Paraguay"
   },
   "base_prediction": {
-    "home_win_probability": 0.4766144156455993,
-    "draw_probability": 0.2440724968910217,
-    "away_win_probability": 0.2793130874633789,
+    "home_win_probability": 0.395309180021286,
+    "draw_probability": 0.3286111652851105,
+    "away_win_probability": 0.2760796248912811,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": 39.9713865762285,
+      "elo_gap_abs": 39.9713865762285,
       "points_last_5_diff": 3.0,
       "points_last_10_diff": 8.0,
       "goal_difference_last_5_diff": 3.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.6923076923076923,
       "clean_sheet_rate_2y_diff": -0.08361204013377926,
       "failed_to_score_rate_2y_diff": 0.013377926421404701,
+      "draw_rate_2y_mean": 0.18812709030100333,
+      "goals_total_per_match_2y_mean": 2.7943143812709033,
+      "goals_against_per_match_2y_mean": 1.2240802675585285,
+      "clean_sheet_rate_2y_mean": 0.3494983277591973,
+      "failed_to_score_rate_2y_mean": 0.22408026755852845,
+      "recent_draws_last_5_sum": 0.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.2094435261707989,
     "probability_shift": 0.0093086011631466,
     "top_signals": "starting XI rating:home; goal difference:home; player rating:home",
-    "home_win_probability": 0.4868293568722731,
-    "draw_probability": 0.2426625464307839,
-    "away_win_probability": 0.270508096696943,
+    "home_win_probability": 0.4046177932429826,
+    "draw_probability": 0.3286111750784866,
+    "away_win_probability": 0.2667710316785308,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 27.23076923076923,
     "away_avg_age": 28.53846153846154,
-    "home_forwards": 5,
-    "away_forwards": 7,
-    "home_midfielders": 8,
-    "away_midfielders": 8,
-    "home_defenders": 10,
-    "away_defenders": 8,
+    "home_forwards": 5.0,
+    "away_forwards": 7.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 10.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

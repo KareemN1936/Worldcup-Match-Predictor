@@ -21,10 +21,10 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: -0.31
-Probability shift: -0.0273
+Enrichment score: -0.30
+Probability shift: -0.0271
 Top signals: points per match:away; starting XI rating:away; goal difference:away
-South Africa Win: 15.2%
+South Africa Win: 15.3%
 Draw: 21.0%
 South Korea Win: 63.7%
 FotMob-enriched result: Team A loss

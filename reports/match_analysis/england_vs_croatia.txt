@@ -1,13 +1,13 @@
 England vs Croatia
 
-Date: 2026-06-17T20:00:00Z
+Date: 2026-06-17 20:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_L
 
 Base Prediction:
-England Win: 58.1%
-Draw: 26.0%
-Croatia Win: 15.9%
+England Win: 56.0%
+Draw: 25.1%
+Croatia Win: 18.8%
 Predicted result: Team A win
 Decision policy: draw_threshold
 

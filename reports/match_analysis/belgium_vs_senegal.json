@@ -1,0 +1,338 @@
+{
+  "fixture": {
+    "fixture_id": 537422,
+    "date": "2026-07-01 20:00:00+00:00",
+    "round": "LAST_32",
+    "group": null,
+    "home_team": "Belgium",
+    "away_team": "Senegal"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.5114455819129944,
+    "draw_probability": 0.2473863214254379,
+    "away_win_probability": 0.2411680966615677,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 35.678338471598636,
+      "elo_gap_abs": 35.678338471598636,
+      "points_last_5_diff": 4.0,
+      "points_last_10_diff": 3.0,
+      "goal_difference_last_5_diff": 9.0,
+      "goals_for_last_5_diff": 6.0,
+      "goals_against_last_5_diff": -3.0,
+      "weighted_points_last_5_diff": 7.5,
+      "weighted_goal_difference_last_5_diff": 16.0,
+      "wins_last_5_diff": 1.0,
+      "draws_last_5_diff": 1.0,
+      "losses_last_5_diff": -2.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": -1.0,
+      "matches_played_2y_diff": -3.0,
+      "win_rate_2y_diff": -0.2385714285714286,
+      "draw_rate_2y_diff": 0.10142857142857145,
+      "loss_rate_2y_diff": 0.13714285714285718,
+      "goals_for_per_match_2y_diff": 0.12857142857142856,
+      "goals_against_per_match_2y_diff": 0.3214285714285714,
+      "goal_difference_per_match_2y_diff": -0.19285714285714284,
+      "clean_sheet_rate_2y_diff": -0.2471428571428571,
+      "failed_to_score_rate_2y_diff": 0.13714285714285718,
+      "draw_rate_2y_mean": 0.22928571428571431,
+      "goals_total_per_match_2y_mean": 2.9750000000000005,
+      "goals_against_per_match_2y_mean": 0.8392857142857143,
+      "clean_sheet_rate_2y_mean": 0.48357142857142854,
+      "failed_to_score_rate_2y_mean": 0.21142857142857144,
+      "recent_draws_last_5_sum": 3.0,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 35.678338471598636,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 9.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 7.5,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 6.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 4.0,
+        "leader": "Belgium"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 35.678338471598636,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 4.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 3.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 9.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 6.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": -3.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 7.5,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": -0.2385714285714286,
+        "leader": "Senegal"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": -0.19285714285714284,
+        "leader": "Senegal"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.3214285714285714,
+        "leader": "Senegal"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": -0.2471428571428571,
+        "leader": "Senegal"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.13714285714285718,
+        "leader": "Senegal"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 8,
+    "reliability": 0.8888888888888888,
+    "enrichment_score": 0.223067033976125,
+    "probability_shift": 0.0198281807978777,
+    "top_signals": "points per match:home; starting XI rating:home; goal difference:home",
+    "home_win_probability": 0.5312737627108721,
+    "draw_probability": 0.2473863214254379,
+    "away_win_probability": 0.2213399158636899,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.6666666666666667,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.6666666666666666,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.5530303030303036,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0500000000000007,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 0.6666666666666667,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.6666666666666666,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": 0.0500000000000007,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.5530303030303036,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 27.115384615384617,
+    "away_avg_age": 27.296296296296298,
+    "home_forwards": 4.0,
+    "away_forwards": 6.0,
+    "home_midfielders": 10.0,
+    "away_midfielders": 10.0,
+    "home_defenders": 9.0,
+    "away_defenders": 7.0,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -2.0,
+        "leader": "Senegal"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 2.0,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": -1.0,
+        "leader": "Senegal"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -0.1809116809116808,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -0.1809116809116808,
+        "leader": "Belgium"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": -1.0,
+        "leader": "Senegal"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -2.0,
+        "leader": "Senegal"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 2.0,
+        "leader": "Belgium"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
+  }
+}

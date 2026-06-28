@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: -0.14
-Probability shift: -0.0124
-Top signals: starting XI rating:away; goal difference:away; player rating:away
-Norway Win: 22.5%
-Draw: 22.8%
-France Win: 54.7%
+Enrichment score: -0.04
+Probability shift: -0.0036
+Top signals: goal difference:home; starting XI rating:away; player rating:away
+Norway Win: 23.4%
+Draw: 22.9%
+France Win: 53.7%
 FotMob-enriched result: Team A loss
 
 Squad Context:

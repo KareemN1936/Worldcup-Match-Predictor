@@ -1,0 +1,338 @@
+{
+  "fixture": {
+    "fixture_id": 537427,
+    "date": "2026-07-03 22:00:00+00:00",
+    "round": "LAST_32",
+    "group": null,
+    "home_team": "Argentina",
+    "away_team": "Cape Verde Islands"
+  },
+  "base_prediction": {
+    "home_win_probability": 0.8466861844062805,
+    "draw_probability": 0.1387298256158828,
+    "away_win_probability": 0.0145840132609009,
+    "predicted_result": "Team A win",
+    "prediction_policy": "draw_threshold"
+  },
+  "historical_model_factors": {
+    "features": {
+      "elo_diff": 507.00857510276387,
+      "elo_gap_abs": 507.00857510276387,
+      "points_last_5_diff": 15.0,
+      "points_last_10_diff": 27.0,
+      "goal_difference_last_5_diff": 14.0,
+      "goals_for_last_5_diff": 15.0,
+      "goals_against_last_5_diff": 1.0,
+      "weighted_points_last_5_diff": 25.5,
+      "weighted_goal_difference_last_5_diff": 24.5,
+      "wins_last_5_diff": 5.0,
+      "draws_last_5_diff": 0.0,
+      "losses_last_5_diff": 0.0,
+      "clean_sheets_last_5_diff": 4.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": 26.0,
+      "win_rate_2y_diff": 0.7692307692307693,
+      "draw_rate_2y_diff": 0.11538461538461539,
+      "loss_rate_2y_diff": 0.11538461538461539,
+      "goals_for_per_match_2y_diff": 2.1538461538461537,
+      "goals_against_per_match_2y_diff": 0.38461538461538464,
+      "goal_difference_per_match_2y_diff": 1.7692307692307692,
+      "clean_sheet_rate_2y_diff": 0.6923076923076923,
+      "failed_to_score_rate_2y_diff": 0.038461538461538464,
+      "draw_rate_2y_mean": 0.057692307692307696,
+      "goals_total_per_match_2y_mean": 1.2692307692307692,
+      "goals_against_per_match_2y_mean": 0.19230769230769232,
+      "clean_sheet_rate_2y_mean": 0.34615384615384615,
+      "failed_to_score_rate_2y_mean": 0.019230769230769232,
+      "recent_draws_last_5_sum": 0.0,
+      "neutral": 1.0,
+      "match_importance": 4.5
+    },
+    "strongest": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 507.00857510276387,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 27.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 25.5,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 15.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 15.0,
+        "leader": "Argentina"
+      }
+    ],
+    "all": [
+      {
+        "feature": "elo_diff",
+        "label": "Elo advantage",
+        "value": 507.00857510276387,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": 15.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": 27.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goal_difference_last_5_diff",
+        "label": "goal difference last 5",
+        "value": 14.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goals_for_last_5_diff",
+        "label": "goals for last 5",
+        "value": 15.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goals_against_last_5_diff",
+        "label": "goals against last 5",
+        "value": 1.0,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 25.5,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "win_rate_2y_diff",
+        "label": "2-year win rate",
+        "value": 0.7692307692307693,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goal_difference_per_match_2y_diff",
+        "label": "2-year goal difference per match",
+        "value": 1.7692307692307692,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "goals_against_per_match_2y_diff",
+        "label": "2-year goals against per match",
+        "value": 0.38461538461538464,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "clean_sheet_rate_2y_diff",
+        "label": "2-year clean-sheet rate",
+        "value": 0.6923076923076923,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "failed_to_score_rate_2y_diff",
+        "label": "2-year failed-to-score rate",
+        "value": 0.038461538461538464,
+        "leader": "Cape Verde Islands"
+      }
+    ]
+  },
+  "fotmob_layer": {
+    "available": true,
+    "feature_count": 5,
+    "reliability": 0.5555555555555556,
+    "enrichment_score": 0.6369327073552425,
+    "probability_shift": 0.0284253801901098,
+    "top_signals": "points per match:home; goal difference:home; shots on target:away",
+    "home_win_probability": 0.854733529003895,
+    "draw_probability": 0.1354993331409662,
+    "away_win_probability": 0.0097671378551385,
+    "predicted_result": "Team A win",
+    "strongest": [
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 2.333333333333333,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": -2.333333333333333,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 2.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": -1.3333333333333333,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": 2.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 2.333333333333333,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_shots_on_target_per_match_diff",
+        "label": "shots on target per match",
+        "value": -2.333333333333333,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "fotmob_expected_goals_per_match_diff",
+        "label": "expected goals per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_chances_created_per_match_diff",
+        "label": "chances created per match",
+        "value": null,
+        "leader": null
+      },
+      {
+        "feature": "fotmob_yellow_cards_per_match_diff",
+        "label": "yellow cards per match",
+        "value": -1.3333333333333333,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "fotmob_red_cards_per_match_diff",
+        "label": "red cards per match",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ]
+  },
+  "squad_context": {
+    "available": true,
+    "home_avg_age": 28.615384615384617,
+    "away_avg_age": 29.23076923076923,
+    "home_forwards": 6.0,
+    "away_forwards": 7.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 9.0,
+    "away_defenders": 8.0,
+    "strongest": [
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -1.0,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -0.6153846153846132,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      }
+    ],
+    "all": [
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": -0.6153846153846132,
+        "leader": "Argentina"
+      },
+      {
+        "feature": "squad_size_diff",
+        "label": "squad size",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
+        "value": -1.0,
+        "leader": "Cape Verde Islands"
+      },
+      {
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "num_defenders_diff",
+        "label": "listed defenders",
+        "value": 1.0,
+        "leader": "Argentina"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "result_to_show": "Team A win",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
+  }
+}

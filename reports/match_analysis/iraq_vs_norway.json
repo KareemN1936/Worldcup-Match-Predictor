@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537392,
-    "date": "2026-06-16T22:00:00Z",
+    "date": "2026-06-16 22:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_I",
     "home_team": "Iraq",
     "away_team": "Norway"
   },
   "base_prediction": {
-    "home_win_probability": 0.2711897194385528,
-    "draw_probability": 0.2294136583805084,
-    "away_win_probability": 0.4993966221809387,
+    "home_win_probability": 0.2325697839260101,
+    "draw_probability": 0.2779379189014435,
+    "away_win_probability": 0.4894923269748688,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": -128.74641263936223,
+      "elo_gap_abs": 128.74641263936223,
       "points_last_5_diff": -1.0,
       "points_last_10_diff": -5.0,
       "goal_difference_last_5_diff": -7.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -2.2142857142857144,
       "clean_sheet_rate_2y_diff": 0.0,
       "failed_to_score_rate_2y_diff": 0.19047619047619047,
+      "draw_rate_2y_mean": 0.20238095238095238,
+      "goals_total_per_match_2y_mean": 2.9285714285714284,
+      "goals_against_per_match_2y_mean": 0.9464285714285714,
+      "clean_sheet_rate_2y_mean": 0.42857142857142855,
+      "failed_to_score_rate_2y_mean": 0.19047619047619047,
+      "recent_draws_last_5_sum": 3.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.2711897194385528,
-    "draw_probability": 0.2294136583805084,
-    "away_win_probability": 0.4993966221809387,
+    "home_win_probability": 0.2325697769948906,
+    "draw_probability": 0.2779379106182482,
+    "away_win_probability": 0.4894923123868611,
     "predicted_result": "Team A loss",
     "strongest": [],
     "all": [
@@ -221,12 +228,12 @@
     "available": true,
     "home_avg_age": 26.65384615384616,
     "away_avg_age": 26.346153846153847,
-    "home_forwards": 6,
-    "away_forwards": 5,
-    "home_midfielders": 8,
-    "away_midfielders": 9,
-    "home_defenders": 9,
-    "away_defenders": 9,
+    "home_forwards": 6.0,
+    "away_forwards": 5.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 9.0,
+    "home_defenders": 9.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

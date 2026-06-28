@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": 134.15273144069874,
+      "elo_gap_abs": 134.15273144069874,
       "points_last_5_diff": 8.0,
       "points_last_10_diff": 8.0,
       "goal_difference_last_5_diff": 13.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.75,
       "clean_sheet_rate_2y_diff": -0.27999999999999997,
       "failed_to_score_rate_2y_diff": -0.019999999999999962,
+      "draw_rate_2y_mean": 0.315,
+      "goals_total_per_match_2y_mean": 2.545,
+      "goals_against_per_match_2y_mean": 0.8600000000000001,
+      "clean_sheet_rate_2y_mean": 0.45999999999999996,
+      "failed_to_score_rate_2y_mean": 0.29000000000000004,
+      "recent_draws_last_5_sum": 3.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.4028209366391184,
-    "probability_shift": 0.0178184085415786,
+    "enrichment_score": 0.3806060606060605,
+    "probability_shift": 0.0168357542134294,
     "top_signals": "goal difference:home; points per match:home; starting XI rating:home",
-    "home_win_probability": 0.674957189983461,
-    "draw_probability": 0.2014968046305585,
-    "away_win_probability": 0.1235460053859805,
+    "home_win_probability": 0.6738381176993432,
+    "draw_probability": 0.2016542653416797,
+    "away_win_probability": 0.124507616958977,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -175,7 +182,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.7527272727272729,
+        "value": 0.5999999999999996,
         "leader": "Portugal"
       },
       {
@@ -213,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.7527272727272729,
+        "value": 0.5999999999999996,
         "leader": "Portugal"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 27.53846153846154,
     "away_avg_age": 27.65384615384616,
-    "home_forwards": 7,
-    "away_forwards": 4,
-    "home_midfielders": 7,
-    "away_midfielders": 9,
-    "home_defenders": 9,
-    "away_defenders": 10,
+    "home_forwards": 7.0,
+    "away_forwards": 4.0,
+    "home_midfielders": 7.0,
+    "away_midfielders": 9.0,
+    "home_defenders": 9.0,
+    "away_defenders": 10.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

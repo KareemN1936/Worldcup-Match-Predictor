@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537353,
-    "date": "2026-06-20T20:00:00Z",
+    "date": "2026-06-20 20:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_E",
     "home_team": "Germany",
     "away_team": "Ivory Coast"
   },
   "base_prediction": {
-    "home_win_probability": 0.6976494193077087,
-    "draw_probability": 0.1782971769571304,
-    "away_win_probability": 0.1240533515810966,
+    "home_win_probability": 0.5846837162971497,
+    "draw_probability": 0.2680135667324066,
+    "away_win_probability": 0.1473027318716049,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": 140.08266407281008,
+      "elo_gap_abs": 140.08266407281008,
       "points_last_5_diff": 3.0,
       "points_last_10_diff": 5.0,
       "goal_difference_last_5_diff": 7.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.31999999999999984,
       "clean_sheet_rate_2y_diff": -0.24,
       "failed_to_score_rate_2y_diff": -0.15999999999999998,
+      "draw_rate_2y_mean": 0.14,
+      "goals_total_per_match_2y_mean": 2.92,
+      "goals_against_per_match_2y_mean": 0.72,
+      "clean_sheet_rate_2y_mean": 0.52,
+      "failed_to_score_rate_2y_mean": 0.16,
+      "recent_draws_last_5_sum": 0.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -153,11 +160,11 @@
     "feature_count": 8,
     "reliability": 0.4444444444444444,
     "enrichment_score": 0.3185123966942148,
-    "probability_shift": 0.013481576264419,
+    "probability_shift": 0.0141561065197428,
     "top_signals": "goal difference:home; starting XI rating:home; player rating:away",
-    "home_win_probability": 0.713053650193916,
-    "draw_probability": 0.176075626284117,
-    "away_win_probability": 0.1108707235219669,
+    "home_win_probability": 0.598839813893484,
+    "draw_probability": 0.2680135627386933,
+    "away_win_probability": 0.1331466233678227,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 27.615384615384617,
     "away_avg_age": 25.346153846153847,
-    "home_forwards": 6,
-    "away_forwards": 8,
-    "home_midfielders": 10,
-    "away_midfielders": 7,
-    "home_defenders": 7,
-    "away_defenders": 8,
+    "home_forwards": 6.0,
+    "away_forwards": 8.0,
+    "home_midfielders": 10.0,
+    "away_midfielders": 7.0,
+    "home_defenders": 7.0,
+    "away_defenders": 8.0,
     "strongest": [
       {
         "feature": "num_midfielders_diff",

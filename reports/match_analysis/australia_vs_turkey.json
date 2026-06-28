@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537346,
-    "date": "2026-06-14T04:00:00Z",
+    "date": "2026-06-14 04:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_D",
     "home_team": "Australia",
     "away_team": "Turkey"
   },
   "base_prediction": {
-    "home_win_probability": 0.4544152319431305,
-    "draw_probability": 0.2658584117889404,
-    "away_win_probability": 0.2797263562679291,
-    "predicted_result": "Team A win",
+    "home_win_probability": 0.3473697304725647,
+    "draw_probability": 0.2857446074485779,
+    "away_win_probability": 0.3668856918811798,
+    "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": 16.838850694556868,
+      "elo_gap_abs": 16.838850694556868,
       "points_last_5_diff": -2.0,
       "points_last_10_diff": -6.0,
       "goal_difference_last_5_diff": 1.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -0.02564102564102566,
       "clean_sheet_rate_2y_diff": 0.07326007326007322,
       "failed_to_score_rate_2y_diff": 0.054945054945054916,
+      "draw_rate_2y_mean": 0.17673992673992672,
+      "goals_total_per_match_2y_mean": 2.71978021978022,
+      "goals_against_per_match_2y_mean": 1.02014652014652,
+      "clean_sheet_rate_2y_mean": 0.3443223443223443,
+      "failed_to_score_rate_2y_mean": 0.2582417582417582,
+      "recent_draws_last_5_sum": 1.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,10 +162,10 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.4544152319431305,
-    "draw_probability": 0.2658584117889404,
-    "away_win_probability": 0.2797263562679291,
-    "predicted_result": "Team A win",
+    "home_win_probability": 0.3473697201201403,
+    "draw_probability": 0.2857445989327252,
+    "away_win_probability": 0.3668856809471345,
+    "predicted_result": "Team A loss",
     "strongest": [],
     "all": [
       {
@@ -221,12 +228,12 @@
     "available": true,
     "home_avg_age": 26.884615384615383,
     "away_avg_age": 27.23076923076923,
-    "home_forwards": 5,
-    "away_forwards": 5,
-    "home_midfielders": 8,
-    "away_midfielders": 8,
-    "home_defenders": 10,
-    "away_defenders": 10,
+    "home_forwards": 5.0,
+    "away_forwards": 5.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 10.0,
+    "away_defenders": 10.0,
     "strongest": [
       {
         "feature": "squad_avg_age_diff",
@@ -293,7 +300,7 @@
     ]
   },
   "final_recommendation": {
-    "result_to_show": "Team A win",
+    "result_to_show": "Team A loss",
     "source": "base_model",
     "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
   }

@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -153.29987925606133,
+      "elo_gap_abs": 153.29987925606133,
       "points_last_5_diff": -4.0,
       "points_last_10_diff": -4.0,
       "goal_difference_last_5_diff": -2.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 1.17989417989418,
       "clean_sheet_rate_2y_diff": 0.021164021164021163,
       "failed_to_score_rate_2y_diff": -0.05291005291005291,
+      "draw_rate_2y_mean": 0.18783068783068782,
+      "goals_total_per_match_2y_mean": 3.373015873015873,
+      "goals_against_per_match_2y_mean": 0.91005291005291,
+      "clean_sheet_rate_2y_mean": 0.41798941798941797,
+      "failed_to_score_rate_2y_mean": 0.12169312169312169,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,30 +159,30 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.1393002754820936,
-    "probability_shift": -0.0123822467095194,
-    "top_signals": "starting XI rating:away; goal difference:away; player rating:away",
-    "home_win_probability": 0.2251436934349373,
-    "draw_probability": 0.2278494833614103,
-    "away_win_probability": 0.5470068232036522,
+    "enrichment_score": -0.0406060606060605,
+    "probability_shift": -0.0036094276094276,
+    "top_signals": "goal difference:home; starting XI rating:away; player rating:away",
+    "home_win_probability": 0.2335275357305939,
+    "draw_probability": 0.2292052494294084,
+    "away_win_probability": 0.5372672148399976,
     "predicted_result": "Team A loss",
     "strongest": [
       {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
-        "value": -0.5472727272727278,
-        "leader": "France"
-      },
-      {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
+        "value": 1.0,
+        "leader": "Norway"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
         "value": -0.5,
         "leader": "France"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": -0.1499999999999994,
+        "value": -0.2999999999999998,
         "leader": "France"
       },
       {
@@ -201,19 +208,19 @@
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": -0.5,
-        "leader": "France"
+        "value": 1.0,
+        "leader": "Norway"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": -0.1499999999999994,
+        "value": -0.2999999999999998,
         "leader": "France"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.5472727272727278,
+        "value": -0.5,
         "leader": "France"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 26.346153846153847,
     "away_avg_age": 26.57692307692308,
-    "home_forwards": 5,
-    "away_forwards": 6,
-    "home_midfielders": 9,
-    "away_midfielders": 8,
-    "home_defenders": 9,
-    "away_defenders": 9,
+    "home_forwards": 5.0,
+    "away_forwards": 6.0,
+    "home_midfielders": 9.0,
+    "away_midfielders": 8.0,
+    "home_defenders": 9.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

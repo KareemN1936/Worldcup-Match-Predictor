@@ -1,0 +1,41 @@
+Switzerland vs Algeria
+
+Date: 2026-07-03 03:00:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+Switzerland Win: 43.3%
+Draw: 28.7%
+Algeria Win: 28.0%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 32.37 | edge: Switzerland
+- goal difference last 5: -7.00 | edge: Algeria
+- points last 10: -5.00 | edge: Algeria
+- points last 5: -4.00 | edge: Algeria
+- goals against last 5: 4.00 | edge: Algeria
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.37
+Probability shift: 0.0330
+Top signals: goal difference:home; points per match:home; starting XI rating:home
+Switzerland Win: 46.6%
+Draw: 28.7%
+Algeria Win: 24.7%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Switzerland 27.8 | Algeria 26.5
+Forwards: Switzerland 5 | Algeria 6
+Midfielders: Switzerland 10 | Algeria 8
+Defenders: Switzerland 8 | Algeria 9
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

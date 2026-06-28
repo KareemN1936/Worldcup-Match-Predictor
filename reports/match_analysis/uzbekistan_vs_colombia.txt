@@ -1,13 +1,13 @@
 Uzbekistan vs Colombia
 
-Date: 2026-06-18T02:00:00Z
+Date: 2026-06-18 02:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_K
 
 Base Prediction:
-Uzbekistan Win: 23.9%
-Draw: 26.3%
-Colombia Win: 49.8%
+Uzbekistan Win: 22.0%
+Draw: 29.1%
+Colombia Win: 48.9%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 

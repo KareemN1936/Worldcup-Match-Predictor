@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537342,
-    "date": "2026-06-19T22:00:00Z",
+    "date": "2026-06-19 22:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_C",
     "home_team": "Scotland",
     "away_team": "Morocco"
   },
   "base_prediction": {
-    "home_win_probability": 0.2349807173013687,
-    "draw_probability": 0.2468332797288894,
-    "away_win_probability": 0.5181860327720642,
+    "home_win_probability": 0.24068284034729,
+    "draw_probability": 0.2639834582805633,
+    "away_win_probability": 0.4953337609767914,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": -131.63984279794,
+      "elo_gap_abs": 131.63984279794,
       "points_last_5_diff": -2.0,
       "points_last_10_diff": -1.0,
       "goal_difference_last_5_diff": -4.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": -1.6509316770186337,
       "clean_sheet_rate_2y_diff": -0.36645962732919257,
       "failed_to_score_rate_2y_diff": 0.20372670807453416,
+      "draw_rate_2y_mean": 0.15093167701863353,
+      "goals_total_per_match_2y_mean": 2.7049689440993787,
+      "goals_against_per_match_2y_mean": 0.7223602484472049,
+      "clean_sheet_rate_2y_mean": 0.531055900621118,
+      "failed_to_score_rate_2y_mean": 0.15900621118012423,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.2737079889807163,
     "probability_shift": 0.012164799510254,
     "top_signals": "points per match:home; goal difference:home; starting XI rating:away",
-    "home_win_probability": 0.2477482710373853,
-    "draw_probability": 0.2449963788913679,
-    "away_win_probability": 0.5072553500712468,
+    "home_win_probability": 0.2528476247866512,
+    "draw_probability": 0.263983442545924,
+    "away_win_probability": 0.4831689326674247,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 29.08,
     "away_avg_age": 25.884615384615383,
-    "home_forwards": 5,
-    "away_forwards": 5,
-    "home_midfielders": 8,
-    "away_midfielders": 9,
-    "home_defenders": 10,
-    "away_defenders": 9,
+    "home_forwards": 5.0,
+    "away_forwards": 5.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 9.0,
+    "home_defenders": 10.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "squad_avg_age_diff",

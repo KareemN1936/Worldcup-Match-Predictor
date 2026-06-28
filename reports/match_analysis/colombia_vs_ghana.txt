@@ -1,0 +1,41 @@
+Colombia vs Ghana
+
+Date: 2026-07-04 01:30:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+Colombia Win: 75.2%
+Draw: 18.4%
+Ghana Win: 6.4%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 285.55 | edge: Colombia
+- goal difference last 5: 12.00 | edge: Colombia
+- points last 10: 11.00 | edge: Colombia
+- points last 5: 8.00 | edge: Colombia
+- weighted points last 5: 8.00 | edge: Colombia
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.30
+Probability shift: 0.0238
+Top signals: points per match:home; starting XI rating:home; goal difference:home
+Colombia Win: 77.6%
+Draw: 18.4%
+Ghana Win: 4.0%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Colombia 29.6 | Ghana 26.4
+Forwards: Colombia 5 | Ghana 9
+Midfielders: Colombia 10 | Ghana 5
+Defenders: Colombia 8 | Ghana 9
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

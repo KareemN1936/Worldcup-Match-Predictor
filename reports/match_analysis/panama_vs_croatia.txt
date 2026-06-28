@@ -21,10 +21,10 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.03
-Probability shift: 0.0015
+Enrichment score: 0.05
+Probability shift: 0.0024
 Top signals: goal difference:home; starting XI rating:away; player rating:away
-Panama Win: 24.9%
+Panama Win: 25.0%
 Draw: 26.6%
 Croatia Win: 48.5%
 FotMob-enriched result: Team A loss

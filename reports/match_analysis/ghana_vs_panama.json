@@ -1,22 +1,23 @@
 {
   "fixture": {
     "fixture_id": 537410,
-    "date": "2026-06-17T23:00:00Z",
+    "date": "2026-06-17 23:00:00+00:00",
     "round": "GROUP_STAGE",
     "group": "GROUP_L",
     "home_team": "Ghana",
     "away_team": "Panama"
   },
   "base_prediction": {
-    "home_win_probability": 0.2372102588415146,
-    "draw_probability": 0.2463575154542923,
-    "away_win_probability": 0.5164322257041931,
+    "home_win_probability": 0.1941496729850769,
+    "draw_probability": 0.2455847859382629,
+    "away_win_probability": 0.5602655410766602,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
       "elo_diff": -153.93272038673854,
+      "elo_gap_abs": 153.93272038673854,
       "points_last_5_diff": -7.0,
       "points_last_10_diff": -5.0,
       "goal_difference_last_5_diff": -7.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.06666666666666668,
       "clean_sheet_rate_2y_diff": 0.08333333333333331,
       "failed_to_score_rate_2y_diff": 0.16666666666666666,
+      "draw_rate_2y_mean": 0.2583333333333333,
+      "goals_total_per_match_2y_mean": 2.8166666666666664,
+      "goals_against_per_match_2y_mean": 1.325,
+      "clean_sheet_rate_2y_mean": 0.30833333333333335,
+      "failed_to_score_rate_2y_mean": 0.21666666666666667,
+      "recent_draws_last_5_sum": 3.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -155,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.2372102588415146,
-    "draw_probability": 0.2463575154542923,
-    "away_win_probability": 0.5164322257041931,
+    "home_win_probability": 0.1941496729850769,
+    "draw_probability": 0.2455847859382629,
+    "away_win_probability": 0.5602655410766602,
     "predicted_result": "Team A loss",
     "strongest": [],
     "all": [
@@ -221,12 +228,12 @@
     "available": true,
     "home_avg_age": 26.423076923076923,
     "away_avg_age": 30.0,
-    "home_forwards": 9,
-    "away_forwards": 4,
-    "home_midfielders": 5,
-    "away_midfielders": 9,
-    "home_defenders": 9,
-    "away_defenders": 10,
+    "home_forwards": 9.0,
+    "away_forwards": 4.0,
+    "home_midfielders": 5.0,
+    "away_midfielders": 9.0,
+    "home_defenders": 9.0,
+    "away_defenders": 10.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

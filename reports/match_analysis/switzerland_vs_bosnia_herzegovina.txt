@@ -1,12 +1,12 @@
 Switzerland vs Bosnia-Herzegovina
 
-Date: 2026-06-18T19:00:00Z
+Date: 2026-06-18 19:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_B
 
 Base Prediction:
-Switzerland Win: 76.3%
-Draw: 14.9%
+Switzerland Win: 75.4%
+Draw: 15.8%
 Bosnia-Herzegovina Win: 8.8%
 Predicted result: Team A win
 Decision policy: draw_threshold
@@ -24,9 +24,9 @@ Reliability: 0.44
 Enrichment score: 0.04
 Probability shift: 0.0015
 Top signals: starting XI rating:home; points per match:away; goal difference:away
-Switzerland Win: 76.5%
-Draw: 14.8%
-Bosnia-Herzegovina Win: 8.7%
+Switzerland Win: 75.6%
+Draw: 15.8%
+Bosnia-Herzegovina Win: 8.6%
 FotMob-enriched result: Team A win
 
 Squad Context:

@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -195.5209939581439,
+      "elo_gap_abs": 195.5209939581439,
       "points_last_5_diff": -5.0,
       "points_last_10_diff": -11.0,
       "goal_difference_last_5_diff": -1.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.0,
       "clean_sheet_rate_2y_diff": -0.3055555555555556,
       "failed_to_score_rate_2y_diff": -0.3611111111111111,
+      "draw_rate_2y_mean": 0.125,
+      "goals_total_per_match_2y_mean": 1.1111111111111112,
+      "goals_against_per_match_2y_mean": 0.5555555555555556,
+      "clean_sheet_rate_2y_mean": 0.1527777777777778,
+      "failed_to_score_rate_2y_mean": 0.18055555555555555,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,37 +159,37 @@
     "available": true,
     "feature_count": 5,
     "reliability": 0.5555555555555556,
-    "enrichment_score": 0.3661971830985915,
-    "probability_shift": 0.0197503391565851,
-    "top_signals": "goal difference:home; points per match:home; shots on target:home",
-    "home_win_probability": 0.1680645268038242,
-    "draw_probability": 0.1698757441728866,
-    "away_win_probability": 0.6620597290232891,
+    "enrichment_score": 0.0093896713615023,
+    "probability_shift": 0.0005064189527329,
+    "top_signals": "shots on target:home; yellow cards:away; points per match:away",
+    "home_win_probability": 0.1481717471224082,
+    "draw_probability": 0.1730710368871556,
+    "away_win_probability": 0.6787572159904361,
     "predicted_result": "Team A loss",
     "strongest": [
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
         "label": "shots on target per match",
-        "value": 2.5,
-        "leader": "Cape Verde Islands"
-      },
-      {
-        "feature": "fotmob_goal_difference_per_match_diff",
-        "label": "goal difference per match",
-        "value": 2.0,
+        "value": 1.0,
         "leader": "Cape Verde Islands"
       },
       {
         "feature": "fotmob_yellow_cards_per_match_diff",
         "label": "yellow cards per match",
-        "value": 1.5,
+        "value": 1.0,
         "leader": "Saudi Arabia"
       },
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": 0.5,
-        "leader": "Cape Verde Islands"
+        "value": 0.0,
+        "leader": "Even"
+      },
+      {
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.0,
+        "leader": "Even"
       },
       {
         "feature": "fotmob_red_cards_per_match_diff",
@@ -195,14 +202,14 @@
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": 0.5,
-        "leader": "Cape Verde Islands"
+        "value": 0.0,
+        "leader": "Even"
       },
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": 2.0,
-        "leader": "Cape Verde Islands"
+        "value": 0.0,
+        "leader": "Even"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
@@ -219,7 +226,7 @@
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
         "label": "shots on target per match",
-        "value": 2.5,
+        "value": 1.0,
         "leader": "Cape Verde Islands"
       },
       {
@@ -237,7 +244,7 @@
       {
         "feature": "fotmob_yellow_cards_per_match_diff",
         "label": "yellow cards per match",
-        "value": 1.5,
+        "value": 1.0,
         "leader": "Saudi Arabia"
       },
       {
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 29.23076923076923,
     "away_avg_age": 27.96153846153846,
-    "home_forwards": 7,
-    "away_forwards": 5,
-    "home_midfielders": 8,
-    "away_midfielders": 9,
-    "home_defenders": 8,
-    "away_defenders": 9,
+    "home_forwards": 7.0,
+    "away_forwards": 5.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 9.0,
+    "home_defenders": 8.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

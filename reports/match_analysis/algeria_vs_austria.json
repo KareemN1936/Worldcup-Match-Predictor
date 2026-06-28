@@ -17,6 +17,7 @@
   "historical_model_factors": {
     "features": {
       "elo_diff": -6.755208799223055,
+      "elo_gap_abs": 6.755208799223055,
       "points_last_5_diff": -3.0,
       "points_last_10_diff": -3.0,
       "goal_difference_last_5_diff": 1.0,
@@ -38,6 +39,12 @@
       "goal_difference_per_match_2y_diff": 0.293010752688172,
       "clean_sheet_rate_2y_diff": 0.2473118279569893,
       "failed_to_score_rate_2y_diff": 0.06854838709677419,
+      "draw_rate_2y_mean": 0.1639784946236559,
+      "goals_total_per_match_2y_mean": 3.0094086021505375,
+      "goals_against_per_match_2y_mean": 0.7231182795698925,
+      "clean_sheet_rate_2y_mean": 0.456989247311828,
+      "failed_to_score_rate_2y_mean": 0.1592741935483871,
+      "recent_draws_last_5_sum": 2.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -152,37 +159,37 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.8888888888888888,
-    "enrichment_score": -0.0653774104683197,
-    "probability_shift": -0.0058113253749617,
-    "top_signals": "goal difference:away; starting XI rating:home; points per match:away",
-    "home_win_probability": 0.409021370451899,
-    "draw_probability": 0.298430454372347,
-    "away_win_probability": 0.2925481751757539,
+    "enrichment_score": -0.6418181818181817,
+    "probability_shift": -0.057050505050505,
+    "top_signals": "points per match:away; goal difference:away; starting XI rating:away",
+    "home_win_probability": 0.3614307610138801,
+    "draw_probability": 0.2911579042400759,
+    "away_win_probability": 0.3474113347460439,
     "predicted_result": "Team A win",
     "strongest": [
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": -1.0,
+        "value": -5.0,
+        "leader": "Austria"
+      },
+      {
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -3.0,
         "leader": "Austria"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.0713636363636354,
-        "leader": "Algeria"
-      },
-      {
-        "feature": "fotmob_points_per_match_diff",
-        "label": "points per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -0.8999999999999995,
+        "leader": "Austria"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -0.2000000000000001,
+        "leader": "Austria"
       },
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
@@ -195,26 +202,26 @@
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -3.0,
+        "leader": "Austria"
       },
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": -1.0,
+        "value": -5.0,
         "leader": "Austria"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -0.2000000000000001,
+        "leader": "Austria"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.0713636363636354,
-        "leader": "Algeria"
+        "value": -0.8999999999999995,
+        "leader": "Austria"
       },
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
@@ -252,12 +259,12 @@
     "available": true,
     "home_avg_age": 26.46153846153846,
     "away_avg_age": 28.115384615384617,
-    "home_forwards": 6,
-    "away_forwards": 3,
-    "home_midfielders": 8,
-    "away_midfielders": 11,
-    "home_defenders": 9,
-    "away_defenders": 9,
+    "home_forwards": 6.0,
+    "away_forwards": 3.0,
+    "home_midfielders": 8.0,
+    "away_midfielders": 11.0,
+    "home_defenders": 9.0,
+    "away_defenders": 9.0,
     "strongest": [
       {
         "feature": "num_forwards_diff",

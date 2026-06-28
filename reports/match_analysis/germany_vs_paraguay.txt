@@ -1,0 +1,41 @@
+Germany vs Paraguay
+
+Date: 2026-06-29 20:30:00+00:00
+Round: LAST_32
+Group: n/a
+
+Base Prediction:
+Germany Win: 51.0%
+Draw: 30.3%
+Paraguay Win: 18.7%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 126.62 | edge: Germany
+- weighted points last 5: 16.50 | edge: Germany
+- points last 10: 16.00 | edge: Germany
+- goal difference last 5: 11.00 | edge: Germany
+- goals for last 5: 10.00 | edge: Germany
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.34
+Probability shift: 0.0300
+Top signals: goal difference:home; points per match:home; starting XI rating:home
+Germany Win: 54.0%
+Draw: 30.3%
+Paraguay Win: 15.7%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Germany 27.6 | Paraguay 28.5
+Forwards: Germany 6 | Paraguay 7
+Midfielders: Germany 10 | Paraguay 8
+Defenders: Germany 7 | Paraguay 8
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

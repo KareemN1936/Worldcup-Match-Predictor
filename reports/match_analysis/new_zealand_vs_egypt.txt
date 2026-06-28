@@ -1,13 +1,13 @@
 New Zealand vs Egypt
 
-Date: 2026-06-22T01:00:00Z
+Date: 2026-06-22 01:00:00+00:00
 Round: GROUP_STAGE
 Group: GROUP_G
 
 Base Prediction:
-New Zealand Win: 30.8%
-Draw: 23.9%
-Egypt Win: 45.3%
+New Zealand Win: 28.8%
+Draw: 29.8%
+Egypt Win: 41.4%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 
@@ -24,9 +24,9 @@ Reliability: 0.44
 Enrichment score: -0.03
 Probability shift: -0.0013
 Top signals: starting XI rating:away; player rating:away; points per match:away
-New Zealand Win: 30.7%
-Draw: 23.9%
-Egypt Win: 45.5%
+New Zealand Win: 28.7%
+Draw: 29.8%
+Egypt Win: 41.6%
 FotMob-enriched result: Team A loss
 
 Squad Context:

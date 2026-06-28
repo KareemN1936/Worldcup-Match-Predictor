@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.89
-Enrichment score: 0.20
-Probability shift: 0.0175
+Enrichment score: 0.18
+Probability shift: 0.0162
 Top signals: goal difference:home; starting XI rating:home; player rating:home
-Bosnia-Herzegovina Win: 42.5%
+Bosnia-Herzegovina Win: 42.4%
 Draw: 28.1%
-Qatar Win: 29.4%
+Qatar Win: 29.5%
 FotMob-enriched result: Team A win
 
 Squad Context:
