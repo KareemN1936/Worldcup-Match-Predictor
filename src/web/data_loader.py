@@ -111,13 +111,24 @@ def load_fixtures() -> pd.DataFrame:
             detail_columns.append("fotmob_match_id")
         if "status" in match_details.columns:
             detail_columns.append("status")
+        for column in ["home_penalty_score", "away_penalty_score", "decided_by_penalties", "penalty_loser"]:
+            if column in match_details.columns:
+                detail_columns.append(column)
         details = match_details[detail_columns].drop_duplicates("fixture_id", keep="last").copy()
         if "status" in details.columns:
             penalties = details["status"].apply(_extract_penalty_scores)
-            details["home_penalty_score"] = penalties.map(lambda scores: scores[0])
-            details["away_penalty_score"] = penalties.map(lambda scores: scores[1])
-            details["decided_by_penalties"] = details["status"].apply(_is_after_penalties)
-            details["penalty_loser"] = details["status"].apply(_extract_penalty_loser)
+            if "home_penalty_score" not in details.columns:
+                details["home_penalty_score"] = pd.NA
+            if "away_penalty_score" not in details.columns:
+                details["away_penalty_score"] = pd.NA
+            if "decided_by_penalties" not in details.columns:
+                details["decided_by_penalties"] = pd.NA
+            if "penalty_loser" not in details.columns:
+                details["penalty_loser"] = pd.NA
+            details["home_penalty_score"] = details["home_penalty_score"].combine_first(penalties.map(lambda scores: scores[0]))
+            details["away_penalty_score"] = details["away_penalty_score"].combine_first(penalties.map(lambda scores: scores[1]))
+            details["decided_by_penalties"] = details["decided_by_penalties"].combine_first(details["status"].apply(_is_after_penalties))
+            details["penalty_loser"] = details["penalty_loser"].combine_first(details["status"].apply(_extract_penalty_loser))
             if "fotmob_match_id" in details.columns:
                 for index, row in details.iterrows():
                     full_status = _match_json_status(row.get("fotmob_match_id"))
