@@ -1,3 +1,4 @@
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -246,6 +247,47 @@ def upcoming_matches_frame() -> pd.DataFrame:
     return scheduled.sort_values("_date").head(3)
 
 
+def matchweek_options(match_data: pd.DataFrame) -> list[str]:
+    if match_data.empty or "matchweek_label" not in match_data.columns:
+        return ["All matchweeks"]
+
+    labels = [str(value) for value in match_data["matchweek_label"].dropna().unique()]
+    stage_rank = {
+        "FINAL": 0,
+        "THIRD_PLACE": 1,
+        "SEMI_FINALS": 2,
+        "QUARTER_FINALS": 3,
+        "LAST_16": 4,
+        "ROUND_OF_16": 4,
+        "LAST_32": 5,
+        "ROUND_OF_32": 5,
+    }
+
+    def sort_key(label: str) -> tuple[int, int, str]:
+        normalized = label.strip().upper().replace(" ", "_")
+        if normalized in stage_rank:
+            return (0, stage_rank[normalized], label)
+        match = re.search(r"(\d+)", label)
+        if match:
+            return (1, -int(match.group(1)), label)
+        return (2, 0, label)
+
+    return ["All matchweeks"] + sorted(labels, key=sort_key)
+
+
+def latest_played_match_index(match_data: pd.DataFrame) -> object | None:
+    if match_data.empty:
+        return None
+    dated = match_data.copy()
+    dated["_date"] = pd.to_datetime(dated.get("date"), errors="coerce")
+    status = dated.get("status", pd.Series(index=dated.index, dtype=str)).astype(str).str.upper()
+    played = dated[status.isin({"FINISHED", "COMPLETED"}) & dated["_date"].notna()]
+    if not played.empty:
+        return played.sort_values("_date").index[-1]
+    dated = dated[dated["_date"].notna()]
+    return dated.sort_values("_date").index[-1] if not dated.empty else None
+
+
 best_name = best_model_name()
 (
     correct_predictions,
@@ -339,9 +381,7 @@ elif page == "Matchweeks":
     if matches.empty:
         st.warning("No fixtures or predictions are available yet.")
     else:
-        week_options = ["All matchweeks"] + sorted(
-            str(v) for v in matches["matchweek_label"].dropna().unique()
-        )
+        week_options = matchweek_options(matches)
         selected_week = st.selectbox("Matchweek", week_options, key="mw_week")
 
         if selected_week == "All matchweeks":
@@ -401,9 +441,7 @@ elif page == "Match Detail":
     else:
         col1, col2 = st.columns(2)
         with col1:
-            week_options = ["All matchweeks"] + sorted(
-                str(v) for v in matches["matchweek_label"].dropna().unique()
-            )
+            week_options = matchweek_options(matches)
             selected_week_filter = st.selectbox("Matchweek", week_options, key="detail_week")
         with col2:
             if selected_week_filter == "All matchweeks":
@@ -417,6 +455,10 @@ elif page == "Match Detail":
                 date_label = date.strftime("%b %d | %H:%M") if pd.notna(date) else "Date unavailable"
                 labels.append((f"{date_label} | {row.get('home_team')} vs {row.get('away_team')}", index))
 
+            if not labels:
+                st.info("No matches are available for this filter.")
+                st.stop()
+
             selected_idx = st.session_state.pop("_selected_match_idx", None)
             if selected_idx is not None:
                 for label, idx in labels:
@@ -424,7 +466,12 @@ elif page == "Match Detail":
                         st.session_state["detail_match"] = label
                         break
 
-            selected_label = st.selectbox("Match", [label for label, _ in labels], key="detail_match")
+            label_options = [label for label, _ in labels]
+            if st.session_state.get("detail_match") not in label_options:
+                st.session_state.pop("detail_match", None)
+            default_idx = latest_played_match_index(detail_matches)
+            default_position = next((position for position, (_, idx) in enumerate(labels) if idx == default_idx), 0)
+            selected_label = st.selectbox("Match", label_options, index=default_position, key="detail_match")
             selected_index = dict(labels)[selected_label]
             row = matches.loc[selected_index]
             analysis = get_match_analysis(row, analysis_index)
