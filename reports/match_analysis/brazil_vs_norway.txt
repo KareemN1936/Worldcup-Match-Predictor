@@ -1,0 +1,41 @@
+Brazil vs Norway
+
+Date: 2026-07-05 20:00:00+00:00
+Round: LAST_16
+Group: n/a
+
+Base Prediction:
+Brazil Win: 52.7%
+Draw: 26.0%
+Norway Win: 21.3%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 69.28 | edge: Brazil
+- weighted points last 5: -5.00 | edge: Norway
+- points last 10: -4.00 | edge: Norway
+- goals for last 5: 4.00 | edge: Brazil
+- points last 5: 2.00 | edge: Brazil
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: 0.21
+Probability shift: 0.0184
+Top signals: goal difference:home; starting XI rating:home; points per match:home
+Brazil Win: 54.6%
+Draw: 26.0%
+Norway Win: 19.4%
+FotMob-enriched result: Team A win
+
+Squad Context:
+Average age: Brazil 28.7 | Norway 26.3
+Forwards: Brazil 9 | Norway 5
+Midfielders: Brazil 5 | Norway 9
+Defenders: Brazil 9 | Norway 9
+
+Final Recommendation:
+Use: Team A win
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

@@ -15,12 +15,12 @@ from src.web.data_loader import (
     load_feature_importance,
     load_fixtures,
     load_model_metadata,
-    load_predictions,
     load_teams,
     load_update_status,
     merge_fixtures_and_predictions,
     is_knockout_round,
 )
+from src.web.prediction_service import load_or_generate_predictions
 from src.web.flags import build_flag_lookup
 from src.web.notes import build_model_notes, confidence_from_probabilities, most_likely_result
 from src.web.ui_components import (
@@ -68,7 +68,7 @@ def load_dashboard_data(data_version: tuple[tuple[str, int], ...]):
     # disk, so their source files must invalidate Streamlit's cached data.
     del data_version
     fixtures = load_fixtures()
-    predictions = load_predictions()
+    predictions = load_or_generate_predictions()
     teams = load_teams()
     metadata = load_model_metadata()
     update_status = load_update_status()
