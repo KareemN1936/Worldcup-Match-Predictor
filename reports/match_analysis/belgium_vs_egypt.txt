@@ -1,13 +1,13 @@
 Belgium vs Egypt
 
-Date: 2026-06-15 19:00:00+00:00
+Date: 2026-06-15T19:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_G
 
 Base Prediction:
-Belgium Win: 56.0%
-Draw: 28.1%
-Egypt Win: 15.9%
+Belgium Win: 60.4%
+Draw: 21.3%
+Egypt Win: 18.3%
 Predicted result: Team A win
 Decision policy: draw_threshold
 

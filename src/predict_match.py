@@ -11,7 +11,7 @@ from build_features import get_match_importance
 from config import FEATURE_COLUMNS, MODELS_DIR, PROCESSED_DATA_DIR, RAW_DATA_DIR, REPORTS_DIR, RESULT_LABELS, UPCOMING_FIXTURE_STATUSES, standardize_team_name
 from fotmob_prediction_features import enrich_probabilities_with_fotmob, read_fotmob_rolling_features, write_fotmob_coverage_report
 from prediction_policy import apply_prediction_policy, load_policy
-from web.data_loader import load_fixtures
+from web.data_loader import is_knockout_round, load_fixtures
 
 
 PREDICTION_HISTORY_PATH = REPORTS_DIR / "prediction_history.csv"
@@ -383,6 +383,7 @@ def predict_fixtures(only_upcoming: bool = True) -> pd.DataFrame:
         predictions = merge_fotmob_rolling_features(predictions)
         predictions = merge_squad_features(predictions)
         predictions = enrich_probabilities_with_fotmob(predictions, policy=load_policy())
+        predictions = _force_knockout_prediction_results(predictions)
         predictions["predicted_at"] = datetime.now(timezone.utc).isoformat()
         predictions["prediction_source"] = "pre_match_snapshot"
         predictions["model_version"] = _model_version()
@@ -396,6 +397,43 @@ def predict_fixtures(only_upcoming: bool = True) -> pd.DataFrame:
     current_predictions.to_csv(output_path, index=False)
     print(f"Fixture predictions saved: {output_path} ({len(current_predictions)} rows)")
     return current_predictions
+
+
+def _force_knockout_prediction_results(predictions: pd.DataFrame) -> pd.DataFrame:
+    if predictions.empty or "round" not in predictions.columns:
+        return predictions
+    output = predictions.copy()
+    knockout = output["round"].map(is_knockout_round)
+    if not knockout.any():
+        return output
+
+    for index, row in output[knockout].iterrows():
+        home_prob = pd.to_numeric(row.get("home_win_probability"), errors="coerce")
+        away_prob = pd.to_numeric(row.get("away_win_probability"), errors="coerce")
+        if pd.isna(home_prob) or pd.isna(away_prob):
+            continue
+        home_prob = float(home_prob)
+        away_prob = float(away_prob)
+        base_class = 2 if home_prob >= away_prob else 0
+        output.at[index, "predicted_class"] = base_class
+        output.at[index, "predicted_result"] = RESULT_LABELS[base_class]
+
+        if {
+            "fotmob_enriched_home_win_probability",
+            "fotmob_enriched_away_win_probability",
+            "fotmob_enriched_predicted_class",
+            "fotmob_enriched_predicted_result",
+        }.issubset(output.columns):
+            enriched_home = pd.to_numeric(row.get("fotmob_enriched_home_win_probability"), errors="coerce")
+            enriched_away = pd.to_numeric(row.get("fotmob_enriched_away_win_probability"), errors="coerce")
+            if pd.isna(enriched_home) or pd.isna(enriched_away):
+                continue
+            enriched_home = float(enriched_home)
+            enriched_away = float(enriched_away)
+            enriched_class = 2 if enriched_home >= enriched_away else 0
+            output.at[index, "fotmob_enriched_predicted_class"] = enriched_class
+            output.at[index, "fotmob_enriched_predicted_result"] = RESULT_LABELS[enriched_class]
+    return output
 
 
 def _read_prediction_history() -> pd.DataFrame:
@@ -473,7 +511,7 @@ def _select_frozen_predictions(
     if not selected:
         return pd.DataFrame(columns=[column for column in history.columns if not column.startswith("_")])
     output = pd.DataFrame(selected).drop(columns=["_predicted_at"], errors="ignore")
-    return output.reset_index(drop=True)
+    return _force_knockout_prediction_results(output.reset_index(drop=True))
 
 
 def _apply_completed_result(

@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537352,
-    "date": "2026-06-14 23:00:00+00:00",
+    "date": "2026-06-14T23:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_E",
     "home_team": "Ivory Coast",
     "away_team": "Ecuador"
   },
   "base_prediction": {
-    "home_win_probability": 0.2160459160804748,
-    "draw_probability": 0.3485264778137207,
-    "away_win_probability": 0.435427576303482,
+    "home_win_probability": 0.2938257455825805,
+    "draw_probability": 0.2726498544216156,
+    "away_win_probability": 0.4335243999958038,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.2160459225191451,
-    "draw_probability": 0.3485264882006195,
-    "away_win_probability": 0.4354275892802354,
+    "home_win_probability": 0.2938257455825805,
+    "draw_probability": 0.2726498544216156,
+    "away_win_probability": 0.4335243999958038,
     "predicted_result": "Team A loss",
     "strongest": [],
     "all": [

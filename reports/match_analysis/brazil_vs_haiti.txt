@@ -1,13 +1,13 @@
 Brazil vs Haiti
 
-Date: 2026-06-20 00:30:00+00:00
+Date: 2026-06-20T00:30:00Z
 Round: GROUP_STAGE
 Group: GROUP_C
 
 Base Prediction:
-Brazil Win: 78.5%
-Draw: 17.2%
-Haiti Win: 4.3%
+Brazil Win: 79.2%
+Draw: 12.5%
+Haiti Win: 8.2%
 Predicted result: Team A win
 Decision policy: draw_threshold
 
@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.26
-Probability shift: 0.0101
+Enrichment score: 0.25
+Probability shift: 0.0097
 Top signals: points per match:home; goal difference:home; starting XI rating:home
-Brazil Win: 79.5%
-Draw: 17.2%
-Haiti Win: 3.3%
+Brazil Win: 80.4%
+Draw: 12.4%
+Haiti Win: 7.3%
 FotMob-enriched result: Team A win
 
 Squad Context:

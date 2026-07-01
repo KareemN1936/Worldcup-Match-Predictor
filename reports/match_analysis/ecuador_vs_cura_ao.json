@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537354,
-    "date": "2026-06-21 00:00:00+00:00",
+    "date": "2026-06-21T00:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_E",
     "home_team": "Ecuador",
     "away_team": "Cura\u00e7ao"
   },
   "base_prediction": {
-    "home_win_probability": 0.8105177879333496,
-    "draw_probability": 0.1528617441654205,
-    "away_win_probability": 0.0366204865276813,
+    "home_win_probability": 0.844640851020813,
+    "draw_probability": 0.0965480953454971,
+    "away_win_probability": 0.0588110759854316,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -159,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.3872727272727271,
-    "probability_shift": 0.0144492695895108,
+    "enrichment_score": 0.3436363636363634,
+    "probability_shift": 0.0123000306389548,
     "top_signals": "goal difference:home; starting XI rating:home; player rating:home",
-    "home_win_probability": 0.8249670421566518,
-    "draw_probability": 0.1528617413181487,
-    "away_win_probability": 0.0221712165251994,
+    "home_win_probability": 0.8590541409091522,
+    "draw_probability": 0.0943201151707813,
+    "away_win_probability": 0.0466257439200664,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -176,7 +176,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 1.0245454545454544,
+        "value": 0.6999999999999993,
         "leader": "Ecuador"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 1.0245454545454544,
+        "value": 0.6999999999999993,
         "leader": "Ecuador"
       },
       {

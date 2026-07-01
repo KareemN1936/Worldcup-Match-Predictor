@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537360,
-    "date": "2026-06-21 04:00:00+00:00",
+    "date": "2026-06-21T04:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_F",
     "home_team": "Tunisia",
     "away_team": "Japan"
   },
   "base_prediction": {
-    "home_win_probability": 0.1380964070558548,
-    "draw_probability": 0.2755159437656402,
-    "away_win_probability": 0.5863876342773438,
+    "home_win_probability": 0.1193800345063209,
+    "draw_probability": 0.2209732085466385,
+    "away_win_probability": 0.65964674949646,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
@@ -160,11 +160,11 @@
     "feature_count": 8,
     "reliability": 0.4444444444444444,
     "enrichment_score": -0.5509090909090909,
-    "probability_shift": -0.0244848484848484,
+    "probability_shift": -0.0242486492850563,
     "top_signals": "goal difference:away; starting XI rating:away; points per match:away",
-    "home_win_probability": 0.1136115602639504,
-    "draw_probability": 0.2755159478711478,
-    "away_win_probability": 0.6108724918649017,
+    "home_win_probability": 0.095594995839004,
+    "draw_probability": 0.2171767287735008,
+    "away_win_probability": 0.6872282753874951,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -174,14 +174,14 @@
         "leader": "Japan"
       },
       {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
-        "value": -1.1490909090909085,
+        "feature": "fotmob_points_per_match_diff",
+        "label": "points per match",
+        "value": -1.0,
         "leader": "Japan"
       },
       {
-        "feature": "fotmob_points_per_match_diff",
-        "label": "points per match",
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
         "value": -1.0,
         "leader": "Japan"
       },
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -1.1490909090909085,
+        "value": -1.0,
         "leader": "Japan"
       },
       {

@@ -1,13 +1,13 @@
 Saudi Arabia vs Uruguay
 
-Date: 2026-06-15 22:00:00+00:00
+Date: 2026-06-15T22:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_H
 
 Base Prediction:
-Saudi Arabia Win: 19.4%
-Draw: 29.6%
-Uruguay Win: 51.1%
+Saudi Arabia Win: 26.4%
+Draw: 28.4%
+Uruguay Win: 45.2%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 

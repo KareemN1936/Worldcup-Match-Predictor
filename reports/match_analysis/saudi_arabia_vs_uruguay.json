@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537370,
-    "date": "2026-06-15 22:00:00+00:00",
+    "date": "2026-06-15T22:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_H",
     "home_team": "Saudi Arabia",
     "away_team": "Uruguay"
   },
   "base_prediction": {
-    "home_win_probability": 0.1936046779155731,
-    "draw_probability": 0.2958681881427765,
-    "away_win_probability": 0.5105271339416504,
+    "home_win_probability": 0.2642433941364288,
+    "draw_probability": 0.283770889043808,
+    "away_win_probability": 0.4519856572151184,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.1936046779155731,
-    "draw_probability": 0.2958681881427765,
-    "away_win_probability": 0.5105271339416504,
+    "home_win_probability": 0.2642434098865634,
+    "draw_probability": 0.283770905957872,
+    "away_win_probability": 0.4519856841555645,
     "predicted_result": "Team A loss",
     "strongest": [],
     "all": [

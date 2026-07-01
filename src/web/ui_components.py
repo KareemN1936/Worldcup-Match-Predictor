@@ -5,6 +5,7 @@ import pandas as pd
 import streamlit as st
 
 from .flags import flag_for_team
+from .data_loader import is_knockout_round
 from .notes import build_model_notes, confidence_from_probabilities, most_likely_result
 
 
@@ -19,10 +20,28 @@ def _score_text(value) -> str:
     return str(int(number)) if number.is_integer() else f"{number:g}"
 
 
+def _has_penalties(row: pd.Series) -> bool:
+    return pd.notna(row.get("home_penalty_score")) and pd.notna(row.get("away_penalty_score"))
+
+
+def _was_decided_by_penalties(row: pd.Series) -> bool:
+    return str(row.get("decided_by_penalties", "")).strip().lower() in {"true", "1", "yes"}
+
+
+def _penalty_score_text(row: pd.Series) -> str:
+    return f"{_score_text(row.get('home_penalty_score'))} - {_score_text(row.get('away_penalty_score'))}"
+
+
 def status_label(row: pd.Series) -> str:
     status = str(row.get("status", "scheduled")).strip() or "scheduled"
     if pd.notna(row.get("home_score")) and pd.notna(row.get("away_score")):
-        return f"{status.title()} | {_score_text(row.get('home_score'))} - {_score_text(row.get('away_score'))}"
+        if _was_decided_by_penalties(row) and _has_penalties(row):
+            penalty_text = f" | Pens {_penalty_score_text(row)}"
+        elif _was_decided_by_penalties(row):
+            penalty_text = " | After penalties"
+        else:
+            penalty_text = ""
+        return f"{status.title()} | {_score_text(row.get('home_score'))} - {_score_text(row.get('away_score'))}{penalty_text}"
     return status.replace("_", " ").title()
 
 
@@ -176,6 +195,23 @@ def _outcome_details(row: pd.Series) -> tuple[str, str, bool | None] | None:
         actual_code, actual_label = "home", f"{home} won"
     elif away_score > home_score:
         actual_code, actual_label = "away", f"{away} won"
+    elif is_knockout_round(row.get("round")) and _was_decided_by_penalties(row) and _has_penalties(row):
+        home_penalties = float(row.get("home_penalty_score"))
+        away_penalties = float(row.get("away_penalty_score"))
+        if home_penalties > away_penalties:
+            actual_code, actual_label = "home", f"{home} won on penalties"
+        elif away_penalties > home_penalties:
+            actual_code, actual_label = "away", f"{away} won on penalties"
+        else:
+            actual_code, actual_label = "draw", "Shootout tied"
+    elif is_knockout_round(row.get("round")) and _was_decided_by_penalties(row):
+        winner = row.get("actual_winner") or row.get("knockout_winner")
+        if str(winner) == home:
+            actual_code, actual_label = "home", f"{home} won on penalties"
+        elif str(winner) == away:
+            actual_code, actual_label = "away", f"{away} won on penalties"
+        else:
+            actual_code, actual_label = "draw", "After penalties"
     else:
         actual_code, actual_label = "draw", "Draw"
 
@@ -187,7 +223,10 @@ def _outcome_details(row: pd.Series) -> tuple[str, str, bool | None] | None:
     if not all(pd.notna(value) for value in probabilities.values()):
         return actual_label, "Unavailable", None
 
-    predicted_code = max(probabilities, key=lambda outcome: float(probabilities[outcome]))
+    if is_knockout_round(row.get("round")):
+        predicted_code = "home" if float(probabilities["home"]) >= float(probabilities["away"]) else "away"
+    else:
+        predicted_code = max(probabilities, key=lambda outcome: float(probabilities[outcome]))
     predicted_label = {"home": home, "draw": "Draw", "away": away}[predicted_code]
     return actual_label, predicted_label, predicted_code == actual_code
 
@@ -242,6 +281,7 @@ def _prob_chip(label: str, value, color_var: str) -> str:
 def render_probability_bars(row: pd.Series) -> None:
     home = str(row.get("home_team", "Team A"))
     away = str(row.get("away_team", "Team B"))
+    draw_label = "Level after 90" if is_knockout_round(row.get("round")) else "Draw"
     home_prob = row.get("display_home_win_probability", row.get("home_win_probability"))
     draw_prob = row.get("display_draw_probability", row.get("draw_probability"))
     away_prob = row.get("display_away_win_probability", row.get("away_win_probability"))
@@ -253,7 +293,7 @@ def render_probability_bars(row: pd.Series) -> None:
     bars = []
     for label, value, color in [
         (home, home_prob, "var(--color-accent)"),
-        ("Draw", draw_prob, "var(--color-accent-3)"),
+        (draw_label, draw_prob, "var(--color-accent-3)"),
         (away, away_prob, "var(--color-accent-2)"),
     ]:
         pct = _pct_value(value) or 0
@@ -295,7 +335,13 @@ def _match_card_html(
     round_name = str(row.get("round", "Round unavailable")).replace("_", " ").title()
 
     if pd.notna(row.get("home_score")) and pd.notna(row.get("away_score")):
-        score_html = f'<div class="match-center__score">{_score_text(row.get("home_score"))} - {_score_text(row.get("away_score"))}</div>'
+        if _was_decided_by_penalties(row) and _has_penalties(row):
+            penalties_html = f'<div class="match-center__pens">Pens {_penalty_score_text(row)}</div>'
+        elif _was_decided_by_penalties(row):
+            penalties_html = '<div class="match-center__pens">After penalties</div>'
+        else:
+            penalties_html = ""
+        score_html = f'<div class="match-center__score">{_score_text(row.get("home_score"))} - {_score_text(row.get("away_score"))}</div>{penalties_html}'
     else:
         score_html = '<div class="match-center__vs">VS</div>'
 
@@ -304,10 +350,11 @@ def _match_card_html(
     has_probs = all(pd.notna(v) for v in [home_prob, draw_prob, away_prob])
     prob_html = ""
     if has_probs:
+        draw_label = "Level after 90" if is_knockout_round(row.get("round")) else "Draw"
         prob_html = _html(f"""
         <div class="prob-strip">
             {_prob_chip(home, home_prob, "var(--color-accent)")}
-            {_prob_chip("Draw", draw_prob, "var(--color-accent-3)")}
+            {_prob_chip(draw_label, draw_prob, "var(--color-accent-3)")}
             {_prob_chip(away, away_prob, "var(--color-accent-2)")}
         </div>
         """)
@@ -391,6 +438,12 @@ def render_match_detail_hero(row: pd.Series, flag_lookup: dict[str, str]) -> Non
     if pd.notna(row.get("home_score")) and pd.notna(row.get("away_score")):
         score = f"{_score_text(row.get('home_score'))} - {_score_text(row.get('away_score'))}"
         score_label = "Full time" if "FINISHED" in str(row.get("status", "")).upper() else score_label
+    if _was_decided_by_penalties(row) and _has_penalties(row):
+        penalties_html = f'<div class="detail-score__pens">Pens {_penalty_score_text(row)}</div>'
+    elif _was_decided_by_penalties(row):
+        penalties_html = '<div class="detail-score__pens">After penalties</div>'
+    else:
+        penalties_html = ""
 
     venue_bits = [str(row.get(key)) for key in ["stadium", "city"] if pd.notna(row.get(key)) and str(row.get(key)).strip()]
     venue = " | ".join(venue_bits) if venue_bits else "Venue TBD"
@@ -415,6 +468,7 @@ def render_match_detail_hero(row: pd.Series, flag_lookup: dict[str, str]) -> Non
                 </div>
                 <div class="detail-score">
                     <div class="detail-score__number">{escape(score)}</div>
+                    {penalties_html}
                     <div class="detail-score__label">{escape(score_label)}</div>
                 </div>
                 <div class="detail-team">

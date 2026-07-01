@@ -1,0 +1,30 @@
+Paraguay vs nan
+
+Date: 2026-07-04 21:00:00+00:00
+Round: LAST_16
+Group: n/a
+
+Base Prediction:
+Paraguay Win: 88.6%
+Draw: 7.9%
+nan Win: 3.5%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 292.13 | edge: Paraguay
+- points last 10: 14.00 | edge: Paraguay
+- points last 5: 9.00 | edge: Paraguay
+- goals for last 5: 9.00 | edge: Paraguay
+- weighted points last 5: 9.00 | edge: Paraguay
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+No squad context is available for this match.
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

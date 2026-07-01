@@ -1,0 +1,41 @@
+Canada vs Morocco
+
+Date: 2026-07-04 17:00:00+00:00
+Round: LAST_16
+Group: n/a
+
+Base Prediction:
+Canada Win: 25.1%
+Draw: 30.1%
+Morocco Win: 44.8%
+Predicted result: Team A loss
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: -123.90 | edge: Morocco
+- goal difference last 5: -8.00 | edge: Morocco
+- points last 10: -7.00 | edge: Morocco
+- goals for last 5: -7.00 | edge: Morocco
+- points last 5: -4.00 | edge: Morocco
+
+FotMob Layer:
+Features available: 8
+Reliability: 0.89
+Enrichment score: -0.01
+Probability shift: -0.0010
+Top signals: goal difference:home; points per match:away; starting XI rating:away
+Canada Win: 25.0%
+Draw: 30.1%
+Morocco Win: 44.9%
+FotMob-enriched result: Team A loss
+
+Squad Context:
+Average age: Canada 26.5 | Morocco 25.9
+Forwards: Canada 6 | Morocco 5
+Midfielders: Canada 9 | Morocco 9
+Defenders: Canada 8 | Morocco 9
+
+Final Recommendation:
+Use: Team A loss
+Source: fotmob_enriched
+Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

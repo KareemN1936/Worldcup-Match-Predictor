@@ -1,13 +1,13 @@
 South Korea vs Czechia
 
-Date: 2026-06-12 02:00:00+00:00
+Date: 2026-06-12T02:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_A
 
 Base Prediction:
-South Korea Win: 91.1%
-Draw: 6.1%
-Czechia Win: 2.8%
+South Korea Win: 94.2%
+Draw: 4.1%
+Czechia Win: 1.6%
 Predicted result: Team A win
 Decision policy: draw_threshold
 

@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537392,
-    "date": "2026-06-16 22:00:00+00:00",
+    "date": "2026-06-16T22:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_I",
     "home_team": "Iraq",
     "away_team": "Norway"
   },
   "base_prediction": {
-    "home_win_probability": 0.2325697839260101,
-    "draw_probability": 0.2779379189014435,
-    "away_win_probability": 0.4894923269748688,
+    "home_win_probability": 0.2711897194385528,
+    "draw_probability": 0.2294136583805084,
+    "away_win_probability": 0.4993966221809387,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.2325697769948906,
-    "draw_probability": 0.2779379106182482,
-    "away_win_probability": 0.4894923123868611,
+    "home_win_probability": 0.2711897194385528,
+    "draw_probability": 0.2294136583805084,
+    "away_win_probability": 0.4993966221809387,
     "predicted_result": "Team A loss",
     "strongest": [],
     "all": [

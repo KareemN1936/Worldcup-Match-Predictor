@@ -1,0 +1,30 @@
+Brazil vs nan
+
+Date: 2026-07-05 20:00:00+00:00
+Round: LAST_16
+Group: n/a
+
+Base Prediction:
+Brazil Win: 93.2%
+Draw: 5.1%
+nan Win: 1.7%
+Predicted result: Team A win
+Decision policy: draw_threshold
+
+Historical Model Factors:
+- Elo advantage: 410.64 | edge: Brazil
+- points last 10: 17.00 | edge: Brazil
+- weighted points last 5: 13.50 | edge: Brazil
+- goals for last 5: 13.00 | edge: Brazil
+- points last 5: 10.00 | edge: Brazil
+
+FotMob Layer:
+No reliable pre-match FotMob rolling data is available for both teams yet.
+
+Squad Context:
+No squad context is available for this match.
+
+Final Recommendation:
+Use: Team A win
+Source: base_model
+Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

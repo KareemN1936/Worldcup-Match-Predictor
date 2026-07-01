@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537399,
-    "date": "2026-06-22 17:00:00+00:00",
+    "date": "2026-06-22T17:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_J",
     "home_team": "Argentina",
     "away_team": "Austria"
   },
   "base_prediction": {
-    "home_win_probability": 0.7543615698814392,
-    "draw_probability": 0.1680638194084167,
-    "away_win_probability": 0.0775746256113052,
+    "home_win_probability": 0.7451172471046448,
+    "draw_probability": 0.1729153096675872,
+    "away_win_probability": 0.0819674283266067,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -159,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.0765509641873278,
-    "probability_shift": 0.0030471993506133,
-    "top_signals": "goal difference:home; starting XI rating:home; player rating:away",
-    "home_win_probability": 0.7574087579457826,
-    "draw_probability": 0.1680638169040707,
-    "away_win_probability": 0.0745274251501467,
+    "enrichment_score": 0.0612121212121212,
+    "probability_shift": 0.0024617685667994,
+    "top_signals": "goal difference:home; player rating:away; starting XI rating:home",
+    "home_win_probability": 0.7479472814381407,
+    "draw_probability": 0.1725078934267078,
+    "away_win_probability": 0.0795448251351513,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -174,16 +174,16 @@
         "leader": "Argentina"
       },
       {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
-        "value": 0.205454545454546,
-        "leader": "Argentina"
-      },
-      {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
         "value": -0.2000000000000001,
         "leader": "Austria"
+      },
+      {
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": 0.1000000000000005,
+        "leader": "Argentina"
       },
       {
         "feature": "fotmob_points_per_match_diff",
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.205454545454546,
+        "value": 0.1000000000000005,
         "leader": "Argentina"
       },
       {

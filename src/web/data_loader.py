@@ -1,5 +1,6 @@
 import json
 import re
+import ast
 import unicodedata
 from pathlib import Path
 from typing import Any
@@ -19,6 +20,17 @@ RESULT_TEAM_ALIASES = {
     "bosniaandherzegovina": "bosniaherzegovina",
     "drcongo": "congodr",
     "turkiye": "turkey",
+}
+
+KNOCKOUT_ROUNDS = {
+    "LAST_32",
+    "LAST_16",
+    "ROUND_OF_32",
+    "ROUND_OF_16",
+    "QUARTER_FINALS",
+    "SEMI_FINALS",
+    "THIRD_PLACE",
+    "FINAL",
 }
 
 
@@ -94,14 +106,44 @@ def load_fixtures() -> pd.DataFrame:
 
     if not fixtures.empty and not match_details.empty and "fixture_id" in fixtures.columns and "fixture_id" in match_details.columns:
         fixtures = fixtures.copy()
-        details = match_details[["fixture_id", "home_score", "away_score"]].drop_duplicates("fixture_id", keep="last").copy()
+        detail_columns = ["fixture_id", "home_score", "away_score"]
+        if "fotmob_match_id" in match_details.columns:
+            detail_columns.append("fotmob_match_id")
+        if "status" in match_details.columns:
+            detail_columns.append("status")
+        details = match_details[detail_columns].drop_duplicates("fixture_id", keep="last").copy()
+        if "status" in details.columns:
+            penalties = details["status"].apply(_extract_penalty_scores)
+            details["home_penalty_score"] = penalties.map(lambda scores: scores[0])
+            details["away_penalty_score"] = penalties.map(lambda scores: scores[1])
+            details["decided_by_penalties"] = details["status"].apply(_is_after_penalties)
+            details["penalty_loser"] = details["status"].apply(_extract_penalty_loser)
+            if "fotmob_match_id" in details.columns:
+                for index, row in details.iterrows():
+                    full_status = _match_json_status(row.get("fotmob_match_id"))
+                    if not full_status:
+                        continue
+                    full_penalties = _extract_penalty_scores(full_status)
+                    if pd.isna(details.at[index, "home_penalty_score"]) and full_penalties[0] is not None:
+                        details.at[index, "home_penalty_score"] = full_penalties[0]
+                    if pd.isna(details.at[index, "away_penalty_score"]) and full_penalties[1] is not None:
+                        details.at[index, "away_penalty_score"] = full_penalties[1]
+                    if not bool(details.at[index, "decided_by_penalties"]):
+                        details.at[index, "decided_by_penalties"] = _is_after_penalties(full_status)
+                    if pd.isna(details.at[index, "penalty_loser"]):
+                        details.at[index, "penalty_loser"] = _extract_penalty_loser(full_status)
+            details = details.drop(columns=["status"])
+        details = details.drop(columns=["fotmob_match_id"], errors="ignore")
         fixtures["fixture_id"] = fixtures["fixture_id"].astype(str)
         details["fixture_id"] = details["fixture_id"].astype(str)
         fixtures = fixtures.merge(details, on="fixture_id", how="left", suffixes=("", "_fotmob"))
-        for score_column in ["home_score", "away_score"]:
+        for score_column in ["home_score", "away_score", "home_penalty_score", "away_penalty_score", "decided_by_penalties", "penalty_loser"]:
             fotmob_column = f"{score_column}_fotmob"
             if fotmob_column in fixtures.columns:
-                fixtures[score_column] = fixtures[score_column].combine_first(fixtures[fotmob_column])
+                if score_column not in fixtures.columns:
+                    fixtures[score_column] = fixtures[fotmob_column]
+                else:
+                    fixtures[score_column] = fixtures[score_column].combine_first(fixtures[fotmob_column])
                 fixtures = fixtures.drop(columns=[fotmob_column])
 
     if not fixtures.empty:
@@ -132,7 +174,7 @@ def load_fixtures() -> pd.DataFrame:
 
     if not fixtures.empty and "date" in fixtures.columns:
         fixtures["date"] = pd.to_datetime(fixtures["date"], errors="coerce")
-    return fixtures
+    return apply_knockout_outcomes(fixtures)
 
 
 def load_predictions() -> pd.DataFrame:
@@ -187,6 +229,209 @@ def _fixture_id_key(value: Any) -> str:
     """Normalize CSV-inferred numeric IDs without changing real string IDs."""
     text = str(value or "").strip()
     return text[:-2] if text.endswith(".0") else text
+
+
+def is_knockout_round(value: Any) -> bool:
+    return str(value or "").strip().upper() in KNOCKOUT_ROUNDS
+
+
+def _numeric_or_none(value: Any) -> float | None:
+    number = pd.to_numeric(value, errors="coerce")
+    return float(number) if pd.notna(number) else None
+
+
+def _score_pair_from_text(value: Any) -> tuple[float | None, float | None]:
+    if isinstance(value, (list, tuple)) and len(value) >= 2:
+        home = _numeric_or_none(value[0])
+        away = _numeric_or_none(value[1])
+        if home is not None and away is not None:
+            return home, away
+    if not isinstance(value, str):
+        return None, None
+    match = re.search(r"(\d+(?:\.\d+)?)\s*[-:]\s*(\d+(?:\.\d+)?)", value)
+    if not match:
+        return None, None
+    return float(match.group(1)), float(match.group(2))
+
+
+def _walk_nested(value: Any):
+    if isinstance(value, dict):
+        yield value
+        for child in value.values():
+            yield from _walk_nested(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from _walk_nested(child)
+
+
+def _parse_status_payload(value: Any) -> dict[str, Any]:
+    if isinstance(value, dict):
+        return value
+    if not isinstance(value, str) or not value.strip():
+        return {}
+    try:
+        parsed = ast.literal_eval(value)
+    except (SyntaxError, ValueError):
+        return {}
+    return parsed if isinstance(parsed, dict) else {}
+
+
+def _extract_penalty_scores(status: Any) -> tuple[float | None, float | None]:
+    """Best-effort extraction across FotMob's nested shootout shapes."""
+    payload = _parse_status_payload(status)
+    for item in _walk_nested(payload):
+        key_text = " ".join(str(key).lower() for key in item.keys())
+        if "pen" not in key_text:
+            continue
+
+        home = next(
+            (
+                _numeric_or_none(item.get(key))
+                for key in [
+                    "homePenalties",
+                    "homePenaltyScore",
+                    "homePenScore",
+                    "penaltyHome",
+                    "home",
+                ]
+                if key in item
+            ),
+            None,
+        )
+        away = next(
+            (
+                _numeric_or_none(item.get(key))
+                for key in [
+                    "awayPenalties",
+                    "awayPenaltyScore",
+                    "awayPenScore",
+                    "penaltyAway",
+                    "away",
+                ]
+                if key in item
+            ),
+            None,
+        )
+        if home is not None and away is not None:
+            return home, away
+
+        score = next(
+            (item.get(key) for key in ["penaltyScore", "penaltyScoreStr", "penalties"] if key in item),
+            None,
+        )
+        home, away = _score_pair_from_text(score)
+        if home is not None and away is not None:
+            return home, away
+
+    text = str(status)
+    for pattern in [
+        r"(?:penalties|pens|penalty shootout)[^\d]*(\d+)\s*[-:]\s*(\d+)",
+        r"\((\d+)\s*[-:]\s*(\d+)\s*(?:pens?|penalties?)\)",
+    ]:
+        match = re.search(pattern, text, flags=re.IGNORECASE)
+        if match:
+            return float(match.group(1)), float(match.group(2))
+    return None, None
+
+
+def _is_after_penalties(status: Any) -> bool:
+    payload = _parse_status_payload(status)
+    for item in _walk_nested(payload):
+        reason_key = str(item.get("longKey") or item.get("shortKey") or "").lower()
+        reason_short = str(item.get("short") or "").strip().lower()
+        reason_long = str(item.get("long") or "").strip().lower()
+        if (
+            "afterpenalties" in reason_key
+            or "penalties_short" in reason_key
+            or reason_short == "pen"
+            or reason_long.startswith("pen ")
+            or "penalties" in item
+            or "penaltyScore" in item
+            or "penaltyScoreStr" in item
+        ):
+            return True
+    return False
+
+
+def _extract_penalty_loser(status: Any) -> str | None:
+    payload = _parse_status_payload(status)
+    for item in _walk_nested(payload):
+        loser = item.get("whoLostOnPenalties")
+        if isinstance(loser, str) and loser.strip():
+            return loser.strip()
+    return None
+
+
+def _match_json_status(fotmob_match_id: Any) -> dict[str, Any]:
+    match_id = _fixture_id_key(fotmob_match_id)
+    if not match_id:
+        return {}
+    path = RAW_DIR / "fotmob" / "matches" / f"match_{match_id}.json"
+    data = read_json_if_exists(path)
+    for container_key in ["header", "general"]:
+        container = data.get(container_key)
+        if isinstance(container, dict) and isinstance(container.get("status"), dict):
+            return container["status"]
+    return {}
+
+
+def _knockout_winner_code(row: pd.Series, use_scores: bool = False) -> str | None:
+    home_score = _numeric_or_none(row.get("home_score"))
+    away_score = _numeric_or_none(row.get("away_score"))
+    home_penalties = _numeric_or_none(row.get("home_penalty_score"))
+    away_penalties = _numeric_or_none(row.get("away_penalty_score"))
+    if use_scores and home_score is not None and away_score is not None:
+        if home_score > away_score:
+            return "home"
+        if away_score > home_score:
+            return "away"
+        if home_penalties is not None and away_penalties is not None:
+            if home_penalties > away_penalties:
+                return "home"
+            if away_penalties > home_penalties:
+                return "away"
+        penalty_loser = row.get("penalty_loser")
+        if isinstance(penalty_loser, str) and penalty_loser.strip():
+            loser_key = _result_team_key(penalty_loser)
+            home_key = _result_team_key(row.get("home_team"))
+            away_key = _result_team_key(row.get("away_team"))
+            if loser_key == home_key:
+                return "away"
+            if loser_key == away_key:
+                return "home"
+
+    home_probability = _numeric_or_none(row.get("display_home_win_probability", row.get("home_win_probability")))
+    away_probability = _numeric_or_none(row.get("display_away_win_probability", row.get("away_win_probability")))
+    if home_probability is None or away_probability is None:
+        return None
+    return "home" if home_probability >= away_probability else "away"
+
+
+def apply_knockout_outcomes(matches: pd.DataFrame) -> pd.DataFrame:
+    if matches.empty or "round" not in matches.columns:
+        return matches
+    matches = matches.copy()
+    knockout = matches["round"].map(is_knockout_round)
+    if not knockout.any():
+        return matches
+
+    for column in ["home_penalty_score", "away_penalty_score", "knockout_winner", "display_predicted_result", "display_predicted_winner"]:
+        if column not in matches.columns:
+            matches[column] = pd.NA
+
+    for index, row in matches[knockout].iterrows():
+        winner_code = _knockout_winner_code(row, use_scores=True)
+        pick_code = _knockout_winner_code(row)
+        home = str(row.get("home_team", "Team A"))
+        away = str(row.get("away_team", "Team B"))
+        if winner_code:
+            matches.at[index, "knockout_winner"] = home if winner_code == "home" else away
+            matches.at[index, "actual_winner"] = home if winner_code == "home" else away
+        if pick_code:
+            pick = home if pick_code == "home" else away
+            matches.at[index, "display_predicted_winner"] = pick
+            matches.at[index, "display_predicted_result"] = f"{pick} win"
+    return matches
 
 
 def _completed_match_fotmob_evidence(row: pd.Series) -> list[dict[str, Any]]:
@@ -321,6 +566,7 @@ def merge_fixtures_and_predictions(fixtures: pd.DataFrame, predictions: pd.DataF
     elif "predicted_result" in merged.columns:
         merged["display_predicted_result"] = merged["predicted_result"]
 
+    merged = apply_knockout_outcomes(merged)
     return add_matchweeks(merged)
 
 

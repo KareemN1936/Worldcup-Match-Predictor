@@ -1,50 +1,50 @@
 {
   "fixture": {
-    "fixture_id": 537336,
-    "date": "2026-06-18T22:00:00Z",
-    "round": "GROUP_STAGE",
-    "group": "GROUP_B",
+    "fixture_id": 537376,
+    "date": "2026-07-04 17:00:00+00:00",
+    "round": "LAST_16",
+    "group": null,
     "home_team": "Canada",
-    "away_team": "Qatar"
+    "away_team": "Morocco"
   },
   "base_prediction": {
-    "home_win_probability": 0.6854764819145203,
-    "draw_probability": 0.2058631926774978,
-    "away_win_probability": 0.1086603477597236,
-    "predicted_result": "Team A win",
+    "home_win_probability": 0.2512083649635315,
+    "draw_probability": 0.3006967902183532,
+    "away_win_probability": 0.4480948448181152,
+    "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
-      "elo_diff": 131.27750478914254,
-      "elo_gap_abs": 131.27750478914254,
-      "points_last_5_diff": 4.0,
-      "points_last_10_diff": 8.0,
-      "goal_difference_last_5_diff": 6.0,
-      "goals_for_last_5_diff": 4.0,
-      "goals_against_last_5_diff": -2.0,
-      "weighted_points_last_5_diff": 3.5,
-      "weighted_goal_difference_last_5_diff": 7.5,
-      "wins_last_5_diff": 1.0,
-      "draws_last_5_diff": 1.0,
-      "losses_last_5_diff": -2.0,
-      "clean_sheets_last_5_diff": 1.0,
-      "failed_to_score_last_5_diff": -2.0,
-      "matches_played_2y_diff": 5.0,
-      "win_rate_2y_diff": 0.23333333333333334,
-      "draw_rate_2y_diff": 0.07333333333333336,
-      "loss_rate_2y_diff": -0.30666666666666664,
-      "goals_for_per_match_2y_diff": 0.1333333333333333,
-      "goals_against_per_match_2y_diff": -1.1400000000000001,
-      "goal_difference_per_match_2y_diff": 1.2733333333333334,
-      "clean_sheet_rate_2y_diff": 0.38,
-      "failed_to_score_rate_2y_diff": 0.05333333333333329,
-      "draw_rate_2y_mean": 0.39666666666666667,
-      "goals_total_per_match_2y_mean": 2.5366666666666666,
-      "goals_against_per_match_2y_mean": 1.27,
-      "clean_sheet_rate_2y_mean": 0.31,
-      "failed_to_score_rate_2y_mean": 0.30666666666666664,
-      "recent_draws_last_5_sum": 7.0,
+      "elo_diff": -123.89573520828321,
+      "elo_gap_abs": 123.89573520828321,
+      "points_last_5_diff": -4.0,
+      "points_last_10_diff": -7.0,
+      "goal_difference_last_5_diff": -8.0,
+      "goals_for_last_5_diff": -7.0,
+      "goals_against_last_5_diff": 1.0,
+      "weighted_points_last_5_diff": -4.0,
+      "weighted_goal_difference_last_5_diff": -8.0,
+      "wins_last_5_diff": -2.0,
+      "draws_last_5_diff": 2.0,
+      "losses_last_5_diff": 0.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": 1.0,
+      "matches_played_2y_diff": -5.0,
+      "win_rate_2y_diff": -0.3952380952380953,
+      "draw_rate_2y_diff": 0.2619047619047619,
+      "loss_rate_2y_diff": 0.13333333333333333,
+      "goals_for_per_match_2y_diff": -1.0666666666666667,
+      "goals_against_per_match_2y_diff": 0.3857142857142857,
+      "goal_difference_per_match_2y_diff": -1.4523809523809526,
+      "clean_sheet_rate_2y_diff": -0.2142857142857143,
+      "failed_to_score_rate_2y_diff": 0.27619047619047615,
+      "draw_rate_2y_mean": 0.3023809523809524,
+      "goals_total_per_match_2y_mean": 2.373809523809524,
+      "goals_against_per_match_2y_mean": 0.5071428571428571,
+      "clean_sheet_rate_2y_mean": 0.6071428571428572,
+      "failed_to_score_rate_2y_mean": 0.19523809523809524,
+      "recent_draws_last_5_sum": 6.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -52,144 +52,144 @@
       {
         "feature": "elo_diff",
         "label": "Elo advantage",
-        "value": 131.27750478914254,
-        "leader": "Canada"
-      },
-      {
-        "feature": "points_last_10_diff",
-        "label": "points last 10",
-        "value": 8.0,
-        "leader": "Canada"
+        "value": -123.89573520828321,
+        "leader": "Morocco"
       },
       {
         "feature": "goal_difference_last_5_diff",
         "label": "goal difference last 5",
-        "value": 6.0,
-        "leader": "Canada"
+        "value": -8.0,
+        "leader": "Morocco"
       },
       {
-        "feature": "points_last_5_diff",
-        "label": "points last 5",
-        "value": 4.0,
-        "leader": "Canada"
+        "feature": "points_last_10_diff",
+        "label": "points last 10",
+        "value": -7.0,
+        "leader": "Morocco"
       },
       {
         "feature": "goals_for_last_5_diff",
         "label": "goals for last 5",
-        "value": 4.0,
-        "leader": "Canada"
+        "value": -7.0,
+        "leader": "Morocco"
+      },
+      {
+        "feature": "points_last_5_diff",
+        "label": "points last 5",
+        "value": -4.0,
+        "leader": "Morocco"
       }
     ],
     "all": [
       {
         "feature": "elo_diff",
         "label": "Elo advantage",
-        "value": 131.27750478914254,
-        "leader": "Canada"
+        "value": -123.89573520828321,
+        "leader": "Morocco"
       },
       {
         "feature": "points_last_5_diff",
         "label": "points last 5",
-        "value": 4.0,
-        "leader": "Canada"
+        "value": -4.0,
+        "leader": "Morocco"
       },
       {
         "feature": "points_last_10_diff",
         "label": "points last 10",
-        "value": 8.0,
-        "leader": "Canada"
+        "value": -7.0,
+        "leader": "Morocco"
       },
       {
         "feature": "goal_difference_last_5_diff",
         "label": "goal difference last 5",
-        "value": 6.0,
-        "leader": "Canada"
+        "value": -8.0,
+        "leader": "Morocco"
       },
       {
         "feature": "goals_for_last_5_diff",
         "label": "goals for last 5",
-        "value": 4.0,
-        "leader": "Canada"
+        "value": -7.0,
+        "leader": "Morocco"
       },
       {
         "feature": "goals_against_last_5_diff",
         "label": "goals against last 5",
-        "value": -2.0,
-        "leader": "Canada"
+        "value": 1.0,
+        "leader": "Morocco"
       },
       {
         "feature": "weighted_points_last_5_diff",
         "label": "weighted points last 5",
-        "value": 3.5,
-        "leader": "Canada"
+        "value": -4.0,
+        "leader": "Morocco"
       },
       {
         "feature": "win_rate_2y_diff",
         "label": "2-year win rate",
-        "value": 0.23333333333333334,
-        "leader": "Canada"
+        "value": -0.3952380952380953,
+        "leader": "Morocco"
       },
       {
         "feature": "goal_difference_per_match_2y_diff",
         "label": "2-year goal difference per match",
-        "value": 1.2733333333333334,
-        "leader": "Canada"
+        "value": -1.4523809523809526,
+        "leader": "Morocco"
       },
       {
         "feature": "goals_against_per_match_2y_diff",
         "label": "2-year goals against per match",
-        "value": -1.1400000000000001,
-        "leader": "Canada"
+        "value": 0.3857142857142857,
+        "leader": "Morocco"
       },
       {
         "feature": "clean_sheet_rate_2y_diff",
         "label": "2-year clean-sheet rate",
-        "value": 0.38,
-        "leader": "Canada"
+        "value": -0.2142857142857143,
+        "leader": "Morocco"
       },
       {
         "feature": "failed_to_score_rate_2y_diff",
         "label": "2-year failed-to-score rate",
-        "value": 0.05333333333333329,
-        "leader": "Qatar"
+        "value": 0.27619047619047615,
+        "leader": "Morocco"
       }
     ]
   },
   "fotmob_layer": {
     "available": true,
     "feature_count": 8,
-    "reliability": 0.4444444444444444,
-    "enrichment_score": 0.0290909090909091,
-    "probability_shift": 0.0012470607102519,
-    "top_signals": "starting XI rating:home; points per match:away; goal difference:away",
-    "home_win_probability": 0.6868948471866761,
-    "draw_probability": 0.2056650713044539,
-    "away_win_probability": 0.1074400815088699,
-    "predicted_result": "Team A win",
+    "reliability": 0.8888888888888888,
+    "enrichment_score": -0.0114297520661156,
+    "probability_shift": -0.0010159779614325,
+    "top_signals": "goal difference:home; points per match:away; starting XI rating:away",
+    "home_win_probability": 0.250192387002099,
+    "draw_probability": 0.3006967902183532,
+    "away_win_probability": 0.4491108227795477,
+    "predicted_result": "Team A loss",
     "strongest": [
       {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
-        "value": 0.2000000000000001,
+        "feature": "fotmob_goal_difference_per_match_diff",
+        "label": "goal difference per match",
+        "value": 0.75,
         "leader": "Canada"
       },
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -0.25,
+        "leader": "Morocco"
       },
       {
-        "feature": "fotmob_goal_difference_per_match_diff",
-        "label": "goal difference per match",
-        "value": 0.0,
-        "leader": "Even"
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
+        "value": -0.2004545454545452,
+        "leader": "Morocco"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -0.0499999999999998,
+        "leader": "Morocco"
       },
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
@@ -202,26 +202,26 @@
       {
         "feature": "fotmob_points_per_match_diff",
         "label": "points per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -0.25,
+        "leader": "Morocco"
       },
       {
         "feature": "fotmob_goal_difference_per_match_diff",
         "label": "goal difference per match",
-        "value": 0.0,
-        "leader": "Even"
+        "value": 0.75,
+        "leader": "Canada"
       },
       {
         "feature": "fotmob_avg_player_rating_diff",
         "label": "average player rating",
-        "value": 0.0,
-        "leader": "Even"
+        "value": -0.0499999999999998,
+        "leader": "Morocco"
       },
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.2000000000000001,
-        "leader": "Canada"
+        "value": -0.2004545454545452,
+        "leader": "Morocco"
       },
       {
         "feature": "fotmob_shots_on_target_per_match_diff",
@@ -258,23 +258,17 @@
   "squad_context": {
     "available": true,
     "home_avg_age": 26.46153846153846,
-    "away_avg_age": 28.846153846153847,
+    "away_avg_age": 25.884615384615383,
     "home_forwards": 6.0,
-    "away_forwards": 6.0,
+    "away_forwards": 5.0,
     "home_midfielders": 9.0,
-    "away_midfielders": 8.0,
+    "away_midfielders": 9.0,
     "home_defenders": 8.0,
     "away_defenders": 9.0,
     "strongest": [
       {
-        "feature": "squad_avg_age_diff",
-        "label": "average age",
-        "value": -2.384615384615387,
-        "leader": "Canada"
-      },
-      {
-        "feature": "num_midfielders_diff",
-        "label": "listed midfielders",
+        "feature": "num_forwards_diff",
+        "label": "listed forwards",
         "value": 1.0,
         "leader": "Canada"
       },
@@ -282,7 +276,13 @@
         "feature": "num_defenders_diff",
         "label": "listed defenders",
         "value": -1.0,
-        "leader": "Qatar"
+        "leader": "Morocco"
+      },
+      {
+        "feature": "squad_avg_age_diff",
+        "label": "average age",
+        "value": 0.5769230769230766,
+        "leader": "Morocco"
       },
       {
         "feature": "squad_size_diff",
@@ -291,8 +291,8 @@
         "leader": "Even"
       },
       {
-        "feature": "num_forwards_diff",
-        "label": "listed forwards",
+        "feature": "num_midfielders_diff",
+        "label": "listed midfielders",
         "value": 0.0,
         "leader": "Even"
       }
@@ -301,8 +301,8 @@
       {
         "feature": "squad_avg_age_diff",
         "label": "average age",
-        "value": -2.384615384615387,
-        "leader": "Canada"
+        "value": 0.5769230769230766,
+        "leader": "Morocco"
       },
       {
         "feature": "squad_size_diff",
@@ -313,26 +313,26 @@
       {
         "feature": "num_forwards_diff",
         "label": "listed forwards",
-        "value": 0.0,
-        "leader": "Even"
+        "value": 1.0,
+        "leader": "Canada"
       },
       {
         "feature": "num_midfielders_diff",
         "label": "listed midfielders",
-        "value": 1.0,
-        "leader": "Canada"
+        "value": 0.0,
+        "leader": "Even"
       },
       {
         "feature": "num_defenders_diff",
         "label": "listed defenders",
         "value": -1.0,
-        "leader": "Qatar"
+        "leader": "Morocco"
       }
     ]
   },
   "final_recommendation": {
-    "result_to_show": "Team A win",
-    "source": "base_model",
-    "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
+    "result_to_show": "Team A loss",
+    "source": "fotmob_enriched",
+    "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
   }
 }

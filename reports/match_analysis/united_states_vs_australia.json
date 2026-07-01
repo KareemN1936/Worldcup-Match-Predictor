@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537348,
-    "date": "2026-06-19 19:00:00+00:00",
+    "date": "2026-06-19T19:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_D",
     "home_team": "United States",
     "away_team": "Australia"
   },
   "base_prediction": {
-    "home_win_probability": 0.3300175368785858,
-    "draw_probability": 0.2904301285743713,
-    "away_win_probability": 0.3795523643493652,
+    "home_win_probability": 0.3634484708309173,
+    "draw_probability": 0.2556073665618896,
+    "away_win_probability": 0.3809441924095154,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
@@ -159,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.0498402203856747,
-    "probability_shift": 0.0022151209060299,
+    "enrichment_score": 0.0539393939393937,
+    "probability_shift": 0.0023973063973063,
     "top_signals": "goal difference:home; player rating:away; starting XI rating:home",
-    "home_win_probability": 0.3322326478833113,
-    "draw_probability": 0.2904301199188793,
-    "away_win_probability": 0.3773372321978094,
+    "home_win_probability": 0.3660212593412539,
+    "draw_probability": 0.2552502803013533,
+    "away_win_probability": 0.3787284603573926,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -182,7 +182,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.0718181818181813,
+        "value": 0.0999999999999996,
         "leader": "United States"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.0718181818181813,
+        "value": 0.0999999999999996,
         "leader": "United States"
       },
       {

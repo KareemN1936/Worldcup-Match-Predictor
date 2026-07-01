@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537409,
-    "date": "2026-06-17 20:00:00+00:00",
+    "date": "2026-06-17T20:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_L",
     "home_team": "England",
     "away_team": "Croatia"
   },
   "base_prediction": {
-    "home_win_probability": 0.5604249238967896,
-    "draw_probability": 0.2511429190635681,
-    "away_win_probability": 0.1884321123361587,
+    "home_win_probability": 0.5805612802505493,
+    "draw_probability": 0.2604249119758606,
+    "away_win_probability": 0.1590138226747512,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.560424948949737,
-    "draw_probability": 0.251142930290532,
-    "away_win_probability": 0.1884321207597309,
+    "home_win_probability": 0.5805612715995122,
+    "draw_probability": 0.260424908095227,
+    "away_win_probability": 0.1590138203052607,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [

@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537357,
-    "date": "2026-06-14 20:00:00+00:00",
+    "date": "2026-06-14T20:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_F",
     "home_team": "Netherlands",
     "away_team": "Japan"
   },
   "base_prediction": {
-    "home_win_probability": 0.3790728151798248,
-    "draw_probability": 0.2907270193099975,
-    "away_win_probability": 0.3302001357078552,
+    "home_win_probability": 0.3923616707324981,
+    "draw_probability": 0.2663000524044037,
+    "away_win_probability": 0.3413383066654205,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.3790728264770754,
-    "draw_probability": 0.2907270279743382,
-    "away_win_probability": 0.3302001455485864,
+    "home_win_probability": 0.3923616590392095,
+    "draw_probability": 0.2663000444680439,
+    "away_win_probability": 0.3413382964927465,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [

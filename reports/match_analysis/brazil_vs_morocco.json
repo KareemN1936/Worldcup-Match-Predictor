@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537339,
-    "date": "2026-06-13 22:00:00+00:00",
+    "date": "2026-06-13T22:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_C",
     "home_team": "Brazil",
     "away_team": "Morocco"
   },
   "base_prediction": {
-    "home_win_probability": 0.3458520770072937,
-    "draw_probability": 0.3191688656806946,
-    "away_win_probability": 0.3349790573120117,
+    "home_win_probability": 0.3908826112747192,
+    "draw_probability": 0.2443260848522186,
+    "away_win_probability": 0.3647912740707397,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.3458520770072937,
-    "draw_probability": 0.3191688656806946,
-    "away_win_probability": 0.3349790573120117,
+    "home_win_probability": 0.3908826229239291,
+    "draw_probability": 0.2443260921337036,
+    "away_win_probability": 0.3647912849423672,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [

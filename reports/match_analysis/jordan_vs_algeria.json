@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537400,
-    "date": "2026-06-23 03:00:00+00:00",
+    "date": "2026-06-23T03:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_J",
     "home_team": "Jordan",
     "away_team": "Algeria"
   },
   "base_prediction": {
-    "home_win_probability": 0.2264574766159057,
-    "draw_probability": 0.2938820123672485,
-    "away_win_probability": 0.4796605110168457,
+    "home_win_probability": 0.2511711418628692,
+    "draw_probability": 0.2400495707988739,
+    "away_win_probability": 0.5087792873382568,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
@@ -159,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.1791625344352618,
-    "probability_shift": 0.0079627793082338,
+    "enrichment_score": 0.1775757575757575,
+    "probability_shift": 0.0078922558922558,
     "top_signals": "goal difference:home; starting XI rating:home; player rating:home",
-    "home_win_probability": 0.2344202559241396,
-    "draw_probability": 0.2938820123672485,
-    "away_win_probability": 0.4716977317086118,
+    "home_win_probability": 0.2594729631596006,
+    "draw_probability": 0.2388481297322694,
+    "away_win_probability": 0.5016789071081299,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -176,7 +176,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.5109090909090916,
+        "value": 0.5,
         "leader": "Jordan"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.5109090909090916,
+        "value": 0.5,
         "leader": "Jordan"
       },
       {

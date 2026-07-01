@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537353,
-    "date": "2026-06-20 20:00:00+00:00",
+    "date": "2026-06-20T20:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_E",
     "home_team": "Germany",
     "away_team": "Ivory Coast"
   },
   "base_prediction": {
-    "home_win_probability": 0.5846837162971497,
-    "draw_probability": 0.2680135667324066,
-    "away_win_probability": 0.1473027318716049,
+    "home_win_probability": 0.6976494193077087,
+    "draw_probability": 0.1782971769571304,
+    "away_win_probability": 0.1240533515810966,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -159,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.3185123966942148,
-    "probability_shift": 0.0141561065197428,
+    "enrichment_score": 0.2854545454545454,
+    "probability_shift": 0.0120823467611062,
     "top_signals": "goal difference:home; starting XI rating:home; player rating:away",
-    "home_win_probability": 0.598839813893484,
-    "draw_probability": 0.2680135627386933,
-    "away_win_probability": 0.1331466233678227,
+    "home_win_probability": 0.7114510027175502,
+    "draw_probability": 0.1763067566741156,
+    "away_win_probability": 0.1122422406083341,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -176,7 +176,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.7272727272727266,
+        "value": 0.5,
         "leader": "Germany"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.7272727272727266,
+        "value": 0.5,
         "leader": "Germany"
       },
       {

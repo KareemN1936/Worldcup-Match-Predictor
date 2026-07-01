@@ -1,13 +1,13 @@
 Uruguay vs Cape Verde Islands
 
-Date: 2026-06-21 22:00:00+00:00
+Date: 2026-06-21T22:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_H
 
 Base Prediction:
-Uruguay Win: 80.7%
-Draw: 14.2%
-Cape Verde Islands Win: 5.1%
+Uruguay Win: 90.2%
+Draw: 7.3%
+Cape Verde Islands Win: 2.5%
 Predicted result: Team A win
 Decision policy: draw_threshold
 
@@ -24,9 +24,9 @@ Reliability: 0.28
 Enrichment score: -0.01
 Probability shift: -0.0002
 Top signals: shots on target:away; yellow cards:home; points per match:away
-Uruguay Win: 80.7%
-Draw: 14.2%
-Cape Verde Islands Win: 5.1%
+Uruguay Win: 90.2%
+Draw: 7.3%
+Cape Verde Islands Win: 2.5%
 FotMob-enriched result: Team A win
 
 Squad Context:

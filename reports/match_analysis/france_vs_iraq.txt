@@ -1,13 +1,13 @@
 France vs Iraq
 
-Date: 2026-06-22 21:00:00+00:00
+Date: 2026-06-22T21:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_I
 
 Base Prediction:
-France Win: 75.3%
-Draw: 17.6%
-Iraq Win: 7.1%
+France Win: 81.6%
+Draw: 11.8%
+Iraq Win: 6.6%
 Predicted result: Team A win
 Decision policy: draw_threshold
 
@@ -22,11 +22,11 @@ FotMob Layer:
 Features available: 8
 Reliability: 0.44
 Enrichment score: 0.67
-Probability shift: 0.0267
+Probability shift: 0.0249
 Top signals: points per match:home; goal difference:home; starting XI rating:home
-France Win: 78.0%
-Draw: 17.6%
-Iraq Win: 4.4%
+France Win: 84.5%
+Draw: 11.4%
+Iraq Win: 4.1%
 FotMob-enriched result: Team A win
 
 Squad Context:

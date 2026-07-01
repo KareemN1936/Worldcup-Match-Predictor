@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537366,
-    "date": "2026-06-22 01:00:00+00:00",
+    "date": "2026-06-22T01:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_G",
     "home_team": "New Zealand",
     "away_team": "Egypt"
   },
   "base_prediction": {
-    "home_win_probability": 0.2879950702190399,
-    "draw_probability": 0.2976936399936676,
-    "away_win_probability": 0.4143112599849701,
+    "home_win_probability": 0.3077980577945709,
+    "draw_probability": 0.2388717383146286,
+    "away_win_probability": 0.453330248594284,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
@@ -159,23 +159,23 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": -0.029223140495868,
-    "probability_shift": -0.0012988062442608,
-    "top_signals": "starting XI rating:away; player rating:away; points per match:away",
-    "home_win_probability": 0.2866962725189938,
-    "draw_probability": 0.2976936488656297,
-    "away_win_probability": 0.4156100786153764,
+    "enrichment_score": -0.0290909090909092,
+    "probability_shift": -0.0012929292929292,
+    "top_signals": "player rating:away; starting XI rating:away; points per match:away",
+    "home_win_probability": 0.3065843931847919,
+    "draw_probability": 0.2386748597299711,
+    "away_win_probability": 0.4547407470852367,
     "predicted_result": "Team A loss",
     "strongest": [
       {
-        "feature": "fotmob_starting_xi_avg_rating_diff",
-        "label": "starting XI rating",
-        "value": -0.1009090909090923,
+        "feature": "fotmob_avg_player_rating_diff",
+        "label": "average player rating",
+        "value": -0.1000000000000005,
         "leader": "Egypt"
       },
       {
-        "feature": "fotmob_avg_player_rating_diff",
-        "label": "average player rating",
+        "feature": "fotmob_starting_xi_avg_rating_diff",
+        "label": "starting XI rating",
         "value": -0.1000000000000005,
         "leader": "Egypt"
       },
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.1009090909090923,
+        "value": -0.1000000000000005,
         "leader": "Egypt"
       },
       {

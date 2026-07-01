@@ -19,6 +19,7 @@ from src.web.data_loader import (
     load_teams,
     load_update_status,
     merge_fixtures_and_predictions,
+    is_knockout_round,
 )
 from src.web.flags import build_flag_lookup
 from src.web.notes import build_model_notes, confidence_from_probabilities, most_likely_result
@@ -94,6 +95,7 @@ def dashboard_data_version() -> tuple[tuple[str, int], ...]:
         ROOT_DIR / "models" / "model_metadata.json",
     ]
     paths.extend(sorted((ROOT_DIR / "data" / "raw" / "fotmob" / "matches").glob("date_*.json")))
+    paths.extend(sorted((ROOT_DIR / "data" / "raw" / "fotmob" / "matches").glob("match_*.json")))
     return tuple(
         (str(path.relative_to(ROOT_DIR)), path.stat().st_mtime_ns if path.exists() else -1)
         for path in paths
@@ -198,6 +200,13 @@ def live_prediction_metrics(
     actual = pd.Series("draw", index=played.index)
     actual.loc[played["home_score"] > played["away_score"]] = "home"
     actual.loc[played["away_score"] > played["home_score"]] = "away"
+    knockout = played.get("round", pd.Series(index=played.index, dtype=str)).map(is_knockout_round)
+    if {"home_penalty_score", "away_penalty_score"}.issubset(played.columns):
+        played["home_penalty_score"] = pd.to_numeric(played["home_penalty_score"], errors="coerce")
+        played["away_penalty_score"] = pd.to_numeric(played["away_penalty_score"], errors="coerce")
+        tied_knockout = knockout & (played["home_score"] == played["away_score"])
+        actual.loc[tied_knockout & (played["home_penalty_score"] > played["away_penalty_score"])] = "home"
+        actual.loc[tied_knockout & (played["away_penalty_score"] > played["home_penalty_score"])] = "away"
 
     predicted = probabilities.idxmax(axis=1).map(
         {
@@ -206,6 +215,19 @@ def live_prediction_metrics(
             "display_away_win_probability": "away",
         }
     )
+    predicted.loc[knockout] = probabilities.loc[knockout, ["display_home_win_probability", "display_away_win_probability"]].idxmax(axis=1).map(
+        {
+            "display_home_win_probability": "home",
+            "display_away_win_probability": "away",
+        }
+    )
+    unknown_knockout_winner = knockout & (played["home_score"] == played["away_score"]) & (actual == "draw")
+    if unknown_knockout_winner.any():
+        played = played.loc[~unknown_knockout_winner]
+        actual = actual.loc[played.index]
+        predicted = predicted.loc[played.index]
+        if played.empty:
+            return 0, 0, None, 0, 0, None
     correct = int((actual == predicted).sum())
     total = len(played)
     decisive = actual != "draw"
@@ -412,7 +434,13 @@ elif page == "Match Detail":
         home_prob = row.get("display_home_win_probability", row.get("home_win_probability"))
         draw_prob = row.get("display_draw_probability", row.get("draw_probability"))
         away_prob = row.get("display_away_win_probability", row.get("away_win_probability"))
-        render_section_head("Prediction Snapshot", "The model's probability distribution for this fixture.", "Probabilities")
+        knockout_match = is_knockout_round(row.get("round"))
+        snapshot_body = (
+            "Knockout pick resolves to a winner; draw probability means level after 90 minutes."
+            if knockout_match
+            else "The model's probability distribution for this fixture."
+        )
+        render_section_head("Prediction Snapshot", snapshot_body, "Probabilities")
         render_stat_grid(
             [
                 {"label": "Most likely", "value": most_likely_result(row), "hint": "Top outcome", "color": "var(--color-accent)"},
@@ -427,7 +455,10 @@ elif page == "Match Detail":
             ]
         )
 
-        render_section_head("Win Probability", "Home, draw, and away outcome chances.", "Model output")
+        if knockout_match:
+            render_section_head("Winner Probability", "Home and away decide the winner; draw is the 90-minute tie risk.", "Model output")
+        else:
+            render_section_head("Win Probability", "Home, draw, and away outcome chances.", "Model output")
         render_probability_bars(row)
 
         render_section_head("Model Notes", "Plain-English signals from the saved model and match analysis files.", "Why this pick")

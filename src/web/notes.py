@@ -3,6 +3,8 @@ from typing import Any
 
 import pandas as pd
 
+from .data_loader import is_knockout_round
+
 
 def _is_number(value: Any) -> bool:
     try:
@@ -30,6 +32,16 @@ def most_likely_result(row: pd.Series) -> str:
     away = row.get("display_away_win_probability", row.get("away_win_probability"))
     if not all(_is_number(value) for value in [home, draw, away]):
         return "Prediction unavailable"
+
+    if is_knockout_round(row.get("round")):
+        winner = row.get("display_predicted_winner")
+        if isinstance(winner, str) and winner.strip():
+            return f"{winner.strip()} win"
+        values = {
+            f"{row.get('home_team', 'Team A')} win": float(home),
+            f"{row.get('away_team', 'Team B')} win": float(away),
+        }
+        return max(values, key=values.get)
 
     values = {
         f"{row.get('home_team', 'Team A')} win": float(home),

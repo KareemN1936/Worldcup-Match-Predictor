@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537330,
-    "date": "2026-06-19 01:00:00+00:00",
+    "date": "2026-06-19T01:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_A",
     "home_team": "Mexico",
     "away_team": "South Korea"
   },
   "base_prediction": {
-    "home_win_probability": 0.4482094943523407,
-    "draw_probability": 0.3182691633701324,
-    "away_win_probability": 0.2335212975740432,
+    "home_win_probability": 0.5011179447174072,
+    "draw_probability": 0.2622926831245422,
+    "away_win_probability": 0.2365893572568893,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -159,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.0089807162534432,
-    "probability_shift": 0.0003991429445974,
+    "enrichment_score": -0.0333333333333335,
+    "probability_shift": -0.0014814814814814,
     "top_signals": "goal difference:home; player rating:away; starting XI rating:away",
-    "home_win_probability": 0.4486086573513079,
-    "draw_probability": 0.3182691775978734,
-    "away_win_probability": 0.2331221650508186,
+    "home_win_probability": 0.4997845549958873,
+    "draw_probability": 0.2620740423015428,
+    "away_win_probability": 0.2381414027025698,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -182,7 +182,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.0090909090909097,
+        "value": -0.3000000000000007,
         "leader": "South Korea"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.0090909090909097,
+        "value": -0.3000000000000007,
         "leader": "South Korea"
       },
       {

@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537369,
-    "date": "2026-06-15 16:00:00+00:00",
+    "date": "2026-06-15T16:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_H",
     "home_team": "Spain",
     "away_team": "Cape Verde Islands"
   },
   "base_prediction": {
-    "home_win_probability": 0.9526678323745728,
-    "draw_probability": 0.0268986765295267,
-    "away_win_probability": 0.020433509722352,
+    "home_win_probability": 0.9462583661079408,
+    "draw_probability": 0.0370494574308395,
+    "away_win_probability": 0.0166921727359294,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.952667814629752,
-    "draw_probability": 0.0268986760284998,
-    "away_win_probability": 0.0204335093417482,
+    "home_win_probability": 0.9462583696330278,
+    "draw_probability": 0.0370494575688595,
+    "away_win_probability": 0.0166921727981126,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [

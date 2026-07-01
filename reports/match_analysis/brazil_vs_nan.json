@@ -1,50 +1,50 @@
 {
   "fixture": {
-    "fixture_id": 537364,
-    "date": "2026-06-16T01:00:00Z",
-    "round": "GROUP_STAGE",
-    "group": "GROUP_G",
-    "home_team": "Iran",
-    "away_team": "New Zealand"
+    "fixture_id": 537377,
+    "date": "2026-07-05 20:00:00+00:00",
+    "round": "LAST_16",
+    "group": null,
+    "home_team": "Brazil",
+    "away_team": NaN
   },
   "base_prediction": {
-    "home_win_probability": 0.6636757254600525,
-    "draw_probability": 0.2024446278810501,
-    "away_win_probability": 0.1338796466588974,
+    "home_win_probability": 0.932031512260437,
+    "draw_probability": 0.051104050129652,
+    "away_win_probability": 0.0168644078075885,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
     "features": {
-      "elo_diff": 132.44203521458962,
-      "elo_gap_abs": 132.44203521458962,
-      "points_last_5_diff": 6.0,
-      "points_last_10_diff": 13.0,
-      "goal_difference_last_5_diff": 12.0,
-      "goals_for_last_5_diff": 7.0,
-      "goals_against_last_5_diff": -5.0,
-      "weighted_points_last_5_diff": 4.5,
-      "weighted_goal_difference_last_5_diff": 11.5,
-      "wins_last_5_diff": 2.0,
-      "draws_last_5_diff": 0.0,
-      "losses_last_5_diff": -2.0,
-      "clean_sheets_last_5_diff": 2.0,
-      "failed_to_score_last_5_diff": -3.0,
-      "matches_played_2y_diff": -6.0,
-      "win_rate_2y_diff": 0.09894736842105267,
-      "draw_rate_2y_diff": 0.1431578947368421,
-      "loss_rate_2y_diff": -0.24210526315789477,
-      "goals_for_per_match_2y_diff": -0.5578947368421052,
-      "goals_against_per_match_2y_diff": -0.29052631578947374,
-      "goal_difference_per_match_2y_diff": -0.2673684210526317,
-      "clean_sheet_rate_2y_diff": 0.12631578947368416,
-      "failed_to_score_rate_2y_diff": -0.06947368421052635,
-      "draw_rate_2y_mean": 0.19157894736842104,
-      "goals_total_per_match_2y_mean": 3.055789473684211,
-      "goals_against_per_match_2y_mean": 0.9347368421052632,
-      "clean_sheet_rate_2y_mean": 0.4631578947368421,
-      "failed_to_score_rate_2y_mean": 0.24526315789473685,
-      "recent_draws_last_5_sum": 2.0,
+      "elo_diff": 410.63979317217036,
+      "elo_gap_abs": 410.63979317217036,
+      "points_last_5_diff": 10.0,
+      "points_last_10_diff": 17.0,
+      "goal_difference_last_5_diff": 6.0,
+      "goals_for_last_5_diff": 13.0,
+      "goals_against_last_5_diff": 7.0,
+      "weighted_points_last_5_diff": 13.5,
+      "weighted_goal_difference_last_5_diff": 6.0,
+      "wins_last_5_diff": 3.0,
+      "draws_last_5_diff": 1.0,
+      "losses_last_5_diff": 1.0,
+      "clean_sheets_last_5_diff": 0.0,
+      "failed_to_score_last_5_diff": 0.0,
+      "matches_played_2y_diff": 25.0,
+      "win_rate_2y_diff": 0.48,
+      "draw_rate_2y_diff": 0.32,
+      "loss_rate_2y_diff": 0.2,
+      "goals_for_per_match_2y_diff": 1.76,
+      "goals_against_per_match_2y_diff": 0.92,
+      "goal_difference_per_match_2y_diff": 0.84,
+      "clean_sheet_rate_2y_diff": 0.36,
+      "failed_to_score_rate_2y_diff": 0.2,
+      "draw_rate_2y_mean": 0.16,
+      "goals_total_per_match_2y_mean": 1.34,
+      "goals_against_per_match_2y_mean": 0.46,
+      "clean_sheet_rate_2y_mean": 0.18,
+      "failed_to_score_rate_2y_mean": 0.1,
+      "recent_draws_last_5_sum": 1.0,
       "neutral": 1.0,
       "match_importance": 4.5
     },
@@ -52,106 +52,106 @@
       {
         "feature": "elo_diff",
         "label": "Elo advantage",
-        "value": 132.44203521458962,
-        "leader": "Iran"
+        "value": 410.63979317217036,
+        "leader": "Brazil"
       },
       {
         "feature": "points_last_10_diff",
         "label": "points last 10",
-        "value": 13.0,
-        "leader": "Iran"
+        "value": 17.0,
+        "leader": "Brazil"
       },
       {
-        "feature": "goal_difference_last_5_diff",
-        "label": "goal difference last 5",
-        "value": 12.0,
-        "leader": "Iran"
+        "feature": "weighted_points_last_5_diff",
+        "label": "weighted points last 5",
+        "value": 13.5,
+        "leader": "Brazil"
       },
       {
         "feature": "goals_for_last_5_diff",
         "label": "goals for last 5",
-        "value": 7.0,
-        "leader": "Iran"
+        "value": 13.0,
+        "leader": "Brazil"
       },
       {
         "feature": "points_last_5_diff",
         "label": "points last 5",
-        "value": 6.0,
-        "leader": "Iran"
+        "value": 10.0,
+        "leader": "Brazil"
       }
     ],
     "all": [
       {
         "feature": "elo_diff",
         "label": "Elo advantage",
-        "value": 132.44203521458962,
-        "leader": "Iran"
+        "value": 410.63979317217036,
+        "leader": "Brazil"
       },
       {
         "feature": "points_last_5_diff",
         "label": "points last 5",
-        "value": 6.0,
-        "leader": "Iran"
+        "value": 10.0,
+        "leader": "Brazil"
       },
       {
         "feature": "points_last_10_diff",
         "label": "points last 10",
-        "value": 13.0,
-        "leader": "Iran"
+        "value": 17.0,
+        "leader": "Brazil"
       },
       {
         "feature": "goal_difference_last_5_diff",
         "label": "goal difference last 5",
-        "value": 12.0,
-        "leader": "Iran"
+        "value": 6.0,
+        "leader": "Brazil"
       },
       {
         "feature": "goals_for_last_5_diff",
         "label": "goals for last 5",
-        "value": 7.0,
-        "leader": "Iran"
+        "value": 13.0,
+        "leader": "Brazil"
       },
       {
         "feature": "goals_against_last_5_diff",
         "label": "goals against last 5",
-        "value": -5.0,
-        "leader": "Iran"
+        "value": 7.0,
+        "leader": NaN
       },
       {
         "feature": "weighted_points_last_5_diff",
         "label": "weighted points last 5",
-        "value": 4.5,
-        "leader": "Iran"
+        "value": 13.5,
+        "leader": "Brazil"
       },
       {
         "feature": "win_rate_2y_diff",
         "label": "2-year win rate",
-        "value": 0.09894736842105267,
-        "leader": "Iran"
+        "value": 0.48,
+        "leader": "Brazil"
       },
       {
         "feature": "goal_difference_per_match_2y_diff",
         "label": "2-year goal difference per match",
-        "value": -0.2673684210526317,
-        "leader": "New Zealand"
+        "value": 0.84,
+        "leader": "Brazil"
       },
       {
         "feature": "goals_against_per_match_2y_diff",
         "label": "2-year goals against per match",
-        "value": -0.29052631578947374,
-        "leader": "Iran"
+        "value": 0.92,
+        "leader": NaN
       },
       {
         "feature": "clean_sheet_rate_2y_diff",
         "label": "2-year clean-sheet rate",
-        "value": 0.12631578947368416,
-        "leader": "Iran"
+        "value": 0.36,
+        "leader": "Brazil"
       },
       {
         "feature": "failed_to_score_rate_2y_diff",
         "label": "2-year failed-to-score rate",
-        "value": -0.06947368421052635,
-        "leader": "Iran"
+        "value": 0.2,
+        "leader": NaN
       }
     ]
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.6636757254600525,
-    "draw_probability": 0.2024446278810501,
-    "away_win_probability": 0.1338796466588974,
+    "home_win_probability": 0.9320315400371414,
+    "draw_probability": 0.0511040516526714,
+    "away_win_probability": 0.0168644083101871,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [
@@ -225,77 +225,46 @@
     ]
   },
   "squad_context": {
-    "available": true,
-    "home_avg_age": 29.846153846153847,
-    "away_avg_age": 27.615384615384617,
-    "home_forwards": 8.0,
-    "away_forwards": 7.0,
-    "home_midfielders": 6.0,
-    "away_midfielders": 7.0,
+    "available": false,
+    "home_avg_age": 28.65384615384616,
+    "away_avg_age": null,
+    "home_forwards": 9.0,
+    "away_forwards": null,
+    "home_midfielders": 5.0,
+    "away_midfielders": null,
     "home_defenders": 9.0,
-    "away_defenders": 9.0,
-    "strongest": [
-      {
-        "feature": "squad_avg_age_diff",
-        "label": "average age",
-        "value": 2.23076923076923,
-        "leader": "New Zealand"
-      },
-      {
-        "feature": "num_forwards_diff",
-        "label": "listed forwards",
-        "value": 1.0,
-        "leader": "Iran"
-      },
-      {
-        "feature": "num_midfielders_diff",
-        "label": "listed midfielders",
-        "value": -1.0,
-        "leader": "New Zealand"
-      },
-      {
-        "feature": "squad_size_diff",
-        "label": "squad size",
-        "value": 0.0,
-        "leader": "Even"
-      },
-      {
-        "feature": "num_defenders_diff",
-        "label": "listed defenders",
-        "value": 0.0,
-        "leader": "Even"
-      }
-    ],
+    "away_defenders": null,
+    "strongest": [],
     "all": [
       {
         "feature": "squad_avg_age_diff",
         "label": "average age",
-        "value": 2.23076923076923,
-        "leader": "New Zealand"
+        "value": null,
+        "leader": null
       },
       {
         "feature": "squad_size_diff",
         "label": "squad size",
-        "value": 0.0,
-        "leader": "Even"
+        "value": null,
+        "leader": null
       },
       {
         "feature": "num_forwards_diff",
         "label": "listed forwards",
-        "value": 1.0,
-        "leader": "Iran"
+        "value": null,
+        "leader": null
       },
       {
         "feature": "num_midfielders_diff",
         "label": "listed midfielders",
-        "value": -1.0,
-        "leader": "New Zealand"
+        "value": null,
+        "leader": null
       },
       {
         "feature": "num_defenders_diff",
         "label": "listed defenders",
-        "value": 0.0,
-        "leader": "Even"
+        "value": null,
+        "leader": null
       }
     ]
   },

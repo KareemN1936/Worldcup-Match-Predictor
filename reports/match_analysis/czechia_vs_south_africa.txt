@@ -1,13 +1,13 @@
 Czechia vs South Africa
 
-Date: 2026-06-18 16:00:00+00:00
+Date: 2026-06-18T16:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_A
 
 Base Prediction:
-Czechia Win: 27.7%
-Draw: 23.2%
-South Africa Win: 49.1%
+Czechia Win: 21.6%
+Draw: 22.7%
+South Africa Win: 55.8%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 
@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.25
-Probability shift: 0.0109
+Enrichment score: 0.23
+Probability shift: 0.0102
 Top signals: starting XI rating:home; goal difference:home; player rating:home
-Czechia Win: 28.8%
-Draw: 23.2%
-South Africa Win: 48.0%
+Czechia Win: 22.6%
+Draw: 22.5%
+South Africa Win: 54.9%
 FotMob-enriched result: Team A loss
 
 Squad Context:

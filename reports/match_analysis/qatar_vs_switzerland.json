@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537334,
-    "date": "2026-06-13 19:00:00+00:00",
+    "date": "2026-06-13T19:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_B",
     "home_team": "Qatar",
     "away_team": "Switzerland"
   },
   "base_prediction": {
-    "home_win_probability": 0.1788413524627685,
-    "draw_probability": 0.2168578803539276,
-    "away_win_probability": 0.6043007969856262,
+    "home_win_probability": 0.179494023323059,
+    "draw_probability": 0.1950162202119827,
+    "away_win_probability": 0.6254897713661194,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.178841347132881,
-    "draw_probability": 0.2168578738910593,
-    "away_win_probability": 0.6043007789760596,
+    "home_win_probability": 0.1794940206483897,
+    "draw_probability": 0.1950162173060146,
+    "away_win_probability": 0.6254897620455956,
     "predicted_result": "Team A loss",
     "strongest": [],
     "all": [

@@ -1,13 +1,13 @@
 France vs Senegal
 
-Date: 2026-06-16 19:00:00+00:00
+Date: 2026-06-16T19:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_I
 
 Base Prediction:
-France Win: 61.9%
-Draw: 24.6%
-Senegal Win: 13.5%
+France Win: 68.4%
+Draw: 19.1%
+Senegal Win: 12.5%
 Predicted result: Team A win
 Decision policy: draw_threshold
 

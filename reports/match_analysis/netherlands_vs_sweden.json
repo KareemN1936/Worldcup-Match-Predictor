@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537359,
-    "date": "2026-06-20 17:00:00+00:00",
+    "date": "2026-06-20T17:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_F",
     "home_team": "Netherlands",
     "away_team": "Sweden"
   },
   "base_prediction": {
-    "home_win_probability": 0.7034302949905396,
-    "draw_probability": 0.19865383207798,
-    "away_win_probability": 0.0979158580303192,
+    "home_win_probability": 0.7107161283493042,
+    "draw_probability": 0.1821939945220947,
+    "away_win_probability": 0.107089914381504,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -159,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": -0.4577520661157025,
-    "probability_shift": -0.0192575216973605,
+    "enrichment_score": -0.4745454545454545,
+    "probability_shift": -0.0198103507475419,
     "top_signals": "points per match:away; goal difference:away; player rating:home",
-    "home_win_probability": 0.684172783488148,
-    "draw_probability": 0.1986538350381528,
-    "away_win_probability": 0.1171733814736991,
+    "home_win_probability": 0.6936540577976202,
+    "draw_probability": 0.1789408940814851,
+    "away_win_probability": 0.1274050481208946,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -188,7 +188,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.1845454545454545,
+        "value": -0.2999999999999998,
         "leader": "Sweden"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": -0.1845454545454545,
+        "value": -0.2999999999999998,
         "leader": "Sweden"
       },
       {

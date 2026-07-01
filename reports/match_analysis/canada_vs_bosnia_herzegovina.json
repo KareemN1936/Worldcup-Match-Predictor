@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537333,
-    "date": "2026-06-12 19:00:00+00:00",
+    "date": "2026-06-12T19:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_B",
     "home_team": "Canada",
     "away_team": "Bosnia-Herzegovina"
   },
   "base_prediction": {
-    "home_win_probability": 0.6841447353363037,
-    "draw_probability": 0.23015758395195,
-    "away_win_probability": 0.0856976211071014,
+    "home_win_probability": 0.7004978656768799,
+    "draw_probability": 0.2061344981193542,
+    "away_win_probability": 0.093367651104927,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.6841447761145101,
-    "draw_probability": 0.2301575976704119,
-    "away_win_probability": 0.085697626215078,
+    "home_win_probability": 0.7004978552386484,
+    "draw_probability": 0.2061344950477109,
+    "away_win_probability": 0.0933676497136406,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [

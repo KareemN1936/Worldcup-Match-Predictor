@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537341,
-    "date": "2026-06-20 00:30:00+00:00",
+    "date": "2026-06-20T00:30:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_C",
     "home_team": "Brazil",
     "away_team": "Haiti"
   },
   "base_prediction": {
-    "home_win_probability": 0.7848045825958252,
-    "draw_probability": 0.1721000671386718,
-    "away_win_probability": 0.0430953353643417,
+    "home_win_probability": 0.7924160957336426,
+    "draw_probability": 0.1253880262374878,
+    "away_win_probability": 0.0821959003806114,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -159,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.2631955922865011,
-    "probability_shift": 0.010120694236767,
+    "enrichment_score": 0.2539393939393938,
+    "probability_shift": 0.0096788594178479,
     "top_signals": "points per match:home; goal difference:home; starting XI rating:home",
-    "home_win_probability": 0.7949252886779021,
-    "draw_probability": 0.1721000697031627,
-    "away_win_probability": 0.0329746416189351,
+    "home_win_probability": 0.803650621465746,
+    "draw_probability": 0.1236916904858672,
+    "away_win_probability": 0.0726576880483868,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -182,7 +182,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.2636363636363628,
+        "value": 0.2000000000000001,
         "leader": "Brazil"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.2636363636363628,
+        "value": 0.2000000000000001,
         "leader": "Brazil"
       },
       {

@@ -1022,8 +1022,8 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537398,4667813,Jordan,847766,Saleem Obaid,False,True,,17,5-4-1,18.0,5.94
 537398,4667813,Jordan,1179369,Saed Al-Rosan,False,True,,19,5-4-1,9.0,
 537398,4667813,Jordan,674520,Mahmoud Al Mardi,False,True,,13,5-4-1,9.0,
-537398,4667813,Jordan,600844,Mohammad Al-Daoud,False,True,,25,5-4-1,2.0,
 537398,4667813,Jordan,1642793,Ali Al-Azaizeh,False,True,,24,5-4-1,1.0,
+537398,4667813,Jordan,600844,Mohammad Al-Daoud,False,True,,25,5-4-1,2.0,
 537398,4667813,Jordan,915790,Abdullah Al Fakhouri,False,True,,22,5-4-1,,
 537398,4667813,Jordan,1554110,Nour Bani Attiah,False,True,,12,5-4-1,,
 537398,4667813,Jordan,1991034,Anas Badawi,False,True,,26,5-4-1,,
@@ -1431,7 +1431,7 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537330,4667754,South Korea,523749,Jae-Sung Lee,True,False,,10,3-4-2-1,57.0,6.35
 537330,4667754,South Korea,212867,Heung-Min Son,True,False,,7,3-4-2-1,57.0,6.79
 537330,4667754,South Korea,620026,Hee-Chan Hwang,False,True,,11,3-4-2-1,33.0,6.23
-537330,4667754,South Korea,1044299,Hyun-Gyu Oh,False,True,,18,3-4-2-1,33.0,5.8
+537330,4667754,South Korea,1044299,Hyeon-Gyu Oh,False,True,,18,3-4-2-1,33.0,5.8
 537330,4667754,South Korea,1232560,Hyun-Jun Yang,False,True,,20,3-4-2-1,19.0,6.38
 537330,4667754,South Korea,1107283,Ji-Sung Eom,False,True,,25,3-4-2-1,19.0,6.62
 537330,4667754,South Korea,1026781,Gue-Sung Cho,False,True,,9,3-4-2-1,13.0,5.92
@@ -2228,8 +2228,8 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537400,4667814,Jordan,674520,Mahmoud Al Mardi,True,False,,13,3-4-2-1,76.0,6.35
 537400,4667814,Jordan,813055,Mousa Tamari,True,False,,10,3-4-2-1,84.0,6.71
 537400,4667814,Jordan,1823348,Odeh Fakhouri,False,True,,11,3-4-2-1,14.0,5.98
-537400,4667814,Jordan,1350517,Mohammad Abu Hasheesh,False,True,,2,3-4-2-1,5.0,
 537400,4667814,Jordan,1642793,Ali Al-Azaizeh,False,True,,24,3-4-2-1,6.0,
+537400,4667814,Jordan,1350517,Mohammad Abu Hasheesh,False,True,,2,3-4-2-1,5.0,
 537400,4667814,Jordan,847766,Saleem Obaid,False,True,,17,3-4-2-1,1.0,
 537400,4667814,Jordan,1059129,Mohammad Abuzraiq,False,True,,7,3-4-2-1,1.0,
 537400,4667814,Jordan,915790,Abdullah Al Fakhouri,False,True,,22,3-4-2-1,,
@@ -2313,11 +2313,11 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537405,4667822,Uzbekistan,619700,Utkir Yusupov,False,True,,1,5-4-1,,
 537405,4667822,Uzbekistan,1029597,Avazbek Ulasmaliev,False,True,,25,5-4-1,,
 537405,4667822,Uzbekistan,1477513,Jakhongir Urozov,False,True,,26,5-4-1,,
-537405,4667822,Uzbekistan,922298,Umar Eshmuradov,False,True,,15,5-4-1,,
 537405,4667822,Uzbekistan,933051,Azizbek Amonov,False,True,,20,5-4-1,,
 537405,4667822,Uzbekistan,619508,Dostonbek Khamdamov,False,True,,17,5-4-1,,
 537405,4667822,Uzbekistan,589585,Farrukh Sayfiev,False,True,,4,5-4-1,,
 537405,4667822,Uzbekistan,1057486,Oston Urunov,False,True,,11,5-4-1,,
+537405,4667822,Uzbekistan,922298,Umar Eshmuradov,False,True,,15,5-4-1,,
 537405,4667822,Uzbekistan,431169,Jamshid Iskandarov,False,True,,8,5-4-1,,
 537411,4667828,England,303919,Jordan Pickford,True,False,,1,4-2-3-1,90.0,7.06
 537411,4667828,England,807729,Reece James,True,False,,24,4-2-3-1,90.0,7.48
@@ -2631,7 +2631,7 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537344,4667769,Morocco,1298186,Redouane Halhal,True,False,,25,4-2-3-1,90.0,6.94
 537344,4667769,Morocco,1187506,Chadi Riad,True,False,,18,4-2-3-1,90.0,7.58
 537344,4667769,Morocco,1050838,Anass Salah-Eddine,True,False,,26,4-2-3-1,83.0,6.47
-537344,4667769,Morocco,593116,Sofyan Amrabat,True,False,,4,4-2-3-1,90.0,6.63
+537344,4667769,Morocco,593116,Sofyan Amrabat,True,False,,4,4-2-3-1,90.0,6.64
 537344,4667769,Morocco,1274060,Neil El Aynaoui,True,False,,24,4-2-3-1,83.0,6.58
 537344,4667769,Morocco,750027,Brahim Díaz,True,False,,10,4-2-3-1,70.0,6.81
 537344,4667769,Morocco,1180288,Ismael Saibari,True,False,,11,4-2-3-1,70.0,8.04
@@ -3010,7 +3010,7 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537349,4667775,Turkey,845991,Yunus Akgün,False,True,,19,3-4-2-1,,
 537349,4667775,Turkey,1406300,Deniz Gül,False,True,,9,3-4-2-1,,
 537349,4667775,Turkey,1117570,Kerem Aktürkoglu,False,True,,7,3-4-2-1,,
-537349,4667775,United States,729988,Matt Turner,True,False,,1,4-3-3,90.0,5.73
+537349,4667775,United States,729988,Matt Turner,True,False,,1,4-3-3,90.0,5.75
 537349,4667775,United States,959696,Joseph Scally,True,False,,23,4-3-3,77.0,6.18
 537349,4667775,United States,825623,Miles Robinson,True,False,,12,4-3-3,90.0,6.22
 537349,4667775,United States,924485,Mark McKenzie,True,False,,22,4-3-3,90.0,5.72
@@ -3442,7 +3442,6 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537413,4667829,England,1292810,Kobbie Mainoo,False,True,,16,4-2-3-1,,
 537413,4667829,England,906937,Anthony Gordon,False,True,,18,4-2-3-1,,
 537413,4667829,England,408987,Ivan Toney,False,True,,22,4-2-3-1,,
-537413,4667829,England,807729,Reece James,True,False,,,4-2-3-1,,
 537414,4667830,Croatia,383971,Dominik Livakovic,True,False,,1,4-2-3-1,90.0,6.75
 537414,4667830,Croatia,950824,Josip Stanisic,True,False,,2,4-2-3-1,90.0,6.35
 537414,4667830,Croatia,1186228,Josip Sutalo,True,False,,6,4-2-3-1,90.0,7.57
@@ -3592,12 +3591,12 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537408,4667824,Uzbekistan,643639,Botirali Ergashev,False,True,,16,5-4-1,,
 537408,4667824,Uzbekistan,619700,Utkir Yusupov,False,True,,1,5-4-1,,
 537408,4667824,Uzbekistan,1029597,Avazbek Ulasmaliev,False,True,,25,5-4-1,,
+537408,4667824,Uzbekistan,922298,Umar Eshmuradov,False,True,,15,5-4-1,,
 537408,4667824,Uzbekistan,1294120,Abdulla Abdullaev,False,True,,18,5-4-1,,
 537408,4667824,Uzbekistan,933051,Azizbek Amonov,False,True,,20,5-4-1,,
 537408,4667824,Uzbekistan,1898281,Behruzjon Karimov,False,True,,24,5-4-1,,
 537408,4667824,Uzbekistan,589585,Farrukh Sayfiev,False,True,,4,5-4-1,,
 537408,4667824,Uzbekistan,1477517,Sherzod Esanov,False,True,,23,5-4-1,,
-537408,4667824,Uzbekistan,922298,Umar Eshmuradov,False,True,,15,5-4-1,,
 537408,4667824,Uzbekistan,1421621,Ruslanbek Jiyanov,False,True,,10,5-4-1,,
 537401,4667816,Jordan,734654,Yazeed Yazeed Abulaila,True,False,,1,3-4-2-1,90.0,4.92
 537401,4667816,Jordan,1312681,Abdallah Nasib,True,False,,3,3-4-2-1,90.0,6.52
@@ -3702,230 +3701,341 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537402,4667817,Austria,1089685,Carney Chukwuemeka,False,True,,17,4-2-3-1,,
 537402,4667817,Austria,861668,Dejan Ljubicic,False,True,,19,4-2-3-1,,
 537402,4667817,Austria,1073498,Patrick Wimmer,False,True,,21,4-2-3-1,,
-537417,4653705,South Africa,253991,Ronwen Williams,True,False,,1,4-2-3-1,,
-537417,4653705,South Africa,940010,Khuliso Mudau,True,False,,20,4-2-3-1,,
-537417,4653705,South Africa,1600334,Ime Okon,True,False,,21,4-2-3-1,,
-537417,4653705,South Africa,1719066,Mbekezeli Mbokazi,True,False,,14,4-2-3-1,,
-537417,4653705,South Africa,616179,Aubrey Maphosa Modiba,True,False,,6,4-2-3-1,,
-537417,4653705,South Africa,1124424,Thalente Mbatha,True,False,,5,4-2-3-1,,
-537417,4653705,South Africa,1107735,Sphephelo Sithole,True,False,,13,4-2-3-1,,
-537417,4653705,South Africa,1394951,Thapelo Maseko,True,False,,12,4-2-3-1,,
-537417,4653705,South Africa,1471333,Relebohile Mofokeng,True,False,,10,4-2-3-1,,
-537417,4653705,South Africa,1054166,Oswin Appollis,True,False,,7,4-2-3-1,,
-537417,4653705,South Africa,1137059,Evidence Makgopa,True,False,,17,4-2-3-1,,
+537417,4653705,South Africa,253991,Ronwen Williams,True,False,,1,4-2-3-1,90.0,7.25
+537417,4653705,South Africa,940010,Khuliso Mudau,True,False,,20,4-2-3-1,90.0,7.67
+537417,4653705,South Africa,1600334,Ime Okon,True,False,,21,4-2-3-1,90.0,7.51
+537417,4653705,South Africa,1719066,Mbekezeli Mbokazi,True,False,,14,4-2-3-1,90.0,6.9
+537417,4653705,South Africa,616179,Aubrey Maphosa Modiba,True,False,,6,4-2-3-1,90.0,7.67
+537417,4653705,South Africa,848361,Teboho Mokoena,True,False,,4,4-2-3-1,90.0,6.55
+537417,4653705,South Africa,1107735,Sphephelo Sithole,True,False,,13,4-2-3-1,90.0,7.59
+537417,4653705,South Africa,1394951,Thapelo Maseko,True,False,,12,4-2-3-1,86.0,6.56
+537417,4653705,South Africa,1471333,Relebohile Mofokeng,True,False,,10,4-2-3-1,45.0,6.27
+537417,4653705,South Africa,1054166,Oswin Appollis,True,False,,7,4-2-3-1,90.0,6.0
+537417,4653705,South Africa,1137059,Evidence Makgopa,True,False,,17,4-2-3-1,86.0,5.99
+537417,4653705,South Africa,1124424,Thalente Mbatha,False,True,,5,4-2-3-1,45.0,6.2
+537417,4653705,South Africa,1076668,Iqraam Rayners,False,True,,15,4-2-3-1,4.0,
+537417,4653705,South Africa,1289611,Tshepang Moremi,False,True,,8,4-2-3-1,4.0,
+537417,4653705,South Africa,428006,Ricardo Goss,False,True,,22,4-2-3-1,,
+537417,4653705,South Africa,787099,Sipho Chaine,False,True,,16,4-2-3-1,,
+537417,4653705,South Africa,1202481,Bradley Cross,False,True,,26,4-2-3-1,,
+537417,4653705,South Africa,1451566,Kamogelo Sebelebele,False,True,,25,4-2-3-1,,
+537417,4653705,South Africa,1680696,Khulumani Ndamane,False,True,,3,4-2-3-1,,
+537417,4653705,South Africa,716819,Nkosinathi Sibisi,False,True,,19,4-2-3-1,,
+537417,4653705,South Africa,1469826,Olwethu Makhanya,False,True,,24,4-2-3-1,,
+537417,4653705,South Africa,1680659,Samukelo Kabini,False,True,,18,4-2-3-1,,
+537417,4653705,South Africa,1579341,Thabang Matuludi,False,True,,2,4-2-3-1,,
+537417,4653705,South Africa,1178629,Jayden Adams,False,True,,23,4-2-3-1,,
+537417,4653705,South Africa,881500,Lyle Foster,False,True,,9,4-2-3-1,,
 537417,4653705,South Africa,303609,Themba Zwane,True,False,,,4-2-3-1,,
-537417,4653705,Canada,464919,Maxime Crépeau,True,False,,16,4-4-2,,
-537417,4653705,Canada,1055426,Alistair Johnston,True,False,,2,4-4-2,,
-537417,4653705,Canada,1399943,Luc De Fougerolles,True,False,,4,4-4-2,,
-537417,4653705,Canada,847629,Derek Cornelius,True,False,,13,4-4-2,,
-537417,4653705,Canada,729506,Richie Laryea,True,False,,22,4-4-2,,
-537417,4653705,Canada,1026135,Tajon Buchanan,True,False,,17,4-4-2,,
-537417,4653705,Canada,1216798,Nathan Saliba,True,False,,25,4-4-2,,
-537417,4653705,Canada,943428,Mathieu Choinière,True,False,,6,4-4-2,,
-537417,4653705,Canada,1359536,Ali Ahmed,True,False,,20,4-4-2,,
-537417,4653705,Canada,544312,Cyle Larin,True,False,,9,4-4-2,,
-537417,4653705,Canada,939569,Jonathan David,True,False,,10,4-4-2,,
-537417,4653705,Canada,1288119,Ismaël Koné,True,False,,,4-4-2,,
-537423,4653711,Brazil,319784,Alisson Becker,True,False,,1,4-1-2-3,,
-537423,4653711,Brazil,208077,Danilo,True,False,,13,4-1-2-3,,
-537423,4653711,Brazil,267365,Marquinhos,True,False,,4,4-1-2-3,,
-537423,4653711,Brazil,795179,Gabriel,True,False,,3,4-1-2-3,,
-537423,4653711,Brazil,346000,Douglas Santos,True,False,,16,4-1-2-3,,
-537423,4653711,Brazil,208494,Casemiro,True,False,,5,4-1-2-3,,
-537423,4653711,Brazil,850354,Bruno Guimarães,True,False,,8,4-1-2-3,,
-537423,4653711,Brazil,766435,Lucas Paquetá,True,False,,20,4-1-2-3,,
-537423,4653711,Brazil,1478295,Rayan,True,False,,26,4-1-2-3,,
-537423,4653711,Brazil,863098,Matheus Cunha,True,False,,9,4-1-2-3,,
-537423,4653711,Brazil,846033,Vinícius Júnior,True,False,,7,4-1-2-3,,
-537423,4653711,Brazil,696679,Raphinha,True,False,,,4-1-2-3,,
-537423,4653711,Japan,1053679,Zion Suzuki,True,False,,1,3-4-2-1,,
-537423,4653711,Japan,664444,Takehiro Tomiyasu,True,False,,22,3-4-2-1,,
-537423,4653711,Japan,620917,Ko Itakura,True,False,,4,3-4-2-1,,
-537423,4653711,Japan,851626,Hiroki Ito,True,False,,21,3-4-2-1,,
-537423,4653711,Japan,924610,Yukinari Sugawara,True,False,,2,3-4-2-1,,
-537423,4653711,Japan,935728,Ao Tanaka,True,False,,7,3-4-2-1,,
-537423,4653711,Japan,621515,Daichi Kamada,True,False,,15,3-4-2-1,,
-537423,4653711,Japan,887704,Keito Nakamura,True,False,,13,3-4-2-1,,
-537423,4653711,Japan,629805,Ritsu Doan,True,False,,10,3-4-2-1,,
-537423,4653711,Japan,728765,Daizen Maeda,True,False,,11,3-4-2-1,,
-537423,4653711,Japan,942393,Ayase Ueda,True,False,,18,3-4-2-1,,
-537423,4653711,Japan,848289,Takefusa Kubo,True,False,,,3-4-2-1,,
-537415,4653703,Germany,27299,Manuel Neuer,True,False,,1,4-2-3-1,,
-537415,4653703,Germany,460632,Joshua Kimmich,True,False,,6,4-2-3-1,,
-537415,4653703,Germany,469700,Jonathan Tah,True,False,,4,4-2-3-1,,
-537415,4653703,Germany,276738,Antonio Rüdiger,True,False,,2,4-2-3-1,,
-537415,4653703,Germany,806669,David Raum,True,False,,22,4-2-3-1,,
-537415,4653703,Germany,966019,Felix Nmecha,True,False,,23,4-2-3-1,,
-537415,4653703,Germany,1473580,Aleksandar Pavlovic,True,False,,5,4-2-3-1,,
-537415,4653703,Germany,530859,Leroy Sané,True,False,,19,4-2-3-1,,
-537415,4653703,Germany,1156141,Jamal Musiala,True,False,,10,4-2-3-1,,
-537415,4653703,Germany,1152455,Florian Wirtz,True,False,,17,4-2-3-1,,
-537415,4653703,Germany,749736,Kai Havertz,True,False,,7,4-2-3-1,,
-537415,4653703,Germany,1002058,Nico Schlotterbeck,True,False,,,4-2-3-1,,
-537415,4653703,Paraguay,1683391,Orlando Gill,True,False,,12,4-4-2,,
-537415,4653703,Paraguay,1133495,Juan Cáceres,True,False,,4,4-4-2,,
-537415,4653703,Paraguay,307438,Fabián Balbuena,True,False,,5,4-4-2,,
-537415,4653703,Paraguay,497352,Gustavo Velázquez,True,False,,2,4-4-2,,
-537415,4653703,Paraguay,466214,Júnior Alonso,True,False,,6,4-4-2,,
-537415,4653703,Paraguay,442277,Miguel Almirón,True,False,,10,4-4-2,,
-537415,4653703,Paraguay,1241957,Matías Galarza,True,False,,23,4-4-2,,
-537415,4653703,Paraguay,529625,Andrés Cubas,True,False,,14,4-4-2,,
-537415,4653703,Paraguay,1059490,Mauricio,True,False,,11,4-4-2,,
-537415,4653703,Paraguay,425711,Gabriel Ávalos,True,False,,21,4-4-2,,
-537415,4653703,Paraguay,1073742,Julio Enciso,True,False,,19,4-4-2,,
+537417,4653705,Canada,464919,Maxime Crépeau,True,False,,16,4-4-2,90.0,7.65
+537417,4653705,Canada,1055426,Alistair Johnston,True,False,,2,4-4-2,90.0,7.31
+537417,4653705,Canada,1440009,Moïse Bombito,True,False,,15,4-4-2,59.0,6.84
+537417,4653705,Canada,847629,Derek Cornelius,True,False,,13,4-4-2,90.0,7.53
+537417,4653705,Canada,729506,Richie Laryea,True,False,,22,4-4-2,90.0,7.62
+537417,4653705,Canada,1026135,Tajon Buchanan,True,False,,17,4-4-2,75.0,6.6
+537417,4653705,Canada,1216798,Nathan Saliba,True,False,,25,4-4-2,59.0,7.39
+537417,4653705,Canada,816223,Stephen Eustaquio,True,False,,7,4-4-2,90.0,8.74
+537417,4653705,Canada,932308,Liam Millar,True,False,,11,4-4-2,70.0,6.46
+537417,4653705,Canada,1338740,Tani Oluwaseyi,True,False,,12,4-4-2,70.0,6.88
+537417,4653705,Canada,939569,Jonathan David,True,False,,10,4-4-2,90.0,6.2
+537417,4653705,Canada,1399943,Luc De Fougerolles,False,True,,4,4-4-2,31.0,7.14
+537417,4653705,Canada,1494508,Niko Sigur,False,True,,23,4-4-2,31.0,6.35
+537417,4653705,Canada,1023943,Jacob Shaffelburg,False,True,,14,4-4-2,20.0,6.24
+537417,4653705,Canada,1252132,Promise David,False,True,,24,4-4-2,20.0,6.47
+537417,4653705,Canada,751202,Alphonso Davies,False,True,,19,4-4-2,15.0,6.35
+537417,4653705,Canada,1026105,Dayne St. Clair,False,True,,1,4-4-2,,
+537417,4653705,Canada,1415372,Owen Goodman,False,True,,18,4-4-2,,
+537417,4653705,Canada,789598,Alfie Jones,False,True,,3,4-4-2,,
+537417,4653705,Canada,1100258,Joel Waterman,False,True,,5,4-4-2,,
+537417,4653705,Canada,432605,Jonathan Osorio,False,True,,21,4-4-2,,
+537417,4653705,Canada,943428,Mathieu Choinière,False,True,,6,4-4-2,,
+537417,4653705,Canada,1359536,Ali Ahmed,False,True,,20,4-4-2,,
+537417,4653705,Canada,544312,Cyle Larin,False,True,,9,4-4-2,,
+537417,4653705,Canada,1082106,Jayden Nelson,False,True,,26,4-4-2,,
+537423,4653711,Brazil,319784,Alisson Becker,True,False,,1,4-3-3,90.0,6.45
+537423,4653711,Brazil,208077,Danilo,True,False,,13,4-3-3,90.0,6.25
+537423,4653711,Brazil,267365,Marquinhos,True,False,,4,4-3-3,90.0,7.73
+537423,4653711,Brazil,795179,Gabriel,True,False,,3,4-3-3,90.0,8.43
+537423,4653711,Brazil,346000,Douglas Santos,True,False,,16,4-3-3,90.0,7.87
+537423,4653711,Brazil,850354,Bruno Guimarães,True,False,,8,4-3-3,89.0,8.4
+537423,4653711,Brazil,208494,Casemiro,True,False,,5,4-3-3,89.0,8.43
+537423,4653711,Brazil,766435,Lucas Paquetá,True,False,,20,4-3-3,45.0,7.09
+537423,4653711,Brazil,1478295,Rayan,True,False,,26,4-3-3,90.0,7.74
+537423,4653711,Brazil,863098,Matheus Cunha,True,False,,9,4-3-3,66.0,6.51
+537423,4653711,Brazil,846033,Vinícius Júnior,True,False,,7,4-3-3,90.0,7.57
+537423,4653711,Brazil,1406729,Endrick,False,True,,19,4-3-3,45.0,6.03
+537423,4653711,Brazil,1021586,Gabriel Martinelli,False,True,,22,4-3-3,24.0,7.36
+537423,4653711,Brazil,359188,Fabinho,False,True,,17,4-3-3,1.0,
+537423,4653711,Brazil,1181700,Danilo,False,True,,18,4-3-3,1.0,
+537423,4653711,Brazil,363364,Ederson,False,True,,23,4-3-3,,
+537423,4653711,Brazil,267826,Weverton,False,True,,12,4-3-3,,
+537423,4653711,Brazil,157865,Alex Sandro,False,True,,6,4-3-3,,
+537423,4653711,Brazil,857269,Gleison Bremer,False,True,,14,4-3-3,,
+537423,4653711,Brazil,523801,Léo Pereira,False,True,,15,4-3-3,,
+537423,4653711,Brazil,862538,Roger Ibañez,False,True,,24,4-3-3,,
+537423,4653711,Brazil,957203,Éderson,False,True,,2,4-3-3,,
+537423,4653711,Brazil,1302005,Igor Thiago,False,True,,25,4-3-3,,
+537423,4653711,Brazil,1176214,Luiz Henrique,False,True,,21,4-3-3,,
+537423,4653711,Brazil,19533,Neymar,False,True,,10,4-3-3,,
+537423,4653711,Japan,1053679,Zion Suzuki,True,False,,1,3-4-2-1,90.0,7.03
+537423,4653711,Japan,664444,Takehiro Tomiyasu,True,False,,22,3-4-2-1,90.0,7.0
+537423,4653711,Japan,523731,Shogo Taniguchi,True,False,,3,3-4-2-1,90.0,6.39
+537423,4653711,Japan,851626,Hiroki Ito,True,False,,21,3-4-2-1,90.0,5.64
+537423,4653711,Japan,629805,Ritsu Doan,True,False,,10,3-4-2-1,66.0,6.09
+537423,4653711,Japan,1033111,Kaishu Sano,True,False,,24,3-4-2-1,90.0,7.52
+537423,4653711,Japan,621515,Daichi Kamada,True,False,,15,3-4-2-1,78.0,6.26
+537423,4653711,Japan,887704,Keito Nakamura,True,False,,13,3-4-2-1,66.0,6.11
+537423,4653711,Japan,604044,Junya Ito,True,False,,14,3-4-2-1,78.0,6.48
+537423,4653711,Japan,728765,Daizen Maeda,True,False,,11,3-4-2-1,89.0,6.92
+537423,4653711,Japan,942393,Ayase Ueda,True,False,,18,3-4-2-1,90.0,5.92
+537423,4653711,Japan,1337765,Junnosuke Suzuki,False,True,,25,3-4-2-1,24.0,5.79
+537423,4653711,Japan,924610,Yukinari Sugawara,False,True,,2,3-4-2-1,24.0,6.54
+537423,4653711,Japan,935728,Ao Tanaka,False,True,,7,3-4-2-1,12.0,5.41
+537423,4653711,Japan,915111,Shuto Machino,False,True,,6,3-4-2-1,12.0,5.9
+537423,4653711,Japan,727837,Koki Ogawa,False,True,,19,3-4-2-1,1.0,
+537423,4653711,Japan,922808,Keisuke Osako,False,True,,12,3-4-2-1,,
+537423,4653711,Japan,1232143,Tomoki Hayakawa,False,True,,23,3-4-2-1,,
+537423,4653711,Japan,857120,Ayumu Seko,False,True,,20,3-4-2-1,,
+537423,4653711,Japan,620917,Ko Itakura,False,True,,4,3-4-2-1,,
+537423,4653711,Japan,1023887,Tsuyoshi Watanabe,False,True,,16,3-4-2-1,,
+537423,4653711,Japan,98254,Yuto Nagatomo,False,True,,5,3-4-2-1,,
+537423,4653711,Japan,1134467,Yuito Suzuki,False,True,,17,3-4-2-1,,
+537423,4653711,Japan,1436730,Keisuke Goto,False,True,,9,3-4-2-1,,
+537423,4653711,Japan,1611223,Kento Shiogai,False,True,,26,3-4-2-1,,
+537423,4653711,Japan,848289,Takefusa Kubo,False,True,,8,3-4-2-1,,
+537415,4653703,Germany,27299,Manuel Neuer,True,False,,1,4-2-3-1,120.0,7.19
+537415,4653703,Germany,460632,Joshua Kimmich,True,False,,6,4-2-3-1,120.0,7.88
+537415,4653703,Germany,469700,Jonathan Tah,True,False,,4,4-2-3-1,120.0,7.41
+537415,4653703,Germany,276738,Antonio Rüdiger,True,False,,2,4-2-3-1,110.0,7.81
+537415,4653703,Germany,1395447,Nathaniel Brown,True,False,,18,4-2-3-1,120.0,7.42
+537415,4653703,Germany,966019,Felix Nmecha,True,False,,23,4-2-3-1,45.0,6.33
+537415,4653703,Germany,1473580,Aleksandar Pavlovic,True,False,,5,4-2-3-1,79.0,6.53
+537415,4653703,Germany,530859,Leroy Sané,True,False,,19,4-2-3-1,88.0,6.34
+537415,4653703,Germany,749736,Kai Havertz,True,False,,7,4-2-3-1,120.0,7.77
+537415,4653703,Germany,1152455,Florian Wirtz,True,False,,17,4-2-3-1,110.0,8.42
+537415,4653703,Germany,661519,Deniz Undav,True,False,,26,4-2-3-1,63.0,6.01
+537415,4653703,Germany,343748,Leon Goretzka,False,True,,8,4-2-3-1,75.0,6.16
+537415,4653703,Germany,1156141,Jamal Musiala,False,True,,10,4-2-3-1,57.0,6.5
+537415,4653703,Germany,664970,Waldemar Anton,False,True,,3,4-2-3-1,41.0,6.67
+537415,4653703,Germany,1106563,Nick Woltemade,False,True,,11,4-2-3-1,32.0,6.47
+537415,4653703,Germany,1137407,Malick Thiaw,False,True,,24,4-2-3-1,10.0,6.13
+537415,4653703,Germany,614449,Nadiem Amiri,False,True,,20,4-2-3-1,10.0,6.14
+537415,4653703,Germany,554534,Alexander Nübel,False,True,,21,4-2-3-1,,
+537415,4653703,Germany,178778,Oliver Baumann,False,True,,12,4-2-3-1,,
+537415,4653703,Germany,806669,David Raum,False,True,,22,4-2-3-1,,
+537415,4653703,Germany,1071186,Angelo Stiller,False,True,,16,4-2-3-1,,
+537415,4653703,Germany,1486541,Assan Ouédraogo,False,True,,25,4-2-3-1,,
+537415,4653703,Germany,1047667,Maximilian Beier,False,True,,14,4-2-3-1,,
+537415,4653703,Germany,167008,Pascal Groß,False,True,,13,4-2-3-1,,
+537415,4653703,Germany,1074968,Jamie Leweling,False,True,,9,4-2-3-1,,
+537415,4653703,Paraguay,1683391,Orlando Gill,True,False,,12,4-4-2,120.0,8.71
+537415,4653703,Paraguay,1133495,Juan Cáceres,True,False,,4,4-4-2,99.0,7.03
+537415,4653703,Paraguay,274392,Gustavo Gómez,True,False,,15,4-4-2,120.0,6.34
+537415,4653703,Paraguay,860890,José Canale,True,False,,13,4-4-2,120.0,7.94
+537415,4653703,Paraguay,466214,Júnior Alonso,True,False,,6,4-4-2,119.0,6.76
+537415,4653703,Paraguay,442277,Miguel Almirón,True,False,,10,4-4-2,90.0,7.13
+537415,4653703,Paraguay,1252913,Damián Bobadilla,True,False,,16,4-4-2,99.0,7.21
+537415,4653703,Paraguay,529625,Andrés Cubas,True,False,,14,4-4-2,120.0,7.2
+537415,4653703,Paraguay,1241957,Matías Galarza,True,False,,23,4-4-2,120.0,7.81
+537415,4653703,Paraguay,425711,Gabriel Ávalos,True,False,,21,4-4-2,55.0,6.53
+537415,4653703,Paraguay,1073742,Julio Enciso,True,False,,19,4-4-2,57.0,7.48
+537415,4653703,Paraguay,1347933,Gustavo Caballero,False,True,,24,4-4-2,65.0,6.67
+537415,4653703,Paraguay,1059490,Mauricio,False,True,,11,4-4-2,63.0,7.32
+537415,4653703,Paraguay,497352,Gustavo Velázquez,False,True,,2,4-4-2,30.0,6.27
+537415,4653703,Paraguay,1075065,Braian Ojeda,False,True,,20,4-4-2,21.0,6.15
+537415,4653703,Paraguay,474448,Antonio Sanabria,False,True,,9,4-4-2,21.0,6.32
+537415,4653703,Paraguay,307438,Fabián Balbuena,False,True,,5,4-4-2,1.0,
+537415,4653703,Paraguay,495193,Gastón Olveira,False,True,,22,4-4-2,,
+537415,4653703,Paraguay,68422,Roberto Fernández,False,True,,1,4-4-2,,
+537415,4653703,Paraguay,1736527,Alexandro Maidana,False,True,,26,4-4-2,,
+537415,4653703,Paraguay,751998,Omar Alderete,False,True,,3,4-4-2,,
+537415,4653703,Paraguay,600850,Alejandro Romero,False,True,,17,4-4-2,,
+537415,4653703,Paraguay,1320444,Álex Arce,False,True,,18,4-4-2,,
+537415,4653703,Paraguay,1033279,Isidro Pitta,False,True,,25,4-4-2,,
+537415,4653703,Paraguay,1132960,Ramón Sosa,False,True,,7,4-4-2,,
 537415,4653703,Paraguay,1354561,Diego Gómez,True,False,,,4-4-2,,
-537418,4653706,Netherlands,1131987,Bart Verbruggen,True,False,,1,4-3-3,,
-537418,4653706,Netherlands,593118,Denzel Dumfries,True,False,,22,4-3-3,,
-537418,4653706,Netherlands,974618,Jan Paul van Hecke,True,False,,6,4-3-3,,
-537418,4653706,Netherlands,209405,Virgil van Dijk,True,False,,4,4-3-3,,
-537418,4653706,Netherlands,1097466,Micky van de Ven,True,False,,15,4-3-3,,
-537418,4653706,Netherlands,956683,Ryan Gravenberch,True,False,,8,4-3-3,,
-537418,4653706,Netherlands,638622,Frenkie de Jong,True,False,,21,4-3-3,,
-537418,4653706,Netherlands,868344,Tijjani Reijnders,True,False,,14,4-3-3,,
-537418,4653706,Netherlands,660301,Donyell Malen,True,False,,18,4-3-3,,
-537418,4653706,Netherlands,940446,Brian Brobbey,True,False,,19,4-3-3,,
-537418,4653706,Netherlands,806552,Cody Gakpo,True,False,,11,4-3-3,,
-537418,4653706,Morocco,340020,Yassine Bounou,True,False,,1,4-2-3-1,,
-537418,4653706,Morocco,770881,Achraf Hakimi,True,False,,2,4-2-3-1,,
-537418,4653706,Morocco,696443,Issa Diop,True,False,,14,4-2-3-1,,
-537418,4653706,Morocco,1187506,Chadi Riad,True,False,,18,4-2-3-1,,
-537418,4653706,Morocco,775539,Noussair Mazraoui,True,False,,3,4-2-3-1,,
-537418,4653706,Morocco,1561552,Ayyoub Bouaddi,True,False,,6,4-2-3-1,,
-537418,4653706,Morocco,1274060,Neil El Aynaoui,True,False,,24,4-2-3-1,,
-537418,4653706,Morocco,750027,Brahim Díaz,True,False,,10,4-2-3-1,,
-537418,4653706,Morocco,1073143,Azzedine Ounahi,True,False,,8,4-2-3-1,,
-537418,4653706,Morocco,1340895,Bilal El Khannouss,True,False,,23,4-2-3-1,,
-537418,4653706,Morocco,1180288,Ismael Saibari,True,False,,11,4-2-3-1,,
-537424,4653712,Ivory Coast,873566,Yahia Fofana,True,False,,1,4-2-3-1,,
-537424,4653712,Ivory Coast,1395704,Guéla Doué,True,False,,17,4-2-3-1,,
-537424,4653712,Ivory Coast,1014496,Odilon Kossounou,True,False,,7,4-2-3-1,,
-537424,4653712,Ivory Coast,1425182,Ousmane Diomande,True,False,,2,4-2-3-1,,
-537424,4653712,Ivory Coast,802462,Christopher Opéri,True,False,,13,4-2-3-1,,
-537424,4653712,Ivory Coast,795371,Ibrahim Sangaré,True,False,,18,4-2-3-1,,
-537424,4653712,Ivory Coast,579747,Franck Kessié,True,False,,8,4-2-3-1,,
-537424,4653712,Ivory Coast,1070052,Amad Diallo,True,False,,15,4-2-3-1,,
-537424,4653712,Ivory Coast,575735,Nicolas Pépé,True,False,,19,4-2-3-1,,
-537424,4653712,Ivory Coast,1735453,Yan Diomande,True,False,,11,4-2-3-1,,
-537424,4653712,Ivory Coast,1199383,Ange-Yoan Bonny,True,False,,9,4-2-3-1,,
-537424,4653712,Ivory Coast,698273,Alban Lafont,False,True,,23,4-2-3-1,,
-537424,4653712,Ivory Coast,1280201,Mohamed Koné,False,True,,16,4-2-3-1,,
-537424,4653712,Ivory Coast,1114979,Emmanuel Agbadou,False,True,,20,4-2-3-1,,
-537424,4653712,Ivory Coast,787242,Evan N'Dicka,False,True,,21,4-2-3-1,,
-537424,4653712,Ivory Coast,740997,Ghislain Konan,False,True,,3,4-2-3-1,,
-537424,4653712,Ivory Coast,1027472,Wilfried Singo,False,True,,5,4-2-3-1,,
-537424,4653712,Ivory Coast,1666494,Christ Inao Oulaï,False,True,,26,4-2-3-1,,
-537424,4653712,Ivory Coast,470539,Jean Michaël Seri,False,True,,4,4-2-3-1,,
-537424,4653712,Ivory Coast,602211,Seko Fofana,False,True,,6,4-2-3-1,,
-537424,4653712,Ivory Coast,1624586,Bazoumana Touré,False,True,,24,4-2-3-1,,
-537424,4653712,Ivory Coast,1213430,Elye Wahi,False,True,,12,4-2-3-1,,
-537424,4653712,Ivory Coast,1087966,Evann Guessand,False,True,,22,4-2-3-1,,
-537424,4653712,Ivory Coast,1328540,Oumar Diakité,False,True,,14,4-2-3-1,,
-537424,4653712,Ivory Coast,1186770,Parfait Guiagon,False,True,,25,4-2-3-1,,
-537424,4653712,Ivory Coast,1227012,Simon Adingra,False,True,,10,4-2-3-1,,
-537424,4653712,Norway,631757,Egil Selvik,True,False,,13,4-3-3,,
-537424,4653712,Norway,310768,Fredrik Aursnes,True,False,,14,4-3-3,,
-537424,4653712,Norway,1110550,Henrik Falchener,True,False,,25,4-3-3,,
-537424,4653712,Norway,740944,Leo Østigard,True,False,,4,4-3-3,,
-537424,4653712,Norway,630228,Fredrik André Bjørkan,True,False,,15,4-3-3,,
-537424,4653712,Norway,921921,Kristian Thorstvedt,True,False,,18,4-3-3,,
-537424,4653712,Norway,530635,Patrick Berg,True,False,,6,4-3-3,,
-537424,4653712,Norway,1184468,Thelo Aasgaard,True,False,,19,4-3-3,,
-537424,4653712,Norway,1113790,Oscar Bobb,True,False,,22,4-3-3,,
-537424,4653712,Norway,821100,Jørgen Strand Larsen,True,False,,11,4-3-3,,
-537424,4653712,Norway,1228558,Andreas Schjelderup,True,False,,21,4-3-3,,
-537424,4653712,Norway,73409,Ørjan Håskjold Nyland,False,True,,1,4-3-3,,
+537418,4653706,Netherlands,1131987,Bart Verbruggen,True,False,,1,3-4-2-1,120.0,7.9
+537418,4653706,Netherlands,974618,Jan Paul van Hecke,True,False,,6,3-4-2-1,120.0,7.2
+537418,4653706,Netherlands,209405,Virgil van Dijk,True,False,,4,3-4-2-1,120.0,7.1
+537418,4653706,Netherlands,417068,Nathan Aké,True,False,,5,3-4-2-1,71.0,6.66
+537418,4653706,Netherlands,593118,Denzel Dumfries,True,False,,22,3-4-2-1,120.0,6.23
+537418,4653706,Netherlands,956683,Ryan Gravenberch,True,False,,8,3-4-2-1,86.0,6.46
+537418,4653706,Netherlands,638622,Frenkie de Jong,True,False,,21,3-4-2-1,110.0,7.11
+537418,4653706,Netherlands,1097466,Micky van de Ven,True,False,,15,3-4-2-1,86.0,6.46
+537418,4653706,Netherlands,941213,Crysencio Summerville,True,False,,24,3-4-2-1,120.0,7.56
+537418,4653706,Netherlands,806552,Cody Gakpo,True,False,,11,3-4-2-1,113.0,7.22
+537418,4653706,Netherlands,940446,Brian Brobbey,True,False,,19,3-4-2-1,71.0,6.4
+537418,4653706,Netherlands,866516,Teun Koopmeiners,False,True,,20,3-4-2-1,49.0,6.53
+537418,4653706,Netherlands,351999,Wout Weghorst,False,True,,9,3-4-2-1,49.0,6.29
+537418,4653706,Netherlands,1413846,Jorrel Hato,False,True,,25,3-4-2-1,34.0,6.31
+537418,4653706,Netherlands,970563,Quinten Timber,False,True,,26,3-4-2-1,34.0,6.85
+537418,4653706,Netherlands,198559,Marten de Roon,False,True,,3,3-4-2-1,10.0,6.01
+537418,4653706,Netherlands,794253,Justin Kluivert,False,True,,7,3-4-2-1,7.0,
+537418,4653706,Netherlands,330643,Mark Flekken,False,True,,23,3-4-2-1,,
+537418,4653706,Netherlands,1125720,Robin Roefs,False,True,,13,3-4-2-1,,
+537418,4653706,Netherlands,881640,Lutsharel Geertruida,False,True,,2,3-4-2-1,,
+537418,4653706,Netherlands,970243,Mats Wieffer,False,True,,12,3-4-2-1,,
+537418,4653706,Netherlands,868344,Tijjani Reijnders,False,True,,14,3-4-2-1,,
+537418,4653706,Netherlands,660301,Donyell Malen,False,True,,18,3-4-2-1,,
+537418,4653706,Netherlands,774947,Guus Til,False,True,,16,3-4-2-1,,
+537418,4653706,Netherlands,303824,Memphis Depay,False,True,,10,3-4-2-1,,
+537418,4653706,Netherlands,837341,Noa Lang,False,True,,17,3-4-2-1,,
+537418,4653706,Morocco,340020,Yassine Bounou,True,False,,1,4-2-3-1,120.0,6.55
+537418,4653706,Morocco,770881,Achraf Hakimi,True,False,,2,4-2-3-1,120.0,8.03
+537418,4653706,Morocco,696443,Issa Diop,True,False,,14,4-2-3-1,120.0,7.88
+537418,4653706,Morocco,1187506,Chadi Riad,True,False,,18,4-2-3-1,75.0,6.52
+537418,4653706,Morocco,775539,Noussair Mazraoui,True,False,,3,4-2-3-1,120.0,7.89
+537418,4653706,Morocco,1561552,Ayyoub Bouaddi,True,False,,6,4-2-3-1,79.0,7.08
+537418,4653706,Morocco,1274060,Neil El Aynaoui,True,False,,24,4-2-3-1,120.0,7.64
+537418,4653706,Morocco,750027,Brahim Díaz,True,False,,10,4-2-3-1,79.0,6.73
+537418,4653706,Morocco,1073143,Azzedine Ounahi,True,False,,8,4-2-3-1,86.0,7.5
+537418,4653706,Morocco,1340895,Bilal El Khannouss,True,False,,23,4-2-3-1,87.0,6.62
+537418,4653706,Morocco,1180288,Ismael Saibari,True,False,,11,4-2-3-1,120.0,6.4
+537418,4653706,Morocco,1050838,Anass Salah-Eddine,False,True,,26,4-2-3-1,45.0,6.98
+537418,4653706,Morocco,1598170,Samir El Mourabet,False,True,,15,4-2-3-1,41.0,6.57
+537418,4653706,Morocco,1603755,Gessime Yassine,False,True,,16,4-2-3-1,41.0,7.05
+537418,4653706,Morocco,1368654,Chemsdine Talbi,False,True,,7,4-2-3-1,33.0,7.27
+537418,4653706,Morocco,988749,Soufiane Rahimi,False,True,,9,4-2-3-1,34.0,6.31
+537418,4653706,Morocco,885288,Ahmed Tagnaouti,False,True,,22,4-2-3-1,,
+537418,4653706,Morocco,573787,Munir,False,True,,12,4-2-3-1,,
+537418,4653706,Morocco,614912,Marwane Saadane,False,True,,5,4-2-3-1,,
+537418,4653706,Morocco,1298186,Redouane Halhal,False,True,,25,4-2-3-1,,
+537418,4653706,Morocco,909908,Youssef Belammari,False,True,,19,4-2-3-1,,
+537418,4653706,Morocco,1287871,Zakaria El Ouahdi,False,True,,13,4-2-3-1,,
+537418,4653706,Morocco,593116,Sofyan Amrabat,False,True,,4,4-2-3-1,,
+537418,4653706,Morocco,1242587,Amine Sbaï,False,True,,17,4-2-3-1,,
+537418,4653706,Morocco,884382,Ayoub El Kaabi,False,True,,20,4-2-3-1,,
+537418,4653706,Morocco,1680173,Ayoube Amaimouni-Echghouyab,False,True,,21,4-2-3-1,,
+537424,4653712,Ivory Coast,873566,Yahia Fofana,True,False,,1,4-3-3,90.0,6.2
+537424,4653712,Ivory Coast,1395704,Guéla Doué,True,False,,17,4-3-3,90.0,6.76
+537424,4653712,Ivory Coast,1014496,Odilon Kossounou,True,False,,7,4-3-3,90.0,7.05
+537424,4653712,Ivory Coast,1114979,Emmanuel Agbadou,True,False,,20,4-3-3,90.0,6.86
+537424,4653712,Ivory Coast,740997,Ghislain Konan,True,False,,3,4-3-3,89.0,6.73
+537424,4653712,Ivory Coast,579747,Franck Kessié,True,False,,8,4-3-3,90.0,6.67
+537424,4653712,Ivory Coast,795371,Ibrahim Sangaré,True,False,,18,4-3-3,90.0,6.23
+537424,4653712,Ivory Coast,1666494,Christ Inao Oulaï,True,False,,26,4-3-3,60.0,6.58
+537424,4653712,Ivory Coast,575735,Nicolas Pépé,True,False,,19,4-3-3,87.0,7.04
+537424,4653712,Ivory Coast,1199383,Ange-Yoan Bonny,True,False,,9,4-3-3,60.0,5.71
+537424,4653712,Ivory Coast,1735453,Yan Diomande,True,False,,11,4-3-3,89.0,6.93
+537424,4653712,Ivory Coast,1070052,Amad Diallo,False,True,,15,4-3-3,30.0,8.0
+537424,4653712,Ivory Coast,1213430,Elye Wahi,False,True,,12,4-3-3,30.0,5.97
+537424,4653712,Ivory Coast,1328540,Oumar Diakité,False,True,,14,4-3-3,3.0,
+537424,4653712,Ivory Coast,1624586,Bazoumana Touré,False,True,,24,4-3-3,1.0,
+537424,4653712,Ivory Coast,1087966,Evann Guessand,False,True,,22,4-3-3,1.0,
+537424,4653712,Ivory Coast,698273,Alban Lafont,False,True,,23,4-3-3,,
+537424,4653712,Ivory Coast,1280201,Mohamed Koné,False,True,,16,4-3-3,,
+537424,4653712,Ivory Coast,802462,Christopher Opéri,False,True,,13,4-3-3,,
+537424,4653712,Ivory Coast,787242,Evan N'Dicka,False,True,,21,4-3-3,,
+537424,4653712,Ivory Coast,1425182,Ousmane Diomande,False,True,,2,4-3-3,,
+537424,4653712,Ivory Coast,1027472,Wilfried Singo,False,True,,5,4-3-3,,
+537424,4653712,Ivory Coast,470539,Jean Michaël Seri,False,True,,4,4-3-3,,
+537424,4653712,Ivory Coast,602211,Seko Fofana,False,True,,6,4-3-3,,
+537424,4653712,Ivory Coast,1186770,Parfait Guiagon,False,True,,25,4-3-3,,
+537424,4653712,Ivory Coast,1227012,Simon Adingra,False,True,,10,4-3-3,,
+537424,4653712,Norway,73409,Ørjan Håskjold Nyland,True,False,,1,4-3-3,90.0,7.76
+537424,4653712,Norway,935622,Marcus Holmgren Pedersen,True,False,,16,4-3-3,83.0,6.46
+537424,4653712,Norway,552718,Kristoffer Ajer,True,False,,3,4-3-3,90.0,7.87
+537424,4653712,Norway,935550,Torbjørn Heggem,True,False,,17,4-3-3,90.0,7.15
+537424,4653712,Norway,1049679,David Møller Wolfe,True,False,,5,4-3-3,90.0,6.57
+537424,4653712,Norway,534670,Martin Ødegaard,True,False,,10,4-3-3,90.0,7.75
+537424,4653712,Norway,540963,Sander Berge,True,False,,8,4-3-3,90.0,7.07
+537424,4653712,Norway,530635,Patrick Berg,True,False,,6,4-3-3,90.0,8.19
+537424,4653712,Norway,440330,Alexander Sørloth,True,False,,7,4-3-3,71.0,6.48
+537424,4653712,Norway,737066,Erling Haaland,True,False,,9,4-3-3,90.0,7.8
+537424,4653712,Norway,1248482,Antonio Nusa,True,False,,20,4-3-3,71.0,7.75
+537424,4653712,Norway,1228558,Andreas Schjelderup,False,True,,21,4-3-3,19.0,6.57
+537424,4653712,Norway,1113790,Oscar Bobb,False,True,,22,4-3-3,19.0,6.1
+537424,4653712,Norway,310768,Fredrik Aursnes,False,True,,14,4-3-3,7.0,
+537424,4653712,Norway,631757,Egil Selvik,False,True,,13,4-3-3,,
 537424,4653712,Norway,1145714,Sander Tangvik,False,True,,12,4-3-3,,
-537424,4653712,Norway,1049679,David Møller Wolfe,False,True,,5,4-3-3,,
-537424,4653712,Norway,552718,Kristoffer Ajer,False,True,,3,4-3-3,,
+537424,4653712,Norway,630228,Fredrik André Bjørkan,False,True,,15,4-3-3,,
+537424,4653712,Norway,1110550,Henrik Falchener,False,True,,25,4-3-3,,
+537424,4653712,Norway,740944,Leo Østigard,False,True,,4,4-3-3,,
 537424,4653712,Norway,1127585,Sondre Klingen Langås,False,True,,24,4-3-3,,
-537424,4653712,Norway,935550,Torbjørn Heggem,False,True,,17,4-3-3,,
 537424,4653712,Norway,659272,Julian Ryerson,False,True,,26,4-3-3,,
-537424,4653712,Norway,935622,Marcus Holmgren Pedersen,False,True,,16,4-3-3,,
-537424,4653712,Norway,534670,Martin Ødegaard,False,True,,10,4-3-3,,
+537424,4653712,Norway,921921,Kristian Thorstvedt,False,True,,18,4-3-3,,
 537424,4653712,Norway,439148,Morten Thorsby,False,True,,2,4-3-3,,
-537424,4653712,Norway,540963,Sander Berge,False,True,,8,4-3-3,,
-537424,4653712,Norway,440330,Alexander Sørloth,False,True,,7,4-3-3,,
-537424,4653712,Norway,1248482,Antonio Nusa,False,True,,20,4-3-3,,
-537424,4653712,Norway,737066,Erling Haaland,False,True,,9,4-3-3,,
+537424,4653712,Norway,1184468,Thelo Aasgaard,False,True,,19,4-3-3,,
 537424,4653712,Norway,741397,Jens Petter Hauge,False,True,,23,4-3-3,,
-537416,4653704,France,466439,Mike Maignan,True,False,,16,4-2-3-1,,
-537416,4653704,France,705450,Jules Koundé,True,False,,5,4-2-3-1,,
-537416,4653704,France,658554,Dayot Upamecano,True,False,,4,4-2-3-1,,
-537416,4653704,France,950485,Maxence Lacroix,True,False,,26,4-2-3-1,,
-537416,4653704,France,724371,Theo Hernández,True,False,,19,4-2-3-1,,
-537416,4653704,France,914458,Aurélien Tchouaméni,True,False,,8,4-2-3-1,,
-537416,4653704,France,1016132,Kouadio Koné,True,False,,6,4-2-3-1,,
-537416,4653704,France,692984,Ousmane Dembélé,True,False,,7,4-2-3-1,,
-537416,4653704,France,1029063,Michael Olise,True,False,,11,4-2-3-1,,
-537416,4653704,France,1339208,Désiré Doué,True,False,,20,4-2-3-1,,
-537416,4653704,France,701154,Kylian Mbappé,True,False,,10,4-2-3-1,,
+537424,4653712,Norway,821100,Jørgen Strand Larsen,False,True,,11,4-3-3,,
+537416,4653704,France,466439,Mike Maignan,True,False,,16,4-2-3-1,90.0,8.16
+537416,4653704,France,705450,Jules Koundé,True,False,,5,4-2-3-1,75.0,7.48
+537416,4653704,France,658554,Dayot Upamecano,True,False,,4,4-2-3-1,90.0,7.07
+537416,4653704,France,955406,William Saliba,True,False,,17,4-2-3-1,90.0,7.51
+537416,4653704,France,210111,Lucas Digne,True,False,,3,4-2-3-1,78.0,7.43
+537416,4653704,France,914458,Aurélien Tchouaméni,True,False,,8,4-2-3-1,90.0,7.98
+537416,4653704,France,352879,Adrien Rabiot,True,False,,14,4-2-3-1,90.0,7.71
+537416,4653704,France,692984,Ousmane Dembélé,True,False,,7,4-2-3-1,75.0,8.19
+537416,4653704,France,1029063,Michael Olise,True,False,,11,4-2-3-1,85.0,9.18
+537416,4653704,France,1297165,Bradley Barcola,True,False,,12,4-2-3-1,90.0,8.09
+537416,4653704,France,701154,Kylian Mbappé,True,False,,10,4-2-3-1,85.0,9.44
+537416,4653704,France,1197250,Malo Gusto,False,True,,2,4-2-3-1,15.0,6.25
+537416,4653704,France,1339208,Désiré Doué,False,True,,20,4-2-3-1,15.0,6.42
+537416,4653704,France,724371,Theo Hernández,False,True,,19,4-2-3-1,12.0,6.52
+537416,4653704,France,1104053,Rayan Cherki,False,True,,24,4-2-3-1,5.0,
+537416,4653704,France,706297,Jean-Philippe Mateta,False,True,,22,4-2-3-1,5.0,
 537416,4653704,France,279714,Brice Samba,False,True,,1,4-2-3-1,,
 537416,4653704,France,1390336,Robin Risser,False,True,,23,4-2-3-1,,
 537416,4653704,France,820140,Ibrahima Konaté,False,True,,15,4-2-3-1,,
-537416,4653704,France,210111,Lucas Digne,False,True,,3,4-2-3-1,,
 537416,4653704,France,504606,Lucas Hernández,False,True,,21,4-2-3-1,,
-537416,4653704,France,1197250,Malo Gusto,False,True,,2,4-2-3-1,,
-537416,4653704,France,955406,William Saliba,False,True,,17,4-2-3-1,,
-537416,4653704,France,352879,Adrien Rabiot,False,True,,14,4-2-3-1,,
+537416,4653704,France,950485,Maxence Lacroix,False,True,,26,4-2-3-1,,
+537416,4653704,France,1016132,Kouadio Koné,False,True,,6,4-2-3-1,,
 537416,4653704,France,319300,N'Golo Kanté,False,True,,13,4-2-3-1,,
-537416,4653704,France,1104053,Rayan Cherki,False,True,,24,4-2-3-1,,
 537416,4653704,France,1367615,Warren Zaïre-Emery,False,True,,18,4-2-3-1,,
-537416,4653704,France,1297165,Bradley Barcola,False,True,,12,4-2-3-1,,
-537416,4653704,France,706297,Jean-Philippe Mateta,False,True,,22,4-2-3-1,,
 537416,4653704,France,1305618,Maghnes Akliouche,False,True,,25,4-2-3-1,,
 537416,4653704,France,621562,Marcus Thuram,False,True,,9,4-2-3-1,,
-537416,4653704,Sweden,1014602,Jacob Widell Zetterström,True,False,,1,3-4-3,,
-537416,4653704,Sweden,919848,Gustaf Lagerbielke,True,False,,2,3-4-3,,
-537416,4653704,Sweden,939780,Isak Hien,True,False,,4,3-4-3,,
-537416,4653704,Sweden,744494,Gabriel Gudmundsson,True,False,,5,3-4-3,,
-537416,4653704,Sweden,1014688,Alexander Bernhardsson,True,False,,21,3-4-3,,
-537416,4653704,Sweden,258269,Victor Nilsson Lindelöf,True,False,,3,3-4-3,,
-537416,4653704,Sweden,1168311,Yasin Ayari,True,False,,18,3-4-3,,
-537416,4653704,Sweden,1272349,Elliot Stroud,True,False,,24,3-4-3,,
-537416,4653704,Sweden,1050166,Anthony Elanga,True,False,,11,3-4-3,,
-537416,4653704,Sweden,664500,Viktor Gyökeres,True,False,,17,3-4-3,,
-537416,4653704,Sweden,690107,Alexander Isak,True,False,,9,3-4-3,,
-537416,4653704,Sweden,73462,Kristoffer Nordfeldt,False,True,,23,3-4-3,,
-537416,4653704,Sweden,546252,Viktor Johansson,False,True,,12,3-4-3,,
-537416,4653704,Sweden,497662,Carl Starfelt,False,True,,15,3-4-3,,
-537416,4653704,Sweden,531327,Eric Smith,False,True,,20,3-4-3,,
-537416,4653704,Sweden,831044,Hjalmar Ekdal,False,True,,14,3-4-3,,
-537416,4653704,Sweden,931605,Benjamin Nygren,False,True,,10,3-4-3,,
-537416,4653704,Sweden,1338361,Besfort Zeneli,False,True,,22,3-4-3,,
-537416,4653704,Sweden,1209228,Daniel Svensson,False,True,,8,3-4-3,,
-537416,4653704,Sweden,946703,Herman Johansson,False,True,,6,3-4-3,,
-537416,4653704,Sweden,322003,Jesper Karlström,False,True,,16,3-4-3,,
-537416,4653704,Sweden,520670,Ken Sema,False,True,,13,3-4-3,,
-537416,4653704,Sweden,1386775,Lucas Bergvall,False,True,,7,3-4-3,,
-537416,4653704,Sweden,647900,Mattias Svanberg,False,True,,19,3-4-3,,
-537416,4653704,Sweden,1135782,Taha Abdi Ali,False,True,,26,3-4-3,,
-537416,4653704,Sweden,118241,Gustaf Nilsson,False,True,,25,3-4-3,,
-537425,4653713,Mexico,1227878,Raúl Rangel,True,False,,1,4-1-4-1,,
-537425,4653713,Mexico,727586,Jorge Sánchez,True,False,,2,4-1-4-1,,
-537425,4653713,Mexico,664644,César Montes,True,False,,3,4-1-4-1,,
-537425,4653713,Mexico,1074586,Israel Reyes,True,False,,15,4-1-4-1,,
-537425,4653713,Mexico,1432212,Mateo Chávez,True,False,,20,4-1-4-1,,
-537425,4653713,Mexico,783505,Edson Álvarez,True,False,,4,4-1-4-1,,
-537425,4653713,Mexico,720737,Roberto Alvarado,True,False,,25,4-1-4-1,,
-537425,4653713,Mexico,1670377,Gilberto Mora,True,False,,19,4-1-4-1,,
-537425,4653713,Mexico,921174,Luis Romo,True,False,,7,4-1-4-1,,
-537425,4653713,Mexico,720560,Julián Quiñones,True,False,,16,4-1-4-1,,
-537425,4653713,Mexico,558539,Guillermo Martínez,True,False,,22,4-1-4-1,,
-537425,4653713,Mexico,751164,Carlos Acevedo,False,True,,12,4-1-4-1,,
-537425,4653713,Mexico,31047,Guillermo Ochoa,False,True,,13,4-1-4-1,,
-537425,4653713,Mexico,971628,Érik Lira,False,True,,6,4-1-4-1,,
-537425,4653713,Mexico,597976,Jesús Gallardo,False,True,,23,4-1-4-1,,
-537425,4653713,Mexico,914103,Johan Vásquez,False,True,,5,4-1-4-1,,
-537425,4653713,Mexico,895954,Álvaro Fidalgo,False,True,,8,4-1-4-1,,
-537425,4653713,Mexico,1170238,Brian Gutiérrez,False,True,,26,4-1-4-1,,
-537425,4653713,Mexico,527616,Luis Chávez,False,True,,24,4-1-4-1,,
-537425,4653713,Mexico,1254394,Obed Vargas,False,True,,18,4-1-4-1,,
-537425,4653713,Mexico,559986,Orbelín Pineda,False,True,,17,4-1-4-1,,
-537425,4653713,Mexico,728365,Alexis Vega,False,True,,10,4-1-4-1,,
-537425,4653713,Mexico,1456983,Armando González,False,True,,14,4-1-4-1,,
-537425,4653713,Mexico,977404,César Huerta,False,True,,21,4-1-4-1,,
-537425,4653713,Mexico,292313,Raul Jiménez,False,True,,9,4-1-4-1,,
-537425,4653713,Mexico,954092,Santiago Giménez,False,True,,11,4-1-4-1,,
+537416,4653704,Sweden,1014602,Jacob Widell Zetterström,True,False,,1,4-4-2,90.0,7.88
+537416,4653704,Sweden,1209228,Daniel Svensson,True,False,,8,4-4-2,82.0,5.34
+537416,4653704,Sweden,919848,Gustaf Lagerbielke,True,False,,2,4-4-2,90.0,5.98
+537416,4653704,Sweden,258269,Victor Nilsson Lindelöf,True,False,,3,4-4-2,90.0,5.62
+537416,4653704,Sweden,744494,Gabriel Gudmundsson,True,False,,5,4-4-2,90.0,5.78
+537416,4653704,Sweden,1050166,Anthony Elanga,True,False,,11,4-4-2,90.0,6.38
+537416,4653704,Sweden,1386775,Lucas Bergvall,True,False,,7,4-4-2,66.0,6.63
+537416,4653704,Sweden,1168311,Yasin Ayari,True,False,,18,4-4-2,82.0,6.38
+537416,4653704,Sweden,1272349,Elliot Stroud,True,False,,24,4-4-2,66.0,6.65
+537416,4653704,Sweden,664500,Viktor Gyökeres,True,False,,17,4-4-2,90.0,6.63
+537416,4653704,Sweden,690107,Alexander Isak,True,False,,9,4-4-2,89.0,6.16
+537416,4653704,Sweden,1338361,Besfort Zeneli,False,True,,22,4-4-2,24.0,6.18
+537416,4653704,Sweden,1135782,Taha Abdi Ali,False,True,,26,4-4-2,24.0,5.88
+537416,4653704,Sweden,931605,Benjamin Nygren,False,True,,10,4-4-2,8.0,
+537416,4653704,Sweden,647900,Mattias Svanberg,False,True,,19,4-4-2,8.0,
+537416,4653704,Sweden,118241,Gustaf Nilsson,False,True,,25,4-4-2,1.0,
+537416,4653704,Sweden,73462,Kristoffer Nordfeldt,False,True,,23,4-4-2,,
+537416,4653704,Sweden,546252,Viktor Johansson,False,True,,12,4-4-2,,
+537416,4653704,Sweden,497662,Carl Starfelt,False,True,,15,4-4-2,,
+537416,4653704,Sweden,531327,Eric Smith,False,True,,20,4-4-2,,
+537416,4653704,Sweden,831044,Hjalmar Ekdal,False,True,,14,4-4-2,,
+537416,4653704,Sweden,1014688,Alexander Bernhardsson,False,True,,21,4-4-2,,
+537416,4653704,Sweden,946703,Herman Johansson,False,True,,6,4-4-2,,
+537416,4653704,Sweden,322003,Jesper Karlström,False,True,,16,4-4-2,,
+537416,4653704,Sweden,520670,Ken Sema,False,True,,13,4-4-2,,
+537416,4653704,Sweden,939780,Isak Hien,True,False,,,4-4-2,,
+537425,4653713,Mexico,1227878,Raúl Rangel,True,False,,1,4-3-3,,
+537425,4653713,Mexico,727586,Jorge Sánchez,True,False,,2,4-3-3,,
+537425,4653713,Mexico,664644,César Montes,True,False,,3,4-3-3,,
+537425,4653713,Mexico,914103,Johan Vásquez,True,False,,5,4-3-3,,
+537425,4653713,Mexico,597976,Jesús Gallardo,True,False,,23,4-3-3,,
+537425,4653713,Mexico,1670377,Gilberto Mora,True,False,,19,4-3-3,,
+537425,4653713,Mexico,971628,Érik Lira,True,False,,6,4-3-3,,
+537425,4653713,Mexico,921174,Luis Romo,True,False,,7,4-3-3,,
+537425,4653713,Mexico,720737,Roberto Alvarado,True,False,,25,4-3-3,,
+537425,4653713,Mexico,292313,Raul Jiménez,True,False,,9,4-3-3,,
+537425,4653713,Mexico,720560,Julián Quiñones,True,False,,16,4-3-3,,
+537425,4653713,Mexico,751164,Carlos Acevedo,False,True,,12,4-3-3,,
+537425,4653713,Mexico,31047,Guillermo Ochoa,False,True,,13,4-3-3,,
+537425,4653713,Mexico,1074586,Israel Reyes,False,True,,15,4-3-3,,
+537425,4653713,Mexico,1432212,Mateo Chávez,False,True,,20,4-3-3,,
+537425,4653713,Mexico,895954,Álvaro Fidalgo,False,True,,8,4-3-3,,
+537425,4653713,Mexico,1170238,Brian Gutiérrez,False,True,,26,4-3-3,,
+537425,4653713,Mexico,783505,Edson Álvarez,False,True,,4,4-3-3,,
+537425,4653713,Mexico,527616,Luis Chávez,False,True,,24,4-3-3,,
+537425,4653713,Mexico,1254394,Obed Vargas,False,True,,18,4-3-3,,
+537425,4653713,Mexico,559986,Orbelín Pineda,False,True,,17,4-3-3,,
+537425,4653713,Mexico,728365,Alexis Vega,False,True,,10,4-3-3,,
+537425,4653713,Mexico,1456983,Armando González,False,True,,14,4-3-3,,
+537425,4653713,Mexico,977404,César Huerta,False,True,,21,4-3-3,,
+537425,4653713,Mexico,558539,Guillermo Martínez,False,True,,22,4-3-3,,
+537425,4653713,Mexico,954092,Santiago Giménez,False,True,,11,4-3-3,,
 537425,4653713,Ecuador,146801,Hernán Galindez,True,False,,1,4-4-2,,
 537425,4653713,Ecuador,832171,Alan Franco,True,False,,21,4-4-2,,
 537425,4653713,Ecuador,1354085,Joel Ordóñez,True,False,,4,4-4-2,,
@@ -3953,31 +4063,16 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537425,4653713,Ecuador,1443464,Kendry Páez,False,True,,10,4-4-2,,
 537425,4653713,Ecuador,1421270,Kevin Rodríguez,False,True,,11,4-4-2,,
 537426,4653714,England,303919,Jordan Pickford,True,False,,1,4-2-3-1,,
-537426,4653714,England,1107620,Jarell Quansah,True,False,,26,4-2-3-1,,
+537426,4653714,England,894803,Djed Spence,True,False,,25,4-2-3-1,,
 537426,4653714,England,710159,Ezri Konsa,True,False,,2,4-2-3-1,,
 537426,4653714,England,844425,Marc Guéhi,True,False,,6,4-2-3-1,,
 537426,4653714,England,1300526,Nico O'Reilly,True,False,,3,4-2-3-1,,
 537426,4653714,England,1089691,Elliot Anderson,True,False,,8,4-2-3-1,,
-537426,4653714,England,1077894,Jude Bellingham,True,False,,10,4-2-3-1,,
+537426,4653714,England,654096,Declan Rice,True,False,,4,4-2-3-1,,
 537426,4653714,England,961995,Bukayo Saka,True,False,,7,4-2-3-1,,
-537426,4653714,England,883080,Morgan Rogers,True,False,,17,4-2-3-1,,
+537426,4653714,England,1077894,Jude Bellingham,True,False,,10,4-2-3-1,,
 537426,4653714,England,696365,Marcus Rashford,True,False,,11,4-2-3-1,,
 537426,4653714,England,194165,Harry Kane,True,False,,9,4-2-3-1,,
-537426,4653714,England,719330,Dean Henderson,False,True,,13,4-2-3-1,,
-537426,4653714,England,1187213,James Trafford,False,True,,23,4-2-3-1,,
-537426,4653714,England,188058,Daniel Burn,False,True,,15,4-2-3-1,,
-537426,4653714,England,894803,Djed Spence,False,True,,25,4-2-3-1,,
-537426,4653714,England,263653,John Stones,False,True,,5,4-2-3-1,,
-537426,4653714,England,793907,Trevoh Chalobah,False,True,,12,4-2-3-1,,
-537426,4653714,England,654096,Declan Rice,False,True,,4,4-2-3-1,,
-537426,4653714,England,818975,Eberechi Eze,False,True,,21,4-2-3-1,,
-537426,4653714,England,156008,Jordan Henderson,False,True,,14,4-2-3-1,,
-537426,4653714,England,1292810,Kobbie Mainoo,False,True,,16,4-2-3-1,,
-537426,4653714,England,906937,Anthony Gordon,False,True,,18,4-2-3-1,,
-537426,4653714,England,408987,Ivan Toney,False,True,,22,4-2-3-1,,
-537426,4653714,England,1084981,Noni Madueke,False,True,,20,4-2-3-1,,
-537426,4653714,England,540088,Ollie Watkins,False,True,,19,4-2-3-1,,
-537426,4653714,England,807729,Reece James,True,False,,,4-2-3-1,,
 537426,4653714,Congo DR,912286,Lionel Mpasi-Nzau,True,False,,1,4-4-2,,
 537426,4653714,Congo DR,760320,Aaron Wan-Bissaka,True,False,,2,4-4-2,,
 537426,4653714,Congo DR,277761,Chancel Mbemba,True,False,,22,4-4-2,,
@@ -3989,21 +4084,6 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537426,4653714,Congo DR,1302121,Brian Cipenga,True,False,,9,4-4-2,,
 537426,4653714,Congo DR,666857,Yoane Wissa,True,False,,20,4-4-2,,
 537426,4653714,Congo DR,201939,Cédric Bakambu,True,False,,17,4-4-2,,
-537426,4653714,Congo DR,1257080,Matthieu Epolo,False,True,,21,4-4-2,,
-537426,4653714,Congo DR,976996,Timothy Fayulu,False,True,,16,4-4-2,,
-537426,4653714,Congo DR,751762,Dylan Batubinsika,False,True,,5,4-4-2,,
-537426,4653714,Congo DR,1022309,Gédéon Kalulu,False,True,,24,4-4-2,,
-537426,4653714,Congo DR,500932,Joris Kayembe Ditu,False,True,,12,4-4-2,,
-537426,4653714,Congo DR,1132814,Steve Kapuadi,False,True,,3,4-4-2,,
-537426,4653714,Congo DR,490122,Aaron Tshibola,False,True,,15,4-4-2,,
-537426,4653714,Congo DR,743720,Charles Pickel,False,True,,18,4-4-2,,
-537426,4653714,Congo DR,909803,Edo Kayembe,False,True,,25,4-4-2,,
-537426,4653714,Congo DR,1428153,Ngal Ayel Mukau,False,True,,6,4-4-2,,
-537426,4653714,Congo DR,1116042,Fiston Mayele,False,True,,19,4-4-2,,
-537426,4653714,Congo DR,163205,Gaël Kakuta,False,True,,11,4-4-2,,
-537426,4653714,Congo DR,694060,Meschack Elia,False,True,,13,4-4-2,,
-537426,4653714,Congo DR,696932,Simon Banza,False,True,,23,4-4-2,,
-537426,4653714,Congo DR,466132,Théo Bongonda,False,True,,10,4-4-2,,
 537422,4653710,Belgium,170323,Thibaut Courtois,True,False,,1,4-2-3-1,,
 537422,4653710,Belgium,465750,Timothy Castagne,True,False,,21,4-2-3-1,,
 537422,4653710,Belgium,445873,Brandon Mechele,True,False,,4,4-2-3-1,,
@@ -4015,19 +4095,6 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537422,4653710,Belgium,169200,Kevin De Bruyne,True,False,,7,4-2-3-1,,
 537422,4653710,Belgium,318615,Leandro Trossard,True,False,,10,4-2-3-1,,
 537422,4653710,Belgium,1095432,Charles De Ketelaere,True,False,,17,4-2-3-1,,
-537422,4653710,Belgium,1319972,Mike Penders,False,True,,13,4-2-3-1,,
-537422,4653710,Belgium,1178602,Senne Lammens,False,True,,12,4-2-3-1,,
-537422,4653710,Belgium,1489449,Joaquin Seys,False,True,,18,4-2-3-1,,
-537422,4653710,Belgium,1200630,Koni De Winter,False,True,,16,4-2-3-1,,
-537422,4653710,Belgium,277771,Thomas Meunier,False,True,,15,4-2-3-1,,
-537422,4653710,Belgium,921341,Alexis Saelemaekers,False,True,,22,4-2-3-1,,
-537422,4653710,Belgium,1185748,Amadou Onana,False,True,,24,4-2-3-1,,
-537422,4653710,Belgium,39591,Axel Witsel,False,True,,6,4-2-3-1,,
-537422,4653710,Belgium,1342754,Diego Moreira,False,True,,19,4-2-3-1,,
-537422,4653710,Belgium,863869,Nicolas Raskin,False,True,,23,4-2-3-1,,
-537422,4653710,Belgium,688876,Dodi Lukébakio,False,True,,14,4-2-3-1,,
-537422,4653710,Belgium,1444231,Matias Fernandez-Pardo,False,True,,26,4-2-3-1,,
-537422,4653710,Belgium,181276,Romelu Lukaku,False,True,,9,4-2-3-1,,
 537422,4653710,Senegal,466436,Mory Diaw,True,False,,23,4-3-3,,
 537422,4653710,Senegal,837061,Krépin Diatta,True,False,,15,4-3-3,,
 537422,4653710,Senegal,588626,Abdoulaye Seck,True,False,,4,4-3-3,,
@@ -4035,74 +4102,32 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537422,4653710,Senegal,906945,Ismail Jakobs,True,False,,14,4-3-3,,
 537422,4653710,Senegal,1285866,Habib Diarra,True,False,,21,4-3-3,,
 537422,4653710,Senegal,179410,Idrissa Gana Gueye,True,False,,5,4-3-3,,
-537422,4653710,Senegal,1436305,Lamine Camara,True,False,,8,4-3-3,,
-537422,4653710,Senegal,1593857,Ibrahim Mbaye,True,False,,20,4-3-3,,
+537422,4653710,Senegal,844544,Pape Gueye,True,False,,26,4-3-3,,
+537422,4653710,Senegal,965764,Iliman Ndiaye,True,False,,13,4-3-3,,
 537422,4653710,Senegal,771294,Ismaïla Sarr,True,False,,18,4-3-3,,
 537422,4653710,Senegal,303339,Sadio Mané,True,False,,10,4-3-3,,
-537422,4653710,Senegal,766574,Yehvann Diouf,False,True,,1,4-3-3,,
-537422,4653710,Senegal,1254147,Antoine Mendy,False,True,,24,4-3-3,,
-537422,4653710,Senegal,210428,Kalidou Koulibaly,False,True,,3,4-3-3,,
-537422,4653710,Senegal,1451265,Malick Diouf,False,True,,25,4-3-3,,
-537422,4653710,Senegal,1426170,Mamadou Sarr,False,True,,2,4-3-3,,
-537422,4653710,Senegal,1798782,Bara Ndiaye,False,True,,22,4-3-3,,
-537422,4653710,Senegal,844544,Pape Gueye,False,True,,26,4-3-3,,
-537422,4653710,Senegal,1107280,Pape Sarr,False,True,,17,4-3-3,,
-537422,4653710,Senegal,872396,Pathé Ciss,False,True,,6,4-3-3,,
-537422,4653710,Senegal,1434889,Assane Diao,False,True,,7,4-3-3,,
-537422,4653710,Senegal,1230848,Bamba Dieng,False,True,,9,4-3-3,,
-537422,4653710,Senegal,819972,Cherif Ndiaye,False,True,,12,4-3-3,,
-537422,4653710,Senegal,965764,Iliman Ndiaye,False,True,,13,4-3-3,,
-537422,4653710,Senegal,1197347,Nicolas Jackson,False,True,,11,4-3-3,,
-537421,4653709,United States,729988,Matt Turner,True,False,,1,4-3-3,,
-537421,4653709,United States,959696,Joseph Scally,True,False,,23,4-3-3,,
-537421,4653709,United States,825623,Miles Robinson,True,False,,12,4-3-3,,
-537421,4653709,United States,924485,Mark McKenzie,True,False,,22,4-3-3,,
-537421,4653709,United States,688271,Auston Trusty,True,False,,6,4-3-3,,
-537421,4653709,United States,848266,Weston McKennie,True,False,,8,4-3-3,,
-537421,4653709,United States,1136096,Sebastian Berhalter,True,False,,14,4-3-3,,
-537421,4653709,United States,1071179,Giovanni Reyna,True,False,,7,4-3-3,,
-537421,4653709,United States,952322,Brenden Aaronson,True,False,,11,4-3-3,,
-537421,4653709,United States,1036401,Ricardo Pepi,True,False,,9,4-3-3,,
-537421,4653709,United States,889536,Timothy Weah,True,False,,21,4-3-3,,
-537421,4653709,United States,1245998,Chris Brady,False,True,,25,4-3-3,,
-537421,4653709,United States,1026065,Matt Freese,False,True,,24,4-3-3,,
-537421,4653709,United States,1338696,Alex Freeman,False,True,,16,4-3-3,,
-537421,4653709,United States,662428,Antonee Robinson,False,True,,5,4-3-3,,
-537421,4653709,United States,950829,Chris Richards,False,True,,3,4-3-3,,
-537421,4653709,United States,892816,Sergiño Dest,False,True,,2,4-3-3,,
-537421,4653709,United States,198444,Tim Ream,False,True,,13,4-3-3,,
-537421,4653709,United States,1126058,Malik Tillman,False,True,,17,4-3-3,,
-537421,4653709,United States,1348329,Max Arfsten,False,True,,18,4-3-3,,
-537421,4653709,United States,729769,Tyler Adams,False,True,,4,4-3-3,,
-537421,4653709,United States,621882,Alex Zendejas,False,True,,26,4-3-3,,
-537421,4653709,United States,688295,Christian Pulisic,False,True,,10,4-3-3,,
-537421,4653709,United States,982677,Folarin Balogun,False,True,,20,4-3-3,,
-537421,4653709,United States,848268,Haji Wright,False,True,,19,4-3-3,,
+537421,4653709,United States,1026065,Matt Freese,True,False,,24,3-4-2-1,,
+537421,4653709,United States,1338696,Alex Freeman,True,False,,16,3-4-2-1,,
+537421,4653709,United States,950829,Chris Richards,True,False,,3,3-4-2-1,,
+537421,4653709,United States,198444,Tim Ream,True,False,,13,3-4-2-1,,
+537421,4653709,United States,892816,Sergiño Dest,True,False,,2,3-4-2-1,,
+537421,4653709,United States,729769,Tyler Adams,True,False,,4,3-4-2-1,,
+537421,4653709,United States,1126058,Malik Tillman,True,False,,17,3-4-2-1,,
+537421,4653709,United States,662428,Antonee Robinson,True,False,,5,3-4-2-1,,
+537421,4653709,United States,848266,Weston McKennie,True,False,,8,3-4-2-1,,
+537421,4653709,United States,688295,Christian Pulisic,True,False,,10,3-4-2-1,,
+537421,4653709,United States,982677,Folarin Balogun,True,False,,20,3-4-2-1,,
 537421,4653709,Bosnia-Herzegovina,466867,Nikola Vasilj,True,False,,1,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,1515122,Arjan Malic,True,False,,24,4-4-2,,
+537421,4653709,Bosnia-Herzegovina,958010,Amar Dedic,True,False,,7,4-4-2,,
 537421,4653709,Bosnia-Herzegovina,725655,Nikola Katic,True,False,,18,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,653982,Stjepan Radeljic,True,False,,21,4-4-2,,
+537421,4653709,Bosnia-Herzegovina,1250485,Tarik Muharemovic,True,False,,4,4-4-2,,
 537421,4653709,Bosnia-Herzegovina,304345,Sead Kolasinac,True,False,,5,4-4-2,,
 537421,4653709,Bosnia-Herzegovina,1346860,Esmir Bajraktarevic,True,False,,20,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,541551,Ivan Sunjic,True,False,,14,4-4-2,,
+537421,4653709,Bosnia-Herzegovina,1415104,Benjamin Tahirovic,True,False,,6,4-4-2,,
 537421,4653709,Bosnia-Herzegovina,1179875,Ivan Basic,True,False,,13,4-4-2,,
 537421,4653709,Bosnia-Herzegovina,1684401,Kerim Alajbegovic,True,False,,19,4-4-2,,
 537421,4653709,Bosnia-Herzegovina,840241,Ermedin Demirovic,True,False,,10,4-4-2,,
 537421,4653709,Bosnia-Herzegovina,15403,Edin Dzeko,True,False,,11,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,857661,Martin Zlomislic,False,True,,22,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,1726288,Mladen Jurkas,False,True,,12,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,958010,Amar Dedic,False,True,,7,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,797797,Dennis Hadzikadunic,False,True,,3,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,857436,Nihad Mujakic,False,True,,2,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,1300385,Amar Memic,False,True,,15,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,639558,Amir Hadziahmetovic,False,True,,16,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,1057426,Armin Gigovic,False,True,,8,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,1415104,Benjamin Tahirovic,False,True,,6,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,660148,Dzenis Burnic,False,True,,17,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,1528815,Ermin Mahmic,False,True,,26,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,388903,Haris Tabakovic,False,True,,23,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,1174844,Jovo Lukic,False,True,,25,4-4-2,,
-537421,4653709,Bosnia-Herzegovina,1284492,Samed Bazdar,False,True,,9,4-4-2,,
 537420,4653708,Spain,660625,Unai Simón,True,False,,23,4-3-3,,
 537420,4653708,Spain,602563,Marcos Llorente,True,False,,5,4-3-3,,
 537420,4653708,Spain,1532137,Pau Cubarsí,True,False,,22,4-3-3,,
@@ -4257,3 +4282,206 @@ fixture_id,fotmob_match_id,team_name,player_id,player_name,is_starting,is_substi
 537429,4653717,Algeria,1576876,Anis Hadj Moussa,False,True,,11,4-2-3-1,,
 537429,4653717,Algeria,1523327,Farès Ghedjemis,False,True,,25,4-2-3-1,,
 537429,4653717,Algeria,1210929,Nadir Benbouali,False,True,,12,4-2-3-1,,
+537428,4653716,Australia,1335765,Patrick Beach,True,False,,18,3-4-2-1,,
+537428,4653716,Australia,1318686,Alessandro Circati,True,False,,3,3-4-2-1,,
+537428,4653716,Australia,671518,Harry Souttar,True,False,,19,3-4-2-1,,
+537428,4653716,Australia,1686118,Lucas Herrington,True,False,,25,3-4-2-1,,
+537428,4653716,Australia,1316930,Jordan Bos,True,False,,5,3-4-2-1,,
+537428,4653716,Australia,369742,Jackson Irvine,True,False,,22,3-4-2-1,,
+537428,4653716,Australia,785377,Aiden O'Neill,True,False,,13,3-4-2-1,,
+537428,4653716,Australia,192735,Aziz Behich,True,False,,16,3-4-2-1,,
+537428,4653716,Australia,1308909,Cristian Volpato,True,False,,20,3-4-2-1,,
+537428,4653716,Australia,885870,Connor Metcalfe,True,False,,8,3-4-2-1,,
+537428,4653716,Australia,1327214,Nestory Irankunda,True,False,,17,3-4-2-1,,
+537428,4653716,Australia,185644,Mathew Ryan,False,True,,1,3-4-2-1,,
+537428,4653716,Australia,302176,Paul Izzo,False,True,,12,3-4-2-1,,
+537428,4653716,Australia,564842,Cameron Burgess,False,True,,21,3-4-2-1,,
+537428,4653716,Australia,418799,Jason Geria,False,True,,6,3-4-2-1,,
+537428,4653716,Australia,416124,Milos Degenek,False,True,,2,3-4-2-1,,
+537428,4653716,Australia,675762,Ajdin Hrustic,False,True,,10,3-4-2-1,,
+537428,4653716,Australia,970544,Cameron Devlin,False,True,,14,3-4-2-1,,
+537428,4653716,Australia,1101030,Kai Trewin,False,True,,15,3-4-2-1,,
+537428,4653716,Australia,1527363,Paul Okon-Engstler,False,True,,24,3-4-2-1,,
+537428,4653716,Australia,421328,Awer Mabil,False,True,,11,3-4-2-1,,
+537428,4653716,Australia,1132069,Mohamed Touré,False,True,,9,3-4-2-1,,
+537428,4653716,Australia,1250885,Nishan Velupillay,False,True,,23,3-4-2-1,,
+537428,4653716,Australia,1220549,Tete Yengi,False,True,,26,3-4-2-1,,
+537428,4653716,Egypt,1228546,Mostafa Ahmed Shobeir,True,False,,23,4-2-3-1,,
+537428,4653716,Egypt,660213,Mohamed Hany,True,False,,3,4-2-3-1,,
+537428,4653716,Egypt,505872,Rami Rabia,True,False,,5,4-2-3-1,,
+537428,4653716,Egypt,1179331,Mohamed Abdelmonem,True,False,,6,4-2-3-1,,
+537428,4653716,Egypt,849334,Ahmed Abou El Fotouh,True,False,,13,4-2-3-1,,
+537428,4653716,Egypt,906944,Mohanad Lasheen,True,False,,17,4-2-3-1,,
+537428,4653716,Egypt,1291391,Mahmoud Saber,True,False,,21,4-2-3-1,,
+537428,4653716,Egypt,979376,Emam Ashour,True,False,,8,4-2-3-1,,
+537428,4653716,Egypt,292462,Mohamed Salah,True,False,,10,4-2-3-1,,
+537428,4653716,Egypt,513492,Trezeguet,True,False,,7,4-2-3-1,,
+537428,4653716,Egypt,1426403,Mostafa Ziko,True,False,,11,4-2-3-1,,
+537428,4653716,Egypt,653688,Al Mahdi Soliman,False,True,,16,4-2-3-1,,
+537428,4653716,Egypt,1689371,Mohamed Alaa,False,True,,26,4-2-3-1,,
+537428,4653716,Egypt,546550,Mohamed El Shenawy,False,True,,1,4-2-3-1,,
+537428,4653716,Egypt,560416,Karim Hafez,False,True,,15,4-2-3-1,,
+537428,4653716,Egypt,1689101,Tarek Alaa,False,True,,24,4-2-3-1,,
+537428,4653716,Egypt,533403,Yasser Ibrahim,False,True,,2,4-2-3-1,,
+537428,4653716,Egypt,1418549,Marwan Ateya,False,True,,19,4-2-3-1,,
+537428,4653716,Egypt,1001335,Nabil Dunga,False,True,,18,4-2-3-1,,
+537428,4653716,Egypt,971787,Haissem Hassan,False,True,,12,4-2-3-1,,
+537428,4653716,Egypt,1708842,Hamza Abdelkarim,False,True,,9,4-2-3-1,,
+537428,4653716,Egypt,1272436,Ibrahim Adel,False,True,,20,4-2-3-1,,
+537428,4653716,Egypt,839204,Omar Marmoush,False,True,,22,4-2-3-1,,
+537428,4653716,Egypt,532766,Zizo,False,True,,25,4-2-3-1,,
+537428,4653716,Egypt,1384425,Hossam Abdelmaguid,True,False,,,4-2-3-1,,
+537427,4653715,Argentina,268375,Emiliano Martínez,True,False,,23,4-1-3-2,,
+537427,4653715,Argentina,693599,Exequiel Palacios,True,False,,14,4-1-3-2,,
+537427,4653715,Argentina,174321,Nicolás Otamendi,True,False,,19,4-1-3-2,,
+537427,4653715,Argentina,785411,Marcos Senesi,True,False,,2,4-1-3-2,,
+537427,4653715,Argentina,195750,Nicolás Tagliafico,True,False,,3,4-1-3-2,,
+537427,4653715,Argentina,237606,Leandro Paredes,True,False,,5,4-1-3-2,,
+537427,4653715,Argentina,1226147,Giuliano Simeone,True,False,,17,4-1-3-2,,
+537427,4653715,Argentina,1347574,Nico Paz,True,False,,18,4-1-3-2,,
+537427,4653715,Argentina,604126,Giovani Lo Celso,True,False,,11,4-1-3-2,,
+537427,4653715,Argentina,974753,Julián Álvarez,True,False,,9,4-1-3-2,,
+537427,4653715,Argentina,690230,Lautaro Martínez,True,False,,22,4-1-3-2,,
+537427,4653715,Argentina,245555,Gerónimo Rulli,False,True,,12,4-1-3-2,,
+537427,4653715,Argentina,389050,Juan Musso,False,True,,1,4-1-3-2,,
+537427,4653715,Argentina,789066,Cristian Romero,False,True,,13,4-1-3-2,,
+537427,4653715,Argentina,812652,Facundo Medina,False,True,,25,4-1-3-2,,
+537427,4653715,Argentina,687008,Gonzalo Montiel,False,True,,4,4-1-3-2,,
+537427,4653715,Argentina,847983,Lisandro Martínez,False,True,,6,4-1-3-2,,
+537427,4653715,Argentina,726345,Nahuel Molina,False,True,,26,4-1-3-2,,
+537427,4653715,Argentina,831489,Alexis Mac Allister,False,True,,20,4-1-3-2,,
+537427,4653715,Argentina,1137705,Enzo Fernández,False,True,,24,4-1-3-2,,
+537427,4653715,Argentina,841672,Nicolás González,False,True,,15,4-1-3-2,,
+537427,4653715,Argentina,324578,Rodrigo De Paul,False,True,,7,4-1-3-2,,
+537427,4653715,Argentina,955271,Thiago Almada,False,True,,16,4-1-3-2,,
+537427,4653715,Argentina,1272440,Valentín Barco,False,True,,8,4-1-3-2,,
+537427,4653715,Argentina,1216079,José López,False,True,,21,4-1-3-2,,
+537427,4653715,Argentina,30981,Lionel Messi,False,True,,10,4-1-3-2,,
+537427,4653715,Cape Verde,422149,Vozinha,True,False,,1,4-1-4-1,,
+537427,4653715,Cape Verde,1460591,Wagner Pina,True,False,,24,4-1-4-1,,
+537427,4653715,Cape Verde,230134,Roberto Lopes,True,False,,4,4-1-4-1,,
+537427,4653715,Cape Verde,496648,Diney Borges,True,False,,3,4-1-4-1,,
+537427,4653715,Cape Verde,1241301,João Paulo,True,False,,8,4-1-4-1,,
+537427,4653715,Cape Verde,890503,Kevin Pina,True,False,,6,4-1-4-1,,
+537427,4653715,Cape Verde,172615,Ryan Mendes,True,False,,20,4-1-4-1,,
+537427,4653715,Cape Verde,798069,Deroy Duarte,True,False,,14,4-1-4-1,,
+537427,4653715,Cape Verde,680905,Jamiro Monteiro,True,False,,10,4-1-4-1,,
+537427,4653715,Cape Verde,873832,Willy Semedo,True,False,,17,4-1-4-1,,
+537427,4653715,Cape Verde,1309634,Dailon Livramento,True,False,,19,4-1-4-1,,
+537427,4653715,Cape Verde,1054027,Carlos Dos Santos,False,True,,23,4-1-4-1,,
+537427,4653715,Cape Verde,865144,Márcio Rosa,False,True,,12,4-1-4-1,,
+537427,4653715,Cape Verde,1175733,Kelvin Pires,False,True,,25,4-1-4-1,,
+537427,4653715,Cape Verde,922877,Logan Costa,False,True,,5,4-1-4-1,,
+537427,4653715,Cape Verde,444000,Steven Moreira,False,True,,22,4-1-4-1,,
+537427,4653715,Cape Verde,164062,Stopira,False,True,,2,4-1-4-1,,
+537427,4653715,Cape Verde,665167,Laros Duarte,False,True,,15,4-1-4-1,,
+537427,4653715,Cape Verde,1205410,Yannick Semedo,False,True,,16,4-1-4-1,,
+537427,4653715,Cape Verde,302912,Garry Rodrigues,False,True,,11,4-1-4-1,,
+537427,4653715,Cape Verde,1241302,Gilson Benchimol,False,True,,9,4-1-4-1,,
+537427,4653715,Cape Verde,1524518,Hélio Varela,False,True,,26,4-1-4-1,,
+537427,4653715,Cape Verde,785716,Jovane Cabral,False,True,,7,4-1-4-1,,
+537427,4653715,Cape Verde,671326,Nuno da Costa,False,True,,21,4-1-4-1,,
+537430,4653718,Colombia,50207,Camilo Vargas,True,False,,12,4-3-3,,
+537430,4653718,Colombia,207642,Santiago Arias,True,False,,4,4-3-3,,
+537430,4653718,Colombia,643533,Davinson Sánchez,True,False,,23,4-3-3,,
+537430,4653718,Colombia,860913,Jhon Lucumí,True,False,,3,4-3-3,,
+537430,4653718,Colombia,578756,Deiver Machado,True,False,,22,4-3-3,,
+537430,4653718,Colombia,1023030,Jhon Arias,True,False,,11,4-3-3,,
+537430,4653718,Colombia,466672,Jefferson Lerma,True,False,,16,4-3-3,,
+537430,4653718,Colombia,1331597,Gustavo Puerta,True,False,,14,4-3-3,,
+537430,4653718,Colombia,164684,James Rodríguez,True,False,,10,4-3-3,,
+537430,4653718,Colombia,291425,Jhon Córdoba,True,False,,9,4-3-3,,
+537430,4653718,Colombia,860914,Luis Díaz,True,False,,7,4-3-3,,
+537430,4653718,Colombia,498457,Álvaro Montero,False,True,,24,4-3-3,,
+537430,4653718,Colombia,50065,David Ospina,False,True,,1,4-3-3,,
+537430,4653718,Colombia,474673,Johan Mojica,False,True,,17,4-3-3,,
+537430,4653718,Colombia,965205,Willer Ditta,False,True,,18,4-3-3,,
+537430,4653718,Colombia,496042,Yerry Mina,False,True,,13,4-3-3,,
+537430,4653718,Colombia,859282,Daniel Muñoz,False,True,,2,4-3-3,,
+537430,4653718,Colombia,1281230,Juan Portilla,False,True,,15,4-3-3,,
+537430,4653718,Colombia,207617,Juan Quintero,False,True,,20,4-3-3,,
+537430,4653718,Colombia,1434853,Kevin Castaño,False,True,,5,4-3-3,,
+537430,4653718,Colombia,1174630,Richard Ríos,False,True,,6,4-3-3,,
+537430,4653718,Colombia,1353421,Andrés Gómez,False,True,,26,4-3-3,,
+537430,4653718,Colombia,837870,Jaminton Campaz,False,True,,21,4-3-3,,
+537430,4653718,Colombia,784834,Jorge Carrascal,False,True,,8,4-3-3,,
+537430,4653718,Colombia,852071,Juan Hernández,False,True,,19,4-3-3,,
+537430,4653718,Colombia,792303,Luis Suárez,False,True,,25,4-3-3,,
+537430,4653718,Ghana,1806615,Benjamin Asare,True,False,,16,4-1-2-3,,
+537430,4653718,Ghana,1201760,Marvin Senaya,True,False,,26,4-1-2-3,,
+537430,4653718,Ghana,1432344,Jonas Adjetey,True,False,,4,4-1-2-3,,
+537430,4653718,Ghana,562801,Derrick Luckassen,True,False,,23,4-1-2-3,,
+537430,4653718,Ghana,771630,Gideon Mensah,True,False,,14,4-1-2-3,,
+537430,4653718,Ghana,434325,Thomas Partey,True,False,,5,4-1-2-3,,
+537430,4653718,Ghana,883823,Elisha Owusu,True,False,,15,4-1-2-3,,
+537430,4653718,Ghana,948745,Kwasi Sibo,True,False,,8,4-1-2-3,,
+537430,4653718,Ghana,933576,Antoine Semenyo,True,False,,11,4-1-2-3,,
+537430,4653718,Ghana,154280,Jordan Ayew,True,False,,9,4-1-2-3,,
+537430,4653718,Ghana,1130691,Kamaldeen Sulemana,True,False,,22,4-1-2-3,,
+537430,4653718,Ghana,963812,Joseph Anang,False,True,,12,4-1-2-3,,
+537430,4653718,Ghana,615411,Lawrence Ati-Zigi,False,True,,1,4-1-2-3,,
+537430,4653718,Ghana,776591,Abdul Mumin,False,True,,6,4-1-2-3,,
+537430,4653718,Ghana,324910,Abdul Rahman Baba,False,True,,17,4-1-2-3,,
+537430,4653718,Ghana,1177779,Alidu Seidu,False,True,,2,4-1-2-3,,
+537430,4653718,Ghana,873227,Jerome Opoku,False,True,,18,4-1-2-3,,
+537430,4653718,Ghana,1429607,Kojo Peprah Oppong,False,True,,21,4-1-2-3,,
+537430,4653718,Ghana,1615927,Caleb Yirenkyi,False,True,,3,4-1-2-3,,
+537430,4653718,Ghana,1452385,Christopher Bonsu Baah,False,True,,13,4-1-2-3,,
+537430,4653718,Ghana,1338390,Ernest Nuamah,False,True,,24,4-1-2-3,,
+537430,4653718,Ghana,1265626,Abdul Fatawu,False,True,,7,4-1-2-3,,
+537430,4653718,Ghana,1211610,Augustine Boakye,False,True,,20,4-1-2-3,,
+537430,4653718,Ghana,776184,Brandon Thomas-Asante,False,True,,10,4-1-2-3,,
+537430,4653718,Ghana,604105,Iñaki Williams,False,True,,19,4-1-2-3,,
+537430,4653718,Ghana,1220633,Prince Adu,False,True,,25,4-1-2-3,,
+537376,4653843,Canada,464919,Maxime Crépeau,True,False,,16,4-4-2,,
+537376,4653843,Canada,1055426,Alistair Johnston,True,False,,2,4-4-2,,
+537376,4653843,Canada,1440009,Moïse Bombito,True,False,,15,4-4-2,,
+537376,4653843,Canada,847629,Derek Cornelius,True,False,,13,4-4-2,,
+537376,4653843,Canada,729506,Richie Laryea,True,False,,22,4-4-2,,
+537376,4653843,Canada,1026135,Tajon Buchanan,True,False,,17,4-4-2,,
+537376,4653843,Canada,1216798,Nathan Saliba,True,False,,25,4-4-2,,
+537376,4653843,Canada,816223,Stephen Eustaquio,True,False,,7,4-4-2,,
+537376,4653843,Canada,932308,Liam Millar,True,False,,11,4-4-2,,
+537376,4653843,Canada,1338740,Tani Oluwaseyi,True,False,,12,4-4-2,,
+537376,4653843,Canada,939569,Jonathan David,True,False,,10,4-4-2,,
+537376,4653843,Canada,1026105,Dayne St. Clair,False,True,,1,4-4-2,,
+537376,4653843,Canada,1415372,Owen Goodman,False,True,,18,4-4-2,,
+537376,4653843,Canada,789598,Alfie Jones,False,True,,3,4-4-2,,
+537376,4653843,Canada,751202,Alphonso Davies,False,True,,19,4-4-2,,
+537376,4653843,Canada,1100258,Joel Waterman,False,True,,5,4-4-2,,
+537376,4653843,Canada,1399943,Luc De Fougerolles,False,True,,4,4-4-2,,
+537376,4653843,Canada,1494508,Niko Sigur,False,True,,23,4-4-2,,
+537376,4653843,Canada,432605,Jonathan Osorio,False,True,,21,4-4-2,,
+537376,4653843,Canada,943428,Mathieu Choinière,False,True,,6,4-4-2,,
+537376,4653843,Canada,1359536,Ali Ahmed,False,True,,20,4-4-2,,
+537376,4653843,Canada,544312,Cyle Larin,False,True,,9,4-4-2,,
+537376,4653843,Canada,1023943,Jacob Shaffelburg,False,True,,14,4-4-2,,
+537376,4653843,Canada,1082106,Jayden Nelson,False,True,,26,4-4-2,,
+537376,4653843,Canada,1252132,Promise David,False,True,,24,4-4-2,,
+537376,4653843,Canada,1288119,Ismaël Koné,True,False,,,4-4-2,,
+537376,4653843,Morocco,340020,Yassine Bounou,True,False,,1,4-2-3-1,,
+537376,4653843,Morocco,770881,Achraf Hakimi,True,False,,2,4-2-3-1,,
+537376,4653843,Morocco,696443,Issa Diop,True,False,,14,4-2-3-1,,
+537376,4653843,Morocco,1187506,Chadi Riad,True,False,,18,4-2-3-1,,
+537376,4653843,Morocco,775539,Noussair Mazraoui,True,False,,3,4-2-3-1,,
+537376,4653843,Morocco,1561552,Ayyoub Bouaddi,True,False,,6,4-2-3-1,,
+537376,4653843,Morocco,1274060,Neil El Aynaoui,True,False,,24,4-2-3-1,,
+537376,4653843,Morocco,750027,Brahim Díaz,True,False,,10,4-2-3-1,,
+537376,4653843,Morocco,1073143,Azzedine Ounahi,True,False,,8,4-2-3-1,,
+537376,4653843,Morocco,1340895,Bilal El Khannouss,True,False,,23,4-2-3-1,,
+537376,4653843,Morocco,1180288,Ismael Saibari,True,False,,11,4-2-3-1,,
+537376,4653843,Morocco,885288,Ahmed Tagnaouti,False,True,,22,4-2-3-1,,
+537376,4653843,Morocco,573787,Munir,False,True,,12,4-2-3-1,,
+537376,4653843,Morocco,1050838,Anass Salah-Eddine,False,True,,26,4-2-3-1,,
+537376,4653843,Morocco,614912,Marwane Saadane,False,True,,5,4-2-3-1,,
+537376,4653843,Morocco,1298186,Redouane Halhal,False,True,,25,4-2-3-1,,
+537376,4653843,Morocco,909908,Youssef Belammari,False,True,,19,4-2-3-1,,
+537376,4653843,Morocco,1287871,Zakaria El Ouahdi,False,True,,13,4-2-3-1,,
+537376,4653843,Morocco,1598170,Samir El Mourabet,False,True,,15,4-2-3-1,,
+537376,4653843,Morocco,593116,Sofyan Amrabat,False,True,,4,4-2-3-1,,
+537376,4653843,Morocco,1242587,Amine Sbaï,False,True,,17,4-2-3-1,,
+537376,4653843,Morocco,884382,Ayoub El Kaabi,False,True,,20,4-2-3-1,,
+537376,4653843,Morocco,1680173,Ayoube Amaimouni-Echghouyab,False,True,,21,4-2-3-1,,
+537376,4653843,Morocco,1368654,Chemsdine Talbi,False,True,,7,4-2-3-1,,
+537376,4653843,Morocco,1603755,Gessime Yassine,False,True,,16,4-2-3-1,,
+537376,4653843,Morocco,988749,Soufiane Rahimi,False,True,,9,4-2-3-1,,

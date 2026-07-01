@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537372,
-    "date": "2026-06-21 22:00:00+00:00",
+    "date": "2026-06-21T22:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_H",
     "home_team": "Uruguay",
     "away_team": "Cape Verde Islands"
   },
   "base_prediction": {
-    "home_win_probability": 0.8073434829711914,
-    "draw_probability": 0.1417742669582367,
-    "away_win_probability": 0.0508822724223136,
+    "home_win_probability": 0.9017167687416076,
+    "draw_probability": 0.0732077285647392,
+    "away_win_probability": 0.0250754952430725,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -160,11 +160,11 @@
     "feature_count": 5,
     "reliability": 0.2777777777777778,
     "enrichment_score": -0.0093896713615023,
-    "probability_shift": -0.0002197852157091,
+    "probability_shift": -0.0001951703785233,
     "top_signals": "shots on target:away; yellow cards:home; points per match:away",
-    "home_win_probability": 0.8071236797148622,
-    "draw_probability": 0.1417742637893349,
-    "away_win_probability": 0.0511020564958028,
+    "home_win_probability": 0.9015567965164532,
+    "draw_probability": 0.0731715512180747,
+    "away_win_probability": 0.025271652265472,
     "predicted_result": "Team A win",
     "strongest": [
       {

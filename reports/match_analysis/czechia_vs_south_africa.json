@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537329,
-    "date": "2026-06-18 16:00:00+00:00",
+    "date": "2026-06-18T16:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_A",
     "home_team": "Czechia",
     "away_team": "South Africa"
   },
   "base_prediction": {
-    "home_win_probability": 0.2772455513477325,
-    "draw_probability": 0.2319777160882949,
-    "away_win_probability": 0.490776777267456,
+    "home_win_probability": 0.2155675292015075,
+    "draw_probability": 0.2265684008598327,
+    "away_win_probability": 0.5578640699386597,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
@@ -159,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.2452782369146005,
-    "probability_shift": 0.0109012549739822,
+    "enrichment_score": 0.2284848484848486,
+    "probability_shift": 0.0101548821548821,
     "top_signals": "starting XI rating:home; goal difference:home; player rating:home",
-    "home_win_probability": 0.2881467934405493,
-    "draw_probability": 0.2319777057180834,
-    "away_win_probability": 0.4798755008413672,
+    "home_win_probability": 0.2261817812231702,
+    "draw_probability": 0.2249943827172571,
+    "away_win_probability": 0.5488238360595725,
     "predicted_result": "Team A loss",
     "strongest": [
       {
@@ -176,7 +176,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.7154545454545449,
+        "value": 0.6000000000000005,
         "leader": "Czechia"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.7154545454545449,
+        "value": 0.6000000000000005,
         "leader": "Czechia"
       },
       {

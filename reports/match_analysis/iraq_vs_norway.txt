@@ -1,13 +1,13 @@
 Iraq vs Norway
 
-Date: 2026-06-16 22:00:00+00:00
+Date: 2026-06-16T22:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_I
 
 Base Prediction:
-Iraq Win: 23.3%
-Draw: 27.8%
-Norway Win: 48.9%
+Iraq Win: 27.1%
+Draw: 22.9%
+Norway Win: 49.9%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 

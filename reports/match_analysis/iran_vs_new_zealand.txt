@@ -1,13 +1,13 @@
 Iran vs New Zealand
 
-Date: 2026-06-16 01:00:00+00:00
+Date: 2026-06-16T01:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_G
 
 Base Prediction:
-Iran Win: 66.1%
-Draw: 21.4%
-New Zealand Win: 12.5%
+Iran Win: 66.4%
+Draw: 20.2%
+New Zealand Win: 13.4%
 Predicted result: Team A win
 Decision policy: draw_threshold
 

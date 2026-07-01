@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537398,
-    "date": "2026-06-17 04:00:00+00:00",
+    "date": "2026-06-17T04:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_J",
     "home_team": "Austria",
     "away_team": "Jordan"
   },
   "base_prediction": {
-    "home_win_probability": 0.580946683883667,
-    "draw_probability": 0.2740890085697174,
-    "away_win_probability": 0.1449643522500991,
+    "home_win_probability": 0.6890420913696289,
+    "draw_probability": 0.1720008701086044,
+    "away_win_probability": 0.138956993818283,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.5809466579133276,
-    "draw_probability": 0.2740889963169844,
-    "away_win_probability": 0.1449643457696879,
+    "home_win_probability": 0.6890421221722121,
+    "draw_probability": 0.1720008777976428,
+    "away_win_probability": 0.138957000030145,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [

@@ -1,13 +1,13 @@
 Netherlands vs Japan
 
-Date: 2026-06-14 20:00:00+00:00
+Date: 2026-06-14T20:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_F
 
 Base Prediction:
-Netherlands Win: 37.9%
-Draw: 29.1%
-Japan Win: 33.0%
+Netherlands Win: 39.2%
+Draw: 26.6%
+Japan Win: 34.1%
 Predicted result: Team A win
 Decision policy: draw_threshold
 

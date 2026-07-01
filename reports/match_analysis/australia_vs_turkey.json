@@ -1,17 +1,17 @@
 {
   "fixture": {
     "fixture_id": 537346,
-    "date": "2026-06-14 04:00:00+00:00",
+    "date": "2026-06-14T04:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_D",
     "home_team": "Australia",
     "away_team": "Turkey"
   },
   "base_prediction": {
-    "home_win_probability": 0.3473697304725647,
-    "draw_probability": 0.2857446074485779,
-    "away_win_probability": 0.3668856918811798,
-    "predicted_result": "Team A loss",
+    "home_win_probability": 0.4544152319431305,
+    "draw_probability": 0.2658584117889404,
+    "away_win_probability": 0.2797263562679291,
+    "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
@@ -162,10 +162,10 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.3473697201201403,
-    "draw_probability": 0.2857445989327252,
-    "away_win_probability": 0.3668856809471345,
-    "predicted_result": "Team A loss",
+    "home_win_probability": 0.4544152319431305,
+    "draw_probability": 0.2658584117889404,
+    "away_win_probability": 0.2797263562679291,
+    "predicted_result": "Team A win",
     "strongest": [],
     "all": [
       {
@@ -300,7 +300,7 @@
     ]
   },
   "final_recommendation": {
-    "result_to_show": "Team A loss",
+    "result_to_show": "Team A win",
     "source": "base_model",
     "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
   }

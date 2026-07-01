@@ -1,13 +1,13 @@
 Germany vs Curaçao
 
-Date: 2026-06-14 17:00:00+00:00
+Date: 2026-06-14T17:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_E
 
 Base Prediction:
-Germany Win: 87.1%
-Draw: 10.1%
-Curaçao Win: 2.8%
+Germany Win: 91.1%
+Draw: 6.0%
+Curaçao Win: 2.9%
 Predicted result: Team A win
 Decision policy: draw_threshold
 

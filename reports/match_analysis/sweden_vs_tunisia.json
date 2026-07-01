@@ -1,17 +1,17 @@
 {
   "fixture": {
     "fixture_id": 537358,
-    "date": "2026-06-15 02:00:00+00:00",
+    "date": "2026-06-15T02:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_F",
     "home_team": "Sweden",
     "away_team": "Tunisia"
   },
   "base_prediction": {
-    "home_win_probability": 0.3198858499526977,
-    "draw_probability": 0.3694610297679901,
-    "away_win_probability": 0.3106531500816345,
-    "predicted_result": "Draw",
+    "home_win_probability": 0.5051547288894653,
+    "draw_probability": 0.2422081232070922,
+    "away_win_probability": 0.25263711810112,
+    "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
@@ -162,10 +162,10 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.3198858404193568,
-    "draw_probability": 0.3694610187571937,
-    "away_win_probability": 0.3106531408234494,
-    "predicted_result": "Draw",
+    "home_win_probability": 0.5051547439442499,
+    "draw_probability": 0.242208130425457,
+    "away_win_probability": 0.252637125630293,
+    "predicted_result": "Team A win",
     "strongest": [],
     "all": [
       {
@@ -300,7 +300,7 @@
     ]
   },
   "final_recommendation": {
-    "result_to_show": "Draw",
+    "result_to_show": "Team A win",
     "source": "base_model",
     "reason": "FotMob reliability is low or unavailable, so use the base historical model as the main prediction."
   }

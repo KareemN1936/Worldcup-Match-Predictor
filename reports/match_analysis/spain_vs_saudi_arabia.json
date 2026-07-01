@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537371,
-    "date": "2026-06-21 16:00:00+00:00",
+    "date": "2026-06-21T16:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_H",
     "home_team": "Spain",
     "away_team": "Saudi Arabia"
   },
   "base_prediction": {
-    "home_win_probability": 0.7891221642494202,
-    "draw_probability": 0.1749278903007507,
-    "away_win_probability": 0.0359499230980873,
+    "home_win_probability": 0.8485365509986877,
+    "draw_probability": 0.1224954426288604,
+    "away_win_probability": 0.0289679784327745,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -159,18 +159,18 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.103801652892562,
-    "probability_shift": 0.0039715796573102,
+    "enrichment_score": 0.0945454545454544,
+    "probability_shift": 0.0033677656038842,
     "top_signals": "starting XI rating:home; player rating:home; points per match:away",
-    "home_win_probability": 0.7930937616337574,
-    "draw_probability": 0.1749278942106938,
-    "away_win_probability": 0.0319783441555487,
+    "home_win_probability": 0.8524785299948203,
+    "draw_probability": 0.1219040017348457,
+    "away_win_probability": 0.0256174682703339,
     "predicted_result": "Team A win",
     "strongest": [
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.5636363636363644,
+        "value": 0.5,
         "leader": "Spain"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.5636363636363644,
+        "value": 0.5,
         "leader": "Spain"
       },
       {

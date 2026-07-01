@@ -1,13 +1,13 @@
 Spain vs Saudi Arabia
 
-Date: 2026-06-21 16:00:00+00:00
+Date: 2026-06-21T16:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_H
 
 Base Prediction:
-Spain Win: 78.9%
-Draw: 17.5%
-Saudi Arabia Win: 3.6%
+Spain Win: 84.9%
+Draw: 12.2%
+Saudi Arabia Win: 2.9%
 Predicted result: Team A win
 Decision policy: draw_threshold
 
@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.10
-Probability shift: 0.0040
+Enrichment score: 0.09
+Probability shift: 0.0034
 Top signals: starting XI rating:home; player rating:home; points per match:away
-Spain Win: 79.3%
-Draw: 17.5%
-Saudi Arabia Win: 3.2%
+Spain Win: 85.2%
+Draw: 12.2%
+Saudi Arabia Win: 2.6%
 FotMob-enriched result: Team A win
 
 Squad Context:

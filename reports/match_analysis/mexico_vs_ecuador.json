@@ -11,7 +11,7 @@
     "home_win_probability": 0.373915433883667,
     "draw_probability": 0.4215122163295746,
     "away_win_probability": 0.204572394490242,
-    "predicted_result": "Draw",
+    "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
   "historical_model_factors": {
@@ -165,7 +165,7 @@
     "home_win_probability": 0.4030807663389939,
     "draw_probability": 0.421512197486511,
     "away_win_probability": 0.1754070361744951,
-    "predicted_result": "Draw",
+    "predicted_result": "Team A win",
     "strongest": [
       {
         "feature": "fotmob_goal_difference_per_match_diff",
@@ -331,7 +331,7 @@
     ]
   },
   "final_recommendation": {
-    "result_to_show": "Draw",
+    "result_to_show": "Team A win",
     "source": "fotmob_enriched",
     "reason": "FotMob reliability is medium/high, so use the enriched prediction while still showing the base model."
   }

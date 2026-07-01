@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537335,
-    "date": "2026-06-18 19:00:00+00:00",
+    "date": "2026-06-18T19:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_B",
     "home_team": "Switzerland",
     "away_team": "Bosnia-Herzegovina"
   },
   "base_prediction": {
-    "home_win_probability": 0.7541086673736572,
-    "draw_probability": 0.1583837270736694,
-    "away_win_probability": 0.0875076726078987,
+    "home_win_probability": 0.7633963227272034,
+    "draw_probability": 0.1485277861356735,
+    "away_win_probability": 0.0880758836865425,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -159,18 +159,18 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.0375537190082642,
-    "probability_shift": 0.0014952911718839,
+    "enrichment_score": 0.0290909090909091,
+    "probability_shift": 0.0011463158655648,
     "top_signals": "starting XI rating:home; points per match:away; goal difference:away",
-    "home_win_probability": 0.7556039078783509,
-    "draw_probability": 0.1583837164532136,
-    "away_win_probability": 0.0860123756684355,
+    "home_win_probability": 0.764717965957773,
+    "draw_probability": 0.1483325312545153,
+    "away_win_probability": 0.0869495027877116,
     "predicted_result": "Team A win",
     "strongest": [
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.2581818181818169,
+        "value": 0.2000000000000001,
         "leader": "Switzerland"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.2581818181818169,
+        "value": 0.2000000000000001,
         "leader": "Switzerland"
       },
       {

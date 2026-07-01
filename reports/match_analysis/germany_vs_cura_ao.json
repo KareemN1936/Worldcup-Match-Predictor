@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537351,
-    "date": "2026-06-14 17:00:00+00:00",
+    "date": "2026-06-14T17:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_E",
     "home_team": "Germany",
     "away_team": "Cura\u00e7ao"
   },
   "base_prediction": {
-    "home_win_probability": 0.8714350461959839,
-    "draw_probability": 0.1010370030999183,
-    "away_win_probability": 0.0275280065834522,
+    "home_win_probability": 0.911023199558258,
+    "draw_probability": 0.0602065399289131,
+    "away_win_probability": 0.0287702064961195,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.8714349975007588,
-    "draw_probability": 0.1010369974540361,
-    "away_win_probability": 0.027528005045205,
+    "home_win_probability": 0.911023248768736,
+    "draw_probability": 0.0602065431810724,
+    "away_win_probability": 0.0287702080501914,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [

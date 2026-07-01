@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537404,
-    "date": "2026-06-18 02:00:00+00:00",
+    "date": "2026-06-18T02:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_K",
     "home_team": "Uzbekistan",
     "away_team": "Colombia"
   },
   "base_prediction": {
-    "home_win_probability": 0.2196569293737411,
-    "draw_probability": 0.2910289764404297,
-    "away_win_probability": 0.4893141388893127,
+    "home_win_probability": 0.2385900467634201,
+    "draw_probability": 0.2633236050605774,
+    "away_win_probability": 0.4980863034725189,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.2196569195543116,
-    "draw_probability": 0.2910289634304212,
-    "away_win_probability": 0.4893141170152671,
+    "home_win_probability": 0.2385900574292268,
+    "draw_probability": 0.2633236168320603,
+    "away_win_probability": 0.4980863257387128,
     "predicted_result": "Team A loss",
     "strongest": [],
     "all": [

@@ -1,13 +1,13 @@
 Spain vs Cape Verde Islands
 
-Date: 2026-06-15 16:00:00+00:00
+Date: 2026-06-15T16:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_H
 
 Base Prediction:
-Spain Win: 95.3%
-Draw: 2.7%
-Cape Verde Islands Win: 2.0%
+Spain Win: 94.6%
+Draw: 3.7%
+Cape Verde Islands Win: 1.7%
 Predicted result: Team A win
 Decision policy: draw_threshold
 

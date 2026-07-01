@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537391,
-    "date": "2026-06-16 19:00:00+00:00",
+    "date": "2026-06-16T19:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_I",
     "home_team": "France",
     "away_team": "Senegal"
   },
   "base_prediction": {
-    "home_win_probability": 0.6192678809165955,
-    "draw_probability": 0.2461965978145599,
-    "away_win_probability": 0.1345355212688446,
+    "home_win_probability": 0.6844421029090881,
+    "draw_probability": 0.1907001733779907,
+    "away_win_probability": 0.1248577460646629,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.6192678809165955,
-    "draw_probability": 0.2461965978145599,
-    "away_win_probability": 0.1345355212688446,
+    "home_win_probability": 0.6844420876106153,
+    "draw_probability": 0.1907001691155097,
+    "away_win_probability": 0.1248577432738748,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [

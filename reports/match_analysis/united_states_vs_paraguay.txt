@@ -1,14 +1,14 @@
 United States vs Paraguay
 
-Date: 2026-06-13 01:00:00+00:00
+Date: 2026-06-13T01:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_D
 
 Base Prediction:
-United States Win: 35.2%
-Draw: 27.9%
-Paraguay Win: 37.0%
-Predicted result: Team A loss
+United States Win: 47.2%
+Draw: 25.9%
+Paraguay Win: 26.9%
+Predicted result: Team A win
 Decision policy: draw_threshold
 
 Historical Model Factors:
@@ -28,6 +28,6 @@ Midfielders: United States 8 | Paraguay 8
 Defenders: United States 9 | Paraguay 8
 
 Final Recommendation:
-Use: Team A loss
+Use: Team A win
 Source: base_model
 Reason: FotMob reliability is low or unavailable, so use the base historical model as the main prediction.

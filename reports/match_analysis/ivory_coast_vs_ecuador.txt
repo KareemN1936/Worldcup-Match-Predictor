@@ -1,13 +1,13 @@
 Ivory Coast vs Ecuador
 
-Date: 2026-06-14 23:00:00+00:00
+Date: 2026-06-14T23:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_E
 
 Base Prediction:
-Ivory Coast Win: 21.6%
-Draw: 34.9%
-Ecuador Win: 43.5%
+Ivory Coast Win: 29.4%
+Draw: 27.3%
+Ecuador Win: 43.4%
 Predicted result: Team A loss
 Decision policy: draw_threshold
 

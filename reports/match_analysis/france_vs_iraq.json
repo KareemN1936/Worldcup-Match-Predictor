@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537393,
-    "date": "2026-06-22 21:00:00+00:00",
+    "date": "2026-06-22T21:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_I",
     "home_team": "France",
     "away_team": "Iraq"
   },
   "base_prediction": {
-    "home_win_probability": 0.7530164122581482,
-    "draw_probability": 0.1760559976100921,
-    "away_win_probability": 0.0709276124835014,
+    "home_win_probability": 0.8163561224937439,
+    "draw_probability": 0.1180204227566719,
+    "away_win_probability": 0.06562340259552,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -160,11 +160,11 @@
     "feature_count": 8,
     "reliability": 0.4444444444444444,
     "enrichment_score": 0.6709090909090909,
-    "probability_shift": 0.0267464197072115,
+    "probability_shift": 0.0248577447110956,
     "top_signals": "points per match:home; goal difference:home; starting XI rating:home",
-    "home_win_probability": 0.7797628145363027,
-    "draw_probability": 0.176055993674934,
-    "away_win_probability": 0.0441811917887632,
+    "home_win_probability": 0.8454169430055021,
+    "draw_probability": 0.1136137158889189,
+    "away_win_probability": 0.0409693411055788,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -182,7 +182,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 1.500909090909091,
+        "value": 1.4000000000000004,
         "leader": "France"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 1.500909090909091,
+        "value": 1.4000000000000004,
         "leader": "France"
       },
       {

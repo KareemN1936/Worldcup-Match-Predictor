@@ -8,7 +8,7 @@ Base Prediction:
 Mexico Win: 37.4%
 Draw: 42.2%
 Ecuador Win: 20.5%
-Predicted result: Draw
+Predicted result: Team A win
 Decision policy: draw_threshold
 
 Historical Model Factors:
@@ -27,7 +27,7 @@ Top signals: points per match:home; goal difference:home; player rating:away
 Mexico Win: 40.3%
 Draw: 42.2%
 Ecuador Win: 17.5%
-FotMob-enriched result: Draw
+FotMob-enriched result: Team A win
 
 Squad Context:
 Average age: Mexico 27.5 | Ecuador 25.6
@@ -36,6 +36,6 @@ Midfielders: Mexico 9 | Ecuador 8
 Defenders: Mexico 6 | Ecuador 8
 
 Final Recommendation:
-Use: Draw
+Use: Team A win
 Source: fotmob_enriched
 Reason: FotMob reliability is medium/high, so use the enriched prediction while still showing the base model.

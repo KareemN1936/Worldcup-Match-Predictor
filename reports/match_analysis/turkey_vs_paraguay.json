@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537347,
-    "date": "2026-06-20 03:00:00+00:00",
+    "date": "2026-06-20T03:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_D",
     "home_team": "Turkey",
     "away_team": "Paraguay"
   },
   "base_prediction": {
-    "home_win_probability": 0.395309180021286,
-    "draw_probability": 0.3286111652851105,
-    "away_win_probability": 0.2760796248912811,
+    "home_win_probability": 0.4766144156455993,
+    "draw_probability": 0.2440724968910217,
+    "away_win_probability": 0.2793130874633789,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -159,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.2094435261707989,
-    "probability_shift": 0.0093086011631466,
+    "enrichment_score": 0.1993939393939395,
+    "probability_shift": 0.0088619528619528,
     "top_signals": "starting XI rating:home; goal difference:home; player rating:home",
-    "home_win_probability": 0.4046177932429826,
-    "draw_probability": 0.3286111750784866,
-    "away_win_probability": 0.2667710316785308,
+    "home_win_probability": 0.4863383500141092,
+    "draw_probability": 0.2427303192480998,
+    "away_win_probability": 0.2709313307377909,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -176,7 +176,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.669090909090909,
+        "value": 0.6000000000000005,
         "leader": "Turkey"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 0.669090909090909,
+        "value": 0.6000000000000005,
         "leader": "Turkey"
       },
       {

@@ -1,13 +1,13 @@
 Mexico vs South Korea
 
-Date: 2026-06-19 01:00:00+00:00
+Date: 2026-06-19T01:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_A
 
 Base Prediction:
-Mexico Win: 44.8%
-Draw: 31.8%
-South Korea Win: 23.4%
+Mexico Win: 50.1%
+Draw: 26.2%
+South Korea Win: 23.7%
 Predicted result: Team A win
 Decision policy: draw_threshold
 
@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.01
-Probability shift: 0.0004
+Enrichment score: -0.03
+Probability shift: -0.0015
 Top signals: goal difference:home; player rating:away; starting XI rating:away
-Mexico Win: 44.9%
-Draw: 31.8%
-South Korea Win: 23.3%
+Mexico Win: 50.0%
+Draw: 26.2%
+South Korea Win: 23.8%
 FotMob-enriched result: Team A win
 
 Squad Context:

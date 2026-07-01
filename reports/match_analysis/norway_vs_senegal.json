@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537394,
-    "date": "2026-06-23 00:00:00+00:00",
+    "date": "2026-06-23T00:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_I",
     "home_team": "Norway",
     "away_team": "Senegal"
   },
   "base_prediction": {
-    "home_win_probability": 0.4489158093929291,
-    "draw_probability": 0.2615821361541748,
-    "away_win_probability": 0.2895020246505737,
+    "home_win_probability": 0.4627401530742645,
+    "draw_probability": 0.2381718009710312,
+    "away_win_probability": 0.2990880310535431,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -159,12 +159,12 @@
     "available": true,
     "feature_count": 8,
     "reliability": 0.4444444444444444,
-    "enrichment_score": 0.5836363636363636,
-    "probability_shift": 0.0259393939393939,
+    "enrichment_score": 0.5545454545454545,
+    "probability_shift": 0.0246464646464646,
     "top_signals": "points per match:home; goal difference:home; starting XI rating:home",
-    "home_win_probability": 0.4748552174841113,
-    "draw_probability": 0.2615821439499302,
-    "away_win_probability": 0.2635626385659585,
+    "home_win_probability": 0.4898009976136303,
+    "draw_probability": 0.2343979275816085,
+    "away_win_probability": 0.2758010748047612,
     "predicted_result": "Team A win",
     "strongest": [
       {
@@ -182,7 +182,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 1.1318181818181818,
+        "value": 0.7999999999999998,
         "leader": "Norway"
       },
       {
@@ -220,7 +220,7 @@
       {
         "feature": "fotmob_starting_xi_avg_rating_diff",
         "label": "starting XI rating",
-        "value": 1.1318181818181818,
+        "value": 0.7999999999999998,
         "leader": "Norway"
       },
       {

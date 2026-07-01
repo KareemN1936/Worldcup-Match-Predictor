@@ -1,13 +1,13 @@
 Brazil vs Morocco
 
-Date: 2026-06-13 22:00:00+00:00
+Date: 2026-06-13T22:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_C
 
 Base Prediction:
-Brazil Win: 34.6%
-Draw: 31.9%
-Morocco Win: 33.5%
+Brazil Win: 39.1%
+Draw: 24.4%
+Morocco Win: 36.5%
 Predicted result: Team A win
 Decision policy: draw_threshold
 

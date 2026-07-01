@@ -1,13 +1,13 @@
 Canada vs Bosnia-Herzegovina
 
-Date: 2026-06-12 19:00:00+00:00
+Date: 2026-06-12T19:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_B
 
 Base Prediction:
-Canada Win: 68.4%
-Draw: 23.0%
-Bosnia-Herzegovina Win: 8.6%
+Canada Win: 70.0%
+Draw: 20.6%
+Bosnia-Herzegovina Win: 9.3%
 Predicted result: Team A win
 Decision policy: draw_threshold
 

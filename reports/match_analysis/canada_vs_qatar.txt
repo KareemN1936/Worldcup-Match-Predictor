@@ -1,13 +1,13 @@
 Canada vs Qatar
 
-Date: 2026-06-18 22:00:00+00:00
+Date: 2026-06-18T22:00:00Z
 Round: GROUP_STAGE
 Group: GROUP_B
 
 Base Prediction:
-Canada Win: 57.3%
-Draw: 30.2%
-Qatar Win: 12.5%
+Canada Win: 68.5%
+Draw: 20.6%
+Qatar Win: 10.9%
 Predicted result: Team A win
 Decision policy: draw_threshold
 
@@ -21,12 +21,12 @@ Historical Model Factors:
 FotMob Layer:
 Features available: 8
 Reliability: 0.44
-Enrichment score: 0.02
-Probability shift: 0.0010
+Enrichment score: 0.03
+Probability shift: 0.0012
 Top signals: starting XI rating:home; points per match:away; goal difference:away
-Canada Win: 57.4%
-Draw: 30.2%
-Qatar Win: 12.4%
+Canada Win: 68.7%
+Draw: 20.6%
+Qatar Win: 10.7%
 FotMob-enriched result: Team A win
 
 Squad Context:

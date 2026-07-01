@@ -735,6 +735,13 @@ section[data-testid="stSidebar"] .stRadio label > div:last-child {
   line-height: 1;
 }
 
+.match-center__pens {
+  margin-top: 0.2rem;
+  color: var(--color-muted);
+  font-size: var(--text-xs);
+  font-weight: 850;
+}
+
 .match-center__vs {
   display: inline-flex;
   align-items: center;
@@ -948,6 +955,13 @@ section[data-testid="stSidebar"] .stRadio label > div:last-child {
   font-size: clamp(2.6rem, 7vw, 4.5rem);
   font-weight: 950;
   line-height: 0.95;
+}
+
+.detail-score__pens {
+  margin-top: 0.25rem;
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  font-weight: 850;
 }
 
 .detail-score__label {

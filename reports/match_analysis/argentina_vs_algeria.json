@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537397,
-    "date": "2026-06-17 01:00:00+00:00",
+    "date": "2026-06-17T01:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_J",
     "home_team": "Argentina",
     "away_team": "Algeria"
   },
   "base_prediction": {
-    "home_win_probability": 0.6478489637374878,
-    "draw_probability": 0.2292368561029434,
-    "away_win_probability": 0.1229141801595687,
+    "home_win_probability": 0.7303176522254944,
+    "draw_probability": 0.1760252267122268,
+    "away_win_probability": 0.0936571359634399,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.6478489637374878,
-    "draw_probability": 0.2292368561029434,
-    "away_win_probability": 0.1229141801595687,
+    "home_win_probability": 0.7303176413429134,
+    "draw_probability": 0.1760252240892466,
+    "away_win_probability": 0.0936571345678398,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [

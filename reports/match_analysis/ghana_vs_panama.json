@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537410,
-    "date": "2026-06-17 23:00:00+00:00",
+    "date": "2026-06-17T23:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_L",
     "home_team": "Ghana",
     "away_team": "Panama"
   },
   "base_prediction": {
-    "home_win_probability": 0.1941496729850769,
-    "draw_probability": 0.2455847859382629,
-    "away_win_probability": 0.5602655410766602,
+    "home_win_probability": 0.2372102588415146,
+    "draw_probability": 0.2463575154542923,
+    "away_win_probability": 0.5164322257041931,
     "predicted_result": "Team A loss",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.1941496729850769,
-    "draw_probability": 0.2455847859382629,
-    "away_win_probability": 0.5602655410766602,
+    "home_win_probability": 0.2372102588415146,
+    "draw_probability": 0.2463575154542923,
+    "away_win_probability": 0.5164322257041931,
     "predicted_result": "Team A loss",
     "strongest": [],
     "all": [

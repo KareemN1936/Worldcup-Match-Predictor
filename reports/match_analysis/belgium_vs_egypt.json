@@ -1,16 +1,16 @@
 {
   "fixture": {
     "fixture_id": 537363,
-    "date": "2026-06-15 19:00:00+00:00",
+    "date": "2026-06-15T19:00:00Z",
     "round": "GROUP_STAGE",
     "group": "GROUP_G",
     "home_team": "Belgium",
     "away_team": "Egypt"
   },
   "base_prediction": {
-    "home_win_probability": 0.5601858496665955,
-    "draw_probability": 0.2809785008430481,
-    "away_win_probability": 0.1588356345891952,
+    "home_win_probability": 0.6041672825813293,
+    "draw_probability": 0.2128720432519912,
+    "away_win_probability": 0.1829607188701629,
     "predicted_result": "Team A win",
     "prediction_policy": "draw_threshold"
   },
@@ -162,9 +162,9 @@
     "enrichment_score": 0.0,
     "probability_shift": 0.0,
     "top_signals": null,
-    "home_win_probability": 0.5601858580140152,
-    "draw_probability": 0.2809785050299541,
-    "away_win_probability": 0.1588356369560306,
+    "home_win_probability": 0.6041672555729484,
+    "draw_probability": 0.2128720337358698,
+    "away_win_probability": 0.1829607106911818,
     "predicted_result": "Team A win",
     "strongest": [],
     "all": [
