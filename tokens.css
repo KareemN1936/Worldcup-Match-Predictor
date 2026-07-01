@@ -128,6 +128,37 @@ header[data-testid="stHeader"] {
   display: none !important;
 }
 
+@media (min-width: 921px) {
+  [data-testid="stSidebarCollapsedControl"] {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  section[data-testid="stSidebar"] {
+    display: block !important;
+    position: relative !important;
+    width: var(--sidebar-width) !important;
+    min-width: var(--sidebar-width) !important;
+    max-width: var(--sidebar-width) !important;
+    flex: 0 0 var(--sidebar-width) !important;
+    transform: none !important;
+    visibility: visible !important;
+  }
+
+  section[data-testid="stSidebar"][aria-expanded="false"] {
+    width: var(--sidebar-width) !important;
+    min-width: var(--sidebar-width) !important;
+    max-width: var(--sidebar-width) !important;
+    overflow: visible !important;
+  }
+
+  section[data-testid="stSidebar"] > div:first-child {
+    width: var(--sidebar-width) !important;
+    min-width: var(--sidebar-width) !important;
+    max-width: var(--sidebar-width) !important;
+  }
+}
+
 h1,
 h2,
 h3,

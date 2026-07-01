@@ -43,9 +43,7 @@ st.set_page_config(
     page_title="World Cup Match Predictor",
     page_icon=str(ROOT_DIR / "assets" / "world-cup-26.svg"),
     layout="wide",
-    # Streamlit keeps this open on desktop and collapses it behind its native
-    # menu trigger on narrow screens.
-    initial_sidebar_state="auto",
+    initial_sidebar_state="expanded",
 )
 
 NAV_ITEMS = ["Overview", "Matchweeks", "Match Detail", "Model Performance", "Data Explorer"]
