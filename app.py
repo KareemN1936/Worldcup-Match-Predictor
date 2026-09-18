@@ -1,3 +1,4 @@
+import os
 import re
 import subprocess
 import sys
@@ -47,6 +48,7 @@ st.set_page_config(
 )
 
 NAV_ITEMS = ["Overview", "Matchweeks", "Match Detail", "Model Performance", "Data Explorer"]
+DATA_REFRESH_ENABLED = os.getenv("ENABLE_DATA_REFRESH", "false").strip().lower() == "true"
 
 
 def navigate_to(destination: str) -> None:
@@ -136,7 +138,7 @@ with st.sidebar.container(key="sidebar_footer"):
         last_updated = last_updated[:19]
     st.caption(f"Last update: {last_updated}")
 
-    if st.button("Refresh Data", type="primary", use_container_width=True):
+    if DATA_REFRESH_ENABLED and st.button("Refresh Data", type="primary", use_container_width=True):
         with st.spinner("Updating fixtures, predictions, and analysis…"):
             proc = subprocess.run(
                 [sys.executable, "src/auto_update.py", "--once"],

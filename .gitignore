@@ -12,7 +12,7 @@ data/raw/fotmob/
 reports/update_logs/
 reports/update.lock
 PROJECT_CONTEXT.md
-streamlit-*.log
+streamlit*.log
 .hallmark/
 .DS_Store
 Thumbs.db

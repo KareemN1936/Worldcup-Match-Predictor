@@ -115,7 +115,10 @@ FOOTBALL_DATA_API_KEY=your_football_data_org_api_key_here
 FOOTBALL_DATA_BASE_URL=https://api.football-data.org/v4
 FOOTBALL_DATA_WORLD_CUP_CODE=WC
 FOOTBALL_DATA_SEASON=2026
+ENABLE_DATA_REFRESH=false
 ```
+
+`ENABLE_DATA_REFRESH` keeps the resource-intensive refresh command out of the public dashboard by default. Only enable it for a trusted local or private deployment; use a scheduled job for public production refreshes.
 
 ## Project Structure
 

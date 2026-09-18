@@ -52,6 +52,15 @@ def format_match_date(value) -> str:
     return date.strftime("%b %d, %Y | %H:%M")
 
 
+def _display_label(value, fallback: str = "") -> str:
+    if value is None or pd.isna(value):
+        return fallback
+    label = str(value).strip()
+    if not label or label.lower() in {"nan", "none", "null"}:
+        return fallback
+    return label.replace("_", " ").title()
+
+
 def _html(markup: str) -> str:
     """Flatten generated markup so Markdown never treats indentation as code."""
     return "".join(line.strip() for line in dedent(markup).splitlines())
@@ -331,8 +340,9 @@ def _match_card_html(
     home_flag = flag_for_team(home, flag_lookup)
     away_flag = flag_for_team(away, flag_lookup)
     date_str = format_match_date(row.get("date"))
-    group = str(row.get("group", "Group unavailable")).replace("_", " ").title()
-    round_name = str(row.get("round", "Round unavailable")).replace("_", " ").title()
+    group = _display_label(row.get("group"))
+    round_name = _display_label(row.get("round"), "Round unavailable")
+    stage_label = " | ".join(label for label in [group, round_name] if label)
 
     if pd.notna(row.get("home_score")) and pd.notna(row.get("away_score")):
         if _was_decided_by_penalties(row) and _has_penalties(row):
@@ -373,7 +383,7 @@ def _match_card_html(
     return _html(f"""
     <article class="match-card">
         <div class="match-card__meta">
-            <span>{escape(group)} | {escape(round_name)}</span>
+            <span>{escape(stage_label)}</span>
             <span>{escape(status_label(row))}</span>
         </div>
         <div class="match-card__teams">
